@@ -1,95 +1,72 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-02-12
+ * 최신 업데이트: 2026-02-19
  */
 
-// [뉴스 데이터베이스 - 2026년 2월 14일 업데이트]
+// [뉴스 데이터베이스 - 2026년 2월 19일 업데이트]
 const aiNewsData = [
     {
-        rank: 1,
-        isTopPick: true,
-        thumbUrl: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1200",
-        koTitle: "정부, 2026년 AI 공공 도입에 2.4조 원 파격 투자",
-        enTitle: "TechInAsia - Korea to Invest $1.67 Billion in Public Sector AI Integration for 2026.",
-        date: "2026-02-14",
-        viralRate: "98%",
-        hookTitles: [
-            { top: "정부가 2.4조 쏩니다", bottom: "대한민국 AI 대전환 시작" },
-            { top: "공공기관도 이제 AI 시대", bottom: "역대급 예산 투입의 내막" }
+        "rank": 1,
+        "isTopPick": true,
+        "thumbUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1200",
+        "koTitle": "앤스로픽, '클로드 4.6 오퍼스' 출시… 100만 토큰 컨텍스트 지원",
+        "enTitle": "Anthropic Debuts Claude Opus 4.6 with One-Million Token Context Window.",
+        "date": "2026-02-19",
+        "viralRate": "99%",
+        "hookTitles": [
+            {
+                "top": "앤스로픽의 역습",
+                "bottom": "클로드 4.6 오퍼스 전격 공개"
+            },
+            {
+                "top": "100만 토큰의 위엄",
+                "bottom": "책 수백 권을 한 번에 읽는 AI"
+            }
         ],
-        analysis: "한국 정부가 작년 대비 5배나 많은 2.4조 원을 AI 공공 서비스에 투자하기로 했습니다. GPU 확보부터 데이터 구축까지, 국가적 차원의 AI 생태계가 본격 가동됩니다."
+        "analysis": "앤스로픽이 코드 작성을 넘어 문서 분석, 검색 성능을 극대화한 클로드 4.6을 공개했습니다. 100만 토큰 창을 통해 방대한 데이터를 한 번에 처리하며 기업용 AI 시장의 판도를 흔들고 있습니다."
     },
     {
-        rank: 2,
-        thumbUrl: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
-        koTitle: "삼성, AI 칩 시장 승부수… HBM4 양산 출하 개시",
-        enTitle: "Reuters - Samsung Begins Shipping HBM4 Chips to Secure Lead in AI Market.",
-        date: "2026-02-14",
-        viralRate: "95%",
-        hookTitles: [
-            { top: "삼성의 대반격", bottom: "차세대 HBM4 칩 출하 시작" },
-            { top: "엔비디아 잡아라", bottom: "메모리 반도체 1위의 위엄" }
+        "rank": 2,
+        "thumbUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
+        "koTitle": "가트너 전망 \"2026년 기업 앱 40%가 'AI 에이전트' 품는다\"",
+        "enTitle": "Gartner - 40% of Enterprise Applications to Feature AI Agents by 2026.",
+        "date": "2026-02-19",
+        "viralRate": "96%",
+        "hookTitles": [
+            {
+                "top": "이제는 '에이전틱 AI' 시대",
+                "bottom": "스스로 일하는 AI가 몰려온다"
+            },
+            {
+                "top": "직장 동료가 AI?",
+                "bottom": "기업 앱 40%에 에이전트 탑재"
+            }
         ],
-        analysis: "삼성전자가 HBM4 양산을 시작하며 AI 반도체 주도권 탈환에 나섰습니다. SK하이닉스와의 치열한 경쟁 속에서 글로벌 빅테크들의 수주 여부가 관전 포인트입니다."
-    },
-    {
-        rank: 3,
-        thumbUrl: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=800",
-        koTitle: "글로벌 트렌드: 'Physical AI' 열풍, 소프트웨어를 넘어 로봇으로",
-        enTitle: "Gartner - Physical AI: Moving from Digital Screens to Autonomous Reality.",
-        date: "2026-02-14",
-        viralRate: "92%",
-        hookTitles: [
-            { top: "화면 밖으로 나온 AI", bottom: "이제는 '피지컬 AI' 시대" },
-            { top: "로봇이 동료가 된다고?", bottom: "현실 세계를 배우는 AI의 등장" }
-        ],
-        analysis: "데이터 속에만 있던 AI가 로봇과 IoT를 통해 현실 세계(Physical World)로 나오고 있습니다. 인간과 함께 작업하는 자율 협동 로봇이 산업 현장의 핵심이 될 전망입니다."
+        "analysis": "단순 챗봇을 넘어 스스로 판단하고 실행하는 '에이전틱 AI'가 대세입니다. 가트너는 내년까지 기업용 소프트웨어의 상당수가 자율 에이전트 기능을 탑재할 것으로 내다봤습니다."
     }
 ];
 
 const generalTrendingData = [
     {
-        category: "Education",
-        rank: 1,
-        thumbUrl: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&q=80&w=800",
-        koTitle: "수능 영어 지문도 AI가? 교육부, 난이도 조절에 AI 검토",
-        enTitle: "Korea JoongAng Daily - Ministry Considering AI for Drafting National Exam Passages.",
-        date: "2026-02-14",
-        viralRate: "96%",
-        hookTitles: [
-            { top: "수능 문제도 AI가 낸다?", bottom: "교육부의 파격적인 난이도 조절" },
-            { top: "킬러 문항 제로 작전", bottom: "AI가 분석한 최적의 수능 지문" }
+        "category": "Physical AI",
+        "rank": 1,
+        "thumbUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=800",
+        "koTitle": "화면 밖으로 나온 AI… '피지컬 AI'와 로봇의 결합 가속화",
+        "enTitle": "Physical AI: Moving from Screens to Autonomous Robotics.",
+        "date": "2026-02-19",
+        "viralRate": "94%",
+        "hookTitles": [
+            {
+                "top": "눈앞에서 움직이는 AI",
+                "bottom": "피지컬 AI가 세상을 바꾼다"
+            },
+            {
+                "top": "화면 밖은 위험하지 않아",
+                "bottom": "로봇과 AI의 완벽한 조화"
+            }
         ],
-        analysis: "수능 영어의 난이도 균형을 맞추기 위해 AI를 활용하는 방안이 논의 중입니다. 교육계의 반발과 기대가 교차하는 가운데, 공정한 평가 모델이 될 수 있을지 주목됩니다."
-    },
-    {
-        category: "Security",
-        rank: 2,
-        thumbUrl: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
-        koTitle: "카카오·네이버, 보안 우려로 오픈소스 AI 에이전트 '제한'",
-        enTitle: "Times of India - Big Tech Restricting Open-Source AI Agents Over Privacy Risks.",
-        date: "2026-02-14",
-        viralRate: "89%",
-        hookTitles: [
-            { top: "내 정보가 샌다고?", bottom: "오픈소스 AI 에이전트의 명과 암" },
-            { top: "네이버·카카오의 경고", bottom: "보안이 보장되지 않는 AI는 금지" }
-        ],
-        analysis: "편리한 오픈소스 AI 에이전트가 데이터 유출 통로가 될 수 있다는 경고입니다. 국내 대표 플랫폼사들이 내부 보안을 강화하며 AI 도입의 신중론을 펼치고 있습니다."
-    },
-    {
-        category: "Workplace",
-        rank: 3,
-        thumbUrl: "https://images.unsplash.com/photo-1522071823991-b9671f9cfd0b?auto=format&fit=crop&q=80&w=800",
-        koTitle: "2026 직장인 필살기: 'AI 코사이언티스트' 협업 역량",
-        enTitle: "Forbes - The Rise of Co-Scientist Frameworks in Corporate R&D.",
-        date: "2026-02-14",
-        viralRate: "91%",
-        hookTitles: [
-            { top: "AI가 연구 동료라고?", bottom: "코사이언티스트와 일하는 법" },
-            { top: "지루한 분석은 AI에게", bottom: "창의적인 결정에만 집중하세요" }
-        ],
-        analysis: "AI가 단순 보조를 넘어 과학적 발견과 복잡한 분석을 주도하는 '코사이언티스트' 모델이 확산됩니다. 이를 잘 다루는 인재가 기업 R&D의 핵심으로 부상하고 있습니다."
+        "analysis": "2026년 AI 트렌드는 '피지컬'입니다. 소프트웨어에 갇혀있던 AI가 로봇과 결합해 제조, 물류, 가전 등 현실 세계에서 인간과 협업하는 단계로 진화하고 있습니다."
     }
 ];
 
