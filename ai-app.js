@@ -9,7 +9,7 @@ const aiNewsData = [
     {
         "rank": 1,
         "isTopPick": true,
-        "thumbUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1200",
+
         "koTitle": "앤스로픽, '클로드 4.6 오퍼스' 정격 출시… 100만 토큰 시대 개막",
         "enTitle": "Anthropic Officially Releases Claude 4.6 Opus with 1M Token Support.",
         "date": "2026-02-20",
@@ -28,7 +28,7 @@ const aiNewsData = [
     },
     {
         "rank": 2,
-        "thumbUrl": "https://images.unsplash.com/photo-1620712943543-bcc4628c6bb5?auto=format&fit=crop&q=80&w=800",
+
         "koTitle": "가트너 전망 \"2026년은 에이전틱 AI 폭발의 해\"",
         "enTitle": "Gartner Forecasts 2026 as the Breakthrough Year for Agentic AI.",
         "date": "2026-02-20",
@@ -47,7 +47,7 @@ const aiNewsData = [
     },
     {
         "rank": 3,
-        "thumbUrl": "https://images.unsplash.com/photo-1655720031554-a929595ffad7?auto=format&fit=crop&q=80&w=800",
+
         "koTitle": "오픈AI, 차세대 에이전트 허브 '프론티어' 글로벌 런칭",
         "enTitle": "OpenAI Launches 'Frontier' Agent Hub Globally.",
         "date": "2026-02-20",
@@ -70,7 +70,7 @@ const generalTrendingData = [
     {
         "category": "Physical AI",
         "rank": 1,
-        "thumbUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=800",
+
         "koTitle": "화면 밖으로 나온 AI… '피지컬 AI'와 로봇의 결합 가속화",
         "enTitle": "Physical AI: Integrating Intelligence into the Real World.",
         "date": "2026-02-20",
@@ -90,7 +90,7 @@ const generalTrendingData = [
     {
         "category": "Marketing",
         "rank": 2,
-        "thumbUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
+
         "koTitle": "마케터 91% \"AI 이미 사용 중\"… 성과 증명이 과제로 부상",
         "enTitle": "91% of Marketers Use AI, but ROI Visualization is Key Challenge.",
         "date": "2026-02-20",
@@ -110,7 +110,7 @@ const generalTrendingData = [
     {
         "category": "Workplace",
         "rank": 3,
-        "thumbUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800",
+
         "koTitle": "AI 시대의 일자리 불안감… '리워크(Reworked)' 리포트 화제",
         "enTitle": "Guardian's 'Reworked' Series Explores AI's Impact on Jobs.",
         "date": "2026-02-20",
@@ -143,22 +143,9 @@ async function fetchLatestNewsFromServer() {
 }
 
 function renderHero(item) {
-    const container = document.getElementById('top-pick-list');
-    if (!container) return;
-    container.innerHTML = `
-        <div class="hero-card">
-            <div class="hero-thumb-wrapper">
-                <img src="${item.thumbUrl}" alt="Top Issue" class="hero-thumb" onerror="this.src='https://via.placeholder.com/1200x1200/05070a/00f2ff?text=AI+Issue+Loading...'">
-                <div class="hero-overlay">
-                    <div class="hero-thumb-text">
-                        <span class="line-top">${item.hookTitles[0].top}</span>
-                        <span class="line-bottom">${item.hookTitles[0].bottom}</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    `;
+    // 이미지 제거됨 - 히어로 섹션 미사용
 }
+
 
 function renderSection(containerId, data) {
     const container = document.getElementById(containerId);
