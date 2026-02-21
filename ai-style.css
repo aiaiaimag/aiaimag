@@ -478,6 +478,46 @@ h1 {
     color: var(--text-dim);
 }
 
+/* 날짜 정보 컨테이너: 수집일 + 최초발행일 + 재발행 배지 묶음 */
+.date-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+/* 최초발행일 표시 */
+.original-date {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: rgba(0, 242, 255, 0.7);
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+/* ♻️ 재발행 경고 배지 */
+.republished-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #fbbf24;
+    background: rgba(251, 191, 36, 0.12);
+    border: 1px solid rgba(251, 191, 36, 0.35);
+    border-radius: 20px;
+    padding: 0.2rem 0.65rem;
+    width: fit-content;
+    animation: pulse-yellow 2.5s infinite;
+    cursor: help;
+}
+
+@keyframes pulse-yellow {
+    0% { box-shadow: 0 0 0 0 rgba(251, 191, 36, 0.3); }
+    70% { box-shadow: 0 0 0 6px rgba(251, 191, 36, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(251, 191, 36, 0); }
+}
+
 /* Mobile UX/UI Optimization */
 @media (max-width: 768px) {
     header {

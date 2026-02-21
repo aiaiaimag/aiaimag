@@ -1,131 +1,149 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-02-20
+ * 최신 업데이트: 2026-02-21
  */
 
-// [뉴스 데이터베이스 - 2026년 2월 20일 업데이트]
+// [뉴스 데이터베이스 - 2026년 2월 21일 업데이트]
 const aiNewsData = [
     {
         "rank": 1,
-        "isTopPick": true,
-
-        "koTitle": "앤스로픽, '클로드 4.6 오퍼스' 정격 출시… 100만 토큰 시대 개막",
-        "enTitle": "Anthropic Officially Releases Claude 4.6 Opus with 1M Token Support.",
-        "date": "2026-02-20",
-        "viralRate": "99%",
+        "koTitle": "Prediction: These 2 Artificial Intelligence (AI) Stocks Will Soar After Feb. 26 (Hint: Not Nvidia)",
+        "enTitle": "Prediction: These 2 Artificial Intelligence (AI) Stocks Will Soar After Feb. 26 (Hint: Not Nvidia)",
+        "date": "2026-02-21",
+        "originalDate": "2026-02-20",
+        "sourceName": "Nasdaq",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYXcwVk1KLWk3SXlEbWpZbDZSSFBheDB3Z3Q4SXk0RlRxSWFSWkU3a29YMTNCWmZqUXpkVVhpbDVIWG9TNF9DOGcyR20wbVV1MWZFQU9tclZZbWh4eDg4cFlqNlA2dGdVdFBsWGRlVDBYNHdCWUd5OU5fV0xFUFFBUU5OdEVyZmphZEZDalJ2ZXZPT2NDSDhNQkttV01ULVlKb3ZoUXNVZEIxYlpDVWRQa1lfckF6bGM?oc=5",
+        "isRepublished": false,
+        "viralRate": "85%",
         "hookTitles": [
             {
-                "top": "앤스로픽의 역습",
-                "bottom": "클로드 4.6 오퍼스 정식 공개"
+                "top": "Prediction: The...",
+                "bottom": "(Nasdaq)"
             },
             {
-                "top": "100만 토큰의 위엄",
-                "bottom": "방대한 데이터 분석의 혁명"
+                "top": "오늘의 핫 이슈",
+                "bottom": "최초발행: 2026-02-20"
             }
         ],
-        "analysis": "앤스로픽이 100만 토큰 컨텍스트 지원을 통해 AI 시장의 새로운 기준을 제시하며, 기업용 솔루션 시장을 장악하고 있습니다."
+        "analysis": "Prediction: These 2 Artificial Intelligence (AI) Stocks Will Soar After Feb. 26 (Hint: Not Nvidia) | 오늘 발표된 최신 뉴스입니다. 출처: Nasdaq.",
+        "isTopPick": true
     },
     {
         "rank": 2,
-
-        "koTitle": "가트너 전망 \"2026년은 에이전틱 AI 폭발의 해\"",
-        "enTitle": "Gartner Forecasts 2026 as the Breakthrough Year for Agentic AI.",
-        "date": "2026-02-20",
-        "viralRate": "97%",
+        "koTitle": "'Breweries using AI could put artists out of work'",
+        "enTitle": "'Breweries using AI could put artists out of work'",
+        "date": "2026-02-21",
+        "originalDate": "2026-02-21",
+        "sourceName": "BBC",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xdmZVazQ2bWM2aXMtdE1RdTB5OUNMTVliZU9FRGNSSU1FdVJtQ3dlcUZ6VXJ6OFk1cFJpUUNjb2xZUnlSWjg4Wm1uV0ZUMVU5VVNvZW5yRm9qQQ?oc=5",
+        "isRepublished": false,
+        "viralRate": "82%",
         "hookTitles": [
             {
-                "top": "이제는 '에이전틱 AI' 시대",
-                "bottom": "스스로 일하는 AI의 등장"
+                "top": "'Breweries usin...",
+                "bottom": "(BBC)"
             },
             {
-                "top": "AI는 도구가 아니라 팀원",
-                "bottom": "기업용 앱 40% 에이전트 탑재"
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-21"
             }
         ],
-        "analysis": "단순 명령 수행을 넘어 자율적으로 문제를 해결하는 에이전틱 AI가 내년 비즈니스 환경의 핵심 인프라로 자리 잡을 예정입니다."
+        "analysis": "'Breweries using AI could put artists out of work' | 오늘 발표된 최신 뉴스입니다. 출처: BBC."
     },
     {
         "rank": 3,
-
-        "koTitle": "오픈AI, 차세대 에이전트 허브 '프론티어' 글로벌 런칭",
-        "enTitle": "OpenAI Launches 'Frontier' Agent Hub Globally.",
-        "date": "2026-02-20",
-        "viralRate": "94%",
+        "koTitle": "People Loved the Dot-Com Boom. The A.I. Boom, Not So Much.",
+        "enTitle": "People Loved the Dot-Com Boom. The A.I. Boom, Not So Much.",
+        "date": "2026-02-21",
+        "originalDate": "2026-02-21",
+        "sourceName": "The New York Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tczZkWElNZE9OcDgxTm9ZRW1HTUNuT21FZWdNazhMcXJwNE5NYnV6UDM4N3BUcmV2YUlObjBJbUVDY2dBVF9hNjlZMlpIc0lYOGFYcmkwSlVibGljMWtrZEhLYkhMTktod1BTMk82a19NTHRDekE?oc=5",
+        "isRepublished": false,
+        "viralRate": "81%",
         "hookTitles": [
             {
-                "top": "오픈AI의 강력한 승부수",
-                "bottom": "플랫폼 '프론티어' 공개"
+                "top": "People Loved th...",
+                "bottom": "(The New York Times)"
             },
             {
-                "top": "AI 에이전트 관리 끝판왕",
-                "bottom": "쉽고 빠른 기업용 에이전트 구축"
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-21"
             }
         ],
-        "analysis": "오픈AI가 복잡한 워크플로우를 자동화하는 '프론티어'를 통해 누구나 고성능 AI 에이전트를 운영할 수 있는 환경을 구축했습니다."
+        "analysis": "People Loved the Dot-Com Boom. The A.I. Boom, Not So Much. | 오늘 발표된 최신 뉴스입니다. 출처: The New York Times."
     }
 ];
 
 const generalTrendingData = [
     {
-        "category": "Physical AI",
         "rank": 1,
-
-        "koTitle": "화면 밖으로 나온 AI… '피지컬 AI'와 로봇의 결합 가속화",
-        "enTitle": "Physical AI: Integrating Intelligence into the Real World.",
-        "date": "2026-02-20",
-        "viralRate": "96%",
+        "koTitle": "은행들이 2026년 설날 연휴 기간 동안 발생할 수 있는 AI 사기에 대해 긴급 경고를 발표했습니다.",
+        "enTitle": "은행들이 2026년 설날 연휴 기간 동안 발생할 수 있는 AI 사기에 대해 긴급 경고를 발표했습니다.",
+        "date": "2026-02-21",
+        "originalDate": "2026-02-21",
+        "sourceName": "Vietnam.vn",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUDk3cm1SM1RMTmRfUGh0bURfOWVZeDFNRXZlSENkcDNXN0dDekVWeGRKdnU4d0U1V2lpNlBjcEQ5U01uWFJ1d2JtZ2hNaUx6NTBmQ2dVME92U0pRc2ROMzVHbnd0NXFhSEluS2tTeDJGV3VveVpUbDBzV2lQZDJtOEx3?oc=5",
+        "isRepublished": false,
+        "viralRate": "88%",
         "hookTitles": [
             {
-                "top": "내 곁에 온 AI 로봇",
-                "bottom": "피지컬 AI가 일상이 된다"
+                "top": "은행들이 2026년 설날 연...",
+                "bottom": "(Vietnam.vn)"
             },
             {
-                "top": "화면 밖의 혁신",
-                "bottom": "인간과 협업하는 똑똑한 기계들"
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-21"
             }
         ],
-        "analysis": "AI가 디지털 세상을 넘어 로봇과 결합해 물류, 가전 등 현실 세계에서 인간과 직접 상호작용하기 시작했습니다."
+        "analysis": "은행들이 2026년 설날 연휴 기간 동안 발생할 수 있는 AI 사기에 대해 긴급 경고를 발표했습니다. | 오늘 발표된 최신 뉴스입니다. 출처: Vietnam.vn.",
+        "category": "Physical AI"
     },
     {
-        "category": "Marketing",
         "rank": 2,
-
-        "koTitle": "마케터 91% \"AI 이미 사용 중\"… 성과 증명이 과제로 부상",
-        "enTitle": "91% of Marketers Use AI, but ROI Visualization is Key Challenge.",
-        "date": "2026-02-20",
-        "viralRate": "92%",
+        "koTitle": "전북연구원, 피지컬AI·RE100 등 2026년 '10대 연구 아젠다' 선정",
+        "enTitle": "전북연구원, 피지컬AI·RE100 등 2026년 '10대 연구 아젠다' 선정",
+        "date": "2026-02-21",
+        "originalDate": "2026-02-21",
+        "sourceName": "전자신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5pYmN4TzM3dGYwVFFCZmdoMHR5WHpoNUZJOE5LOGFCZGQ5OGhVLWJLV1p3UC1YR1R2WnFaTGVtcFlsYXdBbHRMbGFhN0RaZw?oc=5",
+        "isRepublished": false,
+        "viralRate": "81%",
         "hookTitles": [
             {
-                "top": "마케팅 필수템 AI",
-                "bottom": "성공 공식이 바뀌고 있다"
+                "top": "전북연구원, 피지컬AI·RE...",
+                "bottom": "(전자신문)"
             },
             {
-                "top": "쓰긴 쓰는데 효과는?",
-                "bottom": "AI 마케팅의 ROI 증명 시대"
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-21"
             }
         ],
-        "analysis": "AI가 마케팅의 기본 인프라가 되었지만, 이제는 단순 활용을 넘어 구체적인 수익 기여도를 보여주는 단계로 접어들었습니다."
+        "analysis": "전북연구원, 피지컬AI·RE100 등 2026년 '10대 연구 아젠다' 선정 | 오늘 발표된 최신 뉴스입니다. 출처: 전자신문.",
+        "category": "Work & Career"
     },
     {
-        "category": "Workplace",
         "rank": 3,
-
-        "koTitle": "AI 시대의 일자리 불안감… '리워크(Reworked)' 리포트 화제",
-        "enTitle": "Guardian's 'Reworked' Series Explores AI's Impact on Jobs.",
-        "date": "2026-02-20",
-        "viralRate": "89%",
+        "koTitle": "인텔, AI PC 시대 선언…2026년 출하량 절반 돌파 예상",
+        "enTitle": "인텔, AI PC 시대 선언…2026년 출하량 절반 돌파 예상",
+        "date": "2026-02-21",
+        "originalDate": "2026-02-21",
+        "sourceName": "네이트",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YRlgzbFNfTHJRV3JtSlVWMkRNTWZGSjZGdF9HbC11TVQ0cV9Fcnc2YUxxYVZnclhhX29KTmVybWN1UEZza25pMG4wcWZtcF9QMjYw?oc=5",
+        "isRepublished": false,
+        "viralRate": "77%",
         "hookTitles": [
             {
-                "top": "내 일자리는 안전할까?",
-                "bottom": "AI 시대, 노동의 미래를 묻다"
+                "top": "인텔, AI PC 시대 선언...",
+                "bottom": "(네이트)"
             },
             {
-                "top": "기술인가 위협인가",
-                "bottom": "변화하는 일터에서 생존하는 법"
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-21"
             }
         ],
-        "analysis": "기술 낙관론을 넘어 AI가 실제 노동 시장과 인간의 가치에 미치는 영향에 대한 심도 있는 논의가 확산되고 있습니다."
+        "analysis": "인텔, AI PC 시대 선언…2026년 출하량 절반 돌파 예상 | 오늘 발표된 최신 뉴스입니다. 출처: 네이트.",
+        "category": "Korea AI"
     }
 ];
 
@@ -165,6 +183,14 @@ function renderSection(containerId, data) {
             </div>
         `).join('');
 
+        // 날짜 표시: 최초발행일이 있으면 함께 표시, 재발행이면 경고 배지 추가
+        const originalDateDisplay = item.originalDate
+            ? `<span class="original-date" title="최초발행일">📅 최초발행: ${item.originalDate} · ${item.sourceName || '출처미상'}</span>`
+            : '';
+        const republishedBadge = item.isRepublished
+            ? `<span class="republished-badge" title="재발행된 기사입니다. 최초발행일을 확인하세요.">♻️ 재발행</span>`
+            : '';
+
         card.innerHTML = `
             <div class="rank"><i data-lucide="${item.category ? 'zap' : 'trending-up'}" style="width:14px;"></i> ${item.category ? item.category : 'AI'} TOP ${item.rank}</div>
             <h2 class="ko-title">${item.koTitle}</h2>
@@ -175,7 +201,11 @@ function renderSection(containerId, data) {
                 <div class="meta-item"><span class="meta-label">분석</span><p class="analysis-text">${item.analysis}</p></div>
             </div>
             <div class="card-footer">
-                <span class="news-date">${item.date}</span>
+                <div class="date-info">
+                    ${republishedBadge}
+                    <span class="news-date">수집일: ${item.date}</span>
+                    ${originalDateDisplay}
+                </div>
             </div>
         `;
         container.appendChild(card);
