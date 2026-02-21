@@ -1,77 +1,77 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-02-21
+ * 최신 업데이트: 2026-02-22
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "예측: 이 두 인공지능 (AI) 주식은 2월 26일 이후 급등할 것입니다 (힌트: 엔비디아 아님)",
-        "enTitle": "Prediction: These 2 Artificial Intelligence (AI) Stocks Will Soar After Feb. 26 (Hint: Not Nvidia)",
-        "date": "2026-02-21",
-        "originalDate": "2026-02-20",
-        "sourceName": "Nasdaq",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYXcwVk1KLWk3SXlEbWpZbDZSSFBheDB3Z3Q4SXk0RlRxSWFSWkU3a29YMTNCWmZqUXpkVVhpbDVIWG9TNF9DOGcyR20wbVV1MWZFQU9tclZZbWh4eDg4cFlqNlA2dGdVdFBsWGRlVDBYNHdCWUd5OU5fV0xFUFFBUU5OdEVyZmphZEZDalJ2ZXZPT2NDSDhNQkttV01ULVlKb3ZoUXNVZEIxYlpDVWRQa1lfckF6bGM?oc=5",
+        "koTitle": "Mistral AI의 CEO는 인공 지능의 극단적 인 위험에 대한 경고는 종종 '산만 전술' 이라고 말합니다.",
+        "enTitle": "CEO of Mistral AI says warnings about extreme risks of artificial intelligence are often 'distraction tactics'",
+        "date": "2026-02-22",
+        "originalDate": "2026-02-21",
+        "sourceName": "Le Monde.fr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxORmh3QXdkVjV1UGVNaGJmTnRFWTBmVWI4dWdCcDdoUUxLTlZoVXBrNU8xSzRSZ283QXRMSGIxS1VjajR2bkZ1SlBNcGtsaWNROEg4dEtrVDByb2NfaGFkTThXdzU0bWt2Wk53TC0zdXpqTGZuNE1EVlo1RFptNE5oTnVIRFVubEpYZVJjS2RPYjFMRDZvSXFNQzcxOXI2aDAxSmJjT1pzcTRSZEhtVTVRM2hDaVNNbjZtZXRVM1JSWXFzTHlDVnpBUHM1Tl9XbmU0Uk01TExmaEZlRHZjaUhZbEF6R3RsR2JtV3BLeThGZE9nVUhGRWRjLWk0aHBMYk40RXFZVkxoMng?oc=5",
         "isRepublished": false,
-        "viralRate": "85%",
+        "viralRate": "88%",
         "hookTitles": [
             {
-                "top": "예측: 이 두 인공지능 (A...",
-                "bottom": "(Nasdaq)"
+                "top": "Mistral AI의 CEO...",
+                "bottom": "(Le Monde.fr)"
             },
             {
                 "top": "오늘의 핫 이슈",
-                "bottom": "최초발행: 2026-02-20"
+                "bottom": "최초발행: 2026-02-21"
             }
         ],
-        "analysis": "예측: 이 두 인공지능 (AI) 주식은 2월 26일 이후 급등할 것입니다 (힌트: 엔비디아 아님) | 오늘 발표된 최신 뉴스입니다. 출처: Nasdaq.",
+        "analysis": "Mistral AI의 CEO는 인공 지능의 극단적 인 위험에 대한 경고는 종종 '산만 전술' 이라고 말합니다. | 오늘 발표된 최신 뉴스입니다. 출처: Le Monde.fr.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "사람들은 닷컴 붐을 좋아했습니다. A.I. Boom, 그다지 많지 않습니다.",
-        "enTitle": "People Loved the Dot-Com Boom. The A.I. Boom, Not So Much.",
-        "date": "2026-02-21",
+        "koTitle": "AI (인공지능)",
+        "enTitle": "AI (artificial intelligence)",
+        "date": "2026-02-22",
         "originalDate": "2026-02-21",
-        "sourceName": "The New York Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tczZkWElNZE9OcDgxTm9ZRW1HTUNuT21FZWdNazhMcXJwNE5NYnV6UDM4N3BUcmV2YUlObjBJbUVDY2dBVF9hNjlZMlpIc0lYOGFYcmkwSlVibGljMWtrZEhLYkhMTktod1BTMk82a19NTHRDekE?oc=5",
+        "sourceName": "The Guardian",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ITEpPcjJTZG1IZVJXYTVWanhKNHZ6QmZ0QngyS1d5T1VzdFVmQ2lrUzJ2U3RQeWZHY3ExbU1DX3dJRFhFRGJoV2tyZmVuYkYzekRrTnZNOFg3Q2hPS3ZzbVlNQVgzcWJONnBIb3h2SW4?oc=5",
         "isRepublished": false,
         "viralRate": "83%",
         "hookTitles": [
             {
-                "top": "사람들은 닷컴 붐을 좋아했습...",
-                "bottom": "(The New York Times)"
+                "top": "AI (인공지능)",
+                "bottom": "(The Guardian)"
             },
             {
                 "top": "주목할 이 뉴스!",
                 "bottom": "최초발행: 2026-02-21"
             }
         ],
-        "analysis": "사람들은 닷컴 붐을 좋아했습니다. A.I. Boom, 그다지 많지 않습니다. | 오늘 발표된 최신 뉴스입니다. 출처: The New York Times."
+        "analysis": "AI (인공지능) | 오늘 발표된 최신 뉴스입니다. 출처: The Guardian."
     },
     {
         "rank": 3,
-        "koTitle": "AI 히트: 델리 정상 회담에서 미국 기술 대기업의 기술을 활용하는 데 굶주린 인도",
-        "enTitle": "AI hit: India hungry to harness US tech giants’ technology at Delhi summit",
-        "date": "2026-02-21",
-        "originalDate": "2026-02-20",
-        "sourceName": "The Guardian",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeWdSR05RV3BodlI3UWV5Sk1sWERRd1h1VDRpR2NWRF93M1I2bnFBc01BNkRzV0w4bFFONklUR1JwMzVSSVVRbktOZ09vSHdSbkdldE9FZVVIdk02bm9GNTdESThKdVg5RVFPNzgxQUdlYmo5Q0JBeUFTSllkV3FONl9CTlBMZ0d0R2VycjN2SEtaTVNTNkdxZEpvWlE2dw?oc=5",
+        "koTitle": "인공지능 챗봇이 미성년자와 상호 작용하는 방식을 규제하기 위해 신속하게 움직이는 법안",
+        "enTitle": "Bill moving quickly to regulate how AI chatbots interact with minors",
+        "date": "2026-02-22",
+        "originalDate": "2026-02-21",
+        "sourceName": "KOMO",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQX1ZZTE1GSGdaeU9zc1F3b09lTjJPc21FSW9kTWRHTTY3NG50ZkhscjgteHprektaMlJkcDFROHU4TGVkTDlhNmFwVkhGRW8wRjFLeDZiYmpteE1nSEI4bHRBT09hTW1ydVo5UEtuZ1JXTjcwODNoSlFtVHZGRURiRzVzQktiQUh5OEtoc0kzX1JkZ1AtVjJFQm1adFlIUFFPMTdZU2RDOGs0V1djU1VLZFZPZ1FVb0NfNzdLMFhMNFQ4R0VtdmR2azN0UnVxUUxTUU42aXpPeHppOV9ReFdJZ0FydkdqdVJmTGtTQlotd1pVZWZ5RzVMODVYYjNuTmI1YktoZC1mMUt6bFloOGF3eWJTSDZHUQ?oc=5",
         "isRepublished": false,
-        "viralRate": "83%",
+        "viralRate": "81%",
         "hookTitles": [
             {
-                "top": "AI 히트: 델리 정상 회담...",
-                "bottom": "(The Guardian)"
+                "top": "인공지능 챗봇이 미성년자와...",
+                "bottom": "(KOMO)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-20"
+                "bottom": "최초발행: 2026-02-21"
             }
         ],
-        "analysis": "AI 히트: 델리 정상 회담에서 미국 기술 대기업의 기술을 활용하는 데 굶주린 인도 | 오늘 발표된 최신 뉴스입니다. 출처: The Guardian."
+        "analysis": "인공지능 챗봇이 미성년자와 상호 작용하는 방식을 규제하기 위해 신속하게 움직이는 법안 | 오늘 발표된 최신 뉴스입니다. 출처: KOMO."
     }
 ];
 
@@ -83,12 +83,12 @@ const generalTrendingData = [
         "rank": 1,
         "koTitle": "은행들이 2026년 설날 연휴 기간 동안 발생할 수 있는 AI 사기에 대해 긴급 경고를 발표했습니다.",
         "enTitle": "은행들이 2026년 설날 연휴 기간 동안 발생할 수 있는 AI 사기에 대해 긴급 경고를 발표했습니다.",
-        "date": "2026-02-21",
+        "date": "2026-02-22",
         "originalDate": "2026-02-21",
         "sourceName": "Vietnam.vn",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUDk3cm1SM1RMTmRfUGh0bURfOWVZeDFNRXZlSENkcDNXN0dDekVWeGRKdnU4d0U1V2lpNlBjcEQ5U01uWFJ1d2JtZ2hNaUx6NTBmQ2dVME92U0pRc2ROMzVHbnd0NXFhSEluS2tTeDJGV3VveVpUbDBzV2lQZDJtOEx3?oc=5",
         "isRepublished": false,
-        "viralRate": "88%",
+        "viralRate": "84%",
         "hookTitles": [
             {
                 "top": "은행들이 2026년 설날 연...",
@@ -104,48 +104,48 @@ const generalTrendingData = [
     },
     {
         "rank": 2,
-        "koTitle": "인텔, AI PC 시대 선언…2026년 출하량 절반 돌파 예상",
-        "enTitle": "인텔, AI PC 시대 선언…2026년 출하량 절반 돌파 예상",
-        "date": "2026-02-21",
+        "koTitle": "[심리학을 재편하는 인공지능: 2026년, 더 빠른 선별 검사와 맞춤형 케어의 시대] 2026년의 AI는 정신 건강 관리의 행정 절차를 가속화하고 조기 선별 및 개인화된 치료를 지원하는 강력한 도구다.",
+        "enTitle": "[심리학을 재편하는 인공지능: 2026년, 더 빠른 선별 검사와 맞춤형 케어의 시대] 2026년의 AI는 정신 건강 관리의 행정 절차를 가속화하고 조기 선별 및 개인화된 치료를 지원하는 강력한 도구다.",
+        "date": "2026-02-22",
         "originalDate": "2026-02-21",
-        "sourceName": "네이트",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YRlgzbFNfTHJRV3JtSlVWMkRNTWZGSjZGdF9HbC11TVQ0cV9Fcnc2YUxxYVZnclhhX29KTmVybWN1UEZza25pMG4wcWZtcF9QMjYw?oc=5",
+        "sourceName": "AI넷",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBjeVloWnNvdnU5b0MtLW5VVWhJSTEzUnRsVkNzdk43eUJLRVVsMGNFSEoxdnYyd3IwMDRBVmR3YzY?oc=5",
         "isRepublished": false,
-        "viralRate": "81%",
+        "viralRate": "83%",
         "hookTitles": [
             {
-                "top": "인텔, AI PC 시대 선언...",
-                "bottom": "(네이트)"
+                "top": "[심리학을 재편하는 인공지능...",
+                "bottom": "(AI넷)"
             },
             {
                 "top": "주목할 이 뉴스!",
                 "bottom": "최초발행: 2026-02-21"
             }
         ],
-        "analysis": "인텔, AI PC 시대 선언…2026년 출하량 절반 돌파 예상 | 오늘 발표된 최신 뉴스입니다. 출처: 네이트.",
+        "analysis": "[심리학을 재편하는 인공지능: 2026년, 더 빠른 선별 검사와 맞춤형 케어의 시대] 2026년의 AI는 정신 건강 관리의 행정 절차를 가속화하고 조기 선별 및 개인화된 치료를 지원하는 강력한 도구다. | 오늘 발표된 최신 뉴스입니다. 출처: AI넷.",
         "category": "Work & Career"
     },
     {
         "rank": 3,
-        "koTitle": "\"AI로 프라이버시 지킨다\"…베일 벗는 갤럭시 S26, 뭐가 달라질까[언팩 미리보기上]",
-        "enTitle": "\"AI로 프라이버시 지킨다\"…베일 벗는 갤럭시 S26, 뭐가 달라질까[언팩 미리보기上]",
-        "date": "2026-02-21",
-        "originalDate": "2026-02-20",
-        "sourceName": "뉴시스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yZy1pOVkwUUtFR3JzbVNGbDI3SWxxNWlVemlpX3JvRGJQNDJlRVhaT3YzQUdndGtvcTJjcUJCRU9nWERTZzFycHprbklxRXhpTExBeXgwT29NaTM2cy1OUNIBeEFVX3lxTE9BbGRmSFJNdlg2WHhfdlFMLXNCSWVEMVpPdU5rOXBhOFR5MlZhZjZyZVpUWjNHQWtOdU9rSGpSTnJJUDZQdG5OODJ6SkFFdWswei0zOE5hWXhSVGNXR1M3OTI0U0p2NmE2WkNoZHV0bDZsR1lvenFVWg?oc=5",
+        "koTitle": "‘한미 기술번영 양해각서 이행 워킹그룹’ 출범…구체 협력 논의",
+        "enTitle": "‘한미 기술번영 양해각서 이행 워킹그룹’ 출범…구체 협력 논의",
+        "date": "2026-02-22",
+        "originalDate": "2026-02-21",
+        "sourceName": "부산일보사",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1MNnlXbF9DQWdzN0dPRFE3ODJwbEdpYUx6Q1JfUVFqNkZCTTJxcXNPS05INDdmU0lGdDlPSDZhejNSRXNKemRpQndXVmtEWm54cTNRSjJuM1JKMHZpVzRhc0hYNGttcE1uVVpCMUF1XzdGM2VG?oc=5",
         "isRepublished": false,
         "viralRate": "79%",
         "hookTitles": [
             {
-                "top": "\"AI로 프라이버시 지킨다\"...",
-                "bottom": "(뉴시스)"
+                "top": "‘한미 기술번영 양해각서 이...",
+                "bottom": "(부산일보사)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-20"
+                "bottom": "최초발행: 2026-02-21"
             }
         ],
-        "analysis": "\"AI로 프라이버시 지킨다\"…베일 벗는 갤럭시 S26, 뭐가 달라질까[언팩 미리보기上] | 오늘 발표된 최신 뉴스입니다. 출처: 뉴시스.",
+        "analysis": "‘한미 기술번영 양해각서 이행 워킹그룹’ 출범…구체 협력 논의 | 오늘 발표된 최신 뉴스입니다. 출처: 부산일보사.",
         "category": "Korea AI"
     }
 ];
