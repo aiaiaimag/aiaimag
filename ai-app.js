@@ -8,40 +8,70 @@
 const aiNewsData = [
     {
         "rank": 1,
-        "isTopPick": true,
-        "koTitle": "사람들은 닷컴 붐을 좋아했다. AI 붐은? 전혀 그렇지 않다.",
-        "enTitle": "People Loved the Dot-Com Boom. The A.I. Boom, Not So Much.",
-        "date": "2026-02-21",
-        "originalDate": "2026-02-21",
-        "sourceName": "The New York Times",
-        "sourceUrl": "https://www.nytimes.com/2026/02/21/technology/ai-public-opinion-dotcom.html",
-        "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "NYT가 여론조사 데이터를 근거로 '대중은 AI를 닷컴 붐만큼 흥분하지 않는다'는 충격적 결과를 보도했습니다. AI에 열광하는 소수 얼리어답터 vs. 불안해하는 다수 일반인의 간극을 수치로 증명한 겁니다. 이 갭이 커질수록 정치권이 움직이고, 규제 명분이 강해집니다. '나만 AI 싫어하는 거 아니었구나' 공감 폭발이 예상되며, 반AI 정서를 가진 팔로워들의 저장·공유율이 최상위권일 것으로 봅니다."
-    },
-    {
-        "rank": 2,
-        "koTitle": "오픈AI, 카메라 달린 AI 스마트 스피커 개발 중 — 조니 아이브 협업, 2027년 출시 예정",
-        "enTitle": "OpenAI Is Building a Smart Speaker With a Camera",
-        "date": "2026-02-21",
-        "originalDate": "2026-02-19",
-        "sourceName": "The Verge",
-        "sourceUrl": "https://www.theverge.com/2026/2/19/openai-smart-speaker-camera-jony-ive",
-        "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "아이폰을 만든 조니 아이브 + AI의 제왕 오픈AI가 '거실에서 항상 켜진 카메라'를 만들겠다는 소식입니다. '편의냐 감시냐'라는 프라이버시 논쟁이 즉시 불붙습니다. 디자인 팬(조니 아이브), AI 팬(오픈AI), 프라이버시 우려 그룹이 동시에 충돌하는 희귀한 뉴스입니다. 세 집단이 동시에 공유하면 알고리즘이 폭발합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "엔비디아 아닌 AI 주식 2종목, 2월 26일 이후 급등 예측",
+        "koTitle": "예측: 이 두 인공지능 (AI) 주식은 2월 26일 이후 급등할 것입니다 (힌트: 엔비디아 아님)",
         "enTitle": "Prediction: These 2 Artificial Intelligence (AI) Stocks Will Soar After Feb. 26 (Hint: Not Nvidia)",
         "date": "2026-02-21",
         "originalDate": "2026-02-20",
-        "sourceName": "Nasdaq / The Motley Fool",
-        "sourceUrl": "https://www.nasdaq.com/articles/prediction-these-2-artificial-intelligence-ai-stocks-will-soar-after-feb-26-hint-not",
+        "sourceName": "Nasdaq",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYXcwVk1KLWk3SXlEbWpZbDZSSFBheDB3Z3Q4SXk0RlRxSWFSWkU3a29YMTNCWmZqUXpkVVhpbDVIWG9TNF9DOGcyR20wbVV1MWZFQU9tclZZbWh4eDg4cFlqNlA2dGdVdFBsWGRlVDBYNHdCWUd5OU5fV0xFUFFBUU5OdEVyZmphZEZDalJ2ZXZPT2NDSDhNQkttV01ULVlKb3ZoUXNVZEIxYlpDVWRQa1lfckF6bGM?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "'엔비디아 아님'이라는 힌트 하나로 클릭율이 최소 3배 뜁니다. 2026년 들어 엔비디아 피로감이 쌓인 투자자들에게 '대안 AI 주식'은 꿈의 키워드입니다. 2월 26일이라는 구체적인 날짜 제시로 긴박감을 극대화했고, 지금부터 그날까지 매일 저장하고 다시 꺼내볼 기사입니다."
+        "viralRate": "85%",
+        "hookTitles": [
+            {
+                "top": "예측: 이 두 인공지능 (A...",
+                "bottom": "(Nasdaq)"
+            },
+            {
+                "top": "오늘의 핫 이슈",
+                "bottom": "최초발행: 2026-02-20"
+            }
+        ],
+        "analysis": "예측: 이 두 인공지능 (AI) 주식은 2월 26일 이후 급등할 것입니다 (힌트: 엔비디아 아님) | 오늘 발표된 최신 뉴스입니다. 출처: Nasdaq.",
+        "isTopPick": true
+    },
+    {
+        "rank": 2,
+        "koTitle": "‘이것을 늦추십시오’: 샌더스는 미국이 다가오는 AI 혁명의 속도와 규모에 대해 전혀 알지 못한다고 경고합니다.",
+        "enTitle": "‘Slow this thing down’: Sanders warns US has no clue about speed and scale of coming AI revolution",
+        "date": "2026-02-21",
+        "originalDate": "2026-02-21",
+        "sourceName": "The Guardian",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN2RxRXFpS1lBSnBaT2llRVJVTThHUDVOZVZNaUNOaWJrZDhMSVZoV015RWV1RkhIQ0VJR3ZCcjFyZExvMGlQdVZGa2h6QjI4ZGk1VEpwUjRieTdvbzBzLUhVSXotVVlFTC1wbW95SzJlLTI3emllSnpoa1AwWVc2UWxIVTA5dVBGNTU4Ng?oc=5",
+        "isRepublished": false,
+        "viralRate": "83%",
+        "hookTitles": [
+            {
+                "top": "‘이것을 늦추십시오’: 샌더...",
+                "bottom": "(The Guardian)"
+            },
+            {
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-21"
+            }
+        ],
+        "analysis": "‘이것을 늦추십시오’: 샌더스는 미국이 다가오는 AI 혁명의 속도와 규모에 대해 전혀 알지 못한다고 경고합니다. | 오늘 발표된 최신 뉴스입니다. 출처: The Guardian."
+    },
+    {
+        "rank": 3,
+        "koTitle": "EU는 AI, 칩을 포함한 중요한 기술 프로그램으로부터 중국 조직을 금지합니다.",
+        "enTitle": "EU bans Chinese organisations from critical tech programmes, including AI, chips",
+        "date": "2026-02-21",
+        "originalDate": "2026-02-21",
+        "sourceName": "South China Morning Post",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNX3lKRUFqRlB1SHJuRTZsUXNQbndMMXpuQjctODJ2ZDFoQ05pYTk4cmRseDRsZFBDTkhMajNNYTYtWW56OEZvRTV0Q3dHalZYTm1GYXpxRHUwQWh3UGNBZF96UlpwNlAwUDNzVDd3c09JS0JUZ1BMUmx0WVdnc0ZJbTBETXZKRVZRQThOQ3V6WDVxNl9vQUYtOEs1eGpJcUhhRHVlcGZZMjVpUVlEMVBjNmxXREstUV9JSzM3eDY2ZmVLQ2Rh0gHEAUFVX3lxTE5RRzhZQ1dGWHg0c2ZJMzVLN2wydXp5MlZBektqeTdnVmZtNDJ4czdNVV9DMGNpVDRpNDZEMnZtV05PMFFPN041SHZuck8wdU1iX2NSTWxZLXZGMVQwQ1NxSWdkZzRZdVNTNklaTTk5QzJUZkFEV2dOa1U1UmZRa2EyeTBhRnh6SXVrV1lYeE10bThvMmpCc1lxOERJSDZvenRPNkFWNG1QYjhwOXAzV1BYdVdNbFFNN3JlSXJGNmY1R2FPUVk?oc=5",
+        "isRepublished": false,
+        "viralRate": "81%",
+        "hookTitles": [
+            {
+                "top": "EU는 AI, 칩을 포함한...",
+                "bottom": "(South China Morning Post)"
+            },
+            {
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-21"
+            }
+        ],
+        "analysis": "EU는 AI, 칩을 포함한 중요한 기술 프로그램으로부터 중국 조직을 금지합니다. | 오늘 발표된 최신 뉴스입니다. 출처: South China Morning Post."
     }
 ];
 
@@ -50,25 +80,73 @@ const aiNewsData = [
 // 뉴스 기반이 아닌, 대학생·취준생·직장인이 진짜 궁금해할 AI 주제
 const generalTrendingData = [
     {
-        "category": "AI 부업",
         "rank": 1,
-        "koTitle": "AI로 월급 외 수입 만들기 — 2030이 실제로 쓰는 방법 5가지",
-        "viralRate": "99%",
-        "analysis": "돈 얘기는 항상 1등입니다. 취준생은 스펙 쌓는 것보다 '지금 당장 수입' 이 급하고, 직장인은 인상보다 '추가 수입'에 더 민감합니다. AI 부업은 진입 장벽이 낮고 결과가 빠릅니다 — Notion 템플릿 판매, GPT 프롬프트 판매, AI 영상 편집 외주 등 실제 사례가 넘쳐납니다. '나도 할 수 있겠다'는 실행 욕구를 자극하는 콘텐츠는 저장율과 공유율이 동시에 터집니다."
+        "koTitle": "은행들이 2026년 설날 연휴 기간 동안 발생할 수 있는 AI 사기에 대해 긴급 경고를 발표했습니다.",
+        "enTitle": "은행들이 2026년 설날 연휴 기간 동안 발생할 수 있는 AI 사기에 대해 긴급 경고를 발표했습니다.",
+        "date": "2026-02-21",
+        "originalDate": "2026-02-21",
+        "sourceName": "Vietnam.vn",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUDk3cm1SM1RMTmRfUGh0bURfOWVZeDFNRXZlSENkcDNXN0dDekVWeGRKdnU4d0U1V2lpNlBjcEQ5U01uWFJ1d2JtZ2hNaUx6NTBmQ2dVME92U0pRc2ROMzVHbnd0NXFhSEluS2tTeDJGV3VveVpUbDBzV2lQZDJtOEx3?oc=5",
+        "isRepublished": false,
+        "viralRate": "88%",
+        "hookTitles": [
+            {
+                "top": "은행들이 2026년 설날 연...",
+                "bottom": "(Vietnam.vn)"
+            },
+            {
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-21"
+            }
+        ],
+        "analysis": "은행들이 2026년 설날 연휴 기간 동안 발생할 수 있는 AI 사기에 대해 긴급 경고를 발표했습니다. | 오늘 발표된 최신 뉴스입니다. 출처: Vietnam.vn.",
+        "category": "Physical AI"
     },
     {
-        "category": "AI 취업",
         "rank": 2,
-        "koTitle": "AI 면접관이 내 이력서를 먼저 본다 — 취준생이 몰랐던 채용 AI의 실체",
-        "viralRate": "97%",
-        "analysis": "카카오·네이버·삼성 등 대기업이 이미 AI 서류 스크리닝을 도입했습니다. 취준생 입장에서 이건 공포 + 필수 정보의 조합입니다. 'AI가 내 이력서를 어떻게 읽는가'를 아는 것만으로 합격률이 달라질 수 있다는 메시지는 절박한 공감을 만들어냅니다. 취준 커뮤니티(블라인드·에브리타임)에서 자발적으로 퍼지는 유형의 콘텐츠입니다."
+        "koTitle": "인텔, AI PC 시대 선언…2026년 출하량 절반 돌파 예상",
+        "enTitle": "인텔, AI PC 시대 선언…2026년 출하량 절반 돌파 예상",
+        "date": "2026-02-21",
+        "originalDate": "2026-02-21",
+        "sourceName": "네이트",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YRlgzbFNfTHJRV3JtSlVWMkRNTWZGSjZGdF9HbC11TVQ0cV9Fcnc2YUxxYVZnclhhX29KTmVybWN1UEZza25pMG4wcWZtcF9QMjYw?oc=5",
+        "isRepublished": false,
+        "viralRate": "81%",
+        "hookTitles": [
+            {
+                "top": "인텔, AI PC 시대 선언...",
+                "bottom": "(네이트)"
+            },
+            {
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-21"
+            }
+        ],
+        "analysis": "인텔, AI PC 시대 선언…2026년 출하량 절반 돌파 예상 | 오늘 발표된 최신 뉴스입니다. 출처: 네이트.",
+        "category": "Work & Career"
     },
     {
-        "category": "AI 관계",
         "rank": 3,
-        "koTitle": "AI 친구·AI 연애 — 외로운 2030이 선택한 새로운 인간관계",
-        "viralRate": "94%",
-        "analysis": "Replika, Character.ai 사용자 급증 — 한국 2030 사이에서도 AI와 대화하는 것이 더 이상 '이상한 일'이 아닙니다. '진짜 친구보다 AI가 더 편하다'는 현실은 찬반 논쟁을 동시에 부릅니다. 공감파 + 비판파 + 호기심파가 모두 댓글을 달고 싶어지는 구조입니다. 사회적 고립감이 심화되는 현 시점에서 이 주제는 단순 기술 이슈가 아닌 세대 감성 이슈로 폭발합니다."
+        "koTitle": "\"AI로 프라이버시 지킨다\"…베일 벗는 갤럭시 S26, 뭐가 달라질까[언팩 미리보기上]",
+        "enTitle": "\"AI로 프라이버시 지킨다\"…베일 벗는 갤럭시 S26, 뭐가 달라질까[언팩 미리보기上]",
+        "date": "2026-02-21",
+        "originalDate": "2026-02-20",
+        "sourceName": "뉴시스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yZy1pOVkwUUtFR3JzbVNGbDI3SWxxNWlVemlpX3JvRGJQNDJlRVhaT3YzQUdndGtvcTJjcUJCRU9nWERTZzFycHprbklxRXhpTExBeXgwT29NaTM2cy1OUNIBeEFVX3lxTE9BbGRmSFJNdlg2WHhfdlFMLXNCSWVEMVpPdU5rOXBhOFR5MlZhZjZyZVpUWjNHQWtOdU9rSGpSTnJJUDZQdG5OODJ6SkFFdWswei0zOE5hWXhSVGNXR1M3OTI0U0p2NmE2WkNoZHV0bDZsR1lvenFVWg?oc=5",
+        "isRepublished": false,
+        "viralRate": "79%",
+        "hookTitles": [
+            {
+                "top": "\"AI로 프라이버시 지킨다\"...",
+                "bottom": "(뉴시스)"
+            },
+            {
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-20"
+            }
+        ],
+        "analysis": "\"AI로 프라이버시 지킨다\"…베일 벗는 갤럭시 S26, 뭐가 달라질까[언팩 미리보기上] | 오늘 발표된 최신 뉴스입니다. 출처: 뉴시스.",
+        "category": "Korea AI"
     }
 ];
 
