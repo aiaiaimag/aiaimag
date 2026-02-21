@@ -28,7 +28,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
 
       # ── 3. 의존성 설치 (표준 라이브러리만 사용 — 추가 설치 불필요)
       - name: 📦 Verify Python Environment
