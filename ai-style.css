@@ -513,10 +513,44 @@ h1 {
 }
 
 @keyframes pulse-yellow {
-    0% { box-shadow: 0 0 0 0 rgba(251, 191, 36, 0.3); }
-    70% { box-shadow: 0 0 0 6px rgba(251, 191, 36, 0); }
-    100% { box-shadow: 0 0 0 0 rgba(251, 191, 36, 0); }
+    0% {
+        box-shadow: 0 0 0 0 rgba(251, 191, 36, 0.3);
+    }
+
+    70% {
+        box-shadow: 0 0 0 6px rgba(251, 191, 36, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(251, 191, 36, 0);
+    }
 }
+
+/* 뉴스 원문 보기 링크 버튼 */
+.source-link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-top: 0.6rem;
+    padding: 0.4rem 1rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--accent-primary);
+    background: rgba(0, 242, 255, 0.07);
+    border: 1px solid rgba(0, 242, 255, 0.25);
+    border-radius: 20px;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
+    width: fit-content;
+}
+
+.source-link-btn:hover {
+    background: rgba(0, 242, 255, 0.15);
+    border-color: rgba(0, 242, 255, 0.55);
+    box-shadow: 0 0 10px rgba(0, 242, 255, 0.2);
+}
+
 
 /* Mobile UX/UI Optimization */
 @media (max-width: 768px) {
