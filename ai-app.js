@@ -31,47 +31,47 @@ const aiNewsData = [
     },
     {
         "rank": 2,
-        "koTitle": "‘이것을 늦추십시오’: 샌더스는 미국이 다가오는 AI 혁명의 속도와 규모에 대해 전혀 알지 못한다고 경고합니다.",
-        "enTitle": "‘Slow this thing down’: Sanders warns US has no clue about speed and scale of coming AI revolution",
+        "koTitle": "사람들은 닷컴 붐을 좋아했습니다. A.I. Boom, 그다지 많지 않습니다.",
+        "enTitle": "People Loved the Dot-Com Boom. The A.I. Boom, Not So Much.",
         "date": "2026-02-21",
         "originalDate": "2026-02-21",
-        "sourceName": "The Guardian",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN2RxRXFpS1lBSnBaT2llRVJVTThHUDVOZVZNaUNOaWJrZDhMSVZoV015RWV1RkhIQ0VJR3ZCcjFyZExvMGlQdVZGa2h6QjI4ZGk1VEpwUjRieTdvbzBzLUhVSXotVVlFTC1wbW95SzJlLTI3emllSnpoa1AwWVc2UWxIVTA5dVBGNTU4Ng?oc=5",
+        "sourceName": "The New York Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tczZkWElNZE9OcDgxTm9ZRW1HTUNuT21FZWdNazhMcXJwNE5NYnV6UDM4N3BUcmV2YUlObjBJbUVDY2dBVF9hNjlZMlpIc0lYOGFYcmkwSlVibGljMWtrZEhLYkhMTktod1BTMk82a19NTHRDekE?oc=5",
         "isRepublished": false,
         "viralRate": "83%",
         "hookTitles": [
             {
-                "top": "‘이것을 늦추십시오’: 샌더...",
+                "top": "사람들은 닷컴 붐을 좋아했습...",
+                "bottom": "(The New York Times)"
+            },
+            {
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-21"
+            }
+        ],
+        "analysis": "사람들은 닷컴 붐을 좋아했습니다. A.I. Boom, 그다지 많지 않습니다. | 오늘 발표된 최신 뉴스입니다. 출처: The New York Times."
+    },
+    {
+        "rank": 3,
+        "koTitle": "AI 히트: 델리 정상 회담에서 미국 기술 대기업의 기술을 활용하는 데 굶주린 인도",
+        "enTitle": "AI hit: India hungry to harness US tech giants’ technology at Delhi summit",
+        "date": "2026-02-21",
+        "originalDate": "2026-02-20",
+        "sourceName": "The Guardian",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeWdSR05RV3BodlI3UWV5Sk1sWERRd1h1VDRpR2NWRF93M1I2bnFBc01BNkRzV0w4bFFONklUR1JwMzVSSVVRbktOZ09vSHdSbkdldE9FZVVIdk02bm9GNTdESThKdVg5RVFPNzgxQUdlYmo5Q0JBeUFTSllkV3FONl9CTlBMZ0d0R2VycjN2SEtaTVNTNkdxZEpvWlE2dw?oc=5",
+        "isRepublished": false,
+        "viralRate": "83%",
+        "hookTitles": [
+            {
+                "top": "AI 히트: 델리 정상 회담...",
                 "bottom": "(The Guardian)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-21"
+                "bottom": "최초발행: 2026-02-20"
             }
         ],
-        "analysis": "‘이것을 늦추십시오’: 샌더스는 미국이 다가오는 AI 혁명의 속도와 규모에 대해 전혀 알지 못한다고 경고합니다. | 오늘 발표된 최신 뉴스입니다. 출처: The Guardian."
-    },
-    {
-        "rank": 3,
-        "koTitle": "EU는 AI, 칩을 포함한 중요한 기술 프로그램으로부터 중국 조직을 금지합니다.",
-        "enTitle": "EU bans Chinese organisations from critical tech programmes, including AI, chips",
-        "date": "2026-02-21",
-        "originalDate": "2026-02-21",
-        "sourceName": "South China Morning Post",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNX3lKRUFqRlB1SHJuRTZsUXNQbndMMXpuQjctODJ2ZDFoQ05pYTk4cmRseDRsZFBDTkhMajNNYTYtWW56OEZvRTV0Q3dHalZYTm1GYXpxRHUwQWh3UGNBZF96UlpwNlAwUDNzVDd3c09JS0JUZ1BMUmx0WVdnc0ZJbTBETXZKRVZRQThOQ3V6WDVxNl9vQUYtOEs1eGpJcUhhRHVlcGZZMjVpUVlEMVBjNmxXREstUV9JSzM3eDY2ZmVLQ2Rh0gHEAUFVX3lxTE5RRzhZQ1dGWHg0c2ZJMzVLN2wydXp5MlZBektqeTdnVmZtNDJ4czdNVV9DMGNpVDRpNDZEMnZtV05PMFFPN041SHZuck8wdU1iX2NSTWxZLXZGMVQwQ1NxSWdkZzRZdVNTNklaTTk5QzJUZkFEV2dOa1U1UmZRa2EyeTBhRnh6SXVrV1lYeE10bThvMmpCc1lxOERJSDZvenRPNkFWNG1QYjhwOXAzV1BYdVdNbFFNN3JlSXJGNmY1R2FPUVk?oc=5",
-        "isRepublished": false,
-        "viralRate": "81%",
-        "hookTitles": [
-            {
-                "top": "EU는 AI, 칩을 포함한...",
-                "bottom": "(South China Morning Post)"
-            },
-            {
-                "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-21"
-            }
-        ],
-        "analysis": "EU는 AI, 칩을 포함한 중요한 기술 프로그램으로부터 중국 조직을 금지합니다. | 오늘 발표된 최신 뉴스입니다. 출처: South China Morning Post."
+        "analysis": "AI 히트: 델리 정상 회담에서 미국 기술 대기업의 기술을 활용하는 데 굶주린 인도 | 오늘 발표된 최신 뉴스입니다. 출처: The Guardian."
     }
 ];
 
