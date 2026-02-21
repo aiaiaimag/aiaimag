@@ -620,13 +620,15 @@ def send_email_briefing(news_data, trend_data, date_str):
     """
     gmail_user     = os.environ.get("GMAIL_USER", "")
     gmail_password = os.environ.get("GMAIL_APP_PASSWORD", "")
-    to_email       = os.environ.get("RECIPIENT_EMAIL", gmail_user)  # 수신자 = 보낸 사람 (기본)
+    # 콤마로 구분된 다중 수신자 지원: "a@gmail.com,b@naver.com"
+    raw_recipients = os.environ.get("RECIPIENT_EMAIL", gmail_user)
+    to_list        = [e.strip() for e in raw_recipients.split(",") if e.strip()]
 
     if not gmail_user or not gmail_password:
         print("📧 이메일 환경변수 미설정 — 발송 스킵")
         return
 
-    print(f"📧 이메일 브리핑 발송 중 → {to_email}")
+    print(f"📧 이메일 브리핑 발송 중 → {', '.join(to_list)}")
 
     # ── HTML 뉴스 카드 생성
     def news_card_html(item, is_trend=False):
@@ -717,14 +719,14 @@ def send_email_briefing(news_data, trend_data, date_str):
         msg = MIMEMultipart("alternative")
         msg["Subject"] = f"🦞 [{date_str}] AI 데일리 브리핑 — 오늘 터질 뉴스 TOP 3"
         msg["From"]    = f"AIMAG News Bot <{gmail_user}>"
-        msg["To"]      = to_email
+        msg["To"]      = ", ".join(to_list)   # 헤더용 문자열
         msg.attach(MIMEText(html_body, "html", "utf-8"))
 
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
             smtp.login(gmail_user, gmail_password)
-            smtp.sendmail(gmail_user, to_email, msg.as_string())
+            smtp.sendmail(gmail_user, to_list, msg.as_string())  # 리스트로 다중 발송
 
-        print(f"   ✅ 이메일 발송 완료 → {to_email}")
+        print(f"   ✅ 이메일 발송 완료 → {', '.join(to_list)}")
 
     except smtplib.SMTPAuthenticationError:
         print("   ❌ Gmail 인증 실패 — GMAIL_USER / GMAIL_APP_PASSWORD 확인 필요")
