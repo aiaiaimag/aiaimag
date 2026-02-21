@@ -13,6 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
+    permissions:
+      contents: write   # git push 권한
+
     steps:
       # ── 1. 저장소 체크아웃
       - name: 📥 Checkout Repository
