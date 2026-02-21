@@ -8,7 +8,7 @@
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Prediction: These 2 Artificial Intelligence (AI) Stocks Will Soar After Feb. 26 (Hint: Not Nvidia)",
+        "koTitle": "예측: 이 두 인공지능 (AI) 주식은 2월 26일 이후 급등할 것입니다 (힌트: 엔비디아 아님)",
         "enTitle": "Prediction: These 2 Artificial Intelligence (AI) Stocks Will Soar After Feb. 26 (Hint: Not Nvidia)",
         "date": "2026-02-21",
         "originalDate": "2026-02-20",
@@ -18,7 +18,7 @@ const aiNewsData = [
         "viralRate": "85%",
         "hookTitles": [
             {
-                "top": "Prediction: The...",
+                "top": "예측: 이 두 인공지능 (A...",
                 "bottom": "(Nasdaq)"
             },
             {
@@ -26,12 +26,12 @@ const aiNewsData = [
                 "bottom": "최초발행: 2026-02-20"
             }
         ],
-        "analysis": "Prediction: These 2 Artificial Intelligence (AI) Stocks Will Soar After Feb. 26 (Hint: Not Nvidia) | 오늘 발표된 최신 뉴스입니다. 출처: Nasdaq.",
+        "analysis": "예측: 이 두 인공지능 (AI) 주식은 2월 26일 이후 급등할 것입니다 (힌트: 엔비디아 아님) | 오늘 발표된 최신 뉴스입니다. 출처: Nasdaq.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "'Breweries using AI could put artists out of work'",
+        "koTitle": "'인공지능을 활용한 양조장은 예술가를 퇴출시킬 수 있다'",
         "enTitle": "'Breweries using AI could put artists out of work'",
         "date": "2026-02-21",
         "originalDate": "2026-02-21",
@@ -41,7 +41,7 @@ const aiNewsData = [
         "viralRate": "82%",
         "hookTitles": [
             {
-                "top": "'Breweries usin...",
+                "top": "'인공지능을 활용한 양조장은...",
                 "bottom": "(BBC)"
             },
             {
@@ -49,11 +49,11 @@ const aiNewsData = [
                 "bottom": "최초발행: 2026-02-21"
             }
         ],
-        "analysis": "'Breweries using AI could put artists out of work' | 오늘 발표된 최신 뉴스입니다. 출처: BBC."
+        "analysis": "'인공지능을 활용한 양조장은 예술가를 퇴출시킬 수 있다' | 오늘 발표된 최신 뉴스입니다. 출처: BBC."
     },
     {
         "rank": 3,
-        "koTitle": "People Loved the Dot-Com Boom. The A.I. Boom, Not So Much.",
+        "koTitle": "사람들은 닷컴 붐을 좋아했습니다. A.I. Boom, 그다지 많지 않습니다.",
         "enTitle": "People Loved the Dot-Com Boom. The A.I. Boom, Not So Much.",
         "date": "2026-02-21",
         "originalDate": "2026-02-21",
@@ -63,7 +63,7 @@ const aiNewsData = [
         "viralRate": "81%",
         "hookTitles": [
             {
-                "top": "People Loved th...",
+                "top": "사람들은 닷컴 붐을 좋아했습...",
                 "bottom": "(The New York Times)"
             },
             {
@@ -71,7 +71,7 @@ const aiNewsData = [
                 "bottom": "최초발행: 2026-02-21"
             }
         ],
-        "analysis": "People Loved the Dot-Com Boom. The A.I. Boom, Not So Much. | 오늘 발표된 최신 뉴스입니다. 출처: The New York Times."
+        "analysis": "사람들은 닷컴 붐을 좋아했습니다. A.I. Boom, 그다지 많지 않습니다. | 오늘 발표된 최신 뉴스입니다. 출처: The New York Times."
     }
 ];
 
@@ -108,7 +108,7 @@ const generalTrendingData = [
         "sourceName": "전자신문",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5pYmN4TzM3dGYwVFFCZmdoMHR5WHpoNUZJOE5LOGFCZGQ5OGhVLWJLV1p3UC1YR1R2WnFaTGVtcFlsYXdBbHRMbGFhN0RaZw?oc=5",
         "isRepublished": false,
-        "viralRate": "81%",
+        "viralRate": "79%",
         "hookTitles": [
             {
                 "top": "전북연구원, 피지컬AI·RE...",
@@ -131,7 +131,7 @@ const generalTrendingData = [
         "sourceName": "네이트",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YRlgzbFNfTHJRV3JtSlVWMkRNTWZGSjZGdF9HbC11TVQ0cV9Fcnc2YUxxYVZnclhhX29KTmVybWN1UEZza25pMG4wcWZtcF9QMjYw?oc=5",
         "isRepublished": false,
-        "viralRate": "77%",
+        "viralRate": "75%",
         "hookTitles": [
             {
                 "top": "인텔, AI PC 시대 선언...",

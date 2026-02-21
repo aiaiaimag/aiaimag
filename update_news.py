@@ -10,14 +10,20 @@ import html
 import time
 
 # ============================================================
-# 코다리 부장 - AI 뉴스 완전 자동화 스크립트 (Option B)
+# 코다리 부장 - AI 뉴스 완전 자동화 스크립트 (Option B v2)
 # 엔진: Google News RSS (완전 무료, API 키 불필요)
+# 번역: MyMemory Translation API (무료, API 키 불필요)
 # 기능:
 #   - 실시간 AI 뉴스 자동 수집 (영문/한국 뉴스)
+#   - 영문 제목 → 한글 자동 번역 (koTitle)
+#   - 영문 원본 제목 보존 (enTitle)
 #   - 최초발행일 자동 파싱 및 더블체크
 #   - 재발행 의심 기사 자동 감지
 #   - ai-app.js 자동 업데이트
 # ============================================================
+
+# 번역 결과 로컬 캐시 (동일 요청 반복 방지)
+_translation_cache = {}
 
 # ─── RSS 피드 URL 설정 ────────────────────────────────────────
 
@@ -195,6 +201,58 @@ def title_to_ko_en(title, source):
     return clean_title, source
 
 
+def translate_to_korean(text, retries=2):
+    """
+    MyMemory 무료 번역 API를 사용해 영문 → 한국어로 번역합니다.
+    - API 키 불필요, 완전 무료
+    - 실패 시 원문(영문) 그대로 반환
+    - 캐시 적용으로 중복 번역 방지
+    """
+    global _translation_cache
+
+    if not text or not text.strip():
+        return text
+
+    # 이미 한글이 포함된 경우 번역 불필요
+    if any('\uac00' <= ch <= '\ud7a3' for ch in text):
+        return text
+
+    # 캐시 확인
+    cache_key = text[:100]
+    if cache_key in _translation_cache:
+        return _translation_cache[cache_key]
+
+    # MyMemory API 호출
+    encoded_text = quote(text[:500])  # 500자 제한
+    url = f"https://api.mymemory.translated.net/get?q={encoded_text}&langpair=en|ko&de=aimag@ai.ai.mag"
+
+    for attempt in range(retries + 1):
+        try:
+            req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urlopen(req, timeout=10) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+
+            # 번역 결과 추출
+            translated = data.get("responseData", {}).get("translatedText", "")
+            status_code = data.get("responseStatus", 0)
+
+            if translated and str(status_code) == "200":
+                # 번역 품질 체크 — 원문과 동일하면 번역 실패로 간주
+                if translated.strip().lower() != text.strip().lower():
+                    _translation_cache[cache_key] = translated
+                    return translated
+
+        except Exception as e:
+            if attempt < retries:
+                time.sleep(1)  # 재시도 전 대기
+                continue
+            print(f"   ⚠️  번역 실패 ({text[:30]}...): {e}")
+
+    # 모든 시도 실패 → 원문 반환
+    _translation_cache[cache_key] = text
+    return text
+
+
 # ─── 메인 뉴스 수집 함수 ──────────────────────────────────────
 
 def collect_news():
@@ -283,10 +341,14 @@ def format_news_item(item, rank, is_top_pick=False):
     today_str = datetime.now().strftime("%Y-%m-%d")
     timestamp = datetime.now().strftime("%H%M")
 
-    # 제목에서 언론사명 분리
+    # 제목에서 언론사명 분리 (영문 원본 보존)
     raw_title = item.get("title", "제목 없음")
     source    = item.get("source", "")
-    title, source = title_to_ko_en(raw_title, source)
+    en_title_clean, source = title_to_ko_en(raw_title, source)
+
+    # ✨ 한글 번역 (영문 원본은 en_title_clean으로 보존)
+    print(f"   🌐 번역 중: {en_title_clean[:45]}...")
+    ko_title = translate_to_korean(en_title_clean)
 
     # 최초발행일 파싱
     pub_dt = parse_pub_date(item.get("pubDate", ""))
@@ -302,20 +364,20 @@ def format_news_item(item, rank, is_top_pick=False):
     # 재발행 판정: 3일 이상 지난 기사
     is_republished = days_old >= 3
 
-    # 후크 타이틀 자동 생성 (간단한 규칙 기반)
-    hook1_top    = title[:15].strip() + "..." if len(title) > 15 else title
+    # 후크 타이틀 자동 생성 (한국어 기준)
+    hook1_top    = ko_title[:15].strip() + "..." if len(ko_title) > 15 else ko_title
     hook1_bottom = f"({source})" if source else "AI 최신 이슈"
     hook2_top    = "주목할 이 뉴스!" if not is_top_pick else "오늘의 핫 이슈"
     hook2_bottom = f"최초발행: {original_date}"
 
     # 분석 텍스트 자동 생성
     freshness_msg = "오늘 발표된 최신 뉴스입니다." if days_old == 0 else f"{days_old}일 전 발행된 기사입니다."
-    analysis = f"{title} | {freshness_msg} 출처: {source}."
+    analysis = f"{ko_title} | {freshness_msg} 출처: {source}."
 
     result = {
         "rank": rank,
-        "koTitle": title,
-        "enTitle": title,  # 영문 기사의 경우 동일 제목 사용
+        "koTitle": ko_title,           # ✅ 한글 번역본
+        "enTitle": en_title_clean,     # ✅ 영문 원본 (구글 검색 가능한 실제 제목)
         "date": today_str,
         "originalDate": original_date,
         "sourceName": source if source else "Google News",
