@@ -8,6 +8,9 @@ from urllib.error import URLError
 from urllib.parse import quote
 import html
 import time
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
 # ============================================================
 # 코다리 부장 - AI 뉴스 완전 자동화 스크립트 (Option B v2)
@@ -599,10 +602,134 @@ def main():
 
     if success:
         print(f"\n🎉 대표님! {today_str} 뉴스 자동 업데이트 완료!")
-        print("   GitHub Push → Netlify 자동 배포 예정입니다.\n")
+        print("   GitHub Push → GitHub Pages 자동 배포 예정입니다.\n")
     else:
         print("\n❌ 업데이트 실패 — 수동 확인이 필요합니다.\n")
         exit(1)
+
+    # ── 7. 이메일 브리핑 발송
+    send_email_briefing(news_data, trend_data, today_str)
+
+
+# ─── 📧 이메일 브리핑 발송 ─────────────────────────────────────
+
+def send_email_briefing(news_data, trend_data, date_str):
+    """
+    매일 업데이트 완료 후 오너님께 HTML 이메일 브리핑을 발송합니다.
+    환경변수 GMAIL_USER / GMAIL_APP_PASSWORD 가 없으면 조용히 스킵.
+    """
+    gmail_user     = os.environ.get("GMAIL_USER", "")
+    gmail_password = os.environ.get("GMAIL_APP_PASSWORD", "")
+    to_email       = os.environ.get("RECIPIENT_EMAIL", gmail_user)  # 수신자 = 보낸 사람 (기본)
+
+    if not gmail_user or not gmail_password:
+        print("📧 이메일 환경변수 미설정 — 발송 스킵")
+        return
+
+    print(f"📧 이메일 브리핑 발송 중 → {to_email}")
+
+    # ── HTML 뉴스 카드 생성
+    def news_card_html(item, is_trend=False):
+        title    = item.get("koTitle", "")
+        analysis = item.get("analysis", "")
+        viral    = item.get("viralRate", "")
+        rank     = item.get("rank", "")
+        category = item.get("category", "AI")
+        source   = item.get("sourceName", "")
+        url      = item.get("sourceUrl", "#")
+        orig_dt  = item.get("originalDate", "")
+        en_title = item.get("enTitle", "")
+
+        viral_color = "#ef4444" if int(viral.replace("%","")) >= 95 else \
+                      "#f97316" if int(viral.replace("%","")) >= 90 else "#00f2ff"
+
+        link_html = ""
+        if not is_trend and url and url != "#":
+            link_html = f'<a href="{url}" style="display:inline-block;margin-top:10px;padding:6px 16px;background:rgba(0,242,255,0.1);border:1px solid rgba(0,242,255,0.3);border-radius:20px;color:#00f2ff;text-decoration:none;font-size:12px;">🔗 뉴스 원문 보기</a>'
+
+        date_html = ""
+        if not is_trend and orig_dt:
+            date_html = f'<p style="color:#888;font-size:11px;margin:8px 0 0;">📅 최초발행: {orig_dt} · {source}</p>'
+
+        en_html = ""
+        if not is_trend and en_title:
+            en_html = f'<p style="color:#aaa;font-size:12px;font-style:italic;margin:4px 0 8px;">{en_title}</p>'
+
+        label = category if is_trend else "AI"
+
+        return f'''
+        <div style="background:#0d1117;border:1px solid #21262d;border-radius:12px;padding:20px;margin-bottom:16px;">
+            <div style="font-size:11px;font-weight:700;color:#00f2ff;letter-spacing:0.08em;margin-bottom:8px;">{label} TOP {rank}</div>
+            <h3 style="margin:0 0 4px;color:#f0f6fc;font-size:15px;line-height:1.4;">{title}</h3>
+            {en_html}
+            <div style="display:inline-block;padding:3px 10px;background:rgba(0,242,255,0.08);border:1px solid {viral_color};border-radius:20px;font-size:11px;font-weight:700;color:{viral_color};margin-bottom:10px;">🔥 터질 가능성: {viral}</div>
+            <div style="background:#161b22;border-left:3px solid #00f2ff;border-radius:0 8px 8px 0;padding:12px 14px;margin-top:4px;">
+                <div style="font-size:11px;color:#00f2ff;font-weight:700;margin-bottom:6px;">🦞 코다리 분석</div>
+                <p style="color:#c9d1d9;font-size:13px;line-height:1.6;margin:0;">{analysis}</p>
+            </div>
+            {date_html}
+            {link_html}
+        </div>'''
+
+    news_html  = "".join(news_card_html(item, is_trend=False) for item in news_data)
+    trend_html = "".join(news_card_html(item, is_trend=True)  for item in trend_data)
+
+    site_url = "https://aiaiaimag.github.io/aiaimag"
+
+    html_body = f'''
+    <!DOCTYPE html>
+    <html lang="ko">
+    <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+    <body style="background:#010409;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;margin:0;padding:0;">
+    <div style="max-width:600px;margin:0 auto;padding:24px 16px;">
+
+        <!-- 헤더 -->
+        <div style="text-align:center;padding:32px 0 24px;">
+            <div style="font-size:11px;font-weight:700;letter-spacing:0.15em;color:#00f2ff;margin-bottom:8px;">ai.ai.mag</div>
+            <h1 style="font-size:24px;font-weight:800;color:#f0f6fc;margin:0 0 6px;">🦞 AI 데일리 브리핑</h1>
+            <p style="color:#8b949e;font-size:13px;margin:0;">{date_str} · 코다리 부장 자동 발송</p>
+        </div>
+
+        <!-- 구분선 -->
+        <div style="border-top:1px solid #21262d;padding-top:20px;margin-bottom:6px;">
+            <h2 style="font-size:13px;font-weight:700;color:#00f2ff;letter-spacing:0.08em;margin:0 0 14px;">📰 AI 핵심 이슈 TOP 3</h2>
+            {news_html}
+        </div>
+
+        <div style="border-top:1px solid #21262d;padding-top:20px;margin-bottom:6px;">
+            <h2 style="font-size:13px;font-weight:700;color:#c792ea;letter-spacing:0.08em;margin:0 0 14px;">💡 2030 세대 AI 트렌드 TOP 3</h2>
+            {trend_html}
+        </div>
+
+        <!-- 사이트 링크 -->
+        <div style="text-align:center;padding:24px 0 16px;">
+            <a href="{site_url}" style="display:inline-block;padding:12px 28px;background:linear-gradient(135deg,#00f2ff22,#7f00ff22);border:1px solid #00f2ff44;border-radius:30px;color:#00f2ff;text-decoration:none;font-size:13px;font-weight:700;">🌐 사이트에서 전체 보기</a>
+        </div>
+
+        <!-- 푸터 -->
+        <p style="text-align:center;color:#484f58;font-size:11px;margin-top:24px;">© 2026 ai.ai.mag · 매일 오전 7시 자동 발송</p>
+    </div>
+    </body>
+    </html>'''
+
+    # ── 이메일 구성 & 발송
+    try:
+        msg = MIMEMultipart("alternative")
+        msg["Subject"] = f"🦞 [{date_str}] AI 데일리 브리핑 — 오늘 터질 뉴스 TOP 3"
+        msg["From"]    = f"AIMAG News Bot <{gmail_user}>"
+        msg["To"]      = to_email
+        msg.attach(MIMEText(html_body, "html", "utf-8"))
+
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
+            smtp.login(gmail_user, gmail_password)
+            smtp.sendmail(gmail_user, to_email, msg.as_string())
+
+        print(f"   ✅ 이메일 발송 완료 → {to_email}")
+
+    except smtplib.SMTPAuthenticationError:
+        print("   ❌ Gmail 인증 실패 — GMAIL_USER / GMAIL_APP_PASSWORD 확인 필요")
+    except Exception as e:
+        print(f"   ⚠️  이메일 발송 실패: {e}")
 
 
 if __name__ == "__main__":

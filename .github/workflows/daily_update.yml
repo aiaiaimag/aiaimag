@@ -33,11 +33,14 @@ jobs:
           python --version
           echo "✅ 표준 라이브러리만 사용하므로 추가 패키지 설치 불필요"
 
-      # ── 4. 뉴스 업데이트 스크립트 실행
+      # ── 4. 뉴스 업데이트 스크립트 실행 (이메일 브리핑 포함)
       - name: 🌐 Run AI News Auto-Update Script
         run: python update_news.py
         env:
           TZ: Asia/Seoul
+          GMAIL_USER:         ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RECIPIENT_EMAIL:    ${{ secrets.RECIPIENT_EMAIL }}
 
       # ── 5. 변경 사항 확인
       - name: 🔍 Check for Changes
