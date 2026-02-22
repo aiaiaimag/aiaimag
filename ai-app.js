@@ -1,40 +1,62 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-02-22
+ * 최신 업데이트: 2026-02-23
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Mistral AI의 CEO는 인공 지능의 극단적 인 위험에 대한 경고는 종종 '산만 전술' 이라고 말합니다.",
-        "enTitle": "CEO of Mistral AI says warnings about extreme risks of artificial intelligence are often 'distraction tactics'",
-        "date": "2026-02-22",
-        "originalDate": "2026-02-21",
-        "sourceName": "Le Monde.fr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxORmh3QXdkVjV1UGVNaGJmTnRFWTBmVWI4dWdCcDdoUUxLTlZoVXBrNU8xSzRSZ283QXRMSGIxS1VjajR2bkZ1SlBNcGtsaWNROEg4dEtrVDByb2NfaGFkTThXdzU0bWt2Wk53TC0zdXpqTGZuNE1EVlo1RFptNE5oTnVIRFVubEpYZVJjS2RPYjFMRDZvSXFNQzcxOXI2aDAxSmJjT1pzcTRSZEhtVTVRM2hDaVNNbjZtZXRVM1JSWXFzTHlDVnpBUHM1Tl9XbmU0Uk01TExmaEZlRHZjaUhZbEF6R3RsR2JtV3BLeThGZE9nVUhGRWRjLWk0aHBMYk40RXFZVkxoMng?oc=5",
+        "koTitle": "Apple의 차세대 거물은 시각 인공 지능에 대한 추진력입니다.",
+        "enTitle": "Apple’s Next Big Thing Is a Push Into Visual Artificial Intelligence",
+        "date": "2026-02-23",
+        "originalDate": "2026-02-22",
+        "sourceName": "Bloomberg.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaTV1cFJlOHE3XzVLMUZlUzJaM2NhWW5LcUNlT0N4MExWUjdnejBvdzlndE83REhBbkN6anRobmlJQmhndGkwTWhiZ3k4S3NtNnd2VlBJYmNxeVpwRmMtenN0dW1qcHBSMlpndkVvWXNWVGdwVVZ6MFpNTU5ONXhLb2dRQTVseXJFSjlaMjFWcVl0MmcwM1I3UXRlZk9lTjFZV1hvWkJzaWU2Qi1mNXlYcy1aVFYwMzdmY216WDA5dTBTZk1ocEJvaHhR?oc=5",
         "isRepublished": false,
-        "viralRate": "88%",
+        "viralRate": "89%",
         "hookTitles": [
             {
-                "top": "Mistral AI의 CEO...",
-                "bottom": "(Le Monde.fr)"
+                "top": "Apple의 차세대 거물은...",
+                "bottom": "(Bloomberg.com)"
             },
             {
                 "top": "오늘의 핫 이슈",
-                "bottom": "최초발행: 2026-02-21"
+                "bottom": "최초발행: 2026-02-22"
             }
         ],
-        "analysis": "Mistral AI의 CEO는 인공 지능의 극단적 인 위험에 대한 경고는 종종 '산만 전술' 이라고 말합니다. | 오늘 발표된 최신 뉴스입니다. 출처: Le Monde.fr.",
+        "analysis": "Apple의 차세대 거물은 시각 인공 지능에 대한 추진력입니다. | 오늘 발표된 최신 뉴스입니다. 출처: Bloomberg.com.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "AI 위협은 작업 손실보다 훨씬 큽니다.",
+        "enTitle": "The AI threat is far greater than job losses",
+        "date": "2026-02-23",
+        "originalDate": "2026-02-22",
+        "sourceName": "The Observer",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRnJpTEdIUWpoWnJubjlfY0JrVWJiNzlKX2JBRHptaXFqU1hBQ3hGUUFLQ29QVXAzTUt4dHQ1T3N5ME1yU1FkcEQyOTdmNWFQX2FQYnBIeDZRRl9MYkRBUnhpU1BZb3h6YUtEYmtEa1N2QVlMYmUzT2VvdW82MEVBREl3dWlZZ3lmMHZuc3JkSXpRd3BnQUtqVVJfNWFWd2pkeG9hT3ZGLU9lZUhtbDl4NFVwMkRIWFdPdkNRUTBTdlM1QUpCbWI2WllhVXNESm8?oc=5",
+        "isRepublished": false,
+        "viralRate": "83%",
+        "hookTitles": [
+            {
+                "top": "AI 위협은 작업 손실보다...",
+                "bottom": "(The Observer)"
+            },
+            {
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-22"
+            }
+        ],
+        "analysis": "AI 위협은 작업 손실보다 훨씬 큽니다. | 오늘 발표된 최신 뉴스입니다. 출처: The Observer."
+    },
+    {
+        "rank": 3,
         "koTitle": "AI (인공지능)",
         "enTitle": "AI (artificial intelligence)",
-        "date": "2026-02-22",
-        "originalDate": "2026-02-21",
+        "date": "2026-02-23",
+        "originalDate": "2026-02-22",
         "sourceName": "The Guardian",
         "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ITEpPcjJTZG1IZVJXYTVWanhKNHZ6QmZ0QngyS1d5T1VzdFVmQ2lrUzJ2U3RQeWZHY3ExbU1DX3dJRFhFRGJoV2tyZmVuYkYzekRrTnZNOFg3Q2hPS3ZzbVlNQVgzcWJONnBIb3h2SW4?oc=5",
         "isRepublished": false,
@@ -46,32 +68,10 @@ const aiNewsData = [
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-21"
+                "bottom": "최초발행: 2026-02-22"
             }
         ],
         "analysis": "AI (인공지능) | 오늘 발표된 최신 뉴스입니다. 출처: The Guardian."
-    },
-    {
-        "rank": 3,
-        "koTitle": "인공지능 챗봇이 미성년자와 상호 작용하는 방식을 규제하기 위해 신속하게 움직이는 법안",
-        "enTitle": "Bill moving quickly to regulate how AI chatbots interact with minors",
-        "date": "2026-02-22",
-        "originalDate": "2026-02-21",
-        "sourceName": "KOMO",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQX1ZZTE1GSGdaeU9zc1F3b09lTjJPc21FSW9kTWRHTTY3NG50ZkhscjgteHprektaMlJkcDFROHU4TGVkTDlhNmFwVkhGRW8wRjFLeDZiYmpteE1nSEI4bHRBT09hTW1ydVo5UEtuZ1JXTjcwODNoSlFtVHZGRURiRzVzQktiQUh5OEtoc0kzX1JkZ1AtVjJFQm1adFlIUFFPMTdZU2RDOGs0V1djU1VLZFZPZ1FVb0NfNzdLMFhMNFQ4R0VtdmR2azN0UnVxUUxTUU42aXpPeHppOV9ReFdJZ0FydkdqdVJmTGtTQlotd1pVZWZ5RzVMODVYYjNuTmI1YktoZC1mMUt6bFloOGF3eWJTSDZHUQ?oc=5",
-        "isRepublished": false,
-        "viralRate": "81%",
-        "hookTitles": [
-            {
-                "top": "인공지능 챗봇이 미성년자와...",
-                "bottom": "(KOMO)"
-            },
-            {
-                "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-21"
-            }
-        ],
-        "analysis": "인공지능 챗봇이 미성년자와 상호 작용하는 방식을 규제하기 위해 신속하게 움직이는 법안 | 오늘 발표된 최신 뉴스입니다. 출처: KOMO."
     }
 ];
 
@@ -81,71 +81,71 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "은행들이 2026년 설날 연휴 기간 동안 발생할 수 있는 AI 사기에 대해 긴급 경고를 발표했습니다.",
-        "enTitle": "은행들이 2026년 설날 연휴 기간 동안 발생할 수 있는 AI 사기에 대해 긴급 경고를 발표했습니다.",
-        "date": "2026-02-22",
-        "originalDate": "2026-02-21",
-        "sourceName": "Vietnam.vn",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUDk3cm1SM1RMTmRfUGh0bURfOWVZeDFNRXZlSENkcDNXN0dDekVWeGRKdnU4d0U1V2lpNlBjcEQ5U01uWFJ1d2JtZ2hNaUx6NTBmQ2dVME92U0pRc2ROMzVHbnd0NXFhSEluS2tTeDJGV3VveVpUbDBzV2lQZDJtOEx3?oc=5",
+        "koTitle": "횡성군 2026년 인공지능(AI) 행정 전환 본격화",
+        "enTitle": "횡성군 2026년 인공지능(AI) 행정 전환 본격화",
+        "date": "2026-02-23",
+        "originalDate": "2026-02-22",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLRWZ0aURlT1gzdy0ySWtZdkdTbjdPalI0V3pFX29McV9POUtMZXRxY2I0WkxwMU8xRUExQ1NpRE52ck01eGhCT25YTE0xbjg?oc=5",
         "isRepublished": false,
-        "viralRate": "84%",
+        "viralRate": "85%",
         "hookTitles": [
             {
-                "top": "은행들이 2026년 설날 연...",
-                "bottom": "(Vietnam.vn)"
+                "top": "횡성군 2026년 인공지능(...",
+                "bottom": "(v.daum.net)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-21"
+                "bottom": "최초발행: 2026-02-22"
             }
         ],
-        "analysis": "은행들이 2026년 설날 연휴 기간 동안 발생할 수 있는 AI 사기에 대해 긴급 경고를 발표했습니다. | 오늘 발표된 최신 뉴스입니다. 출처: Vietnam.vn.",
+        "analysis": "횡성군 2026년 인공지능(AI) 행정 전환 본격화 | 오늘 발표된 최신 뉴스입니다. 출처: v.daum.net.",
         "category": "Physical AI"
     },
     {
         "rank": 2,
-        "koTitle": "[심리학을 재편하는 인공지능: 2026년, 더 빠른 선별 검사와 맞춤형 케어의 시대] 2026년의 AI는 정신 건강 관리의 행정 절차를 가속화하고 조기 선별 및 개인화된 치료를 지원하는 강력한 도구다.",
-        "enTitle": "[심리학을 재편하는 인공지능: 2026년, 더 빠른 선별 검사와 맞춤형 케어의 시대] 2026년의 AI는 정신 건강 관리의 행정 절차를 가속화하고 조기 선별 및 개인화된 치료를 지원하는 강력한 도구다.",
-        "date": "2026-02-22",
-        "originalDate": "2026-02-21",
-        "sourceName": "AI넷",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBjeVloWnNvdnU5b0MtLW5VVWhJSTEzUnRsVkNzdk43eUJLRVVsMGNFSEoxdnYyd3IwMDRBVmR3YzY?oc=5",
+        "koTitle": "‘풀스택’부터 ‘에이전틱’까지… MWC 2026서 선보이는 통신 3사 AI 전략",
+        "enTitle": "‘풀스택’부터 ‘에이전틱’까지… MWC 2026서 선보이는 통신 3사 AI 전략",
+        "date": "2026-02-23",
+        "originalDate": "2026-02-22",
+        "sourceName": "조선일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcWNTWGJMX2hKMmdMMzFRSF9XTWlpdFpQRGhwYXVNQnJyUVR3b2ZwNV9WaERza2hZa1dHSjdERlNTOHBncGdPR0Z1aFozMGJJRl9aR1loV1FrNlE3SDRKWlRRbW9jS1FiazE5cFNWRTlybm04QkstbV80cWRpVW9lNFJnY9IBlwFBVV95cUxPTnZGd3FTbEVEa1RSMmlPWGlXQ3JCV1k4M0Y2dE5zZHJUYkhpaUNSSl9iM2VMYWc4T0x4NE1QMFVnckRZTzNjaEJ4ZVFiMzluUHQ0VXVOVWxiaXlhTkdYck5MMUhHWmlwWXFiNEJmM1ZYUURYVVQxTlhFcVdVSXJxQ2RoLTZ5TXQtSDRVaVphc3RjZzlzeXpr?oc=5",
         "isRepublished": false,
         "viralRate": "83%",
         "hookTitles": [
             {
-                "top": "[심리학을 재편하는 인공지능...",
-                "bottom": "(AI넷)"
+                "top": "‘풀스택’부터 ‘에이전틱’까...",
+                "bottom": "(조선일보)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-21"
+                "bottom": "최초발행: 2026-02-22"
             }
         ],
-        "analysis": "[심리학을 재편하는 인공지능: 2026년, 더 빠른 선별 검사와 맞춤형 케어의 시대] 2026년의 AI는 정신 건강 관리의 행정 절차를 가속화하고 조기 선별 및 개인화된 치료를 지원하는 강력한 도구다. | 오늘 발표된 최신 뉴스입니다. 출처: AI넷.",
+        "analysis": "‘풀스택’부터 ‘에이전틱’까지… MWC 2026서 선보이는 통신 3사 AI 전략 | 오늘 발표된 최신 뉴스입니다. 출처: 조선일보.",
         "category": "Work & Career"
     },
     {
         "rank": 3,
-        "koTitle": "‘한미 기술번영 양해각서 이행 워킹그룹’ 출범…구체 협력 논의",
-        "enTitle": "‘한미 기술번영 양해각서 이행 워킹그룹’ 출범…구체 협력 논의",
-        "date": "2026-02-22",
-        "originalDate": "2026-02-21",
-        "sourceName": "부산일보사",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1MNnlXbF9DQWdzN0dPRFE3ODJwbEdpYUx6Q1JfUVFqNkZCTTJxcXNPS05INDdmU0lGdDlPSDZhejNSRXNKemRpQndXVmtEWm54cTNRSjJuM1JKMHZpVzRhc0hYNGttcE1uVVpCMUF1XzdGM2VG?oc=5",
+        "koTitle": "통신 3사 ‘MWC 2026’ 총출동···올해 테마도 ‘AI’",
+        "enTitle": "통신 3사 ‘MWC 2026’ 총출동···올해 테마도 ‘AI’",
+        "date": "2026-02-23",
+        "originalDate": "2026-02-22",
+        "sourceName": "경향신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBIRmpUQWdqRTdiOW1MQUdiWXRNTFlfT2haSFNGR3pBOG1LMWl5RUZUdkRTWXZMbWoxcHFoeFV2YmJvWEZ0cXVvZThWSVFiaFZrQTlOQlRNQ1JPZ9IBX0FVX3lxTE9VZmplaExBeC1mdGI5aHZHNEZjSU9KTnUwVmVUU2VGa29XYTFYUGMtYVVHWWxBLUJGM3QtTVp1MjlzdWplOUpIUzlJVkpVZTNOWXIwbktRRlJZVU9PNl9z?oc=5",
         "isRepublished": false,
-        "viralRate": "79%",
+        "viralRate": "81%",
         "hookTitles": [
             {
-                "top": "‘한미 기술번영 양해각서 이...",
-                "bottom": "(부산일보사)"
+                "top": "통신 3사 ‘MWC 2026...",
+                "bottom": "(경향신문)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-21"
+                "bottom": "최초발행: 2026-02-22"
             }
         ],
-        "analysis": "‘한미 기술번영 양해각서 이행 워킹그룹’ 출범…구체 협력 논의 | 오늘 발표된 최신 뉴스입니다. 출처: 부산일보사.",
+        "analysis": "통신 3사 ‘MWC 2026’ 총출동···올해 테마도 ‘AI’ | 오늘 발표된 최신 뉴스입니다. 출처: 경향신문.",
         "category": "Korea AI"
     }
 ];
