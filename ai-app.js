@@ -1,77 +1,77 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-02-23
+ * 최신 업데이트: 2026-02-24
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Apple의 차세대 거물은 시각 인공 지능에 대한 추진력입니다.",
-        "enTitle": "Apple’s Next Big Thing Is a Push Into Visual Artificial Intelligence",
-        "date": "2026-02-23",
-        "originalDate": "2026-02-22",
-        "sourceName": "Bloomberg.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaTV1cFJlOHE3XzVLMUZlUzJaM2NhWW5LcUNlT0N4MExWUjdnejBvdzlndE83REhBbkN6anRobmlJQmhndGkwTWhiZ3k4S3NtNnd2VlBJYmNxeVpwRmMtenN0dW1qcHBSMlpndkVvWXNWVGdwVVZ6MFpNTU5ONXhLb2dRQTVseXJFSjlaMjFWcVl0MmcwM1I3UXRlZk9lTjFZV1hvWkJzaWU2Qi1mNXlYcy1aVFYwMzdmY216WDA5dTBTZk1ocEJvaHhR?oc=5",
+        "koTitle": "미국 AI 거대 기업, 중국 라이벌을 대량 데이터 도용 혐의로 고발",
+        "enTitle": "US AI giant accuses Chinese rivals of mass data theft",
+        "date": "2026-02-24",
+        "originalDate": "2026-02-23",
+        "sourceName": "The Guardian",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjSTZTNVNoNVFnbl80ejNOdUJvQTdpNXlmWFBqM3NaTXRsWU4wbkRFYmRYSktIT002YWdUampiV18tUXBMR1BhMW5aWU5jN0RKWnV0cnp4enZ2bjg5aUNKTjlPLWs1ODBPeVh0bExuMjNXTlVEeEEtTTltdHA?oc=5",
         "isRepublished": false,
-        "viralRate": "89%",
+        "viralRate": "91%",
         "hookTitles": [
             {
-                "top": "Apple의 차세대 거물은...",
-                "bottom": "(Bloomberg.com)"
+                "top": "미국 AI 거대 기업, 중국...",
+                "bottom": "(The Guardian)"
             },
             {
                 "top": "오늘의 핫 이슈",
-                "bottom": "최초발행: 2026-02-22"
+                "bottom": "최초발행: 2026-02-23"
             }
         ],
-        "analysis": "Google·Apple의 AI 동향 관련 소식. 빠르게 변화하는 AI 생태계에서 주목해야 할 최신 움직임. AI 관심 독자층 사이에서 주목받을 이슈.",
+        "analysis": "미국 AI 거대 기업, 중국 라이벌을 대량 데이터 도용 혐의로 고발 | 오늘 발표된 최신 뉴스입니다. 출처: The Guardian.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "하이퍼스케일러가 2026년을 위해 싸우고 있는 인공지능 (AI) 인프라 스톡",
-        "enTitle": "The Artificial Intelligence (AI) Infrastructure Stock That Hyperscalers Are Fighting Over for 2026",
-        "date": "2026-02-23",
-        "originalDate": "2026-02-22",
-        "sourceName": "Yahoo Finance",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS2xTZk1DUmhvMVBGQ3FDZUdxeVFjR09FZHBkdHpSUnFla2tSZWZVS0ducnJTaW1JamdqZHNTNHRMSXB3OEJES1pJMVlleHVWUzhyRXVXcG5IXzlxMjVGdHJpcVNiVTI1UFFnOEk0djBKNFoxakJHSzhobEJoR25qWW92MlQzRFh0YlNlcVRKVUQ1ZVYzNXBhWg?oc=5",
+        "koTitle": "Bridgewater에 따르면 2026년 AI에 약 6,500억 $ 를 투자할 빅 테크",
+        "enTitle": "Big Tech to invest about $650 billion in AI in 2026, Bridgewater says",
+        "date": "2026-02-24",
+        "originalDate": "2026-02-23",
+        "sourceName": "Reuters",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYTBiU2Z2N19yek9Qa0M3dTg3QWRvcXowRUZNcGxnU0o4QkRmXzU4N053Vy1HdktTSU16UHhfQWdrcmhrVE51M1RJZER5X3NkQm5XRXh1RXlncXRBbWZ4UktfQUhkMkEwZHhCRWZxMHVOZ1lfSWpYbzJydjl4c3pHMU5CR1A5VHk1OFBrNGJpYWh1X0ppS3BmT2dzOFViTlBFTDltVTNR?oc=5",
         "isRepublished": false,
-        "viralRate": "85%",
+        "viralRate": "91%",
         "hookTitles": [
             {
-                "top": "하이퍼스케일러가 2026년을...",
-                "bottom": "(Yahoo Finance)"
+                "top": "Bridgewater에 따르...",
+                "bottom": "(Reuters)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-22"
+                "bottom": "최초발행: 2026-02-23"
             }
         ],
-        "analysis": "Google의 AI 동향 관련 소식. 빠르게 변화하는 AI 생태계에서 주목해야 할 최신 움직임. AI 관심 독자층 사이에서 주목받을 이슈."
+        "analysis": "Bridgewater에 따르면 2026년 AI에 약 6,500억 $ 를 투자할 빅 테크 | 오늘 발표된 최신 뉴스입니다. 출처: Reuters."
     },
     {
         "rank": 3,
-        "koTitle": "예측: 이 인공 지능 (AI) 주식은 2026년에 알파벳을 능가할 것입니다",
-        "enTitle": "Prediction: This Artificial Intelligence (AI) Stock Will Outperform Alphabet in 2026",
-        "date": "2026-02-23",
-        "originalDate": "2026-02-22",
-        "sourceName": "The Motley Fool",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa05uMWVRNy0tQThIQVh4Ujd2RUlpV2hReDdkbzYtNE4xTnA2ZHFweVpuMll2ZXZURHNBZnlidE5fSDN6NEViQUw2ZHJtWTg4Y2JJb3ljZ3BwZHF6MnMybTl1OE9EUTFpcWlJWW1uUWFsSHZOZURqMks4S1pYX3FUYk45MV9CaXJRc21kamkyc2N3S1UyQTBvcA?oc=5",
+        "koTitle": "소프트웨어, AI 위험에 대한 Citrini Post 후 결제 공유 싱크",
+        "enTitle": "Software, Payment Shares Sink After Citrini Post on AI Risks",
+        "date": "2026-02-24",
+        "originalDate": "2026-02-23",
+        "sourceName": "Bloomberg.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeVlEU2xHYlhTVXJnS0drZXpPV0tNbzBBbFZBVnJmbWxBcWQ1c2Jsb1B1YXBubld6TTFaaDllYVRaejlKSVgtTVhyVndwbEd2eTB4UENzbGM4TUcxdURJR2ZaTDRxVURlYWpwT1hmVTZqd2E1RzJ3STlBT1FpTnpGejdkNmthT2w2blEyZXpwdmlmY3N2RXZsZ0U4ME5IbFB4Q0xvdXBWWlp2dFhqcW52UUNrVQ?oc=5",
         "isRepublished": false,
-        "viralRate": "83%",
+        "viralRate": "89%",
         "hookTitles": [
             {
-                "top": "예측: 이 인공 지능 (AI...",
-                "bottom": "(The Motley Fool)"
+                "top": "소프트웨어, AI 위험에 대...",
+                "bottom": "(Bloomberg.com)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-22"
+                "bottom": "최초발행: 2026-02-23"
             }
         ],
-        "analysis": "Google의 성능·벤치마크 관련 소식. 모델 성능 경쟁의 결과가 실사용 환경에서의 차이로 직결됨. AI 트렌드를 파악하는 데 참고할 만한 이슈."
+        "analysis": "소프트웨어, AI 위험에 대한 Citrini Post 후 결제 공유 싱크 | 오늘 발표된 최신 뉴스입니다. 출처: Bloomberg.com."
     }
 ];
 
@@ -81,71 +81,71 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "“AI 잘 다루면 월급 더 받는다” .... 채용·연봉 시장서 AI·데이터 활용 역량 영향력 ‘뚜렷’",
-        "enTitle": "“AI 잘 다루면 월급 더 받는다” .... 채용·연봉 시장서 AI·데이터 활용 역량 영향력 ‘뚜렷’",
-        "date": "2026-02-23",
-        "originalDate": "2026-02-20",
-        "sourceName": "워크투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BaFBPTzR2emRuZEdEczREdTRseU1MdDJ6a2R0QnE4X1BHTWxJMUJsTnd2SHhCcC12V1FDRE1id0pweUZLQW1RZnhvbERoM2dSOGVFeXd2cFpRSTgyYWFCNXVIdlRwbE91dGNwSA?oc=5",
-        "isRepublished": true,
-        "viralRate": "70%",
+        "koTitle": "교육부, 2026년 대학 인공지능(AI) 기본교육과정 개발 지원사업 선정 공고",
+        "enTitle": "교육부, 2026년 대학 인공지능(AI) 기본교육과정 개발 지원사업 선정 공고",
+        "date": "2026-02-24",
+        "originalDate": "2026-02-23",
+        "sourceName": "시사미래신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50YTBpeEswQWRYaW9EdDlqdFh1REZ2ejZweFpDVWJKczVFOGkxTDBDdng4VUVXWjFkM0ktbjNVQUl3dzBTeVFwRXJvYkhrTG1fcGhJbldNNTA5Mkpkd2ZENmpJNA?oc=5",
+        "isRepublished": false,
+        "viralRate": "85%",
         "hookTitles": [
             {
-                "top": "“AI 잘 다루면 월급 더...",
-                "bottom": "(워크투데이)"
+                "top": "교육부, 2026년 대학 인...",
+                "bottom": "(시사미래신문)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-20"
+                "bottom": "최초발행: 2026-02-23"
             }
         ],
-        "analysis": "Google의 AI 동향 관련 소식. 빠르게 변화하는 AI 생태계에서 주목해야 할 최신 움직임. AI 트렌드를 파악하는 데 참고할 만한 이슈.",
+        "analysis": "교육부, 2026년 대학 인공지능(AI) 기본교육과정 개발 지원사업 선정 공고 | 오늘 발표된 최신 뉴스입니다. 출처: 시사미래신문.",
         "category": "Physical AI"
     },
     {
         "rank": 2,
-        "koTitle": "[미국 AI동향] 美 국방부, 마두로 체포 작전에 투입된 AI ‘클로드’ 둘러싸고 앤트로픽과 갈등",
-        "enTitle": "[미국 AI동향] 美 국방부, 마두로 체포 작전에 투입된 AI ‘클로드’ 둘러싸고 앤트로픽과 갈등",
-        "date": "2026-02-23",
-        "originalDate": "2026-02-17",
-        "sourceName": "솔루션뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vYy1jTW1nZGxlVnZzNW1oRmlzY3c5UTFpN19FeHg5cHdDMEJsT0xfLWNGRlRTdVlHbXBxSTV2MEZkM1hoaGVKU1ZsXzh6TjhzVjR4VlMwZ2QxN0hCQTFvbV9feVFUUFFvZ1VF?oc=5",
-        "isRepublished": true,
-        "viralRate": "70%",
+        "koTitle": "국립중앙도서관, 2026년 AI 리터러시 무료 교육 운영",
+        "enTitle": "국립중앙도서관, 2026년 AI 리터러시 무료 교육 운영",
+        "date": "2026-02-24",
+        "originalDate": "2026-02-23",
+        "sourceName": "전자신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9yZlZnMzBjeUJnbnA2aGtGSmFOVDBXaGQ4VkVzU255MmtwMTJibUNqQ2VGLVBnLU53aUx2ZU9palo2TWJsaGZCV0pPZzJ1QQ?oc=5",
+        "isRepublished": false,
+        "viralRate": "81%",
         "hookTitles": [
             {
-                "top": "[미국 AI동향] 美 국방부...",
-                "bottom": "(솔루션뉴스)"
+                "top": "국립중앙도서관, 2026년...",
+                "bottom": "(전자신문)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-17"
+                "bottom": "최초발행: 2026-02-23"
             }
         ],
-        "analysis": "Google의 AI 동향 관련 소식. 빠르게 변화하는 AI 생태계에서 주목해야 할 최신 움직임. AI 트렌드를 파악하는 데 참고할 만한 이슈.",
+        "analysis": "국립중앙도서관, 2026년 AI 리터러시 무료 교육 운영 | 오늘 발표된 최신 뉴스입니다. 출처: 전자신문.",
         "category": "Work & Career"
     },
     {
         "rank": 3,
-        "koTitle": "챗GPT·제미나이 이렇게 써라…직장서 살아남을 'AI 사용법'",
-        "enTitle": "챗GPT·제미나이 이렇게 써라…직장서 살아남을 'AI 사용법'",
-        "date": "2026-02-23",
-        "originalDate": "2026-02-15",
-        "sourceName": "중앙일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CaW5KVUJVUS0xY1UtbHJURmdhLVlVMDA3YWl0UkJOR1loYnVaMEZIYmVfVHc4WWk3Uzl1NE83QXVpS3R5Unh4VTg0RkNuOTdSTmFUNlN3?oc=5",
-        "isRepublished": true,
-        "viralRate": "68%",
+        "koTitle": "다가오는 MWC 2026 …통신 3사, AI 전략 뽐낸다",
+        "enTitle": "다가오는 MWC 2026 …통신 3사, AI 전략 뽐낸다",
+        "date": "2026-02-24",
+        "originalDate": "2026-02-23",
+        "sourceName": "굿모닝경제",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KSXZvVFhHRWhoaTE3YW51dy1tSGJReUFpd2tKUWlxbEt6YTRBaS1fa2hZVmVta0FfOXRFX2VxWTJrT0ViMnBiY3JQQmE4Z1VpR0twX256VDVpa05BZ29na0UxeDIwSTZ2ZERGSw?oc=5",
+        "isRepublished": false,
+        "viralRate": "79%",
         "hookTitles": [
             {
-                "top": "챗GPT·제미나이 이렇게 써...",
-                "bottom": "(중앙일보)"
+                "top": "다가오는 MWC 2026 …...",
+                "bottom": "(굿모닝경제)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-15"
+                "bottom": "최초발행: 2026-02-23"
             }
         ],
-        "analysis": "OpenAI·Google의 AI 동향 관련 소식. 빠르게 변화하는 AI 생태계에서 주목해야 할 최신 움직임. AI 트렌드를 파악하는 데 참고할 만한 이슈.",
+        "analysis": "다가오는 MWC 2026 …통신 3사, AI 전략 뽐낸다 | 오늘 발표된 최신 뉴스입니다. 출처: 굿모닝경제.",
         "category": "Korea AI"
     }
 ];
