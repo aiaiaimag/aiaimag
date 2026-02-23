@@ -1,47 +1,77 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-02-21
+ * 최신 업데이트: 2026-02-23
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "isTopPick": true,
-        "koTitle": "사람들은 닷컴 붐을 좋아했다. AI 붐은? 전혀 그렇지 않다.",
-        "enTitle": "People Loved the Dot-Com Boom. The A.I. Boom, Not So Much.",
-        "date": "2026-02-21",
-        "originalDate": "2026-02-21",
-        "sourceName": "The New York Times",
-        "sourceUrl": "https://www.nytimes.com/2026/02/21/technology/ai-public-opinion-dotcom.html",
+        "koTitle": "Apple의 차세대 거물은 시각 인공 지능에 대한 추진력입니다.",
+        "enTitle": "Apple’s Next Big Thing Is a Push Into Visual Artificial Intelligence",
+        "date": "2026-02-23",
+        "originalDate": "2026-02-22",
+        "sourceName": "Bloomberg.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaTV1cFJlOHE3XzVLMUZlUzJaM2NhWW5LcUNlT0N4MExWUjdnejBvdzlndE83REhBbkN6anRobmlJQmhndGkwTWhiZ3k4S3NtNnd2VlBJYmNxeVpwRmMtenN0dW1qcHBSMlpndkVvWXNWVGdwVVZ6MFpNTU5ONXhLb2dRQTVseXJFSjlaMjFWcVl0MmcwM1I3UXRlZk9lTjFZV1hvWkJzaWU2Qi1mNXlYcy1aVFYwMzdmY216WDA5dTBTZk1ocEJvaHhR?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "NYT가 여론조사 데이터를 근거로 '대중은 AI를 닷컴 붐만큼 흥분하지 않는다'는 충격적 결과를 보도했습니다. AI에 열광하는 소수 얼리어답터 vs. 불안해하는 다수 일반인의 간극을 수치로 증명한 겁니다. 이 갭이 커질수록 정치권이 움직이고, 규제 명분이 강해집니다. '나만 AI 싫어하는 거 아니었구나' 공감 폭발이 예상되며, 반AI 정서를 가진 팔로워들의 저장·공유율이 최상위권일 것으로 봅니다."
+        "viralRate": "89%",
+        "hookTitles": [
+            {
+                "top": "Apple의 차세대 거물은...",
+                "bottom": "(Bloomberg.com)"
+            },
+            {
+                "top": "오늘의 핫 이슈",
+                "bottom": "최초발행: 2026-02-22"
+            }
+        ],
+        "analysis": "Google·Apple의 AI 동향 관련 소식. 빠르게 변화하는 AI 생태계에서 주목해야 할 최신 움직임. AI 관심 독자층 사이에서 주목받을 이슈.",
+        "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "오픈AI, 카메라 달린 AI 스마트 스피커 개발 중 — 조니 아이브 협업, 2027년 출시 예정",
-        "enTitle": "OpenAI Is Building a Smart Speaker With a Camera",
-        "date": "2026-02-21",
-        "originalDate": "2026-02-19",
-        "sourceName": "The Verge",
-        "sourceUrl": "https://www.theverge.com/2026/2/19/openai-smart-speaker-camera-jony-ive",
+        "koTitle": "하이퍼스케일러가 2026년을 위해 싸우고 있는 인공지능 (AI) 인프라 스톡",
+        "enTitle": "The Artificial Intelligence (AI) Infrastructure Stock That Hyperscalers Are Fighting Over for 2026",
+        "date": "2026-02-23",
+        "originalDate": "2026-02-22",
+        "sourceName": "Yahoo Finance",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS2xTZk1DUmhvMVBGQ3FDZUdxeVFjR09FZHBkdHpSUnFla2tSZWZVS0ducnJTaW1JamdqZHNTNHRMSXB3OEJES1pJMVlleHVWUzhyRXVXcG5IXzlxMjVGdHJpcVNiVTI1UFFnOEk0djBKNFoxakJHSzhobEJoR25qWW92MlQzRFh0YlNlcVRKVUQ1ZVYzNXBhWg?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "아이폰을 만든 조니 아이브 + AI의 제왕 오픈AI가 '거실에서 항상 켜진 카메라'를 만들겠다는 소식입니다. '편의냐 감시냐'라는 프라이버시 논쟁이 즉시 불붙습니다. 디자인 팬(조니 아이브), AI 팬(오픈AI), 프라이버시 우려 그룹이 동시에 충돌하는 희귀한 뉴스입니다. 세 집단이 동시에 공유하면 알고리즘이 폭발합니다."
+        "viralRate": "85%",
+        "hookTitles": [
+            {
+                "top": "하이퍼스케일러가 2026년을...",
+                "bottom": "(Yahoo Finance)"
+            },
+            {
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-22"
+            }
+        ],
+        "analysis": "Google의 AI 동향 관련 소식. 빠르게 변화하는 AI 생태계에서 주목해야 할 최신 움직임. AI 관심 독자층 사이에서 주목받을 이슈."
     },
     {
         "rank": 3,
-        "koTitle": "엔비디아 아닌 AI 주식 2종목, 2월 26일 이후 급등 예측",
-        "enTitle": "Prediction: These 2 Artificial Intelligence (AI) Stocks Will Soar After Feb. 26 (Hint: Not Nvidia)",
-        "date": "2026-02-21",
-        "originalDate": "2026-02-20",
-        "sourceName": "Nasdaq / The Motley Fool",
-        "sourceUrl": "https://www.nasdaq.com/articles/prediction-these-2-artificial-intelligence-ai-stocks-will-soar-after-feb-26-hint-not",
+        "koTitle": "예측: 이 인공 지능 (AI) 주식은 2026년에 알파벳을 능가할 것입니다",
+        "enTitle": "Prediction: This Artificial Intelligence (AI) Stock Will Outperform Alphabet in 2026",
+        "date": "2026-02-23",
+        "originalDate": "2026-02-22",
+        "sourceName": "The Motley Fool",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa05uMWVRNy0tQThIQVh4Ujd2RUlpV2hReDdkbzYtNE4xTnA2ZHFweVpuMll2ZXZURHNBZnlidE5fSDN6NEViQUw2ZHJtWTg4Y2JJb3ljZ3BwZHF6MnMybTl1OE9EUTFpcWlJWW1uUWFsSHZOZURqMks4S1pYX3FUYk45MV9CaXJRc21kamkyc2N3S1UyQTBvcA?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "'엔비디아 아님'이라는 힌트 하나로 클릭율이 최소 3배 뜁니다. 2026년 들어 엔비디아 피로감이 쌓인 투자자들에게 '대안 AI 주식'은 꿈의 키워드입니다. 2월 26일이라는 구체적인 날짜 제시로 긴박감을 극대화했고, 지금부터 그날까지 매일 저장하고 다시 꺼내볼 기사입니다."
+        "viralRate": "83%",
+        "hookTitles": [
+            {
+                "top": "예측: 이 인공 지능 (AI...",
+                "bottom": "(The Motley Fool)"
+            },
+            {
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-22"
+            }
+        ],
+        "analysis": "Google의 성능·벤치마크 관련 소식. 모델 성능 경쟁의 결과가 실사용 환경에서의 차이로 직결됨. AI 트렌드를 파악하는 데 참고할 만한 이슈."
     }
 ];
 
@@ -50,25 +80,73 @@ const aiNewsData = [
 // 뉴스 기반이 아닌, 대학생·취준생·직장인이 진짜 궁금해할 AI 주제
 const generalTrendingData = [
     {
-        "category": "AI 부업",
         "rank": 1,
-        "koTitle": "AI로 월급 외 수입 만들기 — 2030이 실제로 쓰는 방법 5가지",
-        "viralRate": "99%",
-        "analysis": "돈 얘기는 항상 1등입니다. 취준생은 스펙 쌓는 것보다 '지금 당장 수입' 이 급하고, 직장인은 인상보다 '추가 수입'에 더 민감합니다. AI 부업은 진입 장벽이 낮고 결과가 빠릅니다 — Notion 템플릿 판매, GPT 프롬프트 판매, AI 영상 편집 외주 등 실제 사례가 넘쳐납니다. '나도 할 수 있겠다'는 실행 욕구를 자극하는 콘텐츠는 저장율과 공유율이 동시에 터집니다."
+        "koTitle": "“AI 잘 다루면 월급 더 받는다” .... 채용·연봉 시장서 AI·데이터 활용 역량 영향력 ‘뚜렷’",
+        "enTitle": "“AI 잘 다루면 월급 더 받는다” .... 채용·연봉 시장서 AI·데이터 활용 역량 영향력 ‘뚜렷’",
+        "date": "2026-02-23",
+        "originalDate": "2026-02-20",
+        "sourceName": "워크투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BaFBPTzR2emRuZEdEczREdTRseU1MdDJ6a2R0QnE4X1BHTWxJMUJsTnd2SHhCcC12V1FDRE1id0pweUZLQW1RZnhvbERoM2dSOGVFeXd2cFpRSTgyYWFCNXVIdlRwbE91dGNwSA?oc=5",
+        "isRepublished": true,
+        "viralRate": "70%",
+        "hookTitles": [
+            {
+                "top": "“AI 잘 다루면 월급 더...",
+                "bottom": "(워크투데이)"
+            },
+            {
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-20"
+            }
+        ],
+        "analysis": "Google의 AI 동향 관련 소식. 빠르게 변화하는 AI 생태계에서 주목해야 할 최신 움직임. AI 트렌드를 파악하는 데 참고할 만한 이슈.",
+        "category": "Physical AI"
     },
     {
-        "category": "AI 취업",
         "rank": 2,
-        "koTitle": "AI 면접관이 내 이력서를 먼저 본다 — 취준생이 몰랐던 채용 AI의 실체",
-        "viralRate": "97%",
-        "analysis": "카카오·네이버·삼성 등 대기업이 이미 AI 서류 스크리닝을 도입했습니다. 취준생 입장에서 이건 공포 + 필수 정보의 조합입니다. 'AI가 내 이력서를 어떻게 읽는가'를 아는 것만으로 합격률이 달라질 수 있다는 메시지는 절박한 공감을 만들어냅니다. 취준 커뮤니티(블라인드·에브리타임)에서 자발적으로 퍼지는 유형의 콘텐츠입니다."
+        "koTitle": "[미국 AI동향] 美 국방부, 마두로 체포 작전에 투입된 AI ‘클로드’ 둘러싸고 앤트로픽과 갈등",
+        "enTitle": "[미국 AI동향] 美 국방부, 마두로 체포 작전에 투입된 AI ‘클로드’ 둘러싸고 앤트로픽과 갈등",
+        "date": "2026-02-23",
+        "originalDate": "2026-02-17",
+        "sourceName": "솔루션뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vYy1jTW1nZGxlVnZzNW1oRmlzY3c5UTFpN19FeHg5cHdDMEJsT0xfLWNGRlRTdVlHbXBxSTV2MEZkM1hoaGVKU1ZsXzh6TjhzVjR4VlMwZ2QxN0hCQTFvbV9feVFUUFFvZ1VF?oc=5",
+        "isRepublished": true,
+        "viralRate": "70%",
+        "hookTitles": [
+            {
+                "top": "[미국 AI동향] 美 국방부...",
+                "bottom": "(솔루션뉴스)"
+            },
+            {
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-17"
+            }
+        ],
+        "analysis": "Google의 AI 동향 관련 소식. 빠르게 변화하는 AI 생태계에서 주목해야 할 최신 움직임. AI 트렌드를 파악하는 데 참고할 만한 이슈.",
+        "category": "Work & Career"
     },
     {
-        "category": "AI 관계",
         "rank": 3,
-        "koTitle": "AI 친구·AI 연애 — 외로운 2030이 선택한 새로운 인간관계",
-        "viralRate": "94%",
-        "analysis": "Replika, Character.ai 사용자 급증 — 한국 2030 사이에서도 AI와 대화하는 것이 더 이상 '이상한 일'이 아닙니다. '진짜 친구보다 AI가 더 편하다'는 현실은 찬반 논쟁을 동시에 부릅니다. 공감파 + 비판파 + 호기심파가 모두 댓글을 달고 싶어지는 구조입니다. 사회적 고립감이 심화되는 현 시점에서 이 주제는 단순 기술 이슈가 아닌 세대 감성 이슈로 폭발합니다."
+        "koTitle": "챗GPT·제미나이 이렇게 써라…직장서 살아남을 'AI 사용법'",
+        "enTitle": "챗GPT·제미나이 이렇게 써라…직장서 살아남을 'AI 사용법'",
+        "date": "2026-02-23",
+        "originalDate": "2026-02-15",
+        "sourceName": "중앙일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CaW5KVUJVUS0xY1UtbHJURmdhLVlVMDA3YWl0UkJOR1loYnVaMEZIYmVfVHc4WWk3Uzl1NE83QXVpS3R5Unh4VTg0RkNuOTdSTmFUNlN3?oc=5",
+        "isRepublished": true,
+        "viralRate": "68%",
+        "hookTitles": [
+            {
+                "top": "챗GPT·제미나이 이렇게 써...",
+                "bottom": "(중앙일보)"
+            },
+            {
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-15"
+            }
+        ],
+        "analysis": "OpenAI·Google의 AI 동향 관련 소식. 빠르게 변화하는 AI 생태계에서 주목해야 할 최신 움직임. AI 트렌드를 파악하는 데 참고할 만한 이슈.",
+        "category": "Korea AI"
     }
 ];
 
