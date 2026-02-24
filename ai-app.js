@@ -1,77 +1,77 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-02-24
+ * 최신 업데이트: 2026-02-25
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "미국 AI 거대 기업, 중국 라이벌을 대량 데이터 도용 혐의로 고발",
-        "enTitle": "US AI giant accuses Chinese rivals of mass data theft",
-        "date": "2026-02-24",
-        "originalDate": "2026-02-23",
+        "koTitle": "‘브레이크 없는 피드백 루프’: 인공지능 종말 보고서가 미국 시장을 뒤흔든 방법",
+        "enTitle": "‘A feedback loop with no brake’: how an AI doomsday report shook US markets",
+        "date": "2026-02-25",
+        "originalDate": "2026-02-24",
         "sourceName": "The Guardian",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjSTZTNVNoNVFnbl80ejNOdUJvQTdpNXlmWFBqM3NaTXRsWU4wbkRFYmRYSktIT002YWdUampiV18tUXBMR1BhMW5aWU5jN0RKWnV0cnp4enZ2bjg5aUNKTjlPLWs1ODBPeVh0bExuMjNXTlVEeEEtTTltdHA?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOam1VaUUycHM3Nlllakd2ZFo0MDZOaUJGNndoNE1jNGFRM0hRNWdTVEJTd0ZGUnlNblBzQWNHSnZ4ODJOek5oR0NrVmtCdjVLVzBMQXRSSWhPUmREZEJDaXdlMEhFZHNEYUtBZUNRTF9ZMHN4WDg4QjE1Ymp5WHkxUHRoTXNQXzNVR1I3aFpVaEtJajlqM0JQMUlTSml2LXE0NTZLbzhFLVV2Ujk3bTNrRVhn?oc=5",
         "isRepublished": false,
-        "viralRate": "91%",
+        "viralRate": "93%",
         "hookTitles": [
             {
-                "top": "미국 AI 거대 기업, 중국...",
+                "top": "‘브레이크 없는 피드백 루프...",
                 "bottom": "(The Guardian)"
             },
             {
                 "top": "오늘의 핫 이슈",
-                "bottom": "최초발행: 2026-02-23"
+                "bottom": "최초발행: 2026-02-24"
             }
         ],
-        "analysis": "미국 AI 거대 기업, 중국 라이벌을 대량 데이터 도용 혐의로 고발 | 오늘 발표된 최신 뉴스입니다. 출처: The Guardian.",
+        "analysis": "‘브레이크 없는 피드백 루프’: 인공지능 종말 보고서가 미국 시장을 뒤흔든 방법 | 오늘 발표된 최신 뉴스입니다. 출처: The Guardian.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "Bridgewater에 따르면 2026년 AI에 약 6,500억 $ 를 투자할 빅 테크",
-        "enTitle": "Big Tech to invest about $650 billion in AI in 2026, Bridgewater says",
-        "date": "2026-02-24",
-        "originalDate": "2026-02-23",
-        "sourceName": "Reuters",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYTBiU2Z2N19yek9Qa0M3dTg3QWRvcXowRUZNcGxnU0o4QkRmXzU4N053Vy1HdktTSU16UHhfQWdrcmhrVE51M1RJZER5X3NkQm5XRXh1RXlncXRBbWZ4UktfQUhkMkEwZHhCRWZxMHVOZ1lfSWpYbzJydjl4c3pHMU5CR1A5VHk1OFBrNGJpYWh1X0ppS3BmT2dzOFViTlBFTDltVTNR?oc=5",
+        "koTitle": "미국, AI 보호 조치에 대한 분쟁 시한으로 Anthropic 위협",
+        "enTitle": "US threatens Anthropic with deadline in dispute on AI safeguards",
+        "date": "2026-02-25",
+        "originalDate": "2026-02-24",
+        "sourceName": "BBC",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fTFA4Rlp2MzdLREk3VG1Ka05wWGNEWG9yczh3RXUtQTJSemtSTkE0bjVYMm5uNFIwVWZJdTk3bW9TOHhuR2p4UzFMUjVFS3N6ODh3bkFqVnNSUQ?oc=5",
         "isRepublished": false,
-        "viralRate": "91%",
+        "viralRate": "88%",
         "hookTitles": [
             {
-                "top": "Bridgewater에 따르...",
+                "top": "미국, AI 보호 조치에 대...",
+                "bottom": "(BBC)"
+            },
+            {
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-24"
+            }
+        ],
+        "analysis": "미국, AI 보호 조치에 대한 분쟁 시한으로 Anthropic 위협 | 오늘 발표된 최신 뉴스입니다. 출처: BBC."
+    },
+    {
+        "rank": 3,
+        "koTitle": "독점 제공: 중국의 DeepSeek는 미국의 금지 조치에도 불구하고 엔비디아 최고의 칩에서 AI 모델을 훈련시켰다고 관계자는 말합니다.",
+        "enTitle": "Exclusive: China's DeepSeek trained AI model on Nvidia's best chip despite US ban, official says",
+        "date": "2026-02-25",
+        "originalDate": "2026-02-24",
+        "sourceName": "Reuters",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYko5c1BzTGVuUV9VZl9CMGczWm5RdThBeW00Mm5BX3NDb2Z6XzZuNGstMWs1Y2pSZS1wcWdndEZBc3YwSEtNT0ZnXzNjUUFncWN5eHFEbXZ1ZmEyR3M3dFg2TU5tZzQ0QXdhZTJhTXJGSWxyXzRMcDJxZllwRXgxQTFhbkZ2RjFJbDViNmd2enRZWGtZcVV1cE9nUXFUNFQtQzFoZ01lRkc3YTlueXhwZVUxQTVkeDBfTlZmaWxlX1g0X0tCRFE?oc=5",
+        "isRepublished": false,
+        "viralRate": "88%",
+        "hookTitles": [
+            {
+                "top": "독점 제공: 중국의 Deep...",
                 "bottom": "(Reuters)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-23"
+                "bottom": "최초발행: 2026-02-24"
             }
         ],
-        "analysis": "Bridgewater에 따르면 2026년 AI에 약 6,500억 $ 를 투자할 빅 테크 | 오늘 발표된 최신 뉴스입니다. 출처: Reuters."
-    },
-    {
-        "rank": 3,
-        "koTitle": "소프트웨어, AI 위험에 대한 Citrini Post 후 결제 공유 싱크",
-        "enTitle": "Software, Payment Shares Sink After Citrini Post on AI Risks",
-        "date": "2026-02-24",
-        "originalDate": "2026-02-23",
-        "sourceName": "Bloomberg.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeVlEU2xHYlhTVXJnS0drZXpPV0tNbzBBbFZBVnJmbWxBcWQ1c2Jsb1B1YXBubld6TTFaaDllYVRaejlKSVgtTVhyVndwbEd2eTB4UENzbGM4TUcxdURJR2ZaTDRxVURlYWpwT1hmVTZqd2E1RzJ3STlBT1FpTnpGejdkNmthT2w2blEyZXpwdmlmY3N2RXZsZ0U4ME5IbFB4Q0xvdXBWWlp2dFhqcW52UUNrVQ?oc=5",
-        "isRepublished": false,
-        "viralRate": "89%",
-        "hookTitles": [
-            {
-                "top": "소프트웨어, AI 위험에 대...",
-                "bottom": "(Bloomberg.com)"
-            },
-            {
-                "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-23"
-            }
-        ],
-        "analysis": "소프트웨어, AI 위험에 대한 Citrini Post 후 결제 공유 싱크 | 오늘 발표된 최신 뉴스입니다. 출처: Bloomberg.com."
+        "analysis": "독점 제공: 중국의 DeepSeek는 미국의 금지 조치에도 불구하고 엔비디아 최고의 칩에서 AI 모델을 훈련시켰다고 관계자는 말합니다. | 오늘 발표된 최신 뉴스입니다. 출처: Reuters."
     }
 ];
 
@@ -81,71 +81,71 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "교육부, 2026년 대학 인공지능(AI) 기본교육과정 개발 지원사업 선정 공고",
-        "enTitle": "교육부, 2026년 대학 인공지능(AI) 기본교육과정 개발 지원사업 선정 공고",
-        "date": "2026-02-24",
-        "originalDate": "2026-02-23",
-        "sourceName": "시사미래신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50YTBpeEswQWRYaW9EdDlqdFh1REZ2ejZweFpDVWJKczVFOGkxTDBDdng4VUVXWjFkM0ktbjNVQUl3dzBTeVFwRXJvYkhrTG1fcGhJbldNNTA5Mkpkd2ZENmpJNA?oc=5",
+        "koTitle": "2026년에는 많은 대학에서 인공지능 전공이 대거 개설될 예정이다.",
+        "enTitle": "2026년에는 많은 대학에서 인공지능 전공이 대거 개설될 예정이다.",
+        "date": "2026-02-25",
+        "originalDate": "2026-02-24",
+        "sourceName": "Vietnam.vn",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORzlsQVFHdV9XamxLMl9Cd3RXWGZ2TjJyX0cySjRKSnNjX1lJMmJQZlh6QUtPZV83Z0xrU2F3SWtuQ0J1alJMU2xmWVhJVExmc1JONXRtTFExbzhhU0ZCNVR6TV9USGV4NEx5WkRPR3JyTk5pZThGM2ZlcW1WS1RkTTZRWThfSy1kcnJpcldSdFNYRVFhWmJB?oc=5",
         "isRepublished": false,
         "viralRate": "85%",
         "hookTitles": [
             {
-                "top": "교육부, 2026년 대학 인...",
-                "bottom": "(시사미래신문)"
+                "top": "2026년에는 많은 대학에서...",
+                "bottom": "(Vietnam.vn)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-23"
+                "bottom": "최초발행: 2026-02-24"
             }
         ],
-        "analysis": "교육부, 2026년 대학 인공지능(AI) 기본교육과정 개발 지원사업 선정 공고 | 오늘 발표된 최신 뉴스입니다. 출처: 시사미래신문.",
+        "analysis": "2026년에는 많은 대학에서 인공지능 전공이 대거 개설될 예정이다. | 오늘 발표된 최신 뉴스입니다. 출처: Vietnam.vn.",
         "category": "Physical AI"
     },
     {
         "rank": 2,
-        "koTitle": "국립중앙도서관, 2026년 AI 리터러시 무료 교육 운영",
-        "enTitle": "국립중앙도서관, 2026년 AI 리터러시 무료 교육 운영",
-        "date": "2026-02-24",
-        "originalDate": "2026-02-23",
-        "sourceName": "전자신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9yZlZnMzBjeUJnbnA2aGtGSmFOVDBXaGQ4VkVzU255MmtwMTJibUNqQ2VGLVBnLU53aUx2ZU9palo2TWJsaGZCV0pPZzJ1QQ?oc=5",
+        "koTitle": "DX KOREA 2026, 인공지능 기반 전력지원체계관 신설 - 조선비즈",
+        "enTitle": "DX KOREA 2026, 인공지능 기반 전력지원체계관 신설 - 조선비즈",
+        "date": "2026-02-25",
+        "originalDate": "2026-02-24",
+        "sourceName": "Chosunbiz",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUzZZY1ZBRmhqV25kSnpYSG0yS3FLUHI3bnZxSVliQUczalRvQ0M0N1dmV1ZSZ2RyV0w1Nzc5S1hESldYUU96dkpsaDBVd0QxRm1JRjBoV2duRWRocVJmX2xUV2FySHc0bXE0VGE0TE1LbkNaR3o4OElkRlhJS1lqMkRSWlbSAZgBQVVfeXFMTWtpcTJzbUJURmtidlptMnFHZ1BkYUZrcHR0TGdtMnVnY0NaM1kxTmJEaHBUZGczM1NJd25HXy1aa1hfNGRxakJrdmRVTE1WTTlTQ29mN3gxZmMySnVNVkFHOWp2Z3NfT2pYQW1VXzVwUTlKbWZiZjZWNzlLZF91a3NnUmJ6YW1KZTQ2OHlKTmZRc1o3R3p0T1M?oc=5",
         "isRepublished": false,
-        "viralRate": "81%",
+        "viralRate": "83%",
         "hookTitles": [
             {
-                "top": "국립중앙도서관, 2026년...",
-                "bottom": "(전자신문)"
+                "top": "DX KOREA 2026,...",
+                "bottom": "(Chosunbiz)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-23"
+                "bottom": "최초발행: 2026-02-24"
             }
         ],
-        "analysis": "국립중앙도서관, 2026년 AI 리터러시 무료 교육 운영 | 오늘 발표된 최신 뉴스입니다. 출처: 전자신문.",
+        "analysis": "DX KOREA 2026, 인공지능 기반 전력지원체계관 신설 - 조선비즈 | 오늘 발표된 최신 뉴스입니다. 출처: Chosunbiz.",
         "category": "Work & Career"
     },
     {
         "rank": 3,
-        "koTitle": "다가오는 MWC 2026 …통신 3사, AI 전략 뽐낸다",
-        "enTitle": "다가오는 MWC 2026 …통신 3사, AI 전략 뽐낸다",
-        "date": "2026-02-24",
-        "originalDate": "2026-02-23",
-        "sourceName": "굿모닝경제",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KSXZvVFhHRWhoaTE3YW51dy1tSGJReUFpd2tKUWlxbEt6YTRBaS1fa2hZVmVta0FfOXRFX2VxWTJrT0ViMnBiY3JQQmE4Z1VpR0twX256VDVpa05BZ29na0UxeDIwSTZ2ZERGSw?oc=5",
+        "koTitle": "세종시교육청, 2026학년도 학업성적관리 시행 지침 개정...AI 활용 평가 기준 반영",
+        "enTitle": "세종시교육청, 2026학년도 학업성적관리 시행 지침 개정...AI 활용 평가 기준 반영",
+        "date": "2026-02-25",
+        "originalDate": "2026-02-24",
+        "sourceName": "에이티엔뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QOW05UHg1LXAtdzFuMXlxT2dsZEFXbzk1MXFvWWxiWlJUSllpekN4YnFXSExmam1qdF9Tbms4LUYwQ2tDWkhXR3RNRmZfbklHWEZUMW1BakFPc0pOSS0wYXNhdWNFNXdBM2Q1dA?oc=5",
         "isRepublished": false,
         "viralRate": "79%",
         "hookTitles": [
             {
-                "top": "다가오는 MWC 2026 …...",
-                "bottom": "(굿모닝경제)"
+                "top": "세종시교육청, 2026학년도...",
+                "bottom": "(에이티엔뉴스)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-23"
+                "bottom": "최초발행: 2026-02-24"
             }
         ],
-        "analysis": "다가오는 MWC 2026 …통신 3사, AI 전략 뽐낸다 | 오늘 발표된 최신 뉴스입니다. 출처: 굿모닝경제.",
+        "analysis": "세종시교육청, 2026학년도 학업성적관리 시행 지침 개정...AI 활용 평가 기준 반영 | 오늘 발표된 최신 뉴스입니다. 출처: 에이티엔뉴스.",
         "category": "Korea AI"
     }
 ];
