@@ -1,77 +1,77 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-02-25
+ * 최신 업데이트: 2026-02-26
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "‘브레이크 없는 피드백 루프’: 인공지능 종말 보고서가 미국 시장을 뒤흔든 방법",
-        "enTitle": "‘A feedback loop with no brake’: how an AI doomsday report shook US markets",
-        "date": "2026-02-25",
+        "koTitle": "Workday CEO, Anthropic과 OpenAI가 회사의 소프트웨어를 사용한다고 말함",
+        "enTitle": "Workday CEO Says Anthropic and OpenAI Use His Company’s Software",
+        "date": "2026-02-26",
         "originalDate": "2026-02-24",
-        "sourceName": "The Guardian",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOam1VaUUycHM3Nlllakd2ZFo0MDZOaUJGNndoNE1jNGFRM0hRNWdTVEJTd0ZGUnlNblBzQWNHSnZ4ODJOek5oR0NrVmtCdjVLVzBMQXRSSWhPUmREZEJDaXdlMEhFZHNEYUtBZUNRTF9ZMHN4WDg4QjE1Ymp5WHkxUHRoTXNQXzNVR1I3aFpVaEtJajlqM0JQMUlTSml2LXE0NTZLbzhFLVV2Ujk3bTNrRVhn?oc=5",
+        "sourceName": "Bloomberg.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOWZMSy1ySEsxOFNRV1pZQ3FzNnNXUFY0QmE3TTlOWjhhRDRndTVSMy1fZldhdnFhYTAxajdGanFlZHJ1QW1mRWlhM1lzNnNYVXl4UDY4M29mSVVYcE1vdTVJYnlzX0RkYjM0OEMzdk14OG56MXRCTEk2UTI3b1pWZDJPRE9hdS1LeFltbHk5azRnYXh4el9Lb285YkwxUk1PcFRTZm1ZRmV4WGM1eVZ6X1FTeG83UQ?oc=5",
         "isRepublished": false,
         "viralRate": "93%",
         "hookTitles": [
             {
-                "top": "‘브레이크 없는 피드백 루프...",
-                "bottom": "(The Guardian)"
+                "top": "Workday CEO, An...",
+                "bottom": "(Bloomberg.com)"
             },
             {
                 "top": "오늘의 핫 이슈",
                 "bottom": "최초발행: 2026-02-24"
             }
         ],
-        "analysis": "‘브레이크 없는 피드백 루프’: 인공지능 종말 보고서가 미국 시장을 뒤흔든 방법 | 오늘 발표된 최신 뉴스입니다. 출처: The Guardian.",
+        "analysis": "Workday CEO, Anthropic과 OpenAI가 회사의 소프트웨어를 사용한다고 말함 | 오늘 발표된 최신 뉴스입니다. 출처: Bloomberg.com.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "미국, AI 보호 조치에 대한 분쟁 시한으로 Anthropic 위협",
-        "enTitle": "US threatens Anthropic with deadline in dispute on AI safeguards",
-        "date": "2026-02-25",
-        "originalDate": "2026-02-24",
-        "sourceName": "BBC",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fTFA4Rlp2MzdLREk3VG1Ka05wWGNEWG9yczh3RXUtQTJSemtSTkE0bjVYMm5uNFIwVWZJdTk3bW9TOHhuR2p4UzFMUjVFS3N6ODh3bkFqVnNSUQ?oc=5",
-        "isRepublished": false,
-        "viralRate": "88%",
-        "hookTitles": [
-            {
-                "top": "미국, AI 보호 조치에 대...",
-                "bottom": "(BBC)"
-            },
-            {
-                "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-24"
-            }
-        ],
-        "analysis": "미국, AI 보호 조치에 대한 분쟁 시한으로 Anthropic 위협 | 오늘 발표된 최신 뉴스입니다. 출처: BBC."
-    },
-    {
-        "rank": 3,
-        "koTitle": "독점 제공: 중국의 DeepSeek는 미국의 금지 조치에도 불구하고 엔비디아 최고의 칩에서 AI 모델을 훈련시켰다고 관계자는 말합니다.",
-        "enTitle": "Exclusive: China's DeepSeek trained AI model on Nvidia's best chip despite US ban, official says",
-        "date": "2026-02-25",
-        "originalDate": "2026-02-24",
+        "koTitle": "인도 주식은 AI 문제에 대해 $ 686억 IT 경로를 통해 지역 동료를 추적합니다",
+        "enTitle": "Indian shares trail regional peers on $68.6 billion IT rout over AI concerns",
+        "date": "2026-02-26",
+        "originalDate": "2026-02-25",
         "sourceName": "Reuters",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYko5c1BzTGVuUV9VZl9CMGczWm5RdThBeW00Mm5BX3NDb2Z6XzZuNGstMWs1Y2pSZS1wcWdndEZBc3YwSEtNT0ZnXzNjUUFncWN5eHFEbXZ1ZmEyR3M3dFg2TU5tZzQ0QXdhZTJhTXJGSWxyXzRMcDJxZllwRXgxQTFhbkZ2RjFJbDViNmd2enRZWGtZcVV1cE9nUXFUNFQtQzFoZ01lRkc3YTlueXhwZVUxQTVkeDBfTlZmaWxlX1g0X0tCRFE?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc1BUMlgyOC1INDZDOTRWekF5NExjZE5PR2s2T3dpQTZoZDFic29BajBDWUc1ODg2Z2dlWF91M1kxbG9GOE9kNFRRajQ0MC1mMUtNWGt3MFk2bnNJZlZKNEZYZVN4dDhhaHF4YTB2SkNfa1ZuY3NoWk41ZU4wSkQ2VnV4MU9pN0ttcFpsbHZTN1hlblN4V1BDZTRjeVZSRVNpNnNIaHVSbExGREg2bEQ0R3AyUU51OGhPd21n?oc=5",
         "isRepublished": false,
-        "viralRate": "88%",
+        "viralRate": "91%",
         "hookTitles": [
             {
-                "top": "독점 제공: 중국의 Deep...",
+                "top": "인도 주식은 AI 문제에 대...",
                 "bottom": "(Reuters)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-24"
+                "bottom": "최초발행: 2026-02-25"
             }
         ],
-        "analysis": "독점 제공: 중국의 DeepSeek는 미국의 금지 조치에도 불구하고 엔비디아 최고의 칩에서 AI 모델을 훈련시켰다고 관계자는 말합니다. | 오늘 발표된 최신 뉴스입니다. 출처: Reuters."
+        "analysis": "인도 주식은 AI 문제에 대해 $ 686억 IT 경로를 통해 지역 동료를 추적합니다 | 오늘 발표된 최신 뉴스입니다. 출처: Reuters."
+    },
+    {
+        "rank": 3,
+        "koTitle": "AI: 수사-현실 격차에 유의",
+        "enTitle": "AI: Mind the rhetoric–reality gap",
+        "date": "2026-02-26",
+        "originalDate": "2026-02-25",
+        "sourceName": "Bloomberg.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT0VCQVk3M00tMDltM2M5OTVIZWRub2tCdDBoYXBvQlRDLUhsYWhVWkJXLUREZjM4V0ZIWUE0elZRRlN0LUhxWXJCMjhseTAyczdGUEEtM3ZWTDM5WFluLUsyQThlR1JfSVhScTVJQnVOVjRDVGNPWld3OXRLcFVkQmhzc3dCd0gxd1BidElzUkNDWEk4d0pmMVNzbGdlTXA1bmZFaFJwRXM?oc=5",
+        "isRepublished": false,
+        "viralRate": "89%",
+        "hookTitles": [
+            {
+                "top": "AI: 수사-현실 격차에 유...",
+                "bottom": "(Bloomberg.com)"
+            },
+            {
+                "top": "주목할 이 뉴스!",
+                "bottom": "최초발행: 2026-02-25"
+            }
+        ],
+        "analysis": "AI: 수사-현실 격차에 유의 | 오늘 발표된 최신 뉴스입니다. 출처: Bloomberg.com."
     }
 ];
 
@@ -81,71 +81,71 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "2026년에는 많은 대학에서 인공지능 전공이 대거 개설될 예정이다.",
-        "enTitle": "2026년에는 많은 대학에서 인공지능 전공이 대거 개설될 예정이다.",
-        "date": "2026-02-25",
-        "originalDate": "2026-02-24",
-        "sourceName": "Vietnam.vn",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORzlsQVFHdV9XamxLMl9Cd3RXWGZ2TjJyX0cySjRKSnNjX1lJMmJQZlh6QUtPZV83Z0xrU2F3SWtuQ0J1alJMU2xmWVhJVExmc1JONXRtTFExbzhhU0ZCNVR6TV9USGV4NEx5WkRPR3JyTk5pZThGM2ZlcW1WS1RkTTZRWThfSy1kcnJpcldSdFNYRVFhWmJB?oc=5",
+        "koTitle": "하노버메쎄 2026(Hannover Messe 2026), ‘피지컬 AI’로 제조 현장 정조준… 이론 넘어 실무 적용 선언",
+        "enTitle": "하노버메쎄 2026(Hannover Messe 2026), ‘피지컬 AI’로 제조 현장 정조준… 이론 넘어 실무 적용 선언",
+        "date": "2026-02-26",
+        "originalDate": "2026-02-25",
+        "sourceName": "산업일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5OXzRMSTFsMzlLRHJkOTVCZXlJTG1obVRYUFVBbUFET1ducTNXclJaTjlFTEtvX2ZUMDNyZEt3RVluWTJN?oc=5",
         "isRepublished": false,
         "viralRate": "85%",
         "hookTitles": [
             {
-                "top": "2026년에는 많은 대학에서...",
-                "bottom": "(Vietnam.vn)"
+                "top": "하노버메쎄 2026(Hann...",
+                "bottom": "(산업일보)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-24"
+                "bottom": "최초발행: 2026-02-25"
             }
         ],
-        "analysis": "2026년에는 많은 대학에서 인공지능 전공이 대거 개설될 예정이다. | 오늘 발표된 최신 뉴스입니다. 출처: Vietnam.vn.",
+        "analysis": "하노버메쎄 2026(Hannover Messe 2026), ‘피지컬 AI’로 제조 현장 정조준… 이론 넘어 실무 적용 선언 | 오늘 발표된 최신 뉴스입니다. 출처: 산업일보.",
         "category": "Physical AI"
     },
     {
         "rank": 2,
-        "koTitle": "DX KOREA 2026, 인공지능 기반 전력지원체계관 신설 - 조선비즈",
-        "enTitle": "DX KOREA 2026, 인공지능 기반 전력지원체계관 신설 - 조선비즈",
-        "date": "2026-02-25",
-        "originalDate": "2026-02-24",
-        "sourceName": "Chosunbiz",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUzZZY1ZBRmhqV25kSnpYSG0yS3FLUHI3bnZxSVliQUczalRvQ0M0N1dmV1ZSZ2RyV0w1Nzc5S1hESldYUU96dkpsaDBVd0QxRm1JRjBoV2duRWRocVJmX2xUV2FySHc0bXE0VGE0TE1LbkNaR3o4OElkRlhJS1lqMkRSWlbSAZgBQVVfeXFMTWtpcTJzbUJURmtidlptMnFHZ1BkYUZrcHR0TGdtMnVnY0NaM1kxTmJEaHBUZGczM1NJd25HXy1aa1hfNGRxakJrdmRVTE1WTTlTQ29mN3gxZmMySnVNVkFHOWp2Z3NfT2pYQW1VXzVwUTlKbWZiZjZWNzlLZF91a3NnUmJ6YW1KZTQ2OHlKTmZRc1o3R3p0T1M?oc=5",
+        "koTitle": "세종시교육청, 전 교직원 대상 인공지능(AI)·데이터 역량강화 추진",
+        "enTitle": "세종시교육청, 전 교직원 대상 인공지능(AI)·데이터 역량강화 추진",
+        "date": "2026-02-26",
+        "originalDate": "2026-02-25",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBmTnZ4MGp4d2hFa01mMnhHUnRpYWtGazFfYnZOWG5mZktkS25RTnFqT3ozakZzdFA2Q2tFYU9fVnZWNmlKaUpsVHVaSHdUdTQ?oc=5",
         "isRepublished": false,
         "viralRate": "83%",
         "hookTitles": [
             {
-                "top": "DX KOREA 2026,...",
-                "bottom": "(Chosunbiz)"
+                "top": "세종시교육청, 전 교직원 대...",
+                "bottom": "(v.daum.net)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-24"
+                "bottom": "최초발행: 2026-02-25"
             }
         ],
-        "analysis": "DX KOREA 2026, 인공지능 기반 전력지원체계관 신설 - 조선비즈 | 오늘 발표된 최신 뉴스입니다. 출처: Chosunbiz.",
+        "analysis": "세종시교육청, 전 교직원 대상 인공지능(AI)·데이터 역량강화 추진 | 오늘 발표된 최신 뉴스입니다. 출처: v.daum.net.",
         "category": "Work & Career"
     },
     {
         "rank": 3,
-        "koTitle": "세종시교육청, 2026학년도 학업성적관리 시행 지침 개정...AI 활용 평가 기준 반영",
-        "enTitle": "세종시교육청, 2026학년도 학업성적관리 시행 지침 개정...AI 활용 평가 기준 반영",
-        "date": "2026-02-25",
-        "originalDate": "2026-02-24",
-        "sourceName": "에이티엔뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QOW05UHg1LXAtdzFuMXlxT2dsZEFXbzk1MXFvWWxiWlJUSllpekN4YnFXSExmam1qdF9Tbms4LUYwQ2tDWkhXR3RNRmZfbklHWEZUMW1BakFPc0pOSS0wYXNhdWNFNXdBM2Q1dA?oc=5",
+        "koTitle": "LG전자, ‘iF 디자인 어워드 2026’서 AI 홈 로봇 ‘클로이드’ 포함 26개 본상 수상",
+        "enTitle": "LG전자, ‘iF 디자인 어워드 2026’서 AI 홈 로봇 ‘클로이드’ 포함 26개 본상 수상",
+        "date": "2026-02-26",
+        "originalDate": "2026-02-25",
+        "sourceName": "인공지능신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGNThicnZnZUo5WkFWYWlrNWQxckgwQmpicFdyV2RXVGpTU25Fdmx5OTdOb1EyZEg1ZGJFOTFwRndXOTVYVU5rQnZHRzVObUpMM29xZVVtNjBBc3ZSa2pJclhHMlFhbVk?oc=5",
         "isRepublished": false,
-        "viralRate": "79%",
+        "viralRate": "81%",
         "hookTitles": [
             {
-                "top": "세종시교육청, 2026학년도...",
-                "bottom": "(에이티엔뉴스)"
+                "top": "LG전자, ‘iF 디자인 어...",
+                "bottom": "(인공지능신문)"
             },
             {
                 "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-24"
+                "bottom": "최초발행: 2026-02-25"
             }
         ],
-        "analysis": "세종시교육청, 2026학년도 학업성적관리 시행 지침 개정...AI 활용 평가 기준 반영 | 오늘 발표된 최신 뉴스입니다. 출처: 에이티엔뉴스.",
+        "analysis": "LG전자, ‘iF 디자인 어워드 2026’서 AI 홈 로봇 ‘클로이드’ 포함 26개 본상 수상 | 오늘 발표된 최신 뉴스입니다. 출처: 인공지능신문.",
         "category": "Korea AI"
     }
 ];
