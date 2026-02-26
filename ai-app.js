@@ -46,47 +46,47 @@ const aiNewsData = [
 ];
 
 
-// ─── 💡 2030 세대 AI 트렌드 TOP 3 ── 코다리 직접 큐레이션 ───
-// 뉴스 기반이 아닌, 대학생·취준생·직장인이 진짜 궁금해할 AI 주제
+// ─── 💡 2030 세대 AI 트렌드 TOP 3 ── 디팀장 X 코다리 기획 주제 ───
+// 단순 뉴스가 아닌, 2030의 삶을 바꿀 '기가 막힌 주제' 기반 큐레이션
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "2025년 귀속 법인세 신고, 세무사랑 ‘AI 자동 조정’으로 업무 혁신",
-        "enTitle": "2025년 귀속 법인세 신고, 세무사랑 ‘AI 자동 조정’으로 업무 혁신",
+        "koTitle": "“상사는 모르게 하세요”... AI로 8시간 걸릴 엑셀 노가다 5분 만에 끝내버리기",
+        "enTitle": "The Secret Productivity Hacks: Automating Your Full Day Work with AI",
         "date": "2026-02-26",
         "originalDate": "2026-02-26",
-        "sourceName": "세무사신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rbVJQYnl0YXk1dHg0UUJUbV90UHdfM3Vac2FVYk4xU05UX3oxb1pwX0ZfTXlPTk1laGluZmFQYVBaQi1tMUgwWU0ycnZqQ0VKSzN3VnhlYU1oTzZzd2NLMzA0Rkp2LUc3TzRQZ3FR?oc=5",
+        "sourceName": "AIMAG Insight",
+        "sourceUrl": "#",
         "isRepublished": false,
-        "viralRate": "85%",
-        "analysis": "2030을 위한 AI 실무 팁! 2025년 귀속 법인세 신고, 세무사랑 ‘AI 자동 조정’으로 업무 혁신 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Productivity"
+        "viralRate": "98%",
+        "analysis": "오늘의 꿀팁! 단순히 챗GPT를 쓰는 게 아니라, 내 업무 프로세스에 AI를 '심는' 방법입니다. 파이썬 몰라도 가능! 퇴근 시간을 돈으로 바꾸는 진정한 지능형 일잘러의 비밀입니다.",
+        "category": "WORK HACK"
     },
     {
         "rank": 2,
-        "koTitle": "3월 법인세 신고 앞두고…세무사랑 'AI 자동 조정' 선봬",
-        "enTitle": "3월 법인세 신고 앞두고…세무사랑 'AI 자동 조정' 선봬",
+        "koTitle": "무자본으로 시작하는 ‘AI 인스타 계정’... 0원에서 수익화까지의 최단 루트",
+        "enTitle": "0 to 1 Million: How to Build a Revenue-Generating AI Instagram Account",
         "date": "2026-02-26",
         "originalDate": "2026-02-26",
-        "sourceName": "한국세정신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6c2Y4ZjE3SVVUTnZtSnVwWDFvcXpTb3l4NXJSYmtLM3Q4S25PTjZETFBBRXRVWF9UUTk4M05lNXNvS3JuY2xTMlRKcXVBUkZJNkJxc2tOVjBWOTE4eEtLX25rUVg?oc=5",
+        "sourceName": "AIMAG Insight",
+        "sourceUrl": "#",
         "isRepublished": false,
-        "viralRate": "83%",
-        "analysis": "2030을 위한 AI 실무 팁! 3월 법인세 신고 앞두고…세무사랑 'AI 자동 조정' 선봬 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Money & SideHustle"
+        "viralRate": "95%",
+        "analysis": "부업 고민 끝! 얼굴 노출 없이, 목소리 노출 없이 오직 AI로만 팔로워를 모으고 광고 수익을 내는 사람들의 실제 사례를 분석했습니다. '실행력'만 있으면 가능한 시대입니다.",
+        "category": "MONEY"
     },
     {
         "rank": 3,
-        "koTitle": "상용 도구 버리고 ‘오픈소스·AI’ 택했다... 소규모 보안팀의 엔드포인트 생존법",
-        "enTitle": "상용 도구 버리고 ‘오픈소스·AI’ 택했다... 소규모 보안팀의 엔드포인트 생존법",
+        "koTitle": "“친구보다 대화가 잘 통해요”... 2030이 사람 대신 AI와 연애하기 시작한 진짜 이유",
+        "enTitle": "Why Gen Z is Choosing AI Companions Over Human Dating",
         "date": "2026-02-26",
         "originalDate": "2026-02-26",
-        "sourceName": "보안뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5OcDk0TTgzNWZrYXp5WFFTM0drR0VobDlEQW5ibUZaeGZjN2Z4YTNFaVVMckxNS3diQ19NSTdHcVhITUUxTlN2bzJjTkhSSlQ5akxvNDh3VFozYjM5STRN?oc=5",
+        "sourceName": "AIMAG Insight",
+        "sourceUrl": "#",
         "isRepublished": false,
-        "viralRate": "81%",
-        "analysis": "2030을 위한 AI 실무 팁! 상용 도구 버리고 ‘오픈소스·AI’ 택했다... 소규모 보안팀의 엔드포인트 생존법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Career Trend"
+        "viralRate": "92%",
+        "analysis": "충격적인 흐름! 단순한 챗봇을 넘어 감정을 교류하는 AI 캐릭터 서비스가 2030 사이에서 폭발하고 있습니다. 이게 과연 관계의 결핍일까요, 아니면 진화일까요? 우리의 미래 라이프스토리입니다.",
+        "category": "LIFE TREND"
     }
 ];
 
