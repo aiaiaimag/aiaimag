@@ -1,0 +1,7 @@
+{
+  "tool_name": "mcp__canva__generate-design",
+  "tool_input_preview": "{\"user_intent\":\"AIMAG 카드뉴스 NEWS 1: 빅테크 AI 650조 투자\",\"design_type\":\"instagram_post\",\"brand_kit_id\":\"kAGHLaCumas\",\"query\":\"AIMAG 인스타그램 카드뉴스 - 테크 뉴스 스타일\\n\\n주제: \\\"빅테크, AI에 650조 올인\\\"\\n\\n디자인 스타일:\\n- 배경: #0A0...",
+  "error": "Error: User has reached their quota limit (Request ID: 9d2ee49540b2a7c5)\n          \n\nNeed help? Contact Canva support or submit feedback at: https://www.canva.com/help/get-in-touch/troubleshooting/",
+  "timestamp": "2026-02-24T12:16:14.911Z",
+  "retry_count": 1
+}

@@ -1,0 +1,77 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1771909902731,
+  "projectRoot": "C:\\Users\\chltp\\OneDrive\\바탕 화면\\Antigravity\\1_AIMAG",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {},
+  "hotPaths": [
+    {
+      "path": "ai-app.js",
+      "accessCount": 19,
+      "lastAccessed": 1771935211501,
+      "type": "file"
+    },
+    {
+      "path": "index.html",
+      "accessCount": 5,
+      "lastAccessed": 1771934266920,
+      "type": "file"
+    },
+    {
+      "path": "instagram_cards_guide.md",
+      "accessCount": 5,
+      "lastAccessed": 1771934691892,
+      "type": "file"
+    },
+    {
+      "path": "instagram_content.md",
+      "accessCount": 4,
+      "lastAccessed": 1771935327520,
+      "type": "file"
+    },
+    {
+      "path": "instagram_cards.html",
+      "accessCount": 3,
+      "lastAccessed": 1771934684239,
+      "type": "file"
+    },
+    {
+      "path": "auto-instagram.sh",
+      "accessCount": 2,
+      "lastAccessed": 1771934692638,
+      "type": "file"
+    },
+    {
+      "path": "CLAUDE.md",
+      "accessCount": 1,
+      "lastAccessed": 1771934710944,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

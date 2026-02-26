@@ -1,77 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-02-23
+ * 최신 업데이트: 2026-02-26
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Apple의 차세대 거물은 시각 인공 지능에 대한 추진력입니다.",
-        "enTitle": "Apple’s Next Big Thing Is a Push Into Visual Artificial Intelligence",
-        "date": "2026-02-23",
-        "originalDate": "2026-02-22",
-        "sourceName": "Bloomberg.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaTV1cFJlOHE3XzVLMUZlUzJaM2NhWW5LcUNlT0N4MExWUjdnejBvdzlndE83REhBbkN6anRobmlJQmhndGkwTWhiZ3k4S3NtNnd2VlBJYmNxeVpwRmMtenN0dW1qcHBSMlpndkVvWXNWVGdwVVZ6MFpNTU5ONXhLb2dRQTVseXJFSjlaMjFWcVl0MmcwM1I3UXRlZk9lTjFZV1hvWkJzaWU2Qi1mNXlYcy1aVFYwMzdmY216WDA5dTBTZk1ocEJvaHhR?oc=5",
+        "koTitle": "다음은 바이럴 AI 도쿄 드리프트 트렌드를 수행하고 나만의 재미있는 밈을 만드는 방법입니다.",
+        "enTitle": "Here’s how to do that viral AI Tokyo Drift trend and make your own funny meme",
+        "date": "2026-02-26",
+        "originalDate": "2026-02-25",
+        "sourceName": "The Tab",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONmU1bDRkWm93MklJTEFheDdtQmhzRnZVTzJ2VzIzMmlyOUQzUS12SUYweVJ6Z1VWLU9BdXg3QTBZblRybmFlZWdENGFtM0c1VlFxNzgxRUVfcUoya3gzek85WVNWaTY3V0RBUFJUNGdfQnlxMXdNekRMS1NYZkNTVjRWcUdvTV9sTEpjZEw4UGRnQ1VyXzhIWTdXSzlBaG9BWG5DbjVyTVRfZw?oc=5",
         "isRepublished": false,
-        "viralRate": "89%",
-        "hookTitles": [
-            {
-                "top": "Apple의 차세대 거물은...",
-                "bottom": "(Bloomberg.com)"
-            },
-            {
-                "top": "오늘의 핫 이슈",
-                "bottom": "최초발행: 2026-02-22"
-            }
-        ],
-        "analysis": "Google·Apple의 AI 동향 관련 소식. 빠르게 변화하는 AI 생태계에서 주목해야 할 최신 움직임. AI 관심 독자층 사이에서 주목받을 이슈.",
+        "viralRate": "88%",
+        "analysis": "글로벌 AI 트렌드 체크! 다음은 바이럴 AI 도쿄 드리프트 트렌드를 수행하고 나만의 재미있는 밈을 만드는 방법입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "하이퍼스케일러가 2026년을 위해 싸우고 있는 인공지능 (AI) 인프라 스톡",
-        "enTitle": "The Artificial Intelligence (AI) Infrastructure Stock That Hyperscalers Are Fighting Over for 2026",
-        "date": "2026-02-23",
-        "originalDate": "2026-02-22",
-        "sourceName": "Yahoo Finance",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS2xTZk1DUmhvMVBGQ3FDZUdxeVFjR09FZHBkdHpSUnFla2tSZWZVS0ducnJTaW1JamdqZHNTNHRMSXB3OEJES1pJMVlleHVWUzhyRXVXcG5IXzlxMjVGdHJpcVNiVTI1UFFnOEk0djBKNFoxakJHSzhobEJoR25qWW92MlQzRFh0YlNlcVRKVUQ1ZVYzNXBhWg?oc=5",
+        "koTitle": "WEF: AI의 신속한 상용화는 미래의 일자리를 재편할 태세입니다.",
+        "enTitle": "WEF: Rapid commercialization of AI is poised to reshape future jobs",
+        "date": "2026-02-26",
+        "originalDate": "2026-02-25",
+        "sourceName": "safety4sea",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYjMwd0VSYjAtaTR6V1JTUlZIOVotVVRUMWtGLUVuUm9XeGJYbEJBMk1FRm9wSmZfOXlrbXZuTkk0bkZkR1dDVHdmdVdOSzRIWjBzRl9kUUpoWXQ3VmphekdZc05kenY1dXlMWEhCdGVRZlNhaHNUMGRJSm03WWt5QU84a2pNWGNydGtjOEh6b3NWRDROdnRhVw?oc=5",
         "isRepublished": false,
-        "viralRate": "85%",
-        "hookTitles": [
-            {
-                "top": "하이퍼스케일러가 2026년을...",
-                "bottom": "(Yahoo Finance)"
-            },
-            {
-                "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-22"
-            }
-        ],
-        "analysis": "Google의 AI 동향 관련 소식. 빠르게 변화하는 AI 생태계에서 주목해야 할 최신 움직임. AI 관심 독자층 사이에서 주목받을 이슈."
+        "viralRate": "86%",
+        "analysis": "글로벌 AI 트렌드 체크! WEF: AI의 신속한 상용화는 미래의 일자리를 재편할 태세입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "예측: 이 인공 지능 (AI) 주식은 2026년에 알파벳을 능가할 것입니다",
-        "enTitle": "Prediction: This Artificial Intelligence (AI) Stock Will Outperform Alphabet in 2026",
-        "date": "2026-02-23",
-        "originalDate": "2026-02-22",
-        "sourceName": "The Motley Fool",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa05uMWVRNy0tQThIQVh4Ujd2RUlpV2hReDdkbzYtNE4xTnA2ZHFweVpuMll2ZXZURHNBZnlidE5fSDN6NEViQUw2ZHJtWTg4Y2JJb3ljZ3BwZHF6MnMybTl1OE9EUTFpcWlJWW1uUWFsSHZOZURqMks4S1pYX3FUYk45MV9CaXJRc21kamkyc2N3S1UyQTBvcA?oc=5",
+        "koTitle": "청년 성인을 위한 AI 기회 창출을 위한 Future of Work Fund",
+        "enTitle": "Future of Work Fund to Boost AI Opportunities for Young Adults",
+        "date": "2026-02-26",
+        "originalDate": "2026-02-26",
+        "sourceName": "fundsforNGOs",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOM1NyZWV6TklEOUJvY2w5eFM2QzJVdWc2WjVTSXAxOF9jV3VEQUdJbmJOR0JUX1k5MFFLWkprTEYza0FUWHlPbF9CMW9fNXdxd3ZvbWQ3alhReHRWc2t3WU5JR3BnamI5MTRBLWZ5X0ZmVnFNa2d6b0lRZlRRVmlNRHF4VDhlV09hSlNMT2JoM1VCZmx6MkE5SVdlYlhVODJteEhVeDNtdV90N0JXM09neGt0T2txc3PSAbwBQVVfeXFMUHhiNTZfWDI3dnJPVnRFRFhFdWtsRno1VVUyRjFicTZjRHNRTGpvQ00tVVdYWFBsNEJBbXdwc0Q1a1VCWXRfZFlBYjlDaHRnUDdhVmlTelVLaHgwUkROel95dTVQR0tHMzJhdE1lR01IdXBfcS0taS1MMGRrSWxlSkFYdk1jSFQ1ekxmcEZ5MFFaRXVpRzBENUp5SlozTUkwMVhnODFuUFE5Z0FNNVJMVGlUel9iQXJGdUZEbko?oc=5",
         "isRepublished": false,
-        "viralRate": "83%",
-        "hookTitles": [
-            {
-                "top": "예측: 이 인공 지능 (AI...",
-                "bottom": "(The Motley Fool)"
-            },
-            {
-                "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-22"
-            }
-        ],
-        "analysis": "Google의 성능·벤치마크 관련 소식. 모델 성능 경쟁의 결과가 실사용 환경에서의 차이로 직결됨. AI 트렌드를 파악하는 데 참고할 만한 이슈."
+        "viralRate": "85%",
+        "analysis": "글로벌 AI 트렌드 체크! 청년 성인을 위한 AI 기회 창출을 위한 Future of Work Fund 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -81,72 +51,42 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "“AI 잘 다루면 월급 더 받는다” .... 채용·연봉 시장서 AI·데이터 활용 역량 영향력 ‘뚜렷’",
-        "enTitle": "“AI 잘 다루면 월급 더 받는다” .... 채용·연봉 시장서 AI·데이터 활용 역량 영향력 ‘뚜렷’",
-        "date": "2026-02-23",
-        "originalDate": "2026-02-20",
-        "sourceName": "워크투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BaFBPTzR2emRuZEdEczREdTRseU1MdDJ6a2R0QnE4X1BHTWxJMUJsTnd2SHhCcC12V1FDRE1id0pweUZLQW1RZnhvbERoM2dSOGVFeXd2cFpRSTgyYWFCNXVIdlRwbE91dGNwSA?oc=5",
-        "isRepublished": true,
-        "viralRate": "70%",
-        "hookTitles": [
-            {
-                "top": "“AI 잘 다루면 월급 더...",
-                "bottom": "(워크투데이)"
-            },
-            {
-                "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-20"
-            }
-        ],
-        "analysis": "Google의 AI 동향 관련 소식. 빠르게 변화하는 AI 생태계에서 주목해야 할 최신 움직임. AI 트렌드를 파악하는 데 참고할 만한 이슈.",
-        "category": "Physical AI"
+        "koTitle": "2025년 귀속 법인세 신고, 세무사랑 ‘AI 자동 조정’으로 업무 혁신",
+        "enTitle": "2025년 귀속 법인세 신고, 세무사랑 ‘AI 자동 조정’으로 업무 혁신",
+        "date": "2026-02-26",
+        "originalDate": "2026-02-26",
+        "sourceName": "세무사신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rbVJQYnl0YXk1dHg0UUJUbV90UHdfM3Vac2FVYk4xU05UX3oxb1pwX0ZfTXlPTk1laGluZmFQYVBaQi1tMUgwWU0ycnZqQ0VKSzN3VnhlYU1oTzZzd2NLMzA0Rkp2LUc3TzRQZ3FR?oc=5",
+        "isRepublished": false,
+        "viralRate": "85%",
+        "analysis": "2030을 위한 AI 실무 팁! 2025년 귀속 법인세 신고, 세무사랑 ‘AI 자동 조정’으로 업무 혁신 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Productivity"
     },
     {
         "rank": 2,
-        "koTitle": "[미국 AI동향] 美 국방부, 마두로 체포 작전에 투입된 AI ‘클로드’ 둘러싸고 앤트로픽과 갈등",
-        "enTitle": "[미국 AI동향] 美 국방부, 마두로 체포 작전에 투입된 AI ‘클로드’ 둘러싸고 앤트로픽과 갈등",
-        "date": "2026-02-23",
-        "originalDate": "2026-02-17",
-        "sourceName": "솔루션뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vYy1jTW1nZGxlVnZzNW1oRmlzY3c5UTFpN19FeHg5cHdDMEJsT0xfLWNGRlRTdVlHbXBxSTV2MEZkM1hoaGVKU1ZsXzh6TjhzVjR4VlMwZ2QxN0hCQTFvbV9feVFUUFFvZ1VF?oc=5",
-        "isRepublished": true,
-        "viralRate": "70%",
-        "hookTitles": [
-            {
-                "top": "[미국 AI동향] 美 국방부...",
-                "bottom": "(솔루션뉴스)"
-            },
-            {
-                "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-17"
-            }
-        ],
-        "analysis": "Google의 AI 동향 관련 소식. 빠르게 변화하는 AI 생태계에서 주목해야 할 최신 움직임. AI 트렌드를 파악하는 데 참고할 만한 이슈.",
-        "category": "Work & Career"
+        "koTitle": "3월 법인세 신고 앞두고…세무사랑 'AI 자동 조정' 선봬",
+        "enTitle": "3월 법인세 신고 앞두고…세무사랑 'AI 자동 조정' 선봬",
+        "date": "2026-02-26",
+        "originalDate": "2026-02-26",
+        "sourceName": "한국세정신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6c2Y4ZjE3SVVUTnZtSnVwWDFvcXpTb3l4NXJSYmtLM3Q4S25PTjZETFBBRXRVWF9UUTk4M05lNXNvS3JuY2xTMlRKcXVBUkZJNkJxc2tOVjBWOTE4eEtLX25rUVg?oc=5",
+        "isRepublished": false,
+        "viralRate": "83%",
+        "analysis": "2030을 위한 AI 실무 팁! 3월 법인세 신고 앞두고…세무사랑 'AI 자동 조정' 선봬 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Money & SideHustle"
     },
     {
         "rank": 3,
-        "koTitle": "챗GPT·제미나이 이렇게 써라…직장서 살아남을 'AI 사용법'",
-        "enTitle": "챗GPT·제미나이 이렇게 써라…직장서 살아남을 'AI 사용법'",
-        "date": "2026-02-23",
-        "originalDate": "2026-02-15",
-        "sourceName": "중앙일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CaW5KVUJVUS0xY1UtbHJURmdhLVlVMDA3YWl0UkJOR1loYnVaMEZIYmVfVHc4WWk3Uzl1NE83QXVpS3R5Unh4VTg0RkNuOTdSTmFUNlN3?oc=5",
-        "isRepublished": true,
-        "viralRate": "68%",
-        "hookTitles": [
-            {
-                "top": "챗GPT·제미나이 이렇게 써...",
-                "bottom": "(중앙일보)"
-            },
-            {
-                "top": "주목할 이 뉴스!",
-                "bottom": "최초발행: 2026-02-15"
-            }
-        ],
-        "analysis": "OpenAI·Google의 AI 동향 관련 소식. 빠르게 변화하는 AI 생태계에서 주목해야 할 최신 움직임. AI 트렌드를 파악하는 데 참고할 만한 이슈.",
-        "category": "Korea AI"
+        "koTitle": "상용 도구 버리고 ‘오픈소스·AI’ 택했다... 소규모 보안팀의 엔드포인트 생존법",
+        "enTitle": "상용 도구 버리고 ‘오픈소스·AI’ 택했다... 소규모 보안팀의 엔드포인트 생존법",
+        "date": "2026-02-26",
+        "originalDate": "2026-02-26",
+        "sourceName": "보안뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5OcDk0TTgzNWZrYXp5WFFTM0drR0VobDlEQW5ibUZaeGZjN2Z4YTNFaVVMckxNS3diQ19NSTdHcVhITUUxTlN2bzJjTkhSSlQ5akxvNDh3VFozYjM5STRN?oc=5",
+        "isRepublished": false,
+        "viralRate": "81%",
+        "analysis": "2030을 위한 AI 실무 팁! 상용 도구 버리고 ‘오픈소스·AI’ 택했다... 소규모 보안팀의 엔드포인트 생존법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Career Trend"
     }
 ];
 

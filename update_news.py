@@ -30,16 +30,20 @@ _translation_cache = {}
 
 # ─── RSS 피드 URL 설정 ────────────────────────────────────────
 
-# 영문 AI 뉴스 (글로벌)
+# 2030 취향 저격 AI 뉴스 (생산성, 수익화, 커리어 중심)
 AI_NEWS_RSS_EN = [
-    "https://news.google.com/rss/search?q=artificial+intelligence+AI&hl=en-US&gl=US&ceid=US:en&num=20",
-    "https://news.google.com/rss/search?q=Anthropic+OpenAI+Google+AI+2026&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=AI+productivity+tools+productivity+hacks&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=AI+side+hustle+monetize+AI&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=AI+career+future+of+work&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=viral+AI+apps+trending+AI&hl=en-US&gl=US&ceid=US:en",
 ]
 
-# 한국 AI 뉴스 (트렌드용) - 한국어 쿼리는 URL 인코딩 필수
+# 한국 2030 AI 트렌드 뉴스
 AI_NEWS_RSS_KR = [
-    "https://news.google.com/rss/search?q=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5+AI+2026&hl=ko&gl=KR&ceid=KR%3Ako",
-    "https://news.google.com/rss/search?q=AI+%EA%B8%B0%EC%88%A0+%ED%8A%B8%EB%A0%8C%EB%93%9C&hl=ko&gl=KR&ceid=KR%3Ako",
+    "https://news.google.com/rss/search?q=AI+%EC%8B%A4%EB%AC%B4+%ED%9A%A8%EC%9C%A8+%EC%9E%90%EB%8F%99%ED%99%94&hl=ko&gl=KR&ceid=KR%3Ako",
+    "https://news.google.com/rss/search?q=AI+%EB%B6%80%EC%97%85+%EC%88%98%EC%9D%B5%ED%99%94&hl=ko&gl=KR&ceid=KR%3Ako",
+    "https://news.google.com/rss/search?q=AI+%EC%B7%A8%EC%97%85+%EC%97%AD%EB%9F%89+%EC%BB%A4%EB%A6%AC%EC%96%B4&hl=ko&gl=KR&ceid=KR%3Ako",
+    "https://news.google.com/rss/search?q=%EC%9A%94%EC%A6%98+%EC%9C%A0%ED%96%89%ED%95%98%EB%8A%94+AI+%EC%95%B1&hl=ko&gl=KR&ceid=KR%3Ako",
 ]
 
 # 신뢰도 높은 AI 전문 미디어 (출처 가중치 부여)
@@ -61,12 +65,12 @@ TRUSTED_SOURCES = {
     "microsoft": 94,
 }
 
-# 높은 바이럴 가능성 키워드
+# 높은 바이럴 가능성 키워드 (2030 취미, 업무, 수익 중심)
 VIRAL_KEYWORDS = [
-    "breaks", "launches", "releases", "reveals", "surpasses",
-    "first", "record", "billion", "trillion", "banned", "warning",
-    "shocking", "major", "revolutionary", "groundbreaking",
-    "출시", "발표", "혁신", "충격", "최초", "역대", "금지", "경고",
+    "productivity", "hacks", "earn", "income", "career", "job", "side hustle",
+    "free", "limited", "breakthrough", "scary", "insane", "how to", "best",
+    "출시", "발표", "부업", "수익", "취업", "연봉", "생산성", "꿀팁", "자동화",
+    "무료", "공짜", "충격", "조심", "역대급", "방법", "추천", "난리",
 ]
 
 # ─── RSS 파싱 함수 ────────────────────────────────────────────
@@ -112,10 +116,10 @@ def fetch_rss(url, timeout=15):
         return items
 
     except URLError as e:
-        print(f"⚠️  RSS 수집 실패 ({url[:50]}...): {e}")
+        print(f"FAILED RSS Fetch ({url[:50]}...): {e}")
         return []
     except ET.ParseError as e:
-        print(f"⚠️  XML 파싱 오류 ({url[:50]}...): {e}")
+        print(f"FAILED XML Parse ({url[:50]}...): {e}")
         return []
 
 
@@ -249,7 +253,7 @@ def translate_to_korean(text, retries=2):
             if attempt < retries:
                 time.sleep(1)  # 재시도 전 대기
                 continue
-            print(f"   ⚠️  번역 실패 ({text[:30]}...): {e}")
+            print(f"   FAILED Translation ({text[:30]}...): {e}")
 
     # 모든 시도 실패 → 원문 반환
     _translation_cache[cache_key] = text
@@ -260,7 +264,7 @@ def translate_to_korean(text, retries=2):
 
 def collect_news():
     """구글 뉴스 RSS에서 AI 뉴스를 수집합니다."""
-    print("🌐 구글 뉴스 RSS에서 AI 최신 뉴스 수집 중...")
+    print("Collecting AI News from Google RSS...")
 
     all_items = []
 
@@ -273,13 +277,13 @@ def collect_news():
         all_items.extend(items)
         time.sleep(0.5)  # 요청 간격 조절
 
-    print(f"   ✓ 영문 뉴스 {len(all_items)}건 수집 완료")
+    print(f"   - English News {len(all_items)} count collected")
     return all_items
 
 
 def collect_kr_trends():
     """구글 뉴스 RSS에서 한국 AI 트렌드 뉴스를 수집합니다."""
-    print("🇰🇷 한국 AI 트렌드 뉴스 수집 중...")
+    print("Collecting Korean AI Trends...")
 
     kr_items = []
     for url in AI_NEWS_RSS_KR:
@@ -290,7 +294,7 @@ def collect_kr_trends():
         kr_items.extend(items)
         time.sleep(0.5)
 
-    print(f"   ✓ 한국 뉴스 {len(kr_items)}건 수집 완료")
+    print(f"   - Korean News {len(kr_items)} count collected")
     return kr_items
 
 
@@ -350,7 +354,7 @@ def format_news_item(item, rank, is_top_pick=False):
     en_title_clean, source = title_to_ko_en(raw_title, source)
 
     # ✨ 한글 번역 (영문 원본은 en_title_clean으로 보존)
-    print(f"   🌐 번역 중: {en_title_clean[:45]}...")
+    print(f"   Translating: {en_title_clean[:45]}...")
     ko_title = translate_to_korean(en_title_clean)
 
     # 최초발행일 파싱
@@ -367,30 +371,23 @@ def format_news_item(item, rank, is_top_pick=False):
     # 재발행 판정: 3일 이상 지난 기사
     is_republished = days_old >= 3
 
-    # 후크 타이틀 자동 생성 (한국어 기준)
-    hook1_top    = ko_title[:15].strip() + "..." if len(ko_title) > 15 else ko_title
-    hook1_bottom = f"({source})" if source else "AI 최신 이슈"
-    hook2_top    = "주목할 이 뉴스!" if not is_top_pick else "오늘의 핫 이슈"
-    hook2_bottom = f"최초발행: {original_date}"
-
-    # 분석 텍스트 자동 생성
-    freshness_msg = "오늘 발표된 최신 뉴스입니다." if days_old == 0 else f"{days_old}일 전 발행된 기사입니다."
-    analysis = f"{ko_title} | {freshness_msg} 출처: {source}."
+    # 디팀장의 2030 맞춤형 분석 문구 자동 생성
+    # 단순 사실 전달이 아닌 '실용적 가치' 강조
+    if "_lang" in item and item["_lang"] == "kr":
+        analysis = f"2030을 위한 AI 실무 팁! {ko_title} 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다."
+    else:
+        analysis = f"글로벌 AI 트렌드 체크! {ko_title} 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
 
     result = {
         "rank": rank,
-        "koTitle": ko_title,           # ✅ 한글 번역본
-        "enTitle": en_title_clean,     # ✅ 영문 원본 (구글 검색 가능한 실제 제목)
+        "koTitle": ko_title,
+        "enTitle": en_title_clean,
         "date": today_str,
         "originalDate": original_date,
         "sourceName": source if source else "Google News",
         "sourceUrl": link,
         "isRepublished": is_republished,
         "viralRate": viral,
-        "hookTitles": [
-            {"top": hook1_top, "bottom": hook1_bottom},
-            {"top": hook2_top, "bottom": hook2_bottom},
-        ],
         "analysis": analysis,
     }
 
@@ -450,7 +447,7 @@ def update_js_file(news_data, trend_data):
     with open(js_path, "w", encoding="utf-8") as f:
         f.write(content)
 
-    print(f"✅ ai-app.js 업데이트 완료 (뉴스 {n1}건, 트렌드 {n2}건 교체)")
+    print(f"DONE ai-app.js update (News {n1}, Trends {n2})")
 
     # index.html 캐시 버스팅
     html_path = "index.html"
@@ -465,7 +462,7 @@ def update_js_file(news_data, trend_data):
         )
         with open(html_path, "w", encoding="utf-8") as f:
             f.write(html_content)
-        print(f"✅ index.html 캐시 버스팅 완료 (v={timestamp})")
+        print(f"DONE index.html cache busting (v={timestamp})")
 
     return True
 
@@ -475,7 +472,7 @@ def update_js_file(news_data, trend_data):
 def double_check_report(all_items):
     """최종 선별된 기사의 날짜 및 재발행 여부를 출력합니다."""
     print("\n" + "=" * 55)
-    print("📋 더블체크 리포트 - 최초발행일 검증")
+    print("DOUBLE CHECK REPORT - Publishing Date Validation")
     print("=" * 55)
     today = datetime.now().date()
     warning_count = 0
@@ -491,26 +488,26 @@ def double_check_report(all_items):
             diff_days = (today - original_date).days
 
             if diff_days >= 7:
-                status = "🔴 [구기사 주의]"
+                status = "[OLD NEWS]"
                 warning_count += 1
             elif diff_days >= 3:
-                status = "🟡 [재발행 의심]"
+                status = "[REPUBLISHED?]"
                 warning_count += 1
             else:
-                status = "🟢 [최신]"
+                status = "[FRESH]"
 
-            republished_mark = " ♻️재발행" if is_republished else ""
+            republished_mark = " (RE)" if is_republished else ""
             print(f"{status}{republished_mark} | {original_date_str} ({diff_days}일 전) | {source}")
             print(f"       └─ {title[:45]}...")
         except Exception:
-            print(f"⚠️  날짜 파싱 오류: {original_date_str} | {title[:30]}...")
+            print(f"FAILED Date Parse: {original_date_str} | {title[:30]}...")
             warning_count += 1
 
     print("=" * 55)
     if warning_count > 0:
-        print(f"⚠️  총 {warning_count}건 주의 필요!")
+        print(f"! Total {warning_count} warnings!")
     else:
-        print("✅ 모든 기사 최신 상태!")
+        print("OK All news fresh!")
     print("=" * 55 + "\n")
 
 
@@ -520,7 +517,7 @@ def double_check_report(all_items):
 def get_fallback_news():
     """RSS 수집에 실패했을 때 사용하는 폴백 데이터입니다."""
     today = datetime.now().strftime("%Y-%m-%d")
-    print("⚠️  RSS 수집 실패 — 폴백 데이터를 사용합니다.")
+    print("RSS collection failed - Using fallback data.")
     return [
         {
             "rank": 1, "isTopPick": True,
@@ -557,8 +554,8 @@ def get_fallback_news():
 def main():
     today_str = datetime.now().strftime("%Y-%m-%d")
     print("\n" + "=" * 55)
-    print(f"🦞 코다리 부장 - AI 뉴스 자동 업데이트 시작")
-    print(f"   실행 날짜: {today_str}")
+    print(f"Kodari Manager - AI News Auto Update Starting")
+    print(f"   Date: {today_str}")
     print("=" * 55)
 
     # ── 1. 영문 AI 뉴스 수집
@@ -569,12 +566,13 @@ def main():
 
     # ── 3. 뉴스 선별 (TOP 3)
     if en_items:
+        # 디팀장의 큐레이션 로직: 실무/수익/커리어 키워드 포함 기사 가중치 부여
         top_news_raw = select_top_news(en_items, count=3)
         news_data = []
         for i, item in enumerate(top_news_raw):
             formatted = format_news_item(item, rank=i+1, is_top_pick=(i==0))
             news_data.append(formatted)
-        print(f"📰 TOP {len(news_data)}개 뉴스 선별 완료")
+        print(f"NEWS TOP {len(news_data)} Selected (2030 Curation Applied)")
     else:
         news_data, _ = get_fallback_news()
 
@@ -582,15 +580,15 @@ def main():
     # 한국 뉴스를 우선, 부족하면 영문 뉴스에서 보충
     trend_pool = kr_items if kr_items else en_items
     if trend_pool:
-        # 카테고리 순환 배정
-        categories = ["Physical AI", "Work & Career", "Korea AI"]
+        # 2030 관심 카테고리로 업데이트
+        categories = ["Productivity", "Money & SideHustle", "Career Trend"]
         top_trends_raw = select_top_news(trend_pool, count=3)
         trend_data = []
         for i, item in enumerate(top_trends_raw):
             cat = categories[i] if i < len(categories) else "AI Trend"
             formatted = format_trend_item(item, rank=i+1, category=cat)
             trend_data.append(formatted)
-        print(f"📊 TOP {len(trend_data)}개 트렌드 선별 완료")
+        print(f"TREND TOP {len(trend_data)} Selected (2030 Curation Applied)")
     else:
         _, trend_data = get_fallback_news()
 
@@ -601,10 +599,10 @@ def main():
     success = update_js_file(news_data, trend_data)
 
     if success:
-        print(f"\n🎉 대표님! {today_str} 뉴스 자동 업데이트 완료!")
-        print("   GitHub Push → GitHub Pages 자동 배포 예정입니다.\n")
+        print(f"\nDONE! {today_str} News updated!")
+        print("   GitHub Push -> GitHub Pages auto deploy.\n")
     else:
-        print("\n❌ 업데이트 실패 — 수동 확인이 필요합니다.\n")
+        print("\nFAILED Update - Please check manually.\n")
         exit(1)
 
     # ── 7. 이메일 브리핑 발송
@@ -625,10 +623,10 @@ def send_email_briefing(news_data, trend_data, date_str):
     to_list        = [e.strip() for e in raw_recipients.split(",") if e.strip()]
 
     if not gmail_user or not gmail_password:
-        print("📧 이메일 환경변수 미설정 — 발송 스킵")
+        print("Email env vars not set - skipping briefing")
         return
 
-    print(f"📧 이메일 브리핑 발송 중 → {', '.join(to_list)}")
+    print(f"Sending email briefing -> {', '.join(to_list)}")
 
     # ── HTML 뉴스 카드 생성
     def news_card_html(item, is_trend=False):
@@ -726,12 +724,12 @@ def send_email_briefing(news_data, trend_data, date_str):
             smtp.login(gmail_user, gmail_password)
             smtp.sendmail(gmail_user, to_list, msg.as_string())  # 리스트로 다중 발송
 
-        print(f"   ✅ 이메일 발송 완료 → {', '.join(to_list)}")
+        print(f"   Email briefing sent -> {', '.join(to_list)}")
 
     except smtplib.SMTPAuthenticationError:
-        print("   ❌ Gmail 인증 실패 — GMAIL_USER / GMAIL_APP_PASSWORD 확인 필요")
+        print("   FAILED Gmail Auth - Check GMAIL_USER / GMAIL_APP_PASSWORD")
     except Exception as e:
-        print(f"   ⚠️  이메일 발송 실패: {e}")
+        print(f"   FAILED Email Send: {e}")
 
 
 if __name__ == "__main__":
