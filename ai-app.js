@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-02-27
+ * 최신 업데이트: 2026-02-28
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "ChatGPT는 AI를 사용하여 수익을 창출하는 방법을 설명합니다.",
-        "enTitle": "ChatGPT Explains How To Make Money Using AI",
-        "date": "2026-02-27",
-        "originalDate": "2026-02-26",
-        "sourceName": "AOL.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVVZtWTQtaWZTZUlJdnZmR0EzUmY0elROU0pNUVAtZlMyaE9aeGNjNE4xX2UyOGthYnhNbWYtaWs4b2hCZ3JocDYwVlpyZWRzYmw4ZVhfR3JnTm5YbnpIZUkzYm9OYlFBV0czZ1V0U04yNTdTTVV5Y18tZ2QxdkprXw?oc=5",
+        "koTitle": "맛이 좋으신가요? 인공지능 직업 묵시록 동안 일자리를 얻을 수 있다고 샘 알트먼은 말합니다.",
+        "enTitle": "Have good taste? It may just get you a job during the AI jobs apocalypse, says Sam Altman",
+        "date": "2026-02-28",
+        "originalDate": "2026-02-27",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRHIyUklTbklhdF9Hc2hEcWNWSEhKTjl3S2tVQUpQckNWdnhTel9GYWxkbFZGeWhhOHhSU2IwbDNueHZ3R2pqUGJnb1ZJaTE5Ql9TZ0tIS3NTOUlQV0VGQU1ENE9jT2syd05aT19TZFd5OTJ0NThWV0VkdVZQbTdyY3dReHdQY3FXa29uR0dVdWsxc29lUTlr?oc=5",
         "isRepublished": false,
         "viralRate": "88%",
-        "analysis": "글로벌 AI 트렌드 체크! ChatGPT는 AI를 사용하여 수익을 창출하는 방법을 설명합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! 맛이 좋으신가요? 인공지능 직업 묵시록 동안 일자리를 얻을 수 있다고 샘 알트먼은 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI 경영진이 미래의 직업에 대해 자신의 아이들에게 이야기하는 것",
-        "enTitle": "What AI Executives Tell Their Own Kids About the Jobs of the Future",
-        "date": "2026-02-27",
-        "originalDate": "2026-02-26",
-        "sourceName": "WSJ",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiugNBVV95cUxOV09sdW1uQ0FKU25QMGwzRUJ4NTFqUlhTTTQyVkNCVFkydVRnam9yZVdlc0YxcTdwY3REQWl1b2Y5UVNzVW1SYlhZRE1TS015aVdwbjctT2JfTmlLOFlSZzVNekdNTmFJRUQxMDFMbVhIdUFYZTViemJFbVAzUkEwc1pVaXBLMVRycGYwT28xN01MeVB5RnZlNkppRms3dGxhRjFqRHNyRmRScUdlYU9EUjZBVGVyN1BJOGxOakRoRmtITlZxY21lZWNoUHdnUkotX0lVTEtDWnZiWTdyV21NcUVJOUgwZ210OG42VGlzbUNha2JSc3YwbWVxa2JmYkY4bVozcXBlRUlKenk2M1JQZzdVY0cyVEpEMWJuaHllQkJXeWt2Y0F2cjZXdWNEMTlWNXNkcHBtSkVqOGZld1VJa3ZrSlhaczFZbG1zNzdVcXlFb1JqeFdNY3hCZ0U5bl8wVVFZY0JIVHBIYy1COWFSeFFCZXpac1BpNnBTWDZXanNoWUZCZ0VYTFpYeGZLd3lJQV9ZTTNIREF1RnVzMjFvUHBHWjZ2UHg3eG1ZRFAxRFh3MjM4X0s2eVpn?oc=5",
+        "koTitle": "아이들은 어떻게 할까요? 이번 주 일자리 손실은 쓰나미 이전의 파급력입니다.",
+        "enTitle": "What are the kids going to do? This week’s job losses are the ripple before the tsunami",
+        "date": "2026-02-28",
+        "originalDate": "2026-02-27",
+        "sourceName": "SMH.com.au",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOWFiYjZIa2stV1RPZWx1aU1yWTE0SXJnenpoV1VYV3NWb1kzenhqbGY2aEhZMXI5RDlfS1ItclpWeTZQb2QwcHNsT29aTGVITGNOWU9xQldkajAySHN5OUg2RDFDQ2dWRS1rYlZEbUIySTZDMFJPaW5uWlEycTI1Q3cwVFhIOGxod2M1cEVQd2xXSXhXMkV4ckk1ZnlsM1VVdHB1WGVrenBBV2ZXUlBBa20xRmE4YmNpWEQ5MVRTdHN4R0V6UmUzdlh6OTdWbmxjb29EdGNn?oc=5",
         "isRepublished": false,
-        "viralRate": "88%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 경영진이 미래의 직업에 대해 자신의 아이들에게 이야기하는 것 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "82%",
+        "analysis": "글로벌 AI 트렌드 체크! 아이들은 어떻게 할까요? 이번 주 일자리 손실은 쓰나미 이전의 파급력입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "모건 스탠리 (Morgan Stanley) 는 AI가 조기 퇴직을 허용하지 않을 것이라고 예측합니다. 대신, 아직 존재하지 않는 직업을 훈련시켜야합니다.",
-        "enTitle": "Morgan Stanley predicts AI won’t let you retire early: Instead, you’ll have to train for jobs that don’t exist yet",
-        "date": "2026-02-27",
-        "originalDate": "2026-02-26",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPX0x2S19iX3k5ZkRlZmhzTXNkUzEyQXp0LVFyUExjRThTeTBuQ05Ya0ZCbGE1YXlva29PSjZES3ZZa2tHeEp3N29KV0dnRnp0bWhFRFFsdjc4R2tXTTZwTHBhU1VERVJIY3F6VG1DU0VJUFJIX0Z0RnNJdXRpb3lFU19nOXl3WmFrZkZfSWg5ZGtfdTE1eklYSTRKY2hyUWVVZnZ1YVhOdlRpalV5TG1rc3p4cWtoUGR0WGY5YkREUERETFNFbV9FZGxRZlJVZHpKbzZMazFxaHg?oc=5",
+        "koTitle": "4000 작업 삭감: Afterpay 소유자 AI 도끼를 휘두를 옆의 차단",
+        "enTitle": "4000 job cuts: Afterpay owner Block next to wield the AI axe",
+        "date": "2026-02-28",
+        "originalDate": "2026-02-27",
+        "sourceName": "The Australian",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPYkF2OUVZQW9lWW1ER0lxUTRNX25zNktEZ1c4dGVXWVdHQ2RuYmhPb0ExX3RwZmNJNFB2MmJVWS1NaTZhbFdDUFdCa1plT29NVy16eFlYbW5jaVhiZXdVd1lCYkNkWll4bWQ2RlJVUS00MzRQbkJRcmdiY2pjSVl1b19fWGxlVFdzSzBwNTZaYVZXQmw4UWhDX3g5cWEwclJGU0tsNDE5N2ptMjd6d1RpQWFBZW85MVpiUTBCZE5sbTduUXpLYkZSUmQtYzhqdlVXSnY0bU9xanRPOGIxYkVkc3BGbkM3Q3RmSXFCMmNpMV_SAfYBQVVfeXFMTTFzZnBDSDQtTU13WFNtRXBjRk42Sk1WRy1EWWQ2Y2JSNlpFOS1RVEl1Q1hQZnduUEVyZ3dzVXZTdDhwLTFkTFJSUm5Nei1UQll6RC1YLUJreTFSeXRKZjBqNWk0WEEwYUE2S2hwLWZrb0ZkZjRaRHN0NzMwLTF3Sm1kM0lVdEpNQlJUaVdEbzZUaWRUSjItYzNtSGNyVnltMlp1RHNWWGlHbHdDYWNlM192azZVWGdQU3VUQjUyWkZEZllLQzVoYVhBMGNjY0I2Y2ZtbGpkdXVrZGswU3ZxNzc1cWlyczRRU0hsdVNTR0p0MUJHT2VR?oc=5",
         "isRepublished": false,
-        "viralRate": "86%",
-        "analysis": "글로벌 AI 트렌드 체크! 모건 스탠리 (Morgan Stanley) 는 AI가 조기 퇴직을 허용하지 않을 것이라고 예측합니다. 대신, 아직 존재하지 않는 직업을 훈련시켜야합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "78%",
+        "analysis": "글로벌 AI 트렌드 체크! 4000 작업 삭감: Afterpay 소유자 AI 도끼를 휘두를 옆의 차단 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "AI·숏폼 수익화 노린 사기 늘었다…피해 예방은 '카드 할부'로",
-        "enTitle": "AI·숏폼 수익화 노린 사기 늘었다…피해 예방은 '카드 할부'로",
-        "date": "2026-02-27",
-        "originalDate": "2026-02-26",
-        "sourceName": "컨슈머타임스(Consumertimes)",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NeV9MWXhLNGNDQ1hiQzFLU1RDWEx4ejlfb1psbW5jZW1YU1VKNkJrSXd6UnBRSlZTZmJoWkFmVUh1bVBLTGhBYU8xUnJWamktRmF0RDJIb3RJLUxZcURkalpOWEQ0ejhlTFE?oc=5",
+        "koTitle": "AI로 '자산'을 만드는 5단계 플레이북",
+        "enTitle": "AI로 '자산'을 만드는 5단계 플레이북",
+        "date": "2026-02-28",
+        "originalDate": "2026-02-27",
+        "sourceName": "브런치",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5VVW5NMVByOVdRQ3ZPUGt6VVMzT0hEQlNrUFVFeU45azhsaVUzamVhTTNzZnd1ODhzUmxfem1fSXlEQTJC?oc=5",
         "isRepublished": false,
-        "viralRate": "88%",
-        "analysis": "2030을 위한 AI 실무 팁! AI·숏폼 수익화 노린 사기 늘었다…피해 예방은 '카드 할부'로 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "75%",
+        "analysis": "2030을 위한 AI 실무 팁! AI로 '자산'을 만드는 5단계 플레이북 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Productivity"
     },
     {
         "rank": 2,
-        "koTitle": "2025년 귀속 법인세 신고, 세무사랑 ‘AI 자동 조정’으로 업무 혁신",
-        "enTitle": "2025년 귀속 법인세 신고, 세무사랑 ‘AI 자동 조정’으로 업무 혁신",
-        "date": "2026-02-27",
+        "koTitle": "AI·숏폼 수익화 노린 사기 늘었다…피해 예방은 '카드 할부'로",
+        "enTitle": "AI·숏폼 수익화 노린 사기 늘었다…피해 예방은 '카드 할부'로",
+        "date": "2026-02-28",
         "originalDate": "2026-02-26",
-        "sourceName": "세무사신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rbVJQYnl0YXk1dHg0UUJUbV90UHdfM3Vac2FVYk4xU05UX3oxb1pwX0ZfTXlPTk1laGluZmFQYVBaQi1tMUgwWU0ycnZqQ0VKSzN3VnhlYU1oTzZzd2NLMzA0Rkp2LUc3TzRQZ3FR?oc=5",
+        "sourceName": "컨슈머타임스(Consumertimes)",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NeV9MWXhLNGNDQ1hiQzFLU1RDWEx4ejlfb1psbW5jZW1YU1VKNkJrSXd6UnBRSlZTZmJoWkFmVUh1bVBLTGhBYU8xUnJWamktRmF0RDJIb3RJLUxZcURkalpOWEQ0ejhlTFE?oc=5",
         "isRepublished": false,
         "viralRate": "85%",
-        "analysis": "2030을 위한 AI 실무 팁! 2025년 귀속 법인세 신고, 세무사랑 ‘AI 자동 조정’으로 업무 혁신 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! AI·숏폼 수익화 노린 사기 늘었다…피해 예방은 '카드 할부'로 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Money & SideHustle"
     },
     {
         "rank": 3,
-        "koTitle": "3월 법인세 신고 앞두고…세무사랑 'AI 자동 조정' 선봬",
-        "enTitle": "3월 법인세 신고 앞두고…세무사랑 'AI 자동 조정' 선봬",
-        "date": "2026-02-27",
+        "koTitle": "2025년 귀속 법인세 신고, 세무사랑 ‘AI 자동 조정’으로 업무 혁신",
+        "enTitle": "2025년 귀속 법인세 신고, 세무사랑 ‘AI 자동 조정’으로 업무 혁신",
+        "date": "2026-02-28",
         "originalDate": "2026-02-26",
-        "sourceName": "한국세정신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6c2Y4ZjE3SVVUTnZtSnVwWDFvcXpTb3l4NXJSYmtLM3Q4S25PTjZETFBBRXRVWF9UUTk4M05lNXNvS3JuY2xTMlRKcXVBUkZJNkJxc2tOVjBWOTE4eEtLX25rUVg?oc=5",
+        "sourceName": "세무사신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rbVJQYnl0YXk1dHg0UUJUbV90UHdfM3Vac2FVYk4xU05UX3oxb1pwX0ZfTXlPTk1laGluZmFQYVBaQi1tMUgwWU0ycnZqQ0VKSzN3VnhlYU1oTzZzd2NLMzA0Rkp2LUc3TzRQZ3FR?oc=5",
         "isRepublished": false,
-        "viralRate": "83%",
-        "analysis": "2030을 위한 AI 실무 팁! 3월 법인세 신고 앞두고…세무사랑 'AI 자동 조정' 선봬 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "82%",
+        "analysis": "2030을 위한 AI 실무 팁! 2025년 귀속 법인세 신고, 세무사랑 ‘AI 자동 조정’으로 업무 혁신 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Career Trend"
     }
 ];
