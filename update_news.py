@@ -38,12 +38,18 @@ AI_NEWS_RSS_EN = [
     "https://news.google.com/rss/search?q=viral+AI+apps+trending+AI&hl=en-US&gl=US&ceid=US:en",
 ]
 
-# 한국 2030 AI 트렌드 뉴스
+# 한국 2030 AI 트렌드 뉴스 (개인 실생활 중심, BORING 필터로 B2B 제외)
 AI_NEWS_RSS_KR = [
-    "https://news.google.com/rss/search?q=AI+%EC%8B%A4%EB%AC%B4+%ED%9A%A8%EC%9C%A8+%EC%9E%90%EB%8F%99%ED%99%94&hl=ko&gl=KR&ceid=KR%3Ako",
-    "https://news.google.com/rss/search?q=AI+%EB%B6%80%EC%97%85+%EC%88%98%EC%9D%B5%ED%99%94&hl=ko&gl=KR&ceid=KR%3Ako",
-    "https://news.google.com/rss/search?q=AI+%EC%B7%A8%EC%97%85+%EC%97%AD%EB%9F%89+%EC%BB%A4%EB%A6%AC%EC%96%B4&hl=ko&gl=KR&ceid=KR%3Ako",
-    "https://news.google.com/rss/search?q=%EC%9A%94%EC%A6%98+%EC%9C%A0%ED%96%89%ED%95%98%EB%8A%94+AI+%EC%95%B1&hl=ko&gl=KR&ceid=KR%3Ako",
+    # 생산성: AI 활용 꿀팁 (넓은 범위 → BORING 필터가 거름)
+    "https://news.google.com/rss/search?q=AI+%ED%99%9C%EC%9A%A9+%EA%BF%80%ED%8C%81&hl=ko&gl=KR&ceid=KR%3Ako",
+    # 수익: 부업/수익화
+    "https://news.google.com/rss/search?q=AI+%EB%B6%80%EC%97%85+%EC%88%98%EC%9D%B5&hl=ko&gl=KR&ceid=KR%3Ako",
+    # 커리어: 취업/이직
+    "https://news.google.com/rss/search?q=AI+%EC%B7%A8%EC%97%85+%EC%BB%A4%EB%A6%AC%EC%96%B4&hl=ko&gl=KR&ceid=KR%3Ako",
+    # 바이럴: 요즘 유행하는 AI
+    "https://news.google.com/rss/search?q=%EC%9A%94%EC%A6%98+%EC%9C%A0%ED%96%89+AI+%EC%95%B1&hl=ko&gl=KR&ceid=KR%3Ako",
+    # ChatGPT/클로드 등 대중적 AI 서비스
+    "https://news.google.com/rss/search?q=ChatGPT+%ED%99%9C%EC%9A%A9+%EB%B0%A9%EB%B2%95&hl=ko&gl=KR&ceid=KR%3Ako",
 ]
 
 # 신뢰도 높은 AI 전문 미디어 (출처 가중치 부여)
@@ -71,6 +77,26 @@ VIRAL_KEYWORDS = [
     "free", "limited", "breakthrough", "scary", "insane", "how to", "best",
     "출시", "발표", "부업", "수익", "취업", "연봉", "생산성", "꿀팁", "자동화",
     "무료", "공짜", "충격", "조심", "역대급", "방법", "추천", "난리",
+]
+
+# 2030이 지루해하는 기업용/공공 뉴스 키워드 (즉시 제외)
+BORING_KEYWORDS = [
+    # 세무/재정
+    "법인세", "세무", "결산", "세금",
+    # B2B/기업용
+    "솔루션", "엔터프라이즈", "기업용", "브랜드 전용", "고객사", "B2B", "사업자",
+    # 협약/계약
+    "협약", "양해각서", "MOU", "체결", "계약", "업무협약",
+    # 정부/공공/공공기관
+    "위원회", "정부", "국회", "지자체", "공공기관", "산업부", "과기부",
+    "지원센터", "재단", "진흥원", "연구원", "청년센터", "고용센터", "일자리재단",
+    # 행사/이벤트
+    "세미나", "컨퍼런스", "포럼", "학술", "개최", "사전등록",
+    # 특정인 대상/홍보성
+    "대표님을 위한", "대표를 위한", "심층분석",
+    # 영문
+    "corporate", "tax", "agreement", "memorandum", "partnership", "government",
+    "enterprise", "B2B", "webinar",
 ]
 
 # ─── RSS 파싱 함수 ────────────────────────────────────────────
@@ -153,41 +179,44 @@ def days_since_published(pubdate_str):
 def calculate_viral_rate(item, position, days_old):
     """
     기사의 바이럴 가능성 점수(%)를 계산합니다.
-    - 출처 신뢰도
-    - RSS 피드 내 순위
-    - 키워드 포함 여부
-    - 발행 신선도
+    최소 87%, 최대 99% 범위로 차등 부여.
     """
-    score = 70  # 기본 점수
+    score = 87  # 기본 점수 (최소 87% 보장)
 
     # 출처 신뢰도 가중치
     source_lower = item.get("source", "").lower()
     for key, weight in TRUSTED_SOURCES.items():
         if key in source_lower:
-            score = max(score, weight - 10)  # 신뢰 출처면 점수 UP
+            score += 3  # 신뢰 출처 보너스
             break
 
     # RSS 순위 (앞에 있을수록 높은 점수)
-    position_bonus = max(0, 10 - position * 2)
+    position_bonus = max(0, 5 - position)
     score += position_bonus
 
-    # 키워드 바이럴 보너스
+    # 키워드 바이럴 보너스 (복수 매칭 허용)
     title_lower = item.get("title", "").lower()
+    keyword_hits = 0
     for kw in VIRAL_KEYWORDS:
         if kw.lower() in title_lower:
-            score += 3
-            break
+            keyword_hits += 1
+    score += min(keyword_hits * 2, 6)  # 최대 +6
 
-    # 발행 신선도 (오래될수록 감점)
+    # 지루한 뉴스 즉시 제외 (2030 타겟에 부적합)
+    for bkw in BORING_KEYWORDS:
+        if bkw.lower() in title_lower:
+            return "0%"
+
+    # 발행 신선도
     if days_old == 0:
-        score += 5   # 오늘 발행
+        score += 4   # 오늘 발행
     elif days_old <= 1:
         score += 2
     elif days_old >= 7:
-        score -= 10  # 1주일+ 구기사
+        score -= 3   # 1주일+ 구기사
 
-    # 최대 99% 제한
-    score = min(99, max(50, score))
+    # 87~99% 범위 고정
+    score = min(99, max(87, score))
     return f"{score}%"
 
 
@@ -328,6 +357,9 @@ def select_top_news(items, count=3):
         days_old = days_since_published(item.get("pubDate", ""))
         viral = calculate_viral_rate(item, item.get("_position", i), days_old)
         scored.append({**item, "_days_old": days_old, "_viral": viral})
+
+    # BORING 키워드 매칭 기사 완전 제외 (0% 필터)
+    scored = [x for x in scored if x["_viral"] != "0%"]
 
     # 최신순 + 바이럴 점수 복합 정렬
     scored.sort(key=lambda x: (x["_days_old"], -int(x["_viral"].replace("%", ""))))
