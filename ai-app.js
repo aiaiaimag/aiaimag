@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-03-02
+ * 최신 업데이트: 2026-03-03
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "게임 분야의 AI 직무: 미래 게임을 형성하는 커리어 | Outlook Respawn",
-        "enTitle": "AI Jobs in Gaming: The Careers Shaping Future Games | Outlook Respawn",
-        "date": "2026-03-02",
-        "originalDate": "2026-03-01",
-        "sourceName": "Outlook Respawn",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQczZDai1kTDltZjJtVzFBUXZOblNyYWhJa2pvMUg1SEVCWnJZblF4aDF3bzZXYjJ4MTlaemdsTlA5cGM0WDVpUGp0OE9IVE5DNTJkMUdkVzA4YXRuOWkwRklLZmVvQVp2MzFZYXNfd29GMFNibF9mcEdmX0hLOEZVT0NnYkFTd2VhczNlcV9tTHg0c0VES1BYc0RxMU5qWDg1cV9nQ293SUdPRjjSAbgBQVVfeXFMUGNuaWRQVEM2S3pYZXBFRWJfaFdNTnF2ck1vbm5WVHFKeFk4aHNZMXpfNXNMbHRsbFctQjlKT0ZjZWtOTy1aZUVuS296Mk9XdlBqT3h1R2FuRnY3WmRIbDFERUlqZzJibmsxSHp2cDVJd0txRTE0dkNVbmljbUxOZTlROWRscTI2bkw5cHVzNkdPdEdPTlluVkNOUWVBLTlRa1E2cGtwSC10Z2NBemZReDRTa2lRVmxzQw?oc=5",
+        "koTitle": "ChatGPT는 AI를 사용하여 수익을 창출하는 방법을 설명합니다.",
+        "enTitle": "ChatGPT Explains How To Make Money Using AI",
+        "date": "2026-03-03",
+        "originalDate": "2026-03-02",
+        "sourceName": "AOL.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVVZtWTQtaWZTZUlJdnZmR0EzUmY0elROU0pNUVAtZlMyaE9aeGNjNE4xX2UyOGthYnhNbWYtaWs4b2hCZ3JocDYwVlpyZWRzYmw4ZVhfR3JnTm5YbnpIZUkzYm9OYlFBV0czZ1V0U04yNTdTTVV5Y18tZ2QxdkprXw?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 게임 분야의 AI 직무: 미래 게임을 형성하는 커리어 | Outlook Respawn 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "98%",
+        "analysis": "글로벌 AI 트렌드 체크! ChatGPT는 AI를 사용하여 수익을 창출하는 방법을 설명합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI는 일자리를 끝내는 것이 아니라 바꿀 것입니다: Amazon CEO Andy Jassy",
-        "enTitle": "AI will change jobs, not end them: Amazon CEO Andy Jassy",
-        "date": "2026-03-02",
-        "originalDate": "2026-03-01",
-        "sourceName": "ETHRWorld.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUmNxaTdhbjdsUUppSEdhajBpQ0FKbnRFVlFYV2l5NmszeXpSakhDMVQtd3FGWTc0c0xqbVNPak1Mand0M1lpdEUwVlNOZmFZMnlXb1ZRWHR3NUFRNU9Lc0dEY1FEZXFXY1pRNi1rdi1BajlXb0Y3RDduNEJQSERkTFpJYlJEMGRTVUFOZTZYT0dySkZhNmI0TFc2S3l4UzJveExUU1hMOWZmNnJodHF3b2lqdGZSS05nd3J5RGlhMHpBNVZZOVJaa1pnUdIB0AFBVV95cUxNcW50UnZPWklTZ1lKWUJjYXNMdWMyOHRrY3pfa1AzQkdtNkMtZTZPbkxaaVczV0QzYkM1X2JuOHQ1UzlZNzhrUi1nWDc4cGJsMWFNSmQwQU5lazJSTXhmdVRPTTlhd0twamk4alV4NlgyNTkwQlFuYUxOajNrX0NmeFozNzFueGZfcFVSVThxNkVrdVRuaW9iVzRvdFZNV3Bwckp5RXQ5cnNtQ1RvbGZ3Y1F3ZFAyOHVBVjVtRlRJZ25mSXdLcTMwOXhNd19kd0dh?oc=5",
+        "koTitle": "미래의 AI 일자리는 저널리즘의 역할을 바꿉니다",
+        "enTitle": "AI jobs of the future change roles in journalism",
+        "date": "2026-03-03",
+        "originalDate": "2026-03-02",
+        "sourceName": "KGUN 9",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRFBmejd0NE1LbzBfY3RQME00YWtCNnE3Y1BZQWVOckFrNmRaazR0eW9pS1k1X21Oc2ljR0swMHlaX2ctbFFteEN2R0ZDalNrVTRmVzNkY1BQUzNFckxZNllES1BfMWc3Z1RjdElaWjZFTzExd2NCLWxJUTExejBNTVpwdzhDdlRITHVaeXByQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! AI는 일자리를 끝내는 것이 아니라 바꿀 것입니다: Amazon CEO Andy Jassy 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 미래의 AI 일자리는 저널리즘의 역할을 바꿉니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "# 693: 벤 츠바이크 박사와 함께하는 인공지능, 정리해고, 커리어의 미래",
-        "enTitle": "#693: AI, Layoffs, and the Future of Your Career – with Dr. Ben Zweig",
-        "date": "2026-03-02",
-        "originalDate": "2026-02-28",
-        "sourceName": "Afford Anything",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYW9QVzU2R25BUThWWkpZSDVJRWtfN1FWb3B5Y1YxanlDV01mdnBKN19fN0FvREdrSmZiNzVlNkN4SlB0Ym5hZjJodXVPRkk0OGRyWEJHak1tVUxDRXZxcFhJNXRYa2VUX3NGMWlZLXFPOGJ5VDFJanpzOFNCSTJod2hZWk9OTkQtdHpZRUNmeWR0Y29n?oc=5",
+        "koTitle": "심각한 전기 기술자 부족은 AI 데이터 센터 붐에 대한 ‘생사가 걸린’ 위협이며 Z세대의 기회입니다.",
+        "enTitle": "A dire electrician shortage is a ‘life-or-death’ threat to the AI data center boom—and an opportunity for Gen Z",
+        "date": "2026-03-03",
+        "originalDate": "2026-03-02",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWGlZeElGcEplUXRfQWo0Z3d2dzBpMHVON0h5VTdHQndkWmV0Q0NBRWRrXzBidVQ5ZUpBY2NGUVMybGlDOTlZWmtTTHAyT096TGhLc2tMcE5ZYUpidHUwdVBGMXVWV1ZwcWxXQ0c0bXFFWHltTHVtcERNd0dZNWkwUFlTSEhpTHZpV3Rsb1pUR0lXdGdSN1E?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! # 693: 벤 츠바이크 박사와 함께하는 인공지능, 정리해고, 커리어의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! 심각한 전기 기술자 부족은 AI 데이터 센터 붐에 대한 ‘생사가 걸린’ 위협이며 Z세대의 기회입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -53,39 +53,39 @@ const generalTrendingData = [
         "rank": 1,
         "koTitle": "노원구 청년내일, ‘2026 채용트랜드&AI활용법’ 3월 커리어 기초 클래스 운영",
         "enTitle": "노원구 청년내일, ‘2026 채용트랜드&AI활용법’ 3월 커리어 기초 클래스 운영",
-        "date": "2026-03-02",
+        "date": "2026-03-03",
         "originalDate": "2026-02-27",
         "sourceName": "데브타임즈",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aWnpkMGdoWjUyU0wtbVJaNThpUGRSeDJvUGFkQUN2dkhBVmtEOGdCUlJEMWtvbzNfcWhIR1BPR1dnM3dCeXlieTBoZko2emc?oc=5",
-        "isRepublished": false,
+        "isRepublished": true,
         "viralRate": "91%",
         "analysis": "2030을 위한 AI 실무 팁! 노원구 청년내일, ‘2026 채용트랜드&AI활용법’ 3월 커리어 기초 클래스 운영 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Productivity"
     },
     {
         "rank": 2,
-        "koTitle": "내 눈동자가 그냥 '갈색'이 아니다? 아이 컬러 스캔부터 파격 변신까지!",
-        "enTitle": "내 눈동자가 그냥 '갈색'이 아니다? 아이 컬러 스캔부터 파격 변신까지!",
-        "date": "2026-03-02",
-        "originalDate": "2026-02-26",
-        "sourceName": "perfectcorp.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQa2NrYUQzMXl3US05NVlRUU5QNmo1ZDZ5M1lzZlE5YV9nLXIwdDJ4Z1M2UUZGa2t4UEpLZTI2eDVDWTN6OW9hTGV6SG5aVS1YNTRzYTl4cWI1YnBvQVJfdWtXbkpzdExsZ1Z2UEpnVWhpSGYzM1h2T3NSTVlTNXlMdTVFNFhPWm5RNjVQbVlZQQ?oc=5",
-        "isRepublished": true,
-        "viralRate": "90%",
-        "analysis": "2030을 위한 AI 실무 팁! 내 눈동자가 그냥 '갈색'이 아니다? 아이 컬러 스캔부터 파격 변신까지! 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Money & SideHustle"
-    },
-    {
-        "rank": 3,
         "koTitle": "AI·숏폼 수익화 노린 사기 늘었다…피해 예방은 '카드 할부'로",
         "enTitle": "AI·숏폼 수익화 노린 사기 늘었다…피해 예방은 '카드 할부'로",
-        "date": "2026-03-02",
+        "date": "2026-03-03",
         "originalDate": "2026-02-26",
         "sourceName": "컨슈머타임스(Consumertimes)",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NeV9MWXhLNGNDQ1hiQzFLU1RDWEx4ejlfb1psbW5jZW1YU1VKNkJrSXd6UnBRSlZTZmJoWkFmVUh1bVBLTGhBYU8xUnJWamktRmF0RDJIb3RJLUxZcURkalpOWEQ0ejhlTFE?oc=5",
         "isRepublished": true,
         "viralRate": "89%",
         "analysis": "2030을 위한 AI 실무 팁! AI·숏폼 수익화 노린 사기 늘었다…피해 예방은 '카드 할부'로 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Money & SideHustle"
+    },
+    {
+        "rank": 3,
+        "koTitle": "AI 시대, '바른채용'이란 무엇인가...HR 전문가들 해법 나눠",
+        "enTitle": "AI 시대, '바른채용'이란 무엇인가...HR 전문가들 해법 나눠",
+        "date": "2026-03-03",
+        "originalDate": "2026-02-26",
+        "sourceName": "지디넷코리아",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9OS2lsckNyX2dMWDlEQmFCTlgtOUhkRlg1X3hDSl9TNGhCXy1leklpcjNTQlJOVXV5Z2l6N2p4Y0RBZjhPLUs0T1dIZm83REw4bkpEbUJn?oc=5",
+        "isRepublished": true,
+        "viralRate": "87%",
+        "analysis": "2030을 위한 AI 실무 팁! AI 시대, '바른채용'이란 무엇인가...HR 전문가들 해법 나눠 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Career Trend"
     }
 ];
