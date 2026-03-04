@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-03-04
+ * 최신 업데이트: 2026-03-05
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "기술 투자자 Bill Gurley는 ‘대학 컨베이어 벨트‘ 를 통과하고 안전한 일자리를 추구한 근로자가 AI 자동화의 위험이 높다고 말합니다.",
-        "enTitle": "Tech investor Bill Gurley says workers who went through the ‘college conveyor belt’ and chased safe jobs are at high risk of AI automation",
-        "date": "2026-03-04",
+        "koTitle": "업무가 변화하고 있습니다: AI가 업무를 재구성하는 방법",
+        "enTitle": "Your Job Is Changing: How AI Is Reshaping Work",
+        "date": "2026-03-05",
         "originalDate": "2026-03-03",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVEJOQzZ5M1ZTbmxMdzVISEtKQ1JuRDZIc0UxV0tnRG5wYzBvOUpwdVFZeU11aVpTVENWUWI1YU1ySUYwUFRaWnBUZ3pkY3MwclhLbVlQZjF2Qk9IdHZhdFFQOC1EQWVBYjh5UlZwWUlEYzJvRGpfZ3E1TVlsaUNrSzY1dFpIdUZqbnJRWVlXUEw0eWVVQUNlN1lueDhnZ25YOWlrWHEtX3h6N0dFalkzbHE3NVBMdUdheHJwM3lzWkFGYjZsb3Vv?oc=5",
+        "sourceName": "Afford Anything",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSG9mVENHODVOc2RxbUZPUFM3M25GaEVlOU1IS2RBNzE5S2ZSbXExcjBiWjRCa3UxLXdGbXdaSVdpYmhfUVhrVFBLaXlmWjNqTkZyMjE5dlFwOTlCQThZMGFSb3pTV1F0SElzaHEtOVBGRkR1TFZTcHRXdnlWNi1sWmN4SEthaEMwTS05RE40eWVrOG1QN01nTFNVSzJnZDRsekRCRUd0Sk56a0hDX3JDazNaYUNsUElxbjhKaVVsMG5RbXk0?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "글로벌 AI 트렌드 체크! 기술 투자자 Bill Gurley는 ‘대학 컨베이어 벨트‘ 를 통과하고 안전한 일자리를 추구한 근로자가 AI 자동화의 위험이 높다고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! 업무가 변화하고 있습니다: AI가 업무를 재구성하는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "기술 투자자 Bill Gurley는 ‘대학 컨베이어 벨트‘ 를 통과하고 안전한 일자리를 추구한 근로자가 AI 자동화의 위험이 높다고 말합니다.",
+        "enTitle": "Tech investor Bill Gurley says workers who went through the ‘college conveyor belt’ and chased safe jobs are at high risk of AI automation",
+        "date": "2026-03-05",
+        "originalDate": "2026-03-03",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVEJOQzZ5M1ZTbmxMdzVISEtKQ1JuRDZIc0UxV0tnRG5wYzBvOUpwdVFZeU11aVpTVENWUWI1YU1ySUYwUFRaWnBUZ3pkY3MwclhLbVlQZjF2Qk9IdHZhdFFQOC1EQWVBYjh5UlZwWUlEYzJvRGpfZ3E1TVlsaUNrSzY1dFpIdUZqbnJRWVlXUEw0eWVVQUNlN1lueDhnZ25YOWlrWHEtX3h6N0dFalkzbHE3NVBMdUdheHJwM3lzWkFGYjZsb3Vv?oc=5",
+        "isRepublished": false,
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 기술 투자자 Bill Gurley는 ‘대학 컨베이어 벨트‘ 를 통과하고 안전한 일자리를 추구한 근로자가 AI 자동화의 위험이 높다고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "미래의 AI 일자리는 저널리즘의 역할을 바꿉니다",
         "enTitle": "AI jobs of the future change roles in journalism",
-        "date": "2026-03-04",
+        "date": "2026-03-05",
         "originalDate": "2026-03-02",
         "sourceName": "KGUN 9",
         "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRFBmejd0NE1LbzBfY3RQME00YWtCNnE3Y1BZQWVOckFrNmRaazR0eW9pS1k1X21Oc2ljR0swMHlaX2ctbFFteEN2R0ZDalNrVTRmVzNkY1BQUzNFckxZNllES1BfMWc3Z1RjdElaWjZFTzExd2NCLWxJUTExejBNTVpwdzhDdlRITHVaeXByQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
+        "viralRate": "93%",
         "analysis": "글로벌 AI 트렌드 체크! 미래의 AI 일자리는 저널리즘의 역할을 바꿉니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "BBC Bitesize는 청소년의 AI 경력에 대한 두려움에 대한 해결책을 제공합니다.",
-        "enTitle": "BBC Bitesize offers solution to teens' AI career fears",
-        "date": "2026-03-04",
-        "originalDate": "2026-03-02",
-        "sourceName": "BBC",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeGFINjhZaFJndkZrWlJsT2tZUHBKR1FzVVB3ODNfRHRCcnZ6OFR1ZVhjSm5TaG10NWZPeTNaYmNrWFFjaTBHOExnZF9hZy1SZFpTZVMxalB3WktTNF9GRng2d2NDZTZ3OW13Y1lWMHhGd2xaZDViakxqQ3ExRGZNc3dRU2tCVElxSVZSQVMxeEN5MWFDa19Z?oc=5",
-        "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! BBC Bitesize는 청소년의 AI 경력에 대한 두려움에 대한 해결책을 제공합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "AI의 커리어 사다리 걷어차기, 신입이 사라진다",
-        "enTitle": "AI의 커리어 사다리 걷어차기, 신입이 사라진다",
-        "date": "2026-03-04",
-        "originalDate": "2026-03-03",
-        "sourceName": "바이라인네트워크",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11cV9SNG1BRUplTTZibVp0MTMzY2JoTXFjWi1VQ044QnlGNWI4QldqS1dLdGVOSEZONWxHbFc0WVNrcTZRWU5xUEJkOVBwelk?oc=5",
+        "koTitle": "사람인, 신입·인턴 전용 서비스 개편...\"개인화 넘어 AI에이전트로 진화\"",
+        "enTitle": "사람인, 신입·인턴 전용 서비스 개편...\"개인화 넘어 AI에이전트로 진화\"",
+        "date": "2026-03-05",
+        "originalDate": "2026-03-04",
+        "sourceName": "디지털투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9VTFMzRHlabHNNblEwZHJVaG5aTVcyQUlpcG5WMHg5SUptQ3RVVXhVR1h2RzNrOF9MdV9QYllHUV9DdkFYQjd6bF8xeS10dUFzUGYxMzctbWdmTlc5bVQwMVJEWDNhU3J2Y1pTZXpqd0tsSkk?oc=5",
         "isRepublished": false,
         "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! AI의 커리어 사다리 걷어차기, 신입이 사라진다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 사람인, 신입·인턴 전용 서비스 개편...\"개인화 넘어 AI에이전트로 진화\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Productivity"
     },
     {
         "rank": 2,
-        "koTitle": "빨대를 제발 '창틀'에 갖다 대보세요…대부분의 사람은 '이걸' 상상도 못합니다",
-        "enTitle": "빨대를 제발 '창틀'에 갖다 대보세요…대부분의 사람은 '이걸' 상상도 못합니다",
-        "date": "2026-03-04",
+        "koTitle": "AI의 커리어 사다리 걷어차기, 신입이 사라진다",
+        "enTitle": "AI의 커리어 사다리 걷어차기, 신입이 사라진다",
+        "date": "2026-03-05",
         "originalDate": "2026-03-03",
-        "sourceName": "위키트리",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TLWVvMDFZTUZfSndMUW1pTFdyWGVxOVZneGpqM3VuNThLOENfek5OcVo2TXA1dDkwTm5rSEhFc01FbXlsV2xIYV91RjllMTVCVjhMcS1B?oc=5",
+        "sourceName": "바이라인네트워크",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11cV9SNG1BRUplTTZibVp0MTMzY2JoTXFjWi1VQ044QnlGNWI4QldqS1dLdGVOSEZONWxHbFc0WVNrcTZRWU5xUEJkOVBwelk?oc=5",
         "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "2030을 위한 AI 실무 팁! 빨대를 제발 '창틀'에 갖다 대보세요…대부분의 사람은 '이걸' 상상도 못합니다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "93%",
+        "analysis": "2030을 위한 AI 실무 팁! AI의 커리어 사다리 걷어차기, 신입이 사라진다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Money & SideHustle"
     },
     {
         "rank": 3,
-        "koTitle": "노원구 청년내일, ‘2026 채용트랜드&AI활용법’ 3월 커리어 기초 클래스 운영",
-        "enTitle": "노원구 청년내일, ‘2026 채용트랜드&AI활용법’ 3월 커리어 기초 클래스 운영",
-        "date": "2026-03-04",
-        "originalDate": "2026-02-27",
-        "sourceName": "데브타임즈",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aWnpkMGdoWjUyU0wtbVJaNThpUGRSeDJvUGFkQUN2dkhBVmtEOGdCUlJEMWtvbzNfcWhIR1BPR1dnM3dCeXlieTBoZko2emc?oc=5",
-        "isRepublished": true,
-        "viralRate": "91%",
-        "analysis": "2030을 위한 AI 실무 팁! 노원구 청년내일, ‘2026 채용트랜드&AI활용법’ 3월 커리어 기초 클래스 운영 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "koTitle": "빨대를 제발 '창틀'에 갖다 대보세요…대부분의 사람은 '이걸' 상상도 못합니다",
+        "enTitle": "빨대를 제발 '창틀'에 갖다 대보세요…대부분의 사람은 '이걸' 상상도 못합니다",
+        "date": "2026-03-05",
+        "originalDate": "2026-03-03",
+        "sourceName": "위키트리",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TLWVvMDFZTUZfSndMUW1pTFdyWGVxOVZneGpqM3VuNThLOENfek5OcVo2TXA1dDkwTm5rSEhFc01FbXlsV2xIYV91RjllMTVCVjhMcS1B?oc=5",
+        "isRepublished": false,
+        "viralRate": "89%",
+        "analysis": "2030을 위한 AI 실무 팁! 빨대를 제발 '창틀'에 갖다 대보세요…대부분의 사람은 '이걸' 상상도 못합니다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Career Trend"
     }
 ];
