@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-03-08
+ * 최신 업데이트: 2026-03-09
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "저는 Google에서 AI가 기술 산업을 변화시키는 것을 보았습니다. 제가 어떻게 '미래를 정의하는' 커리어 피벗을 만들었는지 설명해 드리겠습니다.",
-        "enTitle": "I work at Google and saw AI change the tech industry. Here's how I upskilled and made a 'future-defining' career pivot.",
-        "date": "2026-03-08",
-        "originalDate": "2026-03-07",
-        "sourceName": "Business Insider",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNmJLM3ZBMDNocmxSd1VCZ2F3VnFLT0RmYmRlY291S1JBM19oMUpDUGZSdWdNcEJHblBKX044a3ZYZWY1NFNrV3YwVUpUS092d1RuclV6VmtmOHZPdERHM2Zrek81M3ZHQ1VKV20tYllpeTRZbkkySU14UVJEVXpOWHYtWWRWTjM4VmxFNGk1aw?oc=5",
-        "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 저는 Google에서 AI가 기술 산업을 변화시키는 것을 보았습니다. 제가 어떻게 '미래를 정의하는' 커리어 피벗을 만들었는지 설명해 드리겠습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
-        "isTopPick": true
-    },
-    {
-        "rank": 2,
-        "koTitle": "억만장자 OpenAI 투자자인 비노드 코슬라 (Vinod Khosla) 는 인공지능이 대학과 일자리를 없애도 2040년의 삶이 얼마나 멋진지 예측합니다.",
-        "enTitle": "Billionaire OpenAI investor Vinod Khosla predicts how awesome life could be in 2040—even if AI wipes out colleges and jobs",
-        "date": "2026-03-08",
-        "originalDate": "2026-03-07",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWlM2U3RLMlo0dWhxMnJlbzNXekNTczRhNktxLVFvR3Nud3N1S0pmb3VkNFpUeGszZk1pN0ZITlNHaVZBVzVfd3U1ZnlVOXozWkw4MlBZSmhRMi11UFc2dUJISU8wUFhmb09lZXFMWDgwVEMxM005R0l6NWtodldzVGVpakhMelR3R2NSeGRfSnMzOUFnZXJCazZ6cEhXOUYzUlhfM2VtNmh5cktUNmROMmNOckhna2g4bjc0UUpCZw?oc=5",
-        "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 억만장자 OpenAI 투자자인 비노드 코슬라 (Vinod Khosla) 는 인공지능이 대학과 일자리를 없애도 2040년의 삶이 얼마나 멋진지 예측합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
         "koTitle": "AI는 전통적인 경력 상태를 대체하지 않고 직무 구조를 변경할 수 있습니다.",
         "enTitle": "AI may change job structures without replacing traditional career status",
-        "date": "2026-03-08",
+        "date": "2026-03-09",
         "originalDate": "2026-03-07",
         "sourceName": "Devdiscourse",
         "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTFpmVXZHZVV4TGhGbVNlZE0tVGxKUTZzSkZQMzUyREVKeWNrMUZCbzhicE0zcGw1cW5TU2pfYXZkLUVlOTAyUFBnT3dQTGFUbTFockJSYnIxRVNuTWIzQ2kxVGtTb0xhLTQ4OWNqdmRiMUtvci0tRXlWZ0tFalpIVUIxNlF5UGFCNGxhM21LSnZIOGNpazEwdEVWVzBWeERjR1FoTEJROFgxamtiUGlFV19uNk5mdUNVYUxCX2xGRkZSQkJwRDNn0gHMAUFVX3lxTFB3VWhCV3FzR013LWhnR3lSU0JkVk1KQm9jckRnbzlFcWUyLTVkRTE0LWpxRWhYenRycC1jVnhGMTBwXzMtNkRiX3pYTVdDMUpCZ1JIM2YzSmdtOGFXazlIcWdpWkgxaUZnS2xMV2p4OV9mdG1sZDZ6UUNlQ3ZJZWM4aDNwcUowcHkyZk4xWkx6T1J4MkYtOHgwbDRVS2VfOGstcU1ZQUt5T19ZSW5tR2pnTDRrWTdPZm40TlliMXRKNm1VQWZucHVWYllqTA?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! AI는 전통적인 경력 상태를 대체하지 않고 직무 구조를 변경할 수 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! AI는 전통적인 경력 상태를 대체하지 않고 직무 구조를 변경할 수 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "isTopPick": true
+    },
+    {
+        "rank": 2,
+        "koTitle": "2025년 실제로 돈을 버는 최고의 인공지능 사이드 허슬",
+        "enTitle": "Top AI Side Hustles That Actually Make Money in 2025",
+        "date": "2026-03-09",
+        "originalDate": "2026-03-07",
+        "sourceName": "MSN",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNVG9uMHpwd1lNbUw1b0VDY0lWTVRON0djNWs4NFltR3ZnVDNoWFhXZ0ZIYlVRQmNTMGpnSkZQUXhrVkpYdnVfdnVmUVZwNmtxMzdFUGh2QVUwNlNVSGZMbEFKRVpsTnBEdUJDS0pOWTdVVHEySDdNejYtTnJaeDZqVEl1V0FkdlU1bGpPV3BKbUFWTEdzSW5QUkQ3NEZZaFJrY2FMOTFkTWphTFJmWUFJSjBzY2R3Q0o4ejlMa2UxOTA1N3pES0FWUGE5ZEJ2c0I0NERyNnRWMzZsSlc4MWpxLVFVaE5kVVhpLXUxV1BkcGY0LXRILUhPb0FBUVU2RjNuanhqRXRGdEpsTVg4S0t4NUxVc0g3T3NmM0NlNnNzVU5Pcnp6eUptd1BtWXFZYjVvb3R4TENYY0JsemNKYy1uZTBoVXJTNTQ?oc=5",
+        "isRepublished": false,
+        "viralRate": "91%",
+        "analysis": "글로벌 AI 트렌드 체크! 2025년 실제로 돈을 버는 최고의 인공지능 사이드 허슬 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
+        "koTitle": "저는 Google에서 AI가 기술 산업을 변화시키는 것을 보았습니다. 제가 어떻게 '미래를 정의하는' 커리어 피벗을 만들었는지 설명해 드리겠습니다.",
+        "enTitle": "I work at Google and saw AI change the tech industry. Here's how I upskilled and made a 'future-defining' career pivot.",
+        "date": "2026-03-09",
+        "originalDate": "2026-03-07",
+        "sourceName": "Business Insider",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNmJLM3ZBMDNocmxSd1VCZ2F3VnFLT0RmYmRlY291S1JBM19oMUpDUGZSdWdNcEJHblBKX044a3ZYZWY1NFNrV3YwVUpUS092d1RuclV6VmtmOHZPdERHM2Zrek81M3ZHQ1VKV20tYllpeTRZbkkySU14UVJEVXpOWHYtWWRWTjM4VmxFNGk1aw?oc=5",
+        "isRepublished": false,
+        "viralRate": "91%",
+        "analysis": "글로벌 AI 트렌드 체크! 저는 Google에서 AI가 기술 산업을 변화시키는 것을 보았습니다. 제가 어떻게 '미래를 정의하는' 커리어 피벗을 만들었는지 설명해 드리겠습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "광운대학교 2025년 예비창업패키지 선정기업 자기소개서 작성의 시작부터 끝까지 구직자를 돕는 커리어마이징 서비스하는 두위드",
-        "enTitle": "광운대학교 2025년 예비창업패키지 선정기업 자기소개서 작성의 시작부터 끝까지 구직자를 돕는 커리어마이징 서비스하는 두위드",
-        "date": "2026-03-08",
-        "originalDate": "2026-03-07",
-        "sourceName": "매거진한경",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5MT1dhX2t4VnphU2w5clRib3A2My0zZEtVSTVoNDVsdzk3RllyQXEyT3pzRTR3ei1DZE5NcmVCNEZ1Yk9naldLMy0wakdSSG9KOG5wcDFCd2stZmNDQXJWWWNXZk5DQVVQejRj?oc=5",
+        "koTitle": "취업 공식이 완전히 바뀌었다… 2026년 직장인의 생존 전략 ‘리스킬링과 커리어 오너십’",
+        "enTitle": "취업 공식이 완전히 바뀌었다… 2026년 직장인의 생존 전략 ‘리스킬링과 커리어 오너십’",
+        "date": "2026-03-09",
+        "originalDate": "2026-03-08",
+        "sourceName": "한국AI부동산신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1YQlhsdWc1VV9aaHl0VFNEQ3dSeDV3NE1Ud3JreEJxQi1JdkFndDQ3MkxjMGRqQW1LU0ZzVGdYLWRqU1d5UzhweEhsMFc?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! 광운대학교 2025년 예비창업패키지 선정기업 자기소개서 작성의 시작부터 끝까지 구직자를 돕는 커리어마이징 서비스하는 두위드 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 취업 공식이 완전히 바뀌었다… 2026년 직장인의 생존 전략 ‘리스킬링과 커리어 오너십’ 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Productivity"
     },
     {
         "rank": 2,
-        "koTitle": "발품 넘어 'AI품'…달라진 N잡러의 세계 [스페셜리포트]",
-        "enTitle": "발품 넘어 'AI품'…달라진 N잡러의 세계 [스페셜리포트]",
-        "date": "2026-03-08",
+        "koTitle": "매거진 한경",
+        "enTitle": "매거진 한경",
+        "date": "2026-03-09",
         "originalDate": "2026-03-07",
-        "sourceName": "네이트",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4eE1jNGhuSjBoeXdtTHBvNEtYWEk3QUI3dzRpVkpRN1llM3h3VmdYV1M0UExibVdxZHB2ZFNlRTRLLUxGSEZxWWdzRU9aQU5KdEJR?oc=5",
+        "sourceName": "매거진한경",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1wMnpLeXlzQ1FrbXMyUEI3TkZMcEIzTl9Dak9kbE4xeVFKZEI2NVdHOU0teG5hMlRKRDhJT25McDRocWVkQzFoQzhqbGNaM2dwMXp5NUpjQmJ1ZUNYZFZ4b0hNRG5NUQ?oc=5",
         "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "2030을 위한 AI 실무 팁! 발품 넘어 'AI품'…달라진 N잡러의 세계 [스페셜리포트] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "93%",
+        "analysis": "2030을 위한 AI 실무 팁! 매거진 한경 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Money & SideHustle"
     },
     {
         "rank": 3,
-        "koTitle": "서강대 미래교육원, 메가커리어랩과 AI 실무인재 양성 협력",
-        "enTitle": "서강대 미래교육원, 메가커리어랩과 AI 실무인재 양성 협력",
-        "date": "2026-03-08",
-        "originalDate": "2026-03-05",
-        "sourceName": "주간한국",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTZkd0UVNLY3lSekRzUGV4Y2w5cFJGM2tIVXdhRGFjMnpjMWNMekEyQllkTFdUbVdwSXBoem91bzQ3c0I0X19GSkRyV0RxRVNzMFBTdXozcnd4ZUFpam1ld3ZVUzVOdHJmVW1sd3ptTTk4UVIz0gF0QVVfeXFMUFNmR3RRU0tjeVJ6RHNQZXhjbDlwUkYza0hVd2FEYWMyemMxY0x6QTJCWWRMV1RtV3BJcGh6b3VvNDdzQjRfX0ZKRHJXRHFFU3MwUFN1ejNyd3hlQWlqbWV3dlVTNU50cmZVbWx3em1NOThRUjM?oc=5",
+        "koTitle": "발품 넘어 'AI품'…달라진 N잡러의 세계 [스페셜리포트]",
+        "enTitle": "발품 넘어 'AI품'…달라진 N잡러의 세계 [스페셜리포트]",
+        "date": "2026-03-09",
+        "originalDate": "2026-03-07",
+        "sourceName": "네이트",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4eE1jNGhuSjBoeXdtTHBvNEtYWEk3QUI3dzRpVkpRN1llM3h3VmdYV1M0UExibVdxZHB2ZFNlRTRLLUxGSEZxWWdzRU9aQU5KdEJR?oc=5",
         "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "2030을 위한 AI 실무 팁! 서강대 미래교육원, 메가커리어랩과 AI 실무인재 양성 협력 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "89%",
+        "analysis": "2030을 위한 AI 실무 팁! 발품 넘어 'AI품'…달라진 N잡러의 세계 [스페셜리포트] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Career Trend"
     }
 ];
