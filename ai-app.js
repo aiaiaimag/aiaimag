@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-03-10
+ * 최신 업데이트: 2026-03-11
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Anthropic은 인공지능에 가장 많이 노출되는 직업을 추적하고 있습니다. 이 10가지 직업이 최상위 직업입니다.",
-        "enTitle": "Anthropic is tracking which jobs are most exposed to AI. These 10 professions top the list.",
-        "date": "2026-03-10",
-        "originalDate": "2026-03-09",
-        "sourceName": "CBS News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9lQXZZRVhqVHNNSDg1RWdwOUxXUU5LTEJpa0NjVC00WmQyU0RtelNZeEJFaFpqR2pnbFdtSHZRRmJsWTRqRDR2Wm9KRzF4VGQ4bkk4bWJPOHFPVXN6ZkhJUUV6NkF4X2IzcnBYSEdLNmpqRG_SAXhBVV95cUxNenB2SC1YQV9sU1E4RGN0MERPMnZaenAxTnQ1OTZBcjh4YmprZGpERHVMb3hrTlRERUgwVFM3SzBCTGxuWksxRHEyN0xSeGNLYlEwWk85MWNrS256dmRONHpYRllyRll6YnY4cWJpNHJhVmZLYnRlZnk?oc=5",
+        "koTitle": "수익을 높이는 인공지능을 활용한 창의적인 사이드 허슬 아이디어 Top 10",
+        "enTitle": "Top 10 Creative Side Hustle Ideas with AI to Boost Your Income",
+        "date": "2026-03-11",
+        "originalDate": "2026-03-10",
+        "sourceName": "Tempo.co English",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYWwyWk1lSEJ0eWlWUlROMXBreGJPeHNQbHRvWTBrTGY3cU83QTRiSFFSWENpT25jczBPcTRKdWN1ZjZEbndSaEtNNWRDNlNnamo5YUMxU0QxbEhzd0NHdEl1MjVSSWUwNVFKdlZ4d2xXb25aWmZCc1dVX0lJQlp4ODZ0OU1HbEItUHktbGdiTFltVkswTmhac0pXcw?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "글로벌 AI 트렌드 체크! Anthropic은 인공지능에 가장 많이 노출되는 직업을 추적하고 있습니다. 이 10가지 직업이 최상위 직업입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! 수익을 높이는 인공지능을 활용한 창의적인 사이드 허슬 아이디어 Top 10 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "인공지능 (AI) 을 사용하는 유럽 기업들은 더 많은 근로자를 고용하고 있지만, 미국인들은 불확실성을 피하기 위해 이미 그곳으로 이주하고 있습니다.",
-        "enTitle": "European companies using AI are hiring more workers, not cutting them—and Americans are already relocating there to escape uncertainty",
-        "date": "2026-03-10",
-        "originalDate": "2026-03-09",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUUpGR0h6UjBIMFB2MUJJYlVSaUFicEtwUVRTLVdKOEZraFBRMzdxRGY2NDZhVHZ6VS1TVzJsak01ZW8xWldvbTNvZl9icGdhd2lmbm42WWR2R2hGY2Q0LU9BTlZSa190bkVOTVhRb1hoUTY3eDVBVllFQ3A5NHlJc3U4SjFib0dmQ3pwX0RLM2pWZ2tzbUQ0X3Izem40MFZRZTd1X01LaUo1U3JKTXRobDJFWjFsNHF0aldVTkZXVQ?oc=5",
+        "koTitle": "인류 연구는 AI 시대에 일자리의 미래에 대한 질문을 제기합니다.",
+        "enTitle": "Anthropic Study Raises Questions Over Future of Jobs in Age of AI",
+        "date": "2026-03-11",
+        "originalDate": "2026-03-10",
+        "sourceName": "Deccan Chronicle",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbWxVcUtCeE1pNTE2bWJsNm5KVEtxTHhuM055UlFHQ0pnOHJXRnVma01mRTJ2MFdBSXM0MTFxX2FRa3BKUTZMQXVpaWlBWi11d3kyelJKNlZVY0lKeEFMT1EyeDdoVjVLb21Oc1ZSdWZaZ2pRUXljLTVURXA0LVlrdkd4QkNURUx2LUhSYjhTcmo3N3RMeUVCaW1vazZneVZGU3dxeHNpU3JDOEx3cHBQV1pKcV9zdUnSAbwBQVVfeXFMTXdGaWpnbUtuTDFLNFhPVll5dkpJaWtrM0lhN3h0Yk1NVmN1bmtQUDdhSkQzU3owenZFcldOaFp5QVhaNGVHWlA2Q1RSSUUwQ2x3WUQweUFKbWlGZjRRUkd2Z1ItelNlRUZ1S1J4WGdDWTVMUE5zUmNOZDdVRmFCd2dubi1KX2dYU0dYbnl3Uk4tb1NpV0ZMVGpVRU5GMXFWbjJzMzhwcGNqVjFPWjhTZ0xzeTIwOGhFS2JvNHQ?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능 (AI) 을 사용하는 유럽 기업들은 더 많은 근로자를 고용하고 있지만, 미국인들은 불확실성을 피하기 위해 이미 그곳으로 이주하고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 인류 연구는 AI 시대에 일자리의 미래에 대한 질문을 제기합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "귀하의 직업이 빨간색 영역에 있습니까? Anthropic AI 차트는 어떤 커리어가 변화하고 있는지 보여줍니다.",
-        "enTitle": "Is your job in the red zone? The Anthropic AI chart shows which careers are changing",
-        "date": "2026-03-10",
+        "koTitle": "Anthropic은 인공지능에 가장 많이 노출되는 직업을 추적하고 있습니다. 이 10가지 직업이 최상위 직업입니다.",
+        "enTitle": "Anthropic is tracking which jobs are most exposed to AI. These 10 professions top the list.",
+        "date": "2026-03-11",
         "originalDate": "2026-03-09",
-        "sourceName": "India Today",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZjFjYmZ6UlBSbkpsOWtpdXBGTkJRNjVTaUVOSlpxMFJxaFg5Wldvc29zbldEV1k0QzBSMk1jX0NXOVE1cGhReWNkNnJvOHRLXzl6U1EtVHFsbk44akkxLUlnSVhTN3BzQzRrSDEzaGJxUjE5OEgtNk1HUTFHVnlaTkRLUEMzb3FEdVNnUjZJb3BZN2V6NDlZaUdkWVJ5LVRPcUNOLXJHY3lkY1hSUG1pRXM0dGJhNzN1QjYtdlZhLXk4aVp6RUJOaTFhNjNOd0JSN2NxU3J0YnpmTDVEcDRRZ0I3ZjZ3Z9IB6wFBVV95cUxQeXlRNkt2WTUyTHpmWVRERTM2ZC1xOXJHVFJQbFh0X1c0RTg4aFBQNThMQnB5SDVnTGFmSlFGbUdtVTFTSGJYb2pBWlJMeTBRQnFJOE11UTBRLUdZUVE4OGpjTC1Jbmd4Q2tTX21rV2tRZUxzdUUxWk9GcGRYa1FQUGhYT1ZCeTIya0o0T0h5Wm16M0pjSk5rb0Fzd2drQzAwVnJWQ2Rpd2I0cHBUNFZTNFFYd01ZbHBGbEpfcmJNaFdBV0k4WDBVZkRjSFNkaFJydFpFQ25BM2FyM0VmQUlnS2xmUE9kVUx6Z2NJ?oc=5",
+        "sourceName": "CBS News",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9lQXZZRVhqVHNNSDg1RWdwOUxXUU5LTEJpa0NjVC00WmQyU0RtelNZeEJFaFpqR2pnbFdtSHZRRmJsWTRqRDR2Wm9KRzF4VGQ4bkk4bWJPOHFPVXN6ZkhJUUV6NkF4X2IzcnBYSEdLNmpqRG_SAXhBVV95cUxNenB2SC1YQV9sU1E4RGN0MERPMnZaenAxTnQ1OTZBcjh4YmprZGpERHVMb3hrTlRERUgwVFM3SzBCTGxuWksxRHEyN0xSeGNLYlEwWk85MWNrS256dmRONHpYRllyRll6YnY4cWJpNHJhVmZLYnRlZnk?oc=5",
         "isRepublished": false,
         "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 귀하의 직업이 빨간색 영역에 있습니까? Anthropic AI 차트는 어떤 커리어가 변화하고 있는지 보여줍니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! Anthropic은 인공지능에 가장 많이 노출되는 직업을 추적하고 있습니다. 이 10가지 직업이 최상위 직업입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "사람인, ‘AI 에이전트’로 HR 시장 패러다임 바꾼다",
-        "enTitle": "사람인, ‘AI 에이전트’로 HR 시장 패러다임 바꾼다",
-        "date": "2026-03-10",
-        "originalDate": "2026-03-08",
-        "sourceName": "지디넷코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tMzdEV2w1ckxQX3RaNHlYeGJrXzdHd3Y1UXZ5RFhWcWhCU3dTQkdaN2NlS1VGLXdDQlJfN1otaVYwQ2pPQW53YVhoeFExc01YYjg5LUJB?oc=5",
+        "koTitle": "🤖스멀스멀 반등중인 시장, 늦기 전에 \"주목해야할 섹터\"는?! (AI지표)",
+        "enTitle": "🤖스멀스멀 반등중인 시장, 늦기 전에 \"주목해야할 섹터\"는?! (AI지표)",
+        "date": "2026-03-11",
+        "originalDate": "2026-03-10",
+        "sourceName": "네이버 프리미엄콘텐츠",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYXBSOUFKUHhVbGtkWVh0UndrZU0zWjN0dURVRVM0YUlrT203YXZINWd2Zkd4MzhXNkFGdEFPYk9JRGo5R3Itc1NfbHZhTm41THNBRVl6NXRGYTJUYlNROWVqV3VabEd2SUZoel94SmM2a2liMFNZbmI5VGhHS1hsMHNSQk8?oc=5",
         "isRepublished": false,
         "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! 사람인, ‘AI 에이전트’로 HR 시장 패러다임 바꾼다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 🤖스멀스멀 반등중인 시장, 늦기 전에 \"주목해야할 섹터\"는?! (AI지표) 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Productivity"
     },
     {
         "rank": 2,
-        "koTitle": "사람인, ‘AI 에이전트’로 시장 패러다임 바꾼다",
-        "enTitle": "사람인, ‘AI 에이전트’로 시장 패러다임 바꾼다",
-        "date": "2026-03-10",
-        "originalDate": "2026-03-09",
-        "sourceName": "워크투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HVDJMdVNFMm9zMzdTeDBOZTVxY25KVUFIWVB4OXB2Wmd5U0JteVZxT2pHSGhoeU1EcEt3NzhNRVprZjJ2WHNMc1JHejU4M0c2ZndJWkhRZ0pfMlhEUk9pZ3kxZHI5bllhZEtGcw?oc=5",
+        "koTitle": "사람인, 'AI 에이전트'로 HR시장 혁신",
+        "enTitle": "사람인, 'AI 에이전트'로 HR시장 혁신",
+        "date": "2026-03-11",
+        "originalDate": "2026-03-10",
+        "sourceName": "네이트",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9oWkU3dEFSRVp2a2F0N2pacXVEeWttZDNBbndxODY0S3J4WGJLTzdZcWhzRlRUTE02eUtVbUI5RTBidG1qcXFTYTdFR0ZyLTEtNnNZ?oc=5",
         "isRepublished": false,
         "viralRate": "94%",
-        "analysis": "2030을 위한 AI 실무 팁! 사람인, ‘AI 에이전트’로 시장 패러다임 바꾼다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 사람인, 'AI 에이전트'로 HR시장 혁신 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Money & SideHustle"
     },
     {
         "rank": 3,
-        "koTitle": "사람인, AI 기술력 바탕으로 HR 시장 혁신 앞장",
-        "enTitle": "사람인, AI 기술력 바탕으로 HR 시장 혁신 앞장",
-        "date": "2026-03-10",
-        "originalDate": "2026-03-09",
-        "sourceName": "데이터넷",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXMVdvR1N4bkx3ZUdtbVFnT0Z6NmVrMWEzeVJ1Qy15dnZCajdrYlVHRU5oaS1admEzS0xWal8xd1dWT0I5N0QyNUNXMXozaFFheUI0WDdKMU50elZxQkRBeW1nLUFSMGcxQzFwRA?oc=5",
+        "koTitle": "“나도 AI 콘텐츠로 퇴사할 수 있을까?” 프롬프트부터 수익화까지, AI 크리에이터 되는 법",
+        "enTitle": "“나도 AI 콘텐츠로 퇴사할 수 있을까?” 프롬프트부터 수익화까지, AI 크리에이터 되는 법",
+        "date": "2026-03-11",
+        "originalDate": "2026-03-10",
+        "sourceName": "캐릿",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1vNC1qbkN4WFotb2tTdnZMTFJHZzRUQW1vc2g5d2pZRzBHQ0NGZDJ3ZXpncWtGUnloRnZEbnA3QXA?oc=5",
         "isRepublished": false,
         "viralRate": "93%",
-        "analysis": "2030을 위한 AI 실무 팁! 사람인, AI 기술력 바탕으로 HR 시장 혁신 앞장 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! “나도 AI 콘텐츠로 퇴사할 수 있을까?” 프롬프트부터 수익화까지, AI 크리에이터 되는 법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Career Trend"
     }
 ];
