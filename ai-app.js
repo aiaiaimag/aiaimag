@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-03-11
+ * 최신 업데이트: 2026-03-12
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "수익을 높이는 인공지능을 활용한 창의적인 사이드 허슬 아이디어 Top 10",
-        "enTitle": "Top 10 Creative Side Hustle Ideas with AI to Boost Your Income",
-        "date": "2026-03-11",
-        "originalDate": "2026-03-10",
-        "sourceName": "Tempo.co English",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYWwyWk1lSEJ0eWlWUlROMXBreGJPeHNQbHRvWTBrTGY3cU83QTRiSFFSWENpT25jczBPcTRKdWN1ZjZEbndSaEtNNWRDNlNnamo5YUMxU0QxbEhzd0NHdEl1MjVSSWUwNVFKdlZ4d2xXb25aWmZCc1dVX0lJQlp4ODZ0OU1HbEItUHktbGdiTFltVkswTmhac0pXcw?oc=5",
+        "koTitle": "AI에 대한 불안이 커지고 있습니다. 고용주가 다음 단계를 위해 근로자를 준비하고 있습니까?",
+        "enTitle": "Anxiety Over AI Is Growing. Are Employers Preparing Workers For What’s Next?",
+        "date": "2026-03-12",
+        "originalDate": "2026-03-11",
+        "sourceName": "Facility Executive Magazine",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdDVVcWtSMTJhTXZXeHo2bkYwbWZldnROMEVOd1BnbXBkZmR2YTJUV2FFUFMzTy1aZGdzbkR4MlBrSjZ3dk92S1d3OEh0aXNTUlNoa0dYS1RYTldxUS1jdXVNelRUXzFVQ1daY3ZVdG5tZUJna055NW4xeUEtbThmV251dDZaVTYwZmRVdWpFOGI5Mk1YYlV3b2R2MzZsTEZXY1pYaU5PYw?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! 수익을 높이는 인공지능을 활용한 창의적인 사이드 허슬 아이디어 Top 10 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! AI에 대한 불안이 커지고 있습니다. 고용주가 다음 단계를 위해 근로자를 준비하고 있습니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "인류 연구는 AI 시대에 일자리의 미래에 대한 질문을 제기합니다.",
-        "enTitle": "Anthropic Study Raises Questions Over Future of Jobs in Age of AI",
-        "date": "2026-03-11",
-        "originalDate": "2026-03-10",
-        "sourceName": "Deccan Chronicle",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbWxVcUtCeE1pNTE2bWJsNm5KVEtxTHhuM055UlFHQ0pnOHJXRnVma01mRTJ2MFdBSXM0MTFxX2FRa3BKUTZMQXVpaWlBWi11d3kyelJKNlZVY0lKeEFMT1EyeDdoVjVLb21Oc1ZSdWZaZ2pRUXljLTVURXA0LVlrdkd4QkNURUx2LUhSYjhTcmo3N3RMeUVCaW1vazZneVZGU3dxeHNpU3JDOEx3cHBQV1pKcV9zdUnSAbwBQVVfeXFMTXdGaWpnbUtuTDFLNFhPVll5dkpJaWtrM0lhN3h0Yk1NVmN1bmtQUDdhSkQzU3owenZFcldOaFp5QVhaNGVHWlA2Q1RSSUUwQ2x3WUQweUFKbWlGZjRRUkd2Z1ItelNlRUZ1S1J4WGdDWTVMUE5zUmNOZDdVRmFCd2dubi1KX2dYU0dYbnl3Uk4tb1NpV0ZMVGpVRU5GMXFWbjJzMzhwcGNqVjFPWjhTZ0xzeTIwOGhFS2JvNHQ?oc=5",
+        "koTitle": "자동화와 로봇 공학이 전 세계적으로 일자리와 업무의 미래를 변화시키는 방법",
+        "enTitle": "How Automation and Robotics Are Transforming Jobs and the Future of Work Globally",
+        "date": "2026-03-12",
+        "originalDate": "2026-03-11",
+        "sourceName": "Tech Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZ3FfYzNlVS05dExGQnRhOS1XTWE2TEJ2TjVfcVdPS21vRHlqeDh6OXllWHp1WFA4cEluN3hxSTc0OWNQQmxfQjdqWV82NEtBUE9fUUR6X2hiNWNDVlFNTWVIcnRvanZLZGszbDJBbUVaZ0w3eWVyUl9OTUNtX1JudVM4Y0N6S2N6d19kVXNBMmxaWmRpWUVsWHJTbHNrMHFPcmdGTEJoUDREb3hpTTVCNU1oLUF5bWZPTlJDaEN3?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 인류 연구는 AI 시대에 일자리의 미래에 대한 질문을 제기합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 자동화와 로봇 공학이 전 세계적으로 일자리와 업무의 미래를 변화시키는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "Anthropic은 인공지능에 가장 많이 노출되는 직업을 추적하고 있습니다. 이 10가지 직업이 최상위 직업입니다.",
-        "enTitle": "Anthropic is tracking which jobs are most exposed to AI. These 10 professions top the list.",
-        "date": "2026-03-11",
-        "originalDate": "2026-03-09",
-        "sourceName": "CBS News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9lQXZZRVhqVHNNSDg1RWdwOUxXUU5LTEJpa0NjVC00WmQyU0RtelNZeEJFaFpqR2pnbFdtSHZRRmJsWTRqRDR2Wm9KRzF4VGQ4bkk4bWJPOHFPVXN6ZkhJUUV6NkF4X2IzcnBYSEdLNmpqRG_SAXhBVV95cUxNenB2SC1YQV9sU1E4RGN0MERPMnZaenAxTnQ1OTZBcjh4YmprZGpERHVMb3hrTlRERUgwVFM3SzBCTGxuWksxRHEyN0xSeGNLYlEwWk85MWNrS256dmRONHpYRllyRll6YnY4cWJpNHJhVmZLYnRlZnk?oc=5",
+        "koTitle": "수익을 높이는 인공지능을 활용한 창의적인 사이드 허슬 아이디어 Top 10",
+        "enTitle": "Top 10 Creative Side Hustle Ideas with AI to Boost Your Income",
+        "date": "2026-03-12",
+        "originalDate": "2026-03-10",
+        "sourceName": "Tempo.co English",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYWwyWk1lSEJ0eWlWUlROMXBreGJPeHNQbHRvWTBrTGY3cU83QTRiSFFSWENpT25jczBPcTRKdWN1ZjZEbndSaEtNNWRDNlNnamo5YUMxU0QxbEhzd0NHdEl1MjVSSWUwNVFKdlZ4d2xXb25aWmZCc1dVX0lJQlp4ODZ0OU1HbEItUHktbGdiTFltVkswTmhac0pXcw?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! Anthropic은 인공지능에 가장 많이 노출되는 직업을 추적하고 있습니다. 이 10가지 직업이 최상위 직업입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 수익을 높이는 인공지능을 활용한 창의적인 사이드 허슬 아이디어 Top 10 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "🤖스멀스멀 반등중인 시장, 늦기 전에 \"주목해야할 섹터\"는?! (AI지표)",
-        "enTitle": "🤖스멀스멀 반등중인 시장, 늦기 전에 \"주목해야할 섹터\"는?! (AI지표)",
-        "date": "2026-03-11",
+        "koTitle": "사람인, 'AI 에이전트'로 HR시장 혁신",
+        "enTitle": "사람인, 'AI 에이전트'로 HR시장 혁신",
+        "date": "2026-03-12",
         "originalDate": "2026-03-10",
-        "sourceName": "네이버 프리미엄콘텐츠",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYXBSOUFKUHhVbGtkWVh0UndrZU0zWjN0dURVRVM0YUlrT203YXZINWd2Zkd4MzhXNkFGdEFPYk9JRGo5R3Itc1NfbHZhTm41THNBRVl6NXRGYTJUYlNROWVqV3VabEd2SUZoel94SmM2a2liMFNZbmI5VGhHS1hsMHNSQk8?oc=5",
+        "sourceName": "한국경제",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BeUJ6V2JHYW5mRmQxV1ItWHhfSVVQdWlTV05qWVY4MnFKckotMEFLdHdZenVTOEpmQUJXZ1hpcHVsSjV0ZUVsOVdHck5pLUVCbzJDSWlJX0FOZ9IBVEFVX3lxTE1Hckt3Sl9zSV9VX1RKZDg4ejBlUXJnNWNUbEFmWXhKWGp3SzEtVDhYcl85aU1EUnRodGhBR0ZtZTBPbVZSamswZjFhNlJqMmVMaUVURg?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! 🤖스멀스멀 반등중인 시장, 늦기 전에 \"주목해야할 섹터\"는?! (AI지표) 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "93%",
+        "analysis": "2030을 위한 AI 실무 팁! 사람인, 'AI 에이전트'로 HR시장 혁신 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Productivity"
     },
     {
         "rank": 2,
-        "koTitle": "사람인, 'AI 에이전트'로 HR시장 혁신",
-        "enTitle": "사람인, 'AI 에이전트'로 HR시장 혁신",
-        "date": "2026-03-11",
-        "originalDate": "2026-03-10",
-        "sourceName": "네이트",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9oWkU3dEFSRVp2a2F0N2pacXVEeWttZDNBbndxODY0S3J4WGJLTzdZcWhzRlRUTE02eUtVbUI5RTBidG1qcXFTYTdFR0ZyLTEtNnNZ?oc=5",
-        "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "2030을 위한 AI 실무 팁! 사람인, 'AI 에이전트'로 HR시장 혁신 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Money & SideHustle"
-    },
-    {
-        "rank": 3,
         "koTitle": "“나도 AI 콘텐츠로 퇴사할 수 있을까?” 프롬프트부터 수익화까지, AI 크리에이터 되는 법",
         "enTitle": "“나도 AI 콘텐츠로 퇴사할 수 있을까?” 프롬프트부터 수익화까지, AI 크리에이터 되는 법",
-        "date": "2026-03-11",
+        "date": "2026-03-12",
         "originalDate": "2026-03-10",
         "sourceName": "캐릿",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1vNC1qbkN4WFotb2tTdnZMTFJHZzRUQW1vc2g5d2pZRzBHQ0NGZDJ3ZXpncWtGUnloRnZEbnA3QXA?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
+        "viralRate": "91%",
         "analysis": "2030을 위한 AI 실무 팁! “나도 AI 콘텐츠로 퇴사할 수 있을까?” 프롬프트부터 수익화까지, AI 크리에이터 되는 법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Money & SideHustle"
+    },
+    {
+        "rank": 3,
+        "koTitle": "1천만원으로 1천만원 수익, 1년내 주식투자로 가능할까",
+        "enTitle": "1천만원으로 1천만원 수익, 1년내 주식투자로 가능할까",
+        "date": "2026-03-12",
+        "originalDate": "2026-03-10",
+        "sourceName": "브런치",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1GQTlEU2tfMFVNeG9RMkxMRUpfYjQzWUpHQzVwU0c1WDB4dE9Idk9QWWFRRF9maTdfMkd4VFNSN01CRzRiREE?oc=5",
+        "isRepublished": false,
+        "viralRate": "91%",
+        "analysis": "2030을 위한 AI 실무 팁! 1천만원으로 1천만원 수익, 1년내 주식투자로 가능할까 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Career Trend"
     }
 ];
