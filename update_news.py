@@ -28,6 +28,11 @@ from email.mime.multipart import MIMEMultipart
 # 번역 결과 로컬 캐시 (동일 요청 반복 방지)
 _translation_cache = {}
 
+# 발행 이력 파일 경로 (중복 방지용)
+HISTORY_FILE = "published_history.json"
+# 이력 보관 기간 (일) — 이 기간 내 발행된 제목은 중복으로 판정
+HISTORY_RETENTION_DAYS = 14
+
 # ─── RSS 피드 URL 설정 ────────────────────────────────────────
 
 # 2030 취향 저격 AI 뉴스 (생산성, 수익화, 커리어 중심)
@@ -327,6 +332,82 @@ def collect_kr_trends():
     return kr_items
 
 
+def load_published_history():
+    """이전 발행 이력을 로드합니다. 없으면 빈 리스트 반환."""
+    if not os.path.exists(HISTORY_FILE):
+        return []
+    try:
+        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+            history = json.load(f)
+        # 보관 기간 지난 항목 자동 정리
+        cutoff = (datetime.now() - timedelta(days=HISTORY_RETENTION_DAYS)).strftime("%Y-%m-%d")
+        history = [h for h in history if h.get("date", "") >= cutoff]
+        return history
+    except Exception as e:
+        print(f"   WARNING: Failed to load history: {e}")
+        return []
+
+
+def save_published_history(news_data, trend_data):
+    """발행된 뉴스 제목을 이력 파일에 저장합니다."""
+    history = load_published_history()
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    for item in news_data + trend_data:
+        history.append({
+            "title": item.get("koTitle", ""),
+            "enTitle": item.get("enTitle", ""),
+            "date": today_str,
+        })
+    # 보관 기간 지난 항목 정리
+    cutoff = (datetime.now() - timedelta(days=HISTORY_RETENTION_DAYS)).strftime("%Y-%m-%d")
+    history = [h for h in history if h.get("date", "") >= cutoff]
+    try:
+        with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+            json.dump(history, f, ensure_ascii=False, indent=2)
+        print(f"   Published history saved ({len(history)} entries)")
+    except Exception as e:
+        print(f"   WARNING: Failed to save history: {e}")
+
+
+def normalize_title(title):
+    """제목 비교를 위해 정규화합니다 (공백, 특수문자 제거, 소문자)."""
+    t = re.sub(r"[^a-zA-Z0-9가-힣]", "", title).lower().strip()
+    return t
+
+
+def is_duplicate_of_history(title, history, threshold=0.6):
+    """
+    새 기사 제목이 이전 발행 이력과 중복인지 판정합니다.
+    - 정규화 후 완전 일치 체크
+    - 부분 문자열 포함 체크 (60% 이상 겹치면 중복)
+    """
+    norm_new = normalize_title(title)
+    if not norm_new or len(norm_new) < 5:
+        return False
+
+    for h in history:
+        for key in ("title", "enTitle"):
+            norm_old = normalize_title(h.get(key, ""))
+            if not norm_old or len(norm_old) < 5:
+                continue
+            # 완전 일치
+            if norm_new == norm_old:
+                return True
+            # 짧은 쪽 기준 포함 비율 체크
+            shorter, longer = (norm_new, norm_old) if len(norm_new) <= len(norm_old) else (norm_old, norm_new)
+            if shorter in longer:
+                return True
+            # 공통 부분 비율 (간단한 문자 집합 유사도)
+            common = sum(1 for c in shorter if c in longer)
+            ratio = common / max(len(shorter), 1)
+            if ratio >= threshold and len(shorter) > 10:
+                # 추가로 앞 15자 일치 확인 (같은 주제인지)
+                if norm_new[:15] == norm_old[:15]:
+                    return True
+
+    return False
+
+
 def deduplicate(items, max_count=10):
     """
     유사/중복 기사를 제거합니다.
@@ -344,13 +425,17 @@ def deduplicate(items, max_count=10):
     return unique
 
 
-def select_top_news(items, count=3):
+def select_top_news(items, count=3, history=None):
     """
     수집된 기사 중 상위 N개를 선별합니다.
+    - 이전 발행 이력 대비 중복 제거 (history 파라미터)
     - 최신 기사 우선
     - 신뢰 출처 우선
-    - 중복 제거
+    - 배치 내 중복 제거
     """
+    if history is None:
+        history = []
+
     # 날짜 파싱 후 정렬
     scored = []
     for i, item in enumerate(items):
@@ -361,10 +446,18 @@ def select_top_news(items, count=3):
     # BORING 키워드 매칭 기사 완전 제외 (0% 필터)
     scored = [x for x in scored if x["_viral"] != "0%"]
 
+    # ★ 이전 발행 이력 대비 중복 제거
+    if history:
+        before_count = len(scored)
+        scored = [x for x in scored if not is_duplicate_of_history(x.get("title", ""), history)]
+        filtered = before_count - len(scored)
+        if filtered > 0:
+            print(f"   [DEDUP] {filtered}건 이전 발행 중복 제거 (이력 {len(history)}건 대비)")
+
     # 최신순 + 바이럴 점수 복합 정렬
     scored.sort(key=lambda x: (x["_days_old"], -int(x["_viral"].replace("%", ""))))
 
-    # 중복 제거
+    # 배치 내 중복 제거
     deduped = deduplicate(scored, max_count=20)
     return deduped[:count]
 
@@ -596,10 +689,17 @@ def main():
     # ── 2. 한국 AI 트렌드 뉴스 수집
     kr_items = collect_kr_trends()
 
+    # ── 2.5. 이전 발행 이력 로드 (중복 방지)
+    history = load_published_history()
+    if history:
+        print(f"   Published history loaded: {len(history)} entries (last {HISTORY_RETENTION_DAYS} days)")
+    else:
+        print("   No published history found - first run or expired")
+
     # ── 3. 뉴스 선별 (TOP 3)
     if en_items:
         # 디팀장의 큐레이션 로직: 실무/수익/커리어 키워드 포함 기사 가중치 부여
-        top_news_raw = select_top_news(en_items, count=3)
+        top_news_raw = select_top_news(en_items, count=3, history=history)
         news_data = []
         for i, item in enumerate(top_news_raw):
             formatted = format_news_item(item, rank=i+1, is_top_pick=(i==0))
@@ -614,7 +714,7 @@ def main():
     if trend_pool:
         # 2030 관심 카테고리로 업데이트
         categories = ["Productivity", "Money & SideHustle", "Career Trend"]
-        top_trends_raw = select_top_news(trend_pool, count=3)
+        top_trends_raw = select_top_news(trend_pool, count=3, history=history)
         trend_data = []
         for i, item in enumerate(top_trends_raw):
             cat = categories[i] if i < len(categories) else "AI Trend"
@@ -631,6 +731,8 @@ def main():
     success = update_js_file(news_data, trend_data)
 
     if success:
+        # ── 6.5. 발행 이력 저장 (다음 수집 시 중복 방지용)
+        save_published_history(news_data, trend_data)
         print(f"\nDONE! {today_str} News updated!")
         print("   GitHub Push -> GitHub Pages auto deploy.\n")
     else:

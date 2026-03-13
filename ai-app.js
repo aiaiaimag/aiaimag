@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-03-01
+ * 최신 업데이트: 2026-03-13
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI는 일자리를 끝내는 것이 아니라 바꿀 것입니다: Amazon CEO Andy Jassy",
-        "enTitle": "AI will change jobs, not end them: Amazon CEO Andy Jassy",
-        "date": "2026-03-01",
-        "originalDate": "2026-03-01",
-        "sourceName": "ETHRWorld.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUmNxaTdhbjdsUUppSEdhajBpQ0FKbnRFVlFYV2l5NmszeXpSakhDMVQtd3FGWTc0c0xqbVNPak1Mand0M1lpdEUwVlNOZmFZMnlXb1ZRWHR3NUFRNU9Lc0dEY1FEZXFXY1pRNi1rdi1BajlXb0Y3RDduNEJQSERkTFpJYlJEMGRTVUFOZTZYT0dySkZhNmI0TFc2S3l4UzJveExUU1hMOWZmNnJodHF3b2lqdGZSS05nd3J5RGlhMHpBNVZZOVJaa1pnUdIB0AFBVV95cUxNcW50UnZPWklTZ1lKWUJjYXNMdWMyOHRrY3pfa1AzQkdtNkMtZTZPbkxaaVczV0QzYkM1X2JuOHQ1UzlZNzhrUi1nWDc4cGJsMWFNSmQwQU5lazJSTXhmdVRPTTlhd0twamk4alV4NlgyNTkwQlFuYUxOajNrX0NmeFozNzFueGZfcFVSVThxNkVrdVRuaW9iVzRvdFZNV3Bwckp5RXQ5cnNtQ1RvbGZ3Y1F3ZFAyOHVBVjVtRlRJZ25mSXdLcTMwOXhNd19kd0dh?oc=5",
+        "koTitle": "일의 미래가 도래했습니다: 당신의 직업은 미래에도 견딜 수 있습니까?",
+        "enTitle": "The future of work has arrived: Is your job future-proof?",
+        "date": "2026-03-13",
+        "originalDate": "2026-03-12",
+        "sourceName": "Bangkok Post",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWnZLVmcycFlIT2pGdk5Bc1lzalRJYUFVTU1laEFhakN2NFQ4SlNyUnBDc3g2LURQR3lJdVBNUjVObkNUWG15OUN1c1FZUXZQcEtQbDl1TEx4N1ZzVDVfVHZaRW1IekRDVDlFVHNubU12Q2dTUjBPU2RZVkJLUkFtclh6RTFUQXdoUUFyVERhQ3lRT29XOVBINTdJT0RTQWdlNXJJQkQ2VWJPTGs?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! AI는 일자리를 끝내는 것이 아니라 바꿀 것입니다: Amazon CEO Andy Jassy 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! 일의 미래가 도래했습니다: 당신의 직업은 미래에도 견딜 수 있습니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "게임 분야의 AI 직무: 미래 게임을 형성하는 커리어 | Outlook Respawn",
-        "enTitle": "AI Jobs in Gaming: The Careers Shaping Future Games | Outlook Respawn",
-        "date": "2026-03-01",
-        "originalDate": "2026-03-01",
-        "sourceName": "Outlook Respawn",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQczZDai1kTDltZjJtVzFBUXZOblNyYWhJa2pvMUg1SEVCWnJZblF4aDF3bzZXYjJ4MTlaemdsTlA5cGM0WDVpUGp0OE9IVE5DNTJkMUdkVzA4YXRuOWkwRklLZmVvQVp2MzFZYXNfd29GMFNibF9mcEdmX0hLOEZVT0NnYkFTd2VhczNlcV9tTHg0c0VES1BYc0RxMU5qWDg1cV9nQ293SUdPRjjSAbgBQVVfeXFMUGNuaWRQVEM2S3pYZXBFRWJfaFdNTnF2ck1vbm5WVHFKeFk4aHNZMXpfNXNMbHRsbFctQjlKT0ZjZWtOTy1aZUVuS296Mk9XdlBqT3h1R2FuRnY3WmRIbDFERUlqZzJibmsxSHp2cDVJd0txRTE0dkNVbmljbUxOZTlROWRscTI2bkw5cHVzNkdPdEdPTlluVkNOUWVBLTlRa1E2cGtwSC10Z2NBemZReDRTa2lRVmxzQw?oc=5",
+        "koTitle": "Gartner는 업무 도구, 채용 및 데이터를 개선하기 위해 AI에 대한 팁을 제공합니다.",
+        "enTitle": "Gartner tips AI to upend work tools, hiring & data",
+        "date": "2026-03-13",
+        "originalDate": "2026-03-11",
+        "sourceName": "IT Brief Australia",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcWszSVRuSEFZWllRMkd5dm1RVmgwcjBOSlMxVGl2cDFDNUFMSWNIZ3BCZVFXN2dFV0RKdUJ4MU5MRXN0QmFnd0xEd2ZWT1hMcVlFaEpJeTltdi1STGdybkozdEt2MEVXdms5V1laTTBmZkJrcW82Qzk4cWdnZUllSnZ3?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 게임 분야의 AI 직무: 미래 게임을 형성하는 커리어 | Outlook Respawn 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "89%",
+        "analysis": "글로벌 AI 트렌드 체크! Gartner는 업무 도구, 채용 및 데이터를 개선하기 위해 AI에 대한 팁을 제공합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "일자리 훔치기 AI 소프트웨어로 비트코인의 가격 상승을 촉진할 수 있는 방법은 다음과 같습니다.",
-        "enTitle": "Here's how bitcoin's price rise could be fueled by job-stealing AI software",
-        "date": "2026-03-01",
-        "originalDate": "2026-02-28",
-        "sourceName": "CoinDesk",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY1ZBQjlVekVBZld3V19PNjNvZEVRUENwZXJGZGhuZ0U5ZWFvdHhYZnV1YS1zV0lpbkhsYlA3bV9aY1dqN0NhYWREQUhpVy0ySzdwS1FueU9IR29OTlNEOWFRVGlhZkI5YldrZTk0TVlqRi1IeG80S251TlhGWUFldDBCU216LXdNeGVSRE1nX3FIamlpM2lLOTJKQkVRZWwxbXNPSkwyZFJTcWZZdHNSUHA2NENpeXg3bnRzTw?oc=5",
+        "koTitle": "자동화와 로봇 공학이 전 세계적으로 일자리와 업무의 미래를 변화시키는 방법",
+        "enTitle": "How Automation and Robotics Are Transforming Jobs and the Future of Work Globally",
+        "date": "2026-03-13",
+        "originalDate": "2026-03-11",
+        "sourceName": "Tech Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZ3FfYzNlVS05dExGQnRhOS1XTWE2TEJ2TjVfcVdPS21vRHlqeDh6OXllWHp1WFA4cEluN3hxSTc0OWNQQmxfQjdqWV82NEtBUE9fUUR6X2hiNWNDVlFNTWVIcnRvanZLZGszbDJBbUVaZ0w3eWVyUl9OTUNtX1JudVM4Y0N6S2N6d19kVXNBMmxaWmRpWUVsWHJTbHNrMHFPcmdGTEJoUDREb3hpTTVCNU1oLUF5bWZPTlJDaEN3?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! 일자리 훔치기 AI 소프트웨어로 비트코인의 가격 상승을 촉진할 수 있는 방법은 다음과 같습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "91%",
+        "analysis": "글로벌 AI 트렌드 체크! 자동화와 로봇 공학이 전 세계적으로 일자리와 업무의 미래를 변화시키는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "노원구 청년내일, ‘2026 채용트랜드&AI활용법’ 3월 커리어 기초 클래스 운영",
-        "enTitle": "노원구 청년내일, ‘2026 채용트랜드&AI활용법’ 3월 커리어 기초 클래스 운영",
-        "date": "2026-03-01",
-        "originalDate": "2026-02-27",
-        "sourceName": "데브타임즈",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aWnpkMGdoWjUyU0wtbVJaNThpUGRSeDJvUGFkQUN2dkhBVmtEOGdCUlJEMWtvbzNfcWhIR1BPR1dnM3dCeXlieTBoZko2emc?oc=5",
+        "koTitle": "AI와 진지한 대화도 가능... 뇌과학자가 알려주는 꿀팁 몇 가지",
+        "enTitle": "AI와 진지한 대화도 가능... 뇌과학자가 알려주는 꿀팁 몇 가지",
+        "date": "2026-03-13",
+        "originalDate": "2026-03-12",
+        "sourceName": "오마이스타",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8tSzE3ZjRFQjdJb0cyTlN5anFMMUZSclJrbHdMbTk5UHZ6bUNLNXhCR005Tk5PcEdsMlBaM3l0NEE4bkZXRWdsaTFqc0ljcGg5dkxPbnk4cmFxajcxLURiZTJPd3NMdUV6N1BCTHg5eTdBSzlWeXJLQnhEbFJhdw?oc=5",
         "isRepublished": false,
         "viralRate": "91%",
-        "analysis": "2030을 위한 AI 실무 팁! 노원구 청년내일, ‘2026 채용트랜드&AI활용법’ 3월 커리어 기초 클래스 운영 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! AI와 진지한 대화도 가능... 뇌과학자가 알려주는 꿀팁 몇 가지 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Productivity"
     },
     {
         "rank": 2,
-        "koTitle": "AI·숏폼 수익화 노린 사기 늘었다…피해 예방은 '카드 할부'로",
-        "enTitle": "AI·숏폼 수익화 노린 사기 늘었다…피해 예방은 '카드 할부'로",
-        "date": "2026-03-01",
-        "originalDate": "2026-02-26",
-        "sourceName": "컨슈머타임스(Consumertimes)",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NeV9MWXhLNGNDQ1hiQzFLU1RDWEx4ejlfb1psbW5jZW1YU1VKNkJrSXd6UnBRSlZTZmJoWkFmVUh1bVBLTGhBYU8xUnJWamktRmF0RDJIb3RJLUxZcURkalpOWEQ0ejhlTFE?oc=5",
+        "koTitle": "“나도 AI 콘텐츠로 퇴사할 수 있을까?” 프롬프트부터 수익화까지, AI 크리에이터 되는 법",
+        "enTitle": "“나도 AI 콘텐츠로 퇴사할 수 있을까?” 프롬프트부터 수익화까지, AI 크리에이터 되는 법",
+        "date": "2026-03-13",
+        "originalDate": "2026-03-11",
+        "sourceName": "캐릿",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1vNC1qbkN4WFotb2tTdnZMTFJHZzRUQW1vc2g5d2pZRzBHQ0NGZDJ3ZXpncWtGUnloRnZEbnA3QXA?oc=5",
         "isRepublished": false,
         "viralRate": "89%",
-        "analysis": "2030을 위한 AI 실무 팁! AI·숏폼 수익화 노린 사기 늘었다…피해 예방은 '카드 할부'로 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! “나도 AI 콘텐츠로 퇴사할 수 있을까?” 프롬프트부터 수익화까지, AI 크리에이터 되는 법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Money & SideHustle"
     },
     {
         "rank": 3,
-        "koTitle": "AI 시대, '바른채용'이란 무엇인가...HR 전문가들 해법 나눠",
-        "enTitle": "AI 시대, '바른채용'이란 무엇인가...HR 전문가들 해법 나눠",
-        "date": "2026-03-01",
-        "originalDate": "2026-02-26",
-        "sourceName": "지디넷코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9OS2lsckNyX2dMWDlEQmFCTlgtOUhkRlg1X3hDSl9TNGhCXy1leklpcjNTQlJOVXV5Z2l6N2p4Y0RBZjhPLUs0T1dIZm83REw4bkpEbUJn?oc=5",
+        "koTitle": "사람인, 'AI 에이전트'로 HR시장 혁신",
+        "enTitle": "사람인, 'AI 에이전트'로 HR시장 혁신",
+        "date": "2026-03-13",
+        "originalDate": "2026-03-10",
+        "sourceName": "한국경제",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BeUJ6V2JHYW5mRmQxV1ItWHhfSVVQdWlTV05qWVY4MnFKckotMEFLdHdZenVTOEpmQUJXZ1hpcHVsSjV0ZUVsOVdHck5pLUVCbzJDSWlJX0FOZ9IBVEFVX3lxTE1Hckt3Sl9zSV9VX1RKZDg4ejBlUXJnNWNUbEFmWXhKWGp3SzEtVDhYcl85aU1EUnRodGhBR0ZtZTBPbVZSamswZjFhNlJqMmVMaUVURg?oc=5",
         "isRepublished": true,
-        "viralRate": "87%",
-        "analysis": "2030을 위한 AI 실무 팁! AI 시대, '바른채용'이란 무엇인가...HR 전문가들 해법 나눠 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "91%",
+        "analysis": "2030을 위한 AI 실무 팁! 사람인, 'AI 에이전트'로 HR시장 혁신 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Career Trend"
     }
 ];
