@@ -1,6 +1,8 @@
 import json
 import os
 import re
+import sys
+import io
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from urllib.request import urlopen, Request
@@ -11,6 +13,10 @@ import time
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+
+# Windows cp949 인코딩 에러 방지
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 # ============================================================
 # 코다리 부장 - AI 뉴스 완전 자동화 스크립트 (Option B v2)
@@ -43,18 +49,22 @@ AI_NEWS_RSS_EN = [
     "https://news.google.com/rss/search?q=viral+AI+apps+trending+AI&hl=en-US&gl=US&ceid=US:en",
 ]
 
-# 한국 2030 AI 트렌드 뉴스 (개인 실생활 중심, BORING 필터로 B2B 제외)
+# 한국 2030 AI 트렌드 뉴스 (폭넓은 관심사, 이슈성 우선)
 AI_NEWS_RSS_KR = [
-    # 생산성: AI 활용 꿀팁 (넓은 범위 → BORING 필터가 거름)
-    "https://news.google.com/rss/search?q=AI+%ED%99%9C%EC%9A%A9+%EA%BF%80%ED%8C%81&hl=ko&gl=KR&ceid=KR%3Ako",
-    # 수익: 부업/수익화
-    "https://news.google.com/rss/search?q=AI+%EB%B6%80%EC%97%85+%EC%88%98%EC%9D%B5&hl=ko&gl=KR&ceid=KR%3Ako",
-    # 커리어: 취업/이직
-    "https://news.google.com/rss/search?q=AI+%EC%B7%A8%EC%97%85+%EC%BB%A4%EB%A6%AC%EC%96%B4&hl=ko&gl=KR&ceid=KR%3Ako",
-    # 바이럴: 요즘 유행하는 AI
-    "https://news.google.com/rss/search?q=%EC%9A%94%EC%A6%98+%EC%9C%A0%ED%96%89+AI+%EC%95%B1&hl=ko&gl=KR&ceid=KR%3Ako",
-    # ChatGPT/클로드 등 대중적 AI 서비스
-    "https://news.google.com/rss/search?q=ChatGPT+%ED%99%9C%EC%9A%A9+%EB%B0%A9%EB%B2%95&hl=ko&gl=KR&ceid=KR%3Ako",
+    # AI 전반 (가장 넓은 범위)
+    "https://news.google.com/rss/search?q=AI+%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5&hl=ko&gl=KR&ceid=KR%3Ako",
+    # AI + 일상/생활
+    "https://news.google.com/rss/search?q=AI+%EC%83%9D%ED%99%9C&hl=ko&gl=KR&ceid=KR%3Ako",
+    # ChatGPT / 클로드 등 핫한 서비스
+    "https://news.google.com/rss/search?q=ChatGPT+OR+%ED%81%B4%EB%A1%9C%EB%93%9C+OR+%EC%A0%9C%EB%AF%B8%EB%82%98%EC%9D%B4&hl=ko&gl=KR&ceid=KR%3Ako",
+    # AI + 돈/수익/부업
+    "https://news.google.com/rss/search?q=AI+%EB%8F%88+OR+%EC%88%98%EC%9D%B5+OR+%EB%B6%80%EC%97%85&hl=ko&gl=KR&ceid=KR%3Ako",
+    # AI + 트렌드/화제
+    "https://news.google.com/rss/search?q=AI+%ED%8A%B8%EB%A0%8C%EB%93%9C+OR+%ED%99%94%EC%A0%9C+OR+%EB%82%9C%EB%A6%AC&hl=ko&gl=KR&ceid=KR%3Ako",
+    # AI + 취업/커리어/이직
+    "https://news.google.com/rss/search?q=AI+%EC%B7%A8%EC%97%85+OR+%EC%9D%B4%EC%A7%81+OR+%EC%BB%A4%EB%A6%AC%EC%96%B4&hl=ko&gl=KR&ceid=KR%3Ako",
+    # AI + 앱/서비스 출시
+    "https://news.google.com/rss/search?q=AI+%EC%95%B1+OR+%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%B6%9C%EC%8B%9C&hl=ko&gl=KR&ceid=KR%3Ako",
 ]
 
 # 신뢰도 높은 AI 전문 미디어 (출처 가중치 부여)
@@ -76,12 +86,22 @@ TRUSTED_SOURCES = {
     "microsoft": 94,
 }
 
-# 높은 바이럴 가능성 키워드 (2030 취미, 업무, 수익 중심)
+# 높은 바이럴 가능성 키워드 (이슈성 우선, 2030 관심사 전반)
 VIRAL_KEYWORDS = [
-    "productivity", "hacks", "earn", "income", "career", "job", "side hustle",
-    "free", "limited", "breakthrough", "scary", "insane", "how to", "best",
-    "출시", "발표", "부업", "수익", "취업", "연봉", "생산성", "꿀팁", "자동화",
-    "무료", "공짜", "충격", "조심", "역대급", "방법", "추천", "난리",
+    # 영문 — 이슈/화제성
+    "breakthrough", "viral", "trending", "insane", "scary", "shocking",
+    "free", "launch", "release", "update", "new", "best", "how to",
+    "career", "job", "earn", "income", "side hustle", "productivity",
+    "replaced", "fired", "layoff", "ban", "regulate",
+    # 한글 — 화제성/이슈
+    "출시", "발표", "공개", "업데이트", "최초", "역대급", "난리", "화제",
+    "논란", "충격", "조심", "경고", "대박", "핫한", "인기",
+    # 한글 — 실용/생활
+    "부업", "수익", "취업", "연봉", "이직", "생산성", "꿀팁", "자동화",
+    "무료", "공짜", "방법", "추천", "후기", "비교", "정리",
+    # 한글 — 서비스/트렌드
+    "ChatGPT", "GPT", "클로드", "제미나이", "코파일럿", "소라", "미드저니",
+    "앱", "서비스", "기능", "트렌드",
 ]
 
 # 2030이 지루해하는 기업용/공공 뉴스 키워드 (즉시 제외)
@@ -212,13 +232,11 @@ def calculate_viral_rate(item, position, days_old):
         if bkw.lower() in title_lower:
             return "0%"
 
-    # 발행 신선도
+    # 발행 신선도 (다양성 우선, 패널티 최소화)
     if days_old == 0:
-        score += 4   # 오늘 발행
-    elif days_old <= 1:
-        score += 2
-    elif days_old >= 7:
-        score -= 3   # 1주일+ 구기사
+        score += 3   # 오늘 발행
+    elif days_old <= 2:
+        score += 1
 
     # 87~99% 범위 고정
     score = min(99, max(87, score))
@@ -375,35 +393,75 @@ def normalize_title(title):
     return t
 
 
-def is_duplicate_of_history(title, history, threshold=0.6):
+def extract_keywords(normalized_title):
+    """
+    정규화된 제목에서 핵심 키워드를 추출합니다.
+    - 한글 2글자 이상 연속 → 키워드
+    - 영문 2글자 이상 연속 → 키워드
+    예: "사람인ai에이전트로hr시장혁신" → {"사람인", "에이전트로", "시장혁신", "ai", "hr"}
+    """
+    words = set()
+    # 한글 단어 추출 (2자 이상)
+    for m in re.findall(r"[가-힣]{2,}", normalized_title):
+        words.add(m)
+    # 영문 단어 추출 (2자 이상)
+    for m in re.findall(r"[a-z]{2,}", normalized_title):
+        words.add(m)
+    return words
+
+
+def bigram_set(text):
+    """문자열에서 바이그램(2-gram) 집합을 생성합니다."""
+    return set(text[i:i+2] for i in range(len(text) - 1)) if len(text) >= 2 else set()
+
+
+def dice_coefficient(set_a, set_b):
+    """Dice 계수: 두 집합의 유사도 (0~1)."""
+    if not set_a or not set_b:
+        return 0.0
+    return 2 * len(set_a & set_b) / (len(set_a) + len(set_b))
+
+
+def is_duplicate_of_history(title, history, threshold=0.5):
     """
     새 기사 제목이 이전 발행 이력과 중복인지 판정합니다.
-    - 정규화 후 완전 일치 체크
-    - 부분 문자열 포함 체크 (60% 이상 겹치면 중복)
+    3단계 체크:
+      1) 정규화 후 완전 일치 / 부분 문자열 포함
+      2) 핵심 키워드 Jaccard 유사도 >= 0.5
+      3) 바이그램 Dice 계수 >= 0.55
+    어느 하나라도 통과하면 중복으로 판정.
     """
     norm_new = normalize_title(title)
     if not norm_new or len(norm_new) < 5:
         return False
+
+    kw_new = extract_keywords(norm_new)
+    bg_new = bigram_set(norm_new)
 
     for h in history:
         for key in ("title", "enTitle"):
             norm_old = normalize_title(h.get(key, ""))
             if not norm_old or len(norm_old) < 5:
                 continue
-            # 완전 일치
+
+            # 1단계: 완전 일치 / 부분 포함
             if norm_new == norm_old:
                 return True
-            # 짧은 쪽 기준 포함 비율 체크
             shorter, longer = (norm_new, norm_old) if len(norm_new) <= len(norm_old) else (norm_old, norm_new)
             if shorter in longer:
                 return True
-            # 공통 부분 비율 (간단한 문자 집합 유사도)
-            common = sum(1 for c in shorter if c in longer)
-            ratio = common / max(len(shorter), 1)
-            if ratio >= threshold and len(shorter) > 10:
-                # 추가로 앞 15자 일치 확인 (같은 주제인지)
-                if norm_new[:15] == norm_old[:15]:
+
+            # 2단계: 핵심 키워드 Jaccard 유사도
+            kw_old = extract_keywords(norm_old)
+            if kw_new and kw_old:
+                jaccard = len(kw_new & kw_old) / len(kw_new | kw_old)
+                if jaccard >= threshold:
                     return True
+
+            # 3단계: 바이그램 Dice 계수
+            bg_old = bigram_set(norm_old)
+            if dice_coefficient(bg_new, bg_old) >= 0.55:
+                return True
 
     return False
 
@@ -493,8 +551,8 @@ def format_news_item(item, rank, is_top_pick=False):
     viral    = item.get("_viral", "85%")
     link     = item.get("link", "#")
 
-    # 재발행 판정: 3일 이상 지난 기사
-    is_republished = days_old >= 3
+    # 재발행 판정: 7일 이상 지난 기사만 표시 (기준 완화)
+    is_republished = days_old >= 7
 
     # 디팀장의 2030 맞춤형 분석 문구 자동 생성
     # 단순 사실 전달이 아닌 '실용적 가치' 강조
@@ -713,7 +771,7 @@ def main():
     trend_pool = kr_items if kr_items else en_items
     if trend_pool:
         # 2030 관심 카테고리로 업데이트
-        categories = ["Productivity", "Money & SideHustle", "Career Trend"]
+        categories = ["Hot Issue", "Life & Money", "Tech & Service"]
         top_trends_raw = select_top_news(trend_pool, count=3, history=history)
         trend_data = []
         for i, item in enumerate(top_trends_raw):

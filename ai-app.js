@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-03-13
+ * 최신 업데이트: 2026-03-14
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "일의 미래가 도래했습니다: 당신의 직업은 미래에도 견딜 수 있습니까?",
-        "enTitle": "The future of work has arrived: Is your job future-proof?",
-        "date": "2026-03-13",
-        "originalDate": "2026-03-12",
-        "sourceName": "Bangkok Post",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWnZLVmcycFlIT2pGdk5Bc1lzalRJYUFVTU1laEFhakN2NFQ4SlNyUnBDc3g2LURQR3lJdVBNUjVObkNUWG15OUN1c1FZUXZQcEtQbDl1TEx4N1ZzVDVfVHZaRW1IekRDVDlFVHNubU12Q2dTUjBPU2RZVkJLUkFtclh6RTFUQXdoUUFyVERhQ3lRT29XOVBINTdJT0RTQWdlNXJJQkQ2VWJPTGs?oc=5",
+        "koTitle": "바이러스 성 AI 캐리커처 추세는 디지털 사기 위험에 대한 위험 신호를 제기합니다",
+        "enTitle": "Viral AI Caricature Trend Raises Red Flags Over Digital Fraud Risks",
+        "date": "2026-03-14",
+        "originalDate": "2026-03-08",
+        "sourceName": "Analytics Insight",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTXlJaThneGc2QUFkNF93bzVZdWh6NFRPME93ekpQTVRkc1QwWEtXSUR0VmVkT19nWkdWN253ZThad1B1bVZWTDUxTmhXUzN1czZFQ1ZmRHZTVEkxZ3BjNVl2V19xM1pfMTd5T2htdzlPS2ppM2hkMXBIdHl6NzF2WXVQVFZ1UnJNaFlDUUx1Ym9jY2xKMC1NcllfZzdXQUUybm5FWWg0ZXrSAbYBQVVfeXFMT3g5VjhUU0JtRTNETVdlRGZfdW1PZWVEMXNnNDR0b29vSVZpYWFlYmZWZjVLWVFFQUVnQVMydU1uSm1PWFQ3aVJyLTRYc2V0Z3RjRmhQaEE2dmJHd1J3MGtwa2dZbkJMWV9BUVppOVlQWkdacEZUSVJuNEZTWERVc0FGODEzRXRCRV9KMWFtdzFueVJVOHRtZEZodUhXWVFTS01hS1VfS05SZzhVVThkSHV3STBaakE?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! 일의 미래가 도래했습니다: 당신의 직업은 미래에도 견딜 수 있습니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "89%",
+        "analysis": "글로벌 AI 트렌드 체크! 바이러스 성 AI 캐리커처 추세는 디지털 사기 위험에 대한 위험 신호를 제기합니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "Gartner는 업무 도구, 채용 및 데이터를 개선하기 위해 AI에 대한 팁을 제공합니다.",
-        "enTitle": "Gartner tips AI to upend work tools, hiring & data",
-        "date": "2026-03-13",
-        "originalDate": "2026-03-11",
-        "sourceName": "IT Brief Australia",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcWszSVRuSEFZWllRMkd5dm1RVmgwcjBOSlMxVGl2cDFDNUFMSWNIZ3BCZVFXN2dFV0RKdUJ4MU5MRXN0QmFnd0xEd2ZWT1hMcVlFaEpJeTltdi1STGdybkozdEt2MEVXdms5V1laTTBmZkJrcW82Qzk4cWdnZUllSnZ3?oc=5",
+        "koTitle": "OpenClaw: 최신 AI 에이전트에 대한 모든 뉴스",
+        "enTitle": "OpenClaw: all the news about the trending AI agent",
+        "date": "2026-03-14",
+        "originalDate": "2026-03-07",
+        "sourceName": "The Verge",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU21qZE10LUlJT1lXNS1MbENLcGVzMWlhTjJMbkRwTVRlWWZyQzkxTWlhZUMwelM2NU5PX1h2MG12Zkxxc281LWFrcDZzRFFQbkh6dENseGZHYXdGUjloVmxSY1ZiYWg3djhnZVRCWEVkWS1kNHZ5VUhHT0pFejBuLURn?oc=5",
         "isRepublished": false,
-        "viralRate": "89%",
-        "analysis": "글로벌 AI 트렌드 체크! Gartner는 업무 도구, 채용 및 데이터를 개선하기 위해 AI에 대한 팁을 제공합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! OpenClaw: 최신 AI 에이전트에 대한 모든 뉴스 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "자동화와 로봇 공학이 전 세계적으로 일자리와 업무의 미래를 변화시키는 방법",
-        "enTitle": "How Automation and Robotics Are Transforming Jobs and the Future of Work Globally",
-        "date": "2026-03-13",
-        "originalDate": "2026-03-11",
-        "sourceName": "Tech Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZ3FfYzNlVS05dExGQnRhOS1XTWE2TEJ2TjVfcVdPS21vRHlqeDh6OXllWHp1WFA4cEluN3hxSTc0OWNQQmxfQjdqWV82NEtBUE9fUUR6X2hiNWNDVlFNTWVIcnRvanZLZGszbDJBbUVaZ0w3eWVyUl9OTUNtX1JudVM4Y0N6S2N6d19kVXNBMmxaWmRpWUVsWHJTbHNrMHFPcmdGTEJoUDREb3hpTTVCNU1oLUF5bWZPTlJDaEN3?oc=5",
-        "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "글로벌 AI 트렌드 체크! 자동화와 로봇 공학이 전 세계적으로 일자리와 업무의 미래를 변화시키는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "koTitle": "인공지능이 노동시장에 미치는 영향: 새로운 척도 및 초기 증거",
+        "enTitle": "Labor market impacts of AI: A new measure and early evidence",
+        "date": "2026-03-14",
+        "originalDate": "2026-03-05",
+        "sourceName": "Anthropic",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KTkM5U1RQMnVZS29QR3BLTzQyOHJYSHFZY253LXd2RTNyZlNOZjdxMFB5ZkV4SVNJcGtaSkJIQkdma21jS0tvWWdGQ3BDZ1ZMQjFIU09Xb2FaUl9JSlcxY1lVazhUQQ?oc=5",
+        "isRepublished": true,
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 노동시장에 미치는 영향: 새로운 척도 및 초기 증거 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,42 +51,42 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "AI와 진지한 대화도 가능... 뇌과학자가 알려주는 꿀팁 몇 가지",
-        "enTitle": "AI와 진지한 대화도 가능... 뇌과학자가 알려주는 꿀팁 몇 가지",
-        "date": "2026-03-13",
-        "originalDate": "2026-03-12",
-        "sourceName": "오마이스타",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8tSzE3ZjRFQjdJb0cyTlN5anFMMUZSclJrbHdMbTk5UHZ6bUNLNXhCR005Tk5PcEdsMlBaM3l0NEE4bkZXRWdsaTFqc0ljcGg5dkxPbnk4cmFxajcxLURiZTJPd3NMdUV6N1BCTHg5eTdBSzlWeXJLQnhEbFJhdw?oc=5",
+        "koTitle": "챗GPT, 국내 '추천 의향'에서 제미나이에 밀려...\"품질은 제미나이 앞서\"",
+        "enTitle": "챗GPT, 국내 '추천 의향'에서 제미나이에 밀려...\"품질은 제미나이 앞서\"",
+        "date": "2026-03-14",
+        "originalDate": "2026-03-13",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zNGxhTEY4RllYZDdfZDF5X0lkNDUwcDg1TmdtdHVZUWhXSmVhaHRuRXlCSmhacTVmZ3B1d3B6c0R4RXVvQTB6cVlleENrWEdLYWVBcWN3allvM0tHakQtVWdwX0xaV3gyRVE?oc=5",
         "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "2030을 위한 AI 실무 팁! AI와 진지한 대화도 가능... 뇌과학자가 알려주는 꿀팁 몇 가지 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Productivity"
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 챗GPT, 국내 '추천 의향'에서 제미나이에 밀려...\"품질은 제미나이 앞서\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "“나도 AI 콘텐츠로 퇴사할 수 있을까?” 프롬프트부터 수익화까지, AI 크리에이터 되는 법",
-        "enTitle": "“나도 AI 콘텐츠로 퇴사할 수 있을까?” 프롬프트부터 수익화까지, AI 크리에이터 되는 법",
-        "date": "2026-03-13",
-        "originalDate": "2026-03-11",
-        "sourceName": "캐릿",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1vNC1qbkN4WFotb2tTdnZMTFJHZzRUQW1vc2g5d2pZRzBHQ0NGZDJ3ZXpncWtGUnloRnZEbnA3QXA?oc=5",
+        "koTitle": "K-뷰티 시장 검증, AI가 바꾼다… 트렌디어AI ‘트렌드 검증 AI’ 공개",
+        "enTitle": "K-뷰티 시장 검증, AI가 바꾼다… 트렌디어AI ‘트렌드 검증 AI’ 공개",
+        "date": "2026-03-14",
+        "originalDate": "2026-03-13",
+        "sourceName": "서울복지신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0yOE1tdGI5Zlc3VFc2aTZWamJaR1BXX2x0Tm9hVVBqd3VVM0ktRGZFM2tSU3ZCZDhEMjZrb01meUZwLWtzbnpwM2p3SmwwT0NGN0IzMmMzdVBrUGk4X0RWeWRxeWlKQdIBaEFVX3lxTE4tR01zSGt3WTZhbGllVFB5OTZ4QU82bjhZYlJ2cVdJQS12dE00VW5fU19wUW1Bd3RESUhydHVtMDBEM0dkc2dVY2tkWGZub20tQkRHVGpfS181aEFvdzJ6WE9rUy1IVGNt?oc=5",
         "isRepublished": false,
-        "viralRate": "89%",
-        "analysis": "2030을 위한 AI 실무 팁! “나도 AI 콘텐츠로 퇴사할 수 있을까?” 프롬프트부터 수익화까지, AI 크리에이터 되는 법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Money & SideHustle"
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! K-뷰티 시장 검증, AI가 바꾼다… 트렌디어AI ‘트렌드 검증 AI’ 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "사람인, 'AI 에이전트'로 HR시장 혁신",
-        "enTitle": "사람인, 'AI 에이전트'로 HR시장 혁신",
-        "date": "2026-03-13",
-        "originalDate": "2026-03-10",
-        "sourceName": "한국경제",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BeUJ6V2JHYW5mRmQxV1ItWHhfSVVQdWlTV05qWVY4MnFKckotMEFLdHdZenVTOEpmQUJXZ1hpcHVsSjV0ZUVsOVdHck5pLUVCbzJDSWlJX0FOZ9IBVEFVX3lxTE1Hckt3Sl9zSV9VX1RKZDg4ejBlUXJnNWNUbEFmWXhKWGp3SzEtVDhYcl85aU1EUnRodGhBR0ZtZTBPbVZSamswZjFhNlJqMmVMaUVURg?oc=5",
-        "isRepublished": true,
-        "viralRate": "91%",
-        "analysis": "2030을 위한 AI 실무 팁! 사람인, 'AI 에이전트'로 HR시장 혁신 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Career Trend"
+        "koTitle": "아모레퍼시픽, 챗GPT 앱 ‘아모레몰’ 출시…AI 쇼핑 강화",
+        "enTitle": "아모레퍼시픽, 챗GPT 앱 ‘아모레몰’ 출시…AI 쇼핑 강화",
+        "date": "2026-03-14",
+        "originalDate": "2026-03-13",
+        "sourceName": "중소기업신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hU0w3RGhPZVpOQnpoNTg4aHNUVTBDb2pSQjZlTDNIc3drTzhkS0czTF8wLVpmYnZhR1ZsRWh1bmo2VHlYV0JPU09XbG85Tjd2NldmWXZhRUVid2lHUWRtUmdOVW5WeW1NX21EMw?oc=5",
+        "isRepublished": false,
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 아모레퍼시픽, 챗GPT 앱 ‘아모레몰’ 출시…AI 쇼핑 강화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Tech & Service"
     }
 ];
 
