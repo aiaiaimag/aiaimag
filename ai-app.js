@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-03-15
+ * 최신 업데이트: 2026-03-16
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "인공지능이 당신의 직업을 대신할까요? Microsoft CEO 사티아 나델라 (Satya Nadella) 가 커리어의 미래를 보장하는 방법을 설명합니다.",
-        "enTitle": "Will AI take your job? Microsoft CEO Satya Nadella explains how to future-proof your career",
-        "date": "2026-03-15",
-        "originalDate": "2026-03-14",
-        "sourceName": "The Financial Express",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTllMc0dXNGpPZTNvMFZOd3FDdkswQ0JfUV9iNGRKTXhKUU1KcjZDeUhmZU9LSWlwQ0pjQ0ZZLXpta2NNNTd5ZUhMNFBHTl9NY252VkRpRDNlMnBIb1pBLUpOZ1Z1aVpHb2xVbmlXM2hoZ1NiQjhvVUlfbDVsWkQwN3IwN0NaTDV0d09fZTE5T2x1QVduQlU4Uy1VODZWQW13R2ZROTJoc0lTMTJGcHhiLTlqeWJFWlo1TnNrLWFEWjNjZ1RxS1B2bVlxQ0dpWjduM0JjTktXeFJPWXVIUFcxeU9n0gHoAUFVX3lxTE9XN3ZRRzJoRlFFTFlOc1Q5LUo1Q0Y0SVRiTGxhNWxvTHdMT0xzalh2cWN4WDJWaFdtcWYtcWota2ozZU9iU3VVQVhIT3dPWERLOGl4bWItVUNxT0ExdmlsbG1EbnhiYkpBS29Xd2ZCdklwMHJKWWRjRGxJNGMyd1hqWThHdWs3MGp0LVlDOTdZSTZTLTZ4VFNIdHFIWG5BRkdIWkh5UnpFMUlHMkVTRlBRckJqTHJnSkJ0SkFERU1sSE1yckNhV3VmbUFaX0E1VGloZ05VNUx5bnBHOFV5LTBoSXVERkx1OEE?oc=5",
+        "koTitle": "이력서의 75% 는 인간에게 도달하지 못합니다: AI 시대의 새로운 구직 규칙",
+        "enTitle": "75% of resumes never reach a human: the new rules of job searching in the AI era",
+        "date": "2026-03-16",
+        "originalDate": "2026-03-15",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbDRYWVhXTTR1WENSMWRPbEZSYVFWV2tTZEJPMWs3RXQ2QTJwaEY2bG8wUHFyX2t2akN6Wmh1T2xxcXppcFFYczA3UXlEeUJQeEdHd0s4bTZ3QVltR2Z1ckF2SVY0blFha1pEYzJ6cTRFQndMaHpJNkJ2TVNQQlJZeWJoQ3g?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 당신의 직업을 대신할까요? Microsoft CEO 사티아 나델라 (Satya Nadella) 가 커리어의 미래를 보장하는 방법을 설명합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "98%",
+        "analysis": "글로벌 AI 트렌드 체크! 이력서의 75% 는 인간에게 도달하지 못합니다: AI 시대의 새로운 구직 규칙 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "2026년 미래를 보장하는 커리어: Replit CEO, AI 시대에 살아남기 위한 고임금 커리어 옵션 공유",
-        "enTitle": "Future-proof your career in 2026: Replit CEO shares high-paying career options to survive in AI era",
-        "date": "2026-03-15",
-        "originalDate": "2026-03-14",
-        "sourceName": "The Financial Express",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVExCYnNFbXN4WlFvRDBxc1E5aHY5eS1BME9tdnVMb1hScXlOSVJxamQyUmN2VWRSaFFFaDFNSVlKNGdyRXNXZ2NNQTg5NkhrQV92bFROcFBGWWstWWdmSnRBT0kwUDM4WU5OdWVlTWlyZWw3OFExRVNpd3pkcVpCbHpUNFpZQ1VMVmxRWGU4WmhhbnVqMDhiM3BCRWVVb2hVelliNk5ONzc5bGlSTWY3bHpCemhoVkZib0lISWg3R1BtblREOGhpMmVWcmduUFoxNlFUVFQzQTNMTGh6UjBFWmhnRHVOZTloYlpnOdIB8wFBVV95cUxORnJnejJ1UWY3Qk0zS3FIc2RtWl9YZUdKT21Sa0VhVk83dlkzSWpCU3dkX1NuUVpkZExpREh4bnFUU1J2ak5ubmtEUUktRXpiRGxxZHhIRUZURGRwR0d1RXVwbEMyQ3RmNWN1ak1VT2pJLTA3TFF6QjdLOEJDWlEwZUZoUEpCUU5TTjlrLXdIMVpmeDhuSE9IWXRtaWphb0twbWtNVlRzZ1hhTkJIZUVqVm5CeVZmNGRUeVlSdVFLTUtEdTVPUG1xQXE2NFpJdi00UkZIQkhXOVRWMGJhbUJWT3lLQTNjRWc4MkNMYVBldTZwTzg?oc=5",
+        "koTitle": "AI가 빠르게 움직이고 있습니다. 사랑하는 일을 버려야 할까요?",
+        "enTitle": "AI is moving fast. Should you ditch the job you love?",
+        "date": "2026-03-16",
+        "originalDate": "2026-03-15",
+        "sourceName": "Vox",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9RZktrOHVJR1dSc3VfNHZsendiWlNnQVBUNTNaUnlVS25sYXVRS2hreVBFZm83RE5pQ0xlLTUwV1Y0UVZYRTZHX3BvNEVvZ0t0WmF3bkNrdkwtRUNsLUtBZkg2SkYyTUowS01PbjRKcWNxVi1lWUJGYWE4SkN0Zw?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 2026년 미래를 보장하는 커리어: Replit CEO, AI 시대에 살아남기 위한 고임금 커리어 옵션 공유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! AI가 빠르게 움직이고 있습니다. 사랑하는 일을 버려야 할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "바이러스 성 AI 캐리커처 추세는 사진과 개인 정보를 온라인으로 위험에 빠뜨릴 수 있습니다. 조심하십시오.",
-        "enTitle": "Viral AI caricature trend could put your photos and personal info at risk online; stay cautious",
-        "date": "2026-03-15",
-        "originalDate": "2026-03-13",
-        "sourceName": "MSN",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxQX1dwQktvY3g1amNSbzZocHRfUVZNT3dyUWYxQlIzU2lCWFpjOTZ5TEVTbnhIa2s1RUdtOGNEWW83NXNzLTR5UFdTOFhKNC1PV3FSYm54Ny1FbDNNQlVfV1hYRDAxTHpHSlI3OUpialhEeHFuN0ZjYWtzZjdoQTV3VzVwUzlrMTktdi1XUjJCc3pmNnQxVWtfWkdsZm0zQm8tSDB4aFljdFBKRGlCLU5oekptdWZrTzRxZENZZDIxR1N2SzN5VW1EWFNIMGFSZmZzTmtUNEl5eXp1M21OTXdZcFFHSFROaW56UDRtSnNxcHdOX3NCMk1Vd2V2eElxdVp5ek1RMEVSb0dtQ1ZweDNvUVItZm9wQlNxUjdPZG1pdTVZb1Z0R0NZdzAxeHk4LU9samdQaTZaTDZQcHM4X3BkX090VkRVd2xfN3pKdF9DT1NCYmc3d0JDZmx4ZUxHU0V3aS1uQTJTcUdGdlpXX0FseA?oc=5",
+        "koTitle": "메타 정리 해고가 기술 산업 일자리 삭감 물결을 일으킬까요? 인공지능 에이전트와 업무의 미래",
+        "enTitle": "Will Meta Layoffs Start a Tech Industry Job Cut Wave? AI Agents and the Future of Work",
+        "date": "2026-03-16",
+        "originalDate": "2026-03-15",
+        "sourceName": "Intellectia AI",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPd2hiV1dPSmN1Y0FDVm9peE9SMkpYRWs4U0QxMl9Fc1lTYzhBUTNQUl9hRWRTRHk0NmdwLVlDZXpZbUh6V2U4bTlCSkVGNmY2UklzbmdsQlY1UXlDdjlicGV2eVVUUFZPQThLdnBGdkltR19RMWFwWHd1WGpOYjVudGtvODJTcDBpM3dURVJpNTlFazg1X1E?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 바이러스 성 AI 캐리커처 추세는 사진과 개인 정보를 온라인으로 위험에 빠뜨릴 수 있습니다. 조심하십시오. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 메타 정리 해고가 기술 산업 일자리 삭감 물결을 일으킬까요? 인공지능 에이전트와 업무의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "4. 챗GPT의 독주체제 붕괴와 제미나이·클로드의 역습",
-        "enTitle": "4. 챗GPT의 독주체제 붕괴와 제미나이·클로드의 역습",
-        "date": "2026-03-15",
-        "originalDate": "2026-03-14",
-        "sourceName": "네이버 프리미엄콘텐츠",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTWE0cU1oNEFoU2d5WHlPcm5qTHpaMWhoX2NpUmQ5TjNkbHpqYVkwQXlIV2JDNVdtOFM0V0RqTzZjdldPYnY1U0J3RmpjdkMzX293YlJ5RHFpRGZWLXFkWGJoWkQ3Mm5UcjJYYjJWbGVOS2NEeGpheGdKU0pHQncxN29HdTRDcXc0OFJ0M2VTRlA?oc=5",
+        "koTitle": "[알리바바가 중국 내 에이전트형 AI(Agentic AI) 확산을 위해 오픈소스 플랫폼 OpenClaw의 모바일 배포 앱 ‘JVS Claw’를 출시] 이는 중국 기술 대기업 간 ‘AI 에이전트 경쟁’에서 알리바바의 선제 대응으로 평가된다.",
+        "enTitle": "[알리바바가 중국 내 에이전트형 AI(Agentic AI) 확산을 위해 오픈소스 플랫폼 OpenClaw의 모바일 배포 앱 ‘JVS Claw’를 출시] 이는 중국 기술 대기업 간 ‘AI 에이전트 경쟁’에서 알리바바의 선제 대응으로 평가된다.",
+        "date": "2026-03-16",
+        "originalDate": "2026-03-15",
+        "sourceName": "AI넷",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5LTnZGNnNvaExKYnNMVWtidmR1a1o0VVo1Z2JSRzR4X1QyNUNPRG1Ya2FoNFM2VWF2T1hvaS1IMzE?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 4. 챗GPT의 독주체제 붕괴와 제미나이·클로드의 역습 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [알리바바가 중국 내 에이전트형 AI(Agentic AI) 확산을 위해 오픈소스 플랫폼 OpenClaw의 모바일 배포 앱 ‘JVS Claw’를 출시] 이는 중국 기술 대기업 간 ‘AI 에이전트 경쟁’에서 알리바바의 선제 대응으로 평가된다. 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "‘역대급 실적’에도 웃지 못한 네카오…주총 키워드는 ‘AI 수익화·책임경영’",
-        "enTitle": "‘역대급 실적’에도 웃지 못한 네카오…주총 키워드는 ‘AI 수익화·책임경영’",
-        "date": "2026-03-15",
-        "originalDate": "2026-03-14",
-        "sourceName": "동아일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE42bERlNFQ0QnhMOEE5SE9ZN3BON21CbkxNZnphY2Z3LVF3OGVHa3ZpWnk4ak5ZRHdLSmJ4N1JSOGRXV3A0QkdaV1NqVUNGOW90UFotWDV0UDNhVk0wT2tEWENRRTJoVjZwR3lCMHpnVFBvbmdXUGfSAWZBVV95cUxPSkxPSjRXU2lmYndzdmJUTnRSVldFYk8tRHVGZURwbkk1Rm5TUXBtcGJwTE5SM00zaGhuOHBLTzlYc2hyWmFQOGRMMWxtbFA2dDZEX0lSSElvSXRpUUZYcnI3TmtkWnc?oc=5",
+        "koTitle": "FT “북한 공작원, AI로 유럽 대기업 위장취업”",
+        "enTitle": "FT “북한 공작원, AI로 유럽 대기업 위장취업”",
+        "date": "2026-03-16",
+        "originalDate": "2026-03-15",
+        "sourceName": "KBS 뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE51NTN5eWJXcWg0YXRRTkhLckpraDZIam4tNl81Vmg4bUkzVFNNZ08xNzFJcDBveGsxM0NrdHZmdC1yYk9QcmNtS2YxaDZSQzhSb2dCYkc0dG11SU0?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! ‘역대급 실적’에도 웃지 못한 네카오…주총 키워드는 ‘AI 수익화·책임경영’ 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! FT “북한 공작원, AI로 유럽 대기업 위장취업” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "알리바바, 중국의 '오픈클로' 열풍 타고 전용 앱 출시",
-        "enTitle": "알리바바, 중국의 '오픈클로' 열풍 타고 전용 앱 출시",
-        "date": "2026-03-15",
-        "originalDate": "2026-03-14",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XZVpJVmdLdllTTGRRNlM5WnBGdWQyWkk3cExSTnZIRlBKRFpsMW9hV2xJZHVjRlZaQ05FWFNyZ2ZkVTh5eVdhOUE5VkQ4bk4wRmFrRzlKZGNfX0h3NG5hMjRTMGYyT1pRTXc?oc=5",
+        "koTitle": "ChatGPT의 에이전트 중심 전환이 인터넷 주식에 미치는 의미는?",
+        "enTitle": "ChatGPT의 에이전트 중심 전환이 인터넷 주식에 미치는 의미는?",
+        "date": "2026-03-16",
+        "originalDate": "2026-03-15",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aNHpTTW5SbTN3Y0NMeTIxYy00Skd4ckowRGxERW9uNTNJS1FubG9SUXNTT0NRMkhsamtRcmpBV2tiTmFXOEw0Y3lwSUR0RUx1WDlHSUd0SDcxR0VFYkx4N3N2RVdQNXRUUEhBaE9B?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 알리바바, 중국의 '오픈클로' 열풍 타고 전용 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "96%",
+        "analysis": "2030을 위한 AI 실무 팁! ChatGPT의 에이전트 중심 전환이 인터넷 주식에 미치는 의미는? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
