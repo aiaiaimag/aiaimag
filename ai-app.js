@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-03-16
+ * 최신 업데이트: 2026-03-17
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "이력서의 75% 는 인간에게 도달하지 못합니다: AI 시대의 새로운 구직 규칙",
-        "enTitle": "75% of resumes never reach a human: the new rules of job searching in the AI era",
-        "date": "2026-03-16",
-        "originalDate": "2026-03-15",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbDRYWVhXTTR1WENSMWRPbEZSYVFWV2tTZEJPMWs3RXQ2QTJwaEY2bG8wUHFyX2t2akN6Wmh1T2xxcXppcFFYczA3UXlEeUJQeEdHd0s4bTZ3QVltR2Z1ckF2SVY0blFha1pEYzJ6cTRFQndMaHpJNkJ2TVNQQlJZeWJoQ3g?oc=5",
+        "koTitle": "유럽을 위한 AI Works 소개",
+        "enTitle": "Introducing AI Works for Europe",
+        "date": "2026-03-17",
+        "originalDate": "2026-03-16",
+        "sourceName": "blog.google",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbm9PMGdxWFkwQjN4SHp1b1ptTVpFLXY1WTBmZmpOdklvdmxZTmhLMUdiR0RTZXg3Y0JBUkFpdlBLeThmNTV3cjdyQVVzdnZoaFNESVp6aWR2Q0ZHdDBfM19KQTZKZmRkR3lDVExkV2JLQ29oMjlQbFIyX01UTnpJTTJqZTJrdUI4bU9YYTRLbXpEWXpuckN0Tm1VV0JLTnc?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "글로벌 AI 트렌드 체크! 이력서의 75% 는 인간에게 도달하지 못합니다: AI 시대의 새로운 구직 규칙 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 유럽을 위한 AI Works 소개 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "시청: '인공지능 시대의 직업의 미래' 포럼/기사",
+        "enTitle": "WATCH: 'Future of Work in the Age of AI' forum / Article",
+        "date": "2026-03-17",
+        "originalDate": "2026-03-16",
+        "sourceName": "LSM.lv",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVUhQNFEwRll6ekc2NWplRVltcktCeUl3dkxWRi1WM0tySEtMOFRvLTMzT0hXeE5PZGhGVzJPQ1E3STR1aHRvR2czUGJzM0JXMFFQWEhIc0N3TGRTOEdQM2FsTlZJNVhEUXRkaEo0emVZeE83RFMyZDNPYU1BSzBneFQ5UUNXWU9Vcnlfb0w4NkNfbThEN3JJQm84WEFwVGpzSGFVQ3Q5SHNReEstZ3c?oc=5",
+        "isRepublished": false,
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 시청: '인공지능 시대의 직업의 미래' 포럼/기사 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "AI가 빠르게 움직이고 있습니다. 사랑하는 일을 버려야 할까요?",
         "enTitle": "AI is moving fast. Should you ditch the job you love?",
-        "date": "2026-03-16",
+        "date": "2026-03-17",
         "originalDate": "2026-03-15",
         "sourceName": "Vox",
         "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9RZktrOHVJR1dSc3VfNHZsendiWlNnQVBUNTNaUnlVS25sYXVRS2hreVBFZm83RE5pQ0xlLTUwV1Y0UVZYRTZHX3BvNEVvZ0t0WmF3bkNrdkwtRUNsLUtBZkg2SkYyTUowS01PbjRKcWNxVi1lWUJGYWE4SkN0Zw?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
+        "viralRate": "95%",
         "analysis": "글로벌 AI 트렌드 체크! AI가 빠르게 움직이고 있습니다. 사랑하는 일을 버려야 할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "메타 정리 해고가 기술 산업 일자리 삭감 물결을 일으킬까요? 인공지능 에이전트와 업무의 미래",
-        "enTitle": "Will Meta Layoffs Start a Tech Industry Job Cut Wave? AI Agents and the Future of Work",
-        "date": "2026-03-16",
-        "originalDate": "2026-03-15",
-        "sourceName": "Intellectia AI",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPd2hiV1dPSmN1Y0FDVm9peE9SMkpYRWs4U0QxMl9Fc1lTYzhBUTNQUl9hRWRTRHk0NmdwLVlDZXpZbUh6V2U4bTlCSkVGNmY2UklzbmdsQlY1UXlDdjlicGV2eVVUUFZPQThLdnBGdkltR19RMWFwWHd1WGpOYjVudGtvODJTcDBpM3dURVJpNTlFazg1X1E?oc=5",
-        "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 메타 정리 해고가 기술 산업 일자리 삭감 물결을 일으킬까요? 인공지능 에이전트와 업무의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[알리바바가 중국 내 에이전트형 AI(Agentic AI) 확산을 위해 오픈소스 플랫폼 OpenClaw의 모바일 배포 앱 ‘JVS Claw’를 출시] 이는 중국 기술 대기업 간 ‘AI 에이전트 경쟁’에서 알리바바의 선제 대응으로 평가된다.",
-        "enTitle": "[알리바바가 중국 내 에이전트형 AI(Agentic AI) 확산을 위해 오픈소스 플랫폼 OpenClaw의 모바일 배포 앱 ‘JVS Claw’를 출시] 이는 중국 기술 대기업 간 ‘AI 에이전트 경쟁’에서 알리바바의 선제 대응으로 평가된다.",
-        "date": "2026-03-16",
-        "originalDate": "2026-03-15",
-        "sourceName": "AI넷",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5LTnZGNnNvaExKYnNMVWtidmR1a1o0VVo1Z2JSRzR4X1QyNUNPRG1Ya2FoNFM2VWF2T1hvaS1IMzE?oc=5",
+        "koTitle": "응급실 대화 기반 AI 중증도 분류 모델 최초 개발…ChatGPT보다 정확",
+        "enTitle": "응급실 대화 기반 AI 중증도 분류 모델 최초 개발…ChatGPT보다 정확",
+        "date": "2026-03-17",
+        "originalDate": "2026-03-16",
+        "sourceName": "medicalworldnews.co.kr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVdEVOQkNBMzgtRDN4VTlTMWxlZ3hPS1ZnclowUkJrbFpzLWhVRnRqUWhKUUFhVjFOWEg5eUFxd0dwVnVQRnZqb2NTSVRHT2VEUzdER2U3RGotQURXcGdIdm9WdzFvd0hsbnNqeDBkVkM?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [알리바바가 중국 내 에이전트형 AI(Agentic AI) 확산을 위해 오픈소스 플랫폼 OpenClaw의 모바일 배포 앱 ‘JVS Claw’를 출시] 이는 중국 기술 대기업 간 ‘AI 에이전트 경쟁’에서 알리바바의 선제 대응으로 평가된다. 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 응급실 대화 기반 AI 중증도 분류 모델 최초 개발…ChatGPT보다 정확 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "FT “북한 공작원, AI로 유럽 대기업 위장취업”",
-        "enTitle": "FT “북한 공작원, AI로 유럽 대기업 위장취업”",
-        "date": "2026-03-16",
-        "originalDate": "2026-03-15",
-        "sourceName": "KBS 뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE51NTN5eWJXcWg0YXRRTkhLckpraDZIam4tNl81Vmg4bUkzVFNNZ08xNzFJcDBveGsxM0NrdHZmdC1yYk9QcmNtS2YxaDZSQzhSb2dCYkc0dG11SU0?oc=5",
+        "koTitle": "카카오, 행정안전부와 함께 ‘AI 국민비서 시범서비스’ 출시",
+        "enTitle": "카카오, 행정안전부와 함께 ‘AI 국민비서 시범서비스’ 출시",
+        "date": "2026-03-17",
+        "originalDate": "2026-03-16",
+        "sourceName": "kakaocorp.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KNHZrdnFJMVZMX24tVTkwOTJrWEdwckxPeGNoNndnSTZQRHdha005WFgwb1Z3ZDJqRG9MWWMyMG9NbE9mdFRmbjA3QjlqT1NTMXY2a0xR?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! FT “북한 공작원, AI로 유럽 대기업 위장취업” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 카카오, 행정안전부와 함께 ‘AI 국민비서 시범서비스’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "ChatGPT의 에이전트 중심 전환이 인터넷 주식에 미치는 의미는?",
-        "enTitle": "ChatGPT의 에이전트 중심 전환이 인터넷 주식에 미치는 의미는?",
-        "date": "2026-03-16",
-        "originalDate": "2026-03-15",
-        "sourceName": "Investing.com 한국어",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aNHpTTW5SbTN3Y0NMeTIxYy00Skd4ckowRGxERW9uNTNJS1FubG9SUXNTT0NRMkhsamtRcmpBV2tiTmFXOEw0Y3lwSUR0RUx1WDlHSUd0SDcxR0VFYkx4N3N2RVdQNXRUUEhBaE9B?oc=5",
+        "koTitle": "챗GPT로 제품 추천·비교까지···아모레퍼시픽, ‘AI First’ 전략 속도",
+        "enTitle": "챗GPT로 제품 추천·비교까지···아모레퍼시픽, ‘AI First’ 전략 속도",
+        "date": "2026-03-17",
+        "originalDate": "2026-03-16",
+        "sourceName": "시사저널e",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBHTHJMZXF3QWVTME91MmhRT05IYkVRc0E1MDlxZmZWLTk2elBzOHVDa3BsRFk0bi1jcVpZUmx4Z1d4V2NEUG1YLTk3dnVzSzZ1b2N3bm1KSjNaMXdjaE1QVVB3UG1MNVJfbHUxZnBDMUhnUdIBdkFVX3lxTE9YSXIyWnliVUZXem5mQ3RJVXhiN21ranlEc1YwT0cwdGFXeXR0Mm5scGVvanlFVjJGVnR2T1RSUll1Nk54ejRHNXgtbVdheGZFQjN6RVhhUkdPc1lXcXFuR00xSDBwVVpVLUU5WFNYS3NBU0tKZHc?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! ChatGPT의 에이전트 중심 전환이 인터넷 주식에 미치는 의미는? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 챗GPT로 제품 추천·비교까지···아모레퍼시픽, ‘AI First’ 전략 속도 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
