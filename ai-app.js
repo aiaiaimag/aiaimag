@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-03-17
+ * 최신 업데이트: 2026-03-18
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "유럽을 위한 AI Works 소개",
-        "enTitle": "Introducing AI Works for Europe",
-        "date": "2026-03-17",
-        "originalDate": "2026-03-16",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbm9PMGdxWFkwQjN4SHp1b1ptTVpFLXY1WTBmZmpOdklvdmxZTmhLMUdiR0RTZXg3Y0JBUkFpdlBLeThmNTV3cjdyQVVzdnZoaFNESVp6aWR2Q0ZHdDBfM19KQTZKZmRkR3lDVExkV2JLQ29oMjlQbFIyX01UTnpJTTJqZTJrdUI4bU9YYTRLbXpEWXpuckN0Tm1VV0JLTnc?oc=5",
+        "koTitle": "OP-ED: 일의 미래",
+        "enTitle": "OP-ED: The Future of Work",
+        "date": "2026-03-18",
+        "originalDate": "2026-03-17",
+        "sourceName": "BlackPressUSA",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vUkRVZUhoRFg4UFNIVEFYakh2N194SGR6aTF4cWlrVFNmMjM3VllzQTRVUXh1QnFwMEJFUzRBM053N3JCNnN6Xy1zYUNhb05DeWlVN1pPVVk3RzBlTklsbw?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 유럽을 위한 AI Works 소개 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! OP-ED: 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "시청: '인공지능 시대의 직업의 미래' 포럼/기사",
-        "enTitle": "WATCH: 'Future of Work in the Age of AI' forum / Article",
-        "date": "2026-03-17",
-        "originalDate": "2026-03-16",
-        "sourceName": "LSM.lv",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVUhQNFEwRll6ekc2NWplRVltcktCeUl3dkxWRi1WM0tySEtMOFRvLTMzT0hXeE5PZGhGVzJPQ1E3STR1aHRvR2czUGJzM0JXMFFQWEhIc0N3TGRTOEdQM2FsTlZJNVhEUXRkaEo0emVZeE83RFMyZDNPYU1BSzBneFQ5UUNXWU9Vcnlfb0w4NkNfbThEN3JJQm84WEFwVGpzSGFVQ3Q5SHNReEstZ3c?oc=5",
+        "koTitle": "인공지능 (AI) 시대에 일의 미래를 위한 유럽 포럼이 리가에서 열립니다.",
+        "enTitle": "European Forum on the Future of Work in the Age of AI Opens in Riga",
+        "date": "2026-03-18",
+        "originalDate": "2026-03-17",
+        "sourceName": "The Baltic Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUTRBTzJwaHMzNWxTQ3c3anFqYUFPdHIxTTVzN0Q0bHVRT01ra04xQlFpSGYxemJrbUFqS05QOEx0X1FvbHB5azNFTzZoaUl5c19IUmM5aThNVlZnTGs0UWNnZXFTRXIxaG1Hdi16dUwxaFhqblpoZ0NORU5WTXJMNnRKN2czU3YyRW1wZFd1ZkJSelh2bVdlNjRldG0?oc=5",
         "isRepublished": false,
         "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 시청: '인공지능 시대의 직업의 미래' 포럼/기사 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능 (AI) 시대에 일의 미래를 위한 유럽 포럼이 리가에서 열립니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI가 빠르게 움직이고 있습니다. 사랑하는 일을 버려야 할까요?",
-        "enTitle": "AI is moving fast. Should you ditch the job you love?",
-        "date": "2026-03-17",
-        "originalDate": "2026-03-15",
-        "sourceName": "Vox",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9RZktrOHVJR1dSc3VfNHZsendiWlNnQVBUNTNaUnlVS25sYXVRS2hreVBFZm83RE5pQ0xlLTUwV1Y0UVZYRTZHX3BvNEVvZ0t0WmF3bkNrdkwtRUNsLUtBZkg2SkYyTUowS01PbjRKcWNxVi1lWUJGYWE4SkN0Zw?oc=5",
+        "koTitle": "인공지능이 가장 위협하는 직업과 적응할 수 있는 사람 확인하기",
+        "enTitle": "See which jobs are most threatened by AI and who may be able to adapt",
+        "date": "2026-03-18",
+        "originalDate": "2026-03-16",
+        "sourceName": "The Washington Post",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLW5fTVYyUm9aS2hCUXU4WGxvZXlkM1FibGRRTDFKZlJNOWJsdDlvMlBzNVRKSmtsXzEwVGFHS1k0VFNhQ0pDeS1zZ3BrcUdFYTFCNkdXVUhPY3FTNVJzZ2EyTVhPZUx3c3VOSkRGNzc1Q2oxOVR2NEFXWjRBbmZrcGVkZ0laQjl5bmFzUnYxNkx5a2ZaMzhj?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 빠르게 움직이고 있습니다. 사랑하는 일을 버려야 할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 가장 위협하는 직업과 적응할 수 있는 사람 확인하기 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "응급실 대화 기반 AI 중증도 분류 모델 최초 개발…ChatGPT보다 정확",
-        "enTitle": "응급실 대화 기반 AI 중증도 분류 모델 최초 개발…ChatGPT보다 정확",
-        "date": "2026-03-17",
-        "originalDate": "2026-03-16",
-        "sourceName": "medicalworldnews.co.kr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVdEVOQkNBMzgtRDN4VTlTMWxlZ3hPS1ZnclowUkJrbFpzLWhVRnRqUWhKUUFhVjFOWEg5eUFxd0dwVnVQRnZqb2NTSVRHT2VEUzdER2U3RGotQURXcGdIdm9WdzFvd0hsbnNqeDBkVkM?oc=5",
+        "koTitle": "AI 요약 서비스 릴리스AI, 안드로이드 전용 앱 출시…유튜브 채널 구독 기능 추가",
+        "enTitle": "AI 요약 서비스 릴리스AI, 안드로이드 전용 앱 출시…유튜브 채널 구독 기능 추가",
+        "date": "2026-03-18",
+        "originalDate": "2026-03-17",
+        "sourceName": "플래텀(Platum)",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA3YmFCYWU1aldqS3pBVzltNEdYUThWNlNUeENTNFdETkp2ZmIxR0xFTW13Q1dzckNkaEVtcXFEX0hSVm5YZUczOA?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 응급실 대화 기반 AI 중증도 분류 모델 최초 개발…ChatGPT보다 정확 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! AI 요약 서비스 릴리스AI, 안드로이드 전용 앱 출시…유튜브 채널 구독 기능 추가 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "카카오, 행정안전부와 함께 ‘AI 국민비서 시범서비스’ 출시",
-        "enTitle": "카카오, 행정안전부와 함께 ‘AI 국민비서 시범서비스’ 출시",
-        "date": "2026-03-17",
-        "originalDate": "2026-03-16",
-        "sourceName": "kakaocorp.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KNHZrdnFJMVZMX24tVTkwOTJrWEdwckxPeGNoNndnSTZQRHdha005WFgwb1Z3ZDJqRG9MWWMyMG9NbE9mdFRmbjA3QjlqT1NTMXY2a0xR?oc=5",
+        "koTitle": "네이버·카카오, ‘AI 에이전트’ 승부수…수익화는 ‘과제’",
+        "enTitle": "네이버·카카오, ‘AI 에이전트’ 승부수…수익화는 ‘과제’",
+        "date": "2026-03-18",
+        "originalDate": "2026-03-17",
+        "sourceName": "시사오늘",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxNld6Y1J4c1NSUEZ2YlpyNGZKbGJvZ0JOa3MzVzlXVEgyQVNPOHBWejFrV0VNa1ZLQUNmZ2VnTXFwNFEtQ3d6OUlFakhFcWhlMUJkR3hSX203eWtHTl91cEphaFJfb1c4b1E?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 카카오, 행정안전부와 함께 ‘AI 국민비서 시범서비스’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 네이버·카카오, ‘AI 에이전트’ 승부수…수익화는 ‘과제’ 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "챗GPT로 제품 추천·비교까지···아모레퍼시픽, ‘AI First’ 전략 속도",
-        "enTitle": "챗GPT로 제품 추천·비교까지···아모레퍼시픽, ‘AI First’ 전략 속도",
-        "date": "2026-03-17",
-        "originalDate": "2026-03-16",
-        "sourceName": "시사저널e",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBHTHJMZXF3QWVTME91MmhRT05IYkVRc0E1MDlxZmZWLTk2elBzOHVDa3BsRFk0bi1jcVpZUmx4Z1d4V2NEUG1YLTk3dnVzSzZ1b2N3bm1KSjNaMXdjaE1QVVB3UG1MNVJfbHUxZnBDMUhnUdIBdkFVX3lxTE9YSXIyWnliVUZXem5mQ3RJVXhiN21ranlEc1YwT0cwdGFXeXR0Mm5scGVvanlFVjJGVnR2T1RSUll1Nk54ejRHNXgtbVdheGZFQjN6RVhhUkdPc1lXcXFuR00xSDBwVVpVLUU5WFNYS3NBU0tKZHc?oc=5",
+        "koTitle": "디지털융합교육원 최재용 원장, 물기업 재직자 대상 AI 트렌드 특강 진행",
+        "enTitle": "디지털융합교육원 최재용 원장, 물기업 재직자 대상 AI 트렌드 특강 진행",
+        "date": "2026-03-18",
+        "originalDate": "2026-03-17",
+        "sourceName": "파이낸스투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kNE1tMXVybGZpVks0X0JuTHVOcUFlNVBXcjJRQ3o1VkNKakJuNDExR3hjclBKbkRXRUdlU1B2NlphZnhZX2dnZTVSQ2hkSWpoREE5V2hfZ0JDMDFBZW01NWNLd3llT2g0cmY0cg?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 챗GPT로 제품 추천·비교까지···아모레퍼시픽, ‘AI First’ 전략 속도 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 디지털융합교육원 최재용 원장, 물기업 재직자 대상 AI 트렌드 특강 진행 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
