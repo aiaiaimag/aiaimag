@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-03-18
+ * 최신 업데이트: 2026-03-19
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "OP-ED: 일의 미래",
-        "enTitle": "OP-ED: The Future of Work",
-        "date": "2026-03-18",
-        "originalDate": "2026-03-17",
-        "sourceName": "BlackPressUSA",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vUkRVZUhoRFg4UFNIVEFYakh2N194SGR6aTF4cWlrVFNmMjM3VllzQTRVUXh1QnFwMEJFUzRBM053N3JCNnN6Xy1zYUNhb05DeWlVN1pPVVk3RzBlTklsbw?oc=5",
+        "koTitle": "향후 초점: 애프터 아워, 핫 잡스, 마음을 읽는 AI",
+        "enTitle": "Future Focus: After-Hours Work, Hot Jobs, and Mind-Reading AI",
+        "date": "2026-03-19",
+        "originalDate": "2026-03-18",
+        "sourceName": "SHRM",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWTVuTkFQWldOSmVKbUZhUnZOUmdzLXFFQU5pZGNsX0daQUpnZThzMXNoYzVPVFBYOWE2V1VlZ2trbWc1WU5wNmM0SzFTdlpOWlpEd1dXY2szdXBhMU5yT3RrYU42RktDMDlZSFN1NTl1SEh5X3N2YkNqU2pYeUZpSHJub3FqM1pPelJ1aHBIOG45QkNTMFJveQ?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! OP-ED: 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 향후 초점: 애프터 아워, 핫 잡스, 마음을 읽는 AI 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "인공지능 (AI) 시대에 일의 미래를 위한 유럽 포럼이 리가에서 열립니다.",
-        "enTitle": "European Forum on the Future of Work in the Age of AI Opens in Riga",
-        "date": "2026-03-18",
-        "originalDate": "2026-03-17",
-        "sourceName": "The Baltic Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUTRBTzJwaHMzNWxTQ3c3anFqYUFPdHIxTTVzN0Q0bHVRT01ra04xQlFpSGYxemJrbUFqS05QOEx0X1FvbHB5azNFTzZoaUl5c19IUmM5aThNVlZnTGs0UWNnZXFTRXIxaG1Hdi16dUwxaFhqblpoZ0NORU5WTXJMNnRKN2czU3YyRW1wZFd1ZkJSelh2bVdlNjRldG0?oc=5",
+        "koTitle": "2026년 AI가 직업에 미치는 영향: AI로 대체된 직업과 직업의 미래",
+        "enTitle": "AI Impact on Jobs 2026: Jobs Replaced by AI and Future of Work",
+        "date": "2026-03-19",
+        "originalDate": "2026-03-18",
+        "sourceName": "dqindia.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMHFXLU10ZnhGaWpqT0NLNE1pdEk3d0VfbTBaT2xhVEo3ZXdUd083WExFT3EyTVZqY0R2aDVBQnZ4enNjbmdDOC03QlBGTVFPbWhJZlRBMGpDME10V2tLUDhuT2lqM0lsNzlXbzZENU05bGQ2Zk1nN3V2cnl0OVpMVmNfTndIbmdFWFoycmx4QVY1TjdLeHVacXliUFlfSS00aDB2cVF2NTE1a0hPX0xqcHJ3QzRxd0FQSUcwbTJFWVZaNnfSAcMBQVVfeXFMTTBxVy1NdGZ4Rmlqak9DSzRNaXRJN3dFX20wWk9sYVRKN2V3VHdPN1hMRU9xMk1WamNEdmg1QUJ2eHpzY25nQzgtN0JQRk1RT21oSWZUQTBqQzBNdFdrS1A4bk9pajNJbDc5V282RDVNOWxkNmZNZzd1dnJ5dDlaTFZjX053SG5nRVhaMnJseEFWNU43S3h1WnF5YlBZX0ktNGgwdnFRdjUxNWtIT19ManByd0M0cXdBUElHMG0yRVlWWjZ3?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능 (AI) 시대에 일의 미래를 위한 유럽 포럼이 리가에서 열립니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! 2026년 AI가 직업에 미치는 영향: AI로 대체된 직업과 직업의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "인공지능이 가장 위협하는 직업과 적응할 수 있는 사람 확인하기",
-        "enTitle": "See which jobs are most threatened by AI and who may be able to adapt",
-        "date": "2026-03-18",
-        "originalDate": "2026-03-16",
-        "sourceName": "The Washington Post",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLW5fTVYyUm9aS2hCUXU4WGxvZXlkM1FibGRRTDFKZlJNOWJsdDlvMlBzNVRKSmtsXzEwVGFHS1k0VFNhQ0pDeS1zZ3BrcUdFYTFCNkdXVUhPY3FTNVJzZ2EyTVhPZUx3c3VOSkRGNzc1Q2oxOVR2NEFXWjRBbmZrcGVkZ0laQjl5bmFzUnYxNkx5a2ZaMzhj?oc=5",
+        "koTitle": "AI, 커리어, 그리고 일의 미래: 니카르 아로라 (Nikhar Arora): 인도가 AI 원주민 경제에 대비해야 하는 이유 - ET",
+        "enTitle": "AI, careers, and the future of work: Nikhar Arora on Why India must prepare for an ai-native economy - ET",
+        "date": "2026-03-19",
+        "originalDate": "2026-03-17",
+        "sourceName": "ET Edge Insights",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQlp4YTVjblY4MjRxTWNIcG9pNGJxLVlVNVczUXlOYkdydUROUHlSVWxSQlBxWWxnUXUxcVhiZm1BZHM4YXdZRVdTYkdVanhzeXNOY2hNbWdNbEZsLThZMUtkUnM0TDdHUGN6cm9iNmMyS3MxWUVFak9OTW1ua1BPOW9FQ3ZZMW5UWUtjUjZZU0tkUldnLWhoczRzVGN0UmFfV0tMRzV4aWJXV1UxUjIwaFVpY0l3VHhmMS1VV2FTVDhOU1ljaUxfckZwYi1zNnBjOVpVTNIB2gFBVV95cUxPXzYzdUhZUm4xblBabXh3XzBBdW1JalY4Y0JzZ2FmczZObE5acElxZWx4TlphWHVISTBZMW4xMjhmZHVMd3drR1IxOU5YQVlHTmRCVWNteDluV2tVUk9iOFhqNWpvTGh6Rk0wLVRzZmU0MVFqVzc5RFU4RlBueWhJS1N2WVRlN0lSNWQ5aEtPTWVweS1vM0ZfZ3pzWW1ZaEdJWXFQX05BcFZwMko3Rm1odWREWU13Q1A1X3owNlV0QllKeFRCWU5TdmN5WGZJaTNObkFabURiLVhxdw?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 가장 위협하는 직업과 적응할 수 있는 사람 확인하기 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! AI, 커리어, 그리고 일의 미래: 니카르 아로라 (Nikhar Arora): 인도가 AI 원주민 경제에 대비해야 하는 이유 - ET 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "AI 요약 서비스 릴리스AI, 안드로이드 전용 앱 출시…유튜브 채널 구독 기능 추가",
-        "enTitle": "AI 요약 서비스 릴리스AI, 안드로이드 전용 앱 출시…유튜브 채널 구독 기능 추가",
-        "date": "2026-03-18",
-        "originalDate": "2026-03-17",
-        "sourceName": "플래텀(Platum)",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA3YmFCYWU1aldqS3pBVzltNEdYUThWNlNUeENTNFdETkp2ZmIxR0xFTW13Q1dzckNkaEVtcXFEX0hSVm5YZUczOA?oc=5",
+        "koTitle": "구글, 검색·제미나이 앱·크롬에 개인화 기능 ‘퍼스널 인텔리전스’ 전면 확대",
+        "enTitle": "구글, 검색·제미나이 앱·크롬에 개인화 기능 ‘퍼스널 인텔리전스’ 전면 확대",
+        "date": "2026-03-19",
+        "originalDate": "2026-03-18",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EaWpQTmlvLWFWNzJtQXFSNFFTd1NBSnJIZTZpdG1QN0wwQ3VvZzllcm5WZ2tiaUNERElpU1FiUkVUZldhekw0bldaNjYxa1FpbWNHUUhqaFFfaGI0QzFhcEljcEI3eUVwclE?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! AI 요약 서비스 릴리스AI, 안드로이드 전용 앱 출시…유튜브 채널 구독 기능 추가 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 구글, 검색·제미나이 앱·크롬에 개인화 기능 ‘퍼스널 인텔리전스’ 전면 확대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "네이버·카카오, ‘AI 에이전트’ 승부수…수익화는 ‘과제’",
-        "enTitle": "네이버·카카오, ‘AI 에이전트’ 승부수…수익화는 ‘과제’",
-        "date": "2026-03-18",
-        "originalDate": "2026-03-17",
-        "sourceName": "시사오늘",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxNld6Y1J4c1NSUEZ2YlpyNGZKbGJvZ0JOa3MzVzlXVEgyQVNPOHBWejFrV0VNa1ZLQUNmZ2VnTXFwNFEtQ3d6OUlFakhFcWhlMUJkR3hSX203eWtHTl91cEphaFJfb1c4b1E?oc=5",
+        "koTitle": "[유미's 픽] 챗GPT·제미나이에 밀린 '코파일럿'…위기 느낀 MS, 조직 재편 승부수",
+        "enTitle": "[유미's 픽] 챗GPT·제미나이에 밀린 '코파일럿'…위기 느낀 MS, 조직 재편 승부수",
+        "date": "2026-03-19",
+        "originalDate": "2026-03-18",
+        "sourceName": "지디넷코리아",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10Ny1uNG9EVGhUZWxlQ21wNGFsSEJqaXNfNW9RQ3JIaFc3OE9ob2tsYk8yNU1aZ0JKOWZoSE15QnNhbjY3WFdKNWhuTXkyQzBuWjQwSk5B?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 네이버·카카오, ‘AI 에이전트’ 승부수…수익화는 ‘과제’ 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! [유미's 픽] 챗GPT·제미나이에 밀린 '코파일럿'…위기 느낀 MS, 조직 재편 승부수 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "디지털융합교육원 최재용 원장, 물기업 재직자 대상 AI 트렌드 특강 진행",
-        "enTitle": "디지털융합교육원 최재용 원장, 물기업 재직자 대상 AI 트렌드 특강 진행",
-        "date": "2026-03-18",
-        "originalDate": "2026-03-17",
-        "sourceName": "파이낸스투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kNE1tMXVybGZpVks0X0JuTHVOcUFlNVBXcjJRQ3o1VkNKakJuNDExR3hjclBKbkRXRUdlU1B2NlphZnhZX2dnZTVSQ2hkSWpoREE5V2hfZ0JDMDFBZW01NWNLd3llT2g0cmY0cg?oc=5",
+        "koTitle": "“AI가 실시간 여론 읽는다” 바이브컴퍼니, 썸트렌드 MCP 정식 공개",
+        "enTitle": "“AI가 실시간 여론 읽는다” 바이브컴퍼니, 썸트렌드 MCP 정식 공개",
+        "date": "2026-03-19",
+        "originalDate": "2026-03-18",
+        "sourceName": "헬로티",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TWmdCN3kyZmpmR0xOSXg1TXlBZ2JVS0Nnd2dldHBwV3ExekJNN0ZhNlR6aUVzLUNMcHJNWldFdG4xRmNRUjFEemFMTUhCZU9QRzhQd2l3WG9DTVVsWFZR?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 디지털융합교육원 최재용 원장, 물기업 재직자 대상 AI 트렌드 특강 진행 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! “AI가 실시간 여론 읽는다” 바이브컴퍼니, 썸트렌드 MCP 정식 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
