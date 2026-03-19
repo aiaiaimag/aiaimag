@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-03-19
+ * 최신 업데이트: 2026-03-20
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "향후 초점: 애프터 아워, 핫 잡스, 마음을 읽는 AI",
-        "enTitle": "Future Focus: After-Hours Work, Hot Jobs, and Mind-Reading AI",
-        "date": "2026-03-19",
-        "originalDate": "2026-03-18",
-        "sourceName": "SHRM",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWTVuTkFQWldOSmVKbUZhUnZOUmdzLXFFQU5pZGNsX0daQUpnZThzMXNoYzVPVFBYOWE2V1VlZ2trbWc1WU5wNmM0SzFTdlpOWlpEd1dXY2szdXBhMU5yT3RrYU42RktDMDlZSFN1NTl1SEh5X3N2YkNqU2pYeUZpSHJub3FqM1pPelJ1aHBIOG45QkNTMFJveQ?oc=5",
+        "koTitle": "제프 베조스 (Jeff Bezos) 는 AI 인수로 '절대 대체되지 않을' 일자리를 공유합니다.",
+        "enTitle": "Jeff Bezos shares jobs that will 'never' be replaced by AI takeover",
+        "date": "2026-03-20",
+        "originalDate": "2026-03-19",
+        "sourceName": "LADbible",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNUczVjNFRGVqU0NIZkVqSTI3Tl9neWZMYUtTS2xxazhmTWRWR0JteXRGS1pXQ2hiWFNEczRMS0I1N0loRDBUWDVPWi1vVzRralNpSXpEX3JOLTdqY3podVdMMVE1S19aenhlWnBvc0ZSbU5uelIxMkx5ZnpNVXFoZlRrMWdzdTRsbnhYXy1oS285Q3g0Qm8xUjdHaFo?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 향후 초점: 애프터 아워, 핫 잡스, 마음을 읽는 AI 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! 제프 베조스 (Jeff Bezos) 는 AI 인수로 '절대 대체되지 않을' 일자리를 공유합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "2026년 AI가 직업에 미치는 영향: AI로 대체된 직업과 직업의 미래",
-        "enTitle": "AI Impact on Jobs 2026: Jobs Replaced by AI and Future of Work",
-        "date": "2026-03-19",
-        "originalDate": "2026-03-18",
-        "sourceName": "dqindia.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMHFXLU10ZnhGaWpqT0NLNE1pdEk3d0VfbTBaT2xhVEo3ZXdUd083WExFT3EyTVZqY0R2aDVBQnZ4enNjbmdDOC03QlBGTVFPbWhJZlRBMGpDME10V2tLUDhuT2lqM0lsNzlXbzZENU05bGQ2Zk1nN3V2cnl0OVpMVmNfTndIbmdFWFoycmx4QVY1TjdLeHVacXliUFlfSS00aDB2cVF2NTE1a0hPX0xqcHJ3QzRxd0FQSUcwbTJFWVZaNnfSAcMBQVVfeXFMTTBxVy1NdGZ4Rmlqak9DSzRNaXRJN3dFX20wWk9sYVRKN2V3VHdPN1hMRU9xMk1WamNEdmg1QUJ2eHpzY25nQzgtN0JQRk1RT21oSWZUQTBqQzBNdFdrS1A4bk9pajNJbDc5V282RDVNOWxkNmZNZzd1dnJ5dDlaTFZjX053SG5nRVhaMnJseEFWNU43S3h1WnF5YlBZX0ktNGgwdnFRdjUxNWtIT19ManByd0M0cXdBUElHMG0yRVlWWjZ3?oc=5",
+        "koTitle": "Uber 공동 창업자는 슈퍼 AGI가 사진 속으로 들어오기 전까지는 인간 근로자가 매우 ‘소중' 할 것이라고 말합니다. ‘그건 내 하얀 알약이야’",
+        "enTitle": "Uber cofounder says human workers will be extremely ‘valuable’ until super AGI steps into the picture: ‘That's my white pill’",
+        "date": "2026-03-20",
+        "originalDate": "2026-03-19",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQ3RTaW5ibjlnSUV1YU1scG42TlRFeGNvcW9tVTlYQzJmc1dTV05uOGZRTlotU1BZaG1tNEZmdkVOQzJJeWFTR2YyelJIYkIzYklQMTNnVWJ0T1lnLUM1WDh1dTdwWndiYXhLNDdsMVRNSHM5MFlXNXRtX25YRzFFQkpGTTd6VzdLQ0Z6WEVpbDhSb3lXYTNRcXh6OHdSSmlnUmJHQWI1QjlZNW5ta3dmT3V4Z1FDRFNkeERkbjlJWVBXOU9jQ1Etc2xOMGk?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 2026년 AI가 직업에 미치는 영향: AI로 대체된 직업과 직업의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! Uber 공동 창업자는 슈퍼 AGI가 사진 속으로 들어오기 전까지는 인간 근로자가 매우 ‘소중' 할 것이라고 말합니다. ‘그건 내 하얀 알약이야’ 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI, 커리어, 그리고 일의 미래: 니카르 아로라 (Nikhar Arora): 인도가 AI 원주민 경제에 대비해야 하는 이유 - ET",
-        "enTitle": "AI, careers, and the future of work: Nikhar Arora on Why India must prepare for an ai-native economy - ET",
-        "date": "2026-03-19",
-        "originalDate": "2026-03-17",
-        "sourceName": "ET Edge Insights",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQlp4YTVjblY4MjRxTWNIcG9pNGJxLVlVNVczUXlOYkdydUROUHlSVWxSQlBxWWxnUXUxcVhiZm1BZHM4YXdZRVdTYkdVanhzeXNOY2hNbWdNbEZsLThZMUtkUnM0TDdHUGN6cm9iNmMyS3MxWUVFak9OTW1ua1BPOW9FQ3ZZMW5UWUtjUjZZU0tkUldnLWhoczRzVGN0UmFfV0tMRzV4aWJXV1UxUjIwaFVpY0l3VHhmMS1VV2FTVDhOU1ljaUxfckZwYi1zNnBjOVpVTNIB2gFBVV95cUxPXzYzdUhZUm4xblBabXh3XzBBdW1JalY4Y0JzZ2FmczZObE5acElxZWx4TlphWHVISTBZMW4xMjhmZHVMd3drR1IxOU5YQVlHTmRCVWNteDluV2tVUk9iOFhqNWpvTGh6Rk0wLVRzZmU0MVFqVzc5RFU4RlBueWhJS1N2WVRlN0lSNWQ5aEtPTWVweS1vM0ZfZ3pzWW1ZaEdJWXFQX05BcFZwMko3Rm1odWREWU13Q1A1X3owNlV0QllKeFRCWU5TdmN5WGZJaTNObkFabURiLVhxdw?oc=5",
+        "koTitle": "'배관공은 변호사보다 정기적으로 더 많은 수입을 올린다': 다니엘 프리스틀리 (Daniel Priestley) 는 AI가 아메리칸 드림을 뒤집을 것이라고 예측합니다.",
+        "enTitle": "'Plumbers regularly earn more than lawyers': Daniel Priestley predicts AI will flip American Dream",
+        "date": "2026-03-20",
+        "originalDate": "2026-03-19",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeGRPRGtpdzJ4QjlubldXNVQ4SUJmSGFrdDFGcXZ2WGtzTTRBYW9PeU9iS0RSbXJZNVZfa29BSWs3Um90X2dIczY3YnROV05reW5Xako5MHV4WGpaSU1XNEh1SVJIaTRIeU9vWkxYaVVGREo0SjdfV2l1cE5YbURueTRLc2pqWHlFY2dZUjFXS3hpMWxSX2J1WmxWQWlaazd5OF9jQ1pnVjdCNjZUOS04aTllR2tFZ1p6dUs0?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! AI, 커리어, 그리고 일의 미래: 니카르 아로라 (Nikhar Arora): 인도가 AI 원주민 경제에 대비해야 하는 이유 - ET 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! '배관공은 변호사보다 정기적으로 더 많은 수입을 올린다': 다니엘 프리스틀리 (Daniel Priestley) 는 AI가 아메리칸 드림을 뒤집을 것이라고 예측합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "구글, 검색·제미나이 앱·크롬에 개인화 기능 ‘퍼스널 인텔리전스’ 전면 확대",
-        "enTitle": "구글, 검색·제미나이 앱·크롬에 개인화 기능 ‘퍼스널 인텔리전스’ 전면 확대",
-        "date": "2026-03-19",
-        "originalDate": "2026-03-18",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EaWpQTmlvLWFWNzJtQXFSNFFTd1NBSnJIZTZpdG1QN0wwQ3VvZzllcm5WZ2tiaUNERElpU1FiUkVUZldhekw0bldaNjYxa1FpbWNHUUhqaFFfaGI0QzFhcEljcEI3eUVwclE?oc=5",
+        "koTitle": "클로드 코드로 ‘해외 송금 비교 서비스’ 만들어봤습니다",
+        "enTitle": "클로드 코드로 ‘해외 송금 비교 서비스’ 만들어봤습니다",
+        "date": "2026-03-20",
+        "originalDate": "2026-03-19",
+        "sourceName": "요즘IT",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9CN1hUb3BZa3g2Umdod1A2eXhUVmszWU4wTmUyaE9kbDRpQkN5eUtZdEt1NzF6X19HNHhmb01JMjVmeTNCNGM2X3RiTVNzTTVuNWtYbmJnY2hzZw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글, 검색·제미나이 앱·크롬에 개인화 기능 ‘퍼스널 인텔리전스’ 전면 확대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 클로드 코드로 ‘해외 송금 비교 서비스’ 만들어봤습니다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "[유미's 픽] 챗GPT·제미나이에 밀린 '코파일럿'…위기 느낀 MS, 조직 재편 승부수",
-        "enTitle": "[유미's 픽] 챗GPT·제미나이에 밀린 '코파일럿'…위기 느낀 MS, 조직 재편 승부수",
-        "date": "2026-03-19",
-        "originalDate": "2026-03-18",
-        "sourceName": "지디넷코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10Ny1uNG9EVGhUZWxlQ21wNGFsSEJqaXNfNW9RQ3JIaFc3OE9ob2tsYk8yNU1aZ0JKOWZoSE15QnNhbjY3WFdKNWhuTXkyQzBuWjQwSk5B?oc=5",
+        "koTitle": "알파벳, 애플 맥 버전 제미나이 비공개 테스트 시작…시간외 '강보합'",
+        "enTitle": "알파벳, 애플 맥 버전 제미나이 비공개 테스트 시작…시간외 '강보합'",
+        "date": "2026-03-20",
+        "originalDate": "2026-03-19",
+        "sourceName": "마켓인",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBleTVOQkxyd1NjbGhoTjZPYzd1RHFqTVNrSDE3cWp1d1ZKZXUybFRGVjlxQThGWTBWTEluWVlwckUzMEp3V1F4a1ZpU090M0NzR3RjanEzaVYxR1RLZDZFc0VDaG5tajU5SzE4Z3lOMW1PMjg?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [유미's 픽] 챗GPT·제미나이에 밀린 '코파일럿'…위기 느낀 MS, 조직 재편 승부수 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 알파벳, 애플 맥 버전 제미나이 비공개 테스트 시작…시간외 '강보합' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "“AI가 실시간 여론 읽는다” 바이브컴퍼니, 썸트렌드 MCP 정식 공개",
-        "enTitle": "“AI가 실시간 여론 읽는다” 바이브컴퍼니, 썸트렌드 MCP 정식 공개",
-        "date": "2026-03-19",
-        "originalDate": "2026-03-18",
-        "sourceName": "헬로티",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TWmdCN3kyZmpmR0xOSXg1TXlBZ2JVS0Nnd2dldHBwV3ExekJNN0ZhNlR6aUVzLUNMcHJNWldFdG4xRmNRUjFEemFMTUhCZU9QRzhQd2l3WG9DTVVsWFZR?oc=5",
+        "koTitle": "['흑'과'백'②] 네이버 vs 카카오…'에이전틱 AI' 수익화",
+        "enTitle": "['흑'과'백'②] 네이버 vs 카카오…'에이전틱 AI' 수익화",
+        "date": "2026-03-20",
+        "originalDate": "2026-03-19",
+        "sourceName": "신아일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CRjFCX2ZMWjFCeHZBOG1HczQyODdubk9ZOTc4SjBXNV9Gak40N3ZVdGNGejdCcTZhWi1YRFNlZEY1WXdZTGs5N3BhaklVSGpNdlRkeWZBYkJzc0NQblBqWEU2OWNjS1NuRURvV3YzR24?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! “AI가 실시간 여론 읽는다” 바이브컴퍼니, 썸트렌드 MCP 정식 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! ['흑'과'백'②] 네이버 vs 카카오…'에이전틱 AI' 수익화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
