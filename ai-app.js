@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-03-20
+ * 최신 업데이트: 2026-03-21
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "제프 베조스 (Jeff Bezos) 는 AI 인수로 '절대 대체되지 않을' 일자리를 공유합니다.",
-        "enTitle": "Jeff Bezos shares jobs that will 'never' be replaced by AI takeover",
-        "date": "2026-03-20",
-        "originalDate": "2026-03-19",
-        "sourceName": "LADbible",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNUczVjNFRGVqU0NIZkVqSTI3Tl9neWZMYUtTS2xxazhmTWRWR0JteXRGS1pXQ2hiWFNEczRMS0I1N0loRDBUWDVPWi1vVzRralNpSXpEX3JOLTdqY3podVdMMVE1S19aenhlWnBvc0ZSbU5uelIxMkx5ZnpNVXFoZlRrMWdzdTRsbnhYXy1oS285Q3g0Qm8xUjdHaFo?oc=5",
+        "koTitle": "인공지능이 성평등으로 가는 길을 바꾸고 있나요? 이번 달의 직업 및 기술 동향 및 기타 동향",
+        "enTitle": "Is AI changing the path to gender parity? This and other trends in jobs and skills this month",
+        "date": "2026-03-21",
+        "originalDate": "2026-03-20",
+        "sourceName": "The World Economic Forum",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT1RHUUF0REhkSFZiTXkxdDZOLWJhTllmNTFxX0F0b2NWd2g0YUFReTZybzVXUllRNy0xMklaSjFmX1ZzVmloYlB1M1FKblJrOEVuOVR5LTZJVEp0b2w1MVYtZlhFbUhGVjc5cTZhS05TM0xIVERNUUVXcXl0a2Rfa29pTkNVTjZ4SDBz?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 제프 베조스 (Jeff Bezos) 는 AI 인수로 '절대 대체되지 않을' 일자리를 공유합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 성평등으로 가는 길을 바꾸고 있나요? 이번 달의 직업 및 기술 동향 및 기타 동향 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "Uber 공동 창업자는 슈퍼 AGI가 사진 속으로 들어오기 전까지는 인간 근로자가 매우 ‘소중' 할 것이라고 말합니다. ‘그건 내 하얀 알약이야’",
-        "enTitle": "Uber cofounder says human workers will be extremely ‘valuable’ until super AGI steps into the picture: ‘That's my white pill’",
-        "date": "2026-03-20",
-        "originalDate": "2026-03-19",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQ3RTaW5ibjlnSUV1YU1scG42TlRFeGNvcW9tVTlYQzJmc1dTV05uOGZRTlotU1BZaG1tNEZmdkVOQzJJeWFTR2YyelJIYkIzYklQMTNnVWJ0T1lnLUM1WDh1dTdwWndiYXhLNDdsMVRNSHM5MFlXNXRtX25YRzFFQkpGTTd6VzdLQ0Z6WEVpbDhSb3lXYTNRcXh6OHdSSmlnUmJHQWI1QjlZNW5ta3dmT3V4Z1FDRFNkeERkbjlJWVBXOU9jQ1Etc2xOMGk?oc=5",
+        "koTitle": "AI로 인해 향후 10년 동안 전 세계적으로 3억 개의 일자리가 사라질 수 있습니다. 골드만삭스",
+        "enTitle": "AI disruption could displace 300 million jobs globally over the next decade: Goldman Sachs",
+        "date": "2026-03-21",
+        "originalDate": "2026-03-20",
+        "sourceName": "ETHRWorld.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQOWtEYUVYZng2Sk9QaWY0cHVMUUhhRzVDbzBYRXNxaDFMUUtwekU2UUNQdFpvcDQzTlQ3MGtsMkd0c29KVExVR2kzaXdYcGUtQ05qLWRkcm1GLXc5MEFaYU80enUySUJjT2oxOEszNzJYandsZnN5cUJMUmlscnhVTzZRRm8wclRwWmV0VHRMWFRPOW5VeDliVjNXQ2lzWFRGZ0FWRW90UmZVcHlqNnFoZ0RJcDR0VEI2eDBUcmc3LUxYQ3ZJOGxCTXZuYUFnLTdpbFB3VUFTd3JFSkthOVlpMTBHMmRXSkcx0gHuAUFVX3lxTE1NVVBiRjRJd3JVV0lGQkRGNU9hOVlPVkdSVEN0TVRhZjgtajlEalQ0ZkpZSERnT0VDYUs1MnBIQ21IMGk1WDZjM0RBdmNVZ3FlUGdzcWc4TlZ6c1R2NGlFMTNtcTNrYzVKNDZUSmpuWDI0VVh6aVFWRXFWRGIzN2lpODh6bEtGZU9oZWMxRktNVndleE11YU1YcEhXbHQ2WjBaUGpaUGVkMkQyNUhlMllIRll1Z2o4MUlSbEV0UzRKMkc0eHlDNzBlME5DOHZNR2w1eVZJQk1ja1dPNEFySXVTeXFLVzhHeU50RUhaSWc?oc=5",
         "isRepublished": false,
         "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! Uber 공동 창업자는 슈퍼 AGI가 사진 속으로 들어오기 전까지는 인간 근로자가 매우 ‘소중' 할 것이라고 말합니다. ‘그건 내 하얀 알약이야’ 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! AI로 인해 향후 10년 동안 전 세계적으로 3억 개의 일자리가 사라질 수 있습니다. 골드만삭스 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "'배관공은 변호사보다 정기적으로 더 많은 수입을 올린다': 다니엘 프리스틀리 (Daniel Priestley) 는 AI가 아메리칸 드림을 뒤집을 것이라고 예측합니다.",
-        "enTitle": "'Plumbers regularly earn more than lawyers': Daniel Priestley predicts AI will flip American Dream",
-        "date": "2026-03-20",
-        "originalDate": "2026-03-19",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeGRPRGtpdzJ4QjlubldXNVQ4SUJmSGFrdDFGcXZ2WGtzTTRBYW9PeU9iS0RSbXJZNVZfa29BSWs3Um90X2dIczY3YnROV05reW5Xako5MHV4WGpaSU1XNEh1SVJIaTRIeU9vWkxYaVVGREo0SjdfV2l1cE5YbURueTRLc2pqWHlFY2dZUjFXS3hpMWxSX2J1WmxWQWlaazd5OF9jQ1pnVjdCNjZUOS04aTllR2tFZ1p6dUs0?oc=5",
+        "koTitle": "AI 채용 시대에 커리어의 미래",
+        "enTitle": "The Future of Careers in the AI Hiring Era",
+        "date": "2026-03-21",
+        "originalDate": "2026-03-20",
+        "sourceName": "The Hans India",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUkU0RHphdDZ4ck96UFZCdXk3alZ2SE1wMHJnVnBRUHUwOHRXaGVPNElndE1Rb29lV0k4eG1iT2VRcTRJaDQ4b1VFVFVWMWZNNnRoeC11QnZfVzlyUXJLd29mazA0SGg0TkdBRzlFR0RYVy1uTHhhTkxBRXB0aUNxT1RERUthYlVuUGJqVzZoU1pUSmJxSlM4UGxGd09wVnYzcV9VV9IBqgFBVV95cUxQVnF3clBBZlhXUWVweGNDdC02WXJuM211Unljdm5LWmQxcnN1ak5hbkcwVk8xa1dEcFRfdGFhWEVGc1M4dl9UVjRwdTAzR3dXT2hSTzhGZVB5UU9ob1A2X0RwUGxubXJoZ2VYNUdjQTJKcnpjUGdGajZKajdJR0tGRHRORk1HUHJQOEVDZHlyU0hDVE5OUWMzRjNtMmk2dExRRklWYmg3MEE3dw?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! '배관공은 변호사보다 정기적으로 더 많은 수입을 올린다': 다니엘 프리스틀리 (Daniel Priestley) 는 AI가 아메리칸 드림을 뒤집을 것이라고 예측합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! AI 채용 시대에 커리어의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -53,8 +53,8 @@ const generalTrendingData = [
         "rank": 1,
         "koTitle": "클로드 코드로 ‘해외 송금 비교 서비스’ 만들어봤습니다",
         "enTitle": "클로드 코드로 ‘해외 송금 비교 서비스’ 만들어봤습니다",
-        "date": "2026-03-20",
-        "originalDate": "2026-03-19",
+        "date": "2026-03-21",
+        "originalDate": "2026-03-20",
         "sourceName": "요즘IT",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9CN1hUb3BZa3g2Umdod1A2eXhUVmszWU4wTmUyaE9kbDRpQkN5eUtZdEt1NzF6X19HNHhmb01JMjVmeTNCNGM2X3RiTVNzTTVuNWtYbmJnY2hzZw?oc=5",
         "isRepublished": false,
@@ -64,28 +64,28 @@ const generalTrendingData = [
     },
     {
         "rank": 2,
-        "koTitle": "알파벳, 애플 맥 버전 제미나이 비공개 테스트 시작…시간외 '강보합'",
-        "enTitle": "알파벳, 애플 맥 버전 제미나이 비공개 테스트 시작…시간외 '강보합'",
-        "date": "2026-03-20",
-        "originalDate": "2026-03-19",
-        "sourceName": "마켓인",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBleTVOQkxyd1NjbGhoTjZPYzd1RHFqTVNrSDE3cWp1d1ZKZXUybFRGVjlxQThGWTBWTEluWVlwckUzMEp3V1F4a1ZpU090M0NzR3RjanEzaVYxR1RLZDZFc0VDaG5tajU5SzE4Z3lOMW1PMjg?oc=5",
+        "koTitle": "구글, '제미나이 맥' 앱 비공개 테스트 시작...챗GPT·클로드에 대응",
+        "enTitle": "구글, '제미나이 맥' 앱 비공개 테스트 시작...챗GPT·클로드에 대응",
+        "date": "2026-03-21",
+        "originalDate": "2026-03-20",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FV2JjZkg2TXR6V2MyNm9PSTdaYjJDYjlIRFdKcDI4Nko3NkFaSUJqVFlRMjVOU3JMemZGMmgtWGtkYU55alNvb3B2UU4tamFVRjdPeUNmVlJtbU5FVHAxM0k0RVluNnNQcnc?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 알파벳, 애플 맥 버전 제미나이 비공개 테스트 시작…시간외 '강보합' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 구글, '제미나이 맥' 앱 비공개 테스트 시작...챗GPT·클로드에 대응 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "['흑'과'백'②] 네이버 vs 카카오…'에이전틱 AI' 수익화",
-        "enTitle": "['흑'과'백'②] 네이버 vs 카카오…'에이전틱 AI' 수익화",
-        "date": "2026-03-20",
-        "originalDate": "2026-03-19",
-        "sourceName": "신아일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CRjFCX2ZMWjFCeHZBOG1HczQyODdubk9ZOTc4SjBXNV9Gak40N3ZVdGNGejdCcTZhWi1YRFNlZEY1WXdZTGs5N3BhaklVSGpNdlRkeWZBYkJzc0NQblBqWEU2OWNjS1NuRURvV3YzR24?oc=5",
+        "koTitle": "AI, 일 평균 57명 취업 연결…'AI 고용서비스' 본격 확대",
+        "enTitle": "AI, 일 평균 57명 취업 연결…'AI 고용서비스' 본격 확대",
+        "date": "2026-03-21",
+        "originalDate": "2026-03-20",
+        "sourceName": "대한민국 정책브리핑",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vc0NnYkc3MUhXTHFKczAtUGtpWHUxeGN4MG1xeHVIWGN1OUhNLUZVSUJYbzQwSHdmVTd3X2Y1dGJTd2tvV2FZekNXTGpmVlE3X3d4RWNPaWxxVHRTRkpNQVRjampDQ3B6SVRJbw?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! ['흑'과'백'②] 네이버 vs 카카오…'에이전틱 AI' 수익화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! AI, 일 평균 57명 취업 연결…'AI 고용서비스' 본격 확대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
