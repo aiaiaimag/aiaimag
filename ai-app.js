@@ -1,7 +1,7 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-03-21
+ * 최신 업데이트: 2026-03-22
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
@@ -10,12 +10,12 @@ const aiNewsData = [
         "rank": 1,
         "koTitle": "인공지능이 성평등으로 가는 길을 바꾸고 있나요? 이번 달의 직업 및 기술 동향 및 기타 동향",
         "enTitle": "Is AI changing the path to gender parity? This and other trends in jobs and skills this month",
-        "date": "2026-03-21",
+        "date": "2026-03-22",
         "originalDate": "2026-03-20",
         "sourceName": "The World Economic Forum",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT1RHUUF0REhkSFZiTXkxdDZOLWJhTllmNTFxX0F0b2NWd2g0YUFReTZybzVXUllRNy0xMklaSjFmX1ZzVmloYlB1M1FKblJrOEVuOVR5LTZJVEp0b2w1MVYtZlhFbUhGVjc5cTZhS05TM0xIVERNUUVXcXl0a2Rfa29pTkNVTjZ4SDBz?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
+        "viralRate": "95%",
         "analysis": "글로벌 AI 트렌드 체크! 인공지능이 성평등으로 가는 길을 바꾸고 있나요? 이번 달의 직업 및 기술 동향 및 기타 동향 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
@@ -23,24 +23,24 @@ const aiNewsData = [
         "rank": 2,
         "koTitle": "AI로 인해 향후 10년 동안 전 세계적으로 3억 개의 일자리가 사라질 수 있습니다. 골드만삭스",
         "enTitle": "AI disruption could displace 300 million jobs globally over the next decade: Goldman Sachs",
-        "date": "2026-03-21",
+        "date": "2026-03-22",
         "originalDate": "2026-03-20",
         "sourceName": "ETHRWorld.com",
         "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQOWtEYUVYZng2Sk9QaWY0cHVMUUhhRzVDbzBYRXNxaDFMUUtwekU2UUNQdFpvcDQzTlQ3MGtsMkd0c29KVExVR2kzaXdYcGUtQ05qLWRkcm1GLXc5MEFaYU80enUySUJjT2oxOEszNzJYandsZnN5cUJMUmlscnhVTzZRRm8wclRwWmV0VHRMWFRPOW5VeDliVjNXQ2lzWFRGZ0FWRW90UmZVcHlqNnFoZ0RJcDR0VEI2eDBUcmc3LUxYQ3ZJOGxCTXZuYUFnLTdpbFB3VUFTd3JFSkthOVlpMTBHMmRXSkcx0gHuAUFVX3lxTE1NVVBiRjRJd3JVV0lGQkRGNU9hOVlPVkdSVEN0TVRhZjgtajlEalQ0ZkpZSERnT0VDYUs1MnBIQ21IMGk1WDZjM0RBdmNVZ3FlUGdzcWc4TlZ6c1R2NGlFMTNtcTNrYzVKNDZUSmpuWDI0VVh6aVFWRXFWRGIzN2lpODh6bEtGZU9oZWMxRktNVndleE11YU1YcEhXbHQ2WjBaUGpaUGVkMkQyNUhlMllIRll1Z2o4MUlSbEV0UzRKMkc0eHlDNzBlME5DOHZNR2w1eVZJQk1ja1dPNEFySXVTeXFLVzhHeU50RUhaSWc?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
+        "viralRate": "90%",
         "analysis": "글로벌 AI 트렌드 체크! AI로 인해 향후 10년 동안 전 세계적으로 3억 개의 일자리가 사라질 수 있습니다. 골드만삭스 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
         "koTitle": "AI 채용 시대에 커리어의 미래",
         "enTitle": "The Future of Careers in the AI Hiring Era",
-        "date": "2026-03-21",
+        "date": "2026-03-22",
         "originalDate": "2026-03-20",
         "sourceName": "The Hans India",
         "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUkU0RHphdDZ4ck96UFZCdXk3alZ2SE1wMHJnVnBRUHUwOHRXaGVPNElndE1Rb29lV0k4eG1iT2VRcTRJaDQ4b1VFVFVWMWZNNnRoeC11QnZfVzlyUXJLd29mazA0SGg0TkdBRzlFR0RYVy1uTHhhTkxBRXB0aUNxT1RERUthYlVuUGJqVzZoU1pUSmJxSlM4UGxGd09wVnYzcV9VV9IBqgFBVV95cUxQVnF3clBBZlhXUWVweGNDdC02WXJuM211Unljdm5LWmQxcnN1ak5hbkcwVk8xa1dEcFRfdGFhWEVGc1M4dl9UVjRwdTAzR3dXT2hSTzhGZVB5UU9ob1A2X0RwUGxubXJoZ2VYNUdjQTJKcnpjUGdGajZKajdJR0tGRHRORk1HUHJQOEVDZHlyU0hDVE5OUWMzRjNtMmk2dExRRklWYmg3MEE3dw?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
+        "viralRate": "90%",
         "analysis": "글로벌 AI 트렌드 체크! AI 채용 시대에 커리어의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "클로드 코드로 ‘해외 송금 비교 서비스’ 만들어봤습니다",
-        "enTitle": "클로드 코드로 ‘해외 송금 비교 서비스’ 만들어봤습니다",
-        "date": "2026-03-21",
-        "originalDate": "2026-03-20",
-        "sourceName": "요즘IT",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9CN1hUb3BZa3g2Umdod1A2eXhUVmszWU4wTmUyaE9kbDRpQkN5eUtZdEt1NzF6X19HNHhmb01JMjVmeTNCNGM2X3RiTVNzTTVuNWtYbmJnY2hzZw?oc=5",
+        "koTitle": "AI 고용서비스, 일자리 매칭 혁신…하루 57명 취업 성과",
+        "enTitle": "AI 고용서비스, 일자리 매칭 혁신…하루 57명 취업 성과",
+        "date": "2026-03-22",
+        "originalDate": "2026-03-21",
+        "sourceName": "헬로티",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fcmRRbERrdmZiUlI2SkxuZlJncHdqdlI4aXhiNWM1NmRRb1R2Yjd0Y0lxWUpJOXhLU3hsZ05FVjJ2MXdwSDNSelZueklwbE1IbnpidGJGU1NacHp6eFdB?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 클로드 코드로 ‘해외 송금 비교 서비스’ 만들어봤습니다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! AI 고용서비스, 일자리 매칭 혁신…하루 57명 취업 성과 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "구글, '제미나이 맥' 앱 비공개 테스트 시작...챗GPT·클로드에 대응",
-        "enTitle": "구글, '제미나이 맥' 앱 비공개 테스트 시작...챗GPT·클로드에 대응",
-        "date": "2026-03-21",
-        "originalDate": "2026-03-20",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FV2JjZkg2TXR6V2MyNm9PSTdaYjJDYjlIRFdKcDI4Nko3NkFaSUJqVFlRMjVOU3JMemZGMmgtWGtkYU55alNvb3B2UU4tamFVRjdPeUNmVlJtbU5FVHAxM0k0RVluNnNQcnc?oc=5",
+        "koTitle": "오픈AI, 챗GPT 슈퍼앱 개발 중…9월 ‘AI 리서치 인턴’ 출시",
+        "enTitle": "오픈AI, 챗GPT 슈퍼앱 개발 중…9월 ‘AI 리서치 인턴’ 출시",
+        "date": "2026-03-22",
+        "originalDate": "2026-03-21",
+        "sourceName": "디지털투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1paUlfR0FNRkl5cmZ1bTlWa3ppZE1uVHBrOThyM3RRT1Q3OGE5TXBNQ2ctVmFqUEdNVC16dzZfclNqSUZzREd2MlR2RlVYZTF4UGNrdHdHcS1Kbk4xUkhXMkhxWGZsb29XMjgyY3NjSmZsc0k?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글, '제미나이 맥' 앱 비공개 테스트 시작...챗GPT·클로드에 대응 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 오픈AI, 챗GPT 슈퍼앱 개발 중…9월 ‘AI 리서치 인턴’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "AI, 일 평균 57명 취업 연결…'AI 고용서비스' 본격 확대",
-        "enTitle": "AI, 일 평균 57명 취업 연결…'AI 고용서비스' 본격 확대",
-        "date": "2026-03-21",
-        "originalDate": "2026-03-20",
-        "sourceName": "대한민국 정책브리핑",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vc0NnYkc3MUhXTHFKczAtUGtpWHUxeGN4MG1xeHVIWGN1OUhNLUZVSUJYbzQwSHdmVTd3X2Y1dGJTd2tvV2FZekNXTGpmVlE3X3d4RWNPaWxxVHRTRkpNQVRjampDQ3B6SVRJbw?oc=5",
+        "koTitle": "앤트로픽, 오픈클로에 대응하는 ‘클로드 코드 채널’ 출시",
+        "enTitle": "앤트로픽, 오픈클로에 대응하는 ‘클로드 코드 채널’ 출시",
+        "date": "2026-03-22",
+        "originalDate": "2026-03-21",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tYjJGT1lONE5fREV3bjJiRUM1YkpYR3pfZXNLSFE4RE5HcFZNeWVXcXhrbzROeXkzMmVxUU5nUlRqbzRmNG5GY21tMXpoWXpUZExnRFF2X193OUpDR3I4Q054dThtQUNzbHc?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! AI, 일 평균 57명 취업 연결…'AI 고용서비스' 본격 확대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 오픈클로에 대응하는 ‘클로드 코드 채널’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
