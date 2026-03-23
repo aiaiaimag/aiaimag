@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-03-23
+ * 최신 업데이트: 2026-03-24
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "인공지능이 성평등으로 가는 길을 바꾸고 있나요? 이번 달의 직업 및 기술 동향 및 기타 동향",
-        "enTitle": "Is AI changing the path to gender parity? This and other trends in jobs and skills this month",
-        "date": "2026-03-23",
-        "originalDate": "2026-03-20",
-        "sourceName": "The World Economic Forum",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT1RHUUF0REhkSFZiTXkxdDZOLWJhTllmNTFxX0F0b2NWd2g0YUFReTZybzVXUllRNy0xMklaSjFmX1ZzVmloYlB1M1FKblJrOEVuOVR5LTZJVEp0b2w1MVYtZlhFbUhGVjc5cTZhS05TM0xIVERNUUVXcXl0a2Rfa29pTkNVTjZ4SDBz?oc=5",
+        "koTitle": "젊은 근로자들이 AI 방지를 위해 하고 있는 일",
+        "enTitle": "What Young Workers Are Doing to AI-Proof Themselves",
+        "date": "2026-03-24",
+        "originalDate": "2026-03-22",
+        "sourceName": "WSJ",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxPYXRHOFpLd0t4MTJibXJuTl9fbkVDYzBCSWZRZ1JFd1NtbGVRZ2twXzVmTnd1LXcwWktEcUE2bzlhMWxPYV9wNU52Y2xDbm1jTmt0a2hUMmJnOUczY2lPSFA0WDNPN2dfMEkwUjVCLVliR243M2xQWGM3NlZmSzFSLWI1c3dDY0xnWHZkOUc2RlZZRXlIY1UzWGZzLWVhcVlpLXN5OVhZa2poa0g1blJ3ektMcVdCR0ptYmxrV0MtQzlreUVXV25CaVcxc1F3YmtKSjhRV2ZIcHI5LU5XUExMYmtndmF2WEQ0NTdpMzloLWRLQU1OMVQ5V1RZbXFtNWowOFBQbjRQTFQtTHRvU3EyeFdUd0N4d01GajQxY2l3a0NVX3I2TFZQa0taWDNHLXVHS0tiUVdLSzNkUlhwOXM3WmdqTzNiODlvOU93cVpZMjlPSkFtZXBqOGwzNHd1ZXpqX0tKb3ZYZzJPT3B2MHYyTUZjNzNkaFVtRjBTMjBFOA?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 성평등으로 가는 길을 바꾸고 있나요? 이번 달의 직업 및 기술 동향 및 기타 동향 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 젊은 근로자들이 AI 방지를 위해 하고 있는 일 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "엔비디아의 CEO는 AI 도입이 점진적일 것이라고 말하지만, AI 도입이 타격을 입으면 우리 모두는 로봇 의류를 만들 수 있습니다.",
-        "enTitle": "Nvidia’s CEO says AI adoption will be gradual, but when it does hit, we may all end up making robot clothing",
-        "date": "2026-03-23",
+        "koTitle": "인공지능이 성평등으로 가는 길을 바꾸고 있나요? 이번 달의 직업 및 기술 동향 및 기타 동향",
+        "enTitle": "Is AI changing the path to gender parity? This and other trends in jobs and skills this month",
+        "date": "2026-03-24",
         "originalDate": "2026-03-20",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNXM0ZW9UcWluM3ItZV9xNmxFTzdTU05QQld3MnVJWWJ4NEZPSjNjbk0wbjY2V2RNV1VXS3U2Y2tWaHl0bk16eVlVcUxNWGtDRzBzMXdfcUhzeF9RMnBISEpKUlhfRmJ4eDZvbVNicURIVndtdnMwM0VZRjhTbEhJQWN1NjhCb3hDQkRWaXhvVzFzcUk?oc=5",
+        "sourceName": "The World Economic Forum",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT1RHUUF0REhkSFZiTXkxdDZOLWJhTllmNTFxX0F0b2NWd2g0YUFReTZybzVXUllRNy0xMklaSjFmX1ZzVmloYlB1M1FKblJrOEVuOVR5LTZJVEp0b2w1MVYtZlhFbUhGVjc5cTZhS05TM0xIVERNUUVXcXl0a2Rfa29pTkNVTjZ4SDBz?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 엔비디아의 CEO는 AI 도입이 점진적일 것이라고 말하지만, AI 도입이 타격을 입으면 우리 모두는 로봇 의류를 만들 수 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 성평등으로 가는 길을 바꾸고 있나요? 이번 달의 직업 및 기술 동향 및 기타 동향 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI로 인해 향후 10년 동안 전 세계적으로 3억 개의 일자리가 사라질 수 있습니다. 골드만삭스",
-        "enTitle": "AI disruption could displace 300 million jobs globally over the next decade: Goldman Sachs",
-        "date": "2026-03-23",
-        "originalDate": "2026-03-20",
-        "sourceName": "ETHRWorld.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQOWtEYUVYZng2Sk9QaWY0cHVMUUhhRzVDbzBYRXNxaDFMUUtwekU2UUNQdFpvcDQzTlQ3MGtsMkd0c29KVExVR2kzaXdYcGUtQ05qLWRkcm1GLXc5MEFaYU80enUySUJjT2oxOEszNzJYandsZnN5cUJMUmlscnhVTzZRRm8wclRwWmV0VHRMWFRPOW5VeDliVjNXQ2lzWFRGZ0FWRW90UmZVcHlqNnFoZ0RJcDR0VEI2eDBUcmc3LUxYQ3ZJOGxCTXZuYUFnLTdpbFB3VUFTd3JFSkthOVlpMTBHMmRXSkcx0gHuAUFVX3lxTE1NVVBiRjRJd3JVV0lGQkRGNU9hOVlPVkdSVEN0TVRhZjgtajlEalQ0ZkpZSERnT0VDYUs1MnBIQ21IMGk1WDZjM0RBdmNVZ3FlUGdzcWc4TlZ6c1R2NGlFMTNtcTNrYzVKNDZUSmpuWDI0VVh6aVFWRXFWRGIzN2lpODh6bEtGZU9oZWMxRktNVndleE11YU1YcEhXbHQ2WjBaUGpaUGVkMkQyNUhlMllIRll1Z2o4MUlSbEV0UzRKMkc0eHlDNzBlME5DOHZNR2w1eVZJQk1ja1dPNEFySXVTeXFLVzhHeU50RUhaSWc?oc=5",
-        "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! AI로 인해 향후 10년 동안 전 세계적으로 3억 개의 일자리가 사라질 수 있습니다. 골드만삭스 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "koTitle": "2026년 대학생을 위한 최고의 AI 기반 사이드 허슬",
+        "enTitle": "Best AI-Powered Side Hustles For College Students In 2026",
+        "date": "2026-03-24",
+        "originalDate": "2026-03-15",
+        "sourceName": "The College Investor",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb0VJUlJSM3E2eFFZWGZrOVFOaTZ6akJnNEEzdDNVOFRJQ0xLTXRSc1JZTmNBTnJNdVllWEhZQ1MyNmhrRUxpMzdjbGtKSE9vRjctQmphTGo3bWp6ellLTDZwU3FYdWFReXZIcE1GcXVRUlh3MTZUVTEtWWplUUcwdElYYUpHTkJuUkxxVTZoTExYZ3BGems5aUlINA?oc=5",
+        "isRepublished": true,
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 2026년 대학생을 위한 최고의 AI 기반 사이드 허슬 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "와이즈레이크, AI 양돈 경영 리포트 서비스 ‘인사이트 피그플랜’ 정식 출시",
-        "enTitle": "와이즈레이크, AI 양돈 경영 리포트 서비스 ‘인사이트 피그플랜’ 정식 출시",
-        "date": "2026-03-23",
-        "originalDate": "2026-03-22",
-        "sourceName": "livesnews.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE96NkxHU3FQeVh6YVVwbXluaERjTGx2eFUyWFdWY2hvcldYTnl2a2RIdzU1dGpJby1EcHhFb0k2OGduSHYtNXdEMTBxTUhPQmtWaWRGMk5EWjhRb0dD?oc=5",
+        "koTitle": "네이버, CFO 이사회 복귀…AI 수익화 속 주주가치 논란",
+        "enTitle": "네이버, CFO 이사회 복귀…AI 수익화 속 주주가치 논란",
+        "date": "2026-03-24",
+        "originalDate": "2026-03-23",
+        "sourceName": "뉴스토마토",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ZdndQZHB2QWRlOEtCSFVoanFFbHhLUmNmODJXMzNuRGNKak5FeEVVQ2NJMUFHSzV0ckV5YW9OVVd3N3lhVnFZWEEtY0hEMHhuWlFYc1BydTExTm5VUVJRTA?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 와이즈레이크, AI 양돈 경영 리포트 서비스 ‘인사이트 피그플랜’ 정식 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 네이버, CFO 이사회 복귀…AI 수익화 속 주주가치 논란 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "중소기업들이 GOOGL, META, ChatGPT 광고에 대해 말하는 것은? By Investing.com",
-        "enTitle": "중소기업들이 GOOGL, META, ChatGPT 광고에 대해 말하는 것은? By Investing.com",
-        "date": "2026-03-23",
-        "originalDate": "2026-03-22",
-        "sourceName": "Investing.com 한국어",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1rTHQ1QVhQRlloVFdBbkRYVHRHQVJRdW04bVVKUGNYZmFDbVNUNkhmRFdmWXppamNEX3Q2RVVQdWFmTTFZN2lUMU1CT1lrTDZYMm5GNGNWTkJCRjh5em1hMUF1N2RvaVJGa1NDZDJxaEk?oc=5",
+        "koTitle": "삼성SDS, 국내 첫 'B300' GPU 서비스 출시…”GPU 8장 시간 당 14만원에 제공”",
+        "enTitle": "삼성SDS, 국내 첫 'B300' GPU 서비스 출시…”GPU 8장 시간 당 14만원에 제공”",
+        "date": "2026-03-24",
+        "originalDate": "2026-03-23",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80QWk3LXNvR1o3NVR2SWd5R01DcFEtTkNUenVpczEwS29iRWUydlcxUmoySV9xNHJsMzJINVFzWS0yVU1oak5OZlE1eXNnX3ZCUzJuQXZNc1VWdUJyMlpRODNhSlRVNGoyQ0E?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 중소기업들이 GOOGL, META, ChatGPT 광고에 대해 말하는 것은? By Investing.com 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 삼성SDS, 국내 첫 'B300' GPU 서비스 출시…”GPU 8장 시간 당 14만원에 제공” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "오픈AI, 챗GPT 무료 서비스에 광고 도입 검토…수익 구조 전환 신호",
-        "enTitle": "오픈AI, 챗GPT 무료 서비스에 광고 도입 검토…수익 구조 전환 신호",
-        "date": "2026-03-23",
-        "originalDate": "2026-03-22",
-        "sourceName": "비즈월드",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5mNjZwRFpTelpkZl9sVnZwVE9xUC1MdWUzYXJiODB3VV9sMUdrQ0NVOXdIMUNCcmNtQzI4WjJYQ1ktajdPV2hjLUZyM0tCSDRRb0VoUHpoZjY4T01wc256c082VmtlQTBVckE?oc=5",
+        "koTitle": "\"광고 보면 챗GPT 무료\"…오픈AI, 수익 다각화 나선다",
+        "enTitle": "\"광고 보면 챗GPT 무료\"…오픈AI, 수익 다각화 나선다",
+        "date": "2026-03-24",
+        "originalDate": "2026-03-23",
+        "sourceName": "DealSite경제TV",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5OZkgxRmFQV2NVRTQ4QlRISDdDZUZ6MURRaXVGV05wdU53dHk5Wl9ub05QcEtkc3kzWll0a0NNZV91RUNPWHowQ0R1WVltWURXTjRSRFFn?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 오픈AI, 챗GPT 무료 서비스에 광고 도입 검토…수익 구조 전환 신호 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! \"광고 보면 챗GPT 무료\"…오픈AI, 수익 다각화 나선다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
