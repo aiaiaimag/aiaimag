@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-03-27
+ * 최신 업데이트: 2026-03-28
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI 선구자 요슈아 벤지오 (Yoshua Bengio) 는 AI가 모든 일자리를 없애는 것은 '시간 문제' 라고 말합니다.",
-        "enTitle": "AI pioneer Yoshua Bengio says it's 'only a matter of time' before AI wipes out every job",
-        "date": "2026-03-27",
-        "originalDate": "2026-03-26",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLUNYNTRsN2ZRWDA3MmtMT1o1NVVqLWRSZTd5Z0tGMThnZ09XTTBITTR6NW1hZVVOVy0tUi1iR2pBWkNEQTY5Vzk3VjhWeFZkeC1Gd2NINGFGTHJKQlRWV0RYZC01Uk9yVEhiZ1c3U0ktZkdoMUdOaGVHRVAycjd2bnBYb01IRU5TRldNVHpwdzdkdjZYT3c?oc=5",
+        "koTitle": "AI로부터 당신의 경력을 미래에 증명할 수 있는 다섯 가지 직업과 그렇지 않은 다섯 가지 직업",
+        "enTitle": "Five jobs that could future-proof your career from AI, and five that definitely won’t",
+        "date": "2026-03-28",
+        "originalDate": "2026-03-27",
+        "sourceName": "Herald Sun",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPY1lDdXo3X210SXdfcWRaSk9FSVhnNkd2SmFMUG9LazFjVndvSUpScnA5U3VqbVVORFVuVi1hdThRRXJmeEg1REVIeENHX3ZuejJ1X1FjYkNNb1Y2UU9ZbmtYcm12T2hYb25WTGhMMVFsNmpVY3A1ZGd1ZVZhR3BnU3ZPTHJYcEFWak5NdEhUb0dPNl9oRG1aMDRIRXdMOGFFc3lFUmtpTmo5MWt1dUpxc0UzZ3M5aUtfVExjZmVDTWlObl9NbGdVUmR4LUZVX3Q5Z1ZBQjNka2MxOEtyVGFWMTRZRkZQMmJLSk1CSmFUZTF4VGVKMUJqLWs4NEhnS3RiMlpfcWpnRjQwMTDSAZACQVVfeXFMUGlpTVlIZXFiZ18wVUVtck8xSEFobnk4dVJ6eFVLNUJzN0czbFdUd1JSMVRsdU1pLTAyMHFpQ1Q0U1g4TmlBOHcwcV9jUmhpdWluNV9vLXhyOXNkSTNueWhtZFFHb0dBZUZzNzh5eGpKWmtDcnozOHRUcVVGM1RybHVlS1VZU3h6YUZhYkRJdm1jbFVUZ1UxcTcyMGNvQVc4c09fWkdSQ2hPbGRoSTBIa3VQdnBuR1ZzcVVkWWMyU2NrZkZBUWVrb3EyUmhFV2FfbFZLa210WndaRmJLVVJDWkRzOC1XUVhVZ3p2S2dSdDV3TjdqdWJOLVJ4Zy1rOFQ1ZUdtQnpWTkFqbXZTS3FHQ08?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 선구자 요슈아 벤지오 (Yoshua Bengio) 는 AI가 모든 일자리를 없애는 것은 '시간 문제' 라고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! AI로부터 당신의 경력을 미래에 증명할 수 있는 다섯 가지 직업과 그렇지 않은 다섯 가지 직업 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "젠슨 황 (Jensen Huang) 은 AI 기술이 미래 일자리 보안의 핵심이라고 말합니다.",
-        "enTitle": "Jensen Huang Says AI Skills Are Key to Future Job Security",
-        "date": "2026-03-27",
-        "originalDate": "2026-03-26",
-        "sourceName": "The420.in",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBYVVBvdXJITi11dVFQd1lYNFIyaEM4dE5MU2ZUTlRxNHo1WEcxSEhzMmE3S1hFSlpGOElLRHVGOEhGN3dqTDJhVTVEX2hjWnFMNzM5Yk5SLVYydGZJVFloRHMtNlpTMk1xVHFacmxsWFZ3WEFqenhqdjN1dHg?oc=5",
+        "koTitle": "AI 에이전트와의 업무의 미래: 디지털 동료가 이미 여기에 있습니다.",
+        "enTitle": "Future of Work with AI Agents: Your Digital Colleagues Are Already Here",
+        "date": "2026-03-28",
+        "originalDate": "2026-03-27",
+        "sourceName": "TechPluto",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE16WnBHbHdrVGd1V1U0bnUzcjZRZjh4Snl5SHo2M0NURzVZZEV0YVh3eFVsX3lQMGtiZFFVSFd4Y3VuSC1SVGFKRDR2MzZ2b08yUFZwVll2TS1DZ0FTS0dkRHdVMDRkY2c?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 젠슨 황 (Jensen Huang) 은 AI 기술이 미래 일자리 보안의 핵심이라고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 에이전트와의 업무의 미래: 디지털 동료가 이미 여기에 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "아이디어에서 더 빠르게 실행할 수 있는 Windows 최고의 생산성 앱",
-        "enTitle": "Best productivity apps in Windows to go from idea to done faster",
-        "date": "2026-03-27",
-        "originalDate": "2026-03-25",
-        "sourceName": "Microsoft",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc1hnaURNdXZhTVBPcUZCLWFjZ2FqWW5zdm1LTWZ6WDExclJjMkh4S0FXQmEyVjFGbTBZNXdlcXpnREc0YjhoWUtpM1hyNTBiTmo3NHo4N1pZV3lwZ21YNnJGazk4QnU5NDlacmRNVll1V3JCQ201TTdPZ2RRc1cxN0V4bVdhbkg5Yk5YRVVKeUZwa2s?oc=5",
+        "koTitle": "인공지능이 엔트리 레벨 작업의 성격을 바꾸는 방법",
+        "enTitle": "How AI is changing the nature of entry level work",
+        "date": "2026-03-28",
+        "originalDate": "2026-03-26",
+        "sourceName": "The World Economic Forum",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPc0RtNW1wOHhNaVFHRHFTTDdNSTBVRGt2cjM1OFE5NS1UMlgtQ2ZIWVVReGxybXdCWHpON1V4d2JSLWZrcWxCTlVXWUludEgzWDdVSVQxOHI4bElIS2RtcTJmV1RVZFZ1MHdxZXNVUkhIY011UjhCWV9HY25iZTdsYWpZQ0NmS0FpWFNaVFQ4d3JyQXc0?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 아이디어에서 더 빠르게 실행할 수 있는 Windows 최고의 생산성 앱 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 엔트리 레벨 작업의 성격을 바꾸는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "건강보험25시 앱 출시… AI 기반 233종 서비스·가족 건강정보 공유까지",
-        "enTitle": "건강보험25시 앱 출시… AI 기반 233종 서비스·가족 건강정보 공유까지",
-        "date": "2026-03-27",
-        "originalDate": "2026-03-26",
-        "sourceName": "미래세종일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzYWVaSnNpRUdvRUJOcGpzMUlDVW43Sl8yYVhtamROcEhMdFprWXR0aDNtaEQzMGdDY1dISW9UWG5fVGlnRzljWjRreWZYUHVBSm5IY3o1aTdPMmpYZWJWM3NLN3A3YUtP?oc=5",
+        "koTitle": "영화 'her' 현실로?…구글, AI 기반 음성검색 서비스 ‘서치라이브’ 글로벌 출시 [팩플]",
+        "enTitle": "영화 'her' 현실로?…구글, AI 기반 음성검색 서비스 ‘서치라이브’ 글로벌 출시 [팩플]",
+        "date": "2026-03-28",
+        "originalDate": "2026-03-27",
+        "sourceName": "중앙일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qTU1BajA4WmdZcHlKeHlhVkFZa3Y2aXhSN3AzeUExOXZqMzNSM0ZXUHJ3Yk9ORWkwUzU4MGxhTVhibV9reDBPSDg0WlVJMmlsTmhLLTFR?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 건강보험25시 앱 출시… AI 기반 233종 서비스·가족 건강정보 공유까지 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 영화 'her' 현실로?…구글, AI 기반 음성검색 서비스 ‘서치라이브’ 글로벌 출시 [팩플] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "건보공단, AI 기반 ‘건강보험25시’ 출시…모바일 서비스 전면 개편",
-        "enTitle": "건보공단, AI 기반 ‘건강보험25시’ 출시…모바일 서비스 전면 개편",
-        "date": "2026-03-27",
+        "koTitle": "제미나이 3.1 플래시 라이브: 더욱 자연스럽고 신뢰할 수 있는 오디오 AI",
+        "enTitle": "제미나이 3.1 플래시 라이브: 더욱 자연스럽고 신뢰할 수 있는 오디오 AI",
+        "date": "2026-03-28",
         "originalDate": "2026-03-26",
-        "sourceName": "의학신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04bUJ0b2Z4bEw5RmxvV1ZFWW5EcVpCNG9jMVBuU3B3N0F2ZVpkYk5TWFM4YW9QLWlWRXQxNjB5eXIyRGdjWDlseGVTTG96T0VqVmttQ3UxWG5rdVZHT25oUFRYYzB1bWpDbWc?oc=5",
+        "sourceName": "blog.google",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTHdBd2pBcUZFYzkxOHY3VFNob0lJVXU3NmV1X21kelc1VVp4WVAyRm9EclVBQTZRSnl5VjI5SWduY1JzMkYxY3BoQkUwTDh6T0taV1VFNWlPMExqVHRCWGNiY1h2cC16czd4M1NIbm5YbFhLdkwwWU1rZWc1blJXdUlMSGgtUQ?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 건보공단, AI 기반 ‘건강보험25시’ 출시…모바일 서비스 전면 개편 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 제미나이 3.1 플래시 라이브: 더욱 자연스럽고 신뢰할 수 있는 오디오 AI 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "애플, '제미나이' 증류해 맞춤형 온디바이스 모델 개발",
-        "enTitle": "애플, '제미나이' 증류해 맞춤형 온디바이스 모델 개발",
-        "date": "2026-03-27",
-        "originalDate": "2026-03-26",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRQmw5RnRpb2V0NnhBVUpuUGhCQXktT1R6b3dqSUhhM1FqX1d3dEpZT2o0Y3ExVGtJMXQwLWV5U25hOXV3V0wzR1c2UFJWd3VHZnVDbTdGMFhzc001RUpOT2F2VU1rbGw2N0E?oc=5",
+        "koTitle": "토지 개발 및 분석 플랫폼 '토지프로', AI 기반 신규 서비스 출시로 차세대 플랫폼 개척",
+        "enTitle": "토지 개발 및 분석 플랫폼 '토지프로', AI 기반 신규 서비스 출시로 차세대 플랫폼 개척",
+        "date": "2026-03-28",
+        "originalDate": "2026-03-27",
+        "sourceName": "전자신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3MVdub01iNnJqem9iSTByejlNMGIyVENBTlBwZk1NN0F0WDhTQ0dzbWdMWUgtaFpuMGc0UUtIY01FNW1LM0pDcXZidHJNZw?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 애플, '제미나이' 증류해 맞춤형 온디바이스 모델 개발 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 토지 개발 및 분석 플랫폼 '토지프로', AI 기반 신규 서비스 출시로 차세대 플랫폼 개척 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
