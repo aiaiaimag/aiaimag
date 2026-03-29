@@ -1,7 +1,7 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-03-29
+ * 최신 업데이트: 2026-03-30
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
@@ -10,12 +10,12 @@ const aiNewsData = [
         "rank": 1,
         "koTitle": "AI CEO는 일자리 시장에서 단 두 가지 유형의 사람들만 살아남을 것이라고 말합니다.",
         "enTitle": "AI CEO Says Only 2 Types of People Will Survive in Job Market",
-        "date": "2026-03-29",
+        "date": "2026-03-30",
         "originalDate": "2026-03-28",
         "sourceName": "Newsweek",
         "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVE8zeXFvdWp3d2xGMmRFTFQyTFFET0ZXVWNiOHhudWhjNVdDTTlRdGg5Q2JoeUFScWZRSlhURFpULWs4YjJjWDZlbHNtb0pWVGlldUtNNVVCT0lBSGNTX0FUdmtIbHRFLXBYTlp4VUpxS1R4NzE3LS04NGxlQkhFZGNzMHhsQWpaZkg0aUptOC0xaWZ3?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
+        "viralRate": "93%",
         "analysis": "글로벌 AI 트렌드 체크! AI CEO는 일자리 시장에서 단 두 가지 유형의 사람들만 살아남을 것이라고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
@@ -23,25 +23,25 @@ const aiNewsData = [
         "rank": 2,
         "koTitle": "Z세대는 졸업생 실업률이 올라감에 따라 취업 면접에서 AI를 사용하고 있습니다.",
         "enTitle": "Gen Z is using AI in job interviews as graduate unemployment climbs",
-        "date": "2026-03-29",
+        "date": "2026-03-30",
         "originalDate": "2026-03-28",
         "sourceName": "The Next Web",
         "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zTy0tMF82QjBtNlRwN01id3poN2VuOTVRTzBrZHdqM01Qc3FOZ0tPRDRIeGVjbjQ1SzdzSFY3bTR1eExOblU1ekRLZUtQa0l3SkxjdHlqbHRmTkZnUnFBOXFlaW1rdWUtTXQ2NkxxamJxNE01TEFMRA?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
+        "viralRate": "90%",
         "analysis": "글로벌 AI 트렌드 체크! Z세대는 졸업생 실업률이 올라감에 따라 취업 면접에서 AI를 사용하고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI로부터 당신의 경력을 미래에 증명할 수 있는 다섯 가지 직업과 그렇지 않은 다섯 가지 직업",
-        "enTitle": "Five jobs that could future-proof your career from AI, and five that definitely won’t",
-        "date": "2026-03-29",
+        "koTitle": "이 미국인들은 AI가 일자리를 빼앗기 전에 그만두고 자신의 사업을 시작하고 있습니다: '나는 단지 통제하고 싶었다'",
+        "enTitle": "These Americans are quitting before AI can take their jobs—and starting their own businesses: 'I just wanted to be in control'",
+        "date": "2026-03-30",
         "originalDate": "2026-03-27",
-        "sourceName": "Herald Sun",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPY1lDdXo3X210SXdfcWRaSk9FSVhnNkd2SmFMUG9LazFjVndvSUpScnA5U3VqbVVORFVuVi1hdThRRXJmeEg1REVIeENHX3ZuejJ1X1FjYkNNb1Y2UU9ZbmtYcm12T2hYb25WTGhMMVFsNmpVY3A1ZGd1ZVZhR3BnU3ZPTHJYcEFWak5NdEhUb0dPNl9oRG1aMDRIRXdMOGFFc3lFUmtpTmo5MWt1dUpxc0UzZ3M5aUtfVExjZmVDTWlObl9NbGdVUmR4LUZVX3Q5Z1ZBQjNka2MxOEtyVGFWMTRZRkZQMmJLSk1CSmFUZTF4VGVKMUJqLWs4NEhnS3RiMlpfcWpnRjQwMTDSAZACQVVfeXFMUGlpTVlIZXFiZ18wVUVtck8xSEFobnk4dVJ6eFVLNUJzN0czbFdUd1JSMVRsdU1pLTAyMHFpQ1Q0U1g4TmlBOHcwcV9jUmhpdWluNV9vLXhyOXNkSTNueWhtZFFHb0dBZUZzNzh5eGpKWmtDcnozOHRUcVVGM1RybHVlS1VZU3h6YUZhYkRJdm1jbFVUZ1UxcTcyMGNvQVc4c09fWkdSQ2hPbGRoSTBIa3VQdnBuR1ZzcVVkWWMyU2NrZkZBUWVrb3EyUmhFV2FfbFZLa210WndaRmJLVVJDWkRzOC1XUVhVZ3p2S2dSdDV3TjdqdWJOLVJ4Zy1rOFQ1ZUdtQnpWTkFqbXZTS3FHQ08?oc=5",
+        "sourceName": "CNBC",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSE9VeFFTcm9tQzV4bHpVLXpoNFR1RVItUDQwZFFmVXM5aTVqZE9WVHBDTHFheUo1ZlplSW83aHNQcU4yLWNzX1R1NFJfMWRuNW1RaVB0b2RYOFlRcUU2TWVDcHFISUdmbzFEemVBZ09vNlF4RWRkaTctdHNmS0tmSVZiSXhBd3QxLUxSN01LUTBOdmxRWHdRYkJkelDSAaIBQVVfeXFMT0JrX01GU0F1OEtxYzRkU2dRN1BlUjVfQVBlT1IxQldFbWVBR1JacVlmMTBlVHY3NnpXaDEteXpISHhmaEpBSEN4eVlpRjY1Qzh6WFdOVElYbWVTc3doUzdqQkFJdzV6TXNDaWNuQWw0Q0l1TElzbDdOMU52RUJwR3M3aTc3c3RzZ3dBZ1ZGT2pBUFAzaTRuYW90VTE5UF9ER2ZR?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! AI로부터 당신의 경력을 미래에 증명할 수 있는 다섯 가지 직업과 그렇지 않은 다섯 가지 직업 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 이 미국인들은 AI가 일자리를 빼앗기 전에 그만두고 자신의 사업을 시작하고 있습니다: '나는 단지 통제하고 싶었다' 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "앤트로픽, 사상 최강 모델 '클로드 미소스' 출시 임박",
-        "enTitle": "앤트로픽, 사상 최강 모델 '클로드 미소스' 출시 임박",
-        "date": "2026-03-29",
-        "originalDate": "2026-03-28",
+        "koTitle": "지푸, 초저가 코딩 모델 'GLM-5.1' 출시…'클로드 오퍼스 4.6'에 근접",
+        "enTitle": "지푸, 초저가 코딩 모델 'GLM-5.1' 출시…'클로드 오퍼스 4.6'에 근접",
+        "date": "2026-03-30",
+        "originalDate": "2026-03-29",
         "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5oZHhJOHNwMWVnNFZBa2dwbmJkeTZ0UGNkd2N5N2tuUGltdFE2dm1YZmIyOG9CTUx4TEdKc2ZOUlUzTlZaMl85WV9XaTUwVFNmQ2QxRHUtN2NSNVljZV9vMEtxWXMtU3pRTlE?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSOW5OUkEyLURiWE5fa1JLWkpkZmJPV3c2dWxVX3hBZ0dnVDZSRUVOLWE4N1pZYXVNSERaZjhJQjBoTC16OV9PR1p2bU5YblFyRi0zNkZLQUtGVVhXT1RheEo5QUlqcFFPbFE?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 사상 최강 모델 '클로드 미소스' 출시 임박 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 지푸, 초저가 코딩 모델 'GLM-5.1' 출시…'클로드 오퍼스 4.6'에 근접 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "AI 데이터센터 9조 달러 투자, 수익 회수 가능한가 [AI 데이터센터 투자 분석]",
-        "enTitle": "AI 데이터센터 9조 달러 투자, 수익 회수 가능한가 [AI 데이터센터 투자 분석]",
-        "date": "2026-03-29",
-        "originalDate": "2026-03-28",
-        "sourceName": "글로벌이코노믹",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOTNQRGxXTzc5djNQUjk0bmFabUtER1gxWk1EMWdzcWVKaWt4Z05IdjRxMmFpeFZIYVRIanpnLXVXMnBDa2Q0UlVVUTY5TWY4QzNvRk5tSUVtQXlQUU4wXzZXS3VwREhVZ01HeXU0STQ5Sk9DOHV0YmVGN2xZUkNxdXZtMzJQbGRj?oc=5",
+        "koTitle": "시흥시, AI 고용서비스 전담 창구 신설… 맞춤형 취업지원 강화",
+        "enTitle": "시흥시, AI 고용서비스 전담 창구 신설… 맞춤형 취업지원 강화",
+        "date": "2026-03-30",
+        "originalDate": "2026-03-29",
+        "sourceName": "천지일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4TTcyZzZobUFaU2x5LW5KekpSMmd4a3RYYlpWTU1fVmpaOVU0UUJNTHhUVnh5QUF6bUp5dUZuX2h4U2hNWmdYQ1cxZDFCck5QdHkwYmk2eUNQQjVKWW5NLTZnU0tDM3VlNHc?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! AI 데이터센터 9조 달러 투자, 수익 회수 가능한가 [AI 데이터센터 투자 분석] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 시흥시, AI 고용서비스 전담 창구 신설… 맞춤형 취업지원 강화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "[AI 이슈트렌드] 트럼프 이란 협상·BTS 공연 논란 등 상위권 차지",
-        "enTitle": "[AI 이슈트렌드] 트럼프 이란 협상·BTS 공연 논란 등 상위권 차지",
-        "date": "2026-03-29",
-        "originalDate": "2026-03-28",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GVDF6ZkpWY2JXUDBSdWlEdXRNZ1kzSkVOUWlOMUVMcVgxN3BRNENIVUlUQlNfbVIzTWg2UE42VUFneHFDellYc2JDaWpoR3JRR1hnLTA3Zl9VdmhvMXpPX3dBdGdXVW55T2c?oc=5",
+        "koTitle": "화장품신문 (Beautynury.com) :: 세포라, 대화형 AI 서비스 ‘챗GPT’서 앱 출시",
+        "enTitle": "화장품신문 (Beautynury.com) :: 세포라, 대화형 AI 서비스 ‘챗GPT’서 앱 출시",
+        "date": "2026-03-30",
+        "originalDate": "2026-03-29",
+        "sourceName": "뷰티누리",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WYjBER2diUFI3YnhXQ1BEZEEyMnE3ZG9TUTBYekx6RlhvZVBoTkhFY3JHOEowTVg4WjZGUTl0Rm5mSFhqdEhudGJHZWZGNkRDa29feXc2OThfSW1hMmNv?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI 이슈트렌드] 트럼프 이란 협상·BTS 공연 논란 등 상위권 차지 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 화장품신문 (Beautynury.com) :: 세포라, 대화형 AI 서비스 ‘챗GPT’서 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
