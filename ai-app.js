@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-03-31
+ * 최신 업데이트: 2026-04-01
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Z세대는 졸업생 실업률이 올라감에 따라 취업 면접에서 AI를 사용하고 있습니다.",
-        "enTitle": "Gen Z is using AI in job interviews as graduate unemployment climbs",
-        "date": "2026-03-31",
-        "originalDate": "2026-03-28",
-        "sourceName": "The Next Web",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zTy0tMF82QjBtNlRwN01id3poN2VuOTVRTzBrZHdqM01Qc3FOZ0tPRDRIeGVjbjQ1SzdzSFY3bTR1eExOblU1ekRLZUtQa0l3SkxjdHlqbHRmTkZnUnFBOXFlaW1rdWUtTXQ2NkxxamJxNE01TEFMRA?oc=5",
+        "koTitle": "LinkedIn CEO, 직무 불확실성 속에서 AI 커리어 가이드 출시",
+        "enTitle": "LinkedIn CEO Launches AI Career Guide Amid Job Uncertainty",
+        "date": "2026-04-01",
+        "originalDate": "2026-03-31",
+        "sourceName": "The Tech Buzz",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOGpMM05NLVhmR3ExYWVFM01fMWh3SXVIY0lXQUlLd2pOd3FvSWk0R3JqVk01dkxJRkVpNW1xREU5TlFXaE8yeE9NLWlPZXRkeFEtSExiOExFN2JVWEZMeGQ0YTZfdFNaenNrSElDeVNyTnJNY2JTUXh4NW12OFpTR1lydGVVWjBocDVVYmJwRUo2M1N4T0E?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! Z세대는 졸업생 실업률이 올라감에 따라 취업 면접에서 AI를 사용하고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! LinkedIn CEO, 직무 불확실성 속에서 AI 커리어 가이드 출시 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI 선구자 요슈아 벤지오 (Yoshua Bengio) 는 AI가 모든 일자리를 없애는 것은 '시간 문제' 라고 말합니다.",
-        "enTitle": "AI pioneer Yoshua Bengio says it's 'only a matter of time' before AI wipes out every job",
-        "date": "2026-03-31",
-        "originalDate": "2026-03-26",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLUNYNTRsN2ZRWDA3MmtMT1o1NVVqLWRSZTd5Z0tGMThnZ09XTTBITTR6NW1hZVVOVy0tUi1iR2pBWkNEQTY5Vzk3VjhWeFZkeC1Gd2NINGFGTHJKQlRWV0RYZC01Uk9yVEhiZ1c3U0ktZkdoMUdOaGVHRVAycjd2bnBYb01IRU5TRldNVHpwdzdkdjZYT3c?oc=5",
+        "koTitle": "인공지능, 직업 및 불확실성: 선도적인 전문가가 우리가 기대할 수 있는 것에 중점을 둡니다.",
+        "enTitle": "AI, Jobs, and Uncertainty: A Leading Expert Weighs In on What We Can Expect",
+        "date": "2026-04-01",
+        "originalDate": "2026-03-31",
+        "sourceName": "Babson College",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5RV2ZoZmVoWDhqczFRWDMwcTkxZk5pY0VWdnVYQ3hUMkxPbUg2MnFxcWQ4U29HckJJTFJqWldoVW0yMGZHTS1FcF9WTWxoeTY5SUs4Q0hFemFCeklmZklfUEpPMzVuZ1Yx?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 선구자 요슈아 벤지오 (Yoshua Bengio) 는 AI가 모든 일자리를 없애는 것은 '시간 문제' 라고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능, 직업 및 불확실성: 선도적인 전문가가 우리가 기대할 수 있는 것에 중점을 둡니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "아이디어에서 더 빠르게 실행할 수 있는 Windows 최고의 생산성 앱",
-        "enTitle": "Best productivity apps in Windows to go from idea to done faster",
-        "date": "2026-03-31",
-        "originalDate": "2026-03-25",
-        "sourceName": "Microsoft",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc1hnaURNdXZhTVBPcUZCLWFjZ2FqWW5zdm1LTWZ6WDExclJjMkh4S0FXQmEyVjFGbTBZNXdlcXpnREc0YjhoWUtpM1hyNTBiTmo3NHo4N1pZV3lwZ21YNnJGazk4QnU5NDlacmRNVll1V3JCQ201TTdPZ2RRc1cxN0V4bVdhbkg5Yk5YRVVKeUZwa2s?oc=5",
+        "koTitle": "2024년을 위한 최고의 인공지능 측면의 허슬 아이디어: 지금 시작할 수 있는 수익성 있는 온라인 비즈니스",
+        "enTitle": "Top AI side hustle ideas for 2024: Profitable online businesses you can start now",
+        "date": "2026-04-01",
+        "originalDate": "2026-03-31",
+        "sourceName": "MSN",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQM3RfTHlwRnUzSUVFdE0tU2Y2TFdNQ3hCU1ZuZFhWS3F2LXhQdFZfYmUtWHhfRWNrLUo0ekQxNEk5cGl5RUJvZm1nUWJRS204MFNVSlhEdi03eFZ1c1EtRjFrRWdVMkVZREN6Y2ZpWi1KbDhHQmhqVXVyNjJaUDZqcklXWjZxbmtveEdKZzVvYUhpeEFYMmtFV2VDZkVRWkhvSzgwYW1jbTdneVdEcmFVTy0zd1c0Yzg0cnB3TkJGUm03MmtscGVNT21NbkZoMEhCNU9RWHEtdkJNYWJQVnVXeXp6Sy1MekdLUFNjQVNUenVvcDdXbUxj?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 아이디어에서 더 빠르게 실행할 수 있는 Windows 최고의 생산성 앱 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 2024년을 위한 최고의 인공지능 측면의 허슬 아이디어: 지금 시작할 수 있는 수익성 있는 온라인 비즈니스 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "챗GPT와 클로드를 동시에?...MS, 업무용 에이전트서 한꺼번에 쓴다",
-        "enTitle": "챗GPT와 클로드를 동시에?...MS, 업무용 에이전트서 한꺼번에 쓴다",
-        "date": "2026-03-31",
-        "originalDate": "2026-03-30",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16emppWVg4UVNfdUJHWHRKY3c2M21Hclk2dEpmbW01eDVGZV9sb19YY2dDb2pCMlJqaHJIOFNfREV0RUM3SWN5cW03NFMzbG8?oc=5",
+        "koTitle": "앤트로픽 AI개발도구 '클로드코드' 소스 유출…\"직원실수 추정\"",
+        "enTitle": "앤트로픽 AI개발도구 '클로드코드' 소스 유출…\"직원실수 추정\"",
+        "date": "2026-04-01",
+        "originalDate": "2026-03-31",
+        "sourceName": "연합뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sd3hDb1ppMml4Q21yNWhfazJzX05IMHpuMExqcjdrVmZvdzNwTzlEd25SZ0Foamp2NU93M1hVbWcwWnJ6Z0RKendXLTlzRzd0UktvTUZsRk81RE3SAWBBVV95cUxPWUZzN0xxdmNnbWxJQ0ZnVDBranBveENkWUlKZ3Q3NU5jVy1JTUx0cURqQWpNbDhhVzBpaHV0dXNKTmZVWFgySWpRTUcyUl84djYtX25mV1F3RWVjTHUwVnA?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 챗GPT와 클로드를 동시에?...MS, 업무용 에이전트서 한꺼번에 쓴다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽 AI개발도구 '클로드코드' 소스 유출…\"직원실수 추정\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "고용24 ‘인공지능(AI) 기반 인재추천’ 서비스 개선",
-        "enTitle": "고용24 ‘인공지능(AI) 기반 인재추천’ 서비스 개선",
-        "date": "2026-03-31",
-        "originalDate": "2026-03-30",
-        "sourceName": "환경일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ORjBQZWdON3pMMnhqQ2djdzczUDFTeGNlSlpRSk5URXlsOFZidjh0OXZlMU50aHhvS1ZVWWJLd1ZORUJEZHBtOF8weE9ONEVlSkgzLVZXM08wSTRKT2ItaWtKcnNobFAy?oc=5",
+        "koTitle": "“국민 과반수, AI 서비스로 챗GPT·제미나이 선택”",
+        "enTitle": "“국민 과반수, AI 서비스로 챗GPT·제미나이 선택”",
+        "date": "2026-04-01",
+        "originalDate": "2026-03-31",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5MT2lzQ1lJMjBBWFZHNWxyeW9Pb1lOblcxVjRvWU1lWFA0dU9JMG1OU2pUamtNNUhLNWozbk9iWmdlTXRJbGNVbk8tdEdlRktNNXZxcDRFaVpzd2x3b1V3VGF4NXNrOUpLNnc?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 고용24 ‘인공지능(AI) 기반 인재추천’ 서비스 개선 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! “국민 과반수, AI 서비스로 챗GPT·제미나이 선택” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "시흥시, ‘AI 고용서비스 전담 창구’ 신설… 중장년층 취업 문턱 낮춘다",
-        "enTitle": "시흥시, ‘AI 고용서비스 전담 창구’ 신설… 중장년층 취업 문턱 낮춘다",
-        "date": "2026-03-31",
-        "originalDate": "2026-03-30",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1QN3dMRW0yalZ5VDE0TV9vN0hYTEhuV2ZFNm1ucHVxbHZ3Vk04T3hxWHpEWmNuYnREd3pBYUZESHFCSDZlYW5wY2EwdDdLN1E?oc=5",
+        "koTitle": "산업과 시장을 바꾸는 AI 수익 기회 및 비즈니스 모델",
+        "enTitle": "산업과 시장을 바꾸는 AI 수익 기회 및 비즈니스 모델",
+        "date": "2026-04-01",
+        "originalDate": "2026-03-31",
+        "sourceName": "KPMG",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE4zTGFQRGRxNDNKcmF0QU8tVHZIcGFFLTU4R3JndW1TUEx0RFYtRkstYTJPSUF5Rk5VRlRLNElQNmVGbEpiZ1Brd0Z5NFB2VWcwVEdqWnRkVktZWXcybTBvd0poYmN6ZjRCWGlObUtkdFB0UQ?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 시흥시, ‘AI 고용서비스 전담 창구’ 신설… 중장년층 취업 문턱 낮춘다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 산업과 시장을 바꾸는 AI 수익 기회 및 비즈니스 모델 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
