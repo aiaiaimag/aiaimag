@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-02
+ * 최신 업데이트: 2026-04-03
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "‘사람들이 직업을 좋아하지 않는다고?’ Perplexity CEO의 AI 정리해고 발언은 반발을 불러일으킨다.",
-        "enTitle": "‘People don’t like jobs’? Perplexity CEO’s AI layoff comment triggers backlash",
-        "date": "2026-04-02",
-        "originalDate": "2026-04-01",
-        "sourceName": "The Economic Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONzlieUNDbnh6UHYyMTluejdaUFdlZjE1bkp4X3QzcWN2UXprb0lEQ0VEQzd4bkVWZ2tzc0ZOQ1ByZlZOU1lNUmhna2d0LVJGUHdyTnRBcl9Fd2lhZGpuLUljS0k2TEtsU3ZUc0FKNEw5TTJFX3pPT0pCNi02ZHUxVExVcS1qaUJxZk9oSlNyZnUxdko5SVpfTkRPeVpaT1I0aTdhbkhEdXdDcjVPOXYza2xRNjk4MFBkVVdHcHVUN2NxZnpZeE50ZXo3YlUyTC00TXB5Ri1Id0hZY3dKVHVqVDhsUdIB6AFBVV95cUxNZjRKZlpFWXRsTWNtLTFXNjBjbjN4V2hrUFlVYXNsLS15RnAzTzRQSmN6TjR2a0pqNzNNTnc5Z0Q3YjdWbmlqNVprOElpa3l1cnRrWmhNWnVCSzF4bnNUYkxwUUNremxxZjJFVk9ZWXhxS1NNZE1QRUtYdUNrcklBVThQdEdUQkpDRVY3RXVocG80Ull6a2c2eU8xQkt2OTFPc1phSVpDUzFkM0R4MG41SXJaR2JPV2tXczJwdTMzYktvSG0wMHQ2X1ZSR1lUa3ZGcE9zSUI2cS1XS1ZpN19qOGFIMEJJY0R6?oc=5",
+        "koTitle": "인공지능이 더 나은 직업으로 커리어 경로를 바꿀 수 있는 방법",
+        "enTitle": "How AI may reshape career pathways to better jobs",
+        "date": "2026-04-03",
+        "originalDate": "2026-04-02",
+        "sourceName": "Brookings",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSFZBd3R1NHBhaHNDR0ZNTjdLVWp5aU1wSXQzME5vTEgyQ0V1Mmpzc2M1MmdvSjZGcGlQd1pFWmNGZGg0NlREME9BNngyN0pBejRHX2dYOTUxdURmUW9pYm5vOS1ZWG1pWWJzWi0wM2ttNWFDVG1oaVI1dFFYdnVncmwyTU8xZk1XSFAxMGNB?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "글로벌 AI 트렌드 체크! ‘사람들이 직업을 좋아하지 않는다고?’ Perplexity CEO의 AI 정리해고 발언은 반발을 불러일으킨다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 더 나은 직업으로 커리어 경로를 바꿀 수 있는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI로 대체되지 않는 직무는 무엇인가요?",
-        "enTitle": "Which Jobs Won't be Replaced by AI?",
-        "date": "2026-04-02",
-        "originalDate": "2026-04-01",
-        "sourceName": "vocal.media",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5waDNqZVhLel9SVWpEU2N5MDIwMnYxVUFqSndnbjBEN2xxSUh6RzZTLU0wLUNZQUhUQ29jMHllLTFzeWJXSFNWRExmNlROaEdleFppQWFEZFRFVTJGNnM0cVZDek9CQ3FG?oc=5",
+        "koTitle": "인공지능과 일의 미래: 누가 위험에 처해 있으며 누가 번창할 것인가?",
+        "enTitle": "AI and the future of work: who’s at risk and who will thrive?",
+        "date": "2026-04-03",
+        "originalDate": "2026-04-02",
+        "sourceName": "IOL",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ0VhTVNrU2JUQ2c2c0JuVk9zU216Q1cxOXBnZUlBVGdLX3JTUms3Y1gwOGhGQnZibTRwN19DM2ZCeXdOQzBOUXg4Y3doVVFvUE5CS2xzY3A2V3RHd0VUdEl1VVR0alBpQUtORklJZ1ZKem5nakctdjNWcGdENy1DVXZWdmh2ZnhsMUtiRGpDbjdfZUZkSlNnMExSTDdxdjA?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! AI로 대체되지 않는 직무는 무엇인가요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능과 일의 미래: 누가 위험에 처해 있으며 누가 번창할 것인가? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "인공지능, 직업 및 불확실성: 선도적인 전문가가 우리가 기대할 수 있는 것에 중점을 둡니다.",
-        "enTitle": "AI, Jobs, and Uncertainty: A Leading Expert Weighs In on What We Can Expect",
-        "date": "2026-04-02",
+        "koTitle": "LinkedIn CEO, 직무 불확실성 속에서 AI 커리어 가이드 출시",
+        "enTitle": "LinkedIn CEO Launches AI Career Guide Amid Job Uncertainty",
+        "date": "2026-04-03",
         "originalDate": "2026-03-31",
-        "sourceName": "entrepreneurship.babson.edu",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5RV2ZoZmVoWDhqczFRWDMwcTkxZk5pY0VWdnVYQ3hUMkxPbUg2MnFxcWQ4U29HckJJTFJqWldoVW0yMGZHTS1FcF9WTWxoeTY5SUs4Q0hFemFCeklmZklfUEpPMzVuZ1Yx?oc=5",
+        "sourceName": "The Tech Buzz",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOGpMM05NLVhmR3ExYWVFM01fMWh3SXVIY0lXQUlLd2pOd3FvSWk0R3JqVk01dkxJRkVpNW1xREU5TlFXaE8yeE9NLWlPZXRkeFEtSExiOExFN2JVWEZMeGQ0YTZfdFNaenNrSElDeVNyTnJNY2JTUXh4NW12OFpTR1lydGVVWjBocDVVYmJwRUo2M1N4T0E?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능, 직업 및 불확실성: 선도적인 전문가가 우리가 기대할 수 있는 것에 중점을 둡니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! LinkedIn CEO, 직무 불확실성 속에서 AI 커리어 가이드 출시 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "AI 의료·멘탈케어까지…마이데이터 신규 서비스 4종 출시",
-        "enTitle": "AI 의료·멘탈케어까지…마이데이터 신규 서비스 4종 출시",
-        "date": "2026-04-02",
-        "originalDate": "2026-04-01",
-        "sourceName": "전자신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9PNWJsOFZGUUVSNzJvU0lVeXJ1b3AyU090ZG5YTmxnSkpHOFh4bTZBZW95NWV3SHJJRGFYSjlVOERIbUxXaHJnV2QxZm12Zw?oc=5",
+        "koTitle": "마이크로소프트, 코파일럿 유료화 전환…AI 수익화 본격화",
+        "enTitle": "마이크로소프트, 코파일럿 유료화 전환…AI 수익화 본격화",
+        "date": "2026-04-03",
+        "originalDate": "2026-04-02",
+        "sourceName": "ebn.co.kr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mWldSeWxLeGVvSUZXVm1lVnZWYW5YaGJlLXBuRWVKZVZzMW1JNmJVTWF0b1ZvMEhPa3Q5QnRWZFdYMS1Bekx6TVYzUTB6eVhreW9GOWY3UGd3cVAzS0ZtSFBSN2pMWG9Z?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! AI 의료·멘탈케어까지…마이데이터 신규 서비스 4종 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 마이크로소프트, 코파일럿 유료화 전환…AI 수익화 본격화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "차 안으로 들어온 챗GPT…오픈AI, 애플 카플레이 전용 앱 출시",
-        "enTitle": "차 안으로 들어온 챗GPT…오픈AI, 애플 카플레이 전용 앱 출시",
-        "date": "2026-04-02",
-        "originalDate": "2026-04-01",
-        "sourceName": "디지털투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YVF9fTjJJU05TazVZS2VOcy1GbzRPR2xfeTVWVGlva1o2RU5BUll3UGJ4Q3l6T1dqY2JualphTDI5bVgwQWRZZnQ4dlFlWUd1TU9LYXpodXlKZkIzWFA3ODZtSkE4dHdwdU5YV0kzQ1k2NXc?oc=5",
+        "koTitle": "아이디어만으로 서비스 출시...상용화·운영·수익화까지 연결하는 AI 앱 개발 플랫폼",
+        "enTitle": "아이디어만으로 서비스 출시...상용화·운영·수익화까지 연결하는 AI 앱 개발 플랫폼",
+        "date": "2026-04-03",
+        "originalDate": "2026-04-02",
+        "sourceName": "지티티코리아",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15ZnlhTzJhNXpvY2F4WVRhV2ZvelZlYTdYRllOYlVMQ0dFM3JYS3JDeGU1dFdrOE9zY19aOTFFR1J0MEdOSUdJNV9XUXJDMjMtdFE5Szh4MnNISFpjWU5TS05YcXFaaHpvcGc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 차 안으로 들어온 챗GPT…오픈AI, 애플 카플레이 전용 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 아이디어만으로 서비스 출시...상용화·운영·수익화까지 연결하는 AI 앱 개발 플랫폼 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "“AI 시대, 일의 미래는 아직 쓰이지 않았다”...링크드인 로슬란스키 CEO, 커리어 전략서 출간",
-        "enTitle": "“AI 시대, 일의 미래는 아직 쓰이지 않았다”...링크드인 로슬란스키 CEO, 커리어 전략서 출간",
-        "date": "2026-04-02",
-        "originalDate": "2026-04-01",
-        "sourceName": "aitimes.kr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wWGlRcThFakpGaFFXY1hzU19LTXhtWlJ5QVJXb2lFYVk5c3NxR0lNcDJqdFNScGZfQXIxUW5aNEQ3TWlBdE03OXJsUWc1NGt4bHNBZl9QS2cxRjdhRnRLWUstYjVMYTg?oc=5",
+        "koTitle": "세포라, 대화형 AI 서비스 ‘챗GPT’서 앱 출시",
+        "enTitle": "세포라, 대화형 AI 서비스 ‘챗GPT’서 앱 출시",
+        "date": "2026-04-03",
+        "originalDate": "2026-04-02",
+        "sourceName": "약업신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa0pWYjFkZ0MwNTdCV09VbThQWVF1ZEppdGtYRml0TV9mM0pZUDFfU1k2ZEFtbFJRZFBwY2JNLXJwcVdtcVJnSlU0RVp5WHhMMzlsTndzNFVNTzNhdkZ0cXpqSEJfTzVOWjRienBidnFFY2tNVkhJak1TOGpQMWxmT240VU1GSThQcjhmOGxQQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! “AI 시대, 일의 미래는 아직 쓰이지 않았다”...링크드인 로슬란스키 CEO, 커리어 전략서 출간 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 세포라, 대화형 AI 서비스 ‘챗GPT’서 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
