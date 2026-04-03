@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-03
+ * 최신 업데이트: 2026-04-04
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "인공지능이 더 나은 직업으로 커리어 경로를 바꿀 수 있는 방법",
-        "enTitle": "How AI may reshape career pathways to better jobs",
-        "date": "2026-04-03",
-        "originalDate": "2026-04-02",
-        "sourceName": "Brookings",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSFZBd3R1NHBhaHNDR0ZNTjdLVWp5aU1wSXQzME5vTEgyQ0V1Mmpzc2M1MmdvSjZGcGlQd1pFWmNGZGg0NlREME9BNngyN0pBejRHX2dYOTUxdURmUW9pYm5vOS1ZWG1pWWJzWi0wM2ttNWFDVG1oaVI1dFFYdnVncmwyTU8xZk1XSFAxMGNB?oc=5",
+        "koTitle": "경제학자들은 인공지능과 일자리 사이에 더 강력한 연결을 도출하고 있습니다.",
+        "enTitle": "Economists Are Drawing Stronger Connections Between A.I. and Jobs",
+        "date": "2026-04-04",
+        "originalDate": "2026-04-03",
+        "sourceName": "The New York Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaXh2dFhNVHlqNXV6MC11ck8xZHk4b0ZoNTByMXJhdzI1UGdtR25feXkwTU8taVQ1YWFWVXVHYW0wUzNMM1NYRVBsVmpURDdRdm40ZXc2ZjlQZUNUNFFYdkttb2NNclcxS1ZfMFpaYTNhSm8tUWRlaHZibEZwQ1QtYVdqME1HalNBcDU2cFFYd1U3LU1UQ2FtMHRFMDlFdmQxUzluSGl1eTE1QVN2?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 더 나은 직업으로 커리어 경로를 바꿀 수 있는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 경제학자들은 인공지능과 일자리 사이에 더 강력한 연결을 도출하고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "인공지능과 일의 미래: 누가 위험에 처해 있으며 누가 번창할 것인가?",
-        "enTitle": "AI and the future of work: who’s at risk and who will thrive?",
-        "date": "2026-04-03",
-        "originalDate": "2026-04-02",
-        "sourceName": "IOL",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ0VhTVNrU2JUQ2c2c0JuVk9zU216Q1cxOXBnZUlBVGdLX3JTUms3Y1gwOGhGQnZibTRwN19DM2ZCeXdOQzBOUXg4Y3doVVFvUE5CS2xzY3A2V3RHd0VUdEl1VVR0alBpQUtORklJZ1ZKem5nakctdjNWcGdENy1DVXZWdmh2ZnhsMUtiRGpDbjdfZUZkSlNnMExSTDdxdjA?oc=5",
+        "koTitle": "AI는 대체할 수 있는 것보다 더 많은 일자리를 재편할 것입니다.",
+        "enTitle": "AI Will Reshape More Jobs Than It Replaces",
+        "date": "2026-04-04",
+        "originalDate": "2026-04-03",
+        "sourceName": "Boston Consulting Group",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeW56WnUtMU9qZzJrVktDLXJqTXB6eVdHWG0tbG9mb2tHZUpEQ2JfUHJqZW4tMXRxQjVqOWdNbmF5V1V5Qm9TNnZjOEdFTWNWQW44dmMwZzhENDlGODR4YWFYS2Jhd2FsZmN3SXlpMEZqemZPMUFFQTA3eGZnUEE4aWJQMFQwaXM?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능과 일의 미래: 누가 위험에 처해 있으며 누가 번창할 것인가? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! AI는 대체할 수 있는 것보다 더 많은 일자리를 재편할 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "LinkedIn CEO, 직무 불확실성 속에서 AI 커리어 가이드 출시",
-        "enTitle": "LinkedIn CEO Launches AI Career Guide Amid Job Uncertainty",
-        "date": "2026-04-03",
-        "originalDate": "2026-03-31",
-        "sourceName": "The Tech Buzz",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOGpMM05NLVhmR3ExYWVFM01fMWh3SXVIY0lXQUlLd2pOd3FvSWk0R3JqVk01dkxJRkVpNW1xREU5TlFXaE8yeE9NLWlPZXRkeFEtSExiOExFN2JVWEZMeGQ0YTZfdFNaenNrSElDeVNyTnJNY2JTUXh4NW12OFpTR1lydGVVWjBocDVVYmJwRUo2M1N4T0E?oc=5",
+        "koTitle": "AI와 ‘경험 기승’ 으로 인해 졸업생이 일자리를 구하기가 어려워지는 이유",
+        "enTitle": "How AI and ‘experience creep’ are making it harder for new graduates to find jobs",
+        "date": "2026-04-04",
+        "originalDate": "2026-04-03",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1BVjVneEFqd3JGVTZVNE5zM0RmN1MyUmN2VDhWSFBkX2VuT1Jvbjd3VjRQWWVMQng0ZnRDMkM1R09HVUlfYm1mYWxSSjREVFJtWEJSR0RhRm1oSnNsNWJUZ1hxeUpFVGxHbHlxeG0zcHZEdy1Mb2xZ?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! LinkedIn CEO, 직무 불확실성 속에서 AI 커리어 가이드 출시 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! AI와 ‘경험 기승’ 으로 인해 졸업생이 일자리를 구하기가 어려워지는 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "마이크로소프트, 코파일럿 유료화 전환…AI 수익화 본격화",
-        "enTitle": "마이크로소프트, 코파일럿 유료화 전환…AI 수익화 본격화",
-        "date": "2026-04-03",
-        "originalDate": "2026-04-02",
-        "sourceName": "ebn.co.kr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mWldSeWxLeGVvSUZXVm1lVnZWYW5YaGJlLXBuRWVKZVZzMW1JNmJVTWF0b1ZvMEhPa3Q5QnRWZFdYMS1Bekx6TVYzUTB6eVhreW9GOWY3UGd3cVAzS0ZtSFBSN2pMWG9Z?oc=5",
+        "koTitle": "일레븐랩스, AI 음악 생성 앱 ‘일레븐뮤직’ 출시",
+        "enTitle": "일레븐랩스, AI 음악 생성 앱 ‘일레븐뮤직’ 출시",
+        "date": "2026-04-04",
+        "originalDate": "2026-04-03",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qLXl3Q25fcDRLdEdnX0F5MzF3ZXd3ZXM0WF9PTUNhZ19oWFRDOTFvem1sZkp2M1RfWHhZZE16R3p2ZTlkNWpPd1pvZ0VfUjVRMGctSjVtcmZSaE9vdTFRQ3loUVZuUGRUTGc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 마이크로소프트, 코파일럿 유료화 전환…AI 수익화 본격화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 일레븐랩스, AI 음악 생성 앱 ‘일레븐뮤직’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "아이디어만으로 서비스 출시...상용화·운영·수익화까지 연결하는 AI 앱 개발 플랫폼",
-        "enTitle": "아이디어만으로 서비스 출시...상용화·운영·수익화까지 연결하는 AI 앱 개발 플랫폼",
-        "date": "2026-04-03",
-        "originalDate": "2026-04-02",
-        "sourceName": "지티티코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15ZnlhTzJhNXpvY2F4WVRhV2ZvelZlYTdYRllOYlVMQ0dFM3JYS3JDeGU1dFdrOE9zY19aOTFFR1J0MEdOSUdJNV9XUXJDMjMtdFE5Szh4MnNISFpjWU5TS05YcXFaaHpvcGc?oc=5",
+        "koTitle": "씨이랩, AI 추론 운영 강화한 AstraGo2.1 출시… AI 서비스 안정적 운영 지원",
+        "enTitle": "씨이랩, AI 추론 운영 강화한 AstraGo2.1 출시… AI 서비스 안정적 운영 지원",
+        "date": "2026-04-04",
+        "originalDate": "2026-04-03",
+        "sourceName": "FA저널",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yUkhMSkF6UkxGVFFMVGE3U0VPbVJldlh2eWhaQUQ0NEtyZ1lvZUpVLThneXpzVVgxSW5QYlNTblYzZDVfNHBrRXpjVjJZN3lrUXZZSnA5SC1lSllhSWNrR1dvbXVyeGpqTTZR?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 아이디어만으로 서비스 출시...상용화·운영·수익화까지 연결하는 AI 앱 개발 플랫폼 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 씨이랩, AI 추론 운영 강화한 AstraGo2.1 출시… AI 서비스 안정적 운영 지원 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "세포라, 대화형 AI 서비스 ‘챗GPT’서 앱 출시",
-        "enTitle": "세포라, 대화형 AI 서비스 ‘챗GPT’서 앱 출시",
-        "date": "2026-04-03",
-        "originalDate": "2026-04-02",
-        "sourceName": "약업신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa0pWYjFkZ0MwNTdCV09VbThQWVF1ZEppdGtYRml0TV9mM0pZUDFfU1k2ZEFtbFJRZFBwY2JNLXJwcVdtcVJnSlU0RVp5WHhMMzlsTndzNFVNTzNhdkZ0cXpqSEJfTzVOWjRienBidnFFY2tNVkhJak1TOGpQMWxmT240VU1GSThQcjhmOGxQQQ?oc=5",
+        "koTitle": "제미나이 주사용자는 챗GPT에서 온 '이민자'",
+        "enTitle": "제미나이 주사용자는 챗GPT에서 온 '이민자'",
+        "date": "2026-04-04",
+        "originalDate": "2026-04-03",
+        "sourceName": "newstong.co.kr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONVdzaDZjWHVFNm05dTFacnlDXzNVVEhmc2IzT1FtbnZ5TUdDNnVjSGZ2LUdHZlNNUkU0VFhsVzBHejZWVlNpU1pZMXBEVV84bUVHSVhtSGNqY0ptR3BBQ0tCYTBRTGFSeDE1Y0QtNHZRaTl0bWd1SzVCejZseXJKV0pOWExHLUZybUxyNFdrZzZ2dkhaT2tDcGhvNnVyQUNQRWk2Sk9tdktMVFBGaWFtampiUVB2WWpYV1lncg?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 세포라, 대화형 AI 서비스 ‘챗GPT’서 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "96%",
+        "analysis": "2030을 위한 AI 실무 팁! 제미나이 주사용자는 챗GPT에서 온 '이민자' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
