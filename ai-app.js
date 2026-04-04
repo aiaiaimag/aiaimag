@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-04
+ * 최신 업데이트: 2026-04-05
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "경제학자들은 인공지능과 일자리 사이에 더 강력한 연결을 도출하고 있습니다.",
-        "enTitle": "Economists Are Drawing Stronger Connections Between A.I. and Jobs",
-        "date": "2026-04-04",
-        "originalDate": "2026-04-03",
-        "sourceName": "The New York Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaXh2dFhNVHlqNXV6MC11ck8xZHk4b0ZoNTByMXJhdzI1UGdtR25feXkwTU8taVQ1YWFWVXVHYW0wUzNMM1NYRVBsVmpURDdRdm40ZXc2ZjlQZUNUNFFYdkttb2NNclcxS1ZfMFpaYTNhSm8tUWRlaHZibEZwQ1QtYVdqME1HalNBcDU2cFFYd1U3LU1UQ2FtMHRFMDlFdmQxUzluSGl1eTE1QVN2?oc=5",
+        "koTitle": "OpenClaw: 최신 AI 에이전트에 대한 모든 뉴스",
+        "enTitle": "OpenClaw: all the news about the trending AI agent",
+        "date": "2026-04-05",
+        "originalDate": "2026-04-04",
+        "sourceName": "The Verge",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU21qZE10LUlJT1lXNS1MbENLcGVzMWlhTjJMbkRwTVRlWWZyQzkxTWlhZUMwelM2NU5PX1h2MG12Zkxxc281LWFrcDZzRFFQbkh6dENseGZHYXdGUjloVmxSY1ZiYWg3djhnZVRCWEVkWS1kNHZ5VUhHT0pFejBuLURn?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 경제학자들은 인공지능과 일자리 사이에 더 강력한 연결을 도출하고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! OpenClaw: 최신 AI 에이전트에 대한 모든 뉴스 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "월급쟁이, 전문가, 스타트업 및 AI 업무의 미래",
+        "enTitle": "Salarymen, specialists, startups and the AI future of work",
+        "date": "2026-04-05",
+        "originalDate": "2026-04-04",
+        "sourceName": "Asia Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRWdkM0pVb0dPVmFQVUE5ZlBZNllSZHYtSnVVZ3E4b3dNdXpVNXlZRi1TaEY4dDNhNkhnOEdJbmVRU1c1dmtBMmRnNk52c01KVGNXc0xQam92Z3BvbElQMEFkVFcwWXB2WW8xVlZkbkc0SWxFQmdDcVB2b09nNHB5bjFtRDcxZTZMZXRSOXlvcXM?oc=5",
+        "isRepublished": false,
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 월급쟁이, 전문가, 스타트업 및 AI 업무의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "AI는 대체할 수 있는 것보다 더 많은 일자리를 재편할 것입니다.",
         "enTitle": "AI Will Reshape More Jobs Than It Replaces",
-        "date": "2026-04-04",
+        "date": "2026-04-05",
         "originalDate": "2026-04-03",
         "sourceName": "Boston Consulting Group",
         "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeW56WnUtMU9qZzJrVktDLXJqTXB6eVdHWG0tbG9mb2tHZUpEQ2JfUHJqZW4tMXRxQjVqOWdNbmF5V1V5Qm9TNnZjOEdFTWNWQW44dmMwZzhENDlGODR4YWFYS2Jhd2FsZmN3SXlpMEZqemZPMUFFQTA3eGZnUEE4aWJQMFQwaXM?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
+        "viralRate": "93%",
         "analysis": "글로벌 AI 트렌드 체크! AI는 대체할 수 있는 것보다 더 많은 일자리를 재편할 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "AI와 ‘경험 기승’ 으로 인해 졸업생이 일자리를 구하기가 어려워지는 이유",
-        "enTitle": "How AI and ‘experience creep’ are making it harder for new graduates to find jobs",
-        "date": "2026-04-04",
-        "originalDate": "2026-04-03",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1BVjVneEFqd3JGVTZVNE5zM0RmN1MyUmN2VDhWSFBkX2VuT1Jvbjd3VjRQWWVMQng0ZnRDMkM1R09HVUlfYm1mYWxSSjREVFJtWEJSR0RhRm1oSnNsNWJUZ1hxeUpFVGxHbHlxeG0zcHZEdy1Mb2xZ?oc=5",
-        "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! AI와 ‘경험 기승’ 으로 인해 졸업생이 일자리를 구하기가 어려워지는 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "일레븐랩스, AI 음악 생성 앱 ‘일레븐뮤직’ 출시",
-        "enTitle": "일레븐랩스, AI 음악 생성 앱 ‘일레븐뮤직’ 출시",
-        "date": "2026-04-04",
-        "originalDate": "2026-04-03",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qLXl3Q25fcDRLdEdnX0F5MzF3ZXd3ZXM0WF9PTUNhZ19oWFRDOTFvem1sZkp2M1RfWHhZZE16R3p2ZTlkNWpPd1pvZ0VfUjVRMGctSjVtcmZSaE9vdTFRQ3loUVZuUGRUTGc?oc=5",
+        "koTitle": "아르시, 추론 모델 ‘트리니티-라지-싱킹’ 출시...에이전트 성능은 '클로드급'",
+        "enTitle": "아르시, 추론 모델 ‘트리니티-라지-싱킹’ 출시...에이전트 성능은 '클로드급'",
+        "date": "2026-04-05",
+        "originalDate": "2026-04-04",
+        "sourceName": "aitimes.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE56SnZSSmgya0RDLXBSelZQZDhZT0xDVjctYXZJNnNReGFzU1BRQWtqOUk4WVJ1TEVibEZTTUFLV3hlcEZfbUx1RGZiX1JtQV9qYk5DQ241Mmc5NUpZZTNUanRfV29DSEpvX1E?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 일레븐랩스, AI 음악 생성 앱 ‘일레븐뮤직’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 아르시, 추론 모델 ‘트리니티-라지-싱킹’ 출시...에이전트 성능은 '클로드급' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "씨이랩, AI 추론 운영 강화한 AstraGo2.1 출시… AI 서비스 안정적 운영 지원",
-        "enTitle": "씨이랩, AI 추론 운영 강화한 AstraGo2.1 출시… AI 서비스 안정적 운영 지원",
-        "date": "2026-04-04",
-        "originalDate": "2026-04-03",
-        "sourceName": "FA저널",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yUkhMSkF6UkxGVFFMVGE3U0VPbVJldlh2eWhaQUQ0NEtyZ1lvZUpVLThneXpzVVgxSW5QYlNTblYzZDVfNHBrRXpjVjJZN3lrUXZZSnA5SC1lSllhSWNrR1dvbXVyeGpqTTZR?oc=5",
+        "koTitle": "오라클 넷스위트, MCP앱 출시...챗GPT·클로드와 ERP 데이터 연동",
+        "enTitle": "오라클 넷스위트, MCP앱 출시...챗GPT·클로드와 ERP 데이터 연동",
+        "date": "2026-04-05",
+        "originalDate": "2026-04-04",
+        "sourceName": "디지털투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1sZW94M0p6VFZJZG9yUXFOZFQ5R0dsYlh5akxIZ296M1hqaEFmQVFrT1pPU0E0WF8xOW52MWp1Z1dmeUVQYl9MalhGRDlZbFlaSjN0cU1ZVUR6MmVoMVJodl91WjlGZkRNTEt6UFUtOW5zUEU?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 씨이랩, AI 추론 운영 강화한 AstraGo2.1 출시… AI 서비스 안정적 운영 지원 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 오라클 넷스위트, MCP앱 출시...챗GPT·클로드와 ERP 데이터 연동 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "제미나이 주사용자는 챗GPT에서 온 '이민자'",
-        "enTitle": "제미나이 주사용자는 챗GPT에서 온 '이민자'",
-        "date": "2026-04-04",
-        "originalDate": "2026-04-03",
-        "sourceName": "newstong.co.kr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONVdzaDZjWHVFNm05dTFacnlDXzNVVEhmc2IzT1FtbnZ5TUdDNnVjSGZ2LUdHZlNNUkU0VFhsVzBHejZWVlNpU1pZMXBEVV84bUVHSVhtSGNqY0ptR3BBQ0tCYTBRTGFSeDE1Y0QtNHZRaTl0bWd1SzVCejZseXJKV0pOWExHLUZybUxyNFdrZzZ2dkhaT2tDcGhvNnVyQUNQRWk2Sk9tdktMVFBGaWFtampiUVB2WWpYV1lncg?oc=5",
+        "koTitle": "\"시스템 과부하\"…앤트로픽, 클로드서 오픈클로 지원 중단",
+        "enTitle": "\"시스템 과부하\"…앤트로픽, 클로드서 오픈클로 지원 중단",
+        "date": "2026-04-05",
+        "originalDate": "2026-04-04",
+        "sourceName": "지디넷코리아",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zaW9QeWZYVkt0czFnRkw2ODVLLTM4VmpTMHB2QzBBMkNtMW96V3R5LTZaeEp3SUljQkFSU0pBa0pUaENmUUt6bklnSm5NZW55OVhRN093?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! 제미나이 주사용자는 챗GPT에서 온 '이민자' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! \"시스템 과부하\"…앤트로픽, 클로드서 오픈클로 지원 중단 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
