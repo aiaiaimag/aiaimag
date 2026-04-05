@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-05
+ * 최신 업데이트: 2026-04-06
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "OpenClaw: 최신 AI 에이전트에 대한 모든 뉴스",
-        "enTitle": "OpenClaw: all the news about the trending AI agent",
-        "date": "2026-04-05",
-        "originalDate": "2026-04-04",
-        "sourceName": "The Verge",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU21qZE10LUlJT1lXNS1MbENLcGVzMWlhTjJMbkRwTVRlWWZyQzkxTWlhZUMwelM2NU5PX1h2MG12Zkxxc281LWFrcDZzRFFQbkh6dENseGZHYXdGUjloVmxSY1ZiYWg3djhnZVRCWEVkWS1kNHZ5VUhHT0pFejBuLURn?oc=5",
+        "koTitle": "세계에서 가장 유선인 국가 중 하나에서 아날로그 일자리가 다시 돌아옵니다.",
+        "enTitle": "In one of the world’s most wired countries, analog jobs make comeback",
+        "date": "2026-04-06",
+        "originalDate": "2026-04-05",
+        "sourceName": "KED Global",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00ZU5OMGFQMlViVzBlelprNVRIeUpZa2FZU2NSM0QyLUZnYy1qUDRlY1JnY29HN3VSTG1KTlBVMjd3TmZNUkNXMnJUWFpYR09NTmszRlRxOWx6VmYyVTZobmdDSWwwazY1cC1wQUY0aFNTT3UxOGVfODZzNGxMYkU?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! OpenClaw: 최신 AI 에이전트에 대한 모든 뉴스 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 세계에서 가장 유선인 국가 중 하나에서 아날로그 일자리가 다시 돌아옵니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "월급쟁이, 전문가, 스타트업 및 AI 업무의 미래",
-        "enTitle": "Salarymen, specialists, startups and the AI future of work",
-        "date": "2026-04-05",
+        "koTitle": "자동화되지 않는 AI 작업",
+        "enTitle": "AI Jobs That Won’t Be Automated",
+        "date": "2026-04-06",
         "originalDate": "2026-04-04",
-        "sourceName": "Asia Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRWdkM0pVb0dPVmFQVUE5ZlBZNllSZHYtSnVVZ3E4b3dNdXpVNXlZRi1TaEY4dDNhNkhnOEdJbmVRU1c1dmtBMmRnNk52c01KVGNXc0xQam92Z3BvbElQMEFkVFcwWXB2WW8xVlZkbkc0SWxFQmdDcVB2b09nNHB5bjFtRDcxZTZMZXRSOXlvcXM?oc=5",
+        "sourceName": "BBN Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TaDhlQlE0ajRQWkYwa1JUT2J0MmUzYWswaHZ6Z3pOc1FraWR1WmFKdW5Ba0Rwa1pqRlQ1QVF2ODBWUW5qX05EcnExSGhHdWVZUFhyMGJpMklYZUYyXzBGOXRUYzRwWE1NZ0JPNGZ5ZE1VQWZFLXc?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 월급쟁이, 전문가, 스타트업 및 AI 업무의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 자동화되지 않는 AI 작업 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI는 대체할 수 있는 것보다 더 많은 일자리를 재편할 것입니다.",
-        "enTitle": "AI Will Reshape More Jobs Than It Replaces",
-        "date": "2026-04-05",
+        "koTitle": "OpenClaw: 최신 AI 에이전트에 대한 모든 뉴스",
+        "enTitle": "OpenClaw: all the news about the trending AI agent",
+        "date": "2026-04-06",
         "originalDate": "2026-04-03",
-        "sourceName": "Boston Consulting Group",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeW56WnUtMU9qZzJrVktDLXJqTXB6eVdHWG0tbG9mb2tHZUpEQ2JfUHJqZW4tMXRxQjVqOWdNbmF5V1V5Qm9TNnZjOEdFTWNWQW44dmMwZzhENDlGODR4YWFYS2Jhd2FsZmN3SXlpMEZqemZPMUFFQTA3eGZnUEE4aWJQMFQwaXM?oc=5",
+        "sourceName": "The Verge",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU21qZE10LUlJT1lXNS1MbENLcGVzMWlhTjJMbkRwTVRlWWZyQzkxTWlhZUMwelM2NU5PX1h2MG12Zkxxc281LWFrcDZzRFFQbkh6dENseGZHYXdGUjloVmxSY1ZiYWg3djhnZVRCWEVkWS1kNHZ5VUhHT0pFejBuLURn?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! AI는 대체할 수 있는 것보다 더 많은 일자리를 재편할 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! OpenClaw: 최신 AI 에이전트에 대한 모든 뉴스 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "아르시, 추론 모델 ‘트리니티-라지-싱킹’ 출시...에이전트 성능은 '클로드급'",
-        "enTitle": "아르시, 추론 모델 ‘트리니티-라지-싱킹’ 출시...에이전트 성능은 '클로드급'",
-        "date": "2026-04-05",
-        "originalDate": "2026-04-04",
-        "sourceName": "aitimes.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE56SnZSSmgya0RDLXBSelZQZDhZT0xDVjctYXZJNnNReGFzU1BRQWtqOUk4WVJ1TEVibEZTTUFLV3hlcEZfbUx1RGZiX1JtQV9qYk5DQ241Mmc5NUpZZTNUanRfV29DSEpvX1E?oc=5",
+        "koTitle": "[DBR/알립니다]생산성 넘어 수익화까지, ‘비즈니스 AI 멤버십’ 회원 모집",
+        "enTitle": "[DBR/알립니다]생산성 넘어 수익화까지, ‘비즈니스 AI 멤버십’ 회원 모집",
+        "date": "2026-04-06",
+        "originalDate": "2026-04-05",
+        "sourceName": "동아일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5YSmFwZ0xkUmFRZ1hyUU1SQWJSNjJwQ0tMbGx6UVdpTmZnejh6TUI3eWdMMHBFcE81YnNEZWl3WEtNYmNqVE1Oa05NX1BuYUpnaV8xMDdfVXRWM2NPX3VWa2tfdWRMS1FHeF9BSlRmeEFWcjBGeWfSAWZBVV95cUxPRnA5N3JrMHc2S2RpNW1weWJGX1dKcGdLdk96MGw4eGU5Q2JReTN4T3FpMTJLSDR4cm9ZVGJGVEk1a29WZmMzanl3RHVpTWVuOU5WZVcyeFphYUsxWll2a3lvU2ZoWnc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 아르시, 추론 모델 ‘트리니티-라지-싱킹’ 출시...에이전트 성능은 '클로드급' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [DBR/알립니다]생산성 넘어 수익화까지, ‘비즈니스 AI 멤버십’ 회원 모집 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "오라클 넷스위트, MCP앱 출시...챗GPT·클로드와 ERP 데이터 연동",
-        "enTitle": "오라클 넷스위트, MCP앱 출시...챗GPT·클로드와 ERP 데이터 연동",
-        "date": "2026-04-05",
-        "originalDate": "2026-04-04",
-        "sourceName": "디지털투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1sZW94M0p6VFZJZG9yUXFOZFQ5R0dsYlh5akxIZ296M1hqaEFmQVFrT1pPU0E0WF8xOW52MWp1Z1dmeUVQYl9MalhGRDlZbFlaSjN0cU1ZVUR6MmVoMVJodl91WjlGZkRNTEt6UFUtOW5zUEU?oc=5",
+        "koTitle": "“AI 배우고 취업까지”…이어드림스쿨, 올해 전국 5개 권역으로 확대 300명 모집",
+        "enTitle": "“AI 배우고 취업까지”…이어드림스쿨, 올해 전국 5개 권역으로 확대 300명 모집",
+        "date": "2026-04-06",
+        "originalDate": "2026-04-05",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZZmVFdVBxNUpiMHZYcm44QXhWUU9SLXBMam50TWYtNHdlcng1ZUhUcFVTT3ZtczBzZWczTmx4NUlGODFHd1ZGelVrMzZKaWM?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 오라클 넷스위트, MCP앱 출시...챗GPT·클로드와 ERP 데이터 연동 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! “AI 배우고 취업까지”…이어드림스쿨, 올해 전국 5개 권역으로 확대 300명 모집 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "\"시스템 과부하\"…앤트로픽, 클로드서 오픈클로 지원 중단",
-        "enTitle": "\"시스템 과부하\"…앤트로픽, 클로드서 오픈클로 지원 중단",
-        "date": "2026-04-05",
-        "originalDate": "2026-04-04",
-        "sourceName": "지디넷코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zaW9QeWZYVkt0czFnRkw2ODVLLTM4VmpTMHB2QzBBMkNtMW96V3R5LTZaeEp3SUljQkFSU0pBa0pUaENmUUt6bklnSm5NZW55OVhRN093?oc=5",
+        "koTitle": "암호화폐 업계의 AI 자동화 열풍 속에 앤트로픽, 클로드 에이전트 접근 권한 제한",
+        "enTitle": "암호화폐 업계의 AI 자동화 열풍 속에 앤트로픽, 클로드 에이전트 접근 권한 제한",
+        "date": "2026-04-06",
+        "originalDate": "2026-04-05",
+        "sourceName": "Bitcoin.com News",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWllJSFpIVEhncGNuSUJaN1ZZRWtSSzJ0REZaRngtbnBaTEhNUUZYMy01RlZVZUh2bFlPZVBURF8zd3g1Q1JoSmU0RXlsOTd2TWhUZmg5RDdsY2NyODNrblhQRzdJYl80REUtaUp5dHBsNW1PUmhkeFVibzRXUy1yakJrcmRucGVBd0Y4TUswYTdyQ28taTRGSFRqUko2ZEc2bWFzN2p2bmhtOE1pVDFfa2d4MFVfNGtPVU5QaHVnYVVRWTR6aXhBNHlTc2dGVVRUSnJXZ0NB?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! \"시스템 과부하\"…앤트로픽, 클로드서 오픈클로 지원 중단 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "96%",
+        "analysis": "2030을 위한 AI 실무 팁! 암호화폐 업계의 AI 자동화 열풍 속에 앤트로픽, 클로드 에이전트 접근 권한 제한 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
