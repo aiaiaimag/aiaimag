@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-06
+ * 최신 업데이트: 2026-04-07
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "세계에서 가장 유선인 국가 중 하나에서 아날로그 일자리가 다시 돌아옵니다.",
-        "enTitle": "In one of the world’s most wired countries, analog jobs make comeback",
-        "date": "2026-04-06",
-        "originalDate": "2026-04-05",
-        "sourceName": "KED Global",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00ZU5OMGFQMlViVzBlelprNVRIeUpZa2FZU2NSM0QyLUZnYy1qUDRlY1JnY29HN3VSTG1KTlBVMjd3TmZNUkNXMnJUWFpYR09NTmszRlRxOWx6VmYyVTZobmdDSWwwazY1cC1wQUY0aFNTT3UxOGVfODZzNGxMYkU?oc=5",
+        "koTitle": "Pearson CEO: AI 직무 종말은 실리콘 밸리 이야기입니다. 데이터가 다른 것을 알려줍니다",
+        "enTitle": "Pearson CEO: the AI job apocalypse is a Silicon Valley story. The data tells a different one",
+        "date": "2026-04-07",
+        "originalDate": "2026-04-06",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVnpBNUtOUHgtcVUwcnZlcm1fUWtoNURfVzJHZUhQNUVFRUVFN3dyc3doQTNHRUpDTENuVTFiLUo4N2JPcnE2clhyWU9Xa2Q2MEZweFhJZU5aR2lIaU1RVVgxSllVNWtWeVNMQk5sNF9ITUE0T0ttS19EQnV6NFVMdVRfUkphWEZQWVMw?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 세계에서 가장 유선인 국가 중 하나에서 아날로그 일자리가 다시 돌아옵니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! Pearson CEO: AI 직무 종말은 실리콘 밸리 이야기입니다. 데이터가 다른 것을 알려줍니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "자동화되지 않는 AI 작업",
-        "enTitle": "AI Jobs That Won’t Be Automated",
-        "date": "2026-04-06",
-        "originalDate": "2026-04-04",
-        "sourceName": "BBN Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TaDhlQlE0ajRQWkYwa1JUT2J0MmUzYWswaHZ6Z3pOc1FraWR1WmFKdW5Ba0Rwa1pqRlQ1QVF2ODBWUW5qX05EcnExSGhHdWVZUFhyMGJpMklYZUYyXzBGOXRUYzRwWE1NZ0JPNGZ5ZE1VQWZFLXc?oc=5",
+        "koTitle": "AI는 수백만 달러를 '직업적 정체성 연옥' 으로 보내려고 합니다. '30년 경력이 중단된 후 발견한 것은 다음과 같습니다.",
+        "enTitle": "AI is about to send millions to 'professional identity purgatory.' Here's what I discovered after my 30 year career crashed to a halt",
+        "date": "2026-04-07",
+        "originalDate": "2026-04-06",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LNFpacVZGa3U4UGxfWlV4OWZ3RTNMM1RVYWdMYk5UdnJQeUZSdjJQZTVzUkRtV3ZuZ3hjZjNzeEo4WUQ5RVhPVURHS1VHVFpZWHp5TEhHeUVzbnA0SW1qWG8tSkRkNUQ1T3pXc0ZwQ2cxZXo4dk5WdExnY01QbUU?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 자동화되지 않는 AI 작업 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! AI는 수백만 달러를 '직업적 정체성 연옥' 으로 보내려고 합니다. '30년 경력이 중단된 후 발견한 것은 다음과 같습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "OpenClaw: 최신 AI 에이전트에 대한 모든 뉴스",
-        "enTitle": "OpenClaw: all the news about the trending AI agent",
-        "date": "2026-04-06",
-        "originalDate": "2026-04-03",
-        "sourceName": "The Verge",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU21qZE10LUlJT1lXNS1MbENLcGVzMWlhTjJMbkRwTVRlWWZyQzkxTWlhZUMwelM2NU5PX1h2MG12Zkxxc281LWFrcDZzRFFQbkh6dENseGZHYXdGUjloVmxSY1ZiYWg3djhnZVRCWEVkWS1kNHZ5VUhHT0pFejBuLURn?oc=5",
+        "koTitle": "Epsilon India가 AI, 액세스 및 선택을 통해 커리어를 구축하는 방법",
+        "enTitle": "How Epsilon India is building careers through AI, access, and choice",
+        "date": "2026-04-07",
+        "originalDate": "2026-04-06",
+        "sourceName": "The Economic Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPT2VXQU5IbkFOV3ZxcW5qUU15aWc1N05kbDV6QWJGUGdUYWVsRmljWHI4cmxrYU9rRGdrcUlTV21NMFFWWlBCUTY4ZXVzdGRmeEhWbWtWZldhMWRiSjNaS3hkVTc5Qjl2YkdLV0Jxa0tReFJTWDhCS0lwYmp4bVd0Slg2dkhTdlN5NzNBWmx4MmV3SVI0bnd1OTJFV0dCSlNMYzJBTTZfQ0p6RnVFWUJESURpMy0zWHdXY1M5TURPX1JHVHpwRXNMYXgzN1ZFWnJSQjBBT1JxaGVTUdIB3wFBVV95cUxOeGtON3JoNG12WXN1RTJwbklSZ0VQRk1qVHhhbjdNSFo0Z0M2WjFPc2x1bFgybWpnVWc2SHdrUkRFV1pkNk1EcUZuSnAtQy02cnpZU1VDN1NhOExJTVI0Uk8xQ0dxRWllTFBmdkpBZDR5YVZ3XzlJWmowRjJRR1RNNnEwQWswMkdENGEzc0MyQUdfcl9qTDMzLTVSNUtmQVNuTVBWZW9LQnd5eEZieXhxX0dOWjJYa2FPQzk2RDhfQnVKNkctZ1cxOGd0VjBiSndqWTVmZmgzNUM0SUR2eFJ3?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! OpenClaw: 최신 AI 에이전트에 대한 모든 뉴스 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! Epsilon India가 AI, 액세스 및 선택을 통해 커리어를 구축하는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[DBR/알립니다]생산성 넘어 수익화까지, ‘비즈니스 AI 멤버십’ 회원 모집",
-        "enTitle": "[DBR/알립니다]생산성 넘어 수익화까지, ‘비즈니스 AI 멤버십’ 회원 모집",
-        "date": "2026-04-06",
-        "originalDate": "2026-04-05",
-        "sourceName": "동아일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5YSmFwZ0xkUmFRZ1hyUU1SQWJSNjJwQ0tMbGx6UVdpTmZnejh6TUI3eWdMMHBFcE81YnNEZWl3WEtNYmNqVE1Oa05NX1BuYUpnaV8xMDdfVXRWM2NPX3VWa2tfdWRMS1FHeF9BSlRmeEFWcjBGeWfSAWZBVV95cUxPRnA5N3JrMHc2S2RpNW1weWJGX1dKcGdLdk96MGw4eGU5Q2JReTN4T3FpMTJLSDR4cm9ZVGJGVEk1a29WZmMzanl3RHVpTWVuOU5WZVcyeFphYUsxWll2a3lvU2ZoWnc?oc=5",
+        "koTitle": "구글, iOS용 오프라인 AI 받아쓰기 앱 조용히 출시",
+        "enTitle": "구글, iOS용 오프라인 AI 받아쓰기 앱 조용히 출시",
+        "date": "2026-04-07",
+        "originalDate": "2026-04-06",
+        "sourceName": "디지털투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1LdWQ5UmRjZlphTU1Ua3ZSaFFfeTMyM1Y1SHNzUGJZSnFUbml0MWpMM1A4QV93dzl0aDl2MEhrS2ZYM09EOVhGY3ViUXlxbjQzYVNqa3JsR280a2J3OWkyR0QyQnN0UVpMMXlQSEd2STdseGM?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [DBR/알립니다]생산성 넘어 수익화까지, ‘비즈니스 AI 멤버십’ 회원 모집 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 구글, iOS용 오프라인 AI 받아쓰기 앱 조용히 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "“AI 배우고 취업까지”…이어드림스쿨, 올해 전국 5개 권역으로 확대 300명 모집",
-        "enTitle": "“AI 배우고 취업까지”…이어드림스쿨, 올해 전국 5개 권역으로 확대 300명 모집",
-        "date": "2026-04-06",
-        "originalDate": "2026-04-05",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZZmVFdVBxNUpiMHZYcm44QXhWUU9SLXBMam50TWYtNHdlcng1ZUhUcFVTT3ZtczBzZWczTmx4NUlGODFHd1ZGelVrMzZKaWM?oc=5",
+        "koTitle": "클로드 무료 외부 접근 종료...오픈클로 등 서드파티 앱 사용자 유료 전환",
+        "enTitle": "클로드 무료 외부 접근 종료...오픈클로 등 서드파티 앱 사용자 유료 전환",
+        "date": "2026-04-07",
+        "originalDate": "2026-04-06",
+        "sourceName": "헬로티",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55dHp4RUdqdzBCczAyNjluN2RxMm9zRGl2U1ZwWjBrWWFfYkw0QjdKYkZCb3NwbmJCcGJpOEp1ZUdzV0VWcFl4S3VJTkZ0V1ZSdXN0aG84XzJIRnVtcTVz?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! “AI 배우고 취업까지”…이어드림스쿨, 올해 전국 5개 권역으로 확대 300명 모집 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 클로드 무료 외부 접근 종료...오픈클로 등 서드파티 앱 사용자 유료 전환 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "암호화폐 업계의 AI 자동화 열풍 속에 앤트로픽, 클로드 에이전트 접근 권한 제한",
-        "enTitle": "암호화폐 업계의 AI 자동화 열풍 속에 앤트로픽, 클로드 에이전트 접근 권한 제한",
-        "date": "2026-04-06",
-        "originalDate": "2026-04-05",
-        "sourceName": "Bitcoin.com News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWllJSFpIVEhncGNuSUJaN1ZZRWtSSzJ0REZaRngtbnBaTEhNUUZYMy01RlZVZUh2bFlPZVBURF8zd3g1Q1JoSmU0RXlsOTd2TWhUZmg5RDdsY2NyODNrblhQRzdJYl80REUtaUp5dHBsNW1PUmhkeFVibzRXUy1yakJrcmRucGVBd0Y4TUswYTdyQ28taTRGSFRqUko2ZEc2bWFzN2p2bmhtOE1pVDFfa2d4MFVfNGtPVU5QaHVnYVVRWTR6aXhBNHlTc2dGVVRUSnJXZ0NB?oc=5",
+        "koTitle": "구글, 오프라인에서도 작동하는 AI 음성-택스트 변환 앱 출시",
+        "enTitle": "구글, 오프라인에서도 작동하는 AI 음성-택스트 변환 앱 출시",
+        "date": "2026-04-07",
+        "originalDate": "2026-04-06",
+        "sourceName": "네이트",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1pZi1mM09iWS04MmtLaVl5OTRVeEl1LUlra2I4dTN0X2VGcVh4WGdjVEJhR2NjYXVhTDRNXzRuNjdDTWpCc0Z4WXlOWVVlaEdodi1V?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! 암호화폐 업계의 AI 자동화 열풍 속에 앤트로픽, 클로드 에이전트 접근 권한 제한 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 구글, 오프라인에서도 작동하는 AI 음성-택스트 변환 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
