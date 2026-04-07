@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-07
+ * 최신 업데이트: 2026-04-08
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Pearson CEO: AI 직무 종말은 실리콘 밸리 이야기입니다. 데이터가 다른 것을 알려줍니다",
-        "enTitle": "Pearson CEO: the AI job apocalypse is a Silicon Valley story. The data tells a different one",
-        "date": "2026-04-07",
-        "originalDate": "2026-04-06",
+        "koTitle": "Anthropic의 연구에 따르면 인공 지능은 이미 많은 직업에서 큰 부분을 차지할 수 있습니다. 최고의 경제학자는 그것이 어떻게 미래의 직업을 형성 할 수 있는지에 대해 이야기합니다.",
+        "enTitle": "Anthropic's research shows that AI can already do a huge portion of many jobs; its top economist talks about how that could shape the future of work",
+        "date": "2026-04-08",
+        "originalDate": "2026-04-07",
         "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVnpBNUtOUHgtcVUwcnZlcm1fUWtoNURfVzJHZUhQNUVFRUVFN3dyc3doQTNHRUpDTENuVTFiLUo4N2JPcnE2clhyWU9Xa2Q2MEZweFhJZU5aR2lIaU1RVVgxSllVNWtWeVNMQk5sNF9ITUE0T0ttS19EQnV6NFVMdVRfUkphWEZQWVMw?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaWU5WENmZExYUjBZZnFSQUtwZEhTZ21WSHhfWWM0R1VHbTRoa3k0eV9VZlExM2N3M0hpZm1temQ0Z2Fwc2ZLUkdyT2Y0MUpsQlU4N3M2cVQ5Z2NkM0lkZXJEdmNhekZWdVFsQVV0cXh3ZWFUR2hPX2M0MDFXeG1YT0xKcW1zMFVidGxGeXNnaHAxdWRaY2NuVWEwLVc4eWhiMVMzVC1uMA?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! Pearson CEO: AI 직무 종말은 실리콘 밸리 이야기입니다. 데이터가 다른 것을 알려줍니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! Anthropic의 연구에 따르면 인공 지능은 이미 많은 직업에서 큰 부분을 차지할 수 있습니다. 최고의 경제학자는 그것이 어떻게 미래의 직업을 형성 할 수 있는지에 대해 이야기합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI는 수백만 달러를 '직업적 정체성 연옥' 으로 보내려고 합니다. '30년 경력이 중단된 후 발견한 것은 다음과 같습니다.",
-        "enTitle": "AI is about to send millions to 'professional identity purgatory.' Here's what I discovered after my 30 year career crashed to a halt",
-        "date": "2026-04-07",
-        "originalDate": "2026-04-06",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LNFpacVZGa3U4UGxfWlV4OWZ3RTNMM1RVYWdMYk5UdnJQeUZSdjJQZTVzUkRtV3ZuZ3hjZjNzeEo4WUQ5RVhPVURHS1VHVFpZWHp5TEhHeUVzbnA0SW1qWG8tSkRkNUQ1T3pXc0ZwQ2cxZXo4dk5WdExnY01QbUU?oc=5",
+        "koTitle": "AI 고용 시장 영향 2026: AI가 일자리를 죽일 수는 없지만 고용을 늦출 수 있다고 새로운 보고서가 말합니다.",
+        "enTitle": "AI job market impact 2026: AI may not kill jobs, but it could slow hiring, says new report",
+        "date": "2026-04-08",
+        "originalDate": "2026-04-07",
+        "sourceName": "dqindia.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVHprdVVETG04M0VvYWM2UGVOaUtPU3p1dkdkc2ppWVB3MUY3b1ZPMVZiVDRQNnVvaUZrSDdkSXQtUXdhNGZPREVRUmE3M0x0U0NCMlBDU0VsRmxUUWRWaF93REpHZmRSdmZHaE90NGlHcUdYVEFnWlZUd1FfRWZKNGR5T1NTOVg3QUU1SkF4M2tnSHI1cE9UYllNeGdkc3pmWnlwM0xXNTdHZHViaTkyeWtkektuTzNJRjVDSmtSOUJtWm_SAcMBQVVfeXFMTVR6a3VVRExtODNFb2FjNlBlTmlLT1N6dXZHZHNqaVlQdzFGN29WTzFWYlQ0UDZ1b2lGa0g3ZEl0LVF3YTRmT0RFUVJhNzNMdFNDQjJQQ1NFbEZsVFFkVmhfd0RKR2ZkUnZmR2hPdDRpR3FHWFRBZ1pWVHdRX0VmSjRkeU9TUzlYN0FFNUpBeDNrZ0hyNXBPVGJZTXhnZHN6Zlp5cDNMVzU3R2R1Ymk5MnlrZHpLbk8zSUY1Q0prUjlCbVpv?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! AI는 수백만 달러를 '직업적 정체성 연옥' 으로 보내려고 합니다. '30년 경력이 중단된 후 발견한 것은 다음과 같습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 고용 시장 영향 2026: AI가 일자리를 죽일 수는 없지만 고용을 늦출 수 있다고 새로운 보고서가 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "Epsilon India가 AI, 액세스 및 선택을 통해 커리어를 구축하는 방법",
-        "enTitle": "How Epsilon India is building careers through AI, access, and choice",
-        "date": "2026-04-07",
-        "originalDate": "2026-04-06",
-        "sourceName": "The Economic Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPT2VXQU5IbkFOV3ZxcW5qUU15aWc1N05kbDV6QWJGUGdUYWVsRmljWHI4cmxrYU9rRGdrcUlTV21NMFFWWlBCUTY4ZXVzdGRmeEhWbWtWZldhMWRiSjNaS3hkVTc5Qjl2YkdLV0Jxa0tReFJTWDhCS0lwYmp4bVd0Slg2dkhTdlN5NzNBWmx4MmV3SVI0bnd1OTJFV0dCSlNMYzJBTTZfQ0p6RnVFWUJESURpMy0zWHdXY1M5TURPX1JHVHpwRXNMYXgzN1ZFWnJSQjBBT1JxaGVTUdIB3wFBVV95cUxOeGtON3JoNG12WXN1RTJwbklSZ0VQRk1qVHhhbjdNSFo0Z0M2WjFPc2x1bFgybWpnVWc2SHdrUkRFV1pkNk1EcUZuSnAtQy02cnpZU1VDN1NhOExJTVI0Uk8xQ0dxRWllTFBmdkpBZDR5YVZ3XzlJWmowRjJRR1RNNnEwQWswMkdENGEzc0MyQUdfcl9qTDMzLTVSNUtmQVNuTVBWZW9LQnd5eEZieXhxX0dOWjJYa2FPQzk2RDhfQnVKNkctZ1cxOGd0VjBiSndqWTVmZmgzNUM0SUR2eFJ3?oc=5",
+        "koTitle": "AI 직무 교체에 대한 두려움: AI가 새로운 업무를 창출하는 이유",
+        "enTitle": "AI Job Replacement Fear: Why AI Creates New Work",
+        "date": "2026-04-08",
+        "originalDate": "2026-04-07",
+        "sourceName": "Pakistan Today",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNm5uWlRUOU04N1h2X3hqNGlQMFlXUEQ2bjBKWVpGcVFucUNyeGFpcEd4YXgxOHJKeVA3TzMwM1BGQk5KNWdMM0EydG9hdW9mZ2oyMlp5NDhSMWZDc2FWYjZUM1YxMFl2NWpkSTlEazhvcEpHSnpORnA4M2VvS1Z1T0JaVXFtWGI1THRVbkxIUjRuQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! Epsilon India가 AI, 액세스 및 선택을 통해 커리어를 구축하는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 직무 교체에 대한 두려움: AI가 새로운 업무를 창출하는 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "구글, iOS용 오프라인 AI 받아쓰기 앱 조용히 출시",
-        "enTitle": "구글, iOS용 오프라인 AI 받아쓰기 앱 조용히 출시",
-        "date": "2026-04-07",
-        "originalDate": "2026-04-06",
-        "sourceName": "디지털투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1LdWQ5UmRjZlphTU1Ua3ZSaFFfeTMyM1Y1SHNzUGJZSnFUbml0MWpMM1A4QV93dzl0aDl2MEhrS2ZYM09EOVhGY3ViUXlxbjQzYVNqa3JsR280a2J3OWkyR0QyQnN0UVpMMXlQSEd2STdseGM?oc=5",
+        "koTitle": "김연아의 일상이 제미나이를 만나면? 웃음 터지는 스마트 갓생 기록, 캠페인 숏폼 시리즈 공개!",
+        "enTitle": "김연아의 일상이 제미나이를 만나면? 웃음 터지는 스마트 갓생 기록, 캠페인 숏폼 시리즈 공개!",
+        "date": "2026-04-08",
+        "originalDate": "2026-04-07",
+        "sourceName": "blog.google",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ1RCNV84dUdvMWNvbnJ3UW9sdTh4MnlkSFZfZ1BXNGFpR2pIT2hCWTlzVUp5MUZwY1U3MFBfRGtXb2hNbGFXN0FicGJDa1hIeFVLdDdUeFlIUy1nSlVqeHltTDgtQ2daQmkwd2dKbTF0cE5QWm4zOHo1V213R21xY1JmUTQ3Vjh5U2tSbk93?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글, iOS용 오프라인 AI 받아쓰기 앱 조용히 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 김연아의 일상이 제미나이를 만나면? 웃음 터지는 스마트 갓생 기록, 캠페인 숏폼 시리즈 공개! 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "클로드 무료 외부 접근 종료...오픈클로 등 서드파티 앱 사용자 유료 전환",
-        "enTitle": "클로드 무료 외부 접근 종료...오픈클로 등 서드파티 앱 사용자 유료 전환",
-        "date": "2026-04-07",
-        "originalDate": "2026-04-06",
-        "sourceName": "헬로티",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55dHp4RUdqdzBCczAyNjluN2RxMm9zRGl2U1ZwWjBrWWFfYkw0QjdKYkZCb3NwbmJCcGJpOEp1ZUdzV0VWcFl4S3VJTkZ0V1ZSdXN0aG84XzJIRnVtcTVz?oc=5",
+        "koTitle": "앤트로픽, 역대 최강 '클로드 미소스' 공개...\"일반 출시는 없어\"",
+        "enTitle": "앤트로픽, 역대 최강 '클로드 미소스' 공개...\"일반 출시는 없어\"",
+        "date": "2026-04-08",
+        "originalDate": "2026-04-07",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52bUtBS0tHYVNZTEI3VThVMGc5LVlJNVV3THZwQW5EOHM2NmY1M245MUx4aU96VDR0UjdiamlBRThyc3JsSGNtMVJua0RKOXZoWU8zd3dCRmRRNUtCakpEaExScGFmcEZUZWc?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 클로드 무료 외부 접근 종료...오픈클로 등 서드파티 앱 사용자 유료 전환 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 역대 최강 '클로드 미소스' 공개...\"일반 출시는 없어\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "구글, 오프라인에서도 작동하는 AI 음성-택스트 변환 앱 출시",
-        "enTitle": "구글, 오프라인에서도 작동하는 AI 음성-택스트 변환 앱 출시",
-        "date": "2026-04-07",
-        "originalDate": "2026-04-06",
-        "sourceName": "네이트",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1pZi1mM09iWS04MmtLaVl5OTRVeEl1LUlra2I4dTN0X2VGcVh4WGdjVEJhR2NjYXVhTDRNXzRuNjdDTWpCc0Z4WXlOWVVlaEdodi1V?oc=5",
+        "koTitle": "구글, 스마트폰에서 다운받아 쓰는 음성 인식 AI 앱 출시",
+        "enTitle": "구글, 스마트폰에서 다운받아 쓰는 음성 인식 AI 앱 출시",
+        "date": "2026-04-08",
+        "originalDate": "2026-04-07",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUX1pkZUZTcUdROUcta2UxQ2ZKSFVvSE5QdDRKTmZPbVVpbUsydnBBQXRIMWMtdVZNWmhVUENFSjIxTGlaanJDVlNNckFxOGgyMEkzNURRSkxReEJlYW9EVFZFakFyY0xVX3c?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글, 오프라인에서도 작동하는 AI 음성-택스트 변환 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 구글, 스마트폰에서 다운받아 쓰는 음성 인식 AI 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
