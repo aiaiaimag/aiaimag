@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-10
+ * 최신 업데이트: 2026-04-11
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Google MD는 업무 중단 내러티브를 거부하지만 AI 교육 필수",
-        "enTitle": "Google MD Rejects Job Disruption Narrative but Says AI Training Essential",
-        "date": "2026-04-10",
-        "originalDate": "2026-04-09",
-        "sourceName": "UC Today",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd0oyVlROSnloS240VFVpT1k4M3pFdTJlbk5NVklHTnFiMGoyNUwzVWZjOFgxQ1RiZkc4TVZGX2xZcWROV1dDRkpJenlHN3FHVmFMQXJTTTF2OTJBSG92a0YzU0ZtdVA5S284QWVuRUg2QzJNTmJhXzhGT1ZlNmlIT2ZjMDlWNkVXZFJCU1V3ZjQ2cHl5Nm5vQXZjWG1ZbjJxRk1NMjNwd3ZmQ0l2VS1YZHFGeGxBazVlZllj?oc=5",
+        "koTitle": "DOGE에서 AI로: 미래 고용을 위한 도구로 여겨지는 DC 지역의 새로 만들어진 일자리 위원회",
+        "enTitle": "From DOGE to AI: DC region’s newly created jobs board seen as tool for future employment",
+        "date": "2026-04-11",
+        "originalDate": "2026-04-10",
+        "sourceName": "WTOP",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZzdrYjN0UldVZUUzU25pSmJqQUNRQjNkdFRkcjRoT1BnSldIVFY2VmE1b1k0dzBkeDZhTGVHU3U5YkMtYVJIZ24zMTd1c2FhbEQ0NmE4VXdLWmw2RDc5VUtqQzNXYlBDTXpuTUxTM0YyaGxJRTA4WVp0UjVRcjdlMU9jRDRUYWNLUHBobWVxZVRXaWFtZXRVYmU3bGowTWE4VVI5SnZKOUJ5NzlMMnJCMHpqeEYzQTktY3c?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! Google MD는 업무 중단 내러티브를 거부하지만 AI 교육 필수 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! DOGE에서 AI로: 미래 고용을 위한 도구로 여겨지는 DC 지역의 새로 만들어진 일자리 위원회 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "Goldman Sachs는 AI 기반 일자리 손실이 장기적인 재정적 어려움을 유발할 수 있다고 경고합니다.",
-        "enTitle": "AI-Driven Job Losses May Trigger Long-Term Financial Setbacks, Goldman Sachs Warns",
-        "date": "2026-04-10",
-        "originalDate": "2026-04-09",
-        "sourceName": "BW People",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS3NvLS1JTWI0LS1Hd2s5ckpvcUcyQjcwRWxLUEpMTUJ0c3pCSGdFZmF2T0FONWdiM0s0YU1DeFBJOVlUbTRoZnNYYnhFamp4LWkzVWI4dWNDZWRsV1hZRFFlaU1mcXFhbV9GaGpWS2l4enhYZXdTYlNSWXR5a3M5SUh5Zzhoam5iUHFHalVBSTlaeGUzRV9CVkpxdUlYSXQ2amxickYtdjBwQ3BKOWdHTTZpYzhyMTFCYXo2Sw?oc=5",
+        "koTitle": "2026년 AI의 미래: 일자리 교체 대신 일자리 재편",
+        "enTitle": "The AI Future of Work in 2026: Reshaping Jobs Instead of Replacing Them",
+        "date": "2026-04-11",
+        "originalDate": "2026-04-10",
+        "sourceName": "vocal.media",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYWJSYWdIRXQ3bkp4QTBqUFFOcy1RbWFNLTZNYWtEVkl3SkpBSjR6UWV0b0QyMm1UOHBXdWM2TkpVSVZlSTJaZTNsNWV3RHYwWjd3cGJKcUVLN1A4Rlg1ekt0WmNWa2hpenNhR0NvZ3NlaWs3a0JORmNhQllvWXNRVnBaM2xDU0w2LVUyNjNtT1gtVjljT0JpX0NZZTFmczVH?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! Goldman Sachs는 AI 기반 일자리 손실이 장기적인 재정적 어려움을 유발할 수 있다고 경고합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 2026년 AI의 미래: 일자리 교체 대신 일자리 재편 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "인공지능 시대에 가장 위험한 직업은 무엇일까요?",
-        "enTitle": "Which Jobs Are Most at Risk in the Age of AI?",
-        "date": "2026-04-10",
-        "originalDate": "2026-04-08",
-        "sourceName": "Inside Higher Ed",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNGpDS3VFb3NfeHBtanp3cnNSNmVOYmZjWmhtVF9ub21KYk5vRkJ6RWFIY3BlQlpyVlB1UXhFRW9iSmhjVmRmazBJVzljV3RuUkRLbnZQRzM5Q1JNc0dDUk9UZDZnTjNSVzZjcER3ZEh0VmJiNlVpS1IxaERieUtLMFZ1c2liOVhwN2FFZWZBVmxhRGNsNGQ4T2ctN0RaOGJLUDl3bVE5LTM3eUtfUmdvcFhjZjhtN3NVMnc?oc=5",
+        "koTitle": "업무의 새로운 미래: AI는 급속한 변화와 불균등한 이점을 주도하고 있습니다.",
+        "enTitle": "New Future of Work: AI is driving rapid change, uneven benefits",
+        "date": "2026-04-11",
+        "originalDate": "2026-04-09",
+        "sourceName": "Microsoft",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNnJLTmlNU2k1RFhnbF8yRzhaZmttX1hoRDhlSzhSeHA2Nl85NzZmajZHT2loRElibmh0ZF9XeXh1eldzN3VreURTVXI3NVk4ZkxOSDdYcWlqZk1fdXhodnQyTzBsQTlTRmROYTdMQjNtdXgxQ1VaNmlsUXJDZjJpa1dXNi03cmJPd1VNbGN0X0RNN2R1cTYyU2dwUkFBa09kSV9YdkdfVDUzWHNx?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능 시대에 가장 위험한 직업은 무엇일까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 업무의 새로운 미래: AI는 급속한 변화와 불균등한 이점을 주도하고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "앤트로픽, 에이전트 개발·배포를 위한 '클로드 매니지드 에이전트' 공개",
-        "enTitle": "앤트로픽, 에이전트 개발·배포를 위한 '클로드 매니지드 에이전트' 공개",
-        "date": "2026-04-10",
-        "originalDate": "2026-04-09",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QNXB4MmlxNzNydEs3aEl3Wm9QR2x0eW1xYm9mSkhDR0RrT0VwRWJzMjA1aHd2bk9CbmZGN1YyUmlONmpyREo3TDJYOFR6T2hoUjBtNEc4Q2NEM1hhMGNnOGpWQnZBNldoWkE?oc=5",
+        "koTitle": "[요즘구글] 제미나이 팩폭: AI한테 ‘내 저주’를 물어보면 안 되는 이유",
+        "enTitle": "[요즘구글] 제미나이 팩폭: AI한테 ‘내 저주’를 물어보면 안 되는 이유",
+        "date": "2026-04-11",
+        "originalDate": "2026-04-10",
+        "sourceName": "blog.google",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLVFmQXZqelUtZjJFMWVpNUxUcHlZQjRzdG9jcl9OSHF0OVowd0pzak9ra1A1SzdORzdJQUNHaXFJbjJzNFVGRnlOb2l5UElXa2NDMndOejkyb0FRZ3hROTNtRGc2U1VLVEZKaEpkdjZXMmtVNnY0R3dGVzFRempQRzNZSVQ0S3FlTWpQN2N4aGtEOThhNmFoT1VYQQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 에이전트 개발·배포를 위한 '클로드 매니지드 에이전트' 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [요즘구글] 제미나이 팩폭: AI한테 ‘내 저주’를 물어보면 안 되는 이유 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "보안팀이 모르는 AI 사용 포착...5만개 AI 앱 위험 평가 기술 공개",
-        "enTitle": "보안팀이 모르는 AI 사용 포착...5만개 AI 앱 위험 평가 기술 공개",
-        "date": "2026-04-10",
-        "originalDate": "2026-04-09",
-        "sourceName": "지티티코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qS2swX2RRd1lmeGRXMHZ0eGc3TkpXc0JtcFFFcEkxN3dEcXFxdFN3c0ZXN3BpbWNKazZ0YS12U3gtVnZqX1lpNDYwM051VE1NTU16bjlzX2VISmZBZzgyTHBTMG5RUjhpZHc?oc=5",
+        "koTitle": "오픈AI, 앤트로픽 '미소스' 맞서 사이버 보안용 서비스 출시 준비",
+        "enTitle": "오픈AI, 앤트로픽 '미소스' 맞서 사이버 보안용 서비스 출시 준비",
+        "date": "2026-04-11",
+        "originalDate": "2026-04-10",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qeGFSUG1iRGdBdm1yVlItYURkR09KUTBQSlJlTGVkWi1lZkhDbEdjYkpsWGhwOXliVTJkSThTYzZzTzZWbjRwa2t6WlB4bXQ0TkFlN0NGTW1DdTRaZXpibEJ6MzNKUzZvVEE?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 보안팀이 모르는 AI 사용 포착...5만개 AI 앱 위험 평가 기술 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 오픈AI, 앤트로픽 '미소스' 맞서 사이버 보안용 서비스 출시 준비 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "앤트로픽, 클로드 코워크 정식 출시…역할 기반 접근 제어·MCP 권한 관리 추가",
-        "enTitle": "앤트로픽, 클로드 코워크 정식 출시…역할 기반 접근 제어·MCP 권한 관리 추가",
-        "date": "2026-04-10",
-        "originalDate": "2026-04-09",
-        "sourceName": "디지털투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9KZHRnZmIzd2FYSVFpSkJmX2JDeko2dUpNWFpxWUVwUUd4bWtXRHZBVmN3Q1pyaTJHYzAtUnpGdERTX1NLcUhkS2FoRlpRaC1tT2NOR2lqRnJZQTloT05yQmJYbVlrb1p5VTlLMHBpTnVhVWs?oc=5",
+        "koTitle": "인공지능(AI): 동물과 대화하는 날이 올 수 있을까?",
+        "enTitle": "인공지능(AI): 동물과 대화하는 날이 올 수 있을까?",
+        "date": "2026-04-11",
+        "originalDate": "2026-04-10",
+        "sourceName": "BBC",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XSUw1ZjhaVFQzeWlGVWFSQTR6SzQ0VlJ1R0lqM0FjNlIzTXVQak4xVWFiMXZKRklBM3otOWg1R3h5MHpHMnBSVUVDZzg3c0RZZ09SLW04RFVZRlM30gFiQVVfeXFMTUloVDAyRVdHZm95WnhfV2trd196ZVJwUDg0dVFyRWFGeS13aDZwdmJxNGpxRFEzYUZ2Q2JITGo1NVp1VlJiTGNBeldvZFJuZGRpM0M4OTkwUmhpNHgtRDVwdlE?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 클로드 코워크 정식 출시…역할 기반 접근 제어·MCP 권한 관리 추가 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 인공지능(AI): 동물과 대화하는 날이 올 수 있을까? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
