@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-11
+ * 최신 업데이트: 2026-04-12
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "DOGE에서 AI로: 미래 고용을 위한 도구로 여겨지는 DC 지역의 새로 만들어진 일자리 위원회",
-        "enTitle": "From DOGE to AI: DC region’s newly created jobs board seen as tool for future employment",
-        "date": "2026-04-11",
-        "originalDate": "2026-04-10",
-        "sourceName": "WTOP",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZzdrYjN0UldVZUUzU25pSmJqQUNRQjNkdFRkcjRoT1BnSldIVFY2VmE1b1k0dzBkeDZhTGVHU3U5YkMtYVJIZ24zMTd1c2FhbEQ0NmE4VXdLWmw2RDc5VUtqQzNXYlBDTXpuTUxTM0YyaGxJRTA4WVp0UjVRcjdlMU9jRDRUYWNLUHBobWVxZVRXaWFtZXRVYmU3bGowTWE4VVI5SnZKOUJ5NzlMMnJCMHpqeEYzQTktY3c?oc=5",
+        "koTitle": "Tokenmaxxing이란? CEO와 CFO가 두려워하는 새로운 생산성 해킹",
+        "enTitle": "What Is Tokenmaxxing? Inside the New Productivity Hack That CEOs Adore and CFOs Fear",
+        "date": "2026-04-12",
+        "originalDate": "2026-04-11",
+        "sourceName": "inc.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX3VDdTZjOXEyOXhYQTRXNFQ1N18tY1E5MWp5NThwbHZ6Mjk2d2JUTmQ4WGNCRGM5cTh3Tm51WDJiQ3BycUVBV0ktZ0t0UTVvbzQyQzJOQjRZd0FYN21ZbFpXNEZmaXUtaXFPNXFqa3hxRlVKVXpKN0kzaFVaWlptVW1wb3BuWlE2?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! DOGE에서 AI로: 미래 고용을 위한 도구로 여겨지는 DC 지역의 새로 만들어진 일자리 위원회 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! Tokenmaxxing이란? CEO와 CFO가 두려워하는 새로운 생산성 해킹 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "2026년 AI의 미래: 일자리 교체 대신 일자리 재편",
-        "enTitle": "The AI Future of Work in 2026: Reshaping Jobs Instead of Replacing Them",
-        "date": "2026-04-11",
-        "originalDate": "2026-04-10",
-        "sourceName": "vocal.media",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYWJSYWdIRXQ3bkp4QTBqUFFOcy1RbWFNLTZNYWtEVkl3SkpBSjR6UWV0b0QyMm1UOHBXdWM2TkpVSVZlSTJaZTNsNWV3RHYwWjd3cGJKcUVLN1A4Rlg1ekt0WmNWa2hpenNhR0NvZ3NlaWs3a0JORmNhQllvWXNRVnBaM2xDU0w2LVUyNjNtT1gtVjljT0JpX0NZZTFmczVH?oc=5",
+        "koTitle": "Palantir CEO는 AI가 인문학 일자리를 '파괴' 하겠지만 직업 훈련을 받은 사람들에게는 '충분한 일자리' 가 있을 것이라고 말합니다.",
+        "enTitle": "Palantir CEO says AI 'will destroy' humanities jobs, but there will be 'more than enough jobs' for people with vocational training",
+        "date": "2026-04-12",
+        "originalDate": "2026-04-11",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYUpnTUFwQWpmQURZdzYxblotNzJjMFZROU1TQ2hZdXp5bkFNdGdnYUh6TWk3M2FETUJmQVRWRG91MU9hRHpUNnJVYllybGt3NkZQWFExdjJZR0FlUC1fX0FjdVVXR1FQTXR2azNfY2NUcjR6WHVtNjM2eU5JUTVqWG44M2FQbkFOdUh0eEo3T0pIZ25h?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 2026년 AI의 미래: 일자리 교체 대신 일자리 재편 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! Palantir CEO는 AI가 인문학 일자리를 '파괴' 하겠지만 직업 훈련을 받은 사람들에게는 '충분한 일자리' 가 있을 것이라고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "업무의 새로운 미래: AI는 급속한 변화와 불균등한 이점을 주도하고 있습니다.",
-        "enTitle": "New Future of Work: AI is driving rapid change, uneven benefits",
-        "date": "2026-04-11",
-        "originalDate": "2026-04-09",
-        "sourceName": "Microsoft",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNnJLTmlNU2k1RFhnbF8yRzhaZmttX1hoRDhlSzhSeHA2Nl85NzZmajZHT2loRElibmh0ZF9XeXh1eldzN3VreURTVXI3NVk4ZkxOSDdYcWlqZk1fdXhodnQyTzBsQTlTRmROYTdMQjNtdXgxQ1VaNmlsUXJDZjJpa1dXNi03cmJPd1VNbGN0X0RNN2R1cTYyU2dwUkFBa09kSV9YdkdfVDUzWHNx?oc=5",
+        "koTitle": "DOGE에서 AI로: 미래 고용을 위한 도구로 여겨지는 DC 지역의 새로 만들어진 일자리 위원회",
+        "enTitle": "From DOGE to AI: DC region’s newly created jobs board seen as tool for future employment",
+        "date": "2026-04-12",
+        "originalDate": "2026-04-10",
+        "sourceName": "WTOP",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZzdrYjN0UldVZUUzU25pSmJqQUNRQjNkdFRkcjRoT1BnSldIVFY2VmE1b1k0dzBkeDZhTGVHU3U5YkMtYVJIZ24zMTd1c2FhbEQ0NmE4VXdLWmw2RDc5VUtqQzNXYlBDTXpuTUxTM0YyaGxJRTA4WVp0UjVRcjdlMU9jRDRUYWNLUHBobWVxZVRXaWFtZXRVYmU3bGowTWE4VVI5SnZKOUJ5NzlMMnJCMHpqeEYzQTktY3c?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 업무의 새로운 미래: AI는 급속한 변화와 불균등한 이점을 주도하고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! DOGE에서 AI로: 미래 고용을 위한 도구로 여겨지는 DC 지역의 새로 만들어진 일자리 위원회 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[요즘구글] 제미나이 팩폭: AI한테 ‘내 저주’를 물어보면 안 되는 이유",
-        "enTitle": "[요즘구글] 제미나이 팩폭: AI한테 ‘내 저주’를 물어보면 안 되는 이유",
-        "date": "2026-04-11",
-        "originalDate": "2026-04-10",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLVFmQXZqelUtZjJFMWVpNUxUcHlZQjRzdG9jcl9OSHF0OVowd0pzak9ra1A1SzdORzdJQUNHaXFJbjJzNFVGRnlOb2l5UElXa2NDMndOejkyb0FRZ3hROTNtRGc2U1VLVEZKaEpkdjZXMmtVNnY0R3dGVzFRempQRzNZSVQ0S3FlTWpQN2N4aGtEOThhNmFoT1VYQQ?oc=5",
+        "koTitle": "'제미나이'에 인터랙티브 3D 모델·시뮬레이션 생성 기능 추가",
+        "enTitle": "'제미나이'에 인터랙티브 3D 모델·시뮬레이션 생성 기능 추가",
+        "date": "2026-04-12",
+        "originalDate": "2026-04-11",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlWWkyRFdxT0t0SjRvRnpKVWkxY0NaZlV3RGZKcVFkdHZ4YWRQN0w2VnhiR2c2MWhjQUdaeW4ycUdkQVNRWWhxYlhaeG42d2dQS3ZraDBBdTRtcm5iS3IzZnhKeldTRXhPZFE?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [요즘구글] 제미나이 팩폭: AI한테 ‘내 저주’를 물어보면 안 되는 이유 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! '제미나이'에 인터랙티브 3D 모델·시뮬레이션 생성 기능 추가 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "오픈AI, 앤트로픽 '미소스' 맞서 사이버 보안용 서비스 출시 준비",
-        "enTitle": "오픈AI, 앤트로픽 '미소스' 맞서 사이버 보안용 서비스 출시 준비",
-        "date": "2026-04-11",
-        "originalDate": "2026-04-10",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qeGFSUG1iRGdBdm1yVlItYURkR09KUTBQSlJlTGVkWi1lZkhDbEdjYkpsWGhwOXliVTJkSThTYzZzTzZWbjRwa2t6WlB4bXQ0TkFlN0NGTW1DdTRaZXpibEJ6MzNKUzZvVEE?oc=5",
+        "koTitle": "당신이 바이브코딩으로 만든 앱, 출시 즉시 '폭파' 될 가능성이 높습니다",
+        "enTitle": "당신이 바이브코딩으로 만든 앱, 출시 즉시 '폭파' 될 가능성이 높습니다",
+        "date": "2026-04-12",
+        "originalDate": "2026-04-11",
+        "sourceName": "오마이뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4yVnNSY2VFRi0zcl9KaFlyYzc4d1dicU1pZ0t4c0hrbjZSZ0NIWXdsZHFyLUNHX0ZISDdPNGYtYTRjcUV1RUNhZm5KcjlYMktrazdDT2ZJMWVkX3RPbDhNWk0xR0RmY0l5YnUxUXVVMXZsN3dhbERn?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 오픈AI, 앤트로픽 '미소스' 맞서 사이버 보안용 서비스 출시 준비 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 당신이 바이브코딩으로 만든 앱, 출시 즉시 '폭파' 될 가능성이 높습니다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "인공지능(AI): 동물과 대화하는 날이 올 수 있을까?",
-        "enTitle": "인공지능(AI): 동물과 대화하는 날이 올 수 있을까?",
-        "date": "2026-04-11",
-        "originalDate": "2026-04-10",
-        "sourceName": "BBC",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XSUw1ZjhaVFQzeWlGVWFSQTR6SzQ0VlJ1R0lqM0FjNlIzTXVQak4xVWFiMXZKRklBM3otOWg1R3h5MHpHMnBSVUVDZzg3c0RZZ09SLW04RFVZRlM30gFiQVVfeXFMTUloVDAyRVdHZm95WnhfV2trd196ZVJwUDg0dVFyRWFGeS13aDZwdmJxNGpxRFEzYUZ2Q2JITGo1NVp1VlJiTGNBeldvZFJuZGRpM0M4OTkwUmhpNHgtRDVwdlE?oc=5",
+        "koTitle": "2026년 상반기 AI 트렌드, 당신만 모르고 있었다",
+        "enTitle": "2026년 상반기 AI 트렌드, 당신만 모르고 있었다",
+        "date": "2026-04-12",
+        "originalDate": "2026-04-11",
+        "sourceName": "브런치",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qYTBUa1U2a21kczBFVFBDVWpyUExjcnozUVJEOGVwWGg5LXVydnBTdlEzLXNVYWE0LUZUZUhxYy1Ka2JuMWgyT0t1TkU1cl9NZlNn?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 인공지능(AI): 동물과 대화하는 날이 올 수 있을까? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 2026년 상반기 AI 트렌드, 당신만 모르고 있었다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
