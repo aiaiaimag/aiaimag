@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-13
+ * 최신 업데이트: 2026-04-14
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Palantir CEO, AI가 인문학 일자리를 '파괴' 할 것이라고 말하다",
-        "enTitle": "Palantir CEO says AI 'will destroy' humanities jobs",
-        "date": "2026-04-13",
-        "originalDate": "2026-04-12",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYUpnTUFwQWpmQURZdzYxblotNzJjMFZROU1TQ2hZdXp5bkFNdGdnYUh6TWk3M2FETUJmQVRWRG91MU9hRHpUNnJVYllybGt3NkZQWFExdjJZR0FlUC1fX0FjdVVXR1FQTXR2azNfY2NUcjR6WHVtNjM2eU5JUTVqWG44M2FQbkFOdUh0eEo3T0pIZ25h?oc=5",
+        "koTitle": "커리어를 ‘미래 지향적’ 으로 준비하기",
+        "enTitle": "Preparing to ‘future-proof’ your career",
+        "date": "2026-04-14",
+        "originalDate": "2026-04-13",
+        "sourceName": "ASU News",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOWh5Q2dYemRnM0x6WE01ZEs0QmdzRjNWX3hoTlRZMGVYNDF2QjVkN0YzTW1nTnRFZ0gwa2cyQ21qMllvc2tlYVlsamMxY09uTmxNMUtSWmlyUjk2d29tOFdtYUVlZ2l1Zk1IUTJvamhmYVM5T2dUZVBGVGhfU2hRR2ZsRU13aHRsZzRtTHNWZw?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! Palantir CEO, AI가 인문학 일자리를 '파괴' 할 것이라고 말하다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! 커리어를 ‘미래 지향적’ 으로 준비하기 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "스카이 뉴스 오스트레일리아.. 스카이 뉴스 비즈니스 편집장 로스 그린우드 (Ross Greenwood) 는 AI의 증가가 급증함에 따라 모든 사람이 \"직업에 대해 걱정해야 한다\" 고 말합니다.",
-        "enTitle": "Sky News Australia. . Sky News Business Editor Ross Greenwood says every person should be “worried about their job” as the rise in AI surges.",
-        "date": "2026-04-13",
-        "originalDate": "2026-04-12",
-        "sourceName": "facebook.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTWtfZGh6N0g5TVVZLUEydl96MVpEVnVrWml1c2EycnpQN1liYS1TQ203SnNXUDAyYjM4UzlweGhQM1k1elBGMGpWVXJTR3dDclNkMDFuY1gxeHVKbzRQNjlhaGNIRS1mUVdNdFlDZjZqQXZxMUpPZzNVTnZqWmtrUzJqQVZ0a0ppZnNlaHNrTkVtSlUwWkJyUTlWVjFaSEZUYmZkdXJEUHJxM3IwVE9KT2o3d0R0cjM1S3EtT1NmbVZCU3k5c1FjVXExZTExa0JSS21xTHlB?oc=5",
+        "koTitle": "Microsoft, SAP가 초기 인재 전환을 지원함에 따라 AI 작업에 미치는 영향에 대해 경고",
+        "enTitle": "Microsoft Warns on AI Jobs Impact as SAP Backs Early-Talent Shift",
+        "date": "2026-04-14",
+        "originalDate": "2026-04-13",
+        "sourceName": "UC Today",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTVNuSVJLd1hNTGZJUWJITVJoUjNvdkhEeGhqNm5pa2R4NmZnWkRiUkdrc1h6S3JIOTJhTEF5STV5ZlBIRnBpRXE0cHdZT1IwY1JiaW4wREZWRG5KTjJLdUlVSzVGX2tYa0huSms4OHpFYWJPRVIyMXloU2wtcE9ndDV3?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 스카이 뉴스 오스트레일리아.. 스카이 뉴스 비즈니스 편집장 로스 그린우드 (Ross Greenwood) 는 AI의 증가가 급증함에 따라 모든 사람이 \"직업에 대해 걱정해야 한다\" 고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! Microsoft, SAP가 초기 인재 전환을 지원함에 따라 AI 작업에 미치는 영향에 대해 경고 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "Sky News Australia.. 링크드인 경제기회최고책임자 (CTO) 인 Aneesh Raman은 현재 일자리에서 AI에 대한 대화는 \"너무 부담스럽다\" 고 말합니다.",
-        "enTitle": "Sky News Australia. . LinkedIn Chief Economic Opportunity Officer Aneesh Raman says the conversation about AI in jobs is “so charged” right now.",
-        "date": "2026-04-13",
-        "originalDate": "2026-04-12",
-        "sourceName": "facebook.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRHRLY3hSbnhPTFJTb2UyMWRCOUJGd0l0Nl82RE44ZFZaOFR0TUY4Sm1vY1JoMndyamFTSUREclIxUUtmOXpGZFFRRFk4VTFVSW9FaXdnTndpWUtJbWlkZTRkcEg2MGRPeVZJLXJweGlsMjRGUUd5UTRMM0tGWHpTeXdzdm5yUHl4UTFrdEcwdnd4NWZwVnZMMlJNSlNmT2t4eGxfRDBkMWxuMHBzQV9jc0J2R2YtTXdsaGFleTY5eVRXSFFqZHFiYlJDeDhIdw?oc=5",
+        "koTitle": "AI는 직장에 오는 대신 주말을 연장할 수 있습니다.",
+        "enTitle": "Rather than coming for your job, AI could extend your weekend instead",
+        "date": "2026-04-14",
+        "originalDate": "2026-04-13",
+        "sourceName": "AFR",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcjhJTVU0dTk1Y3hodnlxVHNUVmRVbG11TXZINXoxMDYzdS1xSWppdUVzcEVJc1N0TkFrSnNZSmEyRTQtSXpQVlhhYkgxcFFiRzdzVGtfckJUSkpLM0FPVloxSTJZd0ZIRjJhcElkTl93QUc5eHFrV0ZrSTlnQTdORkdMcDItSFN2Tk1oTXBTYV93Y1p3cHRLa2JEWlh0UnlUeGc0MVJsWTl2aFVCbkVGZncwdVltdFhuRFZRVjQwOTd0WkxobkgyNA?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! Sky News Australia.. 링크드인 경제기회최고책임자 (CTO) 인 Aneesh Raman은 현재 일자리에서 AI에 대한 대화는 \"너무 부담스럽다\" 고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! AI는 직장에 오는 대신 주말을 연장할 수 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[fn 이사람] \"기획자가 설명하면 AI가 코딩 척척… 서비스 출시 빨라질 것\"",
-        "enTitle": "[fn 이사람] \"기획자가 설명하면 AI가 코딩 척척… 서비스 출시 빨라질 것\"",
-        "date": "2026-04-13",
-        "originalDate": "2026-04-12",
-        "sourceName": "파이낸셜뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94cVdiWkVzV2ZWNUV6OWN2YXFUbXVzWTBaZVVfY3JTTlkzYzAzOTZYd1ZjM0Z5NHdGS2VFTXduZFVHX1RRZHFGaFc1ZUQwWER5RktZR29xQnNRQdIBXkFVX3lxTFBlNFZDSXBncEMtOFlkWGk3dlFhQURzM0JQbG9tWVp4ak5SLWhTTURPWE1SME80YkVwdnIxYjdoeVJxdHhKSlk1NEtvb2VFWjBvXzd1X3FjUXJmUGtnVkE?oc=5",
+        "koTitle": "보이지 않는 과금 기준 ‘토큰’…챗GPT·클로드 코워크·깃허브 코파일럿 구조 비교",
+        "enTitle": "보이지 않는 과금 기준 ‘토큰’…챗GPT·클로드 코워크·깃허브 코파일럿 구조 비교",
+        "date": "2026-04-14",
+        "originalDate": "2026-04-13",
+        "sourceName": "cio.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPTVNNYlZaRVJZNGp6QTNNX3gteUVjNmw2ZFJkUmEzOTd4MG5UM3h2Yno0UEF2amNidEtzbzdGbnZRYnY4Vi1kcTl5NnAxZjRLQW9BWnRONnowM05tc2h2UUFlLUV1c3o1Skw4aTdFOE5CXzM3c1hEVG5uQ0xLUGRMeHBtVkRucllDMnFBOHVqcmxVdjhsU2tXY1NoaTdCeFQ4bUpKUUVkeDhMR1FZMHEyRHNScWRUSDV2aTJacnB4STNxSGVPSEVzTVR2LW1BRnVIeVZDSzEyZ1diVV9GdFFRRnRUUmYyTXZJR3FoWVJuLTNkWHNRT0IzSmM3bTVvbzdWU1l3WVZiQ2tCNlBGamRCOFJRcTVPNFhSa0ZxajZBS253OW9ORUtRSzd1N2dfM0oxR2c?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [fn 이사람] \"기획자가 설명하면 AI가 코딩 척척… 서비스 출시 빨라질 것\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 보이지 않는 과금 기준 ‘토큰’…챗GPT·클로드 코워크·깃허브 코파일럿 구조 비교 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "앤스로픽 ‘클로드’ 인기 급상승…오픈AI도 추월하나",
-        "enTitle": "앤스로픽 ‘클로드’ 인기 급상승…오픈AI도 추월하나",
-        "date": "2026-04-13",
-        "originalDate": "2026-04-12",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9iQW9zbW1ZclZod2ZzMHE1UTkyYWUwMzV2d2Q2ZWFRMnFmaFUzbU9CU1plMWRUMXhTc2d5b3VETmlxWWw0YmxVOEZDZVpFT2s?oc=5",
+        "koTitle": "하나증권, 'AI자율주행 투자 서비스' 출시 기념 이벤트",
+        "enTitle": "하나증권, 'AI자율주행 투자 서비스' 출시 기념 이벤트",
+        "date": "2026-04-14",
+        "originalDate": "2026-04-13",
+        "sourceName": "mstoday.co.kr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE05VmNZVFB5ZXlkWUtrbkl0SEUtV3otYXdUeURUQ2NHeGxULVZVRy0xNFVfRFZ3b1Y3RW5HdldqS1c1aXd5QW91dnR2cmtDSTZ0TnZ6NWlqbUlCdzBvMzA1U1RvWHk5ZWUzNFNORmR3?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤스로픽 ‘클로드’ 인기 급상승…오픈AI도 추월하나 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 하나증권, 'AI자율주행 투자 서비스' 출시 기념 이벤트 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "국내 AI시장 판도 흔드는 클로드, 10위→3위로 껑충",
-        "enTitle": "국내 AI시장 판도 흔드는 클로드, 10위→3위로 껑충",
-        "date": "2026-04-13",
-        "originalDate": "2026-04-12",
-        "sourceName": "동아일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5IcUZmSkxMc2wtNTM5WTh6eU15ZGN2akhIc1M2NHppX2NleDFDNnB3WlhtMzZtTDcydjFLaUhFUXRIeUdsVEpYQkVCX2dZY2JJX2FQX3ZkSm92Mm5nSkhObVUwWHVwM1JyT3lCZTV3X1BTWF9JYkHSAWZBVV95cUxOYmYxWVZXbDh6Z2ItYnI4bmNqY2E2VWZkbEd0a0hYVUZkQjZsNkZNNTdaYzM5NWlRdnZUbnNhSFRpQVVzOC1TaXlvMUVxbW1ZTTdNZW01T3NoWjFlQmpjTko4aGY2R1E?oc=5",
+        "koTitle": "중구청장 예비후보 최강선 \"AI 생활혁신 프로젝트\" 공약 발표",
+        "enTitle": "중구청장 예비후보 최강선 \"AI 생활혁신 프로젝트\" 공약 발표",
+        "date": "2026-04-14",
+        "originalDate": "2026-04-13",
+        "sourceName": "프레시안",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBOVUl2anNleERyM3VVZ2ltUlR3eGhtTVJRYXl3bHBmWF9GN05NQThsVGNPUjYwNzVuTDdJVjUybkdLUGQ0TjdRSjNncmM4RmtJZHpKdU9pYnZJTGpkMms1M2daSTFmN085RGtQQVhSbzI5X1MyOFFEY3gyUQ?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 국내 AI시장 판도 흔드는 클로드, 10위→3위로 껑충 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 중구청장 예비후보 최강선 \"AI 생활혁신 프로젝트\" 공약 발표 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
