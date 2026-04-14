@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-14
+ * 최신 업데이트: 2026-04-15
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "커리어를 ‘미래 지향적’ 으로 준비하기",
-        "enTitle": "Preparing to ‘future-proof’ your career",
-        "date": "2026-04-14",
-        "originalDate": "2026-04-13",
-        "sourceName": "ASU News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOWh5Q2dYemRnM0x6WE01ZEs0QmdzRjNWX3hoTlRZMGVYNDF2QjVkN0YzTW1nTnRFZ0gwa2cyQ21qMllvc2tlYVlsamMxY09uTmxNMUtSWmlyUjk2d29tOFdtYUVlZ2l1Zk1IUTJvamhmYVM5T2dUZVBGVGhfU2hRR2ZsRU13aHRsZzRtTHNWZw?oc=5",
+        "koTitle": "업무의 미래: AI 자동화가 전 세계 일자리와 커리어를 변화시키는 방법",
+        "enTitle": "The Future of Work: How AI Automation Is Transforming Jobs and Careers Worldwide",
+        "date": "2026-04-15",
+        "originalDate": "2026-04-14",
+        "sourceName": "Tech Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObkFDb2N3QTN5UVI3RGt1ZGRlTVNwTFlBMzktTjNkVE1PMTZ4UkNqZ2w3aGRCc3JOVUE5bUwxUV9Cc0M1b0J1dS00R0hJNmQtR05haklsS1V1cmNMdnNOcGp5NjhZUWFVamoyNlFUYTJmbVlkTzkzSklWZjRyU1R3b1VUQ1FnQ2dGX3FCY0hDMnVHbVFmVl9ROVUta2Q0QUV5eFNQUHVIQXRubVRzQmZ5XzdWNGc2eEhhY1Brdw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! 커리어를 ‘미래 지향적’ 으로 준비하기 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! 업무의 미래: AI 자동화가 전 세계 일자리와 커리어를 변화시키는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "Microsoft, SAP가 초기 인재 전환을 지원함에 따라 AI 작업에 미치는 영향에 대해 경고",
-        "enTitle": "Microsoft Warns on AI Jobs Impact as SAP Backs Early-Talent Shift",
-        "date": "2026-04-14",
-        "originalDate": "2026-04-13",
-        "sourceName": "UC Today",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTVNuSVJLd1hNTGZJUWJITVJoUjNvdkhEeGhqNm5pa2R4NmZnWkRiUkdrc1h6S3JIOTJhTEF5STV5ZlBIRnBpRXE0cHdZT1IwY1JiaW4wREZWRG5KTjJLdUlVSzVGX2tYa0huSms4OHpFYWJPRVIyMXloU2wtcE9ndDV3?oc=5",
+        "koTitle": "OpenClaw: 최신 AI 에이전트에 대한 모든 뉴스",
+        "enTitle": "OpenClaw: all the news about the trending AI agent",
+        "date": "2026-04-15",
+        "originalDate": "2026-04-14",
+        "sourceName": "The Verge",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU21qZE10LUlJT1lXNS1MbENLcGVzMWlhTjJMbkRwTVRlWWZyQzkxTWlhZUMwelM2NU5PX1h2MG12Zkxxc281LWFrcDZzRFFQbkh6dENseGZHYXdGUjloVmxSY1ZiYWg3djhnZVRCWEVkWS1kNHZ5VUhHT0pFejBuLURn?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! Microsoft, SAP가 초기 인재 전환을 지원함에 따라 AI 작업에 미치는 영향에 대해 경고 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! OpenClaw: 최신 AI 에이전트에 대한 모든 뉴스 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI는 직장에 오는 대신 주말을 연장할 수 있습니다.",
-        "enTitle": "Rather than coming for your job, AI could extend your weekend instead",
-        "date": "2026-04-14",
-        "originalDate": "2026-04-13",
-        "sourceName": "AFR",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcjhJTVU0dTk1Y3hodnlxVHNUVmRVbG11TXZINXoxMDYzdS1xSWppdUVzcEVJc1N0TkFrSnNZSmEyRTQtSXpQVlhhYkgxcFFiRzdzVGtfckJUSkpLM0FPVloxSTJZd0ZIRjJhcElkTl93QUc5eHFrV0ZrSTlnQTdORkdMcDItSFN2Tk1oTXBTYV93Y1p3cHRLa2JEWlh0UnlUeGc0MVJsWTl2aFVCbkVGZncwdVltdFhuRFZRVjQwOTd0WkxobkgyNA?oc=5",
+        "koTitle": "SiriusXM의 수장이 인력의 미래를 보장하기 위해 기술 기반 디자인에 베팅하는 이유",
+        "enTitle": "Why SiriusXM’s head of people is betting on skills-based design to future-proof its workforce",
+        "date": "2026-04-15",
+        "originalDate": "2026-04-14",
+        "sourceName": "HR Brew",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaHdEdUE1MEdRM0lfd0VpRGJCX2JoVGxPWGpyRDhWN2xBVE9fYUtLQjVyejI3dEI5dzN0ZUZnTEYwWXZTb2N3eE1Vd2JjY0dGeEpJT1ZCLUxNMVh5U1NteHozWVpjWmVoWmpYRzZpZTg5cm1lZUIyUk5JVF9QWlZYeDlwajZqeWl3bXNwU0F6ZTVnRUFjOGkzaTAxdHYxMkhaNzA1Y3JINXBhN3o1SklMbng1akIxQzVOcTJYZi1sMUZMNHVpMER0TFFQUFBfWTdrT2c?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! AI는 직장에 오는 대신 주말을 연장할 수 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! SiriusXM의 수장이 인력의 미래를 보장하기 위해 기술 기반 디자인에 베팅하는 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "보이지 않는 과금 기준 ‘토큰’…챗GPT·클로드 코워크·깃허브 코파일럿 구조 비교",
-        "enTitle": "보이지 않는 과금 기준 ‘토큰’…챗GPT·클로드 코워크·깃허브 코파일럿 구조 비교",
-        "date": "2026-04-14",
-        "originalDate": "2026-04-13",
-        "sourceName": "cio.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPTVNNYlZaRVJZNGp6QTNNX3gteUVjNmw2ZFJkUmEzOTd4MG5UM3h2Yno0UEF2amNidEtzbzdGbnZRYnY4Vi1kcTl5NnAxZjRLQW9BWnRONnowM05tc2h2UUFlLUV1c3o1Skw4aTdFOE5CXzM3c1hEVG5uQ0xLUGRMeHBtVkRucllDMnFBOHVqcmxVdjhsU2tXY1NoaTdCeFQ4bUpKUUVkeDhMR1FZMHEyRHNScWRUSDV2aTJacnB4STNxSGVPSEVzTVR2LW1BRnVIeVZDSzEyZ1diVV9GdFFRRnRUUmYyTXZJR3FoWVJuLTNkWHNRT0IzSmM3bTVvbzdWU1l3WVZiQ2tCNlBGamRCOFJRcTVPNFhSa0ZxajZBS253OW9ORUtRSzd1N2dfM0oxR2c?oc=5",
+        "koTitle": "리버스톡, 출시 직후 앱스토어 라이프스타일 1위…AI 팬덤 플랫폼 경쟁 본격화",
+        "enTitle": "리버스톡, 출시 직후 앱스토어 라이프스타일 1위…AI 팬덤 플랫폼 경쟁 본격화",
+        "date": "2026-04-15",
+        "originalDate": "2026-04-14",
+        "sourceName": "공감신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBOVHlKLVB1dnhoRFpEaHBlbEMyS1Q5LVpUOHdIT1dNWmpSMzdDWk5DMmk3WGZUNExDa3Bwd05JUGg3N003QW9WN2ZxVF9MYmRUeXIxcDZEX3RPWnlVek9lZkZrb1RuWk1V?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 보이지 않는 과금 기준 ‘토큰’…챗GPT·클로드 코워크·깃허브 코파일럿 구조 비교 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 리버스톡, 출시 직후 앱스토어 라이프스타일 1위…AI 팬덤 플랫폼 경쟁 본격화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "하나증권, 'AI자율주행 투자 서비스' 출시 기념 이벤트",
-        "enTitle": "하나증권, 'AI자율주행 투자 서비스' 출시 기념 이벤트",
-        "date": "2026-04-14",
-        "originalDate": "2026-04-13",
-        "sourceName": "mstoday.co.kr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE05VmNZVFB5ZXlkWUtrbkl0SEUtV3otYXdUeURUQ2NHeGxULVZVRy0xNFVfRFZ3b1Y3RW5HdldqS1c1aXd5QW91dnR2cmtDSTZ0TnZ6NWlqbUlCdzBvMzA1U1RvWHk5ZWUzNFNORmR3?oc=5",
+        "koTitle": "[4월14일] \"클로드는 새로운 종교\"...'휴먼X' 행사서 드러난 실리콘 밸리의 권력 이동",
+        "enTitle": "[4월14일] \"클로드는 새로운 종교\"...'휴먼X' 행사서 드러난 실리콘 밸리의 권력 이동",
+        "date": "2026-04-15",
+        "originalDate": "2026-04-14",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8yRDZmTjRGSUNialBxOWx1eDMxd2JUQkt4TkNHYUtYQ2xwV1VEempSQVhUMTR6b3E3OU9vSXlLOXNOWnlRLWE5a2pZQmRQQ0k4Vk1EOGRwVGlKcFFiZDZJbTVDc0lBV3dQMHc?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 하나증권, 'AI자율주행 투자 서비스' 출시 기념 이벤트 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! [4월14일] \"클로드는 새로운 종교\"...'휴먼X' 행사서 드러난 실리콘 밸리의 권력 이동 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "중구청장 예비후보 최강선 \"AI 생활혁신 프로젝트\" 공약 발표",
-        "enTitle": "중구청장 예비후보 최강선 \"AI 생활혁신 프로젝트\" 공약 발표",
-        "date": "2026-04-14",
-        "originalDate": "2026-04-13",
-        "sourceName": "프레시안",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBOVUl2anNleERyM3VVZ2ltUlR3eGhtTVJRYXl3bHBmWF9GN05NQThsVGNPUjYwNzVuTDdJVjUybkdLUGQ0TjdRSjNncmM4RmtJZHpKdU9pYnZJTGpkMms1M2daSTFmN085RGtQQVhSbzI5X1MyOFFEY3gyUQ?oc=5",
+        "koTitle": "제미나이 끄면 기능도 사라진다…구글, 강제 AI논란",
+        "enTitle": "제미나이 끄면 기능도 사라진다…구글, 강제 AI논란",
+        "date": "2026-04-15",
+        "originalDate": "2026-04-14",
+        "sourceName": "디지털투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlR2Y0SGl1ZWY2ODduRzM2Q000MlRKeFFuV3QzNkpnbzdCOThLSnZpQUR5YTJ3ckdZMFlab2E0Y2JwR1pCNEUyTlNTN1JwMEVwVjJ0SzhuWjVCZjB6ejEzU3JqYjdEbUI0UVRRX2VGeldpT1k?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 중구청장 예비후보 최강선 \"AI 생활혁신 프로젝트\" 공약 발표 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 제미나이 끄면 기능도 사라진다…구글, 강제 AI논란 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
