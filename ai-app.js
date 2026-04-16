@@ -1,42 +1,42 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-16
+ * 최신 업데이트: 2026-04-17
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "CEO, AI의 ‘영광스러운 미래’ 는 일자리를 잃을 가치가 있다고 말함",
-        "enTitle": "CEO Says ‘Glorious Future’ of AI is Worth Workers Losing Jobs",
-        "date": "2026-04-16",
-        "originalDate": "2026-04-15",
-        "sourceName": "Newsweek",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSV92anAyWVhDbXBGRVo4akt3UXViemZaNVNhcHRSNGJKT21iQVFkQUlaMDlPYTJLZ1ZuVEE0YnhKSjc5UUFrME1VOVcwazc4QnhVWHB6X3p1elY1ZlRRcmZrZEFWb1ZsRTNQQ3drd2JhamlzUzJfT0ZWckRCU2R3LXVMekhndEEwVWw0bHl5WDk3R2JET2c?oc=5",
+        "koTitle": "Anthropic은 기술 인재에 대한 급증하는 수요와 충돌하는 'AI 죽이는 직업' 에 대한 두려움으로 AI 엔지니어에게 연간 $ 320,000를 제공합니다.",
+        "enTitle": "Anthropic offers $320,000 a year for AI engineers as 'AI killing jobs' fears clash with booming demand for tech talent",
+        "date": "2026-04-17",
+        "originalDate": "2026-04-16",
+        "sourceName": "moneywise.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSl93SGU5aVh1T3RQUm9HMlNsY2E0RTN0VTZMc29pRjhEYll0Qk5pTEhmR0NROVFNVHBmSmlRa1B4QlRTbGNKblR5ZU5pMmUtOVpPWV9vTk9GbnlHZ2p4RF9XNnlKR0hXdERBdlRkeVFoZUNXRE13UjBRVnpQMExpbXhlWTNHa3hTV29OMmlR?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! CEO, AI의 ‘영광스러운 미래’ 는 일자리를 잃을 가치가 있다고 말함 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! Anthropic은 기술 인재에 대한 급증하는 수요와 충돌하는 'AI 죽이는 직업' 에 대한 두려움으로 AI 엔지니어에게 연간 $ 320,000를 제공합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "2026년 자동화로부터 안전한 일자리: AI에 맞서 확고히 서 있는 실무 중심의 사람 중심의 역할",
-        "enTitle": "Jobs safe from automation in 2026: the hands-on, people-focused roles standing firm against AI",
-        "date": "2026-04-16",
-        "originalDate": "2026-04-15",
-        "sourceName": "Freelance Informer",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWVFrVG90SVdkc0hvTXpYREVqalIzUGRkSEZPZ0x0NVJOSVlUYVpUODB6VHFpZko5Ti1UMGp3eWZ5djFnN1RuX180VmdLRmRmV0d5a0Ewa1g5VGNDcVFBYmhzN09RWGpXOFpHdk4tRktkb3JKMTZ2Y2xRUms4VjUxUDd4SmhQT2tCVUdHQ3N5aDRBbG03Rk5IWXV1NzV5NHI2UmY1ZnJCcHBlRy00YktkMlRnRU1pYjRWellHTWFZd21YdGQ2aC1kVHljOHE?oc=5",
+        "koTitle": "AI와 일의 미래: 일자리 손실을 넘어선 심각한 위기",
+        "enTitle": "AI and the future of work: A deep crisis beyond job loss",
+        "date": "2026-04-17",
+        "originalDate": "2026-04-16",
+        "sourceName": "Devdiscourse",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSzhlUW9Senp1SUhKNDQ1VG9Wb21iU1RWWUhpNEhvSVc2MWpxQ2ZSeE82RktjYXVrSlpwQUZYMG4wN1doVDVJTEJoTDFvNGZIQWJ3dVl2aC1palNjbWt5YmdScmo3NVRldW1yYzNDRGo4U24teUtQVHM3cmwwSXRLeTJmQ0V2c1VvcnJURlE5UUN0S2xaenhfSXVGMm9ZNWZCS2c4NXNwbmFPUXg0U3lhVdIBtgFBVV95cUxOUHMzQWxNRW9VLURKUmZuSWN5WVRRLWxhYjRQcXlEd0Znay16bXBJWWpkZ3p2aHUyUGlhWk1OUm0ydmFFTkVHZzNHOU10cklMY3NRM2NCd2JTTWkzVEpEa3N5bkRiWkgtcG9ETDc4bndoMU5oZjMwb1VtZ05FSEM4WWhtcm5wRW1aZk9YZFljZlJqNzh3cHhScVBMNDlRSWtocXAxbjdILWhjSXl4NVM1ajBqRmhOZw?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 2026년 자동화로부터 안전한 일자리: AI에 맞서 확고히 서 있는 실무 중심의 사람 중심의 역할 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! AI와 일의 미래: 일자리 손실을 넘어선 심각한 위기 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
         "koTitle": "직장 내 AI: 2025년 보고서 | 맥킨지",
         "enTitle": "AI in the workplace: A report for 2025 | McKinsey",
-        "date": "2026-04-16",
-        "originalDate": "2026-04-15",
+        "date": "2026-04-17",
+        "originalDate": "2026-04-16",
         "sourceName": "McKinsey & Company",
         "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNHluenp6NE4teVg3bTJiWG9VZk81dDQwcDBJcmVJWlBHdWhIYWRSYTNWX052aHVZdjhfdmxXNk9mTENURGRzdURmMExpTm5VazdfTWZpcUxTV21TcThJbHc2cFluMmRjMXdVeE80ZDhBR0JUWUhJcHJiX2Rva1lGT2tfMDNEOHZzRkJwSUpoM3FwZjh1RU56aXcxclFqNnRyVkRBVkJIbUkyaloxWGpscjJTZ2hYVkNxX0g2d2liUm41MlhaZDQwcl9JTlFtcWVGd3d0Vzg5V3Y?oc=5",
         "isRepublished": false,
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "제미나이 로보틱스-ER 1.6: 강화된 체화된 추론을 통한 실세계 로봇 작업의 혁신",
-        "enTitle": "제미나이 로보틱스-ER 1.6: 강화된 체화된 추론을 통한 실세계 로봇 작업의 혁신",
-        "date": "2026-04-16",
-        "originalDate": "2026-04-15",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMkJfNVY0bko3MlQwRjQweFpuLTEyR3lnM21EbkI2ZWpKX3dvWDVwMmZxNnlPc2lKNUdhVy1PdFkyUXlNQ2dacmpJSkVQYUlESDZxS0c1VHBBU2laX1pxRnUwV2VxbEhSbFFaNC0yTlVZQWl3NXJuVEU0RGdFMkVJUGN1V2h0Slk?oc=5",
+        "koTitle": "앤트로픽, '클로드 코드' 업데이트...\"바이브 코딩→에이전틱 코딩\"",
+        "enTitle": "앤트로픽, '클로드 코드' 업데이트...\"바이브 코딩→에이전틱 코딩\"",
+        "date": "2026-04-17",
+        "originalDate": "2026-04-16",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tMXg5UDNzdnVBRzZRVFE0NWU5LS0yX3VrMUwtczh5a1pSLVhvQXRIRm1fZFVEaml3LXBYS1ItNEl6T0tHY2NHZFVPWE9Fb3NibVFjYzB1Y2JnZnYxMHpwSktvVWwyMFI1SXc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 제미나이 로보틱스-ER 1.6: 강화된 체화된 추론을 통한 실세계 로봇 작업의 혁신 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, '클로드 코드' 업데이트...\"바이브 코딩→에이전틱 코딩\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "AI 금융서비스 업데이트 출시 빨라진다…당국, 절차 간소화",
-        "enTitle": "AI 금융서비스 업데이트 출시 빨라진다…당국, 절차 간소화",
-        "date": "2026-04-16",
-        "originalDate": "2026-04-15",
-        "sourceName": "연합뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4tYmM1TjhzNzVKNHRaSzhoWWdoc1FlQ2VJUWs4b19aWEYtRkN2RFBhU2NRdmZTZTRvY1oxZW9LYThzU2duNnVwaGd3TkEtMmVEdmx0SGpzMC1XRUhQRFRDedIBYEFVX3lxTE4tYmM1TjhzNzVKNHRaSzhoWWdoc1FlQ2VJUWs4b19aWEYtRkN2RFBhU2NRdmZTZTRvY1oxZW9LYThzU2duNnVwaGd3TkEtMmVEdmx0SGpzMC1XRUhQRFRDeQ?oc=5",
+        "koTitle": "이제 Mac 환경에서도 제미나이 앱을 만나보세요",
+        "enTitle": "이제 Mac 환경에서도 제미나이 앱을 만나보세요",
+        "date": "2026-04-17",
+        "originalDate": "2026-04-16",
+        "sourceName": "blog.google",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcW9xdjdiX1hrZHNlRXY1Q2FvZHRKTWU1OU5EWmtNUTRRSnhmbnN0bUVlbXNXZnNyNWFsa2JEdG9mbFpaSFNCR3Q1T0Z3bnRUdU5lcW0tTGJSQlBUODZQWlpySGJhaDI1UGVpc1E5eXgySHRQQXJSRFFzZTh6U25XMg?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! AI 금융서비스 업데이트 출시 빨라진다…당국, 절차 간소화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 이제 Mac 환경에서도 제미나이 앱을 만나보세요 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "롯데웰푸드, ‘챗GPT’에 전용 앱 출시…AI 커머스 시장 선점 나서",
-        "enTitle": "롯데웰푸드, ‘챗GPT’에 전용 앱 출시…AI 커머스 시장 선점 나서",
-        "date": "2026-04-16",
-        "originalDate": "2026-04-15",
-        "sourceName": "식품음료신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBhcjFUazZVN21EeTE2TncyZjRRb0J4b3Boak16MGpBOUU2N1JzemE3cWc3c3hCS2MtZTY3OU1HaXlvN294TG9WRG1ZOXZwcnljdGVtdi1RR25hTTF1VmJ3QWdhUmM4NDBwem03VUU3NA?oc=5",
+        "koTitle": "﻿클로드의 8% 가격으로 코딩한다고? ﻿[정원훈의 AI 트렌드]",
+        "enTitle": "﻿클로드의 8% 가격으로 코딩한다고? ﻿[정원훈의 AI 트렌드]",
+        "date": "2026-04-17",
+        "originalDate": "2026-04-16",
+        "sourceName": "IT조선",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1POExibU82bElPRk5xRHVRUUFFQUd6VXdHXzJxQ2VxUHZvV290dXJZcmJxamtIcnRPM3dMY01NQUhXeU0zazlrY0FKOXZaQ052WldHU0pvQXhIdG5qYmhSNFd4cFJnUGtCY1otLTNkN0LSAXRBVV95cUxOMTYtU2ktOUE0MmZfdktQemZvNVJyUWswX0dnTkwtOE9KZHIzMmhudng4UndhVEVjNXQ4TV9wRlg4a2VpcWRYTFlGYnA4QWE3cFFXeWRfY0VfNGxXS0Q0OUpmaWlEbEtDcG4zbkN6UTluWFRkcA?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 롯데웰푸드, ‘챗GPT’에 전용 앱 출시…AI 커머스 시장 선점 나서 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! ﻿클로드의 8% 가격으로 코딩한다고? ﻿[정원훈의 AI 트렌드] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
