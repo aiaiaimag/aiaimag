@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-17
+ * 최신 업데이트: 2026-04-18
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Anthropic은 기술 인재에 대한 급증하는 수요와 충돌하는 'AI 죽이는 직업' 에 대한 두려움으로 AI 엔지니어에게 연간 $ 320,000를 제공합니다.",
-        "enTitle": "Anthropic offers $320,000 a year for AI engineers as 'AI killing jobs' fears clash with booming demand for tech talent",
-        "date": "2026-04-17",
-        "originalDate": "2026-04-16",
-        "sourceName": "moneywise.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSl93SGU5aVh1T3RQUm9HMlNsY2E0RTN0VTZMc29pRjhEYll0Qk5pTEhmR0NROVFNVHBmSmlRa1B4QlRTbGNKblR5ZU5pMmUtOVpPWV9vTk9GbnlHZ2p4RF9XNnlKR0hXdERBdlRkeVFoZUNXRE13UjBRVnpQMExpbXhlWTNHa3hTV29OMmlR?oc=5",
+        "koTitle": "미래의 직장 기술을 재구성하는 AI",
+        "enTitle": "AI Reshaping Future Workplace Skills",
+        "date": "2026-04-18",
+        "originalDate": "2026-04-17",
+        "sourceName": "WDEF",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE94WVdnWUk3emVucHZhbTI0ZnVWa2tuMXlsSVlHX2xCUDJYT0hSRUl2WWZDM25mTEJ0djZMVXZCSTlyVklhOTJuOGV6dmV2QV9wMC1IUmRZa2NQUkE5eVlOTjdiQVpiaDc2Qnc?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! Anthropic은 기술 인재에 대한 급증하는 수요와 충돌하는 'AI 죽이는 직업' 에 대한 두려움으로 AI 엔지니어에게 연간 $ 320,000를 제공합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 미래의 직장 기술을 재구성하는 AI 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI와 일의 미래: 일자리 손실을 넘어선 심각한 위기",
-        "enTitle": "AI and the future of work: A deep crisis beyond job loss",
-        "date": "2026-04-17",
-        "originalDate": "2026-04-16",
-        "sourceName": "Devdiscourse",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSzhlUW9Senp1SUhKNDQ1VG9Wb21iU1RWWUhpNEhvSVc2MWpxQ2ZSeE82RktjYXVrSlpwQUZYMG4wN1doVDVJTEJoTDFvNGZIQWJ3dVl2aC1palNjbWt5YmdScmo3NVRldW1yYzNDRGo4U24teUtQVHM3cmwwSXRLeTJmQ0V2c1VvcnJURlE5UUN0S2xaenhfSXVGMm9ZNWZCS2c4NXNwbmFPUXg0U3lhVdIBtgFBVV95cUxOUHMzQWxNRW9VLURKUmZuSWN5WVRRLWxhYjRQcXlEd0Znay16bXBJWWpkZ3p2aHUyUGlhWk1OUm0ydmFFTkVHZzNHOU10cklMY3NRM2NCd2JTTWkzVEpEa3N5bkRiWkgtcG9ETDc4bndoMU5oZjMwb1VtZ05FSEM4WWhtcm5wRW1aZk9YZFljZlJqNzh3cHhScVBMNDlRSWtocXAxbjdILWhjSXl4NVM1ajBqRmhOZw?oc=5",
+        "koTitle": "Monzo 창업자는 AI 미래에서 당신의 직업에 대해 어두운 예측을합니다.",
+        "enTitle": "Monzo founder makes dark prediction about your job in AI future",
+        "date": "2026-04-18",
+        "originalDate": "2026-04-17",
+        "sourceName": "LADbible",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSTVaWnUybUdCQWZtMzhDLUtkaHp6VG1FYUxtdmJIYWN2YjcxcHo1M3VJbkNuM3c1RTFiQXYyOHlWZjZ5bWllZkpDRkYwS1N2cE9ncy12T3o1OG9ZamdMdUhfNnRoTjc5UHI3ZWFTM0gtUUJpNXNOYzlBSDBFbS1LX0JuSWE0M18tZ2c0MHRpX2pZNkFvbVpxTUhPZUpjbVQ2MzZDcEhGRzMwRkI4VVR5RnUyM1kteTI4bUhZZzVDaWw?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! AI와 일의 미래: 일자리 손실을 넘어선 심각한 위기 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! Monzo 창업자는 AI 미래에서 당신의 직업에 대해 어두운 예측을합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "직장 내 AI: 2025년 보고서 | 맥킨지",
-        "enTitle": "AI in the workplace: A report for 2025 | McKinsey",
-        "date": "2026-04-17",
-        "originalDate": "2026-04-16",
-        "sourceName": "McKinsey & Company",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNHluenp6NE4teVg3bTJiWG9VZk81dDQwcDBJcmVJWlBHdWhIYWRSYTNWX052aHVZdjhfdmxXNk9mTENURGRzdURmMExpTm5VazdfTWZpcUxTV21TcThJbHc2cFluMmRjMXdVeE80ZDhBR0JUWUhJcHJiX2Rva1lGT2tfMDNEOHZzRkJwSUpoM3FwZjh1RU56aXcxclFqNnRyVkRBVkJIbUkyaloxWGpscjJTZ2hYVkNxX0g2d2liUm41MlhaZDQwcl9JTlFtcWVGd3d0Vzg5V3Y?oc=5",
+        "koTitle": "인공지능이 당신의 일자리를 빼앗을지 묻지 말고, 누가 원하는지 물어보세요.",
+        "enTitle": "Don’t ask if AI will take your jobs, ask who wants it to",
+        "date": "2026-04-18",
+        "originalDate": "2026-04-17",
+        "sourceName": "The Mail & Guardian",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSF9pNXJxc2M0dDFWNzZPcktFY19vTTQzTDBHN19Md2g4eHJpaDA2NDhCU2xGVlE1YTQwOS1fOFpNdE0zREZnaFRWcnFOUE4wZVBmSkV0QlRXUW9kSkdEMTh4YVhSSGJiZTg2dFNyYW5yTVVXdnhVdFVZS1haLTFHMlFBaTNXa0RrMDExb2c5SmRaMGFkVVFhTUU4Nm5uWk0?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 직장 내 AI: 2025년 보고서 | 맥킨지 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 당신의 일자리를 빼앗을지 묻지 말고, 누가 원하는지 물어보세요. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "앤트로픽, '클로드 코드' 업데이트...\"바이브 코딩→에이전틱 코딩\"",
-        "enTitle": "앤트로픽, '클로드 코드' 업데이트...\"바이브 코딩→에이전틱 코딩\"",
-        "date": "2026-04-17",
-        "originalDate": "2026-04-16",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tMXg5UDNzdnVBRzZRVFE0NWU5LS0yX3VrMUwtczh5a1pSLVhvQXRIRm1fZFVEaml3LXBYS1ItNEl6T0tHY2NHZFVPWE9Fb3NibVFjYzB1Y2JnZnYxMHpwSktvVWwyMFI1SXc?oc=5",
+        "koTitle": "제로지, 코딩없이 AI앱 만드는 ‘제로지 앱’ 출시",
+        "enTitle": "제로지, 코딩없이 AI앱 만드는 ‘제로지 앱’ 출시",
+        "date": "2026-04-18",
+        "originalDate": "2026-04-17",
+        "sourceName": "데일리브리프",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sdjloekZkVU9UQ0xnNlBJTUF2bmxEN2RRY3ZZNXNuRFBPb3VlQjJVU0tKX0dLc0Y3OFQ1S2pLTTRud2c4dlVhYkt2OTFIb3JSTjdHc0VGbmF3VWI2eEN6MTM2MXpUTVR2VUotS2tn?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, '클로드 코드' 업데이트...\"바이브 코딩→에이전틱 코딩\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 제로지, 코딩없이 AI앱 만드는 ‘제로지 앱’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "이제 Mac 환경에서도 제미나이 앱을 만나보세요",
-        "enTitle": "이제 Mac 환경에서도 제미나이 앱을 만나보세요",
-        "date": "2026-04-17",
+        "koTitle": "세포라, 대화형 AI 서비스 ‘챗GPT’서 앱 출시",
+        "enTitle": "세포라, 대화형 AI 서비스 ‘챗GPT’서 앱 출시",
+        "date": "2026-04-18",
         "originalDate": "2026-04-16",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcW9xdjdiX1hrZHNlRXY1Q2FvZHRKTWU1OU5EWmtNUTRRSnhmbnN0bUVlbXNXZnNyNWFsa2JEdG9mbFpaSFNCR3Q1T0Z3bnRUdU5lcW0tTGJSQlBUODZQWlpySGJhaDI1UGVpc1E5eXgySHRQQXJSRFFzZTh6U25XMg?oc=5",
+        "sourceName": "약업신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOTR2SlJCanB1dE9HR1l0Zy1jc0xLUWFtbEl5UFlfWGhRNFNXdWdvckJmR0lNVEFHTlZsajBsWWdhcGNfNjZ2dy14OFVqdWFDbjZiR2t6cnJZcktad1A1SUE3NGxicjdKcDZYRUZYQ0xmc3ZHeGVYWmVJUFZfaDhHenJwd0hIUlFlajhsQm15eURtY2NobXl4ck9VSUNNNVZLdTFITGc0YVFkYlM4X1lrbVhWc1dpX1JrdGk5UVhWcmQzWTJtNHoxdGw0ZWtfN3NKQmhKYmNKWlpSMk1uMklXTg?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 이제 Mac 환경에서도 제미나이 앱을 만나보세요 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 세포라, 대화형 AI 서비스 ‘챗GPT’서 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "﻿클로드의 8% 가격으로 코딩한다고? ﻿[정원훈의 AI 트렌드]",
-        "enTitle": "﻿클로드의 8% 가격으로 코딩한다고? ﻿[정원훈의 AI 트렌드]",
-        "date": "2026-04-17",
-        "originalDate": "2026-04-16",
-        "sourceName": "IT조선",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1POExibU82bElPRk5xRHVRUUFFQUd6VXdHXzJxQ2VxUHZvV290dXJZcmJxamtIcnRPM3dMY01NQUhXeU0zazlrY0FKOXZaQ052WldHU0pvQXhIdG5qYmhSNFd4cFJnUGtCY1otLTNkN0LSAXRBVV95cUxOMTYtU2ktOUE0MmZfdktQemZvNVJyUWswX0dnTkwtOE9KZHIzMmhudng4UndhVEVjNXQ4TV9wRlg4a2VpcWRYTFlGYnA4QWE3cFFXeWRfY0VfNGxXS0Q0OUpmaWlEbEtDcG4zbkN6UTluWFRkcA?oc=5",
+        "koTitle": "‘미토스 쇼크’에 입장 바꾼 美 백악관…클로드 활용 재추진",
+        "enTitle": "‘미토스 쇼크’에 입장 바꾼 美 백악관…클로드 활용 재추진",
+        "date": "2026-04-18",
+        "originalDate": "2026-04-17",
+        "sourceName": "중앙일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HVjZiLUpsS1dUWG1SbWpETDZhN1lGYzhVNkQwOTBHZWx0NjVWZWdHMl9xVF9oZldqLS02cW4yVE5rcnJiVFFJVEt6Y1NmSlIta0l5NXVR?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! ﻿클로드의 8% 가격으로 코딩한다고? ﻿[정원훈의 AI 트렌드] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! ‘미토스 쇼크’에 입장 바꾼 美 백악관…클로드 활용 재추진 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
