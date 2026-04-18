@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-18
+ * 최신 업데이트: 2026-04-19
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "미래의 직장 기술을 재구성하는 AI",
-        "enTitle": "AI Reshaping Future Workplace Skills",
-        "date": "2026-04-18",
-        "originalDate": "2026-04-17",
-        "sourceName": "WDEF",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE94WVdnWUk3emVucHZhbTI0ZnVWa2tuMXlsSVlHX2xCUDJYT0hSRUl2WWZDM25mTEJ0djZMVXZCSTlyVklhOTJuOGV6dmV2QV9wMC1IUmRZa2NQUkE5eVlOTjdiQVpiaDc2Qnc?oc=5",
+        "koTitle": "인간-AI 협업 모델: 업무의 미래가 대체가 아닌 곱셈인 이유",
+        "enTitle": "The Human-AI Collaboration Model: Why the Future of Work Is Multiplication, Not Replacement",
+        "date": "2026-04-19",
+        "originalDate": "2026-04-18",
+        "sourceName": "The AI Journal",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUHlVU1ZkOVdMM1NkUWl6dWZHVkVuaGhQc2lYc1REWmJZYXZUMEcxMEhubjNmcHZUb2hHT3FfSWJVZVNHSUZkX0Ftb240THhpVWdaWk9mOTFUMDZLRlAxN3JuMGpCa09EYjlRZEw1eDNXUnA0UE9PWHZHbXpiRmt6QTM1ZkRiVVFvYUhyVFY1Z2d4SHdaR19RNWh1RmdMLW9MblFuSkphUXI2VXpRdkI4?oc=5",
         "isRepublished": false,
         "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 미래의 직장 기술을 재구성하는 AI 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! 인간-AI 협업 모델: 업무의 미래가 대체가 아닌 곱셈인 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "Monzo 창업자는 AI 미래에서 당신의 직업에 대해 어두운 예측을합니다.",
-        "enTitle": "Monzo founder makes dark prediction about your job in AI future",
-        "date": "2026-04-18",
-        "originalDate": "2026-04-17",
-        "sourceName": "LADbible",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSTVaWnUybUdCQWZtMzhDLUtkaHp6VG1FYUxtdmJIYWN2YjcxcHo1M3VJbkNuM3c1RTFiQXYyOHlWZjZ5bWllZkpDRkYwS1N2cE9ncy12T3o1OG9ZamdMdUhfNnRoTjc5UHI3ZWFTM0gtUUJpNXNOYzlBSDBFbS1LX0JuSWE0M18tZ2c0MHRpX2pZNkFvbVpxTUhPZUpjbVQ2MzZDcEhGRzMwRkI4VVR5RnUyM1kteTI4bUhZZzVDaWw?oc=5",
+        "koTitle": "Alex Imas: AI는 사회적 기술로 직무를 재편하고 있으며, AGI의 출현은 중추적 인 변화를 가져 왔으며, Claude 코드는 AI의 실용적인 응용 프로그램을 향상시킵니다. | 홀수 랏",
+        "enTitle": "Alex Imas: AI is reshaping job roles towards social skills, the emergence of AGI marks a pivotal shift, and Claude code enhances AI's practical applications | Odd Lots",
+        "date": "2026-04-19",
+        "originalDate": "2026-04-18",
+        "sourceName": "Crypto Briefing",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNZE14SElJcE5ITEpXbmhrSzkzam0zWlNfOVBVVk5OSGtHdDQ5cW8xb2dmWDVCbmRPS0VTNjlQZkw5TmlMRXRLSzJ2c3VVb2hhV3RPeDJMeXhJTkY3VXQ1enNyR0dJUjZuUE5heHhIbkczcUNhOThtanVReWtfYzZjVXN3ZXNKa1FUN25qS00wNWhtVmgzc1RCWmViWXJGa1RwUWEteHl2YXBfZnF2bE9ZdDhpZjBfREZ0Mk1sMEJUQ01SSGt1Q0tqOUY1QUh0TzdyWkF3Y2tiNUJVUDlVNlZlM2tCdUs1VGVkWVl6a25mWFBydndMb2I1QnhoOE8zU2ZfaG90UUFUdHFremRFVnZJQ3ZHMTVkV3Zm?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! Monzo 창업자는 AI 미래에서 당신의 직업에 대해 어두운 예측을합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! Alex Imas: AI는 사회적 기술로 직무를 재편하고 있으며, AGI의 출현은 중추적 인 변화를 가져 왔으며, Claude 코드는 AI의 실용적인 응용 프로그램을 향상시킵니다. | 홀수 랏 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "인공지능이 당신의 일자리를 빼앗을지 묻지 말고, 누가 원하는지 물어보세요.",
-        "enTitle": "Don’t ask if AI will take your jobs, ask who wants it to",
-        "date": "2026-04-18",
+        "koTitle": "미래의 직장 기술을 재구성하는 AI",
+        "enTitle": "AI Reshaping Future Workplace Skills",
+        "date": "2026-04-19",
         "originalDate": "2026-04-17",
-        "sourceName": "The Mail & Guardian",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSF9pNXJxc2M0dDFWNzZPcktFY19vTTQzTDBHN19Md2g4eHJpaDA2NDhCU2xGVlE1YTQwOS1fOFpNdE0zREZnaFRWcnFOUE4wZVBmSkV0QlRXUW9kSkdEMTh4YVhSSGJiZTg2dFNyYW5yTVVXdnhVdFVZS1haLTFHMlFBaTNXa0RrMDExb2c5SmRaMGFkVVFhTUU4Nm5uWk0?oc=5",
+        "sourceName": "WDEF",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE94WVdnWUk3emVucHZhbTI0ZnVWa2tuMXlsSVlHX2xCUDJYT0hSRUl2WWZDM25mTEJ0djZMVXZCSTlyVklhOTJuOGV6dmV2QV9wMC1IUmRZa2NQUkE5eVlOTjdiQVpiaDc2Qnc?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 당신의 일자리를 빼앗을지 묻지 말고, 누가 원하는지 물어보세요. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 미래의 직장 기술을 재구성하는 AI 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "제로지, 코딩없이 AI앱 만드는 ‘제로지 앱’ 출시",
-        "enTitle": "제로지, 코딩없이 AI앱 만드는 ‘제로지 앱’ 출시",
-        "date": "2026-04-18",
-        "originalDate": "2026-04-17",
-        "sourceName": "데일리브리프",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sdjloekZkVU9UQ0xnNlBJTUF2bmxEN2RRY3ZZNXNuRFBPb3VlQjJVU0tKX0dLc0Y3OFQ1S2pLTTRud2c4dlVhYkt2OTFIb3JSTjdHc0VGbmF3VWI2eEN6MTM2MXpUTVR2VUotS2tn?oc=5",
+        "koTitle": "앤트로픽, 올인원 디자인 도구 ‘클로드 디자인’ 공개...어도비·캔바 위협",
+        "enTitle": "앤트로픽, 올인원 디자인 도구 ‘클로드 디자인’ 공개...어도비·캔바 위협",
+        "date": "2026-04-19",
+        "originalDate": "2026-04-18",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYNG1qWmZuaVVVOW5GTFg4d1RLVmpGWVFaakpDN2JpMnVTOUcwcmVUZEpCakg1QzNHdm9BdG5IWW1xNzJVV0F0TjJlU1ZoeEpCeTdYYlg5ZWlJdlF5WFVDXzMzQVVWUTVPb3c?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 제로지, 코딩없이 AI앱 만드는 ‘제로지 앱’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 올인원 디자인 도구 ‘클로드 디자인’ 공개...어도비·캔바 위협 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "세포라, 대화형 AI 서비스 ‘챗GPT’서 앱 출시",
-        "enTitle": "세포라, 대화형 AI 서비스 ‘챗GPT’서 앱 출시",
-        "date": "2026-04-18",
-        "originalDate": "2026-04-16",
-        "sourceName": "약업신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOTR2SlJCanB1dE9HR1l0Zy1jc0xLUWFtbEl5UFlfWGhRNFNXdWdvckJmR0lNVEFHTlZsajBsWWdhcGNfNjZ2dy14OFVqdWFDbjZiR2t6cnJZcktad1A1SUE3NGxicjdKcDZYRUZYQ0xmc3ZHeGVYWmVJUFZfaDhHenJwd0hIUlFlajhsQm15eURtY2NobXl4ck9VSUNNNVZLdTFITGc0YVFkYlM4X1lrbVhWc1dpX1JrdGk5UVhWcmQzWTJtNHoxdGw0ZWtfN3NKQmhKYmNKWlpSMk1uMklXTg?oc=5",
+        "koTitle": "앱 출시 급증 속 앱스토어 활기...AI 효과",
+        "enTitle": "앱 출시 급증 속 앱스토어 활기...AI 효과",
+        "date": "2026-04-19",
+        "originalDate": "2026-04-18",
+        "sourceName": "디지털투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9jby1mekE1eTFLbktyYXQ0ZWFaWWs4V2tXWGdzU0dUdzhOZVJzSmpnSGJBc0o1M0ZPX3Jpb0E3UUpxbTJYVU5OdjJKdWMwR1lfTDgxTWxqTnB5YXRrbjRFNDBYSGlSTEwxdTA5aXdtbVV1Uzg?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 세포라, 대화형 AI 서비스 ‘챗GPT’서 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 앱 출시 급증 속 앱스토어 활기...AI 효과 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "‘미토스 쇼크’에 입장 바꾼 美 백악관…클로드 활용 재추진",
-        "enTitle": "‘미토스 쇼크’에 입장 바꾼 美 백악관…클로드 활용 재추진",
-        "date": "2026-04-18",
-        "originalDate": "2026-04-17",
-        "sourceName": "중앙일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HVjZiLUpsS1dUWG1SbWpETDZhN1lGYzhVNkQwOTBHZWx0NjVWZWdHMl9xVF9oZldqLS02cW4yVE5rcnJiVFFJVEt6Y1NmSlIta0l5NXVR?oc=5",
+        "koTitle": "앤트로픽 ‘클로드 디자인’ 공개…AI 디자인 경쟁 속 성능·비용 논란도",
+        "enTitle": "앤트로픽 ‘클로드 디자인’ 공개…AI 디자인 경쟁 속 성능·비용 논란도",
+        "date": "2026-04-19",
+        "originalDate": "2026-04-18",
+        "sourceName": "이코노미트리뷴",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xaWhTMDNQMWNjekI5dHRSbFJsZVA1c0oyR1JjWWRHekxGYmxZV0ZmblpNLUF2YjlXV2FjU0pQelJER0plaTJCNFdWd05SdXcxakxnT3pIWXNHeS1QcWx1enlNOGwxTEMzdklzeXZlM25PazJRSzRF?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! ‘미토스 쇼크’에 입장 바꾼 美 백악관…클로드 활용 재추진 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽 ‘클로드 디자인’ 공개…AI 디자인 경쟁 속 성능·비용 논란도 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
