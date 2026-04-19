@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-19
+ * 최신 업데이트: 2026-04-20
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "인간-AI 협업 모델: 업무의 미래가 대체가 아닌 곱셈인 이유",
-        "enTitle": "The Human-AI Collaboration Model: Why the Future of Work Is Multiplication, Not Replacement",
-        "date": "2026-04-19",
-        "originalDate": "2026-04-18",
-        "sourceName": "The AI Journal",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUHlVU1ZkOVdMM1NkUWl6dWZHVkVuaGhQc2lYc1REWmJZYXZUMEcxMEhubjNmcHZUb2hHT3FfSWJVZVNHSUZkX0Ftb240THhpVWdaWk9mOTFUMDZLRlAxN3JuMGpCa09EYjlRZEw1eDNXUnA0UE9PWHZHbXpiRmt6QTM1ZkRiVVFvYUhyVFY1Z2d4SHdaR19RNWh1RmdMLW9MblFuSkphUXI2VXpRdkI4?oc=5",
+        "koTitle": "이 세 가지 기술로 당신의 미래를 인공지능으로 증명하세요 — AGI의 아버지는 ‘인간의 일자리는 쓸모없어질 것이다’ 라고 말씀하십니다",
+        "enTitle": "AI-proof your future with these 3 skills — Father of AGI says ‘human jobs will become obsolete’",
+        "date": "2026-04-20",
+        "originalDate": "2026-04-19",
+        "sourceName": "Mint",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPX0ZSWXh1VDViSTFkaUxwVEtERmFwd1VMVDBpcGM3UWdKYm1BUERCR243ZldULXVHaUhvT1BhclltMEJvREd3NnRXWWV3dGVfRnJyZTZjSTQ5X0tyYzUzczNFUC14aUtwTW9XS1NvSjlNeG5FNTdYTUJwYkVMcUp5ODYtR3VtNy1DRFhkSE9IYl9ab1g2ZUZjeXRHVnhZeU5iTE1jYXFfS3l1M1FTU2o2Um9iU1BtR3FET2gwanlXdDF3YmR4TndEMENyRUxFdktiTkp4dm53NW1jMnNPYmZPU0pWVE9QekkycHpHUDE4V3RWVFJoWDJXbWM1djRQaFo3bDkwQlBDTFE3VmfSAZACQVVfeXFMUG9CWTg5V0d0YUZRbTRhOEJpek14V2o1WDFqalJvVDlmWE9heFhha1NqblFvdjNxdnpkZUJuVWstLWU0Njd1YWtfNl9tYWQtUEdWN2hwRUw2VjlMMktYZnpOVnBCdmtubjdpaEhHWWJGN3JIM1JpZzhFQ2w1U1l5TWpuQ2tackxoelhMRWx0RU0wSTZPb01JUGpyVHRIV0VlZjJfOU5mSGFZZi1VYk1jeG93VVZmbjgwbHlxMUdpN0VDX0UtcnA1RTBOLTZULURHSGxpVXVnYTF6SERpbUN1RjNNQTF4U211Z2VXSEFHMTlzNGVXczJlRzNVa0FJRWZ2RHBuLUtZbElhWldkTHE3dTg?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 인간-AI 협업 모델: 업무의 미래가 대체가 아닌 곱셈인 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! 이 세 가지 기술로 당신의 미래를 인공지능으로 증명하세요 — AGI의 아버지는 ‘인간의 일자리는 쓸모없어질 것이다’ 라고 말씀하십니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "Alex Imas: AI는 사회적 기술로 직무를 재편하고 있으며, AGI의 출현은 중추적 인 변화를 가져 왔으며, Claude 코드는 AI의 실용적인 응용 프로그램을 향상시킵니다. | 홀수 랏",
-        "enTitle": "Alex Imas: AI is reshaping job roles towards social skills, the emergence of AGI marks a pivotal shift, and Claude code enhances AI's practical applications | Odd Lots",
-        "date": "2026-04-19",
+        "koTitle": "인간 AI 협업 모델: 업무의 미래가 대체가 아닌 곱셈인 이유",
+        "enTitle": "The Human-AI Collaboration Model: Why the Future of Work Is Multiplication, Not Replacement",
+        "date": "2026-04-20",
         "originalDate": "2026-04-18",
-        "sourceName": "Crypto Briefing",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNZE14SElJcE5ITEpXbmhrSzkzam0zWlNfOVBVVk5OSGtHdDQ5cW8xb2dmWDVCbmRPS0VTNjlQZkw5TmlMRXRLSzJ2c3VVb2hhV3RPeDJMeXhJTkY3VXQ1enNyR0dJUjZuUE5heHhIbkczcUNhOThtanVReWtfYzZjVXN3ZXNKa1FUN25qS00wNWhtVmgzc1RCWmViWXJGa1RwUWEteHl2YXBfZnF2bE9ZdDhpZjBfREZ0Mk1sMEJUQ01SSGt1Q0tqOUY1QUh0TzdyWkF3Y2tiNUJVUDlVNlZlM2tCdUs1VGVkWVl6a25mWFBydndMb2I1QnhoOE8zU2ZfaG90UUFUdHFremRFVnZJQ3ZHMTVkV3Zm?oc=5",
+        "sourceName": "The AI Journal",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUHlVU1ZkOVdMM1NkUWl6dWZHVkVuaGhQc2lYc1REWmJZYXZUMEcxMEhubjNmcHZUb2hHT3FfSWJVZVNHSUZkX0Ftb240THhpVWdaWk9mOTFUMDZLRlAxN3JuMGpCa09EYjlRZEw1eDNXUnA0UE9PWHZHbXpiRmt6QTM1ZkRiVVFvYUhyVFY1Z2d4SHdaR19RNWh1RmdMLW9MblFuSkphUXI2VXpRdkI4?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! Alex Imas: AI는 사회적 기술로 직무를 재편하고 있으며, AGI의 출현은 중추적 인 변화를 가져 왔으며, Claude 코드는 AI의 실용적인 응용 프로그램을 향상시킵니다. | 홀수 랏 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "88%",
+        "analysis": "글로벌 AI 트렌드 체크! 인간 AI 협업 모델: 업무의 미래가 대체가 아닌 곱셈인 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "미래의 직장 기술을 재구성하는 AI",
-        "enTitle": "AI Reshaping Future Workplace Skills",
-        "date": "2026-04-19",
+        "koTitle": "2026년 인도에서 가장 수요가 많은 IT 일자리 10개 (그리고 이를 얻는 방법)",
+        "enTitle": "The 10 Most In-Demand IT Jobs in India for 2026 (And How to Get Them)",
+        "date": "2026-04-20",
         "originalDate": "2026-04-17",
-        "sourceName": "WDEF",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE94WVdnWUk3emVucHZhbTI0ZnVWa2tuMXlsSVlHX2xCUDJYT0hSRUl2WWZDM25mTEJ0djZMVXZCSTlyVklhOTJuOGV6dmV2QV9wMC1IUmRZa2NQUkE5eVlOTjdiQVpiaDc2Qnc?oc=5",
+        "sourceName": "TalentSprint",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa1FIMmg5WjFJZmh3cE5GSEZDWW1BZFlqVHBlcjNCenI2SFpvZVYwV3RxNDUwRXdZQnhTWXVUMVZMSi1VZGltR2ZYS25zTFNiVEl1d2NEOWtOdDBKUEZqeWhOM0loM1hWcVhSQlN6bUdWSEFyVU1Sa29Ebzc0V3FPWlZR?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 미래의 직장 기술을 재구성하는 AI 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 2026년 인도에서 가장 수요가 많은 IT 일자리 10개 (그리고 이를 얻는 방법) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "앤트로픽, 올인원 디자인 도구 ‘클로드 디자인’ 공개...어도비·캔바 위협",
-        "enTitle": "앤트로픽, 올인원 디자인 도구 ‘클로드 디자인’ 공개...어도비·캔바 위협",
-        "date": "2026-04-19",
-        "originalDate": "2026-04-18",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYNG1qWmZuaVVVOW5GTFg4d1RLVmpGWVFaakpDN2JpMnVTOUcwcmVUZEpCakg1QzNHdm9BdG5IWW1xNzJVV0F0TjJlU1ZoeEpCeTdYYlg5ZWlJdlF5WFVDXzMzQVVWUTVPb3c?oc=5",
+        "koTitle": "[AI 뉴스] 개발자 실직 시대 열리나? 앤스로픽 '클로드 오퍼스 4.7' 출시",
+        "enTitle": "[AI 뉴스] 개발자 실직 시대 열리나? 앤스로픽 '클로드 오퍼스 4.7' 출시",
+        "date": "2026-04-20",
+        "originalDate": "2026-04-19",
+        "sourceName": "아웃소싱타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1IQWZpNVhMM0ZtZ0xGSDYzSGlYN2I1RFYwb3kxb2JEZ0RsaGZPRXVISmd1NGU4Z0J1REVBaGExTFhiUHNMaEhXTUk4dFI5NldoWEh0eHhOS0tXTHpweVdadGd0RTR3TWtCNlhhM0ZjaTd6Zw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 올인원 디자인 도구 ‘클로드 디자인’ 공개...어도비·캔바 위협 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [AI 뉴스] 개발자 실직 시대 열리나? 앤스로픽 '클로드 오퍼스 4.7' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "앱 출시 급증 속 앱스토어 활기...AI 효과",
-        "enTitle": "앱 출시 급증 속 앱스토어 활기...AI 효과",
-        "date": "2026-04-19",
-        "originalDate": "2026-04-18",
-        "sourceName": "디지털투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9jby1mekE1eTFLbktyYXQ0ZWFaWWs4V2tXWGdzU0dUdzhOZVJzSmpnSGJBc0o1M0ZPX3Jpb0E3UUpxbTJYVU5OdjJKdWMwR1lfTDgxTWxqTnB5YXRrbjRFNDBYSGlSTEwxdTA5aXdtbVV1Uzg?oc=5",
+        "koTitle": "[AI 뉴스] “데스크톱 AI 전쟁 시작됐다”…구글, 제미나이 맥 앱 출시로 정면 승부",
+        "enTitle": "[AI 뉴스] “데스크톱 AI 전쟁 시작됐다”…구글, 제미나이 맥 앱 출시로 정면 승부",
+        "date": "2026-04-20",
+        "originalDate": "2026-04-19",
+        "sourceName": "아웃소싱타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9NVk5KNWhSbk5sUUhsUGp5TW9WdlpvQXVtdTlQMGNaRDZrUnR1aDR6SGdmMnBlcmljMHpaaGx1MWhmRExNU2k4bUtoVkdDX0lFMm4xd1ZOLTlwRno5aG5rOUs4TTN4ajdyQjFoOFBScU5Edw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 앱 출시 급증 속 앱스토어 활기...AI 효과 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [AI 뉴스] “데스크톱 AI 전쟁 시작됐다”…구글, 제미나이 맥 앱 출시로 정면 승부 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "앤트로픽 ‘클로드 디자인’ 공개…AI 디자인 경쟁 속 성능·비용 논란도",
-        "enTitle": "앤트로픽 ‘클로드 디자인’ 공개…AI 디자인 경쟁 속 성능·비용 논란도",
-        "date": "2026-04-19",
-        "originalDate": "2026-04-18",
-        "sourceName": "이코노미트리뷴",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xaWhTMDNQMWNjekI5dHRSbFJsZVA1c0oyR1JjWWRHekxGYmxZV0ZmblpNLUF2YjlXV2FjU0pQelJER0plaTJCNFdWd05SdXcxakxnT3pIWXNHeS1QcWx1enlNOGwxTEMzdklzeXZlM25PazJRSzRF?oc=5",
+        "koTitle": "아산 청년들의 '취업 하이패스'! AI-디스플레이 인력양성사업 참여 열기 지핀다",
+        "enTitle": "아산 청년들의 '취업 하이패스'! AI-디스플레이 인력양성사업 참여 열기 지핀다",
+        "date": "2026-04-20",
+        "originalDate": "2026-04-19",
+        "sourceName": "뉴스홈(newshome)",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XQW9pc1JXdkpGMGNzZEhxd052ZVUyZGNhMG40aVVPRmY2ZGM3cUM3Z3IzeWFwVWJCV3htdHMwaEdacXh6OGhpYUdsVE9uY2xRUHhKSXZEZ2ozUUo3WUVEQ2lIbkczRVlQUmwzc2R3?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽 ‘클로드 디자인’ 공개…AI 디자인 경쟁 속 성능·비용 논란도 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 아산 청년들의 '취업 하이패스'! AI-디스플레이 인력양성사업 참여 열기 지핀다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
