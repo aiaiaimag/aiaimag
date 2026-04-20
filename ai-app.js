@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-20
+ * 최신 업데이트: 2026-04-21
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "이 세 가지 기술로 당신의 미래를 인공지능으로 증명하세요 — AGI의 아버지는 ‘인간의 일자리는 쓸모없어질 것이다’ 라고 말씀하십니다",
-        "enTitle": "AI-proof your future with these 3 skills — Father of AGI says ‘human jobs will become obsolete’",
-        "date": "2026-04-20",
-        "originalDate": "2026-04-19",
-        "sourceName": "Mint",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPX0ZSWXh1VDViSTFkaUxwVEtERmFwd1VMVDBpcGM3UWdKYm1BUERCR243ZldULXVHaUhvT1BhclltMEJvREd3NnRXWWV3dGVfRnJyZTZjSTQ5X0tyYzUzczNFUC14aUtwTW9XS1NvSjlNeG5FNTdYTUJwYkVMcUp5ODYtR3VtNy1DRFhkSE9IYl9ab1g2ZUZjeXRHVnhZeU5iTE1jYXFfS3l1M1FTU2o2Um9iU1BtR3FET2gwanlXdDF3YmR4TndEMENyRUxFdktiTkp4dm53NW1jMnNPYmZPU0pWVE9QekkycHpHUDE4V3RWVFJoWDJXbWM1djRQaFo3bDkwQlBDTFE3VmfSAZACQVVfeXFMUG9CWTg5V0d0YUZRbTRhOEJpek14V2o1WDFqalJvVDlmWE9heFhha1NqblFvdjNxdnpkZUJuVWstLWU0Njd1YWtfNl9tYWQtUEdWN2hwRUw2VjlMMktYZnpOVnBCdmtubjdpaEhHWWJGN3JIM1JpZzhFQ2w1U1l5TWpuQ2tackxoelhMRWx0RU0wSTZPb01JUGpyVHRIV0VlZjJfOU5mSGFZZi1VYk1jeG93VVZmbjgwbHlxMUdpN0VDX0UtcnA1RTBOLTZULURHSGxpVXVnYTF6SERpbUN1RjNNQTF4U211Z2VXSEFHMTlzNGVXczJlRzNVa0FJRWZ2RHBuLUtZbElhWldkTHE3dTg?oc=5",
+        "koTitle": "구직 전략: 2026년 재향 군인이 집중해야 할 곳",
+        "enTitle": "Job Search Strategy: Where Veterans Should Focus in 2026",
+        "date": "2026-04-21",
+        "originalDate": "2026-04-20",
+        "sourceName": "Clearance Jobs",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcDVrQXhsLXlMS2ZQTXFXOFJ4NUNoS014cFIxU3ZqM0VFT0QxdWJlWmQ5MWtnbXFZdnFieURpNERyaUQzcEVUMnBSaFlxTktzUGZPeDQ5bGNkVFRsTC03TWtvSURvQTNfWTE0Y3ZNN05taE5kUzU5LTBDeXczMEVIMTF0YlVENFh4MlVjOHVKcGdvMEdEYkhHY3l6LVhCZlk?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! 이 세 가지 기술로 당신의 미래를 인공지능으로 증명하세요 — AGI의 아버지는 ‘인간의 일자리는 쓸모없어질 것이다’ 라고 말씀하십니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 구직 전략: 2026년 재향 군인이 집중해야 할 곳 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "인간 AI 협업 모델: 업무의 미래가 대체가 아닌 곱셈인 이유",
-        "enTitle": "The Human-AI Collaboration Model: Why the Future of Work Is Multiplication, Not Replacement",
-        "date": "2026-04-20",
-        "originalDate": "2026-04-18",
-        "sourceName": "The AI Journal",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUHlVU1ZkOVdMM1NkUWl6dWZHVkVuaGhQc2lYc1REWmJZYXZUMEcxMEhubjNmcHZUb2hHT3FfSWJVZVNHSUZkX0Ftb240THhpVWdaWk9mOTFUMDZLRlAxN3JuMGpCa09EYjlRZEw1eDNXUnA0UE9PWHZHbXpiRmt6QTM1ZkRiVVFvYUhyVFY1Z2d4SHdaR19RNWh1RmdMLW9MblFuSkphUXI2VXpRdkI4?oc=5",
+        "koTitle": "Meta Plans 'Biggest Layoffs in History' | Amazon, Snap Lead AI Job Cuts | Vantage on Firstpost",
+        "enTitle": "Meta Plans 'Biggest Layoffs in History' | Amazon, Snap Lead AI Job Cuts | Vantage on Firstpost",
+        "date": "2026-04-21",
+        "originalDate": "2026-04-20",
+        "sourceName": "Firstpost",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNR19MR2o4bS1mYVZtMUZONFVHSFFXQXB2YlRBRkRSZURLdkQ0cTVCMFBYQjhZS3JaNkRfc2Z6N3BVRk9xLWptUHBYemczNThLeDBhQ2l0TkhiWmdpVl9fd2c2QWhKUjkxZC05Y09fYmlta2ptME5FbTVRa05NZzI0ZkNROEIycXVqbWNfMkdfMFhHNzBPbGgxSE04eEJrOFZDNGh6VzY4Zzl6aEtjVi1RV2FxM3FSNmNLd3RVek02aEFPZndZaDc5Tk82N2o3Z9IB0wFBVV95cUxQRnpvbHJWZk5IenI1ZFV5Vk1QemI3by1OSjZsRXlXTzhoSFFWU1A2cjVQdUNGLS1zZU9KQTAxd0YwRTYtMWwyN3hkRk10OTRrbXVhMGtmdDBUQ1V6ZnpmUUNOQVZEaEZ0RFVuSXFONktkUW5pNGVFNkQ2aXNwc3ZxYUgxdVFhY0FJN01aNzFOOERLOHZQLUQ5VDVyak5BcmQ5eTJBV2NGSFFSU0xpOUZtcldKYVd2ekNjMENWbDliYTA2a1RuMXhCYUdDM1A3dXhDcUdn?oc=5",
         "isRepublished": false,
-        "viralRate": "88%",
-        "analysis": "글로벌 AI 트렌드 체크! 인간 AI 협업 모델: 업무의 미래가 대체가 아닌 곱셈인 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! Meta Plans 'Biggest Layoffs in History' | Amazon, Snap Lead AI Job Cuts | Vantage on Firstpost 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "2026년 인도에서 가장 수요가 많은 IT 일자리 10개 (그리고 이를 얻는 방법)",
-        "enTitle": "The 10 Most In-Demand IT Jobs in India for 2026 (And How to Get Them)",
-        "date": "2026-04-20",
-        "originalDate": "2026-04-17",
-        "sourceName": "TalentSprint",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa1FIMmg5WjFJZmh3cE5GSEZDWW1BZFlqVHBlcjNCenI2SFpvZVYwV3RxNDUwRXdZQnhTWXVUMVZMSi1VZGltR2ZYS25zTFNiVEl1d2NEOWtOdDBKUEZqeWhOM0loM1hWcVhSQlN6bUdWSEFyVU1Sa29Ebzc0V3FPWlZR?oc=5",
+        "koTitle": "직장 내 AI: 2025년 보고서 | 맥킨지",
+        "enTitle": "AI in the workplace: A report for 2025 | McKinsey",
+        "date": "2026-04-21",
+        "originalDate": "2026-04-20",
+        "sourceName": "McKinsey & Company",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNHluenp6NE4teVg3bTJiWG9VZk81dDQwcDBJcmVJWlBHdWhIYWRSYTNWX052aHVZdjhfdmxXNk9mTENURGRzdURmMExpTm5VazdfTWZpcUxTV21TcThJbHc2cFluMmRjMXdVeE80ZDhBR0JUWUhJcHJiX2Rva1lGT2tfMDNEOHZzRkJwSUpoM3FwZjh1RU56aXcxclFqNnRyVkRBVkJIbUkyaloxWGpscjJTZ2hYVkNxX0g2d2liUm41MlhaZDQwcl9JTlFtcWVGd3d0Vzg5V3Y?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 2026년 인도에서 가장 수요가 많은 IT 일자리 10개 (그리고 이를 얻는 방법) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 직장 내 AI: 2025년 보고서 | 맥킨지 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[AI 뉴스] 개발자 실직 시대 열리나? 앤스로픽 '클로드 오퍼스 4.7' 출시",
-        "enTitle": "[AI 뉴스] 개발자 실직 시대 열리나? 앤스로픽 '클로드 오퍼스 4.7' 출시",
-        "date": "2026-04-20",
-        "originalDate": "2026-04-19",
-        "sourceName": "아웃소싱타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1IQWZpNVhMM0ZtZ0xGSDYzSGlYN2I1RFYwb3kxb2JEZ0RsaGZPRXVISmd1NGU4Z0J1REVBaGExTFhiUHNMaEhXTUk4dFI5NldoWEh0eHhOS0tXTHpweVdadGd0RTR3TWtCNlhhM0ZjaTd6Zw?oc=5",
+        "koTitle": "[요즘 구글] \"지금 당장 크롬 우측 상단을 확인하세요\" 역대급 기능 터졌다",
+        "enTitle": "[요즘 구글] \"지금 당장 크롬 우측 상단을 확인하세요\" 역대급 기능 터졌다",
+        "date": "2026-04-21",
+        "originalDate": "2026-04-20",
+        "sourceName": "blog.google",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaF96SDVNMDV3T3ZfclB4RTFtdkF0MzRxbnEzOFBmMVJ4OHk1V3FSeVRIcUNVbDI4Rk16dnc3Z1ZLUnZtWFYwY3JCVmtRLUFheFVXTTF6SHFIMXVxeWFCNHQ2STd4b3lxYUZCc1liRjF6NUR5MVRnT1hIN2VxSlMwT1pOUGp0clZFa2M1LWRwTGI1Qm4w?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI 뉴스] 개발자 실직 시대 열리나? 앤스로픽 '클로드 오퍼스 4.7' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [요즘 구글] \"지금 당장 크롬 우측 상단을 확인하세요\" 역대급 기능 터졌다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "[AI 뉴스] “데스크톱 AI 전쟁 시작됐다”…구글, 제미나이 맥 앱 출시로 정면 승부",
-        "enTitle": "[AI 뉴스] “데스크톱 AI 전쟁 시작됐다”…구글, 제미나이 맥 앱 출시로 정면 승부",
-        "date": "2026-04-20",
-        "originalDate": "2026-04-19",
-        "sourceName": "아웃소싱타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9NVk5KNWhSbk5sUUhsUGp5TW9WdlpvQXVtdTlQMGNaRDZrUnR1aDR6SGdmMnBlcmljMHpaaGx1MWhmRExNU2k4bUtoVkdDX0lFMm4xd1ZOLTlwRno5aG5rOUs4TTN4ajdyQjFoOFBScU5Edw?oc=5",
+        "koTitle": "[AI픽] '제미나이 품은 크롬' 한국 출시…웹 탐색 'AI 통합'",
+        "enTitle": "[AI픽] '제미나이 품은 크롬' 한국 출시…웹 탐색 'AI 통합'",
+        "date": "2026-04-21",
+        "originalDate": "2026-04-20",
+        "sourceName": "연합뉴스 한민족센터",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Ta0pXMlVwYWdiejdWSnJsdFczR0gtR3d5VU1feG5tdE50OWdXWkZVR0U3WHU0VDFteVJMSlZTRmNTTWxLWm1UR2JZNGlVbGlBMU9nY0EtdnJGM3E4RlNPbU9YWXMwY09ScXlPdzk4LVRQVmRY?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI 뉴스] “데스크톱 AI 전쟁 시작됐다”…구글, 제미나이 맥 앱 출시로 정면 승부 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [AI픽] '제미나이 품은 크롬' 한국 출시…웹 탐색 'AI 통합' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "아산 청년들의 '취업 하이패스'! AI-디스플레이 인력양성사업 참여 열기 지핀다",
-        "enTitle": "아산 청년들의 '취업 하이패스'! AI-디스플레이 인력양성사업 참여 열기 지핀다",
-        "date": "2026-04-20",
-        "originalDate": "2026-04-19",
-        "sourceName": "뉴스홈(newshome)",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XQW9pc1JXdkpGMGNzZEhxd052ZVUyZGNhMG40aVVPRmY2ZGM3cUM3Z3IzeWFwVWJCV3htdHMwaEdacXh6OGhpYUdsVE9uY2xRUHhKSXZEZ2ozUUo3WUVEQ2lIbkczRVlQUmwzc2R3?oc=5",
+        "koTitle": "하나투어, AI 기반 여행 추천 서비스 ‘어디든지’ 출시",
+        "enTitle": "하나투어, AI 기반 여행 추천 서비스 ‘어디든지’ 출시",
+        "date": "2026-04-21",
+        "originalDate": "2026-04-20",
+        "sourceName": "fetv.co.kr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Jd1V1cnZjV3hJS3pfZFlOcDZhQ25kVk11WTR6ZWJiUXFyR2JmS08yN2JRd0JsanF3NjdkczZ4bG9MdGxPZ0NNd2NGeWUza1hiWWw2eHVxNnZucW93NzJVaDBGOWlGdHlm?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 아산 청년들의 '취업 하이패스'! AI-디스플레이 인력양성사업 참여 열기 지핀다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 하나투어, AI 기반 여행 추천 서비스 ‘어디든지’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
