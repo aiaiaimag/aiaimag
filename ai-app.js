@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-22
+ * 최신 업데이트: 2026-04-23
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "인공지능은 인간을 위해 얼마나 많은 일자리를 창출할까?",
-        "enTitle": "How many jobs will AI create for humans?",
-        "date": "2026-04-22",
-        "originalDate": "2026-04-21",
-        "sourceName": "TechTarget",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMGw2eGY4cEp0V0k1SzYxa3dsU1VqVU0xQkZBUEtFcDNMOUdkZmxmS1BrSjdkdDBndktXbXJqOUpzX0YyWS1lTG1YUjBmeWoteTV4c1lvdkR3T0x6a1FsNlVQcVN0bFVZbHVlUGdQRm0yWlgtYm5sSi1pRUxSU1FFT29tTTJYQVUxMEVj?oc=5",
+        "koTitle": "인공지능과 일의 미래: 인공지능 리터러시가 이제 필수인 이유",
+        "enTitle": "AI and the Future of Work: Why AI Literacy Is Now Essential",
+        "date": "2026-04-23",
+        "originalDate": "2026-04-22",
+        "sourceName": "Modern Ghana",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeXZaWlo3TkVmQkZlWjF3UUpkZnRvZ052QXlxbWM4Z29PcTVFamxRNFFkX1gxT2lNdkxpblQxWlVRMzJabF8wRUtxLXB4OWVkb2I4aHRjNmZ2Zk1mSXBjMHBrSGRzZ05LMmdIYV9TYXkwM0hJdFktWkZUNzhGQ21mcW1TcF9yMXp3NVItLVNSS0E3bWd50gGTAUFVX3lxTE93NUFEd21tU0pSdTVBaGQySVFRYzlZVDJXdmMyYzYwNGZCdmRDa01PemJvLXBMWWNyVGl5dzNzcU1ldmNhZXBzVzVGRTUzWmlWdlNmaXJ0eXdVdFVpVzZzZkgxemoyN2lTMEhWTFN1YzVKeXhIRm05MVBab05zLTdyR3N1Z0MwMUZMdTl5dzFfRGNrNA?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능은 인간을 위해 얼마나 많은 일자리를 창출할까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능과 일의 미래: 인공지능 리터러시가 이제 필수인 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "찬란한 인공지능 미래를 위해 직업을 희생하세요",
-        "enTitle": "Sacrifice your job for the glorious AI future",
-        "date": "2026-04-22",
-        "originalDate": "2026-04-21",
-        "sourceName": "disconnect.blog",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9mWVNyVmNwME91YnBWT25YNl9zUXlOVHIwNVFBNEF0elRGaVRsajh5VjRZdkJJUVRxMGs3cGx3Sm43TmFsSWlrR0xWNmZ6Y3l5Z1JIUHFab3NZdFR0ek92Mm44OTBvX3Y2anloMXk1V0FmM1dKdlhETDB3?oc=5",
+        "koTitle": "노벨상을 수상한 경제학자는 Anthropic CEO의 화이트 칼라 일자리 폐기에 대한 경고로 확신하지 못합니다.",
+        "enTitle": "Nobel Prize-winning economist isn't convinced by Anthropic CEO's warning of a white-collar jobs wipeout",
+        "date": "2026-04-23",
+        "originalDate": "2026-04-22",
+        "sourceName": "Business Insider",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVUliWDd4TEphS2gzLWU4NHBfU19nTXdrbHluNURqSDJwZmpxUTEzSjRlcnBZNUFDNUFjRUpjR2NUTjQ2cm1hZVczM3BrTTBQY2kzX2pNZThfY0NER2hyVEk4bWE0RnkzSGZNMEx6b3ItOTRhdlVBTklGT1lBMW14M1gyVWNnUHAzdWp3aEltS3NPeTRIMnU5eHdoMTZ1czR0?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 찬란한 인공지능 미래를 위해 직업을 희생하세요 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 노벨상을 수상한 경제학자는 Anthropic CEO의 화이트 칼라 일자리 폐기에 대한 경고로 확신하지 못합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "직업의 미래는 커리어 경로를 재구축하는 데 달려 있습니다.",
-        "enTitle": "The Future Of Work Depends On Rebuilding Career Pathways",
-        "date": "2026-04-22",
-        "originalDate": "2026-04-21",
-        "sourceName": "Forbes",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVExpQ1ZqbHJDZXJCY3NEcHVZRXhtX21HR3N3U0xRa1pLMFQxZHpqd2djQzdNLW0wTkhyWXJHYndzQlRUVUw3d3h0T2pUaHJoZHZtb2dnMFpJMlVTZXZ1LXNnZjYzZUcwbTNodzR0RWFhbWJSSFVBSzNBZkoyeUc3TmRfRzQ2d21aU0JkWFVudF91blZheUVnbDBEMHhBS1RRQ2ZremZBMnNubjhwMVFaLUlZMHo?oc=5",
+        "koTitle": "직장 내 AI: 2025년 보고서 | 맥킨지",
+        "enTitle": "AI in the workplace: A report for 2025 | McKinsey",
+        "date": "2026-04-23",
+        "originalDate": "2026-04-22",
+        "sourceName": "McKinsey & Company",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNHluenp6NE4teVg3bTJiWG9VZk81dDQwcDBJcmVJWlBHdWhIYWRSYTNWX052aHVZdjhfdmxXNk9mTENURGRzdURmMExpTm5VazdfTWZpcUxTV21TcThJbHc2cFluMmRjMXdVeE80ZDhBR0JUWUhJcHJiX2Rva1lGT2tfMDNEOHZzRkJwSUpoM3FwZjh1RU56aXcxclFqNnRyVkRBVkJIbUkyaloxWGpscjJTZ2hYVkNxX0g2d2liUm41MlhaZDQwcl9JTlFtcWVGd3d0Vzg5V3Y?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 직업의 미래는 커리어 경로를 재구축하는 데 달려 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 직장 내 AI: 2025년 보고서 | 맥킨지 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "AI가 앱 죽인다고 했는데… iOS·안드로이드 신규앱 출시 104% 급증",
-        "enTitle": "AI가 앱 죽인다고 했는데… iOS·안드로이드 신규앱 출시 104% 급증",
-        "date": "2026-04-22",
-        "originalDate": "2026-04-21",
-        "sourceName": "디지털투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1PVEVqNG8yaHNMSTNWX3U5UHdGTXBUUGdZWExqYVk5bmZVdWJ3YmR0aFJ4NVRHMXZRSWJvOFVVd3J3VHFoNWZzSnN5VFpOVy1hemxjQU1WUU5vaHpYNWVQc3J3Uk9jdkgyUENzLTMxVVVkZlk?oc=5",
+        "koTitle": "너티코드, AI 감정 기록 앱 '마이모리' 출시 1년 만에 글로벌 다운로드 50만 건 돌파",
+        "enTitle": "너티코드, AI 감정 기록 앱 '마이모리' 출시 1년 만에 글로벌 다운로드 50만 건 돌파",
+        "date": "2026-04-23",
+        "originalDate": "2026-04-22",
+        "sourceName": "인공지능신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFByODVNbUJVd1AySlNBZjgtYl95SWhiSXBaN2x1SllCekJtWDdHQkhaTTVZVjl3U2cwWlNFRkRCM29QbXpyY3BGVzlKTFJDM1Q3TzNVM2c4NVRXVHJhWENuUGpEbzJSQjA?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! AI가 앱 죽인다고 했는데… iOS·안드로이드 신규앱 출시 104% 급증 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 너티코드, AI 감정 기록 앱 '마이모리' 출시 1년 만에 글로벌 다운로드 50만 건 돌파 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "웍스피어 클릭, 'AI 한국어 역량 진단' 서비스 출시",
-        "enTitle": "웍스피어 클릭, 'AI 한국어 역량 진단' 서비스 출시",
-        "date": "2026-04-22",
-        "originalDate": "2026-04-21",
-        "sourceName": "아이뉴스24",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBWU1RQV1k0YlFTd3laUnBqbnh6blloSFlDTWtFVEhNT0tyS2IyQVBNRnFuY2k5WEc2UEd4aVNFX3Y3V3JVUWhnVmtGMG0?oc=5",
+        "koTitle": "안랩 \"유명 AI 서비스 클로드 사칭 피싱사이트 주의하세요\"",
+        "enTitle": "안랩 \"유명 AI 서비스 클로드 사칭 피싱사이트 주의하세요\"",
+        "date": "2026-04-23",
+        "originalDate": "2026-04-22",
+        "sourceName": "지디넷코리아",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aYmVqZmdlajIzd0tGdXI1N0lhbUFKWTRVVHlXcDRsejVmMktpVTl4Q2E4bmxabGFjci1kbXBUNk9sbXc5dDE4Rm5SVjYycE1nRVNDUlpR?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 웍스피어 클릭, 'AI 한국어 역량 진단' 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 안랩 \"유명 AI 서비스 클로드 사칭 피싱사이트 주의하세요\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "[실제 써보니] 크롬 속 제미나이…검색·여행 '한 번에'",
-        "enTitle": "[실제 써보니] 크롬 속 제미나이…검색·여행 '한 번에'",
-        "date": "2026-04-22",
-        "originalDate": "2026-04-21",
-        "sourceName": "연합뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1naUhSem1jRWxFMnZwdG9aTmdRcnFNeFdaSHNmLTVfV0phZkJwM2wyeTJaU2x3aHZZLXRza01XMGxDQ1Vhbm9sTjRLMHJ6b0oxRHhfSEh1dUxQRWPSAWBBVV95cUxOZ0ZVWlNYYU10UnZ3Rkt3LTZRRWktZHJ6SkhoTm1YbVBpa0hseFp3Zzl3ZGJLVzRvaEJCZXJZVjBidDYxVUluSy1EcWZmYW1oLUhjREpMeWJGZTVIN0ZZUDc?oc=5",
+        "koTitle": "제로베이스, ‘AI 에듀스’ 도입… 데이터 기반 취업 지원 서비스 강화",
+        "enTitle": "제로베이스, ‘AI 에듀스’ 도입… 데이터 기반 취업 지원 서비스 강화",
+        "date": "2026-04-23",
+        "originalDate": "2026-04-22",
+        "sourceName": "서울경제TV",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9QSkY3c1U4VWkxNXZwODNWSWxJYVR4TG1PRzZON3RPVk1ORkRtcFNHYkZTZGd6dmlWTVdKeml5eWNTOS1menRtVXRkNUQ0d24yR1B1d2VaUXgyZFBSMFp6YzdQU0Q?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! [실제 써보니] 크롬 속 제미나이…검색·여행 '한 번에' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 제로베이스, ‘AI 에듀스’ 도입… 데이터 기반 취업 지원 서비스 강화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
