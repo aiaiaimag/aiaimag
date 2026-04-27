@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-27
+ * 최신 업데이트: 2026-04-28
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "'급진화 된 느낌': 메타 AI 임원이 에이전트가 최고 근로자를 때리는 것을 목격했습니다. 이제 그녀는 Z세대가 사라지기 전에 일자리를 찾을 수 있도록 비영리 단체를 설립했습니다.",
-        "enTitle": "'You feel radicalized': A Meta AI exec watched agents beat her top workers. Now she's built a nonprofit to help Gen Z find jobs before they disappear",
-        "date": "2026-04-27",
-        "originalDate": "2026-04-26",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNDk5SnJIXzZFTDUwbVJZbzJnZTBZalE1STZnXzhnX3d4d180ZVdTNTlPVWdJQnNzUXdaZkZYdkZKZFlteTk2SE5kcVk1bEZDZ2ctaFp2ZWZ0SlkwY3lFc21PVDBxV3BsS0FCcExQQTZfckItSktUU1hLUUk2VWVyYXZYWXdzU2Yxb2l3?oc=5",
+        "koTitle": "인공지능이 당신의 미래 커리어를 결정할까요?",
+        "enTitle": "Should AI decide your future career?",
+        "date": "2026-04-28",
+        "originalDate": "2026-04-27",
+        "sourceName": "ndsmcobserver.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS1hzMXkwRWRTTzdNVnpocUcwc09ldThxM3dCaDNhaHlQbG5RakV2U3NHa3JCUFJRem5fd2E5THZYQXp5LW1mVzg4cnRUR1dmZ01peDM3Zk03T011MjBkZ0ttel94dXdyaHl6TnBRQXdSRVUxcVZQR19QSWd2eGlOMFFpRlZ2THBp?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! '급진화 된 느낌': 메타 AI 임원이 에이전트가 최고 근로자를 때리는 것을 목격했습니다. 이제 그녀는 Z세대가 사라지기 전에 일자리를 찾을 수 있도록 비영리 단체를 설립했습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 당신의 미래 커리어를 결정할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "취업 시장을 재편하기 위한 커다란 'A' 세트 (AI가 아님)",
-        "enTitle": "The big 'A' set to reshape the job market (it's not AI)",
-        "date": "2026-04-27",
-        "originalDate": "2026-04-26",
-        "sourceName": "Business Insider",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1OVmdjaG0yalIxYklEWmppcFRZSVoyczkyN0RGTE9UTG5DWFFGZ19PQmdLek01YV9XdThfSUwxeE5mVnhUcG5EOWFrVTZISUo0YnNJWkJOMXI5VHM5RjQ5S3FZbHdXN3dCQnR6ZWhWNnVjVmtNTkZlTXI2Qms?oc=5",
+        "koTitle": "인공지능과 일의 미래",
+        "enTitle": "Artificial intelligence and the future of work",
+        "date": "2026-04-28",
+        "originalDate": "2026-04-27",
+        "sourceName": "Meer | English edition",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOclRxeUdTa1hwREo2NFNNYTJIc1VjbkZ2cXFtNmNJYkFOMi1Pa2N5UlRZMHdGUWhfeWJMSHduUEpGTHJWNFpXUkRPOFFJRUVPXzBXTTc3djdsX0JWTHJFN21zMUpxTW1mRElmUmdGd195T0poRFUyWlY5UUN4ODZFU2NUOA?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 취업 시장을 재편하기 위한 커다란 'A' 세트 (AI가 아님) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능과 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "일론 머스크 (Elon Musk) 는 AI가 풍요로운 세상을 만들 것이기 때문에 은퇴를 위한 저축은 무의미하다고 말합니다: ‘그것은 중요하지 않을 것입니다’",
-        "enTitle": "Elon Musk says saving for retirement is irrelevant because AI is going to create a world of abundance: ‘It won't matter’",
-        "date": "2026-04-27",
-        "originalDate": "2026-04-26",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUEJ0SDRuVTVFQ2pmNjNmcFlrbi1ubUh3QjRDcW5nYnotMUVvNHlFOHhPMEtpaWRGenlzR2pQU0RYSGFjNjliYnBnTU5hOXFIdl9rRVRYODNsR1Z4dEl1NVBUVU4xY2hNdEZtbFZqdEQ1ajg1ZmE0Nll1c3FRZjJLckt4X1owSTFLNk1pVlBPdTNwXzlNVEktcnQ3bm9sN20zYVFOQkpKaDVXU0RUQ1FnOFNaSjItZUVDRXZFbQ?oc=5",
+        "koTitle": "넷플릭스 공동 창업자 리드 헤이스팅스 (Reed Hastings) 는 인공지능 (AI) 이 일자리를 재구성함에 따라 STEM이 '과도하게 끝났다' 고 말하며,",
+        "enTitle": "Netflix Co-Founder Reed Hastings Says STEM Is 'Overdone' As AI Reshapes Jobs, Urges Shift To Emotional In",
+        "date": "2026-04-28",
+        "originalDate": "2026-04-27",
+        "sourceName": "Benzinga",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNaFRteVdCejN3R0RmVzk1UXQ2VnpDWGNFb3RSazM1QU9nQjN6cE5YUVN3WGlOQlh1Zm1uUHpiUWxydGp4WW5UQVJoZk1jNTFoN3ZKcXFvdkJUeF9yMjlYRmwyaEtueFdyVS0tYXFicTZjN2F5bUxldzhkWTNqRkQ5bkNUT3R6Y04tTVkwaXBneEc4RXc5UEZnN09kZVBTOUJFaWFBSjM0b3FDakE2OWU4RzRXNXFSUDRSVDMxQzJSTFZRN04wVzcyM0JjSkdvMENFTzFJWlR4Q1laUVpmdVpSQVdsaWl5dVN6XzNKOTdMTXZ2VERKeDA1RUlMRXM5YkV2WHd6eGsxY3RaZw?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 일론 머스크 (Elon Musk) 는 AI가 풍요로운 세상을 만들 것이기 때문에 은퇴를 위한 저축은 무의미하다고 말합니다: ‘그것은 중요하지 않을 것입니다’ 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 넷플릭스 공동 창업자 리드 헤이스팅스 (Reed Hastings) 는 인공지능 (AI) 이 일자리를 재구성함에 따라 STEM이 '과도하게 끝났다' 고 말하며, 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "스페이스 앤 타임, 온체인 개발을 간소화하는 ‘드림스페이스 AI 앱 빌더’ 출시",
-        "enTitle": "스페이스 앤 타임, 온체인 개발을 간소화하는 ‘드림스페이스 AI 앱 빌더’ 출시",
-        "date": "2026-04-27",
-        "originalDate": "2026-04-26",
-        "sourceName": "Bitcoin News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRUJKd1hsbXE5UEs5QVBjQVQyVjBxMDBZWHJWTXMtYk1uSFZPLUMxS3JVVnlXenM5YnVTdHFQS2ljdGFUQmpNd013NkRESEVNcjdPMmxHSTl0azRBYUdYYTFodG9hZnZuU3E4YmhtOHN1SUEwVlZVV3N2SWtzRTRacjAxTkoxUk43clhXaThJcFBWbVBJdHlCOUZkaDhhZjdzeXJCSHR4WXNETUJpYzBvcmNPWi1ndVdv?oc=5",
+        "koTitle": "이제 Mac 환경에서도 제미나이 앱을 만나보세요",
+        "enTitle": "이제 Mac 환경에서도 제미나이 앱을 만나보세요",
+        "date": "2026-04-28",
+        "originalDate": "2026-04-27",
+        "sourceName": "blog.google",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcW9xdjdiX1hrZHNlRXY1Q2FvZHRKTWU1OU5EWmtNUTRRSnhmbnN0bUVlbXNXZnNyNWFsa2JEdG9mbFpaSFNCR3Q1T0Z3bnRUdU5lcW0tTGJSQlBUODZQWlpySGJhaDI1UGVpc1E5eXgySHRQQXJSRFFzZTh6U25XMg?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 스페이스 앤 타임, 온체인 개발을 간소화하는 ‘드림스페이스 AI 앱 빌더’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 이제 Mac 환경에서도 제미나이 앱을 만나보세요 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "완벽한 온프레미스 환경에서 '제미나이' 구동하는 시스템 등장",
-        "enTitle": "완벽한 온프레미스 환경에서 '제미나이' 구동하는 시스템 등장",
-        "date": "2026-04-27",
-        "originalDate": "2026-04-26",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB6NnRySVFHdzVyRW5PbnUwYUZueHdrdW1jTlRZZGl2RVd3WDNxVXdSeThOMUtnWWU5eEZVaEFYam9oZWtHZS1SSGJhMnZ5T1NNalNYcXV5bEVRNDZNNDVqNWtNSjkxaVhBSkE?oc=5",
+        "koTitle": "ChatGPT vs Claude, 같은 질문에도 비용이 다른 이유: ‘토큰 산출 격차’의 비밀 | 인사이트리포트 | 삼성SDS",
+        "enTitle": "ChatGPT vs Claude, 같은 질문에도 비용이 다른 이유: ‘토큰 산출 격차’의 비밀 | 인사이트리포트 | 삼성SDS",
+        "date": "2026-04-28",
+        "originalDate": "2026-04-27",
+        "sourceName": "Samsung SDS",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRXltMkQ5bFhZY3Q5ZWxOVC15QXBfQmEtYlV2ZGtTaHVKbmFEd0prRTMwc0xhZXdoc0h3T1l5T0FLUmdQM1REU1lzaEU3SU9oOHI1Y3c1cnc0QVFjMGJtbjVqbDBoY0J2Z1RTTjlUQUNLQkFkUlBSVWd0MS1NaVliUUEzQnhfSDBXOTAyLWNhcDF3ZlZCbFpPWDhR?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 완벽한 온프레미스 환경에서 '제미나이' 구동하는 시스템 등장 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! ChatGPT vs Claude, 같은 질문에도 비용이 다른 이유: ‘토큰 산출 격차’의 비밀 | 인사이트리포트 | 삼성SDS 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "쇼핑·광고 업은 네카오, 1Q 실적 청신호…'AI 수익화'는 아직",
-        "enTitle": "쇼핑·광고 업은 네카오, 1Q 실적 청신호…'AI 수익화'는 아직",
-        "date": "2026-04-27",
-        "originalDate": "2026-04-26",
-        "sourceName": "뉴스1",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Ua0RvYk9ZLXpxUmJyTHY2STg4a3FfYXo1UGtBLW9YWVlOTVBta2g0TGxzQkdOUXJFUW1JUmNFSm1uNkhzSWQ1MHVsY2tJRDZpczJ6VTF5dVp5bWVOVFB3?oc=5",
+        "koTitle": "[AI 트렌드] “직함보다 ‘무엇을 할 수 있느냐’”…AI가 뒤흔드는 채용의 룰",
+        "enTitle": "[AI 트렌드] “직함보다 ‘무엇을 할 수 있느냐’”…AI가 뒤흔드는 채용의 룰",
+        "date": "2026-04-28",
+        "originalDate": "2026-04-27",
+        "sourceName": "AI라이프경제",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45NldMT0lXNlJRd1IyN3NjTDdCa3NqRXgxVS11WUdSM0k2Z2wwbF8zbndVT1UyUC1kTFpoU0FUQ09CVmtYRW5mUG1EM194dHBoM1ktTVNSYnhPUTRvcXlkbUZ1Nmhib0c4ajB2ZtIBb0FVX3lxTE5yLTRFNFk4UUFrcU0zMHRVUmVGNk01OS10TDk2TEVtRjZ0a3QxSHhWQ3BpZ0JqU3VlYzRFcnVXcjJMaF9aYldUVUlWMnc2NFpubWx6d3U0QURUR0F1N0poWGJtclNMYlBnZkhHU0FlQQ?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 쇼핑·광고 업은 네카오, 1Q 실적 청신호…'AI 수익화'는 아직 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [AI 트렌드] “직함보다 ‘무엇을 할 수 있느냐’”…AI가 뒤흔드는 채용의 룰 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
