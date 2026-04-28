@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-28
+ * 최신 업데이트: 2026-04-29
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "인공지능이 당신의 미래 커리어를 결정할까요?",
-        "enTitle": "Should AI decide your future career?",
-        "date": "2026-04-28",
-        "originalDate": "2026-04-27",
-        "sourceName": "ndsmcobserver.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS1hzMXkwRWRTTzdNVnpocUcwc09ldThxM3dCaDNhaHlQbG5RakV2U3NHa3JCUFJRem5fd2E5THZYQXp5LW1mVzg4cnRUR1dmZ01peDM3Zk03T011MjBkZ0ttel94dXdyaHl6TnBRQXdSRVUxcVZQR19QSWd2eGlOMFFpRlZ2THBp?oc=5",
+        "koTitle": "대체 또는 재창조? B-학교는 AI, 일자리 및 MBA 파이프라인에 대한 불확실성에 직면합니다.",
+        "enTitle": "Replace Or Reinvent? B-Schools Confront Uncertainty Around AI, Jobs, And The MBA Pipeline",
+        "date": "2026-04-29",
+        "originalDate": "2026-04-28",
+        "sourceName": "Poets&Quants",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRHlqaFJab2hVdEFYRVNCTTBjc2xVV3l1azdTcm9NWlE4Q1VNR2ZGWldTZlBUSlFaYl9oZzlubFBrUTdabVRHOWQ4QUJlc21xN2xHVEJQenlSN29KN3A0d0ZuUWJIbkpkUU15QzhUTzRkZWw0alBlWlZJRHM5aFRwN05EbWJnUTBjNDZEalRHbEhDQlZXZHo4TE90azhrR3NtVkpzbzdVNHp2eGxvN2xuQnVoQ1FOZmxkYUtLX2FsSnNiVVlxUlFZVnBkejJBMU1qckd0MWpRam5vN3huSlg4?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 당신의 미래 커리어를 결정할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! 대체 또는 재창조? B-학교는 AI, 일자리 및 MBA 파이프라인에 대한 불확실성에 직면합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "인공지능과 일의 미래",
-        "enTitle": "Artificial intelligence and the future of work",
-        "date": "2026-04-28",
-        "originalDate": "2026-04-27",
-        "sourceName": "Meer | English edition",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOclRxeUdTa1hwREo2NFNNYTJIc1VjbkZ2cXFtNmNJYkFOMi1Pa2N5UlRZMHdGUWhfeWJMSHduUEpGTHJWNFpXUkRPOFFJRUVPXzBXTTc3djdsX0JWTHJFN21zMUpxTW1mRElmUmdGd195T0poRFUyWlY5UUN4ODZFU2NUOA?oc=5",
+        "koTitle": "영국 CEO의 절반은 AI가 일자리를 줄일 것으로 기대하지만 데이터는 다른 이야기를 전합니다.",
+        "enTitle": "Half of UK CEOs Expect AI to Cut Jobs, But Data Tells Different Story",
+        "date": "2026-04-29",
+        "originalDate": "2026-04-28",
+        "sourceName": "Raconteur",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNjh2ZF9KTHNCeW9NTmxhcWg5YWYycVVDcXB0TXYxNWhJaTRLdEo0dm0yeFFlRXFhcXVERlkzVHZwMlBXVUhtOVFQYURVUUxtTlQyM2Z6Wl95VkNHLTFRRFZHQVpOd2JpYnZQMF9pb1dBTHdMWFkxa1pmdkFBZ3lZdnUzbENoT2FyTm1VSEU4ODAzczQtcWFwWVFPUnBuUQ?oc=5",
         "isRepublished": false,
         "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능과 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 영국 CEO의 절반은 AI가 일자리를 줄일 것으로 기대하지만 데이터는 다른 이야기를 전합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "넷플릭스 공동 창업자 리드 헤이스팅스 (Reed Hastings) 는 인공지능 (AI) 이 일자리를 재구성함에 따라 STEM이 '과도하게 끝났다' 고 말하며,",
-        "enTitle": "Netflix Co-Founder Reed Hastings Says STEM Is 'Overdone' As AI Reshapes Jobs, Urges Shift To Emotional In",
-        "date": "2026-04-28",
-        "originalDate": "2026-04-27",
-        "sourceName": "Benzinga",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNaFRteVdCejN3R0RmVzk1UXQ2VnpDWGNFb3RSazM1QU9nQjN6cE5YUVN3WGlOQlh1Zm1uUHpiUWxydGp4WW5UQVJoZk1jNTFoN3ZKcXFvdkJUeF9yMjlYRmwyaEtueFdyVS0tYXFicTZjN2F5bUxldzhkWTNqRkQ5bkNUT3R6Y04tTVkwaXBneEc4RXc5UEZnN09kZVBTOUJFaWFBSjM0b3FDakE2OWU4RzRXNXFSUDRSVDMxQzJSTFZRN04wVzcyM0JjSkdvMENFTzFJWlR4Q1laUVpmdVpSQVdsaWl5dVN6XzNKOTdMTXZ2VERKeDA1RUlMRXM5YkV2WHd6eGsxY3RaZw?oc=5",
+        "koTitle": "직장 내 AI: 2025년 보고서 | 맥킨지",
+        "enTitle": "AI in the workplace: A report for 2025 | McKinsey",
+        "date": "2026-04-29",
+        "originalDate": "2026-04-28",
+        "sourceName": "McKinsey & Company",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNHluenp6NE4teVg3bTJiWG9VZk81dDQwcDBJcmVJWlBHdWhIYWRSYTNWX052aHVZdjhfdmxXNk9mTENURGRzdURmMExpTm5VazdfTWZpcUxTV21TcThJbHc2cFluMmRjMXdVeE80ZDhBR0JUWUhJcHJiX2Rva1lGT2tfMDNEOHZzRkJwSUpoM3FwZjh1RU56aXcxclFqNnRyVkRBVkJIbUkyaloxWGpscjJTZ2hYVkNxX0g2d2liUm41MlhaZDQwcl9JTlFtcWVGd3d0Vzg5V3Y?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 넷플릭스 공동 창업자 리드 헤이스팅스 (Reed Hastings) 는 인공지능 (AI) 이 일자리를 재구성함에 따라 STEM이 '과도하게 끝났다' 고 말하며, 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 직장 내 AI: 2025년 보고서 | 맥킨지 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "이제 Mac 환경에서도 제미나이 앱을 만나보세요",
-        "enTitle": "이제 Mac 환경에서도 제미나이 앱을 만나보세요",
-        "date": "2026-04-28",
-        "originalDate": "2026-04-27",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcW9xdjdiX1hrZHNlRXY1Q2FvZHRKTWU1OU5EWmtNUTRRSnhmbnN0bUVlbXNXZnNyNWFsa2JEdG9mbFpaSFNCR3Q1T0Z3bnRUdU5lcW0tTGJSQlBUODZQWlpySGJhaDI1UGVpc1E5eXgySHRQQXJSRFFzZTh6U25XMg?oc=5",
+        "koTitle": "함샤우트글로벌, AI 기반 브랜드 진단 서비스 ‘AIBA’ 출시",
+        "enTitle": "함샤우트글로벌, AI 기반 브랜드 진단 서비스 ‘AIBA’ 출시",
+        "date": "2026-04-29",
+        "originalDate": "2026-04-28",
+        "sourceName": "인더스트리뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oNlFaUkt3dW9PcjhvY09IS2hSQmVtd0RQX3BsR3lLY29XQzF4YWh5b2poa2xxUUU3MU5jZ0FtcTdKN2o0MUJRbXV6N2JZakdZWko2NTNpcUF5bk80RHkxdW9kMGVCZmtOZ2dnV1hpUHpUUQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 이제 Mac 환경에서도 제미나이 앱을 만나보세요 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 함샤우트글로벌, AI 기반 브랜드 진단 서비스 ‘AIBA’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "ChatGPT vs Claude, 같은 질문에도 비용이 다른 이유: ‘토큰 산출 격차’의 비밀 | 인사이트리포트 | 삼성SDS",
-        "enTitle": "ChatGPT vs Claude, 같은 질문에도 비용이 다른 이유: ‘토큰 산출 격차’의 비밀 | 인사이트리포트 | 삼성SDS",
-        "date": "2026-04-28",
-        "originalDate": "2026-04-27",
-        "sourceName": "Samsung SDS",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRXltMkQ5bFhZY3Q5ZWxOVC15QXBfQmEtYlV2ZGtTaHVKbmFEd0prRTMwc0xhZXdoc0h3T1l5T0FLUmdQM1REU1lzaEU3SU9oOHI1Y3c1cnc0QVFjMGJtbjVqbDBoY0J2Z1RTTjlUQUNLQkFkUlBSVWd0MS1NaVliUUEzQnhfSDBXOTAyLWNhcDF3ZlZCbFpPWDhR?oc=5",
+        "koTitle": "[트렌드+] 챗GPT로 대동단결…'AI 커머스' 주도권 고삐",
+        "enTitle": "[트렌드+] 챗GPT로 대동단결…'AI 커머스' 주도권 고삐",
+        "date": "2026-04-29",
+        "originalDate": "2026-04-28",
+        "sourceName": "신아일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uSkFKN0s3bUo3UExJQjFfVVZBWmtRazRSU2g1OTZHVXQ0TmpoUGF3WkdqRFZwTWNaNi1hRVB0UHB4QnhaTHNxaEFibTgzbm9CMUcza19hZVQ5bnlrOTM0emYwSU8tNUZmYTR2UC1OSnk?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! ChatGPT vs Claude, 같은 질문에도 비용이 다른 이유: ‘토큰 산출 격차’의 비밀 | 인사이트리포트 | 삼성SDS 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [트렌드+] 챗GPT로 대동단결…'AI 커머스' 주도권 고삐 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "[AI 트렌드] “직함보다 ‘무엇을 할 수 있느냐’”…AI가 뒤흔드는 채용의 룰",
-        "enTitle": "[AI 트렌드] “직함보다 ‘무엇을 할 수 있느냐’”…AI가 뒤흔드는 채용의 룰",
-        "date": "2026-04-28",
-        "originalDate": "2026-04-27",
-        "sourceName": "AI라이프경제",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45NldMT0lXNlJRd1IyN3NjTDdCa3NqRXgxVS11WUdSM0k2Z2wwbF8zbndVT1UyUC1kTFpoU0FUQ09CVmtYRW5mUG1EM194dHBoM1ktTVNSYnhPUTRvcXlkbUZ1Nmhib0c4ajB2ZtIBb0FVX3lxTE5yLTRFNFk4UUFrcU0zMHRVUmVGNk01OS10TDk2TEVtRjZ0a3QxSHhWQ3BpZ0JqU3VlYzRFcnVXcjJMaF9aYldUVUlWMnc2NFpubWx6d3U0QURUR0F1N0poWGJtclNMYlBnZkhHU0FlQQ?oc=5",
+        "koTitle": "[IT는 지금] 네이버, AI 검색 서비스 'AI탭' 베타 출시 外",
+        "enTitle": "[IT는 지금] 네이버, AI 검색 서비스 'AI탭' 베타 출시 外",
+        "date": "2026-04-29",
+        "originalDate": "2026-04-28",
+        "sourceName": "딜사이트",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpblc2dzNKQkxvbUlfU2doYVVBaVpNT0s1dFUxTzQwSzdPc1JtYnJ5MEJFUnVxOGg5anl5SDZUT3Y3WjB0N1cwaFUxUldER3c?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI 트렌드] “직함보다 ‘무엇을 할 수 있느냐’”…AI가 뒤흔드는 채용의 룰 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! [IT는 지금] 네이버, AI 검색 서비스 'AI탭' 베타 출시 外 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
