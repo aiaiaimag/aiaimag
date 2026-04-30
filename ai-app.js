@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-04-30
+ * 최신 업데이트: 2026-05-01
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "엔비디아 CEO 젠슨 황 (Jensen Huang) 은 이 진로가 AI 시대에 번창하고 새로운 산업 혁명을 주도할 것이라고 말합니다.",
-        "enTitle": "Nvidia CEO Jensen Huang says this career path will thrive in the AI era—and drive a new industrial revolution",
-        "date": "2026-04-30",
-        "originalDate": "2026-04-29",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTVVLY1RlRGlCcHB1TGc0bWxGYm1NZW94VTAzMUFXcHU4U2tPTUtfaW14TDg4UmFoWlhPcFpOa2dMZ0RJSUhYTHB0U2RBa0hOX210dDg1ZnBDOV9wdmVUSUdoa3pBX2ZmMW9PZkR5U0tDWkY0ZllDazUwSVZEanZZME1naS1ldFhSZEMtVHV2MXo1T0N3cHVOWFFhdFpfMEhZVkdveTExYVdJYU12c0ljNXR3dFFfcnFyNU9wdExJQkdSUE10TkVreEh3?oc=5",
+        "koTitle": "대체 또는 재창조? B-학교는 AI, 일자리 및 B-학교 파이프라인에 대한 불확실성에 직면합니다.",
+        "enTitle": "Replace Or Reinvent? B-Schools Confront Uncertainty Around AI, Jobs, And The B-School Pipeline",
+        "date": "2026-05-01",
+        "originalDate": "2026-04-30",
+        "sourceName": "Poets&Quants for Undergrads",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQUmdEUEc0WThqTDFjWjNHclJqandhUHRjUEpwWDFQU0FGZWxtTUgwU3p4RkY3a0xZclRnQ21rM1VJYldIMGE1eHJnR3FhT3VfaHRzYnB3TDFVMEhvQkRCUnlTR2lmSThlVGEwc3hSZ0hLYktySmZ3a2dWSnBMb1BhV3BjOXhZUTFhOXg4ZnlDeGcxMUQwRGJrSnFMVkFBWDQwMkZNNk1PblN4NDJpTlRTTjlUQUc3SmMyNDlaLWEwUHB0YWJRSi1iaFFDRW4wYXlBQUh6QXBENnZiZzQ?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 엔비디아 CEO 젠슨 황 (Jensen Huang) 은 이 진로가 AI 시대에 번창하고 새로운 산업 혁명을 주도할 것이라고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! 대체 또는 재창조? B-학교는 AI, 일자리 및 B-학교 파이프라인에 대한 불확실성에 직면합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "대체 또는 재창조? B-학교는 AI, 일자리 및 MBA 파이프라인에 대한 불확실성에 직면합니다.",
-        "enTitle": "Replace Or Reinvent? B-Schools Confront Uncertainty Around AI, Jobs, And The MBA Pipeline",
-        "date": "2026-04-30",
-        "originalDate": "2026-04-29",
-        "sourceName": "Poets&Quants",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRHlqaFJab2hVdEFYRVNCTTBjc2xVV3l1azdTcm9NWlE4Q1VNR2ZGWldTZlBUSlFaYl9oZzlubFBrUTdabVRHOWQ4QUJlc21xN2xHVEJQenlSN29KN3A0d0ZuUWJIbkpkUU15QzhUTzRkZWw0alBlWlZJRHM5aFRwN05EbWJnUTBjNDZEalRHbEhDQlZXZHo4TE90azhrR3NtVkpzbzdVNHp2eGxvN2xuQnVoQ1FOZmxkYUtLX2FsSnNiVVlxUlFZVnBkejJBMU1qckd0MWpRam5vN3huSlg4?oc=5",
+        "koTitle": "교육자, 의원들은 AI가 미래의 업무에 미치는 영향에 대해 고민합니다.",
+        "enTitle": "Educators, lawmakers grapple with AI’s impact on future of work",
+        "date": "2026-05-01",
+        "originalDate": "2026-04-30",
+        "sourceName": "CBS 19 News",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdnhpc3Y0ZmNVZnFuOThkV1MxcURhNWt4akpobmtzeGNpR0ZfUmxERnBtaGxibFFWdUFmR0hXeVl6ZTNVZzk3T0tOVWF3d3dTbGx3UWZ0MVZtLTNGaXBtOW1UeTFvdUNfNkRfVGRwX3RaTGpRR2ZrdUFPbnpGczJkYnVOV3hXMTVYeVh3c2ljaG54anBnR2FGZ0dNNFN5MEFOb1FQY1RManIwQkJzWFdtbGtYRFdIV3lPdEdTS19neksxX2pSRzdxa2UwZWxtNlZvQXkyY2Vkdm5mRTg?oc=5",
         "isRepublished": false,
         "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 대체 또는 재창조? B-학교는 AI, 일자리 및 MBA 파이프라인에 대한 불확실성에 직면합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 교육자, 의원들은 AI가 미래의 업무에 미치는 영향에 대해 고민합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "TAFE 학생에게 직업을 보장하는 AI-증거 과정",
-        "enTitle": "The AI-proof courses guaranteeing TAFE students a job",
-        "date": "2026-04-30",
-        "originalDate": "2026-04-29",
-        "sourceName": "Herald Sun",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPYkhpYWV1ZG4tMXNieTRDcG80bGFOU3l6UnBuNWk5U1NTT3MzdzJjWWhXZl9ncElOSzBST3NuWWRSSm9SUzF5NEhBOFFCNHJuYW1CZnV4dUVZT1JmSDV3TGNUd00xb0tjRXI3UlAxZEw5UWdNdDJHZHExMGlFdDBHcW9WdXlnOHk3UTVtTHNzSVdKTE5RaXlyaDhGZ3kwNjRSZFZMWkZZcHhGX1RPZVlRZzZWbnhGdEhzY0k1MGctVVVET2F2amxoS1BlcXpkY1lfYlJMbENlN0lNc2J3Q29rS3YtVktlelpvY2VQaW05RUhLcUs5ZjFiN3F6TUE5TW9NYnZhZEo1OGtkUDdaamRwRTVhdWlaT3k0ZGtwM252WWZuVzJZWHJUcVZpRUJGZUt6VzE3YUFOVTI4NVp2SFJZanFZZzfSAcoCQVVfeXFMT3o1MmtNVVEya3FIMUJvMGVGdWwzNnlYUVAwSXQ1NGctWm5RS2hXY1lCaTBOYzlzYkYxSDRUV3lXODFwV0NEX2c4Y3owbElHTlJqVmdsZ2xxRXo5UVRHTldTNVdpcDVfMzRzNTlBZGlEM01waTRfWVNsQXozSkpDeHpNRWhpbXBPRE5CWUdHSWVwMV8ydHRieXpycGJqVnRmSEpXVDhLcERIaXVRaWNsbmZ4Zk1aVmJLT2FQXzZDa2hIQnMyU0dqWGg5T0ZWbUM1amgxWlAtaE1OR21yMEgtbTB5NFUyaTJHRDhuaEFLbWhGUVFDaDRxenUwYXMtMHllQVplSnhBT05OenJaZkNWUlFyTDlrUzNkaDBxSVp5OGtVRjNnUHVldFluQzBNOEFSQzlTNm82c1czdFZESE1pUHlUVTF5al8tSzl3?oc=5",
+        "koTitle": "봇 너머: 인도의 '덱' 청사진이 AI 작업에 대한 두려움에 대한 대본을 뒤집습니다.",
+        "enTitle": "Beyond the bot: India's ''DECKS'' blueprint flips the script on AI job fears",
+        "date": "2026-05-01",
+        "originalDate": "2026-04-30",
+        "sourceName": "ANI News",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeE5ObHRpVlJST2NUS3BqU19qQjRuNUlRZVNlMHNVeDg2N3BLSkxKOUlHQXVmMUFkVlJod0hJcVVETE5HVW9zMlpjSGZ1a2hEY2tySkVlczBJVEktblNYcVRxTVh5Y2tjWTJyY0ZJOGM5dGtBc0hhU2NPMlNIdGV4MFBHUXNadDUyNTlVb1ZFQVBOTThyUzNOb1d3LUFHVUs3b0dXMWM2eUlqbnhqNndYa1oteUFSb0dwSWxMb2ZUb24?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! TAFE 학생에게 직업을 보장하는 AI-증거 과정 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 봇 너머: 인도의 '덱' 청사진이 AI 작업에 대한 두려움에 대한 대본을 뒤집습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "뉴엔AI, AI EXPO KOREA 2026서 AI 트렌드 분석 플랫폼 'Quettai' 공개… \"글로벌 뷰티 특화 AI로 확장\"",
-        "enTitle": "뉴엔AI, AI EXPO KOREA 2026서 AI 트렌드 분석 플랫폼 'Quettai' 공개… \"글로벌 뷰티 특화 AI로 확장\"",
-        "date": "2026-04-30",
-        "originalDate": "2026-04-29",
-        "sourceName": "에이빙",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8ySzJ1MkVjMzFjTDRZOEgwVTQxTUJFWnZJVzgzMFVDUmhibWNhLXZCdlhtRU56WEt6dTlPVS1jeFFIcmZIWEJfdXlMMml6aEVYcXQ4VXVQTzJZRS1ZSE9mc0g4U0Z2YWVpQW44?oc=5",
+        "koTitle": "구글도 ‘제미나이’ 앱 광고 검토…AI 챗봇 수익, 광고 중심으로 전환하나",
+        "enTitle": "구글도 ‘제미나이’ 앱 광고 검토…AI 챗봇 수익, 광고 중심으로 전환하나",
+        "date": "2026-05-01",
+        "originalDate": "2026-04-30",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PVlZDWkNuQ1pITUZEZlI2RW5PdlFRb01MX01aQmJ1MHVILThma3BvdG5FSEFhWGxXVUd3MUN1ZFVnVkxqUXA2M3puYVN6T1RpLVFJWXhwQ3FmaWJqNFc2Wm1Xb0h5Y1Y3Zmc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 뉴엔AI, AI EXPO KOREA 2026서 AI 트렌드 분석 플랫폼 'Quettai' 공개… \"글로벌 뷰티 특화 AI로 확장\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 구글도 ‘제미나이’ 앱 광고 검토…AI 챗봇 수익, 광고 중심으로 전환하나 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "네이버 ‘AI탭’ 베타 출시, 이제 AI가 검색 결과 알아서 한 방에 정리해 준다고? 🤖🔍",
-        "enTitle": "네이버 ‘AI탭’ 베타 출시, 이제 AI가 검색 결과 알아서 한 방에 정리해 준다고? 🤖🔍",
-        "date": "2026-04-30",
-        "originalDate": "2026-04-29",
-        "sourceName": "뉴닉",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE95QzNmUTJxSE9HS3R4ZndNTllZT1p3LUx1dkVNQldnSjFLaHVmcjFZcmlDTFhHS1k3SXdGcDFxRG1XdGxaS3NFSFFmS3hIOXBsdHA0?oc=5",
+        "koTitle": "임팩트스퀘어, AI 기반 임팩트 리포팅 서비스 ‘impactology.ai’ 출시",
+        "enTitle": "임팩트스퀘어, AI 기반 임팩트 리포팅 서비스 ‘impactology.ai’ 출시",
+        "date": "2026-05-01",
+        "originalDate": "2026-04-30",
+        "sourceName": "blockchainus.co.kr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96b1hWYUVWVDV2NGZEVWF6ZE1wbnFsQVFOLVZ3bUNPNm84UFk2OUxHVDVJYTBEUGd0cXNITUwxcUx0S2hJeS1hTWNFdlc3alRvWDBvUjVSckphN2ZhZXBIN2NIbWZYZF9iR251SVgySTc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 네이버 ‘AI탭’ 베타 출시, 이제 AI가 검색 결과 알아서 한 방에 정리해 준다고? 🤖🔍 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 임팩트스퀘어, AI 기반 임팩트 리포팅 서비스 ‘impactology.ai’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "아마존, 베드록에서 오픈AI 최신 모델 서비스 시작...생산성 제품군도 출시",
-        "enTitle": "아마존, 베드록에서 오픈AI 최신 모델 서비스 시작...생산성 제품군도 출시",
-        "date": "2026-04-30",
-        "originalDate": "2026-04-29",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05Nks1UWdVbnpQd2RZbUN1S2FkWkRaeDBGdUgtTzkzRTNEQkx4VFZfYUhNY0tQUWxRbkVheUpqQzZvSHdjcTNIUmN3d0Z2UGFWc2VsdHZhMi1VQVYtWklmN1FIdzZwdXczakE?oc=5",
+        "koTitle": "Klaviyo, AI 고객 서비스 에이전트용 맞춤형 스킬 출시",
+        "enTitle": "Klaviyo, AI 고객 서비스 에이전트용 맞춤형 스킬 출시",
+        "date": "2026-05-01",
+        "originalDate": "2026-04-30",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1RG9tMzRKaTJhY01fVC01ZXExaGExSHVyNV80Nkp3QVNkT1FrWldlcGEyZjZjZ1BkaFQ5UFdqYTFHTGYxb2JHV1JCYzc0QUxIdVU3U2Jxejg5eHpqMlZ4VVdveVNud1pha2dNck54b1A?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 아마존, 베드록에서 오픈AI 최신 모델 서비스 시작...생산성 제품군도 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! Klaviyo, AI 고객 서비스 에이전트용 맞춤형 스킬 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
