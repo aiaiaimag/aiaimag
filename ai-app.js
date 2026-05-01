@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-05-01
+ * 최신 업데이트: 2026-05-02
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "대체 또는 재창조? B-학교는 AI, 일자리 및 B-학교 파이프라인에 대한 불확실성에 직면합니다.",
-        "enTitle": "Replace Or Reinvent? B-Schools Confront Uncertainty Around AI, Jobs, And The B-School Pipeline",
-        "date": "2026-05-01",
-        "originalDate": "2026-04-30",
-        "sourceName": "Poets&Quants for Undergrads",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQUmdEUEc0WThqTDFjWjNHclJqandhUHRjUEpwWDFQU0FGZWxtTUgwU3p4RkY3a0xZclRnQ21rM1VJYldIMGE1eHJnR3FhT3VfaHRzYnB3TDFVMEhvQkRCUnlTR2lmSThlVGEwc3hSZ0hLYktySmZ3a2dWSnBMb1BhV3BjOXhZUTFhOXg4ZnlDeGcxMUQwRGJrSnFMVkFBWDQwMkZNNk1PblN4NDJpTlRTTjlUQUc3SmMyNDlaLWEwUHB0YWJRSi1iaFFDRW4wYXlBQUh6QXBENnZiZzQ?oc=5",
+        "koTitle": "실리콘 밸리 정리 해고가 고용 시장의 미래에 대해 숨기고 있는 것",
+        "enTitle": "What Silicon Valley layoffs hide about the future of the job market",
+        "date": "2026-05-02",
+        "originalDate": "2026-05-01",
+        "sourceName": "The Washington Post",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMm1jSHNoQzVRN0QwUS1uRC1jWURJdDNiSFptaXhPTkNBREhpU2syRFBrTTVjTzVNLXctX2MzbDZkZHFMR3lndmxjQVU3WVZNNldEcWN2VE1tYnVmQy1PUHFoWU5aSGxLVmE5U0l1S3Ztd2JuUkhXeks0dU1rTnRocmNxeVprWjN5MDgxTg?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 대체 또는 재창조? B-학교는 AI, 일자리 및 B-학교 파이프라인에 대한 불확실성에 직면합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! 실리콘 밸리 정리 해고가 고용 시장의 미래에 대해 숨기고 있는 것 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "교육자, 의원들은 AI가 미래의 업무에 미치는 영향에 대해 고민합니다.",
-        "enTitle": "Educators, lawmakers grapple with AI’s impact on future of work",
-        "date": "2026-05-01",
-        "originalDate": "2026-04-30",
-        "sourceName": "CBS 19 News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdnhpc3Y0ZmNVZnFuOThkV1MxcURhNWt4akpobmtzeGNpR0ZfUmxERnBtaGxibFFWdUFmR0hXeVl6ZTNVZzk3T0tOVWF3d3dTbGx3UWZ0MVZtLTNGaXBtOW1UeTFvdUNfNkRfVGRwX3RaTGpRR2ZrdUFPbnpGczJkYnVOV3hXMTVYeVh3c2ljaG54anBnR2FGZ0dNNFN5MEFOb1FQY1RManIwQkJzWFdtbGtYRFdIV3lPdEdTS19neksxX2pSRzdxa2UwZWxtNlZvQXkyY2Vkdm5mRTg?oc=5",
+        "koTitle": "MIT AI 전문가는 Z세대 보급형 일자리를 자동화하면 역효과를 낼 수 있으며 기업의 미래 인력에 비용이 발생할 수 있다고 경고합니다.",
+        "enTitle": "MIT AI expert warns automating Gen Z entry-level jobs could backfire—and cost companies their future workforce",
+        "date": "2026-05-02",
+        "originalDate": "2026-05-01",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZzU0bmYySGRvLU14VWQwdFlNV1RZMnlJR1E5VlYwcGxKaFV2Y0tDSnd3SzJZUURCMTdocG1KVmtScEFqT09HaGp6U1dDQjlTLXlfd0RFeVc0ZDFiaFNnR1UxOTM5aEQyWHluR2FNS2FDTm92X2tra1YyYWo4OXkwVEdXVnhDZV9tSUo0R1BSRUU1OFlHQlBycXNSeFY0dXJUbGNiMnQzemFNX0pVTXBCV3NlUTdxTlpBUWhDX2l0ZjhHY093UTJmS3d0cVlUbXpqcmhN?oc=5",
         "isRepublished": false,
         "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 교육자, 의원들은 AI가 미래의 업무에 미치는 영향에 대해 고민합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! MIT AI 전문가는 Z세대 보급형 일자리를 자동화하면 역효과를 낼 수 있으며 기업의 미래 인력에 비용이 발생할 수 있다고 경고합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "봇 너머: 인도의 '덱' 청사진이 AI 작업에 대한 두려움에 대한 대본을 뒤집습니다.",
-        "enTitle": "Beyond the bot: India's ''DECKS'' blueprint flips the script on AI job fears",
-        "date": "2026-05-01",
-        "originalDate": "2026-04-30",
-        "sourceName": "ANI News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeE5ObHRpVlJST2NUS3BqU19qQjRuNUlRZVNlMHNVeDg2N3BLSkxKOUlHQXVmMUFkVlJod0hJcVVETE5HVW9zMlpjSGZ1a2hEY2tySkVlczBJVEktblNYcVRxTVh5Y2tjWTJyY0ZJOGM5dGtBc0hhU2NPMlNIdGV4MFBHUXNadDUyNTlVb1ZFQVBOTThyUzNOb1d3LUFHVUs3b0dXMWM2eUlqbnhqNndYa1oteUFSb0dwSWxMb2ZUb24?oc=5",
+        "koTitle": "Tesla의 전 HR 책임자: AI 정리 해고 공황은 잘못된 전제를 기반으로 합니다. 대부분의 근로자가 알아야 할 사항입니다.",
+        "enTitle": "Tesla's former HR chief: the AI layoff panic Is built on a false premise—here's what most workers need to know",
+        "date": "2026-05-02",
+        "originalDate": "2026-05-01",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdmxod28zbjU4RnpsWmVSaG9LME82Yk1tSG4zLVlPRzVFYTRSSG1rVXNFZ0szNEM0dGhtSy05UTU0N2QxZmtHVllxRWNFdlhZeVowNFk2anFRYXdNRDdpNmRZMExLS2l3Q1JlYTBadVl0WG40Rmx4UXZkWGtJeXVpaU55ZGZtRDN2ajRFNHNud095Rlk2UjhIZDZadG9LdVpSNFE?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 봇 너머: 인도의 '덱' 청사진이 AI 작업에 대한 두려움에 대한 대본을 뒤집습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! Tesla의 전 HR 책임자: AI 정리 해고 공황은 잘못된 전제를 기반으로 합니다. 대부분의 근로자가 알아야 할 사항입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "구글도 ‘제미나이’ 앱 광고 검토…AI 챗봇 수익, 광고 중심으로 전환하나",
-        "enTitle": "구글도 ‘제미나이’ 앱 광고 검토…AI 챗봇 수익, 광고 중심으로 전환하나",
-        "date": "2026-05-01",
-        "originalDate": "2026-04-30",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PVlZDWkNuQ1pITUZEZlI2RW5PdlFRb01MX01aQmJ1MHVILThma3BvdG5FSEFhWGxXVUd3MUN1ZFVnVkxqUXA2M3puYVN6T1RpLVFJWXhwQ3FmaWJqNFc2Wm1Xb0h5Y1Y3Zmc?oc=5",
+        "koTitle": "구글, 온디바이스 AI 실험 앱 'COSMO' 플레이 스토어 출시…제미나이 나노 탑재",
+        "enTitle": "구글, 온디바이스 AI 실험 앱 'COSMO' 플레이 스토어 출시…제미나이 나노 탑재",
+        "date": "2026-05-02",
+        "originalDate": "2026-05-01",
+        "sourceName": "브랜드경제신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE0yTUItZl9YRXhZRTFicnpacWsxcnRrU0NselV5OWdjVUtRUk41Mmc0NUFCOHJXbkR3aXpGY3p3YTdBVk0?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글도 ‘제미나이’ 앱 광고 검토…AI 챗봇 수익, 광고 중심으로 전환하나 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 구글, 온디바이스 AI 실험 앱 'COSMO' 플레이 스토어 출시…제미나이 나노 탑재 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "임팩트스퀘어, AI 기반 임팩트 리포팅 서비스 ‘impactology.ai’ 출시",
-        "enTitle": "임팩트스퀘어, AI 기반 임팩트 리포팅 서비스 ‘impactology.ai’ 출시",
-        "date": "2026-05-01",
-        "originalDate": "2026-04-30",
-        "sourceName": "blockchainus.co.kr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96b1hWYUVWVDV2NGZEVWF6ZE1wbnFsQVFOLVZ3bUNPNm84UFk2OUxHVDVJYTBEUGd0cXNITUwxcUx0S2hJeS1hTWNFdlc3alRvWDBvUjVSckphN2ZhZXBIN2NIbWZYZF9iR251SVgySTc?oc=5",
+        "koTitle": "구글, 22년 만에 '최고의 4월'...AI 수익 입증으로 주가 34% 급등",
+        "enTitle": "구글, 22년 만에 '최고의 4월'...AI 수익 입증으로 주가 34% 급등",
+        "date": "2026-05-02",
+        "originalDate": "2026-05-01",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9acGZteThrby1zX3ZuVEplNWNvUzA2NUFBNXRfQkpnSGRKV0xNY0I4eGlWZTl1LXQ3MHBHTjRDaFRVZ19vNzRCdnRjMzRBcmZFampRWjQtTzFzT2NTd0NQclREMUNwSjNmbUE?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 임팩트스퀘어, AI 기반 임팩트 리포팅 서비스 ‘impactology.ai’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 구글, 22년 만에 '최고의 4월'...AI 수익 입증으로 주가 34% 급등 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "Klaviyo, AI 고객 서비스 에이전트용 맞춤형 스킬 출시",
-        "enTitle": "Klaviyo, AI 고객 서비스 에이전트용 맞춤형 스킬 출시",
-        "date": "2026-05-01",
-        "originalDate": "2026-04-30",
-        "sourceName": "Investing.com 한국어",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1RG9tMzRKaTJhY01fVC01ZXExaGExSHVyNV80Nkp3QVNkT1FrWldlcGEyZjZjZ1BkaFQ5UFdqYTFHTGYxb2JHV1JCYzc0QUxIdVU3U2Jxejg5eHpqMlZ4VVdveVNud1pha2dNck54b1A?oc=5",
+        "koTitle": "머스크 “xAI도 오픈AI 모델 일부 활용”…오픈AI, 수익 압박 속 AI 증류 논란 확산",
+        "enTitle": "머스크 “xAI도 오픈AI 모델 일부 활용”…오픈AI, 수익 압박 속 AI 증류 논란 확산",
+        "date": "2026-05-02",
+        "originalDate": "2026-05-01",
+        "sourceName": "이코노미트리뷴",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE02X0pPMXRpY0ZLQWRUVnI3Nmw0ajU4U29ybE9RTk1iM0pOdXdHS2x0Slk1RTFkU1B3LVVJRGRJVnFSV0R5LUZ2ME5NLThfVzNRRU1qdV9TX3RkdzBoaXc4dm9UaUxCajFnRGFpYTVob1dxTnc4b2Nn?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! Klaviyo, AI 고객 서비스 에이전트용 맞춤형 스킬 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 머스크 “xAI도 오픈AI 모델 일부 활용”…오픈AI, 수익 압박 속 AI 증류 논란 확산 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
