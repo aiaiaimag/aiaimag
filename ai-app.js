@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-05-05
+ * 최신 업데이트: 2026-05-06
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "OpenAI의 CEO 샘 알트만 (Sam Altman) 은 ‘AI 세척’ 이 진짜라고 경고하지만, 기술 관련 직업 이탈이 진행 중입니다.",
-        "enTitle": "OpenAI CEO Sam Altman warns ‘AI washing’ is real, but tech-related job displacement is on the way",
-        "date": "2026-05-05",
-        "originalDate": "2026-05-04",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB0a0d6S0FFdG9BNmhRU0xXTGtOMmxTcGFad0FlODRZb1dUNVVMOUZ6RjNLUWpxYTBrTlFDaFlqLXBqb1A1UE1PNVVjeHVqMGo3VUh2YVNxZUpoMzNyS1hmNGtmdlh1NGE4bUVLYjN2eGI?oc=5",
+        "koTitle": "2024년을 위한 최고의 인공지능 측면의 허슬 아이디어: 지금 시작할 수 있는 수익성 있는 온라인 비즈니스",
+        "enTitle": "Top AI side hustle ideas for 2024: Profitable online businesses you can start now",
+        "date": "2026-05-06",
+        "originalDate": "2026-05-05",
+        "sourceName": "MSN",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOMHNSbkk0SzZ0MW42M1dYTzI1NnYxc09Zc1NGRW5nQXJMX2g0SHR4SEpxX2FJOU5Wb3VjclJWbXdkZUJfMmtLVUpWT0RqTHM4a2dhRVpXQ0NZeFpRS2Fja3RjVmNoQmFPQmtuLXFzeTNKTEE0STFCZGNrWnMxWDZPczF1cnUzanJsM1ZnamthTHJQQWpCY29PelhiaHI2UGNaTG9iNUk2WFhWdlFodEtibzUzSHZJYmc5d19WTjVXb01JUU1BbGxaNGhnakpYZXNGaG9PcXFkeVR4TF9JN0pDTGxpMFdsSzkzM0lTYS11MlZsZDdHRkZr?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! OpenAI의 CEO 샘 알트만 (Sam Altman) 은 ‘AI 세척’ 이 진짜라고 경고하지만, 기술 관련 직업 이탈이 진행 중입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 2024년을 위한 최고의 인공지능 측면의 허슬 아이디어: 지금 시작할 수 있는 수익성 있는 온라인 비즈니스 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "$ 700M 밸류에이션 잭팟 이후, 인도 출신 테크니 창업자의 AI 앱이 바이럴 광고에서 벵갈루루 트래픽을 유인합니다.",
-        "enTitle": "After $700M valuation jackpot, Indian-origin techie founder’s AI app woos Bengaluru traffic in viral adverts",
-        "date": "2026-05-05",
-        "originalDate": "2026-05-04",
-        "sourceName": "financialexpress.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbGpWbjBVaDY4MjF1Xy1aUUlBOW5YMlVjZVY3LWVjdDdmNHUzbXpPc1lDVmQ5bjczSHhZRjBoS1JrZVdEb2EwRU9yTGZtZDJyQXRLLU54Rkx5aHlwREhRdGEydTFseE5NNlFHVGhFX0ZaR2UwMk1xSVpiWkJMY2tzOTFfcG0zWUNtWkRxakVSWmJxYU9lRkl4b09jRE15c01iVi1Zdzluc1ltWml6MXR4Y3FITjVYdHFlQVdXQUdIdmRITlhCRk1PQzhUbE5zTkktNjhVcmdldmZqRG5hd0FVaDdaUHlPemptUy04VNIB8wFBVV95cUxNM3ZQeEpCOVh3bmo4NUhWTWZ2RjR0T2N5bkRWRWNmY19SdnR3V3N5LVpJUDBnY0E3MHpZYVF6TTU1dUlBYkhySnpQTGQtNHVwMVFCYlVRQ25PTnFBVHZsd1FzdERMT0hBY3lQeFJkZDQtRC11Mks5SnFNbWpNSnpONVlMUF9uSEVMQlNpcU1PcTBaZUhKU1B5TkRxWUpoSEtQSUxSRTRYaGNLZjRkRmtxTElhZEVUbkowcy02WHpxLTFyRDVfMXJvRmhoLWU4dEFzTV82S0RZdm5IcnREZmZJeEM1OXlVd1B1cDV1WU00c04wd2c?oc=5",
+        "koTitle": "MAH Financial Services | 5/5/26",
+        "enTitle": "MAH Financial Services | 5/5/26",
+        "date": "2026-05-06",
+        "originalDate": "2026-05-05",
+        "sourceName": "ktnv.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Xd29vTkhTengyanpCU2ZPYzUtWnF4QWxtM1FwSnpiTDlKSk5kZHo5SEhTd1RBcFhJTHRRQ2tnSjVNaVNoTTBfM044RGV6M25CdEdkWm9QUWwxYllNM3lONGZiNjdPSjMycUkzVFNoSHk?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! $ 700M 밸류에이션 잭팟 이후, 인도 출신 테크니 창업자의 AI 앱이 바이럴 광고에서 벵갈루루 트래픽을 유인합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! MAH Financial Services | 5/5/26 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "중국의 인공지능 추진이 아프리카에 노동의 미래에 대해 가르칠 수 있는 것",
-        "enTitle": "What China’s AI Push Can Teach Africa About the Future of Labor",
-        "date": "2026-05-05",
+        "koTitle": "커리어가 시작되기 전에 AI로 인한 진정한 일자리 파괴가 일어나고 있습니다.",
+        "enTitle": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "date": "2026-05-06",
         "originalDate": "2026-05-04",
-        "sourceName": "The Diplomat – Asia-Pacific",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMTRUV244cU9DQUJsOXc1Z2FBMGx3emNRbXQ0N0ZCQnlEVy1BNWstTFpDZEtPcDJDWjhBVzRfaldYRkNlclVOZ3hOU0lyZWh4b2hCU0g0ZzQtQU0zNG9SaW1fMjRubHNEOWdRLWx5LTlScVRReDNidzhCNnlZNWVfU1E1eE5ZcnV3ZWM0SWdjV3lycDRfNXd2R1VXVQ?oc=5",
+        "sourceName": "Yale Insights",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTnU2cm1ZUUc5ZjlNMFJ5OWl4Xzh4NzhfZ2l6cjNFUEJraDh5VTE3LWxnTmRzTGtKNjV3ejduaGQ3YWJRTUQzanRid0pDNThSamVidkUtdTJ2Z0NwTmFOTGRyTlJ0WlBOUGNJVFJ4RjFqejRTNEpuZEJscndvYnVYVkJ2elZLQ2p4YldhMjdOMHVPYVVyNUZXQi1QeEVzcTFpX1MzaFJjbVhiMms?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 중국의 인공지능 추진이 아프리카에 노동의 미래에 대해 가르칠 수 있는 것 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 커리어가 시작되기 전에 AI로 인한 진정한 일자리 파괴가 일어나고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "잇플루언서, ‘잇플 AI’ 출시… “AI가 인플루언서를 추천”",
-        "enTitle": "잇플루언서, ‘잇플 AI’ 출시… “AI가 인플루언서를 추천”",
-        "date": "2026-05-05",
-        "originalDate": "2026-05-04",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1CWmZINm9qT2NLQWVNSlZhd2EzbGI1Sk9QM0p5Mm1sY0FhR0Y5ekt5MklzTUZaeUsxNFZDMnRwVFN1NklMVFJlU2hFMzBlMk95MzUxdmJqTlg0RDVsb1BPeEMyVVNzM2VrT3c?oc=5",
+        "koTitle": "[OpenAI, 기업·교육용 ‘ChatGPT iOS 앱’ 출시… 업무 현장 공식 도입 가속화] OpenAI가 기업과 교육 기관을 위한 전용 모바일 애플리케이션인 ‘마이크로소프트 인튠용 챗GPT를 출시했다.",
+        "enTitle": "[OpenAI, 기업·교육용 ‘ChatGPT iOS 앱’ 출시… 업무 현장 공식 도입 가속화] OpenAI가 기업과 교육 기관을 위한 전용 모바일 애플리케이션인 ‘마이크로소프트 인튠용 챗GPT를 출시했다.",
+        "date": "2026-05-06",
+        "originalDate": "2026-05-05",
+        "sourceName": "AI넷",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5Ha1RpQWtJUHlGZHNpdVB5aEhuVVdNa2R6OWN4MTFNRG1ZRmw4SE9wRzVBazhXbmdkSG05a3FFNzI?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 잇플루언서, ‘잇플 AI’ 출시… “AI가 인플루언서를 추천” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [OpenAI, 기업·교육용 ‘ChatGPT iOS 앱’ 출시… 업무 현장 공식 도입 가속화] OpenAI가 기업과 교육 기관을 위한 전용 모바일 애플리케이션인 ‘마이크로소프트 인튠용 챗GPT를 출시했다. 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "클로드, 국내 월간 설치 첫 ‘50만’ 돌파… 챗GPT 이어 2위",
-        "enTitle": "클로드, 국내 월간 설치 첫 ‘50만’ 돌파… 챗GPT 이어 2위",
-        "date": "2026-05-05",
-        "originalDate": "2026-05-04",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YX3Q5Q28tTlFGWFZhbjluSWpUZHNfRlI2X1hNT21nLWJWVV85ZF9WcWR1X3FyRkdINENnaUFmM05mVFhvSm40anY0bnN4b0k?oc=5",
+        "koTitle": "크리테오 주가, ChatGPT 광고 파트너십 확장으로 상승",
+        "enTitle": "크리테오 주가, ChatGPT 광고 파트너십 확장으로 상승",
+        "date": "2026-05-06",
+        "originalDate": "2026-05-05",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5sa1hJQlJKcktvVjdoMFRkVi1JRnZHSzhfRVpEU3QwUjA0MlI1S0JXMUZqVGFaLU02ZmJUbG0xcDVPRXRObUhvWnNfVnhlcm1mbGY0V3F6VE12d2Y4M21qa3R2M09wRURISzdrdjZHTWJDSlNkaGRz?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 클로드, 국내 월간 설치 첫 ‘50만’ 돌파… 챗GPT 이어 2위 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 크리테오 주가, ChatGPT 광고 파트너십 확장으로 상승 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "네이버, 1분기 실적 발표에 주춤⋯“AI 수익화ㆍ두나무 합병이 주가 반등의 열쇠”",
-        "enTitle": "네이버, 1분기 실적 발표에 주춤⋯“AI 수익화ㆍ두나무 합병이 주가 반등의 열쇠”",
-        "date": "2026-05-05",
-        "originalDate": "2026-05-04",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBkNVFJRmJMVzBwbmt0UHVFbDRWMEhjNTNPYnUwY0k0LWlLaFd5czhDaDNUZk1UWkY1WjBQLXVPRG56WUloMWx3aURFS2YybUU?oc=5",
+        "koTitle": "AI 수익화 실패, 데이터·워크플로 통합 부터 시작",
+        "enTitle": "AI 수익화 실패, 데이터·워크플로 통합 부터 시작",
+        "date": "2026-05-06",
+        "originalDate": "2026-05-05",
+        "sourceName": "지티티코리아",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2LU1NRjl6ZTBtR0NiR0VOSEpPejJvNm9jVndCM0M2RlpYSXhHSWZlZll2dUt4eWI4U2lHdkwtR1pSMEpUTVlyZWFKaTg1UkZWVm9IZThfZDhEdXZ1Wk1vWVRjY1FhamJJeXc?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 네이버, 1분기 실적 발표에 주춤⋯“AI 수익화ㆍ두나무 합병이 주가 반등의 열쇠” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! AI 수익화 실패, 데이터·워크플로 통합 부터 시작 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
