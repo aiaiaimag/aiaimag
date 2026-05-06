@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-05-06
+ * 최신 업데이트: 2026-05-07
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "2024년을 위한 최고의 인공지능 측면의 허슬 아이디어: 지금 시작할 수 있는 수익성 있는 온라인 비즈니스",
-        "enTitle": "Top AI side hustle ideas for 2024: Profitable online businesses you can start now",
-        "date": "2026-05-06",
-        "originalDate": "2026-05-05",
-        "sourceName": "MSN",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOMHNSbkk0SzZ0MW42M1dYTzI1NnYxc09Zc1NGRW5nQXJMX2g0SHR4SEpxX2FJOU5Wb3VjclJWbXdkZUJfMmtLVUpWT0RqTHM4a2dhRVpXQ0NZeFpRS2Fja3RjVmNoQmFPQmtuLXFzeTNKTEE0STFCZGNrWnMxWDZPczF1cnUzanJsM1ZnamthTHJQQWpCY29PelhiaHI2UGNaTG9iNUk2WFhWdlFodEtibzUzSHZJYmc5d19WTjVXb01JUU1BbGxaNGhnakpYZXNGaG9PcXFkeVR4TF9JN0pDTGxpMFdsSzkzM0lTYS11MlZsZDdHRkZr?oc=5",
-        "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 2024년을 위한 최고의 인공지능 측면의 허슬 아이디어: 지금 시작할 수 있는 수익성 있는 온라인 비즈니스 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
-        "isTopPick": true
-    },
-    {
-        "rank": 2,
         "koTitle": "MAH Financial Services | 5/5/26",
         "enTitle": "MAH Financial Services | 5/5/26",
-        "date": "2026-05-06",
+        "date": "2026-05-07",
         "originalDate": "2026-05-05",
         "sourceName": "ktnv.com",
         "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Xd29vTkhTengyanpCU2ZPYzUtWnF4QWxtM1FwSnpiTDlKSk5kZHo5SEhTd1RBcFhJTHRRQ2tnSjVNaVNoTTBfM044RGV6M25CdEdkWm9QUWwxYllNM3lONGZiNjdPSjMycUkzVFNoSHk?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! MAH Financial Services | 5/5/26 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! MAH Financial Services | 5/5/26 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "isTopPick": true
+    },
+    {
+        "rank": 2,
+        "koTitle": "싱가포르는 AI 전환기에 미래의 일과 생계를 기회에 맡기지 않을 것입니다: Tan See Leng",
+        "enTitle": "Singapore will not leave future of work, livelihoods to chance amid AI transition: Tan See Leng",
+        "date": "2026-05-07",
+        "originalDate": "2026-05-06",
+        "sourceName": "CNA",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZkVpeXZuWFRNckRnNDRKRWpuWG5VN1Nub2ttQ0d4a1h5bGQzNmM4amlzRFJkVWZxLXFwNlViY25CeFQxT05zcjBWZF9MT0xaMmdjNTVuVnF5RGFTeDdjZTAzNHdjQ2lQSTRyc3Z4ZkptY0luX2V3N1I3cEFCdVE2TTYxUlBhRFBsNy1ZUWI2RGR1ZGhXMGo0N1NZa1VsUTVIcE5CdWJQbjZfTmZVWHJkdg?oc=5",
+        "isRepublished": false,
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 싱가포르는 AI 전환기에 미래의 일과 생계를 기회에 맡기지 않을 것입니다: Tan See Leng 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "커리어가 시작되기 전에 AI로 인한 진정한 일자리 파괴가 일어나고 있습니다.",
-        "enTitle": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
-        "date": "2026-05-06",
-        "originalDate": "2026-05-04",
-        "sourceName": "Yale Insights",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTnU2cm1ZUUc5ZjlNMFJ5OWl4Xzh4NzhfZ2l6cjNFUEJraDh5VTE3LWxnTmRzTGtKNjV3ejduaGQ3YWJRTUQzanRid0pDNThSamVidkUtdTJ2Z0NwTmFOTGRyTlJ0WlBOUGNJVFJ4RjFqejRTNEpuZEJscndvYnVYVkJ2elZLQ2p4YldhMjdOMHVPYVVyNUZXQi1QeEVzcTFpX1MzaFJjbVhiMms?oc=5",
+        "koTitle": "바이러스 성 AI 이미지 트렌드가 ChatGPT, Google Gemini 성장을 촉진하고 있습니다.",
+        "enTitle": "Viral AI image trends are fueling ChatGPT, Google Gemini growth like never before",
+        "date": "2026-05-07",
+        "originalDate": "2026-05-05",
+        "sourceName": "Techlusive",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNY3llR0I5YmQwQzVKV1lRZ3N4UXB5YThRdHNDUGU2RUM2WHYzcnlLVW5BcEtfZEZQWExnMG5pbXkwc2s1bThVU3prd0Y5enNWY3V2c01QeXluSTJzelBhUzRYZEw1S1d4WTRjM3NKSjNuQzRVTFA3V014OUI4ZnJENkUwbkJuRmZfbGlsYUk3MUNwakFURFpGR1QtM19OaDd0RmdDcGgxNVJrT0MxZHpQaXp4NUlzeFR6ZEZUMDNEeGdFeE55Mkx0Slo4TzNZY2YyYUlBWXFR0gHbAUFVX3lxTE5NLU5henVhRUhtWnRlTDhwSFprcEdSdUZaTUtnN0Y3RTN5OGpuUXVGeG4yeXdaQ0Y3N0dDVFdTdTRzNVp5OXdCYkw4ZmU5elhOOWZ3bUhSQW43VEtpek9QTjJOTXZZY0NSdEJhM0xwMVplS0tIS2hlYUJ2SVl6LUJKeVoySDJpN1B6blI3M2tGbk16eUNMR1ZiUjlxc1I1d1g1cDgwSE0wekNzWktOVjNPM09XNnktV1ZrWlplMmRtYXdoZTdDdzlOSkxvaUl6RDlGRUhPNHkzZkFtSQ?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 커리어가 시작되기 전에 AI로 인한 진정한 일자리 파괴가 일어나고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 바이러스 성 AI 이미지 트렌드가 ChatGPT, Google Gemini 성장을 촉진하고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[OpenAI, 기업·교육용 ‘ChatGPT iOS 앱’ 출시… 업무 현장 공식 도입 가속화] OpenAI가 기업과 교육 기관을 위한 전용 모바일 애플리케이션인 ‘마이크로소프트 인튠용 챗GPT를 출시했다.",
-        "enTitle": "[OpenAI, 기업·교육용 ‘ChatGPT iOS 앱’ 출시… 업무 현장 공식 도입 가속화] OpenAI가 기업과 교육 기관을 위한 전용 모바일 애플리케이션인 ‘마이크로소프트 인튠용 챗GPT를 출시했다.",
-        "date": "2026-05-06",
-        "originalDate": "2026-05-05",
-        "sourceName": "AI넷",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5Ha1RpQWtJUHlGZHNpdVB5aEhuVVdNa2R6OWN4MTFNRG1ZRmw4SE9wRzVBazhXbmdkSG05a3FFNzI?oc=5",
+        "koTitle": "“질문 한번에 매물·일자리 추천”···사랑방, AI 검색 서비스 전면 도입",
+        "enTitle": "“질문 한번에 매물·일자리 추천”···사랑방, AI 검색 서비스 전면 도입",
+        "date": "2026-05-07",
+        "originalDate": "2026-05-06",
+        "sourceName": "무등일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5fZFg2YVFGeEJuWnRQcWdIN2ZoZjhJaEpuRGwxandpMWlwSk1MQUdpVWlYTUJoVVJhX29oV2NPbWkyUEFfNk1iWFBFY3M?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [OpenAI, 기업·교육용 ‘ChatGPT iOS 앱’ 출시… 업무 현장 공식 도입 가속화] OpenAI가 기업과 교육 기관을 위한 전용 모바일 애플리케이션인 ‘마이크로소프트 인튠용 챗GPT를 출시했다. 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! “질문 한번에 매물·일자리 추천”···사랑방, AI 검색 서비스 전면 도입 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "크리테오 주가, ChatGPT 광고 파트너십 확장으로 상승",
-        "enTitle": "크리테오 주가, ChatGPT 광고 파트너십 확장으로 상승",
-        "date": "2026-05-06",
-        "originalDate": "2026-05-05",
-        "sourceName": "Investing.com 한국어",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5sa1hJQlJKcktvVjdoMFRkVi1JRnZHSzhfRVpEU3QwUjA0MlI1S0JXMUZqVGFaLU02ZmJUbG0xcDVPRXRObUhvWnNfVnhlcm1mbGY0V3F6VE12d2Y4M21qa3R2M09wRURISzdrdjZHTWJDSlNkaGRz?oc=5",
+        "koTitle": "7만명 쓰던 클로드, 1년새 100만명…챗GPT서 갈아탄 20대",
+        "enTitle": "7만명 쓰던 클로드, 1년새 100만명…챗GPT서 갈아탄 20대",
+        "date": "2026-05-07",
+        "originalDate": "2026-05-06",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KV2tiMHFxYmNmQU1ITFY2RkxLdl93bDdXSU9OSm5PSU1GNTJyTWVwSVFjWWJUN2pHUFoxdU1Sdk9Zb1FJUFR5MGdkNVpDdmM?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 크리테오 주가, ChatGPT 광고 파트너십 확장으로 상승 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 7만명 쓰던 클로드, 1년새 100만명…챗GPT서 갈아탄 20대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "AI 수익화 실패, 데이터·워크플로 통합 부터 시작",
-        "enTitle": "AI 수익화 실패, 데이터·워크플로 통합 부터 시작",
-        "date": "2026-05-06",
-        "originalDate": "2026-05-05",
-        "sourceName": "지티티코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2LU1NRjl6ZTBtR0NiR0VOSEpPejJvNm9jVndCM0M2RlpYSXhHSWZlZll2dUt4eWI4U2lHdkwtR1pSMEpUTVlyZWFKaTg1UkZWVm9IZThfZDhEdXZ1Wk1vWVRjY1FhamJJeXc?oc=5",
+        "koTitle": "트립비토즈, ‘ChatGPT 앱’ 정식 출시",
+        "enTitle": "트립비토즈, ‘ChatGPT 앱’ 정식 출시",
+        "date": "2026-05-07",
+        "originalDate": "2026-05-06",
+        "sourceName": "트래블데일리",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xUm5mLVZFLTdsVGlHQVZUVUd3VjhUNHJhdlFHdXhXcVNOeWpIN1lZQmtuTzFCMXNwVi04Rm5NX01wVE93aVF4YlBHZXhMNGRaelVYNVU2dGlDcXRmQW41RDBGRzBtWnZqWlZuaEJNdzE?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! AI 수익화 실패, 데이터·워크플로 통합 부터 시작 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 트립비토즈, ‘ChatGPT 앱’ 정식 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
