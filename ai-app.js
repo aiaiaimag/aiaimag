@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-05-08
+ * 최신 업데이트: 2026-05-09
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "마크 쿠반 (Mark Cuban) 은 CEO가 AI를 이해하지 못하는 회사가 살아남지 못할 수도 있다고 경고합니다: '다른 직업에 대해 생각하기 시작하십시오'",
-        "enTitle": "Mark Cuban Warns Companies Whose CEOs Don't Understand AI May Not Survive: 'Start To Think About Another Job'",
-        "date": "2026-05-08",
-        "originalDate": "2026-05-07",
-        "sourceName": "Benzinga",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWDhfLWMtVUM5cDlYeGRtaVhaSHBRUzg2TXhYQUhfbDhFNXNITkV5VkR3aWJDQV9vbDBlN0tqRFpleHhJZTl2bzFjR1ZVVHhTSlBOOURuWXlVLUw4YVVaUlZGOHdoem14VmV5S2JJTjJGMWY0NEdGX3AzQkFVSXltYUc0YWh6X0lLRFo4MmRxWFRlc3NINTNSVHNXRUJheDBaU0pGUXBONGwzejZlb2NyT09FaXFmTURZRjFQX0RDT2FVWFQ4QUw3YW5GbjBtTWVrd2IwNkVGYmxGVy1iaGMzSXVFM3JFVmYzM05adXNqcw?oc=5",
+        "koTitle": "OpenClaw: 최신 AI 에이전트에 대한 모든 뉴스",
+        "enTitle": "OpenClaw: all the news about the trending AI agent",
+        "date": "2026-05-09",
+        "originalDate": "2026-05-08",
+        "sourceName": "The Verge",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU21qZE10LUlJT1lXNS1MbENLcGVzMWlhTjJMbkRwTVRlWWZyQzkxTWlhZUMwelM2NU5PX1h2MG12Zkxxc281LWFrcDZzRFFQbkh6dENseGZHYXdGUjloVmxSY1ZiYWg3djhnZVRCWEVkWS1kNHZ5VUhHT0pFejBuLURn?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "글로벌 AI 트렌드 체크! 마크 쿠반 (Mark Cuban) 은 CEO가 AI를 이해하지 못하는 회사가 살아남지 못할 수도 있다고 경고합니다: '다른 직업에 대해 생각하기 시작하십시오' 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! OpenClaw: 최신 AI 에이전트에 대한 모든 뉴스 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "역량에서 역량으로: AI가 업무의 미래를 가속화하는 방법 - 사람이 중요합니다",
-        "enTitle": "From competency to capability: How AI is accelerating the future of work - People Matters",
-        "date": "2026-05-08",
-        "originalDate": "2026-05-07",
-        "sourceName": "People Matters - HR News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVnQ5Q3Y4R29EVjNaMXY0Yzh2WHRYbGFCRGpIYThTLXdQdkJFTUxyUHFqemRhWnJwOW9vb0JpZWI4SEpldDctTHkzU0gzSnJwVnZwcWZyS19aU0p4ODNyT3hYM21vNVhtc040ZTNRS0wwcHFNUlN0VWVrQmFpMFRJOExNTVJBRWdzS3IwYUEwWGU2NWZ6STE2aU9yaU13TnpwbHVaSzZXVUpvUE5JcU1QUngtX1phekF4QmF0UTVKVUl5bldCT3RuWTNBa3NFWGx3?oc=5",
+        "koTitle": "AI 생산성 플레이북: 유용한 팁과 도구",
+        "enTitle": "The AI productivity playbook: tips and tools for you",
+        "date": "2026-05-09",
+        "originalDate": "2026-05-08",
+        "sourceName": "Fast Company",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOUg5dFRkbEZkMEhDeHEzVzN5a0FHUVBHQ2JFb0pTdnJpR0dFUXBkSTdIOFRLbE94a2x2c1B5ckViaUZSVE9mUHJ6NlA1TTNGT1NQZU9FYjhsYkh2NksyS0ZKRU9XVTNRN0RUQ0ZnX0UyOFRjWGlIX2ZxdkJ0eTNtaEVPdDBocWFXVzY3eHJJbXA2dw?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 역량에서 역량으로: AI가 업무의 미래를 가속화하는 방법 - 사람이 중요합니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 생산성 플레이북: 유용한 팁과 도구 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "La Trobe University ‘AI and Future Employment Opportunities’ 패널 토론 doncludes",
-        "enTitle": "La Trobe University ‘AI and Future Employment Opportunities’ panel discussion doncludes",
-        "date": "2026-05-08",
-        "originalDate": "2026-05-07",
-        "sourceName": "dailynews.lk",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPb205Y1UzakhBaURHQWpod21LUWhHLWo5V1lHd1BvUW1iRDZncHdtUkZWdVdqZEZNTUwzb3cwQmRZTGZWNmo5eTJwNEo0OGRsSmNuWjBtdUhtVmpLTlVWdG5CRlc3ZnBCSDJrS0w3Vm1DNEVRb3JDaDhhQVRjdzh0XzE4bmFtS3h3WEJqVnB4Y00ySFB3aDBNQV9kMXpuY0lKVGlFVVFDNEQ1Wm9FdURQdl9DeGZRNE9xZTl4TU96SFRyMlNINzN4YnJ6R3M3bEk?oc=5",
+        "koTitle": "미래가 보장되는 직업은 무엇입니까?: 플래닛 머니의 지표",
+        "enTitle": "Which jobs are future-proofed? : The Indicator from Planet Money",
+        "date": "2026-05-09",
+        "originalDate": "2026-05-08",
+        "sourceName": "NPR",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oNzc3Slo1QWY5WU95ZUZiaW40VEh3dDlVMF9OaFBwb1AzYlZqeWdDVG16bFhFeXh1dnRlMkFGQ2xmRFdESnVXZ2FCNWtWN3dSeXlmczg3Q2NTRFlJaXI1X2RabUlpTlZkenBCX3ZnLVNCUzdVaXFCb05BRTFaMjg?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! La Trobe University ‘AI and Future Employment Opportunities’ 패널 토론 doncludes 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 미래가 보장되는 직업은 무엇입니까?: 플래닛 머니의 지표 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "이큐포올·소소한소통, 쉬운 글 AI 서비스 ‘온글’ 출시",
-        "enTitle": "이큐포올·소소한소통, 쉬운 글 AI 서비스 ‘온글’ 출시",
-        "date": "2026-05-08",
-        "originalDate": "2026-05-07",
-        "sourceName": "스트레이트뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1rYjdYRnRVZmEtdE5OanJoMFFPYklQYWpEdFZfUVhhdmh6cmdQeE9idExuNDIzeTFaTi1iclAxWXlPN3c1Y29TTm5VWHdyS2Y2dlNVSW9xTUs3ZkpFTVIzcXgycnBKMGcybDVvQmRSZmZINTDSAXdBVV95cUxOSkZwbF92cUkzeUgtazRUZFY3N2pIbE9DNzdnMi1fUWZRQlB2YUVoTVhQZ2dWMjcwS0k0MlM0cy1OWnZncUpLX3hpSHJxR3Bib2dCcFY1TnFUVlAwdkwxNUlTeHgzM0RDVWRqNmtwcGVkMG03VXBVUQ?oc=5",
+        "koTitle": "뉴엔AI, AI EXPO서 차세대 트렌드·보험 분석 플랫폼 2종 공개",
+        "enTitle": "뉴엔AI, AI EXPO서 차세대 트렌드·보험 분석 플랫폼 2종 공개",
+        "date": "2026-05-09",
+        "originalDate": "2026-05-08",
+        "sourceName": "헬로티",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kZFh3aUg0Z21sN3ExTG9FUjRvV1RRMy10cW5qclotX1JKdjE5Wk1SVVJ0cEszNUh0Ml9SQWtMWk5hTUo2dUYtUGl0b2NtZVcwUEtwRVp4ODBaYmhWYlk4?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 이큐포올·소소한소통, 쉬운 글 AI 서비스 ‘온글’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 뉴엔AI, AI EXPO서 차세대 트렌드·보험 분석 플랫폼 2종 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "이큐포올·소소한소통, ‘정보 문턱’ 낮추는 AI 서비스 ‘온글’ 전격 출시",
-        "enTitle": "이큐포올·소소한소통, ‘정보 문턱’ 낮추는 AI 서비스 ‘온글’ 전격 출시",
-        "date": "2026-05-08",
-        "originalDate": "2026-05-07",
-        "sourceName": "지이코노미",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ya0dpRXl3bkxyMGVIQ3BreEFEMmR0V3dUVTNYdDhxVGZZdzRvOFlBMVBYYTVsS1NhTnpNdk1kaGZQVmRtdllFeklwdmRRQnh4ZjBUWkF6WWhfOEhwUUZXaXVqM1pKaXc?oc=5",
+        "koTitle": "팀모노리스, 학교 맞춤형 올인원 AI 해커톤 운영 서비스 정식 출시",
+        "enTitle": "팀모노리스, 학교 맞춤형 올인원 AI 해커톤 운영 서비스 정식 출시",
+        "date": "2026-05-09",
+        "originalDate": "2026-05-08",
+        "sourceName": "헬로티",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE50OUpWcVpjd0xEUmR1Y0VxOE03ZXp6SUFyYllOMnZBa3F2UTFWN2Z1V3MyTEdGclo0aWVyOG5UT1RQeWI3VFF6NTZRYXQyZmM2V3F3eXVsSDBjeFFEMGJV?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 이큐포올·소소한소통, ‘정보 문턱’ 낮추는 AI 서비스 ‘온글’ 전격 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 팀모노리스, 학교 맞춤형 올인원 AI 해커톤 운영 서비스 정식 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "AI 쓰려다 ‘복붙 노예’ 됐다? PC 조종하는 클로드 사용법",
-        "enTitle": "AI 쓰려다 ‘복붙 노예’ 됐다? PC 조종하는 클로드 사용법",
-        "date": "2026-05-08",
-        "originalDate": "2026-05-07",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ZWTJfbkJrM1lwVm5UeDc5ZXVPc05OSnY0UF9aU0hITkE2YjljYVVoQW1MaEJmenE4ajdFTm0wSVJVdEJ1bVhpdE4xWlRGcjg?oc=5",
+        "koTitle": "뉴엔AI, AI 트렌드 분석 플랫폼 2종 공개 - 머니투데이",
+        "enTitle": "뉴엔AI, AI 트렌드 분석 플랫폼 2종 공개 - 머니투데이",
+        "date": "2026-05-09",
+        "originalDate": "2026-05-08",
+        "sourceName": "머니투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SREVRNzB0RE1sbk9ZaTkzMUVPcWlBM19XbHJUUmdEVk1WY2JkaHBpQlVjWUJQbGVRblZXTHZoajR2LTBYTENTSERsMm5kcVlJOWNBTXJzTzVIVDV1Q2xnQXlDTVVuYWxHMEFHRdIBbEFVX3lxTE1SREVRNzB0RE1sbk9ZaTkzMUVPcWlBM19XbHJUUmdEVk1WY2JkaHBpQlVjWUJQbGVRblZXTHZoajR2LTBYTENTSERsMm5kcVlJOWNBTXJzTzVIVDV1Q2xnQXlDTVVuYWxHMEFHRQ?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! AI 쓰려다 ‘복붙 노예’ 됐다? PC 조종하는 클로드 사용법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 뉴엔AI, AI 트렌드 분석 플랫폼 2종 공개 - 머니투데이 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
