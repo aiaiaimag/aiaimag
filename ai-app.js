@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-05-10
+ * 최신 업데이트: 2026-05-11
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI Jobs: 커리어 사다리의 누락된 가로대",
-        "enTitle": "AI Jobs: The Missing Rung in the Career Ladder",
-        "date": "2026-05-10",
-        "originalDate": "2026-05-09",
-        "sourceName": "techi.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1QR1otM2M5NEhRb0tRTFZhNHhXSTBqYl9FZE1teWo2a1NxVmh0cWMyaFBFaGh3RnBwMEh6Q1NRd2pLS29QQlpTX3VwUmh1dEsxcGR0c2pxVkpsb0Y1NEpFMUkwcU5yM3VHa0FYRzI4SQ?oc=5",
+        "koTitle": "AI는 남성보다 여성에게 더 큰 직업 위협을 가하며, 새로운 데이터 쇼",
+        "enTitle": "AI Poses a Greater Job Threat to Women Than Men, New Data Shows",
+        "date": "2026-05-11",
+        "originalDate": "2026-05-10",
+        "sourceName": "inc.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNzRYUWliT1VTUWNWaDJ3TE1YT3g4RmxSYmJnUFRyNFNTQ250QVdzR0sxMFdqNGpYOC1wcFpBMEVLcFE1a0tjc24xbWtUUEhIbXFDaGlBLTY5ZTNFREU3YVRMeFRhZHhoWlJzbzB5c0llSzljYWcyUmdWSjVOWHVZckVNR29od0dxcVBZRlFoUzN1RnE2TFpQd1d5UjFVc1dBZzhV?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "글로벌 AI 트렌드 체크! AI Jobs: 커리어 사다리의 누락된 가로대 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! AI는 남성보다 여성에게 더 큰 직업 위협을 가하며, 새로운 데이터 쇼 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI 생산성 플레이북: 유용한 팁과 도구",
-        "enTitle": "The AI productivity playbook: tips and tools for you",
-        "date": "2026-05-10",
-        "originalDate": "2026-05-08",
-        "sourceName": "Fast Company",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOUg5dFRkbEZkMEhDeHEzVzN5a0FHUVBHQ2JFb0pTdnJpR0dFUXBkSTdIOFRLbE94a2x2c1B5ckViaUZSVE9mUHJ6NlA1TTNGT1NQZU9FYjhsYkh2NksyS0ZKRU9XVTNRN0RUQ0ZnX0UyOFRjWGlIX2ZxdkJ0eTNtaEVPdDBocWFXVzY3eHJJbXA2dw?oc=5",
+        "koTitle": "AI Jobs: 커리어 사다리의 누락된 가로대",
+        "enTitle": "AI Jobs: The Missing Rung in the Career Ladder",
+        "date": "2026-05-11",
+        "originalDate": "2026-05-09",
+        "sourceName": "techi.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1QR1otM2M5NEhRb0tRTFZhNHhXSTBqYl9FZE1teWo2a1NxVmh0cWMyaFBFaGh3RnBwMEh6Q1NRd2pLS29QQlpTX3VwUmh1dEsxcGR0c2pxVkpsb0Y1NEpFMUkwcU5yM3VHa0FYRzI4SQ?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 생산성 플레이북: 유용한 팁과 도구 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! AI Jobs: 커리어 사다리의 누락된 가로대 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "MS Excel, PowerPoint, Word, Outlook에서 Claude AI를 사용하는 방법: 기능, 장점, 스마트 생산성 팁",
-        "enTitle": "How to Use Claude AI in MS Excel, PowerPoint, Word, Outlook: Features, Benefits, Smart Productivity Tips",
-        "date": "2026-05-10",
-        "originalDate": "2026-05-08",
-        "sourceName": "Gizbot",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZEs5OU40ckpkSERDdVdjSzRMSkF6NHlpSldBdXRvVUh1QlYwaWJPZzg5d3UxbENUcThHYTRCU0ZRNXItVk93QlRIUGM5MjNNbU91cnd0aWxJeGZOMlpvSkhyakdKanNBbERCT001SXREWVdBRFo1clk1YjlXTGhYUGFfUVlMcVFMeHFRSUdWUUw4MDhPZDcyemRmZXZFd0h4dG05TDg2NkdkTjduTzNmSDJZc0R2MnFJdFU1VTBMNVpaRmNDZWplZUl0bnpaNGhqeDJheFJscEoxOTdJMFNtdkRpMGY?oc=5",
+        "koTitle": "모든 A.I. 노트 테이커? 그들은 변호사를 매우 긴장하게 만들고 있습니다.",
+        "enTitle": "All Those A.I. Note Takers? They’re Making Lawyers Very Nervous.",
+        "date": "2026-05-11",
+        "originalDate": "2026-05-09",
+        "sourceName": "The New York Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN0JoM2NVSHVZSjdnODFNbzVieW94bHlKaHBCNUtQZWVzWHpBU0Nua2p0QV9mN2ZUZjhza3lWTGh6aUd6ZUtEeTIySUtfUE5PaDc3VDlLbUpCT0prVHNuZzBBTnVrc3hzN0JFWUhnT043eWxNZkFUNGZmanA2ckFBeUpCdUYtcERYUFE?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! MS Excel, PowerPoint, Word, Outlook에서 Claude AI를 사용하는 방법: 기능, 장점, 스마트 생산성 팁 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 모든 A.I. 노트 테이커? 그들은 변호사를 매우 긴장하게 만들고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "앱이 없다고? 인공지능 챗GPT 폰 출시된다",
-        "enTitle": "앱이 없다고? 인공지능 챗GPT 폰 출시된다",
-        "date": "2026-05-10",
-        "originalDate": "2026-05-09",
-        "sourceName": "베타뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBmUDlXa3N2ZUVXa0RVOTNxVHduTHkyR1h0MmNIaGpST0hjWnRTMWdrZlY4WjJjcWF6WnNmLUhoOUdMd1BDY0R5Q3liVGZCeVhoLTNTcEtyMDdDZVVrMElGdmhkVnI?oc=5",
+        "koTitle": "중국 암시장에서 '클로드' 10% 가격으로 유통...\"모델 증류의 온상\"",
+        "enTitle": "중국 암시장에서 '클로드' 10% 가격으로 유통...\"모델 증류의 온상\"",
+        "date": "2026-05-11",
+        "originalDate": "2026-05-10",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBCQVhTVE95VmtHV2ZNejRqQ1NtM0tvQzVEN0xvZTlMckxzR3hyTzAxMkxDSi1iWUFtVDdMYXkzLWk4WWdFVGE0Sm9pX29WZFJOUjNnRDBocmlvY3Y5enJjeTZGRGkwZklZaVE?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! 앱이 없다고? 인공지능 챗GPT 폰 출시된다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 중국 암시장에서 '클로드' 10% 가격으로 유통...\"모델 증류의 온상\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "\"카네이션 대신 AI\"...부모님 인생 2막 돕는 인공지능 교육",
-        "enTitle": "\"카네이션 대신 AI\"...부모님 인생 2막 돕는 인공지능 교육",
-        "date": "2026-05-10",
-        "originalDate": "2026-05-09",
-        "sourceName": "YTN",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9LMThCVzVRU1F5QXR5ZFgyYk1DYzIwQU1kVUJNb1E0MVU0UUxiMUtnR1VGcEdEN3JTSWdTbUIwckpVN05yUGpwVDJCemhFQzVEVXVPbWFUeWNqbDBnZWc?oc=5",
+        "koTitle": "기초 체력 다진 네카오, 'AI 수익화' 본격 가동",
+        "enTitle": "기초 체력 다진 네카오, 'AI 수익화' 본격 가동",
+        "date": "2026-05-11",
+        "originalDate": "2026-05-10",
+        "sourceName": "매일일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE01Y3BaM09HaFFKOGptTlpPTnEtS2lubU5FckVycEFOOUxZZWswT3RpY1RNR2w5QlBJTUFaQVRSY3FlOGhMdTdKakJaSk9tZWdzcVdVeFl1cHJIRzlmdDBEMThTelo?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "2030을 위한 AI 실무 팁! \"카네이션 대신 AI\"...부모님 인생 2막 돕는 인공지능 교육 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 기초 체력 다진 네카오, 'AI 수익화' 본격 가동 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "AI가 인건비 줄여도 수익률 낮은 이유…자동화 ROI 흔드는 숨은 비용",
-        "enTitle": "AI가 인건비 줄여도 수익률 낮은 이유…자동화 ROI 흔드는 숨은 비용",
-        "date": "2026-05-10",
-        "originalDate": "2026-05-09",
-        "sourceName": "디지털투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE91NmQ5NFp3X25BTG96MUQ1Wk83ajh1OHhzemlKbjhsOUM0SEZGMnVOWW5Pci1NeW5kVVZMbkJSQTNiSld6Z1NEVy03YjA3U0VfUXdPa0dlMEtRdENpSHI2T2d5RnhEb0ZKRUNpUUJTU19rMjA?oc=5",
+        "koTitle": "AI 에이전트 보안 허점 드러나…클로드 확장 프로그램서 명령 주입 가능",
+        "enTitle": "AI 에이전트 보안 허점 드러나…클로드 확장 프로그램서 명령 주입 가능",
+        "date": "2026-05-11",
+        "originalDate": "2026-05-10",
+        "sourceName": "데일리시큐",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xSElXbnNtbE5zWXp0eTRIUWpYQU8xWVJWenZnaUdNV20wcjVOX3Q4SVpHUk02bTJzQm9tXzh3b05EelNQc2lKN1BvN2t6empyWmxxZFZxTmlJWWVxQWYycTg1OFhsdDg5N05HYQ?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "2030을 위한 AI 실무 팁! AI가 인건비 줄여도 수익률 낮은 이유…자동화 ROI 흔드는 숨은 비용 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "96%",
+        "analysis": "2030을 위한 AI 실무 팁! AI 에이전트 보안 허점 드러나…클로드 확장 프로그램서 명령 주입 가능 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
