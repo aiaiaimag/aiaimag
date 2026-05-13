@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-05-13
+ * 최신 업데이트: 2026-05-14
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI와 업무의 미래 C-스위트 침묵의 숨겨진 비용",
-        "enTitle": "AI and the Future of Work The Hidden Cost of C-Suite Silence",
-        "date": "2026-05-13",
-        "originalDate": "2026-05-12",
-        "sourceName": "HackerNoon",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ1YxbUpZckVlc2hfRUppdHRUeFkyVTNGNFlJajJxczNwbFJXWUd0YWJndkJOZ05qbUI0TmFwSzhNSThFcjE0T3RIdmJOeGtlVXRGTWNEYmhZVkt2UnhqckNxMy1XcGNSb3I5S2NfNFB1QmVNYl9CbUI5d0xQVF9oWVRudWQ5WEtMNTZr?oc=5",
+        "koTitle": "한국 야구 인공지능 동영상 트렌드: 이 인공지능 프롬프트를 사용하여 그러한 경기장 동영상을 만드십시오. Instagram은 이것으로 넘쳐납니다.",
+        "enTitle": "Korean baseball AI video trend: Use THIS AI prompt to create such stadium videos; Instagram is flooded with this",
+        "date": "2026-05-14",
+        "originalDate": "2026-05-13",
+        "sourceName": "Zee News",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONlpWd0doVHBfWEFNaUFEdFRkdTF5UUN2UUtQc2NWS0h0RWwxMVZ1RHI3ME1YZ1dKak0yVldLN1ZZSlR0WHQybU94Vi1fX3lJUnRiMHNsMVJJRDhCNXIwbWd5RGYxdXlHSzdYQmlwRDExR0EtNFdSV0tGcEpNOGdSY2pCZWlmczZsLU9qRnkxVVpMQVhqM1BOZGxXWFJza0I0ZGtTMGNkX0s4SEV4Nm5BU3F4SEVRTzBfemU5aUxFbURlVGdFY2FjM3UycEs1ZFdIWXMtSUZaTGZMWVBYcVo1dnVoNkt5azU0a1hkaXFPZTlwZ9IB9wFBVV95cUxQbUItTmNnTGl3NFFVZGZfQS1sNERma21UQ0piejRkTEd0dk5FT05lUXZxWks0bDhKQzR4Q2ZhVTNDT0JnU3FybWVZby1hM0ZQbUpyNEdJT0NhMGVGc2NpYmFNdlBqQ3RCdjRMRTlaZ3lHN1B0NGxMRTFaMmVOTFF4bU5DMjVQUy1jcVBOMldNNWRrU3VudXFRYTV1X3A3VnRlZHhjQWxnUGlkR0pkMVdVWmVvcVcwbHpiUmowZE9YLVNuNE5JSTR1SC1LWU5seEZYQ1RMcFBPVDluQklWYjc2ZUozUHAxYWM2ZkptbnNGcGdXNlhMdFpV?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! AI와 업무의 미래 C-스위트 침묵의 숨겨진 비용 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 한국 야구 인공지능 동영상 트렌드: 이 인공지능 프롬프트를 사용하여 그러한 경기장 동영상을 만드십시오. Instagram은 이것으로 넘쳐납니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "이 창업자들이 없이는 살 수 없는 영리한 클로드 생산성 해킹",
-        "enTitle": "The Clever Claude Productivity Hacks That These Founders Can’t Live Without",
-        "date": "2026-05-13",
-        "originalDate": "2026-05-11",
-        "sourceName": "inc.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNGhjbjZid0JFbklLb3FYTlBJLW5wV0V2UU5McUlhOGhjUnN6cnZOOG5vZkM1czZaRzhySmEtbFhkU19NYi1rQ3hTeFVNQ1otR09LNWkyNkNiZHFlVFVfbzNHZ0FQZUpVRkI5dDE1MlVGOWJBd2pBSTRobklsWTRqSHhpdkhTUFFhWm5nRjRyOXZ6eVZ4MGZ5cUkxMnUzQ2llQjRXeFRpb0F0UEt6MFdaYTIzVjI?oc=5",
+        "koTitle": "ChatGPT 한국 인공지능 야구 트렌드 사진 편집 프롬프트",
+        "enTitle": "ChatGPT Photo Editing Prompts for Korean AI Baseball Trend",
+        "date": "2026-05-14",
+        "originalDate": "2026-05-13",
+        "sourceName": "Jagran Josh",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc3E1bjBYRXNSYXYxZXpmcDhWUVk0MUJ2cXpNRC1hbllRcVN6WXc0X3hfSGxEMGxMSEk0RVYxaDlDclpXN1A1MzJ3WDJvNzdHNy04UUJfdWQ3TUg5a0RmR1BrZDh0ZjhRS2RXLWdMWjMwOEo5aFA2ZE9UWmxLQ2JkWXExMVhrTmluQUM1dWJFRm5HYzlaLThQcDFuS2sxaDcyMWZpc1BscW0?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 이 창업자들이 없이는 살 수 없는 영리한 클로드 생산성 해킹 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! ChatGPT 한국 인공지능 야구 트렌드 사진 편집 프롬프트 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI는 엔트리 레벨 일자리를 위협하고 PH 준비 격차 전문가를 노출시킵니다.",
-        "enTitle": "AI threatens entry-level jobs, exposes PH readiness gaps—experts",
-        "date": "2026-05-13",
-        "originalDate": "2026-05-11",
-        "sourceName": "Philippine Institute for Development Studies",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdTE5RnRtNW1CMV8wOUh4ZnRGUUcxdHFLUHhfUkt1c0tUZVdydzkzaFgzVlpIZV9fbG5uZVRGM2ViQk1KeDBrNmJiUXo3cHd0MlRsaWZEUlhvMmd3S1pMUU9EUnhsejBmSlBqdDFRODFCd3dycEZpYmp6UUJnWTBCU19fdVlSNk83QzlfUUhGZ0VUVjFfQUw5UjRXWW52TXk5emlnS0pncU15NXdPeENHMWxzWTZqQQ?oc=5",
+        "koTitle": "일의 미래는 인간 + 인공지능",
+        "enTitle": "The Future of Work is Human+AI",
+        "date": "2026-05-14",
+        "originalDate": "2026-05-13",
+        "sourceName": "ARC Advisory Group",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NMHBkczBGMVpLQ2hHMU1hUUFYamJ1MWlpTmhPNzV1cXhUOG5fM05FWFFVT3h5Z1l1NGVSMHdONDhLMUprWElCbWJWSERjRXZmN19ueGY3czFzd0U?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! AI는 엔트리 레벨 일자리를 위협하고 PH 준비 격차 전문가를 노출시킵니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 일의 미래는 인간 + 인공지능 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "\"베드록 한계 넘었다\"...앤트로픽, 에이전트 기능 탑재 'AWS 전용 클로드 플랫폼' 공개",
-        "enTitle": "\"베드록 한계 넘었다\"...앤트로픽, 에이전트 기능 탑재 'AWS 전용 클로드 플랫폼' 공개",
-        "date": "2026-05-13",
-        "originalDate": "2026-05-12",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9kTmt5ckw4NE1MMkpmS3RCbHBKUnl4NlVLSE1udG5Tdm1uVUg0RmxWT3ZRSGl1aUNJNWNsN09HdkpsT3NPOWQwRnVGaDluRllHX1ZxVlRaOFpXc1FiNUJFVjJ3RUFuS2ZsOFE?oc=5",
+        "koTitle": "서비스나우, 액션 패브릭 출시...외부 AI에이전트에도 플랫폼 공개",
+        "enTitle": "서비스나우, 액션 패브릭 출시...외부 AI에이전트에도 플랫폼 공개",
+        "date": "2026-05-14",
+        "originalDate": "2026-05-13",
+        "sourceName": "디지털투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBscXgzZVo1NDhVWGpxRmtxT1lNTHhGQkE5QW0yZ0pfeUk5a0V0S0ljb1VuZnBqVTBjM2h5UjQ0S0RZSGhUZnBUemRZTi0yUmJaSFpXRjhYbVNKbVJLRHJEb0t3NzAyd0FKTms0Znp2UVp5Sm8?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! \"베드록 한계 넘었다\"...앤트로픽, 에이전트 기능 탑재 'AWS 전용 클로드 플랫폼' 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 서비스나우, 액션 패브릭 출시...외부 AI에이전트에도 플랫폼 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "​제미나이 인텔리전스로 더욱 스마트하고 능동적으로 진화하는 안드로이드",
-        "enTitle": "​제미나이 인텔리전스로 더욱 스마트하고 능동적으로 진화하는 안드로이드",
-        "date": "2026-05-13",
-        "originalDate": "2026-05-12",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbm1NdVZOMDRHa0R3ZFIzWmhpRW1ueTB0Qk1rZzl5Z2k3WVNpd0xWbGpoaGFrS3JUX28yaURVanUzQlRCV1M3dmlPWTBmTmVsNmpGNWRoT25RRVlkU3JZM1ItV2c3dDdtRjItUVlJNXhnUjVOVXY5dVBoWVhEZW1Eenk4SWh0MFJfZ3RoZGJ3?oc=5",
+        "koTitle": "롯데칠성음료, 챗GPT에 '칠성몰' 전용 앱 출시…AI 커머스 전략 본격화",
+        "enTitle": "롯데칠성음료, 챗GPT에 '칠성몰' 전용 앱 출시…AI 커머스 전략 본격화",
+        "date": "2026-05-14",
+        "originalDate": "2026-05-13",
+        "sourceName": "뉴스웍스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mWEdWYnhIUkN1QVpHRjBqUEdjelB1Tmo3VFpST2FhMGRRdEJOcndLTDR6dnJiVHVkbk4tTDF6TVlkOTlJZWpwYnFhZklhUERrNDZlUGlDdTN1WDh3cno4ZzhWSk5LdXVHbGJ3SmFlWdIBc0FVX3lxTE1pcjczOWswNndvcDZrbmR3YkhRRWdtRDA3Z0xBVnNObXRDd1d0LUVsQ1lFSWtSSUNNdUU3Q0I0UThpeDdYdU9FWDhzcDNPQXN3VmRXczlqQnAtTEVRS0NlV0VIa19ReEVNU0xVRVVMSjkyMDA?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! ​제미나이 인텔리전스로 더욱 스마트하고 능동적으로 진화하는 안드로이드 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 롯데칠성음료, 챗GPT에 '칠성몰' 전용 앱 출시…AI 커머스 전략 본격화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "IBM, 클라우드 기반 관리형 AI 및 가상화 서비스 출시",
-        "enTitle": "IBM, 클라우드 기반 관리형 AI 및 가상화 서비스 출시",
-        "date": "2026-05-13",
-        "originalDate": "2026-05-12",
-        "sourceName": "Investing.com 한국어",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80QnhSU0c4MHhTRkk3cy1TLXJQWVVfTlViYkVsbUlFQU0tQ3FvNzNrX2VOTWc4ZHBwTnluVS1HNnNBOGdjWGI1MFM0cHV0MngtLTMydkdWTjQtMWpKbHNJNkh1SllvbDZDbVRfSGlfYXg?oc=5",
+        "koTitle": "25화 클로드 코드로 필요한 7가지 툴 만들기",
+        "enTitle": "25화 클로드 코드로 필요한 7가지 툴 만들기",
+        "date": "2026-05-14",
+        "originalDate": "2026-05-13",
+        "sourceName": "브런치",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1RX3lOR2tWMWhkeUpsLW9PTXR6b3A1enlmamZfbkpEdWFjejU0cGpabE41d29HZmllMElyMGVtbDJUaC1xQnYwclBCRTZ6UQ?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! IBM, 클라우드 기반 관리형 AI 및 가상화 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 25화 클로드 코드로 필요한 7가지 툴 만들기 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
