@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-05-14
+ * 최신 업데이트: 2026-05-15
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "한국 야구 인공지능 동영상 트렌드: 이 인공지능 프롬프트를 사용하여 그러한 경기장 동영상을 만드십시오. Instagram은 이것으로 넘쳐납니다.",
-        "enTitle": "Korean baseball AI video trend: Use THIS AI prompt to create such stadium videos; Instagram is flooded with this",
-        "date": "2026-05-14",
-        "originalDate": "2026-05-13",
-        "sourceName": "Zee News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONlpWd0doVHBfWEFNaUFEdFRkdTF5UUN2UUtQc2NWS0h0RWwxMVZ1RHI3ME1YZ1dKak0yVldLN1ZZSlR0WHQybU94Vi1fX3lJUnRiMHNsMVJJRDhCNXIwbWd5RGYxdXlHSzdYQmlwRDExR0EtNFdSV0tGcEpNOGdSY2pCZWlmczZsLU9qRnkxVVpMQVhqM1BOZGxXWFJza0I0ZGtTMGNkX0s4SEV4Nm5BU3F4SEVRTzBfemU5aUxFbURlVGdFY2FjM3UycEs1ZFdIWXMtSUZaTGZMWVBYcVo1dnVoNkt5azU0a1hkaXFPZTlwZ9IB9wFBVV95cUxQbUItTmNnTGl3NFFVZGZfQS1sNERma21UQ0piejRkTEd0dk5FT05lUXZxWks0bDhKQzR4Q2ZhVTNDT0JnU3FybWVZby1hM0ZQbUpyNEdJT0NhMGVGc2NpYmFNdlBqQ3RCdjRMRTlaZ3lHN1B0NGxMRTFaMmVOTFF4bU5DMjVQUy1jcVBOMldNNWRrU3VudXFRYTV1X3A3VnRlZHhjQWxnUGlkR0pkMVdVWmVvcVcwbHpiUmowZE9YLVNuNE5JSTR1SC1LWU5seEZYQ1RMcFBPVDluQklWYjc2ZUozUHAxYWM2ZkptbnNGcGdXNlhMdFpV?oc=5",
+        "koTitle": "시스코에서 블록에 이르기까지, 더 많은 기업들이 일자리 삭감을 공개할 때 AI를 지적하고 있습니다.",
+        "enTitle": "From Cisco to Block, more companies are pointing to AI when unveiling job cuts",
+        "date": "2026-05-15",
+        "originalDate": "2026-05-14",
+        "sourceName": "The Washington Post",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ0pLSkJzb0hzZEs0ZWFKZTExTm9PR3Vha3d4QTZvWXJQakFTd2tRQjRlTDhYbE1rYk5qbnJXeUZGQVRRanB4emhmVmNGS0Zra1gyeUd4VXBlaXhwQjNCUjJpdEczUFEtSGhkYkVNT3dBNzVLeDJoNklnYnlLUFNWRmJZeTU5NnhFNFB2WjZtV2M4Zi1qYUlDZnIwSzBmaGFMUnM4NXhWMmNfLUo4cmU2VHJEQ3REQVkwYm9QT09sOTlWZTR4?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 한국 야구 인공지능 동영상 트렌드: 이 인공지능 프롬프트를 사용하여 그러한 경기장 동영상을 만드십시오. Instagram은 이것으로 넘쳐납니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! 시스코에서 블록에 이르기까지, 더 많은 기업들이 일자리 삭감을 공개할 때 AI를 지적하고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "ChatGPT 한국 인공지능 야구 트렌드 사진 편집 프롬프트",
-        "enTitle": "ChatGPT Photo Editing Prompts for Korean AI Baseball Trend",
-        "date": "2026-05-14",
-        "originalDate": "2026-05-13",
-        "sourceName": "Jagran Josh",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc3E1bjBYRXNSYXYxZXpmcDhWUVk0MUJ2cXpNRC1hbllRcVN6WXc0X3hfSGxEMGxMSEk0RVYxaDlDclpXN1A1MzJ3WDJvNzdHNy04UUJfdWQ3TUg5a0RmR1BrZDh0ZjhRS2RXLWdMWjMwOEo5aFA2ZE9UWmxLQ2JkWXExMVhrTmluQUM1dWJFRm5HYzlaLThQcDFuS2sxaDcyMWZpc1BscW0?oc=5",
+        "koTitle": "클링 인공지능 (Kling AI), '한국 야구 트렌드' 로 42개국 앱스토어 차트 1위 ”전 세계적으로 화제",
+        "enTitle": "Kling AI Tops App Store Charts in 42 Countries as 'Korean Baseball Trend” Goes Viral Globally",
+        "date": "2026-05-15",
+        "originalDate": "2026-05-14",
+        "sourceName": "The Manila Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQQjlkSkRTTmZjNzQ0Z21YellfMzlMNzdYLTl5ZVpGMDRWTkhYSFo0MWVSZDZyLTI0Sl9ZWmI2c0NzaUthM3VfY3JMSDE5XzhELUFqaWhRUU8xX3Z3b3pHbk5WcHdqNlRQelk1QkVISmk1cm1ESE1iRk13UVFtSWl3TVo3SEZfRjBmV2VWX2ZFSkZRVFd6V0ZMRDB4a1hPYmVXcE1PTkZJUi1VN1pxcGRGelVuRXY2ZTZUSzF5Qm1naks0ZWEyMUlwZ1RFZXh2QWVEal93cWdHeG9FVm1xUmhLeERFWWxHQXBJZW1ITlNpY2xnV05JVzk5Y9IB_gFBVV95cUxQdGEwVW5Pa21pZ2ZhczlvbmR6OFBlNXVKNTVvMHFnWGlCV2FCYmdva1Q5ZU55MGdkWVZrVHI5NTVWRGVTMDZZSVZxZGViRXIzTTZjZHVTSXpYSXRsaDJuY3pkdnNfcW5VUFlmc2FjYWNKejRHc2x5cVpEcTAtV0ZoV3U2UG1RaUl4Uzl5VHN3U2RSOC1qYUFzWkt0TXF1elRrclVCZ29hTnRqSXlxbXU0dHVpbW1weWpZUHFjZnh3Z3JBUG56RFZMMDVrTlpEUG1TbkdEckRwQTZMYzkxeVlRSTZud2xPdlJaUGNhMzF4Rmh2X2d3M3ktZk92RkREQQ?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! ChatGPT 한국 인공지능 야구 트렌드 사진 편집 프롬프트 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 클링 인공지능 (Kling AI), '한국 야구 트렌드' 로 42개국 앱스토어 차트 1위 ”전 세계적으로 화제 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "일의 미래는 인간 + 인공지능",
-        "enTitle": "The Future of Work is Human+AI",
-        "date": "2026-05-14",
+        "koTitle": "의견: AI와 대학 졸업자에 대한 고용 전망",
+        "enTitle": "Opinion: AI and the Employment Outlook for College Grads",
+        "date": "2026-05-15",
         "originalDate": "2026-05-13",
-        "sourceName": "ARC Advisory Group",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NMHBkczBGMVpLQ2hHMU1hUUFYamJ1MWlpTmhPNzV1cXhUOG5fM05FWFFVT3h5Z1l1NGVSMHdONDhLMUprWElCbWJWSERjRXZmN19ueGY3czFzd0U?oc=5",
+        "sourceName": "govtech.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeVVDcThleVhPdVJHNC1zOExXSzBrdXJPRkhCRHgyR0daY0RlSlA1bVdBVFlSbW12d1RzMEpzejh2R0xRTjgwZkNwQlJFaUVydzNaaVgwZ2piU3E1TWlVOU5Wd1k4U1QzZVpfLXdHN1ZVZk5yM0p2bVltanJnY29WaU15bUJMRU1pRV9wSUlKUXIxckx0NGpKSm5VNWFjLWFR?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 일의 미래는 인간 + 인공지능 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 의견: AI와 대학 졸업자에 대한 고용 전망 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "서비스나우, 액션 패브릭 출시...외부 AI에이전트에도 플랫폼 공개",
-        "enTitle": "서비스나우, 액션 패브릭 출시...외부 AI에이전트에도 플랫폼 공개",
-        "date": "2026-05-14",
-        "originalDate": "2026-05-13",
-        "sourceName": "디지털투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBscXgzZVo1NDhVWGpxRmtxT1lNTHhGQkE5QW0yZ0pfeUk5a0V0S0ljb1VuZnBqVTBjM2h5UjQ0S0RZSGhUZnBUemRZTi0yUmJaSFpXRjhYbVNKbVJLRHJEb0t3NzAyd0FKTms0Znp2UVp5Sm8?oc=5",
+        "koTitle": "개발자가 써본 클로드 디자인 실전 후기",
+        "enTitle": "개발자가 써본 클로드 디자인 실전 후기",
+        "date": "2026-05-15",
+        "originalDate": "2026-05-14",
+        "sourceName": "요즘IT",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6T0FteGxaYnJWR1JuaEJ2V0JSbjRhYS1QWFpGRGNFMmJJY0Y0RGVwaUtqS3U1SDNfYUFxSjFhRlhKNm5YV3pjeEU5Y3Z3QUpaWjRoNW1oSzM3Zw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 서비스나우, 액션 패브릭 출시...외부 AI에이전트에도 플랫폼 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 개발자가 써본 클로드 디자인 실전 후기 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "롯데칠성음료, 챗GPT에 '칠성몰' 전용 앱 출시…AI 커머스 전략 본격화",
-        "enTitle": "롯데칠성음료, 챗GPT에 '칠성몰' 전용 앱 출시…AI 커머스 전략 본격화",
-        "date": "2026-05-14",
-        "originalDate": "2026-05-13",
-        "sourceName": "뉴스웍스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mWEdWYnhIUkN1QVpHRjBqUEdjelB1Tmo3VFpST2FhMGRRdEJOcndLTDR6dnJiVHVkbk4tTDF6TVlkOTlJZWpwYnFhZklhUERrNDZlUGlDdTN1WDh3cno4ZzhWSk5LdXVHbGJ3SmFlWdIBc0FVX3lxTE1pcjczOWswNndvcDZrbmR3YkhRRWdtRDA3Z0xBVnNObXRDd1d0LUVsQ1lFSWtSSUNNdUU3Q0I0UThpeDdYdU9FWDhzcDNPQXN3VmRXczlqQnAtTEVRS0NlV0VIa19ReEVNU0xVRVVMSjkyMDA?oc=5",
+        "koTitle": "메타, 왓츠앱에 강력한 'AI 시크릿 채팅' 출시...\"기록 삭제가 기본\"",
+        "enTitle": "메타, 왓츠앱에 강력한 'AI 시크릿 채팅' 출시...\"기록 삭제가 기본\"",
+        "date": "2026-05-15",
+        "originalDate": "2026-05-14",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxTXFQWlJWNDIzU0N3TFNzaDdfTm5BdVZCNE0xRlYtQWcxOFp1MDFlZjdkd1d0OHJwZ0ZGU0hwN2RHaWZXV1RvTlhUUEJpMl91bDdTSEpXd0VNdmhlbm9McERrTUNlQkFrY1E?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 롯데칠성음료, 챗GPT에 '칠성몰' 전용 앱 출시…AI 커머스 전략 본격화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 메타, 왓츠앱에 강력한 'AI 시크릿 채팅' 출시...\"기록 삭제가 기본\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "25화 클로드 코드로 필요한 7가지 툴 만들기",
-        "enTitle": "25화 클로드 코드로 필요한 7가지 툴 만들기",
-        "date": "2026-05-14",
-        "originalDate": "2026-05-13",
-        "sourceName": "브런치",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1RX3lOR2tWMWhkeUpsLW9PTXR6b3A1enlmamZfbkpEdWFjejU0cGpabE41d29HZmllMElyMGVtbDJUaC1xQnYwclBCRTZ6UQ?oc=5",
+        "koTitle": "\"회계 검토도 AI로\"…핑거-삼일PwC, ERP 기반 서비스 출시",
+        "enTitle": "\"회계 검토도 AI로\"…핑거-삼일PwC, ERP 기반 서비스 출시",
+        "date": "2026-05-15",
+        "originalDate": "2026-05-14",
+        "sourceName": "지디넷코리아",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1NWWJ4dFd1ZGJ4a2NRS0twc3B2MWgzWE40X1pFQmFLNVIwMHJYbUs5U1RUQXFPcTRHU3hNY3VUbzFyR05obER3MFlKckdJNWl5TlJSV2NB?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 25화 클로드 코드로 필요한 7가지 툴 만들기 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! \"회계 검토도 AI로\"…핑거-삼일PwC, ERP 기반 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
