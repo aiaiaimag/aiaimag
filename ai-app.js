@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-05-17
+ * 최신 업데이트: 2026-05-18
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Z세대는 AI 방지 일자리를 원합니다. 50개 부동산 호텔 체인의 사장은 환대가 눈에 잘 띄지 않는 곳에 숨어 있다고 말합니다.",
-        "enTitle": "Gen Z wants AI-proof jobs. The president of a 50-property hotel chain says hospitality is hiding in plain sight",
-        "date": "2026-05-17",
-        "originalDate": "2026-05-16",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUmFlYmRDWm5yeE9SVGFqRFFQTC1Xd1FqVGx0aTlrN3gwVjFqb0VPVzByVUFNZTZvUHl3SDVkQkFxOXZLbXhZYm40c3V2OVF6WW00UC1tRlUxM25DNUhOTmxEVFpjRFJNZjYtcXJSWkFhbkd3Y25MNW9xRTRUNEVnakd6V2diQTBUSHFlbWhaWnB0aExZczRmb0xLSXhBaHppd2J4OFFBaXZLNjM0T3UtZU1hQ1FuNFNIZVJCRzJZZVU2dw?oc=5",
+        "koTitle": "AI 시대에 어떤 커리어가 안전합니까? 업무의 미래에 대한 심층 분석",
+        "enTitle": "What Careers Are Safe in the Age of AI? A Deep Dive into the Future of Work",
+        "date": "2026-05-18",
+        "originalDate": "2026-05-17",
+        "sourceName": "Modern Ghana",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWkVJNG12ZHBYaHUweC00RGd0ellLSnVJMzFhWjJZUUlyU3FXRVNyVHQxeThDdmp4NE5LeGVKVi01V0NsMDVWQ3IzWmxVd0djaGFQWGdYYjNFc1lwM3RHMHduUERDOFpDUHdNeEhtcmNKMlU5S2h6QjZtU0FZVHBDOGpVZDVyRVdOZ2kxUl9DcDJtRjA2Y0tZ0gGWAUFVX3lxTE1aekFSZlBLU0FlYVZZdW53MzdwckF2Nl9QNnp1QWl5RFRQUnNqbjhYcjctTGgxai0tSktWOFNvNjRHUmduaGNpc2RKR2RzZ3FhaWNHNEdnWGVCdXo2Um94TmpubjlvY0xub0E3WlBOUmFGaGg2cnRjeHlRNnUyMzRJQzdONzM3NDl4a2VIMktuV2pJUjJndw?oc=5",
         "isRepublished": false,
         "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! Z세대는 AI 방지 일자리를 원합니다. 50개 부동산 호텔 체인의 사장은 환대가 눈에 잘 띄지 않는 곳에 숨어 있다고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! AI 시대에 어떤 커리어가 안전합니까? 업무의 미래에 대한 심층 분석 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "일의 미래는 이미 여기에 있습니다",
-        "enTitle": "The future of work is already here",
-        "date": "2026-05-17",
+        "koTitle": "Microsoft AI Chief는 AI에 의해 모든 화이트 칼라 작업을 자동화하기 위해 18개월을 제공합니다.",
+        "enTitle": "Microsoft AI chief gives it 18 months—for all white-collar work to be automated by AI",
+        "date": "2026-05-18",
         "originalDate": "2026-05-16",
-        "sourceName": "Meer | English edition",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE44VUd0V1FsY3JheTExTklqQTEtejhoUTNMNllNeS1GWi1EbnV6SmQ5aUpvWVFFWVBGcUp1RjAtSEpKdllxUGFJcEVQQnQ0bjh3c1FFMmgzLUE1d3BOTVR3NC1pdzVSVFlYMjJocGVUUENuNUk?oc=5",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLXAwd1YwLWZMR0NTZVhlVFBHM1gwS0taWDFjcmFHMFdtOVc2NjdSd3dlNHBMVE1GYUo4c2IxMXQ2REl0Q2xnbUJnU0pxMG1USkZqempOWGdjN01obGJUNmMxSllFcGxWZUt4T1FXdHlGTHdKYVFMcGRiR0VJc25pQnpaT3FLU08zbzhIRzR6VzdMcVZiY0NING02UnJxTU9OZVdv?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 일의 미래는 이미 여기에 있습니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! Microsoft AI Chief는 AI에 의해 모든 화이트 칼라 작업을 자동화하기 위해 18개월을 제공합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "OpenClaw: 최신 AI 에이전트에 대한 모든 뉴스",
-        "enTitle": "OpenClaw: all the news about the trending AI agent",
-        "date": "2026-05-17",
-        "originalDate": "2026-05-15",
-        "sourceName": "The Verge",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU21qZE10LUlJT1lXNS1MbENLcGVzMWlhTjJMbkRwTVRlWWZyQzkxTWlhZUMwelM2NU5PX1h2MG12Zkxxc281LWFrcDZzRFFQbkh6dENseGZHYXdGUjloVmxSY1ZiYWg3djhnZVRCWEVkWS1kNHZ5VUhHT0pFejBuLURn?oc=5",
+        "koTitle": "인공지능 미래에서 가장 안전한 직업은 무엇일까요?",
+        "enTitle": "Which Careers Are Safest in the AI Future?",
+        "date": "2026-05-18",
+        "originalDate": "2026-05-16",
+        "sourceName": "LPU",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16VW01U3R0N0NlWEZXYXB1blNmUG1RRzhzZWppX29fa1k0Qm1BODRnajEtM0pwTERBbjdTTlp3ZC1lZ1paUV80VzdoWXRnR3hCZnJVNk1fQmJENzZOejRETnFDVXl4dkU5XzFkU3B3VlV1aG5v?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! OpenClaw: 최신 AI 에이전트에 대한 모든 뉴스 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능 미래에서 가장 안전한 직업은 무엇일까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "구글이 제미나이 앱 내 ‘개인 인텔리전스’ 기능을 국내에 새롭게 선보입니다",
-        "enTitle": "구글이 제미나이 앱 내 ‘개인 인텔리전스’ 기능을 국내에 새롭게 선보입니다",
-        "date": "2026-05-17",
-        "originalDate": "2026-05-16",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1CVnplbEhhNnJSbG54UWVVb1pyVnBUUndvY3JsZTBQLURmZHp3Y29INFVaZ05PU21GQ01lMHU2MWVQdS0zZkwwOVp3VjdtelVwU0ZvQ3VUcUgxT3ZoMWJHU2s4VWFER2NSTkVOQ081eU9sRnhGRWZmeQ?oc=5",
+        "koTitle": "인터넷상의 AI 트렌드에 참여할 때 개인 정보가 유출되거나 손실될 수 있습니다.",
+        "enTitle": "인터넷상의 AI 트렌드에 참여할 때 개인 정보가 유출되거나 손실될 수 있습니다.",
+        "date": "2026-05-18",
+        "originalDate": "2026-05-17",
+        "sourceName": "Vietnam.vn",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeFNRQ29XaFlBUHJycm5rRUUxWnU1UU1aTnhyR1duZ2c4d1NQWjl4cGlTRlBXWnhGY2lJaWFkVDB6bjYxN0hyM0k4Vnp3ZGtBS2MyUXRUZHI4Y1NfUE1JVWpRRkRiZXpJLVVZenJrTGZ1WHMxRy1vNzRVbVlpZ214UmRsdjNRN0p4U0ItNTBMSEpSSkpUclNrNEZuWGNuVDQ?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글이 제미나이 앱 내 ‘개인 인텔리전스’ 기능을 국내에 새롭게 선보입니다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 인터넷상의 AI 트렌드에 참여할 때 개인 정보가 유출되거나 손실될 수 있습니다. 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "[AI 리뷰] “AI는 이제 모든 사람의 필수 언어”…MIT, 글로벌 인공지능 교육 플랫폼 ‘유니버설 AI’ 공개",
-        "enTitle": "[AI 리뷰] “AI는 이제 모든 사람의 필수 언어”…MIT, 글로벌 인공지능 교육 플랫폼 ‘유니버설 AI’ 공개",
-        "date": "2026-05-17",
-        "originalDate": "2026-05-16",
-        "sourceName": "인공지능신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE82OExDUDF0WE1hcHJHYi1jWTYyVTNocS1sN0l3NjJ1VEVKMDFhdXo0eFBycFJIZnVtTzByLXhaS0E3OWVxbW5aa0Vsbl9GMFNBTWc3UUp6akJ5YkU0LTFBS01vN2JzZkU?oc=5",
+        "koTitle": "[인공지능 줌인] AI가 환자 상태 먼저 감지…의료 서비스 구조 바뀌고 있다",
+        "enTitle": "[인공지능 줌인] AI가 환자 상태 먼저 감지…의료 서비스 구조 바뀌고 있다",
+        "date": "2026-05-18",
+        "originalDate": "2026-05-17",
+        "sourceName": "위키리크스한국",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBVSnBYYW1ZaGtYaEJKYXBONjk4ejZyX1NqSFY3MnpINnhrZnBBWVg4WFY5Vzc2T2tOcjZJMXFIWktrOFRhenphMjNQbnNLMHJmbERzR0JQMnQ2RWFJekU2RkhDeFpXa0YxbmJ1XzJQMA?oc=5",
         "isRepublished": false,
         "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI 리뷰] “AI는 이제 모든 사람의 필수 언어”…MIT, 글로벌 인공지능 교육 플랫폼 ‘유니버설 AI’ 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [인공지능 줌인] AI가 환자 상태 먼저 감지…의료 서비스 구조 바뀌고 있다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "25화 클로드 코드로 필요한 7가지 툴 만들기",
-        "enTitle": "25화 클로드 코드로 필요한 7가지 툴 만들기",
-        "date": "2026-05-17",
-        "originalDate": "2026-05-16",
-        "sourceName": "브런치",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1RX3lOR2tWMWhkeUpsLW9PTXR6b3A1enlmamZfbkpEdWFjejU0cGpabE41d29HZmllMElyMGVtbDJUaC1xQnYwclBCRTZ6UQ?oc=5",
+        "koTitle": "AI에 '라디오 DJ' 맡겼더니...\"클로드, 강제 노동 반발로 파업 선언\"",
+        "enTitle": "AI에 '라디오 DJ' 맡겼더니...\"클로드, 강제 노동 반발로 파업 선언\"",
+        "date": "2026-05-18",
+        "originalDate": "2026-05-17",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95YzFGUkNGcG1WYW1BX3RMNEFTVnMtUE5idS1wSnpYUkRFdXVWejFUQzczQVFSbzByVENTQWlsZlRjR3RUOWlFbVV6NlZsUmRxSDh5enFwRFBicWltREFlWmJoUjc0Z05pYlE?oc=5",
         "isRepublished": false,
         "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! 25화 클로드 코드로 필요한 7가지 툴 만들기 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! AI에 '라디오 DJ' 맡겼더니...\"클로드, 강제 노동 반발로 파업 선언\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
