@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-05-18
+ * 최신 업데이트: 2026-05-19
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI 시대에 어떤 커리어가 안전합니까? 업무의 미래에 대한 심층 분석",
-        "enTitle": "What Careers Are Safe in the Age of AI? A Deep Dive into the Future of Work",
-        "date": "2026-05-18",
-        "originalDate": "2026-05-17",
-        "sourceName": "Modern Ghana",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWkVJNG12ZHBYaHUweC00RGd0ellLSnVJMzFhWjJZUUlyU3FXRVNyVHQxeThDdmp4NE5LeGVKVi01V0NsMDVWQ3IzWmxVd0djaGFQWGdYYjNFc1lwM3RHMHduUERDOFpDUHdNeEhtcmNKMlU5S2h6QjZtU0FZVHBDOGpVZDVyRVdOZ2kxUl9DcDJtRjA2Y0tZ0gGWAUFVX3lxTE1aekFSZlBLU0FlYVZZdW53MzdwckF2Nl9QNnp1QWl5RFRQUnNqbjhYcjctTGgxai0tSktWOFNvNjRHUmduaGNpc2RKR2RzZ3FhaWNHNEdnWGVCdXo2Um94TmpubjlvY0xub0E3WlBOUmFGaGg2cnRjeHlRNnUyMzRJQzdONzM3NDl4a2VIMktuV2pJUjJndw?oc=5",
+        "koTitle": "기술 경제가 여기 있습니다 – AI 시대에 직업, 경력 및 인재 아키텍처에 대한 재고",
+        "enTitle": "The Skills Economy Is Here – Rethinking jobs, careers, and talent architecture in the age of AI",
+        "date": "2026-05-19",
+        "originalDate": "2026-05-18",
+        "sourceName": "hrtoday.in",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVTlnY0tNblU5MVpzYkx3eXo2cEFJc2xZengxVm84SEowZ0FFYjMxSFYwdkFVTXc5Mm54MVcwMk84dmVrSmR3R1k5RlgzWjRRN1hSTUFjN0J3by1HNGNia2cySGxhM1M5Y2hmNy1PTlBLMHh4N2RCalUzTVhnbTRxMnFFWVQ4TjF5ZzlZdFBwaXpCS0JxVzlxUHlDVEM4V2RhRkI5QlhlakVETU1TZlluNVA0YU1ZSlMwTl9mXw?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 시대에 어떤 커리어가 안전합니까? 업무의 미래에 대한 심층 분석 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 기술 경제가 여기 있습니다 – AI 시대에 직업, 경력 및 인재 아키텍처에 대한 재고 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "Microsoft AI Chief는 AI에 의해 모든 화이트 칼라 작업을 자동화하기 위해 18개월을 제공합니다.",
-        "enTitle": "Microsoft AI chief gives it 18 months—for all white-collar work to be automated by AI",
-        "date": "2026-05-18",
-        "originalDate": "2026-05-16",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLXAwd1YwLWZMR0NTZVhlVFBHM1gwS0taWDFjcmFHMFdtOVc2NjdSd3dlNHBMVE1GYUo4c2IxMXQ2REl0Q2xnbUJnU0pxMG1USkZqempOWGdjN01obGJUNmMxSllFcGxWZUt4T1FXdHlGTHdKYVFMcGRiR0VJc25pQnpaT3FLU08zbzhIRzR6VzdMcVZiY0NING02UnJxTU9OZVdv?oc=5",
+        "koTitle": "하우스 기사 | 소프트웨어 엔지니어링이 AI와 업무의 미래에 대해 가르쳐 줄 수 있는 것",
+        "enTitle": "The House Article | What Software Engineering Can Teach Us About AI And The Future Of Work",
+        "date": "2026-05-19",
+        "originalDate": "2026-05-18",
+        "sourceName": "Politics Home",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbHhhejJwVkJzd21LaW9QV1kxSXFiSVcwVE5lMi0tWXJMZ2FZYkpWUVhxMGRQbTl4OVJPR2pRaTJwN215ZlRmUUF4OWdMcjhKdW9xS242V2I1Wkg2cElvRFk3NGZTWHFCbFduVnVrRm9XNDVVN25ReGg4N3V0ckR3bUw3MnVvNERjVWFPNWhURQ?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! Microsoft AI Chief는 AI에 의해 모든 화이트 칼라 작업을 자동화하기 위해 18개월을 제공합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! 하우스 기사 | 소프트웨어 엔지니어링이 AI와 업무의 미래에 대해 가르쳐 줄 수 있는 것 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "인공지능 미래에서 가장 안전한 직업은 무엇일까요?",
-        "enTitle": "Which Careers Are Safest in the AI Future?",
-        "date": "2026-05-18",
+        "koTitle": "AI는 고령 근로자에게 고용 시장 레버리지를 기울일 태세",
+        "enTitle": "AI poised to tilt job market leverage toward older workers",
+        "date": "2026-05-19",
         "originalDate": "2026-05-16",
-        "sourceName": "LPU",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16VW01U3R0N0NlWEZXYXB1blNmUG1RRzhzZWppX29fa1k0Qm1BODRnajEtM0pwTERBbjdTTlp3ZC1lZ1paUV80VzdoWXRnR3hCZnJVNk1fQmJENzZOejRETnFDVXl4dkU5XzFkU3B3VlV1aG5v?oc=5",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSGwxcFltSkJROXFQVjlCbjBmSUk0UEY2c1REXzdWbmRaVXNGRkdWLUVnQW9UOWNfNkJYTXc3YTFjUEZNUVNNVF9CRVlzR3Nfd0JtVV9GdEV5b3BLQVJ4RENvNzhVdXdBRGZfSkRfd0daNXczNUJPVUFxeTN4REhoR1doWERoZ2JCcGNMT0c4Y1FseE5p?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능 미래에서 가장 안전한 직업은 무엇일까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! AI는 고령 근로자에게 고용 시장 레버리지를 기울일 태세 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "인터넷상의 AI 트렌드에 참여할 때 개인 정보가 유출되거나 손실될 수 있습니다.",
-        "enTitle": "인터넷상의 AI 트렌드에 참여할 때 개인 정보가 유출되거나 손실될 수 있습니다.",
-        "date": "2026-05-18",
-        "originalDate": "2026-05-17",
-        "sourceName": "Vietnam.vn",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeFNRQ29XaFlBUHJycm5rRUUxWnU1UU1aTnhyR1duZ2c4d1NQWjl4cGlTRlBXWnhGY2lJaWFkVDB6bjYxN0hyM0k4Vnp3ZGtBS2MyUXRUZHI4Y1NfUE1JVWpRRkRiZXpJLVVZenJrTGZ1WHMxRy1vNzRVbVlpZ214UmRsdjNRN0p4U0ItNTBMSEpSSkpUclNrNEZuWGNuVDQ?oc=5",
+        "koTitle": "신한은, 통합 플랫폼 ‘슈퍼SOL’ 출시…AI기반 금융 슈퍼앱",
+        "enTitle": "신한은, 통합 플랫폼 ‘슈퍼SOL’ 출시…AI기반 금융 슈퍼앱",
+        "date": "2026-05-19",
+        "originalDate": "2026-05-18",
+        "sourceName": "재외동포신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5FSC1qcUZOS1RrUGJjam1MU1hhb0x6MmN6dkFsZGk3VV83X1Q3RGlDSUR0bGxKakNJcjVfTE9MY040dURfVFlJRDFMN2Z6bGhKXzM0dGRzMWNxUC0yRlMwZ0JJNFVVZW9RLXN5dw?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 인터넷상의 AI 트렌드에 참여할 때 개인 정보가 유출되거나 손실될 수 있습니다. 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 신한은, 통합 플랫폼 ‘슈퍼SOL’ 출시…AI기반 금융 슈퍼앱 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "[인공지능 줌인] AI가 환자 상태 먼저 감지…의료 서비스 구조 바뀌고 있다",
-        "enTitle": "[인공지능 줌인] AI가 환자 상태 먼저 감지…의료 서비스 구조 바뀌고 있다",
-        "date": "2026-05-18",
-        "originalDate": "2026-05-17",
-        "sourceName": "위키리크스한국",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBVSnBYYW1ZaGtYaEJKYXBONjk4ejZyX1NqSFY3MnpINnhrZnBBWVg4WFY5Vzc2T2tOcjZJMXFIWktrOFRhenphMjNQbnNLMHJmbERzR0JQMnQ2RWFJekU2RkhDeFpXa0YxbmJ1XzJQMA?oc=5",
+        "koTitle": "롯데홈쇼핑, 챗GPT 기반 ‘AI쇼핑’ 출시...맞춤형 AI 서비스 강화",
+        "enTitle": "롯데홈쇼핑, 챗GPT 기반 ‘AI쇼핑’ 출시...맞춤형 AI 서비스 강화",
+        "date": "2026-05-19",
+        "originalDate": "2026-05-18",
+        "sourceName": "지디넷코리아",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9LR0ZGa0VSUHdmbG8xV3drT1AwTmhZUl9kem8wU0pyVWRTQkFmbXlfWW5fQlpPVXVaMklmMDFyM1dsckhIc0FIb2xXdmZmemtxV3NaUG93?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! [인공지능 줌인] AI가 환자 상태 먼저 감지…의료 서비스 구조 바뀌고 있다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 롯데홈쇼핑, 챗GPT 기반 ‘AI쇼핑’ 출시...맞춤형 AI 서비스 강화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "AI에 '라디오 DJ' 맡겼더니...\"클로드, 강제 노동 반발로 파업 선언\"",
-        "enTitle": "AI에 '라디오 DJ' 맡겼더니...\"클로드, 강제 노동 반발로 파업 선언\"",
-        "date": "2026-05-18",
-        "originalDate": "2026-05-17",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95YzFGUkNGcG1WYW1BX3RMNEFTVnMtUE5idS1wSnpYUkRFdXVWejFUQzczQVFSbzByVENTQWlsZlRjR3RUOWlFbVV6NlZsUmRxSDh5enFwRFBicWltREFlWmJoUjc0Z05pYlE?oc=5",
+        "koTitle": "롯데홈쇼핑, 챗GPT 기반 AI 쇼핑 서비스 출시…홈쇼핑 최초",
+        "enTitle": "롯데홈쇼핑, 챗GPT 기반 AI 쇼핑 서비스 출시…홈쇼핑 최초",
+        "date": "2026-05-19",
+        "originalDate": "2026-05-18",
+        "sourceName": "디지털데일리",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB0bGZ5WFRWU3dGMUszdUdGUnk3MEhyQy1pZDB4VEpOd1I1UGl2Qnl0OFhfUWxneWNtWEdYRHZSNUxWUVBxTG93aTMzNFYxLWRQcktXY2pRa2NLZEZLaFl0OWFxNnU?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! AI에 '라디오 DJ' 맡겼더니...\"클로드, 강제 노동 반발로 파업 선언\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 롯데홈쇼핑, 챗GPT 기반 AI 쇼핑 서비스 출시…홈쇼핑 최초 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
