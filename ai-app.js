@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-05-20
+ * 최신 업데이트: 2026-05-21
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "로피 더스크 인스타그램 트렌드: 바이럴 AI 초상화 만드는 법",
-        "enTitle": "Lofi Dusk Instagram Trend: How to Create Viral AI Portraits",
-        "date": "2026-05-20",
-        "originalDate": "2026-05-19",
-        "sourceName": "Analytics Insight",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLXE2RGJldlIzYmM4WDR5dW5XdFBid19TX05uVHBkcDNGMkloX0YxRnVyX0pmLVVyN2lKS015bHZyeGxWX2VsRDQ1dWZ3eXJYMWV4dEtralFqNjE0T2NGVVBGV1Y3eUdqZDRSLTgzeU1UU1hBTnpwQTduMlpDU0NFRnY5bDlTcFBQbmg0MEx0UFJaLTVJVVdGM2lWMGXSAaoBQVVfeXFMTUg3N0tWVUhua2F1dU9QazY3eGxPUUlWV2pSOFhNVndxb0ZQVmdFSXFCZFUybGktQmpMXzdobDRCRXpoRl8xSmhucDN3SHZVV0tPMEluM1hFWnZ6bnhId1ctVDlJYjZCenJCbGhtQUpZUXVmTGNvdXo1bEg5dDBQRkU1WXBYbWlDUTRGTUx2VTd1a1BFNUU2dXZaY3dGaXJGODFIUDVHeXN1cHc?oc=5",
+        "koTitle": "AI를 두려워하는 사람은 누구입니까?",
+        "enTitle": "Who’s Afraid of A.I.?",
+        "date": "2026-05-21",
+        "originalDate": "2026-05-20",
+        "sourceName": "The New York Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaDA5MGR3RFlWRHAwS2J5b2hmR2xhaml5QTI3eS1nOFRIZXZQSkJuVk1Lc3dSZ2lOc0F4N3J5dVFsNjNmUW9aQ3E4YXNoY2hCb1VCczFGZEoxckl2U25KS1pjWnJUeUpNMjNBTUpNV0FFY2R4RHh2ZWFpWFNuZmZJbjk0RV8?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! 로피 더스크 인스타그램 트렌드: 바이럴 AI 초상화 만드는 법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! AI를 두려워하는 사람은 누구입니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "WeWork 및 Upwork CEO는 Z세대 채용의 악몽이 진짜라고 확인하지만 새로운 것은 아닙니다.",
-        "enTitle": "WeWork and Upwork CEOs confirm the Gen Z hiring nightmare is real—but it’s nothing new",
-        "date": "2026-05-20",
-        "originalDate": "2026-05-19",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xODVOa3l2S1UzWEFQR2FOSVFfeVdMT0JwLU9mNUVJenhTcndxVTFCNnpaNTdkSlVMaEtXVnZfaU5oTWFvMms1UWpNNl9VR3g1ZzA2dzEzUkRZV0hkdVZ4T0VLZU4xN2ppcGlsVl9Ka3p4UUNOa05fV2h6NHB3Zw?oc=5",
+        "koTitle": "대중은 AI와 미래의 일에 대한 희망보다 더 많은 두려움을 가지고 있습니다. 연구 결과",
+        "enTitle": "Public have more fear than hope on AI and future of work, study finds",
+        "date": "2026-05-21",
+        "originalDate": "2026-05-20",
+        "sourceName": "King's College London",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWFAzTXRsSDF5NURRWVBiRVA5TlNmUUY0QU4wbWE4TnNkSnh2MGIxaTVjRloyYTN4YnprdkRrc19YZVlZWGlNT0xPRHNrT1BzT0pwVWlhWkJyTVlPZlczNEhNOHI2b19reHhHd1AtYVNrLTNNZ0Z1SHA3WDJvUDhMQW9WbHI2aFBvV3g5RVo3QzBwNzVYbkQw?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! WeWork 및 Upwork CEO는 Z세대 채용의 악몽이 진짜라고 확인하지만 새로운 것은 아닙니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 대중은 AI와 미래의 일에 대한 희망보다 더 많은 두려움을 가지고 있습니다. 연구 결과 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI 일자리 위협: 걱정이 가장 적은 60세 이상의 근로자",
-        "enTitle": "AI job threat: workers over 60 least worried",
-        "date": "2026-05-20",
-        "originalDate": "2026-05-19",
-        "sourceName": "moneywise.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORU0wTXhBaUEtMTJUdkNtci1SQ2p0bkJCSnN1d3hoeUoxUklEczA1SUNNejFLdjV6ZTZPZFdPMWQtYzhGT1BXRU5NVVljem5nNEtYVktkSzFXYmFXYW5OTmQ5UUI0M0gyZmw3d3lYRkRWeXdsdjJ4MEpUNnNEWnFQNndOOG9pR1JYVlIyNlVlV0ZnMl9uZHRhbjZiYUR5TGh3Nk42dVZn?oc=5",
+        "koTitle": "오늘날 AI가 화이트 칼라 일자리를 장악하고 있습니까?",
+        "enTitle": "Is AI Taking Over White-Collar Jobs Today?",
+        "date": "2026-05-21",
+        "originalDate": "2026-05-20",
+        "sourceName": "Analytics India Magazine",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObjdmQnZ3MmVidTJTMkhObXJzcjVKd0d0R0hTTGphZVVMNHJKRXRpMUpMRWRSaHkybGJhb24tcFJoekd0T1BucFI4OXpUaktJTlNra2lEbWk1VVlEYkFoWEtHNW5ReFRfaWRITHBIeGhNeml2dU9MOWF1NDFJb3c3RTNKVnVDY3FPcVloRzZTX3hwVUY0QVVfVGxpWW1zNDZoSjVCTw?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 일자리 위협: 걱정이 가장 적은 60세 이상의 근로자 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 오늘날 AI가 화이트 칼라 일자리를 장악하고 있습니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[I/O 2026] 최첨단 인텔리전스에 실행력까지 갖춘 ‘제미나이 3.5’를 소개합니다",
-        "enTitle": "[I/O 2026] 최첨단 인텔리전스에 실행력까지 갖춘 ‘제미나이 3.5’를 소개합니다",
-        "date": "2026-05-20",
-        "originalDate": "2026-05-19",
+        "koTitle": "이제 Mac 환경에서도 제미나이 앱을 만나보세요",
+        "enTitle": "이제 Mac 환경에서도 제미나이 앱을 만나보세요",
+        "date": "2026-05-21",
+        "originalDate": "2026-05-20",
         "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ibGVaR1FIcmc1VzU0Q0FDaGNkamFQdUJlelVUMkJjUEs4cl9CMk0wbXd4Q2hSb2h2ZzBpUm5WMnY3OXhoWHU2SkpQVEd3ZVIxd0NoWUx1MW54MzFfd2V4RHlKTk9ONnMtUkEyNjMxSlR5UmdxYllMOA?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcW9xdjdiX1hrZHNlRXY1Q2FvZHRKTWU1OU5EWmtNUTRRSnhmbnN0bUVlbXNXZnNyNWFsa2JEdG9mbFpaSFNCR3Q1T0Z3bnRUdU5lcW0tTGJSQlBUODZQWlpySGJhaDI1UGVpc1E5eXgySHRQQXJSRFFzZTh6U25XMg?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [I/O 2026] 최첨단 인텔리전스에 실행력까지 갖춘 ‘제미나이 3.5’를 소개합니다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 이제 Mac 환경에서도 제미나이 앱을 만나보세요 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "개발 단계서 개인정보·AI 규제 검토 자동화...글로벌 출시 시간 줄인다",
-        "enTitle": "개발 단계서 개인정보·AI 규제 검토 자동화...글로벌 출시 시간 줄인다",
-        "date": "2026-05-20",
-        "originalDate": "2026-05-19",
-        "sourceName": "지티티코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9kSXppelNDRFJBTnpZaHZ4cU5UZXMxb1dtRTNKcGpFeWk5a2gtSWs2dVpDbjRRbFpPZE5tTEstUmhtMFZvZEhQWmk3R1R0eHlzM1RJRkRpb2Y5QzBLNHZVbHlMVFIyVTJLaGc?oc=5",
+        "koTitle": "인크루트, 채용·커리어 AI ‘나비’ 공개… 채용 시장 자동화 확대",
+        "enTitle": "인크루트, 채용·커리어 AI ‘나비’ 공개… 채용 시장 자동화 확대",
+        "date": "2026-05-21",
+        "originalDate": "2026-05-20",
+        "sourceName": "매일일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBJRFJvTHdHbUZtMk1aaUFvMXAzTElydktIOHFXTnBYUlZxWWlpMkYybndUV1g0aEo4OF9YdEtkWmtMVGNXUXM4b2VSbWN3T3BHT3JUX19wUWVLZkN1OHBZUVh3Vl8?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 개발 단계서 개인정보·AI 규제 검토 자동화...글로벌 출시 시간 줄인다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 인크루트, 채용·커리어 AI ‘나비’ 공개… 채용 시장 자동화 확대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "그리드 다이내믹스, Azure 기반 AI 현대화 서비스 출시 By Investing.com",
-        "enTitle": "그리드 다이내믹스, Azure 기반 AI 현대화 서비스 출시 By Investing.com",
-        "date": "2026-05-20",
-        "originalDate": "2026-05-19",
-        "sourceName": "Investing.com 한국어",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1UOTlQeTN1YlExaHJCNllFQ3ZJZEZZLU90emc5RlZ3N3lMclYxZkk2d3hCMkRodE5BdnB6MTFjcjBhaklLdlFId3hteTNPeGQzNllTZ0pZYTVUeTFSUVEtYndHblo3LTlJYVU1MldWVUs?oc=5",
+        "koTitle": "\"AI로 친환경 허위광고 잡는다\"...SK AX, 그린워싱 사전 차단 서비스 출시",
+        "enTitle": "\"AI로 친환경 허위광고 잡는다\"...SK AX, 그린워싱 사전 차단 서비스 출시",
+        "date": "2026-05-21",
+        "originalDate": "2026-05-20",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qM0NsZm1IRXl4RkdYZkpVQ2E0WDNjUU1Mb2ZxOW5uSDRfY1RGUFpqTDVoU2JMUHBxYmtwbGlOMmVRWGxMVWdPWTdqdjdsZ0NxWTZ6SmNJLS1tTEllQkU3SkJFcWdZM2gtLUE?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 그리드 다이내믹스, Azure 기반 AI 현대화 서비스 출시 By Investing.com 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! \"AI로 친환경 허위광고 잡는다\"...SK AX, 그린워싱 사전 차단 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
