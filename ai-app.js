@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-05-21
+ * 최신 업데이트: 2026-05-22
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI를 두려워하는 사람은 누구입니까?",
-        "enTitle": "Who’s Afraid of A.I.?",
-        "date": "2026-05-21",
-        "originalDate": "2026-05-20",
-        "sourceName": "The New York Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaDA5MGR3RFlWRHAwS2J5b2hmR2xhaml5QTI3eS1nOFRIZXZQSkJuVk1Lc3dSZ2lOc0F4N3J5dVFsNjNmUW9aQ3E4YXNoY2hCb1VCczFGZEoxckl2U25KS1pjWnJUeUpNMjNBTUpNV0FFY2R4RHh2ZWFpWFNuZmZJbjk0RV8?oc=5",
+        "koTitle": "전직 페이스북 임원 셰릴 샌드버그 (Sheryl Sandberg) 는 Z세대에게 '미래가 불확실할 때 당신의 커리어를 기록하지 말라' 는 AI 덕분에 10년 커리어 계획이 죽었다고 말한다.",
+        "enTitle": "Ex-Facebook exec Sheryl Sandberg tells Gen Z the 10-year career plan is dead thanks to AI: 'Don't script your career when the future is uncertain'",
+        "date": "2026-05-22",
+        "originalDate": "2026-05-21",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb2h5NTZxU2R2akRTRkJNWWk3WklHVWpnNzZnVDF6ZUZoT2FpcEx4YVlXOVN6TUNjSENnZWd6VXkwVFdIbXRVdVp1WjBZcnpCcnBMdEV5bU03WHZVUEpMd1ZvaXVRYXFWZnVwY3hIR0RHdURRX2dhNkFuRExxS29ybGVKSXZ6eHZCdXdGaTVVVUE5a3FjNzVCTTBxb3NVRTFrOTluN254N1NoN3FJYnc?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! AI를 두려워하는 사람은 누구입니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 전직 페이스북 임원 셰릴 샌드버그 (Sheryl Sandberg) 는 Z세대에게 '미래가 불확실할 때 당신의 커리어를 기록하지 말라' 는 AI 덕분에 10년 커리어 계획이 죽었다고 말한다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "대중은 AI와 미래의 일에 대한 희망보다 더 많은 두려움을 가지고 있습니다. 연구 결과",
-        "enTitle": "Public have more fear than hope on AI and future of work, study finds",
-        "date": "2026-05-21",
-        "originalDate": "2026-05-20",
-        "sourceName": "King's College London",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWFAzTXRsSDF5NURRWVBiRVA5TlNmUUY0QU4wbWE4TnNkSnh2MGIxaTVjRloyYTN4YnprdkRrc19YZVlZWGlNT0xPRHNrT1BzT0pwVWlhWkJyTVlPZlczNEhNOHI2b19reHhHd1AtYVNrLTNNZ0Z1SHA3WDJvUDhMQW9WbHI2aFBvV3g5RVo3QzBwNzVYbkQw?oc=5",
+        "koTitle": "Acrisure 해고는 AI와 직업의 미래에 대한 의문을 제기합니다.",
+        "enTitle": "Acrisure layoffs raise questions about AI and future of jobs",
+        "date": "2026-05-22",
+        "originalDate": "2026-05-21",
+        "sourceName": "WWMT",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS3B5RDdFRlNzOW90aVNPcERoLVE0SnZTSHlhMENZcHROcFNDajdiZ0xHbWV0MTNCY2pIYnRNYXlndjM3X2VUcnlaWDllbmpodnk1OXNZRE9jeW1aOWRnYlNncDl0U2ptbEQ1a1lWRTQySzQ5SVlaeXBzeFFobGlBNXpFM1c3MHVUZDVtN1JGMDdGZ0RSbDByWXh6QzJ5QW1wN1BZVTZrQTFPVnJGNGhUbGxfR0p6STBKdWJOOHY2UGNKLXFPZkZqR2xGVQ?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 대중은 AI와 미래의 일에 대한 희망보다 더 많은 두려움을 가지고 있습니다. 연구 결과 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! Acrisure 해고는 AI와 직업의 미래에 대한 의문을 제기합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "오늘날 AI가 화이트 칼라 일자리를 장악하고 있습니까?",
-        "enTitle": "Is AI Taking Over White-Collar Jobs Today?",
-        "date": "2026-05-21",
-        "originalDate": "2026-05-20",
-        "sourceName": "Analytics India Magazine",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObjdmQnZ3MmVidTJTMkhObXJzcjVKd0d0R0hTTGphZVVMNHJKRXRpMUpMRWRSaHkybGJhb24tcFJoekd0T1BucFI4OXpUaktJTlNra2lEbWk1VVlEYkFoWEtHNW5ReFRfaWRITHBIeGhNeml2dU9MOWF1NDFJb3c3RTNKVnVDY3FPcVloRzZTX3hwVUY0QVVfVGxpWW1zNDZoSjVCTw?oc=5",
+        "koTitle": "AI, 인간 창의성 및 고객 중심 리더십으로 업무의 미래가 어떻게 재구성되고 있는지",
+        "enTitle": "How the Future of Work Is Being Reshaped by AI, Human Creativity, and Customer-Centered Leadership",
+        "date": "2026-05-22",
+        "originalDate": "2026-05-21",
+        "sourceName": "MarketScale",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQREVyakdQTVZnMW5KOXdnRHB5eDZfaXppeHF4TzJDTHg3OTBKMno2a1RNZ2N4U3p1UmEtWmtCcGM1RVozcUNSbVVsQWF2eXFZSnlKVGVZZmViOVk1ckI0eWpnMFVEZzU5bmlNSllWQXJ5VVZ0ZnJzRFpTN05wZnlGTXBlei1Kc2tCbGFhemYzT19xZmM5NU1tOVBTTXhZM3NPU2k5N3lqZDNfV3hJWFR5Vy13M3h1SGhIdFdqQzI4MEZUcHFna1I1LVZ2YmNBTWlpa3hNRUZPVi1PUk0xNURMZlYtdjVzaW5GUUp6TlR5cw?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 오늘날 AI가 화이트 칼라 일자리를 장악하고 있습니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! AI, 인간 창의성 및 고객 중심 리더십으로 업무의 미래가 어떻게 재구성되고 있는지 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "이제 Mac 환경에서도 제미나이 앱을 만나보세요",
-        "enTitle": "이제 Mac 환경에서도 제미나이 앱을 만나보세요",
-        "date": "2026-05-21",
-        "originalDate": "2026-05-20",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcW9xdjdiX1hrZHNlRXY1Q2FvZHRKTWU1OU5EWmtNUTRRSnhmbnN0bUVlbXNXZnNyNWFsa2JEdG9mbFpaSFNCR3Q1T0Z3bnRUdU5lcW0tTGJSQlBUODZQWlpySGJhaDI1UGVpc1E5eXgySHRQQXJSRFFzZTh6U25XMg?oc=5",
+        "koTitle": "[5월21일] 구글은 왜 ‘제미나이 3.5 프로’ 출시를 미뤘나…핵심은 ‘데이터 플라이휠’",
+        "enTitle": "[5월21일] 구글은 왜 ‘제미나이 3.5 프로’ 출시를 미뤘나…핵심은 ‘데이터 플라이휠’",
+        "date": "2026-05-22",
+        "originalDate": "2026-05-21",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGcFQzSHBwUk9LLVZZWnNDdjBRU3JPYmthNmF6ekxUSlpCMWRhSGZfMGhSTjZRSWtQWk9fdmVCRVlXSGg2T2dVdnNka19obkhic3RCY20tb2MxV0MwVEdabWlpNHZIY0thQ0E?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 이제 Mac 환경에서도 제미나이 앱을 만나보세요 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [5월21일] 구글은 왜 ‘제미나이 3.5 프로’ 출시를 미뤘나…핵심은 ‘데이터 플라이휠’ 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "인크루트, 채용·커리어 AI ‘나비’ 공개… 채용 시장 자동화 확대",
-        "enTitle": "인크루트, 채용·커리어 AI ‘나비’ 공개… 채용 시장 자동화 확대",
-        "date": "2026-05-21",
-        "originalDate": "2026-05-20",
-        "sourceName": "매일일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBJRFJvTHdHbUZtMk1aaUFvMXAzTElydktIOHFXTnBYUlZxWWlpMkYybndUV1g0aEo4OF9YdEtkWmtMVGNXUXM4b2VSbWN3T3BHT3JUX19wUWVLZkN1OHBZUVh3Vl8?oc=5",
+        "koTitle": "메디온시스템즈, AI 탑재 모바일 EMR 서비스 출시",
+        "enTitle": "메디온시스템즈, AI 탑재 모바일 EMR 서비스 출시",
+        "date": "2026-05-22",
+        "originalDate": "2026-05-21",
+        "sourceName": "헬스조선",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tRmd4aWJKVjBxamdPc0hfNy1lbWt0YXVtdFVKZTFaOEJPUTIzQ01OT1lLOTRSWHFZYU9xcFBNZm5ZblJEMmxrOU5YQ0VyNGVmTC1lN1laVTd0R2ZsYzhfMFVVa2g3R2NOQ2NOVGlHRkhrN2hCMmc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 인크루트, 채용·커리어 AI ‘나비’ 공개… 채용 시장 자동화 확대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 메디온시스템즈, AI 탑재 모바일 EMR 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "\"AI로 친환경 허위광고 잡는다\"...SK AX, 그린워싱 사전 차단 서비스 출시",
-        "enTitle": "\"AI로 친환경 허위광고 잡는다\"...SK AX, 그린워싱 사전 차단 서비스 출시",
-        "date": "2026-05-21",
-        "originalDate": "2026-05-20",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qM0NsZm1IRXl4RkdYZkpVQ2E0WDNjUU1Mb2ZxOW5uSDRfY1RGUFpqTDVoU2JMUHBxYmtwbGlOMmVRWGxMVWdPWTdqdjdsZ0NxWTZ6SmNJLS1tTEllQkU3SkJFcWdZM2gtLUE?oc=5",
+        "koTitle": "클로드, AI 챗봇 10개 평가서 1위…전문가 신뢰도 앞세워 챗GPT 추격 뿌리쳐",
+        "enTitle": "클로드, AI 챗봇 10개 평가서 1위…전문가 신뢰도 앞세워 챗GPT 추격 뿌리쳐",
+        "date": "2026-05-22",
+        "originalDate": "2026-05-21",
+        "sourceName": "글로벌이코노믹",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa29pSmJwZjFnOW5PcW5mSXlMTUFEQnVLWmZTR0FrU0s0RDczUTBLYWtqRy1RODc0S3BmRFV6QjcwS0djRDRZRGhVaFdaUTZZc3I0SVljMGdvSEVWZzZXeTRiNkc3QjBneWU2a1AwdEVpcThLUlZfSXBnQ0ZsT3V5TFBMbHJreUQz?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! \"AI로 친환경 허위광고 잡는다\"...SK AX, 그린워싱 사전 차단 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 클로드, AI 챗봇 10개 평가서 1위…전문가 신뢰도 앞세워 챗GPT 추격 뿌리쳐 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
