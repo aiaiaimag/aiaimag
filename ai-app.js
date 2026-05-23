@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-05-23
+ * 최신 업데이트: 2026-05-24
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Acrisure 해고는 AI와 직업의 미래에 대한 의문을 제기합니다.",
-        "enTitle": "Acrisure layoffs raise questions about AI and future of jobs",
-        "date": "2026-05-23",
-        "originalDate": "2026-05-22",
-        "sourceName": "WWMT",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS3B5RDdFRlNzOW90aVNPcERoLVE0SnZTSHlhMENZcHROcFNDajdiZ0xHbWV0MTNCY2pIYnRNYXlndjM3X2VUcnlaWDllbmpodnk1OXNZRE9jeW1aOWRnYlNncDl0U2ptbEQ1a1lWRTQySzQ5SVlaeXBzeFFobGlBNXpFM1c3MHVUZDVtN1JGMDdGZ0RSbDByWXh6QzJ5QW1wN1BZVTZrQTFPVnJGNGhUbGxfR0p6STBKdWJOOHY2UGNKLXFPZkZqR2xGVQ?oc=5",
+        "koTitle": "AI가 등장함에 따라 은행 업무의 미래가 어떻게 보이는지",
+        "enTitle": "How the future of work in banking looks like as AI enters the scene",
+        "date": "2026-05-24",
+        "originalDate": "2026-05-23",
+        "sourceName": "Daily Nation",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMFpvT1ZzclNZSzI2cTFNel9wa3BFVk5UU0RmcFJ2QnhBSzNMcWdGbHAzczA1NU5FNEluOTZhOXRCVlo0ODU4RmMyRkJTNnF4OC00UUpJRzlVVXFIM1U5eUxibHNxUUhQU1NuVm5MQ1hIYTJ6RW0xWmhfNXFTc3U0WVlZQU00aDhHZXp0YnhHaDB6R0NoSnBuNFpQQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! Acrisure 해고는 AI와 직업의 미래에 대한 의문을 제기합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! AI가 등장함에 따라 은행 업무의 미래가 어떻게 보이는지 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "정책연구거버넌스센터와 AI4인도, AI 시대 '일자리의 미래' 보고서 발간",
-        "enTitle": "Center of Policy Research and Governance and AI4India publish report on 'future of jobs' in the age of AI",
-        "date": "2026-05-23",
+        "koTitle": "Acrisure 해고는 AI와 직업의 미래에 대한 의문을 제기합니다.",
+        "enTitle": "Acrisure layoffs raise questions about AI and future of jobs",
+        "date": "2026-05-24",
         "originalDate": "2026-05-22",
-        "sourceName": "ANI News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQVXVMZTNOTmJ1YmZhMTc2azJIcWs3TkV4MkM5V3N5VjUxNW9LSkRaZl93ajJ6UmJyeWF3bHhib29fOV9ITHlyOGIzYmpDSU9ySkpDYW1oVjl1N0JrNTN3R1Zjb0ZyNjNEY2MzcHdWUkdya2o2LXFwMGtkS0lCSUFhcm5PNW5IY05RejZBN0tJUVV6OVNwcnptd0RCLUVtRERxMWcyS0FOeVhlQktpekM2cTFFUFp1cjR6VHh0Z1RiVXVSTlpDZ0VHbXpsVVh4c0pVLWRqam5CU2RMbEh0TTZhbjJYWWNYUExKemFmSTFHUDI3bVgxLV9jVi1Mbw?oc=5",
+        "sourceName": "WWMT",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS3B5RDdFRlNzOW90aVNPcERoLVE0SnZTSHlhMENZcHROcFNDajdiZ0xHbWV0MTNCY2pIYnRNYXlndjM3X2VUcnlaWDllbmpodnk1OXNZRE9jeW1aOWRnYlNncDl0U2ptbEQ1a1lWRTQySzQ5SVlaeXBzeFFobGlBNXpFM1c3MHVUZDVtN1JGMDdGZ0RSbDByWXh6QzJ5QW1wN1BZVTZrQTFPVnJGNGhUbGxfR0p6STBKdWJOOHY2UGNKLXFPZkZqR2xGVQ?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 정책연구거버넌스센터와 AI4인도, AI 시대 '일자리의 미래' 보고서 발간 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! Acrisure 해고는 AI와 직업의 미래에 대한 의문을 제기합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI는 새로운 커리어를 창출하고 있으며, 인도의 인력은 준비가되어 있지 않을 수 있습니다: CPRG 설립자",
-        "enTitle": "AI is creating new careers, and India’s workforce may be unprepared: CPRG founder",
-        "date": "2026-05-23",
+        "koTitle": "랜드스태드 CEO가 들려주는 인공지능과 일의 미래",
+        "enTitle": "Watch Randstad CEO on AI & Future of Work",
+        "date": "2026-05-24",
         "originalDate": "2026-05-22",
-        "sourceName": "EdexLive",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaUJUSERFRFJMd09WU2oxM2hETkdhc3pwVDNTeFBLcmczVUNnR0Zyc2pvTHh0WjRzVWZzd1FIWERxRHBGREZkek9XTjRSQ2thVFlCZWVIUnJXa1RXLVFINjhld2xhU3BqVGgzOGQ0V3ZmWl94Vy1MRHpfZ0lYdmlDdk41S2JzbDZ4NVRjOUdUM0VRSEdMeWg3SkhMajZhNUFyMzF4VTNnZ3pIb3NCQXo1VlFieV9TbkNZMGQ00gHIAUFVX3lxTE1XUDNSQmwyX1JCZ19VWDJJX0Y0OW9LNUVsVEcwa1FGcFNjVzltSUVoZjc0MldVT1hEUzAtMXgybm9uZFNPMy10TkZvamNUeS1pSF94N041Zy11RHhPNVN5N3NVNjlacWY2Zjc4ZnJxZnZSQjhuejYwNXI4UzlnTzV0QThYQlNPUWZOdUFhTVRBRUkwMUpTQzM0ZDdPLUZ5R3ZOT3lsS0RCblhHdkZWM3QzbVloVnBPeW9JQWlRNmctYVk3Zldod2Fn?oc=5",
+        "sourceName": "Bloomberg.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOR1JUNllYQk4wY3Y3eU5OM3IxRS1ESmRnMHV1T1ZRVVM2ZjMwNHRWajJMcVRWUDBaLWRKeWFXRDJCWjFWTnl5OVNZanBXOHpFRXNwYWVEdV9Pb05sdGZtLWVlcjhVMFFlNm5FNjFobWp6Nnk4d3JvbnFjZDljRHNPVnNZcTNDM3djRnBBVEVMZWx6dw?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! AI는 새로운 커리어를 창출하고 있으며, 인도의 인력은 준비가되어 있지 않을 수 있습니다: CPRG 설립자 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "91%",
+        "analysis": "글로벌 AI 트렌드 체크! 랜드스태드 CEO가 들려주는 인공지능과 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "네카오, '챗GPT+클로드' 멀티 AI 전략…업무 생산성 향상 '집중 투자'",
-        "enTitle": "네카오, '챗GPT+클로드' 멀티 AI 전략…업무 생산성 향상 '집중 투자'",
-        "date": "2026-05-23",
-        "originalDate": "2026-05-22",
-        "sourceName": "전자신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBWVGxacTZPRmdSNE1vQ0xETHN1VHZGa1k0N1NXYTdjbnQ4YS1tUDEwdUtoQ2hMejFhQWVyZ3dvSXg4MXZyQ19XVnBtVmEzQQ?oc=5",
+        "koTitle": "조혜련 “아들 우주, AI 탓 취업 안 돼 엄마카드 자르고‥” 근황 공개 (동치미)[어제TV]",
+        "enTitle": "조혜련 “아들 우주, AI 탓 취업 안 돼 엄마카드 자르고‥” 근황 공개 (동치미)[어제TV]",
+        "date": "2026-05-24",
+        "originalDate": "2026-05-23",
+        "sourceName": "newsen.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1CaVJGeThJNHo3NW9lSklSb3N1NkpwWUZORzAzdDA5dUc0enZaYTNrODZfVkd1WUI4VElZd3dWc25nM1RFNllKOFJSQ1UweFV5UGVMSGNtQlB2M2dLY0V1REd2M3BnUmRS?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 네카오, '챗GPT+클로드' 멀티 AI 전략…업무 생산성 향상 '집중 투자' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 조혜련 “아들 우주, AI 탓 취업 안 돼 엄마카드 자르고‥” 근황 공개 (동치미)[어제TV] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "\"AI 수익으로 지역공헌, 해고보다 근로단축\" 美 고용충격 대비 나섰다 - 머니투데이",
-        "enTitle": "\"AI 수익으로 지역공헌, 해고보다 근로단축\" 美 고용충격 대비 나섰다 - 머니투데이",
-        "date": "2026-05-23",
-        "originalDate": "2026-05-22",
-        "sourceName": "머니투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xVUNsY2N3YlF1VVVfYk5pWDBiTzRZSG5EZHpxd0NJTmdIYkFvRzY0eU9nVGF0ZUtQRmNvYV8zbDdvSWJJa1ZwQ0FvRjlSSTYtVE9qa1FoY05Ic2xUNTBIUlJLZERHczRZ0gFuQVVfeXFMTlN1aFNRNUZZbUhMdFRSSDBHcXpqWVZBRV9yVHVWZVlHclpuRlRvbDNlWmZKcjR2SjN1TWRGVmFZcmFFRjdMcWQxZHlnNlZ0WW9kbUs4TEJCT2t6MW91X1FsMzA5N0o0MGNVaXVlaUE?oc=5",
+        "koTitle": "메타, 한달 새 앱 2개 기습 출시…\"AI로 수십개 개발\" 현실화하나",
+        "enTitle": "메타, 한달 새 앱 2개 기습 출시…\"AI로 수십개 개발\" 현실화하나",
+        "date": "2026-05-24",
+        "originalDate": "2026-05-23",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82NHFNTTdyN1ZiLTNyeklJOXVPX0o4SHJNQmpTcEZDa2ZsT1pRNlp0V08xaVFJWEh0YnVUU3JmVUtBNHJoTnEzclBaaGE1emNMbTB1LWV1X0psdjRTdUpHeHdJQWJSNXUzRlE?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! \"AI 수익으로 지역공헌, 해고보다 근로단축\" 美 고용충격 대비 나섰다 - 머니투데이 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 메타, 한달 새 앱 2개 기습 출시…\"AI로 수십개 개발\" 현실화하나 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "축산물품질평가원, 인공지능(AI) 기술로 양돈 농가 생산성·수익성 높인다",
-        "enTitle": "축산물품질평가원, 인공지능(AI) 기술로 양돈 농가 생산성·수익성 높인다",
-        "date": "2026-05-23",
-        "originalDate": "2026-05-22",
-        "sourceName": "팜인사이트",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1vX1RkbkFPWmtJVGtmSUFBUkNYZHd2MkpEU2M3RXEySDBUVlctdzVFRFRkcmpJd1FNcFo0bDc1T2ZhOHBhRm8zaWw0WmRUTlBucl9GMml4dnBnLXpISWQ0aFdYcHI0dzIwRkRCbkJn?oc=5",
+        "koTitle": "[AI 이슈트렌드] 삼성전자 파업·스타벅스 '5·18 비하' 파문에 관심 집중",
+        "enTitle": "[AI 이슈트렌드] 삼성전자 파업·스타벅스 '5·18 비하' 파문에 관심 집중",
+        "date": "2026-05-24",
+        "originalDate": "2026-05-23",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05RmZCazVFNFV5WTZfTFBMUjBwZV9pcnM5aUJJVW1Zcmo3aVpIay1sQUFsbDJMWVZkMkRkZF9idGYycGR1alhNVXpzejd4NmtXMUliVmFTWEgxSUc3czdPRVlYam1lZFZBa3c?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 축산물품질평가원, 인공지능(AI) 기술로 양돈 농가 생산성·수익성 높인다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! [AI 이슈트렌드] 삼성전자 파업·스타벅스 '5·18 비하' 파문에 관심 집중 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
