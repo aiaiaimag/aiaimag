@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-05-25
+ * 최신 업데이트: 2026-05-26
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI는 일자리를 대체하지 않을 것이며, 일자리를 근본적으로 변화시킬 것입니다. 연구 결과",
-        "enTitle": "AI will not displace jobs, it will radically transform them, research finds",
-        "date": "2026-05-25",
-        "originalDate": "2026-05-24",
-        "sourceName": "The Brighter Side of News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUUFSd0d5bmNxOHNwcXFzX2dMZkJsVFQ3eUpBQ0xZVmVPVmE1anpZTERpcFBsbGZvZFV5SVRZQ0ZqVllUeEtEOU1pd2JNUFMwWkp5RFhGVW1JTmw3UTdIT05YdUxEMlZYRWYzVmZqSzRYb3VvZjBBRnhmNzA3NnZQTXlQbVVMTzg0aElEZTFwUDJBc3dJLWR6YmtKN3BCU2hIbHZvZklMeWV0VVkwYl85RENn?oc=5",
+        "koTitle": "ClickUp의 대량 해고가 업무의 미래에 대해 알려주는 것",
+        "enTitle": "What ClickUp’s mass layoff tells us about the future of work",
+        "date": "2026-05-26",
+        "originalDate": "2026-05-25",
+        "sourceName": "TechCrunch",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcm5qSWNHRW1TU0tWOVowc0h1THgtQ01fUU84aVdyczBVbG5zWGE4Z25ka0luSHhJek9rNXAzNWFJZnFZa2FIVktxTnZvRzVBZF9NNk02Ml84bjRGVlhxR243Mi1Pc2Utb1BlRlZXNlk1WEppalR6UVZraksweWlUSjFoT2ZCYnJvVDRnOWxSRWhmSmFzZ01BUGd3?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! AI는 일자리를 대체하지 않을 것이며, 일자리를 근본적으로 변화시킬 것입니다. 연구 결과 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! ClickUp의 대량 해고가 업무의 미래에 대해 알려주는 것 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "직업을 AI로 증명하는 방법",
-        "enTitle": "How to AI-proof your job",
-        "date": "2026-05-25",
-        "originalDate": "2026-05-22",
-        "sourceName": "CNN",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nSURWMnNQVHlsejZhV1ZvYmlwMUZDeTNMX3pERzdzUTVuZDVKUnVHUEVwU2FCdFZZNUluUEZBY2FMWEZhY1J5Rm1PT1BBQWVjR0RBcTBNb2ZaVllkNk9mWTBnT0dQQU1CZjlTYQ?oc=5",
+        "koTitle": "AI가 당신을 대신하지는 않지만 AI를 사용하는 사람이 당신을 대신할 수 있습니다.",
+        "enTitle": "AI won’t replace you but someone using AI might",
+        "date": "2026-05-26",
+        "originalDate": "2026-05-25",
+        "sourceName": "ScienceDaily",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1YWXByQTV0MlMxSTBRaFM4YmkwdzFQZXFuZm1aQXItU08xRmhfbDJuTHEwaTdMWWtwT2Nia0NHc1RscExmeXZzTC1XZlRIZXNzbTF0YjY1Y2E0UTN6MUY4SFdKUWNvZjRpck10ZUtxRQ?oc=5",
         "isRepublished": false,
         "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 직업을 AI로 증명하는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! AI가 당신을 대신하지는 않지만 AI를 사용하는 사람이 당신을 대신할 수 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "Acrisure 해고는 AI와 직업의 미래에 대한 의문을 제기합니다.",
-        "enTitle": "Acrisure layoffs raise questions about AI and future of jobs",
-        "date": "2026-05-25",
-        "originalDate": "2026-05-22",
-        "sourceName": "WWMT",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS3B5RDdFRlNzOW90aVNPcERoLVE0SnZTSHlhMENZcHROcFNDajdiZ0xHbWV0MTNCY2pIYnRNYXlndjM3X2VUcnlaWDllbmpodnk1OXNZRE9jeW1aOWRnYlNncDl0U2ptbEQ1a1lWRTQySzQ5SVlaeXBzeFFobGlBNXpFM1c3MHVUZDVtN1JGMDdGZ0RSbDByWXh6QzJ5QW1wN1BZVTZrQTFPVnJGNGhUbGxfR0p6STBKdWJOOHY2UGNKLXFPZkZqR2xGVQ?oc=5",
+        "koTitle": "AI 일자리 손실에 대한 두려움이 커지는 가운데, 순다르 피차이는 ‘부 전략‘ 의 부상을 다룹니다.",
+        "enTitle": "Amid growing fears of AI job losses, Sundar Pichai addresses the rise of the ‘boo strategy’",
+        "date": "2026-05-26",
+        "originalDate": "2026-05-25",
+        "sourceName": "Firstpost",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdXdRZHVpZEFNUGx4QmJBazhKVGVmc2VFNlYyQmUzc1diN0lyS0IwQ2RPR1VMUDFQbU5vNHIyM2kzZ1dyN2JDc3NOUWFlZm5lcW5SN0I0d0RYMU9BUmJ6Z2RNNFdMdjhfVEcyeE1OS29vbU0xZm9saEJBU1ozV1UtMk9DbXRsOHRNVUZHbmVKM19yX1ZDOUZUdHVKNkhmbThJalhoVElsWVhqTEVrSzE3cms0NEs0ZWFTdG1FamxTWjM2VWxUMDlJLVRJUmRVQQ?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! Acrisure 해고는 AI와 직업의 미래에 대한 의문을 제기합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! AI 일자리 손실에 대한 두려움이 커지는 가운데, 순다르 피차이는 ‘부 전략‘ 의 부상을 다룹니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "직원 10% 해고한 메타, 한 달새 앱 2개 출시…AI 활용 물량공세",
-        "enTitle": "직원 10% 해고한 메타, 한 달새 앱 2개 출시…AI 활용 물량공세",
-        "date": "2026-05-25",
-        "originalDate": "2026-05-24",
-        "sourceName": "한겨레",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1YbnR4bUdVZUhEMU1qU0Y3QktmRnlHZkVQcGtpbFRrcDJUam9NRGMta1RvZjAzMWJzOXo0eGpVMVBYMjA0eDFjUVpZb0Z6WWtHT3lLY0xoczVYYnB6b2dyeg?oc=5",
+        "koTitle": "[주간 데이터동향] 챗GPT 독주 속 AI 앱 3강 구도...클로드 1년 새 12배 성장",
+        "enTitle": "[주간 데이터동향] 챗GPT 독주 속 AI 앱 3강 구도...클로드 1년 새 12배 성장",
+        "date": "2026-05-26",
+        "originalDate": "2026-05-25",
+        "sourceName": "반론보도닷컴",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XODBaWDk4UDhuci1RMjBQVDBRQkV2SDBnazFMUW1Dei1PSzYwNWZ2dDVaTVAwN2lrYndINTJKY2FFbUlmU3Q1MjRnMEI1ODlIZ2ltaFUtWDhncHVPS3RZb2RTZEl4NFhLTjJLddIBcEFVX3lxTE90YWxySUVaSTh1emE4dENnYVREd0xkZzd1X3kxMlAzNmhQeC1fS2VQTjVSMDRaNG5meFBuU1ZfZ1hkQm9FMkZlaExRWG1WSEZORHdYYmZFd29VQUpiOG1BelFaaElHSkVIWEg1QldWUGI?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 직원 10% 해고한 메타, 한 달새 앱 2개 출시…AI 활용 물량공세 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [주간 데이터동향] 챗GPT 독주 속 AI 앱 3강 구도...클로드 1년 새 12배 성장 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "양향자 \"남성 청년도 HPV 무료 백신…AI·OTT 복지 지원\"",
-        "enTitle": "양향자 \"남성 청년도 HPV 무료 백신…AI·OTT 복지 지원\"",
-        "date": "2026-05-25",
-        "originalDate": "2026-05-24",
-        "sourceName": "연합뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UUzlHM3ZpdjNVQXR1Q25lUmNBTHBBS1VqZ3lnNTEzRmp2UGtCWVp1ejd4TkRLNnVIUUV0ODBYbmY0LWJ5WGtCdmFvRVNVenJGSEFodWRFWmgzcjVkOEVmQdIBYEFVX3lxTE5UUzlHM3ZpdjNVQXR1Q25lUmNBTHBBS1VqZ3lnNTEzRmp2UGtCWVp1ejd4TkRLNnVIUUV0ODBYbmY0LWJ5WGtCdmFvRVNVenJGSEFodWRFWmgzcjVkOEVmQQ?oc=5",
+        "koTitle": "삼성전자, 챗GPT·클로드 업무 활용 허용…6월12일부터",
+        "enTitle": "삼성전자, 챗GPT·클로드 업무 활용 허용…6월12일부터",
+        "date": "2026-05-26",
+        "originalDate": "2026-05-25",
+        "sourceName": "아이뉴스24",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1RVGFDNG9FLXJwa1JxU3BnZnNWZDF5dHktTU1oSWtyZmhLck53V2FoSWxNem9hYXMyUnZmcnZLUVYzbThZcHVYNUdTQUk?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 양향자 \"남성 청년도 HPV 무료 백신…AI·OTT 복지 지원\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 삼성전자, 챗GPT·클로드 업무 활용 허용…6월12일부터 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "[2026 테마캠퍼스] AI·첨단산업 전성시대, 대학 브랜드도 ‘취업 잘하는 대학’서 ‘AI 잘하는 대학’으로",
-        "enTitle": "[2026 테마캠퍼스] AI·첨단산업 전성시대, 대학 브랜드도 ‘취업 잘하는 대학’서 ‘AI 잘하는 대학’으로",
-        "date": "2026-05-25",
-        "originalDate": "2026-05-24",
-        "sourceName": "한국대학신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9lVHNjdndUdllQNVduSk03NHFEb1Y3clZWcU01clVkM0czaWlxV2hKMy10cVNGVkdydnBodXdTS0swZ2xqUm1NT1hBXzdaZENySVlmbmhqMnB2WVk5NEVoeURER2F1UQ?oc=5",
+        "koTitle": "AI 시대… ‘고학력이 취업 유리’ 이젠 옛말",
+        "enTitle": "AI 시대… ‘고학력이 취업 유리’ 이젠 옛말",
+        "date": "2026-05-26",
+        "originalDate": "2026-05-25",
+        "sourceName": "조선일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQejYxSkFiNmVIUTdtRGRpYTI4UmtKU0ZadFJ3NkwtdGtTaEltZkRCcGJpV1ZocWNMNkl3cm1FMk1VY1YtbHpWSUlGVEV0RW1ERzlPZU1HMzhNaGxoSXFEVDVvOE5IaXdCeXQwRno2QW5SVV9TNVV6OEQtUXdGamtvbVNDbVpMbjVGRW80NWh3?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! [2026 테마캠퍼스] AI·첨단산업 전성시대, 대학 브랜드도 ‘취업 잘하는 대학’서 ‘AI 잘하는 대학’으로 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! AI 시대… ‘고학력이 취업 유리’ 이젠 옛말 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
