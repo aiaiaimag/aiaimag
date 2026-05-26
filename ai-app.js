@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-05-26
+ * 최신 업데이트: 2026-05-27
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "ClickUp의 대량 해고가 업무의 미래에 대해 알려주는 것",
-        "enTitle": "What ClickUp’s mass layoff tells us about the future of work",
-        "date": "2026-05-26",
-        "originalDate": "2026-05-25",
-        "sourceName": "TechCrunch",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcm5qSWNHRW1TU0tWOVowc0h1THgtQ01fUU84aVdyczBVbG5zWGE4Z25ka0luSHhJek9rNXAzNWFJZnFZa2FIVktxTnZvRzVBZF9NNk02Ml84bjRGVlhxR243Mi1Pc2Utb1BlRlZXNlk1WEppalR6UVZraksweWlUSjFoT2ZCYnJvVDRnOWxSRWhmSmFzZ01BUGd3?oc=5",
+        "koTitle": "AI 일자리 히스테리에 대한 현실 점검",
+        "enTitle": "A reality check on the AI jobs hysteria",
+        "date": "2026-05-27",
+        "originalDate": "2026-05-26",
+        "sourceName": "MIT Technology Review",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRmp2Rjg2VVdYZU45YnpSNXZ0QklkSkxyUVZHaHl6MmlwME53ZDR1WVpoZF9wOUhfVHg1Zlh5SjJtZXRrSjdIbzdUSEoyZ0FUd0hfbzhDNTJXU1pId2JjVHBaQW1QZVkxTEVKM0NLeTJtcVFiT3lPTjdDOUQzUHJ6ZVZ6UEg3RHBGUGhOUzhaZU9XVlp5ay1z?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! ClickUp의 대량 해고가 업무의 미래에 대해 알려주는 것 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "98%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 일자리 히스테리에 대한 현실 점검 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI가 당신을 대신하지는 않지만 AI를 사용하는 사람이 당신을 대신할 수 있습니다.",
-        "enTitle": "AI won’t replace you but someone using AI might",
-        "date": "2026-05-26",
-        "originalDate": "2026-05-25",
-        "sourceName": "ScienceDaily",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1YWXByQTV0MlMxSTBRaFM4YmkwdzFQZXFuZm1aQXItU08xRmhfbDJuTHEwaTdMWWtwT2Nia0NHc1RscExmeXZzTC1XZlRIZXNzbTF0YjY1Y2E0UTN6MUY4SFdKUWNvZjRpck10ZUtxRQ?oc=5",
+        "koTitle": "직업의 미래는 직업이 아닌 기술에 관한 것입니다.",
+        "enTitle": "The Future Of Work Is About Skills, Not Jobs",
+        "date": "2026-05-27",
+        "originalDate": "2026-05-26",
+        "sourceName": "Forbes",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRE43ZkQzMkFiQ0hWdXNkWGlaY29MR3JuNFNBQVNzOUZfaHJRWGQ4aHZqVHVpUTlWUTVyYXdBaHdkSG5PUE5La1NMend0bHllQXJtd1V6NGhnME5SX0tvWVY1UzkyTWlTZWp5bmNaXzAya1hkOHgwWTFzTmJCOUl5NmYtZ1pmT2FNLUhOekZUWnhjVzVxZzZ2SHo1Vk8?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 당신을 대신하지는 않지만 AI를 사용하는 사람이 당신을 대신할 수 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 직업의 미래는 직업이 아닌 기술에 관한 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI 일자리 손실에 대한 두려움이 커지는 가운데, 순다르 피차이는 ‘부 전략‘ 의 부상을 다룹니다.",
-        "enTitle": "Amid growing fears of AI job losses, Sundar Pichai addresses the rise of the ‘boo strategy’",
-        "date": "2026-05-26",
-        "originalDate": "2026-05-25",
-        "sourceName": "Firstpost",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdXdRZHVpZEFNUGx4QmJBazhKVGVmc2VFNlYyQmUzc1diN0lyS0IwQ2RPR1VMUDFQbU5vNHIyM2kzZ1dyN2JDc3NOUWFlZm5lcW5SN0I0d0RYMU9BUmJ6Z2RNNFdMdjhfVEcyeE1OS29vbU0xZm9saEJBU1ozV1UtMk9DbXRsOHRNVUZHbmVKM19yX1ZDOUZUdHVKNkhmbThJalhoVElsWVhqTEVrSzE3cms0NEs0ZWFTdG1FamxTWjM2VWxUMDlJLVRJUmRVQQ?oc=5",
+        "koTitle": "샘 알트먼 (Sam Altman) 과 다리오 아메데이 (Dario Amodei) 는 둘 다 블록버스터 IPO를 눈여겨보면서 인공지능 직업 종말의 예언을 되찾고 있습니다.",
+        "enTitle": "Sam Altman and Dario Amodei are both walking back their AI jobs apocalypse prophecies as they eye blockbuster IPOs",
+        "date": "2026-05-27",
+        "originalDate": "2026-05-26",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOXZuWVZDcUVsS0FGVUx0cE9mN3o3YkdmRlh2QTZPdkV6Z25hNXZieFJ6LXZ3ekItMDBoZkxwdmYtV3VPYWVyTWZCTlFna1pDSGZBNDZnREJOU0stUnNhZTYxWDNUYmFtYTNiV25fUkV6MlhSUnVwQkFGVmtwbWxSVUo1LUlCTTM3ZHVwa09xWEtNamRuOHRyM1JDSTltY2tObmprRA?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 일자리 손실에 대한 두려움이 커지는 가운데, 순다르 피차이는 ‘부 전략‘ 의 부상을 다룹니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! 샘 알트먼 (Sam Altman) 과 다리오 아메데이 (Dario Amodei) 는 둘 다 블록버스터 IPO를 눈여겨보면서 인공지능 직업 종말의 예언을 되찾고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[주간 데이터동향] 챗GPT 독주 속 AI 앱 3강 구도...클로드 1년 새 12배 성장",
-        "enTitle": "[주간 데이터동향] 챗GPT 독주 속 AI 앱 3강 구도...클로드 1년 새 12배 성장",
-        "date": "2026-05-26",
-        "originalDate": "2026-05-25",
-        "sourceName": "반론보도닷컴",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XODBaWDk4UDhuci1RMjBQVDBRQkV2SDBnazFMUW1Dei1PSzYwNWZ2dDVaTVAwN2lrYndINTJKY2FFbUlmU3Q1MjRnMEI1ODlIZ2ltaFUtWDhncHVPS3RZb2RTZEl4NFhLTjJLddIBcEFVX3lxTE90YWxySUVaSTh1emE4dENnYVREd0xkZzd1X3kxMlAzNmhQeC1fS2VQTjVSMDRaNG5meFBuU1ZfZ1hkQm9FMkZlaExRWG1WSEZORHdYYmZFd29VQUpiOG1BelFaaElHSkVIWEg1QldWUGI?oc=5",
+        "koTitle": "거물 개발자 경고 \"클로드 코드는 망가진 도구...'바이브 슬롭' 위기\"",
+        "enTitle": "거물 개발자 경고 \"클로드 코드는 망가진 도구...'바이브 슬롭' 위기\"",
+        "date": "2026-05-27",
+        "originalDate": "2026-05-26",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0weWJiU21JLTZSYzdvNHNBSUt4U2ZPNHdMd2xZdnd4VGc3dVBsNm43TFZWNWFsVldYSGR5WmpncWROb3NtUExjeWVwU1ZJVTZFTmhkY3JhWmZQTXpQQVJaa25JRnYxTl9HU1E?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [주간 데이터동향] 챗GPT 독주 속 AI 앱 3강 구도...클로드 1년 새 12배 성장 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 거물 개발자 경고 \"클로드 코드는 망가진 도구...'바이브 슬롭' 위기\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "삼성전자, 챗GPT·클로드 업무 활용 허용…6월12일부터",
-        "enTitle": "삼성전자, 챗GPT·클로드 업무 활용 허용…6월12일부터",
-        "date": "2026-05-26",
-        "originalDate": "2026-05-25",
-        "sourceName": "아이뉴스24",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1RVGFDNG9FLXJwa1JxU3BnZnNWZDF5dHktTU1oSWtyZmhLck53V2FoSWxNem9hYXMyUnZmcnZLUVYzbThZcHVYNUdTQUk?oc=5",
+        "koTitle": "삼성전자, 'GPT·제미나이·클로드' 쓴다…업무 AX 속도",
+        "enTitle": "삼성전자, 'GPT·제미나이·클로드' 쓴다…업무 AX 속도",
+        "date": "2026-05-27",
+        "originalDate": "2026-05-26",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9lSU8wYktfb2w0ODVKWmxuclc4dUZuSDZHYl9sQ25ydHNYRU1JakNWNktLaWRGYTBzQUZfTEhGTmY0Uy11ZGxtM1pweGZWQWs?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 삼성전자, 챗GPT·클로드 업무 활용 허용…6월12일부터 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 삼성전자, 'GPT·제미나이·클로드' 쓴다…업무 AX 속도 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "AI 시대… ‘고학력이 취업 유리’ 이젠 옛말",
-        "enTitle": "AI 시대… ‘고학력이 취업 유리’ 이젠 옛말",
-        "date": "2026-05-26",
-        "originalDate": "2026-05-25",
-        "sourceName": "조선일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQejYxSkFiNmVIUTdtRGRpYTI4UmtKU0ZadFJ3NkwtdGtTaEltZkRCcGJpV1ZocWNMNkl3cm1FMk1VY1YtbHpWSUlGVEV0RW1ERzlPZU1HMzhNaGxoSXFEVDVvOE5IaXdCeXQwRno2QW5SVV9TNVV6OEQtUXdGamtvbVNDbVpMbjVGRW80NWh3?oc=5",
+        "koTitle": "[유미's 픽] 세일즈포스, 실적 발표 앞두고 '냉기'…AI 에이전트 수익화 의구심 확산",
+        "enTitle": "[유미's 픽] 세일즈포스, 실적 발표 앞두고 '냉기'…AI 에이전트 수익화 의구심 확산",
+        "date": "2026-05-27",
+        "originalDate": "2026-05-26",
+        "sourceName": "지디넷코리아",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0b1cya3pwQVRVSUlfZDF2NElyRWdXRGZOU2VUS0NGRVUzdEx1TjJXOTc1OWdidElOY2N2bnJZUkFCNDJULV82LVlwMm5UR2M5WkZiWUl3?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! AI 시대… ‘고학력이 취업 유리’ 이젠 옛말 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! [유미's 픽] 세일즈포스, 실적 발표 앞두고 '냉기'…AI 에이전트 수익화 의구심 확산 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
