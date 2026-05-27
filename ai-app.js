@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-05-27
+ * 최신 업데이트: 2026-05-28
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI 일자리 히스테리에 대한 현실 점검",
-        "enTitle": "A reality check on the AI jobs hysteria",
-        "date": "2026-05-27",
-        "originalDate": "2026-05-26",
-        "sourceName": "MIT Technology Review",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRmp2Rjg2VVdYZU45YnpSNXZ0QklkSkxyUVZHaHl6MmlwME53ZDR1WVpoZF9wOUhfVHg1Zlh5SjJtZXRrSjdIbzdUSEoyZ0FUd0hfbzhDNTJXU1pId2JjVHBaQW1QZVkxTEVKM0NLeTJtcVFiT3lPTjdDOUQzUHJ6ZVZ6UEg3RHBGUGhOUzhaZU9XVlp5ay1z?oc=5",
+        "koTitle": "소프트웨어 엔지니어 끝에 있는 Claude Code의 제작자",
+        "enTitle": "Claude Code's creator on the end of the software engineer",
+        "date": "2026-05-28",
+        "originalDate": "2026-05-27",
+        "sourceName": "Platformer",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE90cFo2azl5M0x1d1d5ekxKSElCMzVsRTJ6eFluczloRk1URGRnYWU1WFJMa19BSHhiSF9CeHJoUF8yYXVGaU9tUFBQWDJmbW9mOUVRbEtOS0NtMFNMTzVrblJiSWpocEZUZ2pv?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 일자리 히스테리에 대한 현실 점검 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! 소프트웨어 엔지니어 끝에 있는 Claude Code의 제작자 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "직업의 미래는 직업이 아닌 기술에 관한 것입니다.",
-        "enTitle": "The Future Of Work Is About Skills, Not Jobs",
-        "date": "2026-05-27",
-        "originalDate": "2026-05-26",
-        "sourceName": "Forbes",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRE43ZkQzMkFiQ0hWdXNkWGlaY29MR3JuNFNBQVNzOUZfaHJRWGQ4aHZqVHVpUTlWUTVyYXdBaHdkSG5PUE5La1NMend0bHllQXJtd1V6NGhnME5SX0tvWVY1UzkyTWlTZWp5bmNaXzAya1hkOHgwWTFzTmJCOUl5NmYtZ1pmT2FNLUhOekZUWnhjVzVxZzZ2SHo1Vk8?oc=5",
+        "koTitle": "OpenAI의 Sam Altman은 AI가 대량 화이트 칼라 일자리 붕괴를 유발할 것 같지 않다고 말합니다.",
+        "enTitle": "OpenAI’s Sam Altman says AI unlikely to trigger mass white-collar job collapse",
+        "date": "2026-05-28",
+        "originalDate": "2026-05-27",
+        "sourceName": "ET HRSEA",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNaDdhbFVFYUp4OFVjN2R3TklGV29MWW1JUjFUbXdNbWRYMUY5YmpCSW9mSjVyQjBTdXJPOC14dUVUb19JS1JRSWwwTGhOVl9xYmVqeWgzaTlhZlA4WXVhN09IZHhTeGp3ZHNTdjZDNHBJejRJN1Z6SjN1WEk3MU83R1JUT2xkTTZDZnVqQVZsc2dzVzhsYVVvdnJId182RUN5d1JJSUc5OGtUMkxxYl9LMnNOT0tRYWlURXFCUWMxVlRyRVVDR0J6VjFSdVUwRnl3bE9XbFU3RlZUd9IB3wFBVV95cUxNZEpuc3RDM0NwZWdyaVBDaHhGWW9DU21sa29tOWFXdUo3b0lrejgtTk1rbllyOFJNOHdoTEowWEZMa3g5cjl0aERsVFVCUEtVQllvaE5aaC1tR04tRjM2TjBFSVJFVl9QUmk1MDM5Rm8yY19XRV9hckpBSVh4ZVBZc0ZOWGF2NFpRTlA0Yk5Wa1JFLUlUMFJETllpWHlNYkxFTzJEOGJGbmFqOVZzNUVxVU5PcG1PREVTVkNJdFJMb1lPNGRlRzFpa09lOTlaUFNEeDgtNzYtbmZPb25HNk9Z?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 직업의 미래는 직업이 아닌 기술에 관한 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! OpenAI의 Sam Altman은 AI가 대량 화이트 칼라 일자리 붕괴를 유발할 것 같지 않다고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "샘 알트먼 (Sam Altman) 과 다리오 아메데이 (Dario Amodei) 는 둘 다 블록버스터 IPO를 눈여겨보면서 인공지능 직업 종말의 예언을 되찾고 있습니다.",
-        "enTitle": "Sam Altman and Dario Amodei are both walking back their AI jobs apocalypse prophecies as they eye blockbuster IPOs",
-        "date": "2026-05-27",
-        "originalDate": "2026-05-26",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOXZuWVZDcUVsS0FGVUx0cE9mN3o3YkdmRlh2QTZPdkV6Z25hNXZieFJ6LXZ3ekItMDBoZkxwdmYtV3VPYWVyTWZCTlFna1pDSGZBNDZnREJOU0stUnNhZTYxWDNUYmFtYTNiV25fUkV6MlhSUnVwQkFGVmtwbWxSVUo1LUlCTTM3ZHVwa09xWEtNamRuOHRyM1JDSTltY2tObmprRA?oc=5",
+        "koTitle": "2.5 lakh 사람들이 일자리를 잃은 후, Sam Altman과 다른 사람들은 이제 인공 지능을 키우는 것을 멈 춥니 다.",
+        "enTitle": "After 2.5 lakh people lost their jobs, Sam Altman and others now stop hyping AI",
+        "date": "2026-05-28",
+        "originalDate": "2026-05-27",
+        "sourceName": "India Today",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVW1EeGp0Y2Q4ZFF2Sm5CUVdRY3BldWYtd2J2YUpCYXZ3cklkTnh6WXRrN2xpZjZTMm52ZU9PQl8yUy1VOW9zYVotcUJJNENiMmlxX0lhNkFoMlRiMGY3QWJtVkFXdVIxUkJ4bkllQ1V6a0owdS1LU1ZJanFCcEhkckUtdVk5UUxGMUtvSFZhSHFpVzhrdUxrSzQ5dDhBS0Z1RmpFVHdGLXQzYmkyeG4tZ3ZZOVkyaU9EbjZjTURiNFN3MFZLY1lMeHRtbHlIaFBLOXpfS056RHlnTkU3SE8xU0dR0gHnAUFVX3lxTE9ZMjNCMFVKSVZiMGNrOG95QmNwVk9vRE40MFlZQkpBY1hsdjREZndGRDlkOER5ZTRCUmpqSUswUXZvaGJZdjBoWnVfeS1lQ2hTT21CeUozM2YtRGVhR0ZZRUFnT3FwV19vWUR4S2FoSUNjNHk1Zko5RzZ3WDVNaUdRcnhxNFdfVFAtbjR1V3d0NFNmeHpKYzY3Q1AzZUdJNDFzVzNiNDVZYzhPUUtoeVJWM284Y0FnZGpfNDFjcGg1V0JQSGo0OEhyNVZqYUx2c1VXZjBqRjI4RmxOb1lCNGU2dnFIaC1RWQ?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 샘 알트먼 (Sam Altman) 과 다리오 아메데이 (Dario Amodei) 는 둘 다 블록버스터 IPO를 눈여겨보면서 인공지능 직업 종말의 예언을 되찾고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 2.5 lakh 사람들이 일자리를 잃은 후, Sam Altman과 다른 사람들은 이제 인공 지능을 키우는 것을 멈 춥니 다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "거물 개발자 경고 \"클로드 코드는 망가진 도구...'바이브 슬롭' 위기\"",
-        "enTitle": "거물 개발자 경고 \"클로드 코드는 망가진 도구...'바이브 슬롭' 위기\"",
-        "date": "2026-05-27",
-        "originalDate": "2026-05-26",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0weWJiU21JLTZSYzdvNHNBSUt4U2ZPNHdMd2xZdnd4VGc3dVBsNm43TFZWNWFsVldYSGR5WmpncWROb3NtUExjeWVwU1ZJVTZFTmhkY3JhWmZQTXpQQVJaa25JRnYxTl9HU1E?oc=5",
+        "koTitle": "MK Pick | 하나투어, 챗GPT 전용 앱 출시로 AI 여행 추천 서비스 확장",
+        "enTitle": "MK Pick | 하나투어, 챗GPT 전용 앱 출시로 AI 여행 추천 서비스 확장",
+        "date": "2026-05-28",
+        "originalDate": "2026-05-27",
+        "sourceName": "매일경제",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yUFpGTE01cnFiTU9PVlNrSHNsUW1TV2R2QkRkZXpLQkpWa3doWnhtRDhkbFFvZzN1Y0pBUUhRbjZHZVRXeXhlUHlKWjV6Um9y?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 거물 개발자 경고 \"클로드 코드는 망가진 도구...'바이브 슬롭' 위기\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! MK Pick | 하나투어, 챗GPT 전용 앱 출시로 AI 여행 추천 서비스 확장 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "삼성전자, 'GPT·제미나이·클로드' 쓴다…업무 AX 속도",
-        "enTitle": "삼성전자, 'GPT·제미나이·클로드' 쓴다…업무 AX 속도",
-        "date": "2026-05-27",
-        "originalDate": "2026-05-26",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9lSU8wYktfb2w0ODVKWmxuclc4dUZuSDZHYl9sQ25ydHNYRU1JakNWNktLaWRGYTBzQUZfTEhGTmY0Uy11ZGxtM1pweGZWQWs?oc=5",
+        "koTitle": "애플, \"WWDC서 알파벳 제미나이 탑재한 신형 시리 공개 가능성\"",
+        "enTitle": "애플, \"WWDC서 알파벳 제미나이 탑재한 신형 시리 공개 가능성\"",
+        "date": "2026-05-28",
+        "originalDate": "2026-05-27",
+        "sourceName": "글로벌이코노믹",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQWFodUdQWTNNOGxqQ2hGMHVVNTVvUDNJYy1SYmNLUHdPZUcxdnY0aDItb1lmcGdHQXVvLXkyV1FpYnhaZDE3YkdXRnNEdlFBWF9WX3JPdkN6NTQ3OUcyZFZWb0V5N0g5REVKVndfR3JMSnZaY3VhVURkTDJyUGNhRTJyQ0owd1hY?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 삼성전자, 'GPT·제미나이·클로드' 쓴다…업무 AX 속도 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 애플, \"WWDC서 알파벳 제미나이 탑재한 신형 시리 공개 가능성\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "[유미's 픽] 세일즈포스, 실적 발표 앞두고 '냉기'…AI 에이전트 수익화 의구심 확산",
-        "enTitle": "[유미's 픽] 세일즈포스, 실적 발표 앞두고 '냉기'…AI 에이전트 수익화 의구심 확산",
-        "date": "2026-05-27",
-        "originalDate": "2026-05-26",
-        "sourceName": "지디넷코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0b1cya3pwQVRVSUlfZDF2NElyRWdXRGZOU2VUS0NGRVUzdEx1TjJXOTc1OWdidElOY2N2bnJZUkFCNDJULV82LVlwMm5UR2M5WkZiWUl3?oc=5",
+        "koTitle": "AI 많이 쓸수록 수익 줄어든다...AI 사용량 추적·과금 체계 경쟁 본격화",
+        "enTitle": "AI 많이 쓸수록 수익 줄어든다...AI 사용량 추적·과금 체계 경쟁 본격화",
+        "date": "2026-05-28",
+        "originalDate": "2026-05-27",
+        "sourceName": "지티티코리아",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE90VVk4Ry10TzI2VWNuODhqZUZkX2w2S1hsa1ZLak4wX0FnWVdRNVZfWnB6SEc1ZTJ0N2UySE5neG5pbU1qSlNkV29VSFdPNndaOENCMHJ5elA4MEwyWmwwNDZJS2tzYnFDb1E?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [유미's 픽] 세일즈포스, 실적 발표 앞두고 '냉기'…AI 에이전트 수익화 의구심 확산 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! AI 많이 쓸수록 수익 줄어든다...AI 사용량 추적·과금 체계 경쟁 본격화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
