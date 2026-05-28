@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-05-28
+ * 최신 업데이트: 2026-05-29
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "소프트웨어 엔지니어 끝에 있는 Claude Code의 제작자",
-        "enTitle": "Claude Code's creator on the end of the software engineer",
-        "date": "2026-05-28",
-        "originalDate": "2026-05-27",
-        "sourceName": "Platformer",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE90cFo2azl5M0x1d1d5ekxKSElCMzVsRTJ6eFluczloRk1URGRnYWU1WFJMa19BSHhiSF9CeHJoUF8yYXVGaU9tUFBQWDJmbW9mOUVRbEtOS0NtMFNMTzVrblJiSWpocEZUZ2pv?oc=5",
+        "koTitle": "AI 수익 창출 도구",
+        "enTitle": "AI Monetization Tools",
+        "date": "2026-05-29",
+        "originalDate": "2026-05-28",
+        "sourceName": "Trend Hunter",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9vXzZpOW5RQXVrODlVY0FndzFEZ0UwZjg1ajBGMXNKNm0wODh5M0lhWU90NUtGQ0JKQkIwWDRoeTFtM0Y4anZET01Ob05sTHducXNEV21sTmIyQmVQ0gFcQVVfeXFMT29fNmk5blFBdWs4OVVjQWd3MURnRTBmODVqMEYxc0o2bTA4OHkzSWFZT3Q1S0ZDQkpCQjBYNGh5MW0zRjhqdkRPTU5vTmxMd25xc0RXbWxOYjJCZVA?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! 소프트웨어 엔지니어 끝에 있는 Claude Code의 제작자 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 수익 창출 도구 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "OpenAI의 Sam Altman은 AI가 대량 화이트 칼라 일자리 붕괴를 유발할 것 같지 않다고 말합니다.",
-        "enTitle": "OpenAI’s Sam Altman says AI unlikely to trigger mass white-collar job collapse",
-        "date": "2026-05-28",
-        "originalDate": "2026-05-27",
-        "sourceName": "ET HRSEA",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNaDdhbFVFYUp4OFVjN2R3TklGV29MWW1JUjFUbXdNbWRYMUY5YmpCSW9mSjVyQjBTdXJPOC14dUVUb19JS1JRSWwwTGhOVl9xYmVqeWgzaTlhZlA4WXVhN09IZHhTeGp3ZHNTdjZDNHBJejRJN1Z6SjN1WEk3MU83R1JUT2xkTTZDZnVqQVZsc2dzVzhsYVVvdnJId182RUN5d1JJSUc5OGtUMkxxYl9LMnNOT0tRYWlURXFCUWMxVlRyRVVDR0J6VjFSdVUwRnl3bE9XbFU3RlZUd9IB3wFBVV95cUxNZEpuc3RDM0NwZWdyaVBDaHhGWW9DU21sa29tOWFXdUo3b0lrejgtTk1rbllyOFJNOHdoTEowWEZMa3g5cjl0aERsVFVCUEtVQllvaE5aaC1tR04tRjM2TjBFSVJFVl9QUmk1MDM5Rm8yY19XRV9hckpBSVh4ZVBZc0ZOWGF2NFpRTlA0Yk5Wa1JFLUlUMFJETllpWHlNYkxFTzJEOGJGbmFqOVZzNUVxVU5PcG1PREVTVkNJdFJMb1lPNGRlRzFpa09lOTlaUFNEeDgtNzYtbmZPb25HNk9Z?oc=5",
+        "koTitle": "AI 채용 정보 열기",
+        "enTitle": "Open AI Jobs",
+        "date": "2026-05-29",
+        "originalDate": "2026-05-28",
+        "sourceName": "Blockchain Council",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fVjVGbVNXZnhuU1loQ1dRREZZZXBCc2Z3UEppUDU1QzUzU2JNelFReVRSZnhWMnRBcGx4clVNRW1zeDJGZnNvanFMb3c0R3BzTzhYLWM0MXVxV0ZvVXlIV19iVVRQSDZsUjZNTndYRQ?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! OpenAI의 Sam Altman은 AI가 대량 화이트 칼라 일자리 붕괴를 유발할 것 같지 않다고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! AI 채용 정보 열기 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "2.5 lakh 사람들이 일자리를 잃은 후, Sam Altman과 다른 사람들은 이제 인공 지능을 키우는 것을 멈 춥니 다.",
-        "enTitle": "After 2.5 lakh people lost their jobs, Sam Altman and others now stop hyping AI",
-        "date": "2026-05-28",
-        "originalDate": "2026-05-27",
-        "sourceName": "India Today",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVW1EeGp0Y2Q4ZFF2Sm5CUVdRY3BldWYtd2J2YUpCYXZ3cklkTnh6WXRrN2xpZjZTMm52ZU9PQl8yUy1VOW9zYVotcUJJNENiMmlxX0lhNkFoMlRiMGY3QWJtVkFXdVIxUkJ4bkllQ1V6a0owdS1LU1ZJanFCcEhkckUtdVk5UUxGMUtvSFZhSHFpVzhrdUxrSzQ5dDhBS0Z1RmpFVHdGLXQzYmkyeG4tZ3ZZOVkyaU9EbjZjTURiNFN3MFZLY1lMeHRtbHlIaFBLOXpfS056RHlnTkU3SE8xU0dR0gHnAUFVX3lxTE9ZMjNCMFVKSVZiMGNrOG95QmNwVk9vRE40MFlZQkpBY1hsdjREZndGRDlkOER5ZTRCUmpqSUswUXZvaGJZdjBoWnVfeS1lQ2hTT21CeUozM2YtRGVhR0ZZRUFnT3FwV19vWUR4S2FoSUNjNHk1Zko5RzZ3WDVNaUdRcnhxNFdfVFAtbjR1V3d0NFNmeHpKYzY3Q1AzZUdJNDFzVzNiNDVZYzhPUUtoeVJWM284Y0FnZGpfNDFjcGg1V0JQSGo0OEhyNVZqYUx2c1VXZjBqRjI4RmxOb1lCNGU2dnFIaC1RWQ?oc=5",
+        "koTitle": "2026년 Future of Jobs Summit: 인공지능 혁명에서 살아남기 위해 SA의 미래 인력이 더 빨리 적응해야 하는 이유",
+        "enTitle": "2026 Future of Jobs Summit: Why SA’s future workforce must adapt faster to survive the AI revolution",
+        "date": "2026-05-29",
+        "originalDate": "2026-05-28",
+        "sourceName": "IOL",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNSnhmYkRYclAxWFl2c2tMWFNvUExDR2tVVHF6VTkwUV9BXzJLQzlTWFhsVU9mWDEyLWdlNkVkVnYzZk51VVpNdVVJVzItZkY3d2VueUo5Q0piTEVMWWxDek5UNUxyUVJ1aWlqR05rdzRCUEtfeHFBUHNLa0lXZWJRYWNtaGtiak55N3lqTDFxVVlDUkRjdTl4ODF4WHVTRTdxajZ1VktERUd2c0dOX3JwUXJVMGNmWnN2QUk4b1JGVVIzZjZ3ZXFtcUJOWm1NdlVBeWREMk1tLXdVQjFSOHhVcno0RjNDQ28?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 2.5 lakh 사람들이 일자리를 잃은 후, Sam Altman과 다른 사람들은 이제 인공 지능을 키우는 것을 멈 춥니 다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 2026년 Future of Jobs Summit: 인공지능 혁명에서 살아남기 위해 SA의 미래 인력이 더 빨리 적응해야 하는 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "MK Pick | 하나투어, 챗GPT 전용 앱 출시로 AI 여행 추천 서비스 확장",
-        "enTitle": "MK Pick | 하나투어, 챗GPT 전용 앱 출시로 AI 여행 추천 서비스 확장",
-        "date": "2026-05-28",
-        "originalDate": "2026-05-27",
-        "sourceName": "매일경제",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yUFpGTE01cnFiTU9PVlNrSHNsUW1TV2R2QkRkZXpLQkpWa3doWnhtRDhkbFFvZzN1Y0pBUUhRbjZHZVRXeXhlUHlKWjV6Um9y?oc=5",
+        "koTitle": "앤트로픽, '클로드 오퍼스 4.8'로 정상 탈환…'미소스급' 출시도 예고",
+        "enTitle": "앤트로픽, '클로드 오퍼스 4.8'로 정상 탈환…'미소스급' 출시도 예고",
+        "date": "2026-05-29",
+        "originalDate": "2026-05-28",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VSTRwekpZdVktV3ZpTnByOVBHNkJlUjAxRlY1UllnblNJOUM0NGo3Q0lZcnc5V0VMOE1PWk5vQ1hQRTFJYllqLXB5dmNkVlZ5YXgyNVJYWEdvellmVF9lT2M0SUd6MlJjWUE?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! MK Pick | 하나투어, 챗GPT 전용 앱 출시로 AI 여행 추천 서비스 확장 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, '클로드 오퍼스 4.8'로 정상 탈환…'미소스급' 출시도 예고 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "애플, \"WWDC서 알파벳 제미나이 탑재한 신형 시리 공개 가능성\"",
-        "enTitle": "애플, \"WWDC서 알파벳 제미나이 탑재한 신형 시리 공개 가능성\"",
-        "date": "2026-05-28",
-        "originalDate": "2026-05-27",
-        "sourceName": "글로벌이코노믹",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQWFodUdQWTNNOGxqQ2hGMHVVNTVvUDNJYy1SYmNLUHdPZUcxdnY0aDItb1lmcGdHQXVvLXkyV1FpYnhaZDE3YkdXRnNEdlFBWF9WX3JPdkN6NTQ3OUcyZFZWb0V5N0g5REVKVndfR3JMSnZaY3VhVURkTDJyUGNhRTJyQ0owd1hY?oc=5",
+        "koTitle": "Freedom Broker, AI 수익화 불확실성으로 Salesforce 목표주가 하향",
+        "enTitle": "Freedom Broker, AI 수익화 불확실성으로 Salesforce 목표주가 하향",
+        "date": "2026-05-29",
+        "originalDate": "2026-05-28",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5jVkJ1cE4wRWVpRXUwT28zOHFJR244cUwwcklmQll2RHZaazZaS1JDMzBla0dVTldDZlg2em1tMUhDZUd1bjJvQm13bi1va0RBbjlqdkJ4VFdRWWdrbTVIeEVWVnJzRDFHX0lQQTBDVG5fVTZj?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 애플, \"WWDC서 알파벳 제미나이 탑재한 신형 시리 공개 가능성\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! Freedom Broker, AI 수익화 불확실성으로 Salesforce 목표주가 하향 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "AI 많이 쓸수록 수익 줄어든다...AI 사용량 추적·과금 체계 경쟁 본격화",
-        "enTitle": "AI 많이 쓸수록 수익 줄어든다...AI 사용량 추적·과금 체계 경쟁 본격화",
-        "date": "2026-05-28",
-        "originalDate": "2026-05-27",
-        "sourceName": "지티티코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE90VVk4Ry10TzI2VWNuODhqZUZkX2w2S1hsa1ZLak4wX0FnWVdRNVZfWnB6SEc1ZTJ0N2UySE5neG5pbU1qSlNkV29VSFdPNndaOENCMHJ5elA4MEwyWmwwNDZJS2tzYnFDb1E?oc=5",
+        "koTitle": "바이브컴퍼니 ‘썸트렌드’, 챗GPT 앱스 정식 승인…”국내 소셜 분석 앱 최초”",
+        "enTitle": "바이브컴퍼니 ‘썸트렌드’, 챗GPT 앱스 정식 승인…”국내 소셜 분석 앱 최초”",
+        "date": "2026-05-29",
+        "originalDate": "2026-05-28",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Ic2YwN2pfWGV5eUdDUFE3aktxak9JR2JUUGdkR3ZFX0JNTVo5MnV1Q2l1WFRLTHBha3gwUjJqOFQ3Tlpmd25sU1ZYZmlsTExvVVlYVGpCXzZlMjNkN0xmY3VQMjRRTmhaUnc?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! AI 많이 쓸수록 수익 줄어든다...AI 사용량 추적·과금 체계 경쟁 본격화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 바이브컴퍼니 ‘썸트렌드’, 챗GPT 앱스 정식 승인…”국내 소셜 분석 앱 최초” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
