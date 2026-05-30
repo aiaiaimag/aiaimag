@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-05-30
+ * 최신 업데이트: 2026-05-31
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Z세대에게 보내는 인공지능: 젊은 가톨릭 구직자와 직원이 일의 미래와 씨름하다",
-        "enTitle": "AI to Gen Z: Young Catholic Job Seekers and Employees Wrestle With the Future of Work",
-        "date": "2026-05-30",
-        "originalDate": "2026-05-29",
-        "sourceName": "National Catholic Register",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB0VDFIMHA2dmpsdS1NSnhtMlFNZDNZRHB3ak8yemk4S1AzZ01Ed2NhYTQwUXpORTB0WmZNQzQ1MkF6MGNkTjZmeTR2UEZsRWM1Xy1aaEd30gFbQVVfeXFMUHJNcGZ0RFQ2RnFBWkxtLWc2OTdNMU5ubWtYc1dEMXlwdjBUNHo4eVYwX2YtMnNWdVdBY3VpMEYxTy1VejA3N0xyTnVRUndXNUxwRzFMSS1oS19aaw?oc=5",
+        "koTitle": "업무의 미래는 AI를 마스터하는 사람들의 몫입니다.",
+        "enTitle": "The Future of Work Belongs to People Who Master AI",
+        "date": "2026-05-31",
+        "originalDate": "2026-05-30",
+        "sourceName": "SciTechDaily",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQk9oRHNPeWg0Wk5aM1lyQXI2cVFjUnduWU5wU0JFXy1EbXI4Q0dOQld0anEzR0hhUnAySHB2ZFBXMzRWdFdSSm05OF9rYVFyQ0tPdVFpLTh1aDFYWGlqSVotRklCZ0lmQnQ1cC1sOHYzaUdHWWZ3Qlg2S0pfRDBvVjRB?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! Z세대에게 보내는 인공지능: 젊은 가톨릭 구직자와 직원이 일의 미래와 씨름하다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 업무의 미래는 AI를 마스터하는 사람들의 몫입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI가 초보 수준의 일자리를 망친 방법",
-        "enTitle": "How AI Broke the Entry-Level Job",
-        "date": "2026-05-30",
-        "originalDate": "2026-05-29",
-        "sourceName": "Washington Monthly",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbDZTSi1UU1drT2pjQWZHLW9ETlZsWU8xX2k1QmZBRTJCV2xGTVZRRXE3Z0I0Sm9yT1huSmRuX2lfc0JtQnhfNXAzYmt6emFsT3lXdndGc1lZM29lTUNHbElSb2JDZ0RnaUwxRzhuYzhkVzVFSVdIU0hDVGJzTDZoUzR5SjJldw?oc=5",
+        "koTitle": "인공지능이 당신의 직업을 훔쳐야 할까요?",
+        "enTitle": "Should AI steal your job?",
+        "date": "2026-05-31",
+        "originalDate": "2026-05-30",
+        "sourceName": "Financial Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNODNiR1FYQ283NU1nZFZLMUR0S1VmLUNidktIajNfYkl2THpRbUN2aXlOLTV0TS1JY1Y2UW5aN3hsZ0c5SWJZdVB1a09kWDYyZGlCdllaODJXZUFvNFZkYTlVOGd2a3VxdDE1cjdyTDl1LUlkYy05amJEVXllS1FiNlYzdTI?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 초보 수준의 일자리를 망친 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 당신의 직업을 훔쳐야 할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "‘그게 삶의 의미인가?’: 버니 샌더스 (Bernie Sanders) 가 기술 CEO들에게 노동자를 위한 인공지능 미래에 대해 질문하다",
-        "enTitle": "‘Is that the meaning of life?’: Bernie Sanders questions tech CEOs on AI future for workers",
-        "date": "2026-05-30",
-        "originalDate": "2026-05-29",
-        "sourceName": "The American Bazaar",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT1ZPZEdIVVdla0lpTnV6WlZndU9NdHVzeHJ2YWZKSmx3R2hoMG9aU0hoaDdJN3dVdVVydDQxWjFmWUZnVENLdnVMaVo3cXI0cDM3eGd6RFVoUWVocnR4SGRzOFJmOVJvUFRsemZWd2l4ZS1FeVBfdTQxdWRZcW03dm56a1JfdTgwak5LQllYZV9zeDg5QWQtV1NTdEFRQjBCdUoyWnBEalVCcmh5RjJSTg?oc=5",
+        "koTitle": "‘싱가포르 사람들은 적어도 한 번은 확실히 회복될 것이다’ — HR 컨설턴트이자 ‘인공지능 시대에 여전히 관련성이 있는가?’ 의 저자는 ‘언제냐의 문제일 뿐이다’ 라고 말한다.",
+        "enTitle": "‘Singaporeans will definitely get retrenched at least once’ — HR consultant and author of ‘Still Relevant in the Age of AI?’ says, ‘It’s only a matter of when’",
+        "date": "2026-05-31",
+        "originalDate": "2026-05-30",
+        "sourceName": "The Independent Singapore News",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPNnp6Y2xNMlJlMUFoc0hVVVJzcmVEekZ0bWF4WDBZYklka1laQkNmSGNGWklOcHc5OGNaNm91aHVqQU9qTWVoU2tPY2otMVN4b3lPMUNuVUw4M3dVRTdnVVFicGpXTlFyMTFKb0lTb3NIX29YTllCZUdiOEtSQmdkVXpQSmFLQWJTY1hEeEQta1o2cVJubmZLLXF2LVJMU19MZXlrQVdQcDhMU0VNbjl4d0d6OHVMczc4N21ES1JRNXVIMVNRM2ZLWmNidlV1MUE0VGpKelZ3MHBObGJOci1YNk4yc2EyYmFMZE5udnUyczdrZ21YbGp5cHBLQi1BVng4VVpRNVVlaw?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! ‘그게 삶의 의미인가?’: 버니 샌더스 (Bernie Sanders) 가 기술 CEO들에게 노동자를 위한 인공지능 미래에 대해 질문하다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! ‘싱가포르 사람들은 적어도 한 번은 확실히 회복될 것이다’ — HR 컨설턴트이자 ‘인공지능 시대에 여전히 관련성이 있는가?’ 의 저자는 ‘언제냐의 문제일 뿐이다’ 라고 말한다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "이제 Mac 환경에서도 제미나이 앱을 만나보세요",
-        "enTitle": "이제 Mac 환경에서도 제미나이 앱을 만나보세요",
-        "date": "2026-05-30",
-        "originalDate": "2026-05-29",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcW9xdjdiX1hrZHNlRXY1Q2FvZHRKTWU1OU5EWmtNUTRRSnhmbnN0bUVlbXNXZnNyNWFsa2JEdG9mbFpaSFNCR3Q1T0Z3bnRUdU5lcW0tTGJSQlBUODZQWlpySGJhaDI1UGVpc1E5eXgySHRQQXJSRFFzZTh6U25XMg?oc=5",
+        "koTitle": "Opus 4.8 등장: 클로드는 빼앗긴 주도권을 찾아올까?",
+        "enTitle": "Opus 4.8 등장: 클로드는 빼앗긴 주도권을 찾아올까?",
+        "date": "2026-05-31",
+        "originalDate": "2026-05-30",
+        "sourceName": "요즘IT",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XNGhQc1FWZ1ZhTGswd056Tkt2QWJTVHhkbEV1eVNoaVJ3b19SVEdiclVvcTlfMFBvUEJ2N2diWnI2SmZXN1hRV1p0WS1FN1RYUXdXNE1IZmNDQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 이제 Mac 환경에서도 제미나이 앱을 만나보세요 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! Opus 4.8 등장: 클로드는 빼앗긴 주도권을 찾아올까? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "[영상] 챗GPT vs 제미나이 vs 퍼플렉시티 vs 클로드···작업별 AI 비교 총정리",
-        "enTitle": "[영상] 챗GPT vs 제미나이 vs 퍼플렉시티 vs 클로드···작업별 AI 비교 총정리",
-        "date": "2026-05-30",
-        "originalDate": "2026-05-29",
-        "sourceName": "시사저널e",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBBTWU5eHAtTnNTbUROR0tickdKdmFSMDFzLWZaZHFzNFhFSUNfc29qQnN6Y3NCZmRteml4V1p4azFHb1hsb2tBODRUS1dvanA3ZWJfRVpLZnRjT01uODJKU1pLMXdRSmlmVzRqMzgwUTFvd9IBdkFVX3lxTE50OVdseHpkSF94ZnZDQU5PZ3V0MHE1b21Mbm9hQzhYLXdncTVhdkFESFNiRlVUZVc5VjhEZWRvcExKUk1wT3pEa19Pd3c1UHE3dFBGZXZDTXI5ZXRxNDMwcU1lTjdPaUNmTlZ2RVJRLUxmWlp4N0E?oc=5",
+        "koTitle": "[AI 이슈트렌드] 서소문 고가 붕괴·삼전닉스 ETF 여풀 속 '종전 기대감'에 출렁인 환율",
+        "enTitle": "[AI 이슈트렌드] 서소문 고가 붕괴·삼전닉스 ETF 여풀 속 '종전 기대감'에 출렁인 환율",
+        "date": "2026-05-31",
+        "originalDate": "2026-05-30",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5lMmUyZXZzNm9lRFFjX05CellILTBxU0ZrNTZ1Ri1UNVl3OWNRaWpEcXVTSEItdjl3ODhLcFZ2U25HOXhzc1l5cndvQ1JwNkN0eGJzdkVkSkgzQ1dDbmZIOFVocVYwOVJ1Y2c?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [영상] 챗GPT vs 제미나이 vs 퍼플렉시티 vs 클로드···작업별 AI 비교 총정리 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! [AI 이슈트렌드] 서소문 고가 붕괴·삼전닉스 ETF 여풀 속 '종전 기대감'에 출렁인 환율 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "구글, ‘Google AI Studio’ 모바일 앱 출시",
-        "enTitle": "구글, ‘Google AI Studio’ 모바일 앱 출시",
-        "date": "2026-05-30",
-        "originalDate": "2026-05-29",
-        "sourceName": "디자인 나침반",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUm5Db0xtRi1QRkNXOUp1S0tGT29vZ2tmNVJ5YWJiOW1VY3lkVVdlRWhjTzdNbEtCMGdtbVp2N0lSRlJ5QnFXWHUxdGZSZjBvNTVCU1JkM0xTbWd0UHRVeGVJLS1WTkFDQ0dwZlZoZGJIR1V1UmdhM0MyR1gyUi0tSm1KeDE0ZzRzSzJhR09rbGttODhXQi02cFc3SmZVY195MGhwZlpPX0M3WHFOdGFWVHNQOFVRdU95T3otY250RGxYMFRCanpaRjJB?oc=5",
+        "koTitle": "[빅테크칼럼] 클로드 AI 한달 요금이 무려 5억 달러? “토큰맥싱의 역습”… AI 요금 폭탄이 던진 경고",
+        "enTitle": "[빅테크칼럼] 클로드 AI 한달 요금이 무려 5억 달러? “토큰맥싱의 역습”… AI 요금 폭탄이 던진 경고",
+        "date": "2026-05-31",
+        "originalDate": "2026-05-30",
+        "sourceName": "뉴스스페이스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FZW9ncTg4XzlCYUFwaVFweTZCQUFsTUR0OWRXeF9JNmdVT2RBUEtBTWRoS1dQRG9xX0xJU2w3aG9sMm9DdFFkc1dHcThDX1ZJYW1LdWZLblRQRDVoajFGeg?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글, ‘Google AI Studio’ 모바일 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "96%",
+        "analysis": "2030을 위한 AI 실무 팁! [빅테크칼럼] 클로드 AI 한달 요금이 무려 5억 달러? “토큰맥싱의 역습”… AI 요금 폭탄이 던진 경고 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
