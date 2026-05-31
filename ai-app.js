@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-05-31
+ * 최신 업데이트: 2026-06-01
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "업무의 미래는 AI를 마스터하는 사람들의 몫입니다.",
-        "enTitle": "The Future of Work Belongs to People Who Master AI",
-        "date": "2026-05-31",
-        "originalDate": "2026-05-30",
-        "sourceName": "SciTechDaily",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQk9oRHNPeWg0Wk5aM1lyQXI2cVFjUnduWU5wU0JFXy1EbXI4Q0dOQld0anEzR0hhUnAySHB2ZFBXMzRWdFdSSm05OF9rYVFyQ0tPdVFpLTh1aDFYWGlqSVotRklCZ0lmQnQ1cC1sOHYzaUdHWWZ3Qlg2S0pfRDBvVjRB?oc=5",
+        "koTitle": "Ex–Google CEO, 기술 종사자에게 경고: 중국의 12시간 근무제와 경쟁하면 일과 삶의 균형이 없습니다.",
+        "enTitle": "Ex–Google CEO warns tech workers: Competing with China’s 12-hour workdays means no work-life balance",
+        "date": "2026-06-01",
+        "originalDate": "2026-05-31",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLTNxZmF6LVZzV3lHTjVJNFJLMzRCZFhIWVUwOTVnRGNvbUlQUlQwSzJLcW9uUFRvdG11R19SZndBR0Zpc1FiMjlaUDdrYVdrM1paWTY2by1RclBVYm91YkRhaVctdEFZeFVScWR1WnQwb3JSelU3b2ZIUjJncmlmOE5iMTB4TzVLWUNlZ1JlbnJFaXFyMElrMFRYRmUzR3FlbDJDZlY3bUpoX2Q1MzRSM2QxM2pDOHlHUnc?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 업무의 미래는 AI를 마스터하는 사람들의 몫입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! Ex–Google CEO, 기술 종사자에게 경고: 중국의 12시간 근무제와 경쟁하면 일과 삶의 균형이 없습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
         "koTitle": "인공지능이 당신의 직업을 훔쳐야 할까요?",
         "enTitle": "Should AI steal your job?",
-        "date": "2026-05-31",
+        "date": "2026-06-01",
         "originalDate": "2026-05-30",
         "sourceName": "Financial Times",
         "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNODNiR1FYQ283NU1nZFZLMUR0S1VmLUNidktIajNfYkl2THpRbUN2aXlOLTV0TS1JY1Y2UW5aN3hsZ0c5SWJZdVB1a09kWDYyZGlCdllaODJXZUFvNFZkYTlVOGd2a3VxdDE1cjdyTDl1LUlkYy05amJEVXllS1FiNlYzdTI?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
+        "viralRate": "91%",
         "analysis": "글로벌 AI 트렌드 체크! 인공지능이 당신의 직업을 훔쳐야 할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "‘싱가포르 사람들은 적어도 한 번은 확실히 회복될 것이다’ — HR 컨설턴트이자 ‘인공지능 시대에 여전히 관련성이 있는가?’ 의 저자는 ‘언제냐의 문제일 뿐이다’ 라고 말한다.",
-        "enTitle": "‘Singaporeans will definitely get retrenched at least once’ — HR consultant and author of ‘Still Relevant in the Age of AI?’ says, ‘It’s only a matter of when’",
-        "date": "2026-05-31",
+        "koTitle": "업무의 미래는 AI를 마스터하는 사람들의 몫입니다.",
+        "enTitle": "The Future of Work Belongs to People Who Master AI",
+        "date": "2026-06-01",
         "originalDate": "2026-05-30",
-        "sourceName": "The Independent Singapore News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPNnp6Y2xNMlJlMUFoc0hVVVJzcmVEekZ0bWF4WDBZYklka1laQkNmSGNGWklOcHc5OGNaNm91aHVqQU9qTWVoU2tPY2otMVN4b3lPMUNuVUw4M3dVRTdnVVFicGpXTlFyMTFKb0lTb3NIX29YTllCZUdiOEtSQmdkVXpQSmFLQWJTY1hEeEQta1o2cVJubmZLLXF2LVJMU19MZXlrQVdQcDhMU0VNbjl4d0d6OHVMczc4N21ES1JRNXVIMVNRM2ZLWmNidlV1MUE0VGpKelZ3MHBObGJOci1YNk4yc2EyYmFMZE5udnUyczdrZ21YbGp5cHBLQi1BVng4VVpRNVVlaw?oc=5",
+        "sourceName": "SciTechDaily",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQk9oRHNPeWg0Wk5aM1lyQXI2cVFjUnduWU5wU0JFXy1EbXI4Q0dOQld0anEzR0hhUnAySHB2ZFBXMzRWdFdSSm05OF9rYVFyQ0tPdVFpLTh1aDFYWGlqSVotRklCZ0lmQnQ1cC1sOHYzaUdHWWZ3Qlg2S0pfRDBvVjRB?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! ‘싱가포르 사람들은 적어도 한 번은 확실히 회복될 것이다’ — HR 컨설턴트이자 ‘인공지능 시대에 여전히 관련성이 있는가?’ 의 저자는 ‘언제냐의 문제일 뿐이다’ 라고 말한다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 업무의 미래는 AI를 마스터하는 사람들의 몫입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
+        "koTitle": "[AI 뉴스] 클로드 오푸스 4.8 공개…고성능 AI 경쟁, ‘빠른 모델’에서 ‘통제 가능한 모델’로 이동",
+        "enTitle": "[AI 뉴스] 클로드 오푸스 4.8 공개…고성능 AI 경쟁, ‘빠른 모델’에서 ‘통제 가능한 모델’로 이동",
+        "date": "2026-06-01",
+        "originalDate": "2026-05-31",
+        "sourceName": "아웃소싱타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1xbUE3LU5iekxrSFczV2Z1Z2xPcXA0SWpJcUtNdTR4NlMxZkxPc3hxMEczaW1fNWZrcVdnNkF3V0w0UTVlVGY4TmgzUDVzS2JHUW14THFoWVdKSW9XMVpueVBjS3o4NUtCam5tc3Z6emlQdw?oc=5",
+        "isRepublished": false,
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! [AI 뉴스] 클로드 오푸스 4.8 공개…고성능 AI 경쟁, ‘빠른 모델’에서 ‘통제 가능한 모델’로 이동 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Hot Issue"
+    },
+    {
+        "rank": 2,
+        "koTitle": "최유철 의성군수 후보, 인공지능 시대 핵심 5대 공약(5호) 'AI 기반 행정 혁신' 발표",
+        "enTitle": "최유철 의성군수 후보, 인공지능 시대 핵심 5대 공약(5호) 'AI 기반 행정 혁신' 발표",
+        "date": "2026-06-01",
+        "originalDate": "2026-05-31",
+        "sourceName": "포커스데일리",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5paHJBczM5OUJtUkRYMWpOUjVfZFpuOHMxRndta25LRjlPeE9STUV5dm84aWQ1UjFuYW5NcW1VQjU1VlBibDhyVlY4TUtFbUFJNTdhU1lMREJHcmQxMHdHVHJoaVJyZw?oc=5",
+        "isRepublished": false,
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 최유철 의성군수 후보, 인공지능 시대 핵심 5대 공약(5호) 'AI 기반 행정 혁신' 발표 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Life & Money"
+    },
+    {
+        "rank": 3,
         "koTitle": "Opus 4.8 등장: 클로드는 빼앗긴 주도권을 찾아올까?",
         "enTitle": "Opus 4.8 등장: 클로드는 빼앗긴 주도권을 찾아올까?",
-        "date": "2026-05-31",
-        "originalDate": "2026-05-30",
+        "date": "2026-06-01",
+        "originalDate": "2026-05-31",
         "sourceName": "요즘IT",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XNGhQc1FWZ1ZhTGswd056Tkt2QWJTVHhkbEV1eVNoaVJ3b19SVEdiclVvcTlfMFBvUEJ2N2diWnI2SmZXN1hRV1p0WS1FN1RYUXdXNE1IZmNDQQ?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
         "analysis": "2030을 위한 AI 실무 팁! Opus 4.8 등장: 클로드는 빼앗긴 주도권을 찾아올까? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Hot Issue"
-    },
-    {
-        "rank": 2,
-        "koTitle": "[AI 이슈트렌드] 서소문 고가 붕괴·삼전닉스 ETF 여풀 속 '종전 기대감'에 출렁인 환율",
-        "enTitle": "[AI 이슈트렌드] 서소문 고가 붕괴·삼전닉스 ETF 여풀 속 '종전 기대감'에 출렁인 환율",
-        "date": "2026-05-31",
-        "originalDate": "2026-05-30",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5lMmUyZXZzNm9lRFFjX05CellILTBxU0ZrNTZ1Ri1UNVl3OWNRaWpEcXVTSEItdjl3ODhLcFZ2U25HOXhzc1l5cndvQ1JwNkN0eGJzdkVkSkgzQ1dDbmZIOFVocVYwOVJ1Y2c?oc=5",
-        "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI 이슈트렌드] 서소문 고가 붕괴·삼전닉스 ETF 여풀 속 '종전 기대감'에 출렁인 환율 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Life & Money"
-    },
-    {
-        "rank": 3,
-        "koTitle": "[빅테크칼럼] 클로드 AI 한달 요금이 무려 5억 달러? “토큰맥싱의 역습”… AI 요금 폭탄이 던진 경고",
-        "enTitle": "[빅테크칼럼] 클로드 AI 한달 요금이 무려 5억 달러? “토큰맥싱의 역습”… AI 요금 폭탄이 던진 경고",
-        "date": "2026-05-31",
-        "originalDate": "2026-05-30",
-        "sourceName": "뉴스스페이스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FZW9ncTg4XzlCYUFwaVFweTZCQUFsTUR0OWRXeF9JNmdVT2RBUEtBTWRoS1dQRG9xX0xJU2w3aG9sMm9DdFFkc1dHcThDX1ZJYW1LdWZLblRQRDVoajFGeg?oc=5",
-        "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! [빅테크칼럼] 클로드 AI 한달 요금이 무려 5억 달러? “토큰맥싱의 역습”… AI 요금 폭탄이 던진 경고 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
