@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-01
+ * 최신 업데이트: 2026-06-02
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Ex–Google CEO, 기술 종사자에게 경고: 중국의 12시간 근무제와 경쟁하면 일과 삶의 균형이 없습니다.",
-        "enTitle": "Ex–Google CEO warns tech workers: Competing with China’s 12-hour workdays means no work-life balance",
-        "date": "2026-06-01",
-        "originalDate": "2026-05-31",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLTNxZmF6LVZzV3lHTjVJNFJLMzRCZFhIWVUwOTVnRGNvbUlQUlQwSzJLcW9uUFRvdG11R19SZndBR0Zpc1FiMjlaUDdrYVdrM1paWTY2by1RclBVYm91YkRhaVctdEFZeFVScWR1WnQwb3JSelU3b2ZIUjJncmlmOE5iMTB4TzVLWUNlZ1JlbnJFaXFyMElrMFRYRmUzR3FlbDJDZlY3bUpoX2Q1MzRSM2QxM2pDOHlHUnc?oc=5",
+        "koTitle": "AI로 대체되지 않는 직업은 무엇인가요?",
+        "enTitle": "What jobs won’t be replaced by AI?",
+        "date": "2026-06-02",
+        "originalDate": "2026-06-01",
+        "sourceName": "University of Cincinnati",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RY05ndUliMzZoUlJpQlpmR2dXRHBnZlhfczZiUEZQbTM1ajlUYXNXMXhPNTE2dEt0aFBHS0RzbXA5VHlMcjNHOVVvbUFSTlNxUDRFNmhKeHVOZUFfUjI1Nw?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! Ex–Google CEO, 기술 종사자에게 경고: 중국의 12시간 근무제와 경쟁하면 일과 삶의 균형이 없습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! AI로 대체되지 않는 직업은 무엇인가요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "인공지능이 당신의 직업을 훔쳐야 할까요?",
-        "enTitle": "Should AI steal your job?",
-        "date": "2026-06-01",
-        "originalDate": "2026-05-30",
-        "sourceName": "Financial Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNODNiR1FYQ283NU1nZFZLMUR0S1VmLUNidktIajNfYkl2THpRbUN2aXlOLTV0TS1JY1Y2UW5aN3hsZ0c5SWJZdVB1a09kWDYyZGlCdllaODJXZUFvNFZkYTlVOGd2a3VxdDE1cjdyTDl1LUlkYy05amJEVXllS1FiNlYzdTI?oc=5",
+        "koTitle": "인공지능이 일자리를 대체하고 있나요? 17가지 직무 유형이 효과를 느끼는 방식",
+        "enTitle": "Is AI replacing jobs? How 17 job types feel the effects",
+        "date": "2026-06-02",
+        "originalDate": "2026-06-01",
+        "sourceName": "TechTarget",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNDdYaTdTelNBYkdJNmVkeTM1MUtIQVFJcjEtQ1IyTHlsNUN1OVJyTnRuYVRETldka1BabmpXX3hFYl8wWVFjbFdXU3h2SlJ1QzNQd3dsZHJfNG1UZ0k5QXJrMFNhTDVhX3JhY0R2eEhCZGJuUU1ybFBjTFRQSi1OaVQ1VTRETkpBNlRqaVlBRlhKc09YejZaUTRNZXVKTkk0UlpDWlNBbWpxb3FP?oc=5",
         "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 당신의 직업을 훔쳐야 할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 일자리를 대체하고 있나요? 17가지 직무 유형이 효과를 느끼는 방식 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "업무의 미래는 AI를 마스터하는 사람들의 몫입니다.",
-        "enTitle": "The Future of Work Belongs to People Who Master AI",
-        "date": "2026-06-01",
-        "originalDate": "2026-05-30",
-        "sourceName": "SciTechDaily",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQk9oRHNPeWg0Wk5aM1lyQXI2cVFjUnduWU5wU0JFXy1EbXI4Q0dOQld0anEzR0hhUnAySHB2ZFBXMzRWdFdSSm05OF9rYVFyQ0tPdVFpLTh1aDFYWGlqSVotRklCZ0lmQnQ1cC1sOHYzaUdHWWZ3Qlg2S0pfRDBvVjRB?oc=5",
+        "koTitle": "업무와 교실의 미래를 탐색하는 Marion AI 이벤트",
+        "enTitle": "Marion AI event to explore future of work and classrooms",
+        "date": "2026-06-02",
+        "originalDate": "2026-06-01",
+        "sourceName": "AOL.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05S0tBX0ZzX21MV1JqOGNsVWtOQlhFUXEyRkt4OE0tMUxaRWhwT2tlUC1qTlhKeGI5c0RiSVNkWkF6TWM4LVd4eU00bFZhY1lvaWtyYVpwUFNXVklrZGVuYk0yaEZ5YW1wZjkyWlNUZ0FvQURjTUUxd3F3?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 업무의 미래는 AI를 마스터하는 사람들의 몫입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "91%",
+        "analysis": "글로벌 AI 트렌드 체크! 업무와 교실의 미래를 탐색하는 Marion AI 이벤트 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[AI 뉴스] 클로드 오푸스 4.8 공개…고성능 AI 경쟁, ‘빠른 모델’에서 ‘통제 가능한 모델’로 이동",
-        "enTitle": "[AI 뉴스] 클로드 오푸스 4.8 공개…고성능 AI 경쟁, ‘빠른 모델’에서 ‘통제 가능한 모델’로 이동",
-        "date": "2026-06-01",
-        "originalDate": "2026-05-31",
-        "sourceName": "아웃소싱타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1xbUE3LU5iekxrSFczV2Z1Z2xPcXA0SWpJcUtNdTR4NlMxZkxPc3hxMEczaW1fNWZrcVdnNkF3V0w0UTVlVGY4TmgzUDVzS2JHUW14THFoWVdKSW9XMVpueVBjS3o4NUtCam5tc3Z6emlQdw?oc=5",
+        "koTitle": "'클로드 오퍼스 4.8' 딥SWE 벤치마크에 첫 등장...1위는 여전히 'GPT-5.5'",
+        "enTitle": "'클로드 오퍼스 4.8' 딥SWE 벤치마크에 첫 등장...1위는 여전히 'GPT-5.5'",
+        "date": "2026-06-02",
+        "originalDate": "2026-06-01",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LNzZIbnJIMXBWVmEzeXdOX3VJaWVHT1ZlQW92WVd3Vmd6OU9lOFBmYm5ydlM3aFFxMTBRY1BDeGJUakZLRGd3UWhzUkU1M094RzdWaG9aRzZnb05oUk8wZUFDanZUMzJ6SlE?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI 뉴스] 클로드 오푸스 4.8 공개…고성능 AI 경쟁, ‘빠른 모델’에서 ‘통제 가능한 모델’로 이동 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! '클로드 오퍼스 4.8' 딥SWE 벤치마크에 첫 등장...1위는 여전히 'GPT-5.5' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "최유철 의성군수 후보, 인공지능 시대 핵심 5대 공약(5호) 'AI 기반 행정 혁신' 발표",
-        "enTitle": "최유철 의성군수 후보, 인공지능 시대 핵심 5대 공약(5호) 'AI 기반 행정 혁신' 발표",
-        "date": "2026-06-01",
-        "originalDate": "2026-05-31",
-        "sourceName": "포커스데일리",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5paHJBczM5OUJtUkRYMWpOUjVfZFpuOHMxRndta25LRjlPeE9STUV5dm84aWQ1UjFuYW5NcW1VQjU1VlBibDhyVlY4TUtFbUFJNTdhU1lMREJHcmQxMHdHVHJoaVJyZw?oc=5",
+        "koTitle": "美 아르곤연구소, 과학 연구 혁신할 AI 추론 서비스 출시",
+        "enTitle": "美 아르곤연구소, 과학 연구 혁신할 AI 추론 서비스 출시",
+        "date": "2026-06-02",
+        "originalDate": "2026-06-01",
+        "sourceName": "에너지안전신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5HcVVKbVJxby12VzI2Qms2eVhBemFDaHhqa2F6TWE4RWtYbjdsQ2VpMmlHQUh0Nk1RdWRQNnJCdHdPWEIwdDdwUHA0VTNZQmdNNHhwaTl3UEVKZEp2NkNsMHNXd2g?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 최유철 의성군수 후보, 인공지능 시대 핵심 5대 공약(5호) 'AI 기반 행정 혁신' 발표 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 美 아르곤연구소, 과학 연구 혁신할 AI 추론 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "Opus 4.8 등장: 클로드는 빼앗긴 주도권을 찾아올까?",
-        "enTitle": "Opus 4.8 등장: 클로드는 빼앗긴 주도권을 찾아올까?",
-        "date": "2026-06-01",
-        "originalDate": "2026-05-31",
-        "sourceName": "요즘IT",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XNGhQc1FWZ1ZhTGswd056Tkt2QWJTVHhkbEV1eVNoaVJ3b19SVEdiclVvcTlfMFBvUEJ2N2diWnI2SmZXN1hRV1p0WS1FN1RYUXdXNE1IZmNDQQ?oc=5",
+        "koTitle": "DB생명, AI서비스 결합해 보험료 할인하는 보험 출시",
+        "enTitle": "DB생명, AI서비스 결합해 보험료 할인하는 보험 출시",
+        "date": "2026-06-02",
+        "originalDate": "2026-06-01",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBmdC1pSFl1TkpEUUZWTjF3cnBLTVlaLWdSNEpDZnQ4NnAwM2p6dGZuY0YxMTh2UjBBOFExcFNRQWs0RzhpN0E?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! Opus 4.8 등장: 클로드는 빼앗긴 주도권을 찾아올까? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! DB생명, AI서비스 결합해 보험료 할인하는 보험 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
