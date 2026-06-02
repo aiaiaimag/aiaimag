@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-02
+ * 최신 업데이트: 2026-06-03
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI로 대체되지 않는 직업은 무엇인가요?",
-        "enTitle": "What jobs won’t be replaced by AI?",
-        "date": "2026-06-02",
-        "originalDate": "2026-06-01",
-        "sourceName": "University of Cincinnati",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RY05ndUliMzZoUlJpQlpmR2dXRHBnZlhfczZiUEZQbTM1ajlUYXNXMXhPNTE2dEt0aFBHS0RzbXA5VHlMcjNHOVVvbUFSTlNxUDRFNmhKeHVOZUFfUjI1Nw?oc=5",
+        "koTitle": "The 20 New Agentic AI Jobs Box, McKinsey, And LinkedIn All See Coming",
+        "enTitle": "The 20 New Agentic AI Jobs Box, McKinsey, And LinkedIn All See Coming",
+        "date": "2026-06-03",
+        "originalDate": "2026-06-02",
+        "sourceName": "Forbes",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSFlQYWdqU3dQYWoxc3BXOHdhUDk1UTBmM3RMTWxKSTQ2ZV9EN2FFQUNrZFpTN2pqUVRUaXZYcm1BVkk2NGo0bG9XczhrcllTa1lrOVZJOU8tZWkyd1ZXcXhidTFObmstd1BrZzRoTjF0QmdidHhhWW9qd1AwaHhVUXZEZXRYWWRoWnpSYWt4OVhwcTBNSUpsdmd1dmhUODFoQ1QxbTV0R2xaLWhKSVFlQUMwQWsyVnA5dElJdA?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! AI로 대체되지 않는 직업은 무엇인가요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "98%",
+        "analysis": "글로벌 AI 트렌드 체크! The 20 New Agentic AI Jobs Box, McKinsey, And LinkedIn All See Coming 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "인공지능이 일자리를 대체하고 있나요? 17가지 직무 유형이 효과를 느끼는 방식",
-        "enTitle": "Is AI replacing jobs? How 17 job types feel the effects",
-        "date": "2026-06-02",
-        "originalDate": "2026-06-01",
-        "sourceName": "TechTarget",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNDdYaTdTelNBYkdJNmVkeTM1MUtIQVFJcjEtQ1IyTHlsNUN1OVJyTnRuYVRETldka1BabmpXX3hFYl8wWVFjbFdXU3h2SlJ1QzNQd3dsZHJfNG1UZ0k5QXJrMFNhTDVhX3JhY0R2eEhCZGJuUU1ybFBjTFRQSi1OaVQ1VTRETkpBNlRqaVlBRlhKc09YejZaUTRNZXVKTkk0UlpDWlNBbWpxb3FP?oc=5",
+        "koTitle": "직무 삭감 또는 직무 변경을 보시겠습니까? AI 논쟁 가열",
+        "enTitle": "Watch Job Cuts or Job Change? AI Debate Heats Up",
+        "date": "2026-06-03",
+        "originalDate": "2026-06-02",
+        "sourceName": "Bloomberg.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ0VTUkJTTGg5M0dtXzJoU2pCMmNRVmgyOVRFZnFfTlpNNW8xTjB2MlVWaFZvbFpYZHRfSVNCaDNRZTFKRnZLSzZqT3BQNXVtaHFNZDJYYUNJUGpXb0xXRGMwTU9NRTg4NmlpQldmMjIwd3hSRjdzaWU4dUhXS3ZwbUVoaVYtMGxIZjhEUTZyM3daSlNMdzdjSDV3OTY?oc=5",
         "isRepublished": false,
         "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 일자리를 대체하고 있나요? 17가지 직무 유형이 효과를 느끼는 방식 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 직무 삭감 또는 직무 변경을 보시겠습니까? AI 논쟁 가열 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "업무와 교실의 미래를 탐색하는 Marion AI 이벤트",
-        "enTitle": "Marion AI event to explore future of work and classrooms",
-        "date": "2026-06-02",
-        "originalDate": "2026-06-01",
-        "sourceName": "AOL.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05S0tBX0ZzX21MV1JqOGNsVWtOQlhFUXEyRkt4OE0tMUxaRWhwT2tlUC1qTlhKeGI5c0RiSVNkWkF6TWM4LVd4eU00bFZhY1lvaWtyYVpwUFNXVklrZGVuYk0yaEZ5YW1wZjkyWlNUZ0FvQURjTUUxd3F3?oc=5",
+        "koTitle": "ChatGPT에 미래의 직업을 유지해달라고 요청했습니다. AI가 T자형 프로필을 만들어달라고 요청합니다.",
+        "enTitle": "I asked ChatGPT to keep my job future-proof: AI asks me to build a T-shaped profile",
+        "date": "2026-06-03",
+        "originalDate": "2026-06-02",
+        "sourceName": "Mint",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZnlkS2gybXRSbEFlcW0wbUd3ODB3dDJWVUJBbEpRaW05WDBrRGNfTzEtWDZiM0YyZ0RYdFdRdzY5YXYyTmQ1MGgxX01hRndwdzgyczg3d1RNNUpSaFdmdUMxT1dvekdRWkM5eEVoSUhBSm9XUlpFYzBXT0VCN0pJWVc1QUdjS2lYZzR6UGVMcXNJdVlvNUxmZUdBVFJQZlZFMUJoV2RraGFpcG5uTzdkcTJVMWZlQzVNSGNJTU4xZV9oMWt5MnE4VDlHeUxHek82aVRLT09CaF9ibGRBQVI1bENwYmzSAeoBQVVfeXFMUGQwYkFoUXpkS2UzamwyVG5JV2F2NXd2S2pWZGRiblNzVGVPMHlGOHZ5dFFyX29yQ3o5TlItcXM5T2RIUE5qaVB4dk52X01fa2dFN2w3XzNWS1RyZ1ZuOXlNSmUwUUpzYlFuSk5vMmZVamdJTTJpbzkzUkU5WGZkNWtIZGVNdWU2amRVcEdWZzFMZGZOb2JsOGtwY1NFWlkyR0tFdEFJOFhjcUJ3dHYzbzI0clBueGVNeFhaemFxMHRLYjZPZ3lUX2ZyUWhMbUh3MXhscENERVBXNV94NUNhS1VLdWFQMHF3bEpR?oc=5",
         "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "글로벌 AI 트렌드 체크! 업무와 교실의 미래를 탐색하는 Marion AI 이벤트 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! ChatGPT에 미래의 직업을 유지해달라고 요청했습니다. AI가 T자형 프로필을 만들어달라고 요청합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "'클로드 오퍼스 4.8' 딥SWE 벤치마크에 첫 등장...1위는 여전히 'GPT-5.5'",
-        "enTitle": "'클로드 오퍼스 4.8' 딥SWE 벤치마크에 첫 등장...1위는 여전히 'GPT-5.5'",
-        "date": "2026-06-02",
-        "originalDate": "2026-06-01",
+        "koTitle": "GPT-5.5·제미나이 능가한 ‘미니맥스 M3’ 출시...\"가격 5~10% 불과\"",
+        "enTitle": "GPT-5.5·제미나이 능가한 ‘미니맥스 M3’ 출시...\"가격 5~10% 불과\"",
+        "date": "2026-06-03",
+        "originalDate": "2026-06-02",
         "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LNzZIbnJIMXBWVmEzeXdOX3VJaWVHT1ZlQW92WVd3Vmd6OU9lOFBmYm5ydlM3aFFxMTBRY1BDeGJUakZLRGd3UWhzUkU1M094RzdWaG9aRzZnb05oUk8wZUFDanZUMzJ6SlE?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Ec1dQSFR5dE9aaklYVkxEWUN5Um0xMC16cDJpNDVXTnZRdFhZYkxhY0FPd1JWc3FYbGN0SW9aMWcwNjEybDl3SmZzMU1lLWtCRzNDRjAyd1FaN09KQTBDdWdFeld5c0ozOUE?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! '클로드 오퍼스 4.8' 딥SWE 벤치마크에 첫 등장...1위는 여전히 'GPT-5.5' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! GPT-5.5·제미나이 능가한 ‘미니맥스 M3’ 출시...\"가격 5~10% 불과\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "美 아르곤연구소, 과학 연구 혁신할 AI 추론 서비스 출시",
-        "enTitle": "美 아르곤연구소, 과학 연구 혁신할 AI 추론 서비스 출시",
-        "date": "2026-06-02",
-        "originalDate": "2026-06-01",
-        "sourceName": "에너지안전신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5HcVVKbVJxby12VzI2Qms2eVhBemFDaHhqa2F6TWE4RWtYbjdsQ2VpMmlHQUh0Nk1RdWRQNnJCdHdPWEIwdDdwUHA0VTNZQmdNNHhwaTl3UEVKZEp2NkNsMHNXd2g?oc=5",
+        "koTitle": "소파이 테크놀로지스, AI 금융 코칭 서비스 출시...주가는 '뚝'",
+        "enTitle": "소파이 테크놀로지스, AI 금융 코칭 서비스 출시...주가는 '뚝'",
+        "date": "2026-06-03",
+        "originalDate": "2026-06-02",
+        "sourceName": "마켓인",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFByNGdGcHpNMFdHMXNTVGdFek4zRHBHMHV3bE4tZTZxa09SQm9IVmxreVJ0ZUNXckRCVXFNU3NRNllFUmszTjFha2UyM0lwc1REa0dkdzZEN0p0M2VxZEVXazFOUHoyWU5ZcmtiSHA3OENkTjA?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 美 아르곤연구소, 과학 연구 혁신할 AI 추론 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 소파이 테크놀로지스, AI 금융 코칭 서비스 출시...주가는 '뚝' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "DB생명, AI서비스 결합해 보험료 할인하는 보험 출시",
-        "enTitle": "DB생명, AI서비스 결합해 보험료 할인하는 보험 출시",
-        "date": "2026-06-02",
-        "originalDate": "2026-06-01",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBmdC1pSFl1TkpEUUZWTjF3cnBLTVlaLWdSNEpDZnQ4NnAwM2p6dGZuY0YxMTh2UjBBOFExcFNRQWs0RzhpN0E?oc=5",
+        "koTitle": "기업 70% AI 모델 3개 이상 운영…오픈AI 독주 속 클로드·제미나이 존재감 확대",
+        "enTitle": "기업 70% AI 모델 3개 이상 운영…오픈AI 독주 속 클로드·제미나이 존재감 확대",
+        "date": "2026-06-03",
+        "originalDate": "2026-06-02",
+        "sourceName": "cio.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOb2dlQmhxN2FoOHVzMjhwWWZKd0ZWOWhsMmxMeGx3N2gyYkxTNm5wTVh3QjFqYUtUbHNSOWFpOTFXVFlqb3dvdmVZV3h0bFVtQjNwRGFMSzdPYkVQT0M2eDRlQkZkd2pfSEFEWUNRQTVaaFZsend5c0s1MjVhT2pJcnQ5eXc5cGV4YVhlMWc0MjVzNzZmUGVoLVhwY3BzZmNkQlp0QXNRWHJoSEhTWFJLVEkzby1MLWVKYUliMjNEU1ppYnlkdUVmUnRzU3JCRlloa2FuZDJ4REpKRHUzRWNTb2ZQYzZlamFGZnY2M3hTdlJkeHowaWlfMHBrczdjRkdDZUFQYnJNcU4ybVllQWF3N3RUekwydks2Y2JYRUFxWDkwcGpfVkFwa1B4UlZpOWZnN0Z1MUM4M002ZnlMd0NRbHRqQW0wTE9i?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! DB생명, AI서비스 결합해 보험료 할인하는 보험 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 기업 70% AI 모델 3개 이상 운영…오픈AI 독주 속 클로드·제미나이 존재감 확대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
