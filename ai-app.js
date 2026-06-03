@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-03
+ * 최신 업데이트: 2026-06-04
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "The 20 New Agentic AI Jobs Box, McKinsey, And LinkedIn All See Coming",
-        "enTitle": "The 20 New Agentic AI Jobs Box, McKinsey, And LinkedIn All See Coming",
-        "date": "2026-06-03",
-        "originalDate": "2026-06-02",
-        "sourceName": "Forbes",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSFlQYWdqU3dQYWoxc3BXOHdhUDk1UTBmM3RMTWxKSTQ2ZV9EN2FFQUNrZFpTN2pqUVRUaXZYcm1BVkk2NGo0bG9XczhrcllTa1lrOVZJOU8tZWkyd1ZXcXhidTFObmstd1BrZzRoTjF0QmdidHhhWW9qd1AwaHhVUXZEZXRYWWRoWnpSYWt4OVhwcTBNSUpsdmd1dmhUODFoQ1QxbTV0R2xaLWhKSVFlQUMwQWsyVnA5dElJdA?oc=5",
+        "koTitle": "ChatGPT는 누가 지불하나요? 모든 사람이 직업을 갖지 않는 5가지 미래 시나리오",
+        "enTitle": "Who Will Pay for ChatGPT? 5 Future Scenarios Where Not Everyone Will Have a Job",
+        "date": "2026-06-04",
+        "originalDate": "2026-06-03",
+        "sourceName": "life.liga.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbFBTVDZ2aEFPVnJtRnBBQlpKUUZUTUdlVG1lMTI2RkJ6TXprZ3V6d2NIQTc0LUM2QWgxVFUtaGRqZDFydWtwUnVKaktLSU83eUc2bmFWNDA0ZU5hMGtvSjNtSXBYRTFXSWxCa1A3WDVIUkI0TFg1UTc2eGZEV2xQWEJNT0tBZ1k3emFnOHNXQklCRzFBOHpab1drb3dhWXJYYjVPM1c1amhyUndlcUtUMjM4Si1ZODZDWVHSAb8BQVVfeXFMTnU3eWl5R05WQ3NNVkRkSmFXVE5xaUVIdGhRdTBPX0VVbW5sVnRTQk13MUpYVzFGVVlsRV9vTzlZN3c3NDc1T3B6ZjJVXzVQbFk1QzJ0VllfOXJTeWVfdDk1Y1JINHQ4M0V1YkFEUUxxdTFoSEJUb3Q5ZUJDM3pxVndXdGg4ZmhWemF6dHM1SHFsaWJZRmJlcnByR1VZR0NvT3lPR0Nyb2xISDIxV0pITVhaRjRKdlEzeEIwdW5xWTg?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "글로벌 AI 트렌드 체크! The 20 New Agentic AI Jobs Box, McKinsey, And LinkedIn All See Coming 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! ChatGPT는 누가 지불하나요? 모든 사람이 직업을 갖지 않는 5가지 미래 시나리오 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "The 20 New Agentic AI Jobs Box, McKinsey, And LinkedIn All See Coming",
+        "enTitle": "The 20 New Agentic AI Jobs Box, McKinsey, And LinkedIn All See Coming",
+        "date": "2026-06-04",
+        "originalDate": "2026-06-02",
+        "sourceName": "Forbes",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSFlQYWdqU3dQYWoxc3BXOHdhUDk1UTBmM3RMTWxKSTQ2ZV9EN2FFQUNrZFpTN2pqUVRUaXZYcm1BVkk2NGo0bG9XczhrcllTa1lrOVZJOU8tZWkyd1ZXcXhidTFObmstd1BrZzRoTjF0QmdidHhhWW9qd1AwaHhVUXZEZXRYWWRoWnpSYWt4OVhwcTBNSUpsdmd1dmhUODFoQ1QxbTV0R2xaLWhKSVFlQUMwQWsyVnA5dElJdA?oc=5",
+        "isRepublished": false,
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! The 20 New Agentic AI Jobs Box, McKinsey, And LinkedIn All See Coming 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "직무 삭감 또는 직무 변경을 보시겠습니까? AI 논쟁 가열",
         "enTitle": "Watch Job Cuts or Job Change? AI Debate Heats Up",
-        "date": "2026-06-03",
+        "date": "2026-06-04",
         "originalDate": "2026-06-02",
         "sourceName": "Bloomberg.com",
         "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ0VTUkJTTGg5M0dtXzJoU2pCMmNRVmgyOVRFZnFfTlpNNW8xTjB2MlVWaFZvbFpYZHRfSVNCaDNRZTFKRnZLSzZqT3BQNXVtaHFNZDJYYUNJUGpXb0xXRGMwTU9NRTg4NmlpQldmMjIwd3hSRjdzaWU4dUhXS3ZwbUVoaVYtMGxIZjhEUTZyM3daSlNMdzdjSDV3OTY?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
+        "viralRate": "94%",
         "analysis": "글로벌 AI 트렌드 체크! 직무 삭감 또는 직무 변경을 보시겠습니까? AI 논쟁 가열 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "ChatGPT에 미래의 직업을 유지해달라고 요청했습니다. AI가 T자형 프로필을 만들어달라고 요청합니다.",
-        "enTitle": "I asked ChatGPT to keep my job future-proof: AI asks me to build a T-shaped profile",
-        "date": "2026-06-03",
-        "originalDate": "2026-06-02",
-        "sourceName": "Mint",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZnlkS2gybXRSbEFlcW0wbUd3ODB3dDJWVUJBbEpRaW05WDBrRGNfTzEtWDZiM0YyZ0RYdFdRdzY5YXYyTmQ1MGgxX01hRndwdzgyczg3d1RNNUpSaFdmdUMxT1dvekdRWkM5eEVoSUhBSm9XUlpFYzBXT0VCN0pJWVc1QUdjS2lYZzR6UGVMcXNJdVlvNUxmZUdBVFJQZlZFMUJoV2RraGFpcG5uTzdkcTJVMWZlQzVNSGNJTU4xZV9oMWt5MnE4VDlHeUxHek82aVRLT09CaF9ibGRBQVI1bENwYmzSAeoBQVVfeXFMUGQwYkFoUXpkS2UzamwyVG5JV2F2NXd2S2pWZGRiblNzVGVPMHlGOHZ5dFFyX29yQ3o5TlItcXM5T2RIUE5qaVB4dk52X01fa2dFN2w3XzNWS1RyZ1ZuOXlNSmUwUUpzYlFuSk5vMmZVamdJTTJpbzkzUkU5WGZkNWtIZGVNdWU2amRVcEdWZzFMZGZOb2JsOGtwY1NFWlkyR0tFdEFJOFhjcUJ3dHYzbzI0clBueGVNeFhaemFxMHRLYjZPZ3lUX2ZyUWhMbUh3MXhscENERVBXNV94NUNhS1VLdWFQMHF3bEpR?oc=5",
-        "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! ChatGPT에 미래의 직업을 유지해달라고 요청했습니다. AI가 T자형 프로필을 만들어달라고 요청합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "GPT-5.5·제미나이 능가한 ‘미니맥스 M3’ 출시...\"가격 5~10% 불과\"",
-        "enTitle": "GPT-5.5·제미나이 능가한 ‘미니맥스 M3’ 출시...\"가격 5~10% 불과\"",
-        "date": "2026-06-03",
-        "originalDate": "2026-06-02",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Ec1dQSFR5dE9aaklYVkxEWUN5Um0xMC16cDJpNDVXTnZRdFhZYkxhY0FPd1JWc3FYbGN0SW9aMWcwNjEybDl3SmZzMU1lLWtCRzNDRjAyd1FaN09KQTBDdWdFeld5c0ozOUE?oc=5",
+        "koTitle": "앤트로픽, 클로드 파트너 네트워크 ’서비스 트랙’ 출시",
+        "enTitle": "앤트로픽, 클로드 파트너 네트워크 ’서비스 트랙’ 출시",
+        "date": "2026-06-04",
+        "originalDate": "2026-06-03",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1rN1F0dlIxUTg2b0ljTFctT1lhMnVGRVd4R3dyX2lmT1M0N2N1V3NkRENnTVdMZm1xV1JreEJSN2dOeC1CbXQ2NFF6RXRXaUxXWUlEYWdTbHE5dXhQdjdvSHBJV3dvcDdaUVRLU1VWdGVkWnNndWhV?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! GPT-5.5·제미나이 능가한 ‘미니맥스 M3’ 출시...\"가격 5~10% 불과\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 클로드 파트너 네트워크 ’서비스 트랙’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "소파이 테크놀로지스, AI 금융 코칭 서비스 출시...주가는 '뚝'",
-        "enTitle": "소파이 테크놀로지스, AI 금융 코칭 서비스 출시...주가는 '뚝'",
-        "date": "2026-06-03",
-        "originalDate": "2026-06-02",
-        "sourceName": "마켓인",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFByNGdGcHpNMFdHMXNTVGdFek4zRHBHMHV3bE4tZTZxa09SQm9IVmxreVJ0ZUNXckRCVXFNU3NRNllFUmszTjFha2UyM0lwc1REa0dkdzZEN0p0M2VxZEVXazFOUHoyWU5ZcmtiSHA3OENkTjA?oc=5",
+        "koTitle": "2023년 11월 출시 이후 201%+ 수익: 6월 AI 추천 종목 공개",
+        "enTitle": "2023년 11월 출시 이후 201%+ 수익: 6월 AI 추천 종목 공개",
+        "date": "2026-06-04",
+        "originalDate": "2026-06-03",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA4M1paSnFSX0JOVHJQS1U2azBrdlNEYnhNeFROOTNFVnJGb1ZhLWJTSmhfNzJIOVI5eDZ4SGhudVBTOTY1VXdzQ1oteHRqcVdZUGkzS2dzaG9PUWdKVEZxdFpFOVZXaHoweWdTRGx1WQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 소파이 테크놀로지스, AI 금융 코칭 서비스 출시...주가는 '뚝' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 2023년 11월 출시 이후 201%+ 수익: 6월 AI 추천 종목 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "기업 70% AI 모델 3개 이상 운영…오픈AI 독주 속 클로드·제미나이 존재감 확대",
-        "enTitle": "기업 70% AI 모델 3개 이상 운영…오픈AI 독주 속 클로드·제미나이 존재감 확대",
-        "date": "2026-06-03",
-        "originalDate": "2026-06-02",
-        "sourceName": "cio.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOb2dlQmhxN2FoOHVzMjhwWWZKd0ZWOWhsMmxMeGx3N2gyYkxTNm5wTVh3QjFqYUtUbHNSOWFpOTFXVFlqb3dvdmVZV3h0bFVtQjNwRGFMSzdPYkVQT0M2eDRlQkZkd2pfSEFEWUNRQTVaaFZsend5c0s1MjVhT2pJcnQ5eXc5cGV4YVhlMWc0MjVzNzZmUGVoLVhwY3BzZmNkQlp0QXNRWHJoSEhTWFJLVEkzby1MLWVKYUliMjNEU1ppYnlkdUVmUnRzU3JCRlloa2FuZDJ4REpKRHUzRWNTb2ZQYzZlamFGZnY2M3hTdlJkeHowaWlfMHBrczdjRkdDZUFQYnJNcU4ybVllQWF3N3RUekwydks2Y2JYRUFxWDkwcGpfVkFwa1B4UlZpOWZnN0Z1MUM4M002ZnlMd0NRbHRqQW0wTE9i?oc=5",
+        "koTitle": "무신사, 검색 안해도 추천하는 AI 트렌드 큐레이션 선봬",
+        "enTitle": "무신사, 검색 안해도 추천하는 AI 트렌드 큐레이션 선봬",
+        "date": "2026-06-04",
+        "originalDate": "2026-06-03",
+        "sourceName": "대한경제",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB3V0xoUkVOZ01KZkcxc3IyVlVxN1dRa2ptcmpNYjF0a19jdWcxem5mY2RiaklKRzlUMjdDcGxBR2xLR3pJVnNKTGJEYVVaRWNoczhhVENFaTQxMGR6d3hWZEdaOWtodWxPMHktaElKX0ltN0o1?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 기업 70% AI 모델 3개 이상 운영…오픈AI 독주 속 클로드·제미나이 존재감 확대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 무신사, 검색 안해도 추천하는 AI 트렌드 큐레이션 선봬 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
