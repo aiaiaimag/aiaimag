@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-04
+ * 최신 업데이트: 2026-06-05
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "ChatGPT는 누가 지불하나요? 모든 사람이 직업을 갖지 않는 5가지 미래 시나리오",
-        "enTitle": "Who Will Pay for ChatGPT? 5 Future Scenarios Where Not Everyone Will Have a Job",
-        "date": "2026-06-04",
-        "originalDate": "2026-06-03",
-        "sourceName": "life.liga.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbFBTVDZ2aEFPVnJtRnBBQlpKUUZUTUdlVG1lMTI2RkJ6TXprZ3V6d2NIQTc0LUM2QWgxVFUtaGRqZDFydWtwUnVKaktLSU83eUc2bmFWNDA0ZU5hMGtvSjNtSXBYRTFXSWxCa1A3WDVIUkI0TFg1UTc2eGZEV2xQWEJNT0tBZ1k3emFnOHNXQklCRzFBOHpab1drb3dhWXJYYjVPM1c1amhyUndlcUtUMjM4Si1ZODZDWVHSAb8BQVVfeXFMTnU3eWl5R05WQ3NNVkRkSmFXVE5xaUVIdGhRdTBPX0VVbW5sVnRTQk13MUpYVzFGVVlsRV9vTzlZN3c3NDc1T3B6ZjJVXzVQbFk1QzJ0VllfOXJTeWVfdDk1Y1JINHQ4M0V1YkFEUUxxdTFoSEJUb3Q5ZUJDM3pxVndXdGg4ZmhWemF6dHM1SHFsaWJZRmJlcnByR1VZR0NvT3lPR0Nyb2xISDIxV0pITVhaRjRKdlEzeEIwdW5xWTg?oc=5",
+        "koTitle": "AI 일자리 손실이 걱정되시나요? 확실성을 기다리지 마십시오",
+        "enTitle": "Worried About AI Job Loss? Don't Wait For Certainty",
+        "date": "2026-06-05",
+        "originalDate": "2026-06-04",
+        "sourceName": "Forbes",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVXkxT0c2Mm5TUTlWc1V5S2lTdWRqNUM0UENEVW9XSm1FV1JKbmJ3VGU0UTI3YkdBVXhmdEVqQzlXS2RUMTZ3US1OM1pGeWtxTW1waW5sZzZzYnlEWGoxeHlXQ0lXX280LVI5dm5EVExyMXNLUWVySGtmU0VvWVU2VjdJMFUxcHlhOW1ZUjFIMllHX0xuT0F0clJwRkUzUldaRkRn?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! ChatGPT는 누가 지불하나요? 모든 사람이 직업을 갖지 않는 5가지 미래 시나리오 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 일자리 손실이 걱정되시나요? 확실성을 기다리지 마십시오 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "The 20 New Agentic AI Jobs Box, McKinsey, And LinkedIn All See Coming",
-        "enTitle": "The 20 New Agentic AI Jobs Box, McKinsey, And LinkedIn All See Coming",
-        "date": "2026-06-04",
-        "originalDate": "2026-06-02",
-        "sourceName": "Forbes",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSFlQYWdqU3dQYWoxc3BXOHdhUDk1UTBmM3RMTWxKSTQ2ZV9EN2FFQUNrZFpTN2pqUVRUaXZYcm1BVkk2NGo0bG9XczhrcllTa1lrOVZJOU8tZWkyd1ZXcXhidTFObmstd1BrZzRoTjF0QmdidHhhWW9qd1AwaHhVUXZEZXRYWWRoWnpSYWt4OVhwcTBNSUpsdmd1dmhUODFoQ1QxbTV0R2xaLWhKSVFlQUMwQWsyVnA5dElJdA?oc=5",
+        "koTitle": "작업에 대해 알아볼 블로그 게시물 125개",
+        "enTitle": "125 Blog Posts To Learn About Jobs",
+        "date": "2026-06-05",
+        "originalDate": "2026-06-04",
+        "sourceName": "HackerNoon",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54eTc5MEFlV3luQ1J5U2VRaENZQXp1MjZuRmo0MXNXUGVJaGFrYldVX2ZwLVF2TkNBQ2ViQnN6d3VrajBrWmVVRDUySnJiTFJrX0pYcGk4bWs5eVdHX2FvVm5SaXdISXQ5?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! The 20 New Agentic AI Jobs Box, McKinsey, And LinkedIn All See Coming 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! 작업에 대해 알아볼 블로그 게시물 125개 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "직무 삭감 또는 직무 변경을 보시겠습니까? AI 논쟁 가열",
-        "enTitle": "Watch Job Cuts or Job Change? AI Debate Heats Up",
-        "date": "2026-06-04",
-        "originalDate": "2026-06-02",
-        "sourceName": "Bloomberg.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ0VTUkJTTGg5M0dtXzJoU2pCMmNRVmgyOVRFZnFfTlpNNW8xTjB2MlVWaFZvbFpYZHRfSVNCaDNRZTFKRnZLSzZqT3BQNXVtaHFNZDJYYUNJUGpXb0xXRGMwTU9NRTg4NmlpQldmMjIwd3hSRjdzaWU4dUhXS3ZwbUVoaVYtMGxIZjhEUTZyM3daSlNMdzdjSDV3OTY?oc=5",
+        "koTitle": "데이비드 솔로몬 (David Solomon): AI는 일자리 손실, 금융에서의 인간 상호 작용의 중요성, 엔트리 레벨 직업의 진화하는 풍토를 유발하지 않으면서 생산성을 향상시킬 것입니다 | 홀수 로트",
+        "enTitle": "David Solomon: AI will enhance productivity without causing job loss, the importance of human interaction in finance, and the evolving landscape of entry-level jobs | Odd Lots",
+        "date": "2026-06-05",
+        "originalDate": "2026-06-04",
+        "sourceName": "Crypto Briefing",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOdTJFRVh0V1hpVUdKY09jMTM5UXRGa3gzR2xDX0E2ZlAtWkJpY2NNYl9OdENYNWtGa2g5QWp1SERFTjdYVmw4X0hDTXg0NXNEenBSRnY4TkZhY0xqY1dWbzZWVTUzZ1h3TzFVbHVFdEk0UHlZQ2FZTDNfSWZEemlVSXdlVGJHQWgxc01BTlp2WWxRZ1ZhTDl5V0VWYlhocmJpMVNFWWxiX2xIeFpGM29EVV8wUnhaUldaNHlTODdDR2g0WVlwemdoYXVkWUEtLXMtRl8zd2lrZUp6QWVMb3lvOFU1M3JXUzJzbEpVMk5NMWcwSnEyNG4tWFAtMzVyTWlFUVkySTMyZlgwZ0JRcWU3Y3dkb05wb1djeEFhc1hQRE96QUds?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 직무 삭감 또는 직무 변경을 보시겠습니까? AI 논쟁 가열 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 데이비드 솔로몬 (David Solomon): AI는 일자리 손실, 금융에서의 인간 상호 작용의 중요성, 엔트리 레벨 직업의 진화하는 풍토를 유발하지 않으면서 생산성을 향상시킬 것입니다 | 홀수 로트 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "앤트로픽, 클로드 파트너 네트워크 ’서비스 트랙’ 출시",
-        "enTitle": "앤트로픽, 클로드 파트너 네트워크 ’서비스 트랙’ 출시",
-        "date": "2026-06-04",
-        "originalDate": "2026-06-03",
-        "sourceName": "Investing.com 한국어",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1rN1F0dlIxUTg2b0ljTFctT1lhMnVGRVd4R3dyX2lmT1M0N2N1V3NkRENnTVdMZm1xV1JreEJSN2dOeC1CbXQ2NFF6RXRXaUxXWUlEYWdTbHE5dXhQdjdvSHBJV3dvcDdaUVRLU1VWdGVkWnNndWhV?oc=5",
+        "koTitle": "르세라핌이 안드로이드와 제미나이로 일상 속에서 영감을 얻는 방법",
+        "enTitle": "르세라핌이 안드로이드와 제미나이로 일상 속에서 영감을 얻는 방법",
+        "date": "2026-06-05",
+        "originalDate": "2026-06-04",
+        "sourceName": "blog.google",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQajF6enprYU5Qd2FWMzZ2YVFTdVM4TzFwdWpQOGxuc3NMTy05YlBhdVF0MFRyVG9TdEpzVnE0UGd4bWQtTi1McTBGWmtXa25fRnA5VDhhUlVGWXJVWVNLaFFMNXhNc3RsM29lM2lKQ0txd1d0YkRNTTZSN1R5MWhUTGN3YXNkNGpJb3BRSXk3MlR2NnNfYlpTTThOb1JGMm83RW9F?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 클로드 파트너 네트워크 ’서비스 트랙’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 르세라핌이 안드로이드와 제미나이로 일상 속에서 영감을 얻는 방법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "2023년 11월 출시 이후 201%+ 수익: 6월 AI 추천 종목 공개",
-        "enTitle": "2023년 11월 출시 이후 201%+ 수익: 6월 AI 추천 종목 공개",
-        "date": "2026-06-04",
-        "originalDate": "2026-06-03",
-        "sourceName": "Investing.com 한국어",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA4M1paSnFSX0JOVHJQS1U2azBrdlNEYnhNeFROOTNFVnJGb1ZhLWJTSmhfNzJIOVI5eDZ4SGhudVBTOTY1VXdzQ1oteHRqcVdZUGkzS2dzaG9PUWdKVEZxdFpFOVZXaHoweWdTRGx1WQ?oc=5",
+        "koTitle": "메타, AI모델 개발자용 도구 출시 지연…\"수익화 차질\"",
+        "enTitle": "메타, AI모델 개발자용 도구 출시 지연…\"수익화 차질\"",
+        "date": "2026-06-05",
+        "originalDate": "2026-06-04",
+        "sourceName": "연합뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PVk15QWRYTzFHd01yQXpoRW1HVU1obU42bkxpTHZWQ2lJZUdnZklKMzB3Z3J5SGJheXFtTTRveGJwZTFZbFF1TzlQcXlxS1pDaDZzS2x3NlIwd2vSAWBBVV95cUxOOW52NkJFVGExNlY3M3dvcW5EcEF2RFF6MFl6LTl2dGxUWmpaMVA5UFNQYTJ6Q1VLbmttWEozcElTOXFFNGF0Z1hnZ2s0VW5ya0g5WWpvTWlKUVVEdkU0a3Q?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 2023년 11월 출시 이후 201%+ 수익: 6월 AI 추천 종목 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 메타, AI모델 개발자용 도구 출시 지연…\"수익화 차질\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "무신사, 검색 안해도 추천하는 AI 트렌드 큐레이션 선봬",
-        "enTitle": "무신사, 검색 안해도 추천하는 AI 트렌드 큐레이션 선봬",
-        "date": "2026-06-04",
-        "originalDate": "2026-06-03",
-        "sourceName": "대한경제",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB3V0xoUkVOZ01KZkcxc3IyVlVxN1dRa2ptcmpNYjF0a19jdWcxem5mY2RiaklKRzlUMjdDcGxBR2xLR3pJVnNKTGJEYVVaRWNoczhhVENFaTQxMGR6d3hWZEdaOWtodWxPMHktaElKX0ltN0o1?oc=5",
+        "koTitle": "AI로 설계·코딩·테스트 자동화...모바일 앱 출시 기간 단축하고 품질 높인다",
+        "enTitle": "AI로 설계·코딩·테스트 자동화...모바일 앱 출시 기간 단축하고 품질 높인다",
+        "date": "2026-06-05",
+        "originalDate": "2026-06-04",
+        "sourceName": "지티티코리아",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WckFBYTVjc0lkbm1WbjVSaUZhampobXp1dkVhdDc1ZlFsT19MY19vcnR3QWNUdDh5Z1ZnUkt6QzA4Tm9YOEY1Y3p4cERCb3RaNl9hd3U1bVF1dFh5LXl4WTVNNF9nczlxbVE?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 무신사, 검색 안해도 추천하는 AI 트렌드 큐레이션 선봬 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! AI로 설계·코딩·테스트 자동화...모바일 앱 출시 기간 단축하고 품질 높인다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
