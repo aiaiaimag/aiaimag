@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-05
+ * 최신 업데이트: 2026-06-06
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI 일자리 손실이 걱정되시나요? 확실성을 기다리지 마십시오",
-        "enTitle": "Worried About AI Job Loss? Don't Wait For Certainty",
-        "date": "2026-06-05",
-        "originalDate": "2026-06-04",
-        "sourceName": "Forbes",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVXkxT0c2Mm5TUTlWc1V5S2lTdWRqNUM0UENEVW9XSm1FV1JKbmJ3VGU0UTI3YkdBVXhmdEVqQzlXS2RUMTZ3US1OM1pGeWtxTW1waW5sZzZzYnlEWGoxeHlXQ0lXX280LVI5dm5EVExyMXNLUWVySGtmU0VvWVU2VjdJMFUxcHlhOW1ZUjFIMllHX0xuT0F0clJwRkUzUldaRkRn?oc=5",
+        "koTitle": "AI 및 Tech Brief: 업무의 미래",
+        "enTitle": "AI & Tech Brief: The future of work",
+        "date": "2026-06-06",
+        "originalDate": "2026-06-05",
+        "sourceName": "The Washington Post",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLThTanVYRVc3ZnNNaHVpelcxX3I2UWtVWkRTekRlRDVBRkdqbjY5RnhfLTNvelJHZ0tNX3FySHRyWDlybHdab2h2OTQwX3RoY1BYLWxXbFpmaGpOeWhROFlVODJEVWR0LU81T1V2R0o1SERkRXVRdG80NEswVUl2Y0MyUk81N3EtVm5Za2w5alk0eGhRSHJVS3B3YlNNSUU?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 일자리 손실이 걱정되시나요? 확실성을 기다리지 마십시오 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 및 Tech Brief: 업무의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "작업에 대해 알아볼 블로그 게시물 125개",
-        "enTitle": "125 Blog Posts To Learn About Jobs",
-        "date": "2026-06-05",
-        "originalDate": "2026-06-04",
-        "sourceName": "HackerNoon",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54eTc5MEFlV3luQ1J5U2VRaENZQXp1MjZuRmo0MXNXUGVJaGFrYldVX2ZwLVF2TkNBQ2ViQnN6d3VrajBrWmVVRDUySnJiTFJrX0pYcGk4bWs5eVdHX2FvVm5SaXdISXQ5?oc=5",
+        "koTitle": "AI가 당신의 일을 할 수 있습니까? 이 마이애미 노동자들은 가장 많이 노출되어 있습니다",
+        "enTitle": "Can AI do your job? These Miami workers are the most exposed",
+        "date": "2026-06-06",
+        "originalDate": "2026-06-05",
+        "sourceName": "Miami Herald",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLVo4Ull3WGRTanhBVnBqMG5TcDJtdVZkNDc3d1NDTEJGUFFibno0d2ZrY3gwczJkSDFfY2pScDYtOUpoSjhTUzFPY2lpTDZDYVk2UGNKMVRtRjFzMkxSTkl4UzN3Vi10d2Rjem0xMXd1VnpjTGRxZTJmNDlseUhSYWJnSDFBLWRR0gGIAUFVX3lxTFAzNlp5eWtHWm11bmRvdDFjamt5V2RacHA4U0s5NmZaRl9iTmJQR3FnVEFxQU1rZTNwSXpfb3VEMHV1bGNCeXQ1bEJ4WWwxTWVPVHk3aG5PZWZqNWpkYjFUX29EQTVkTzAxS2pzUTF5NERzdWR4NnlIem1tZUFRSVNyRlFhbWlnaVk?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 작업에 대해 알아볼 블로그 게시물 125개 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! AI가 당신의 일을 할 수 있습니까? 이 마이애미 노동자들은 가장 많이 노출되어 있습니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "데이비드 솔로몬 (David Solomon): AI는 일자리 손실, 금융에서의 인간 상호 작용의 중요성, 엔트리 레벨 직업의 진화하는 풍토를 유발하지 않으면서 생산성을 향상시킬 것입니다 | 홀수 로트",
-        "enTitle": "David Solomon: AI will enhance productivity without causing job loss, the importance of human interaction in finance, and the evolving landscape of entry-level jobs | Odd Lots",
-        "date": "2026-06-05",
-        "originalDate": "2026-06-04",
-        "sourceName": "Crypto Briefing",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOdTJFRVh0V1hpVUdKY09jMTM5UXRGa3gzR2xDX0E2ZlAtWkJpY2NNYl9OdENYNWtGa2g5QWp1SERFTjdYVmw4X0hDTXg0NXNEenBSRnY4TkZhY0xqY1dWbzZWVTUzZ1h3TzFVbHVFdEk0UHlZQ2FZTDNfSWZEemlVSXdlVGJHQWgxc01BTlp2WWxRZ1ZhTDl5V0VWYlhocmJpMVNFWWxiX2xIeFpGM29EVV8wUnhaUldaNHlTODdDR2g0WVlwemdoYXVkWUEtLXMtRl8zd2lrZUp6QWVMb3lvOFU1M3JXUzJzbEpVMk5NMWcwSnEyNG4tWFAtMzVyTWlFUVkySTMyZlgwZ0JRcWU3Y3dkb05wb1djeEFhc1hQRE96QUds?oc=5",
+        "koTitle": "마음, 기계, 의미: 일의 미래가 여전히 인간인 이유",
+        "enTitle": "Mind, Machines, and Meaning: Why the Future of Work Is Still Human",
+        "date": "2026-06-06",
+        "originalDate": "2026-06-05",
+        "sourceName": "ETHRWorld.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYmhWbUplUG81ZDF2Qk5haUNRWXJ6eVdoSUlWeE9OV21MLTFiYnhTT2VtdU9BaEpPOG1NN0k3WnRfbG8wNWRXaWdGckZRVW56MXhVRFdnMmNDZ1BHNmlRYzdZcHA5YjJwYkJqSG1qU0tiSUVNMnktQXM0VzlMc3NGOWxpYS1BcFp2aElaM09EMm5McUJpcXRLRG1senZVZXQzT19aMzhVclJQT2UyYjdIN3JEMlo5c0hKVnM4SUFGRmlmNjdKM0HSAcsBQVVfeXFMTUZYNEZhQV9vNHJ1b2I4d3R3ZTFsZ1VoSXdqZWdzaWp4X3lBTXJBSDI1a0w0dmZLeWhqYWNwOVhsVHN1SGw3WFkyVGNQa0JUSU1mbnFpTmNsVnhMSU1OQUZ0YVh2X2FrV2xFMEpLa1pHVF94VnB1SkhWdjRqZmRpOEk4LW53SjJ1RkFfWkN5SlViZHJGWV9xSWt1ZUc0STg1WWpBSUxXUkRTSnowaWJaVWFXQU5WLV83dDFvMmZzanhURHR5ZWZzRzV6VVk?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 데이비드 솔로몬 (David Solomon): AI는 일자리 손실, 금융에서의 인간 상호 작용의 중요성, 엔트리 레벨 직업의 진화하는 풍토를 유발하지 않으면서 생산성을 향상시킬 것입니다 | 홀수 로트 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 마음, 기계, 의미: 일의 미래가 여전히 인간인 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "르세라핌이 안드로이드와 제미나이로 일상 속에서 영감을 얻는 방법",
-        "enTitle": "르세라핌이 안드로이드와 제미나이로 일상 속에서 영감을 얻는 방법",
-        "date": "2026-06-05",
-        "originalDate": "2026-06-04",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQajF6enprYU5Qd2FWMzZ2YVFTdVM4TzFwdWpQOGxuc3NMTy05YlBhdVF0MFRyVG9TdEpzVnE0UGd4bWQtTi1McTBGWmtXa25fRnA5VDhhUlVGWXJVWVNLaFFMNXhNc3RsM29lM2lKQ0txd1d0YkRNTTZSN1R5MWhUTGN3YXNkNGpJb3BRSXk3MlR2NnNfYlpTTThOb1JGMm83RW9F?oc=5",
+        "koTitle": "AI 생산성 패러독스: 같은 ChatGPT, Claude, Gemini를 써도 성과가 달라지는 이유 | 인사이트리포트 | 삼성SDS",
+        "enTitle": "AI 생산성 패러독스: 같은 ChatGPT, Claude, Gemini를 써도 성과가 달라지는 이유 | 인사이트리포트 | 삼성SDS",
+        "date": "2026-06-06",
+        "originalDate": "2026-06-05",
+        "sourceName": "Samsung SDS",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6TjdaTFBtS2F3bEhBelc4TGlWTWc4VGtWT0V6eHJYU29ydWpOd2lKcU0wUW9EaFVEdUZQZzlBcjRmWEVFNGlFNEE0bjQ4d1dZbXROcjBtNWtnWElVamNaMm5uYXpaay0yOHN2d2F1NFdJME1WTGc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 르세라핌이 안드로이드와 제미나이로 일상 속에서 영감을 얻는 방법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! AI 생산성 패러독스: 같은 ChatGPT, Claude, Gemini를 써도 성과가 달라지는 이유 | 인사이트리포트 | 삼성SDS 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "메타, AI모델 개발자용 도구 출시 지연…\"수익화 차질\"",
-        "enTitle": "메타, AI모델 개발자용 도구 출시 지연…\"수익화 차질\"",
-        "date": "2026-06-05",
-        "originalDate": "2026-06-04",
-        "sourceName": "연합뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PVk15QWRYTzFHd01yQXpoRW1HVU1obU42bkxpTHZWQ2lJZUdnZklKMzB3Z3J5SGJheXFtTTRveGJwZTFZbFF1TzlQcXlxS1pDaDZzS2x3NlIwd2vSAWBBVV95cUxOOW52NkJFVGExNlY3M3dvcW5EcEF2RFF6MFl6LTl2dGxUWmpaMVA5UFNQYTJ6Q1VLbmttWEozcElTOXFFNGF0Z1hnZ2s0VW5ya0g5WWpvTWlKUVVEdkU0a3Q?oc=5",
+        "koTitle": "메타, '뮤즈 스파크' API 출시 두 달째 연기…AI 수익화 비상",
+        "enTitle": "메타, '뮤즈 스파크' API 출시 두 달째 연기…AI 수익화 비상",
+        "date": "2026-06-06",
+        "originalDate": "2026-06-05",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VU3ZqMEVfU0NXdDVCVEhoUVRjQW5YYkgybzVQcE9Qa19VTVdEMzdvcWRTcUJjWS15a21iejJHY3IwUG1qWEo4VFJNN19VVTZmeXl6UXUtR1E1Sm9wQ1d2QTJra0tKVnNGM1E?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 메타, AI모델 개발자용 도구 출시 지연…\"수익화 차질\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 메타, '뮤즈 스파크' API 출시 두 달째 연기…AI 수익화 비상 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "AI로 설계·코딩·테스트 자동화...모바일 앱 출시 기간 단축하고 품질 높인다",
-        "enTitle": "AI로 설계·코딩·테스트 자동화...모바일 앱 출시 기간 단축하고 품질 높인다",
-        "date": "2026-06-05",
-        "originalDate": "2026-06-04",
-        "sourceName": "지티티코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WckFBYTVjc0lkbm1WbjVSaUZhampobXp1dkVhdDc1ZlFsT19MY19vcnR3QWNUdDh5Z1ZnUkt6QzA4Tm9YOEY1Y3p4cERCb3RaNl9hd3U1bVF1dFh5LXl4WTVNNF9nczlxbVE?oc=5",
+        "koTitle": "‘BTS 더 시티 아리랑’에서 제미나이를 만나보세요",
+        "enTitle": "‘BTS 더 시티 아리랑’에서 제미나이를 만나보세요",
+        "date": "2026-06-06",
+        "originalDate": "2026-06-05",
+        "sourceName": "blog.google",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQzVWNEFobzVlaDJORVl4djlWZTVtQkFQdkJaTUFTZ0VMaDc3UDV4QVZvU1FZeXJvVUpnbEdZX2pVdGpRNDFUdU8tQ3NSc0J3Z0d3amw2WUFvV1d4OS13YUJOczRfeUtNTGQ5NkVIZFJ5dG5rQmhvUWwwbVhzVXB0bmNaMGVrSkRNcnBnRHFn?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! AI로 설계·코딩·테스트 자동화...모바일 앱 출시 기간 단축하고 품질 높인다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! ‘BTS 더 시티 아리랑’에서 제미나이를 만나보세요 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
