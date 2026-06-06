@@ -1,7 +1,7 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-06
+ * 최신 업데이트: 2026-06-07
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
@@ -10,38 +10,38 @@ const aiNewsData = [
         "rank": 1,
         "koTitle": "AI 및 Tech Brief: 업무의 미래",
         "enTitle": "AI & Tech Brief: The future of work",
-        "date": "2026-06-06",
-        "originalDate": "2026-06-05",
+        "date": "2026-06-07",
+        "originalDate": "2026-06-06",
         "sourceName": "The Washington Post",
         "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLThTanVYRVc3ZnNNaHVpelcxX3I2UWtVWkRTekRlRDVBRkdqbjY5RnhfLTNvelJHZ0tNX3FySHRyWDlybHdab2h2OTQwX3RoY1BYLWxXbFpmaGpOeWhROFlVODJEVWR0LU81T1V2R0o1SERkRXVRdG80NEswVUl2Y0MyUk81N3EtVm5Za2w5alk0eGhRSHJVS3B3YlNNSUU?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
+        "viralRate": "93%",
         "analysis": "글로벌 AI 트렌드 체크! AI 및 Tech Brief: 업무의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI가 당신의 일을 할 수 있습니까? 이 마이애미 노동자들은 가장 많이 노출되어 있습니다",
-        "enTitle": "Can AI do your job? These Miami workers are the most exposed",
-        "date": "2026-06-06",
-        "originalDate": "2026-06-05",
-        "sourceName": "Miami Herald",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLVo4Ull3WGRTanhBVnBqMG5TcDJtdVZkNDc3d1NDTEJGUFFibno0d2ZrY3gwczJkSDFfY2pScDYtOUpoSjhTUzFPY2lpTDZDYVk2UGNKMVRtRjFzMkxSTkl4UzN3Vi10d2Rjem0xMXd1VnpjTGRxZTJmNDlseUhSYWJnSDFBLWRR0gGIAUFVX3lxTFAzNlp5eWtHWm11bmRvdDFjamt5V2RacHA4U0s5NmZaRl9iTmJQR3FnVEFxQU1rZTNwSXpfb3VEMHV1bGNCeXQ1bEJ4WWwxTWVPVHk3aG5PZWZqNWpkYjFUX29EQTVkTzAxS2pzUTF5NERzdWR4NnlIem1tZUFRSVNyRlFhbWlnaVk?oc=5",
+        "koTitle": "Google 공동 창업자 세르게이 브린 (Sergey Brin) 은 Go 게임을 사용하여 업무의 미래를 설명한다고 말합니다.",
+        "enTitle": "Google cofounder Sergey Brin says he uses the game of Go to explain the future of work",
+        "date": "2026-06-07",
+        "originalDate": "2026-06-06",
+        "sourceName": "Business Insider",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZXZwMjJudnlxSHVNQVo4OVFGaDY4Ym9ldk85b2I4ZTBmYW82RzY4R0RPcllxWGxjYkFQZUtJMmJQTUM1eXlWUjFrMERzWTdwRU5Rd2hlUXktbTFjOElPQk1PVnlBS1lpOVJOakp6NWIyRFBNYnZLQTNLa0RXN3lrWkt3cTVLOFlERzlYTlAxNFdFRWhsRmFKLVZB?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 당신의 일을 할 수 있습니까? 이 마이애미 노동자들은 가장 많이 노출되어 있습니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! Google 공동 창업자 세르게이 브린 (Sergey Brin) 은 Go 게임을 사용하여 업무의 미래를 설명한다고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "마음, 기계, 의미: 일의 미래가 여전히 인간인 이유",
-        "enTitle": "Mind, Machines, and Meaning: Why the Future of Work Is Still Human",
-        "date": "2026-06-06",
-        "originalDate": "2026-06-05",
-        "sourceName": "ETHRWorld.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYmhWbUplUG81ZDF2Qk5haUNRWXJ6eVdoSUlWeE9OV21MLTFiYnhTT2VtdU9BaEpPOG1NN0k3WnRfbG8wNWRXaWdGckZRVW56MXhVRFdnMmNDZ1BHNmlRYzdZcHA5YjJwYkJqSG1qU0tiSUVNMnktQXM0VzlMc3NGOWxpYS1BcFp2aElaM09EMm5McUJpcXRLRG1senZVZXQzT19aMzhVclJQT2UyYjdIN3JEMlo5c0hKVnM4SUFGRmlmNjdKM0HSAcsBQVVfeXFMTUZYNEZhQV9vNHJ1b2I4d3R3ZTFsZ1VoSXdqZWdzaWp4X3lBTXJBSDI1a0w0dmZLeWhqYWNwOVhsVHN1SGw3WFkyVGNQa0JUSU1mbnFpTmNsVnhMSU1OQUZ0YVh2X2FrV2xFMEpLa1pHVF94VnB1SkhWdjRqZmRpOEk4LW53SjJ1RkFfWkN5SlViZHJGWV9xSWt1ZUc0STg1WWpBSUxXUkRTSnowaWJaVWFXQU5WLV83dDFvMmZzanhURHR5ZWZzRzV6VVk?oc=5",
+        "koTitle": "AI는 일자리를 재편할 것이지만, 인도의 더 큰 도전은 근로자, 회의실 및 교실을 준비하는 것입니다.",
+        "enTitle": "AI will reshape jobs, but India’s bigger challenge is preparing workers, boardrooms and classrooms",
+        "date": "2026-06-07",
+        "originalDate": "2026-06-06",
+        "sourceName": "BusinessLine",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOck4xRGw4bUN5OHprWFIxTXRLNVFBdnZZaHJyU1lkYmgyclIwajd3VlZQMF9PT0ExOTh0UHg5bF85ZjMxeG9STzhYMHhVTWtOdGVFOS1oU3JiUW9jb3dhNUV3X05teEcwdzRDaG1iWEJWR09ocl9XWHdVTGdIdUNVb1Z4bFEtYUg3Uzg5M3NlT1NVdTVNbFZXRDhYQm5JcjRDb0lrdGdsRWlRYldYd2FkbWlqaFM2dzctWXNaVzRKdzZPaDdOdGE1UDZ0a1lpQkNhbkNTeWJIQ2YxVGJzNm42Y2xwckswQzRIcmdTUTNXNmJyaWI00gH7AUFVX3lxTE5ubUt4YXRmMGhKYlB4UUpHRXF5YzhOLXNsU0VaU3lUc2RkLTBpY21rdFp6MXpKdzh5cGFzWWZ0dnZ2bFhRWDNmb0RVcDBmX1BEVWUtWkFtbVNVZHlLaHN4RWQyWk1pRU9SZE0zTE9fMlpfQnVXS0NEckY0YXhYeHNQaUpFd1djcDMxR0lEVTlycWhnczVfWlJSM1BoQzRmdHlidU1CUEotT00xeWhDRXlfUWR3Nkp4aVJ5SHR1QkN1N2VOaTVUYUZqMTRuSGd4dGE2eFVVak5qUFFsOUFkekpJOUNydkhiNVVMMmpHWXMyX01LN3FCcHpoZ3Nz?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 마음, 기계, 의미: 일의 미래가 여전히 인간인 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! AI는 일자리를 재편할 것이지만, 인도의 더 큰 도전은 근로자, 회의실 및 교실을 준비하는 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "AI 생산성 패러독스: 같은 ChatGPT, Claude, Gemini를 써도 성과가 달라지는 이유 | 인사이트리포트 | 삼성SDS",
-        "enTitle": "AI 생산성 패러독스: 같은 ChatGPT, Claude, Gemini를 써도 성과가 달라지는 이유 | 인사이트리포트 | 삼성SDS",
-        "date": "2026-06-06",
-        "originalDate": "2026-06-05",
-        "sourceName": "Samsung SDS",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6TjdaTFBtS2F3bEhBelc4TGlWTWc4VGtWT0V6eHJYU29ydWpOd2lKcU0wUW9EaFVEdUZQZzlBcjRmWEVFNGlFNEE0bjQ4d1dZbXROcjBtNWtnWElVamNaMm5uYXpaay0yOHN2d2F1NFdJME1WTGc?oc=5",
+        "koTitle": "\"AI로 인재 선점하는 시대\"…취업 플랫폼, '기술 고도화' 경쟁",
+        "enTitle": "\"AI로 인재 선점하는 시대\"…취업 플랫폼, '기술 고도화' 경쟁",
+        "date": "2026-06-07",
+        "originalDate": "2026-06-06",
+        "sourceName": "뉴스1",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5HQmU5LXhWaVhWZFZPUU1Na3hNVG5IUmZYOFl0QzhCcUxDZmptbW1nQ0xOMHAwdW8yT2hyZ2d4d2VsVmRjZ3FqSVZsWE9GeGtwel9BbnBGdGRwQ0tWWUhUUzlTdjc?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! AI 생산성 패러독스: 같은 ChatGPT, Claude, Gemini를 써도 성과가 달라지는 이유 | 인사이트리포트 | 삼성SDS 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! \"AI로 인재 선점하는 시대\"…취업 플랫폼, '기술 고도화' 경쟁 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "메타, '뮤즈 스파크' API 출시 두 달째 연기…AI 수익화 비상",
-        "enTitle": "메타, '뮤즈 스파크' API 출시 두 달째 연기…AI 수익화 비상",
-        "date": "2026-06-06",
-        "originalDate": "2026-06-05",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VU3ZqMEVfU0NXdDVCVEhoUVRjQW5YYkgybzVQcE9Qa19VTVdEMzdvcWRTcUJjWS15a21iejJHY3IwUG1qWEo4VFJNN19VVTZmeXl6UXUtR1E1Sm9wQ1d2QTJra0tKVnNGM1E?oc=5",
+        "koTitle": "[OpenAI, ChatGPT 메모리 기능 무료 사용자까지 전격 확대… ‘드리밍 시스템’으로 똑똑한 대화 이끈다 ] 사용자가 과거에 나누었던 대화들을 분석하여, 향후 답변에 도움이 될 만한 유용한 통찰과 정보들을 자동으로 포착",
+        "enTitle": "[OpenAI, ChatGPT 메모리 기능 무료 사용자까지 전격 확대… ‘드리밍 시스템’으로 똑똑한 대화 이끈다 ] 사용자가 과거에 나누었던 대화들을 분석하여, 향후 답변에 도움이 될 만한 유용한 통찰과 정보들을 자동으로 포착",
+        "date": "2026-06-07",
+        "originalDate": "2026-06-06",
+        "sourceName": "AI넷",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBMa0t6b25xUFhhQ21zenhVZlI5Nmxpb3l2RXFIbFZYZW8wNFkxdjB4dXlhdHJjajBvSkcyczRvMU8?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 메타, '뮤즈 스파크' API 출시 두 달째 연기…AI 수익화 비상 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "96%",
+        "analysis": "2030을 위한 AI 실무 팁! [OpenAI, ChatGPT 메모리 기능 무료 사용자까지 전격 확대… ‘드리밍 시스템’으로 똑똑한 대화 이끈다 ] 사용자가 과거에 나누었던 대화들을 분석하여, 향후 답변에 도움이 될 만한 유용한 통찰과 정보들을 자동으로 포착 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "‘BTS 더 시티 아리랑’에서 제미나이를 만나보세요",
-        "enTitle": "‘BTS 더 시티 아리랑’에서 제미나이를 만나보세요",
-        "date": "2026-06-06",
-        "originalDate": "2026-06-05",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQzVWNEFobzVlaDJORVl4djlWZTVtQkFQdkJaTUFTZ0VMaDc3UDV4QVZvU1FZeXJvVUpnbEdZX2pVdGpRNDFUdU8tQ3NSc0J3Z0d3amw2WUFvV1d4OS13YUJOczRfeUtNTGQ5NkVIZFJ5dG5rQmhvUWwwbVhzVXB0bmNaMGVrSkRNcnBnRHFn?oc=5",
+        "koTitle": "전북과학대학교 혁신지원사업단, 외국인 재학생대상‘AI 활용 원데이 취업캠프’ 성료",
+        "enTitle": "전북과학대학교 혁신지원사업단, 외국인 재학생대상‘AI 활용 원데이 취업캠프’ 성료",
+        "date": "2026-06-07",
+        "originalDate": "2026-06-06",
+        "sourceName": "정읍신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CZ3BhNHBVOExMS1V5a0dPcHI4NENUUFdMRDR4dGVTR0lCYVhQNk1fdzlOMFlSVnNZZVVDNFVleHlzSjJPMmwwQjJKUXJHMjJyNG8wMUtzNFJHdHZHbDdacUNtSU4tOWvSAWpBVV95cUxQT0J5VEtMMmZ4TFF5Q3VjUWJ2VkhfUXdMQW1ucXdoN1ZLbHcyeXV1dE45dG95N3ljOE1jWk5TOGdXOEl5U2FFOUxjTFR0QkFSUUltaHpkOF9lclJtaFlLT2drblczSGhMMEZn?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! ‘BTS 더 시티 아리랑’에서 제미나이를 만나보세요 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "96%",
+        "analysis": "2030을 위한 AI 실무 팁! 전북과학대학교 혁신지원사업단, 외국인 재학생대상‘AI 활용 원데이 취업캠프’ 성료 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
