@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-07
+ * 최신 업데이트: 2026-06-08
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI 및 Tech Brief: 업무의 미래",
-        "enTitle": "AI & Tech Brief: The future of work",
-        "date": "2026-06-07",
-        "originalDate": "2026-06-06",
-        "sourceName": "The Washington Post",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLThTanVYRVc3ZnNNaHVpelcxX3I2UWtVWkRTekRlRDVBRkdqbjY5RnhfLTNvelJHZ0tNX3FySHRyWDlybHdab2h2OTQwX3RoY1BYLWxXbFpmaGpOeWhROFlVODJEVWR0LU81T1V2R0o1SERkRXVRdG80NEswVUl2Y0MyUk81N3EtVm5Za2w5alk0eGhRSHJVS3B3YlNNSUU?oc=5",
+        "koTitle": "엔비디아 CEO 젠슨 황 (Jensen Huang) 은 인공지능 일자리에 대한 두려움이 '완전히 터무니없는 소리' 라고 말합니다. 소프트웨어 개발자 수요는 증가하고 있다고 말합니다.",
+        "enTitle": "Nvidia CEO Jensen Huang calls AI job fears 'complete nonsense,' says software developer demand is only growing",
+        "date": "2026-06-08",
+        "originalDate": "2026-06-07",
+        "sourceName": "moneywise.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVTh4QV9zOFEyOW1IRHo2cW55NERkQmtMWjZnTjhmTlBWSGMwZy10eWdZVFNTSFdqVzNXUDVHbndDT01VZGRIYVJEUVlmaEpfajJfQi03UWE0S1NJdDJFb3d6X0x6RmtaYWgyMTEtYXB1UTh1bUwzWVRWM3BERVBmcw?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 및 Tech Brief: 업무의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 엔비디아 CEO 젠슨 황 (Jensen Huang) 은 인공지능 일자리에 대한 두려움이 '완전히 터무니없는 소리' 라고 말합니다. 소프트웨어 개발자 수요는 증가하고 있다고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "AI 및 Tech Brief: 업무의 미래",
+        "enTitle": "AI & Tech Brief: The future of work",
+        "date": "2026-06-08",
+        "originalDate": "2026-06-06",
+        "sourceName": "The Washington Post",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLThTanVYRVc3ZnNNaHVpelcxX3I2UWtVWkRTekRlRDVBRkdqbjY5RnhfLTNvelJHZ0tNX3FySHRyWDlybHdab2h2OTQwX3RoY1BYLWxXbFpmaGpOeWhROFlVODJEVWR0LU81T1V2R0o1SERkRXVRdG80NEswVUl2Y0MyUk81N3EtVm5Za2w5alk0eGhRSHJVS3B3YlNNSUU?oc=5",
+        "isRepublished": false,
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 및 Tech Brief: 업무의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "Google 공동 창업자 세르게이 브린 (Sergey Brin) 은 Go 게임을 사용하여 업무의 미래를 설명한다고 말합니다.",
         "enTitle": "Google cofounder Sergey Brin says he uses the game of Go to explain the future of work",
-        "date": "2026-06-07",
+        "date": "2026-06-08",
         "originalDate": "2026-06-06",
         "sourceName": "Business Insider",
         "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZXZwMjJudnlxSHVNQVo4OVFGaDY4Ym9ldk85b2I4ZTBmYW82RzY4R0RPcllxWGxjYkFQZUtJMmJQTUM1eXlWUjFrMERzWTdwRU5Rd2hlUXktbTFjOElPQk1PVnlBS1lpOVJOakp6NWIyRFBNYnZLQTNLa0RXN3lrWkt3cTVLOFlERzlYTlAxNFdFRWhsRmFKLVZB?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
+        "viralRate": "88%",
         "analysis": "글로벌 AI 트렌드 체크! Google 공동 창업자 세르게이 브린 (Sergey Brin) 은 Go 게임을 사용하여 업무의 미래를 설명한다고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "AI는 일자리를 재편할 것이지만, 인도의 더 큰 도전은 근로자, 회의실 및 교실을 준비하는 것입니다.",
-        "enTitle": "AI will reshape jobs, but India’s bigger challenge is preparing workers, boardrooms and classrooms",
-        "date": "2026-06-07",
-        "originalDate": "2026-06-06",
-        "sourceName": "BusinessLine",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOck4xRGw4bUN5OHprWFIxTXRLNVFBdnZZaHJyU1lkYmgyclIwajd3VlZQMF9PT0ExOTh0UHg5bF85ZjMxeG9STzhYMHhVTWtOdGVFOS1oU3JiUW9jb3dhNUV3X05teEcwdzRDaG1iWEJWR09ocl9XWHdVTGdIdUNVb1Z4bFEtYUg3Uzg5M3NlT1NVdTVNbFZXRDhYQm5JcjRDb0lrdGdsRWlRYldYd2FkbWlqaFM2dzctWXNaVzRKdzZPaDdOdGE1UDZ0a1lpQkNhbkNTeWJIQ2YxVGJzNm42Y2xwckswQzRIcmdTUTNXNmJyaWI00gH7AUFVX3lxTE5ubUt4YXRmMGhKYlB4UUpHRXF5YzhOLXNsU0VaU3lUc2RkLTBpY21rdFp6MXpKdzh5cGFzWWZ0dnZ2bFhRWDNmb0RVcDBmX1BEVWUtWkFtbVNVZHlLaHN4RWQyWk1pRU9SZE0zTE9fMlpfQnVXS0NEckY0YXhYeHNQaUpFd1djcDMxR0lEVTlycWhnczVfWlJSM1BoQzRmdHlidU1CUEotT00xeWhDRXlfUWR3Nkp4aVJ5SHR1QkN1N2VOaTVUYUZqMTRuSGd4dGE2eFVVak5qUFFsOUFkekpJOUNydkhiNVVMMmpHWXMyX01LN3FCcHpoZ3Nz?oc=5",
-        "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! AI는 일자리를 재편할 것이지만, 인도의 더 큰 도전은 근로자, 회의실 및 교실을 준비하는 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "\"AI로 인재 선점하는 시대\"…취업 플랫폼, '기술 고도화' 경쟁",
-        "enTitle": "\"AI로 인재 선점하는 시대\"…취업 플랫폼, '기술 고도화' 경쟁",
-        "date": "2026-06-07",
-        "originalDate": "2026-06-06",
-        "sourceName": "뉴스1",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5HQmU5LXhWaVhWZFZPUU1Na3hNVG5IUmZYOFl0QzhCcUxDZmptbW1nQ0xOMHAwdW8yT2hyZ2d4d2VsVmRjZ3FqSVZsWE9GeGtwel9BbnBGdGRwQ0tWWUhUUzlTdjc?oc=5",
+        "koTitle": "chatgpt-magnet-of-mediocrity",
+        "enTitle": "chatgpt-magnet-of-mediocrity",
+        "date": "2026-06-08",
+        "originalDate": "2026-06-07",
+        "sourceName": "SAP News Center",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPX3F4a280R2xLMmpuZnQ3aGdjcWIwYnNCZUhESTd3bDBMaWFwUTB4RWZHaFhnS2pqWUUtbGVKZHQwREh2Q1hCbnk5cUh5Qk9QbkU4eVNsYjBwdUtVSkxRbGtrSnlTZXBNbXI2dC1BLXpwb0NIamJjdDlka1JRbkw1RGtfTzR0TmNwbV96ZEFSaU45cnJnTFpTOUppZDVleGZRRFR4M2ZXUGg2UGZ0RHpQd29IeTBJdkFlVmphYS1mRGRZS01LR21BQUlibVJTSlVVdHZpUXo5UlNuWG9q?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! \"AI로 인재 선점하는 시대\"…취업 플랫폼, '기술 고도화' 경쟁 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! chatgpt-magnet-of-mediocrity 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "[OpenAI, ChatGPT 메모리 기능 무료 사용자까지 전격 확대… ‘드리밍 시스템’으로 똑똑한 대화 이끈다 ] 사용자가 과거에 나누었던 대화들을 분석하여, 향후 답변에 도움이 될 만한 유용한 통찰과 정보들을 자동으로 포착",
-        "enTitle": "[OpenAI, ChatGPT 메모리 기능 무료 사용자까지 전격 확대… ‘드리밍 시스템’으로 똑똑한 대화 이끈다 ] 사용자가 과거에 나누었던 대화들을 분석하여, 향후 답변에 도움이 될 만한 유용한 통찰과 정보들을 자동으로 포착",
-        "date": "2026-06-07",
-        "originalDate": "2026-06-06",
-        "sourceName": "AI넷",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBMa0t6b25xUFhhQ21zenhVZlI5Nmxpb3l2RXFIbFZYZW8wNFkxdjB4dXlhdHJjajBvSkcyczRvMU8?oc=5",
+        "koTitle": "오픈AI, 챗GPT 출시 후 최대 개편…'AI 슈퍼앱' 진화 천명",
+        "enTitle": "오픈AI, 챗GPT 출시 후 최대 개편…'AI 슈퍼앱' 진화 천명",
+        "date": "2026-06-08",
+        "originalDate": "2026-06-07",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1nRThmVDIzbG9TYWFVOGhTYUZ0V3lfZUk1cGlWTGhjbEl2emJxaGhBeVdoVXZ5R0E1TUphV1lQWU1jcF9iU3c?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! [OpenAI, ChatGPT 메모리 기능 무료 사용자까지 전격 확대… ‘드리밍 시스템’으로 똑똑한 대화 이끈다 ] 사용자가 과거에 나누었던 대화들을 분석하여, 향후 답변에 도움이 될 만한 유용한 통찰과 정보들을 자동으로 포착 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 오픈AI, 챗GPT 출시 후 최대 개편…'AI 슈퍼앱' 진화 천명 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "전북과학대학교 혁신지원사업단, 외국인 재학생대상‘AI 활용 원데이 취업캠프’ 성료",
-        "enTitle": "전북과학대학교 혁신지원사업단, 외국인 재학생대상‘AI 활용 원데이 취업캠프’ 성료",
-        "date": "2026-06-07",
-        "originalDate": "2026-06-06",
-        "sourceName": "정읍신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CZ3BhNHBVOExMS1V5a0dPcHI4NENUUFdMRDR4dGVTR0lCYVhQNk1fdzlOMFlSVnNZZVVDNFVleHlzSjJPMmwwQjJKUXJHMjJyNG8wMUtzNFJHdHZHbDdacUNtSU4tOWvSAWpBVV95cUxQT0J5VEtMMmZ4TFF5Q3VjUWJ2VkhfUXdMQW1ucXdoN1ZLbHcyeXV1dE45dG95N3ljOE1jWk5TOGdXOEl5U2FFOUxjTFR0QkFSUUltaHpkOF9lclJtaFlLT2drblczSGhMMEZn?oc=5",
+        "koTitle": "챗GPT는 여전히 1위, 가장 빠르게 성장한 AI는 클로드… AI가 검색·발견·구매를 바꾸고 있다",
+        "enTitle": "챗GPT는 여전히 1위, 가장 빠르게 성장한 AI는 클로드… AI가 검색·발견·구매를 바꾸고 있다",
+        "date": "2026-06-08",
+        "originalDate": "2026-06-07",
+        "sourceName": "매드타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5rZnpscXNzaGZiNW5EbHhZWWF0cHJlc181bXQzRVRrRUNXRG9oU0wxR3pPb21IX3ZHQUtPMS1ra1FBRE1mWmFtNXNaLXN0cEsyN1lTdnJCZUVTNV8wcXpTSVdLRHFkb0M2M3B6cg?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! 전북과학대학교 혁신지원사업단, 외국인 재학생대상‘AI 활용 원데이 취업캠프’ 성료 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 챗GPT는 여전히 1위, 가장 빠르게 성장한 AI는 클로드… AI가 검색·발견·구매를 바꾸고 있다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
