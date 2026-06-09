@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-09
+ * 최신 업데이트: 2026-06-10
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "인공지능 (AI) 이 월스트리트 전역으로 확산됨에 따라 미래의 은행가들은 엔트리 레벨 일자리가 줄어들고",
-        "enTitle": "Future bankers face fewer entry-level jobs as AI spreads across Wall Street",
-        "date": "2026-06-09",
-        "originalDate": "2026-06-08",
-        "sourceName": "Crypto Briefing",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNc0t1Z3ctS3BKYU84Y2VIaUczM0NxTHlIR2U5RGY0LWJJekNSQWpIQno0VDNZYlZWNkhvN3FqME40ek5aeUwwaE9yZE10QWpQNEtiUXU0MzZoSGtfaDFJVG1ZdkdGdW8?oc=5",
+        "koTitle": "하이브리드 AI-인간 노동력에서 누가 실제로 번창할 것인가?",
+        "enTitle": "In the Hybrid A.I.-Human Work Force, Who Will Actually Thrive?",
+        "date": "2026-06-10",
+        "originalDate": "2026-06-09",
+        "sourceName": "The New York Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1wbDB3RnJRcVhiN2VpaC1EWkkwcWswNk5iQmlLX0hUWkRIRzhVS3lVdHJ2RkdKUUNab05RQUx3ZWZfdzRUTmNWdkZ1T0RtaEwyZzlkNWJVMDV1T3JXcU5sVHRxSlBtanI0dFE2VVFoWTBXUWZsb21XVDFwbEU?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능 (AI) 이 월스트리트 전역으로 확산됨에 따라 미래의 은행가들은 엔트리 레벨 일자리가 줄어들고 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 하이브리드 AI-인간 노동력에서 누가 실제로 번창할 것인가? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI가 일부 일자리를 대체하고 있지만, 이 12개의 새로운 AI 일자리가 빠르게 등장하고 있습니다.",
-        "enTitle": "AI is replacing some jobs—but these 12 new AI jobs are emerging fast",
-        "date": "2026-06-09",
-        "originalDate": "2026-06-08",
-        "sourceName": "Storyboard18",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObTNaZldiSDBzcjItdmRZNHpCcGJqcnRjeTFvcHV1MjRnMzI1NmJtOEhTb0NsS0xXa2JlOHoxYzB1VWJmcmhmUjI2M3ZXSzhjdHZKZjl5MlpUcG5aZWYxVUlBLTFsY3BjQkpKc0FzbHQ5cDRzVDdrUTRHbHNEQTJjTHcta0NTZlNGbVNRaUhsS3hvWTNKT25nR1o5QXNQZVJiWmdoVDZ6c0d6QVhZVUowTGtldjNVd29K0gG-AUFVX3lxTE1ka0ZlVVBqUjFPbk9BMnVqUW1XVGtfdk53VDlKUDJYZUYzRXR2RTlyTG1IZklYVnFpd2hfS0RTME1oVHUtcGNSZmhOTU84ZU5qQjNGWTNHaWhuNzNmSmttREFMTVBYdVpkbzN4WDE2NUJJanBjYnc4eEFrZzRLY1BpTkdYRXo2LWg5N0NYNnBocThpWFJEUThPM2g0SlBtSWpfZm0xQzZ0WEtHMUpzNXFNZmtzTjZHZUpJVzlITEE?oc=5",
+        "koTitle": "AI가 아닌 원격 근무가 가장 큰 초기 경력 위협입니다. 준비가 되셨습니까?",
+        "enTitle": "Remote work, not AI, is the biggest early career threat — are you prepared?",
+        "date": "2026-06-10",
+        "originalDate": "2026-06-09",
+        "sourceName": "unleash.ai",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcE1NWnozTmlSQl9JcUNPTGxHNF85YkNQRzlBZUZxQ3R2UmlUNHBIYUQ5X05jQm8zbDZzX21YZ3ZIYVBfc0VWajgxa3N5Q3JZQ1VzQUIxbk9tM0xfNUhKdnU5amRxNlBDN19DSWVPVFduNFktc1lFa1EtQk5mbk9KTEVfcVczV2RRU3paakVHSW1lWTNNQ0RzejZSRjdjaDhHWTQxX3dKd1drR2ZQcjFWWlpDSGZJRmwzMHBLTV93?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 일부 일자리를 대체하고 있지만, 이 12개의 새로운 AI 일자리가 빠르게 등장하고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! AI가 아닌 원격 근무가 가장 큰 초기 경력 위협입니다. 준비가 되셨습니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "‘AI 트윈과 대화하기': 바쁜 경영진이 새로운 생산성 해킹을 당했습니다.",
-        "enTitle": "‘Talk to My A.I. Twin’: Busy Executives Have a New Productivity Hack",
-        "date": "2026-06-09",
+        "koTitle": "인공지능 (AI) 이 월스트리트 전역으로 확산됨에 따라 미래의 은행가들은 엔트리 레벨 일자리가 줄어들고",
+        "enTitle": "Future bankers face fewer entry-level jobs as AI spreads across Wall Street",
+        "date": "2026-06-10",
         "originalDate": "2026-06-08",
-        "sourceName": "The New York Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1fZnBYemx0U1pIYUJQSk1WSm1sdThzLWNxcnJmaUNqMDFSajVISUtSXzJBTWFtSW9PY0JjcUVZSjRSaTZwblhuYWg3NUM1Xy1MVmxpSWtHSUJzRmlGZjA1VHBHczEwbkl5UmswVW1qVi00Q0Z3NUtZeHZDb0lEQQ?oc=5",
+        "sourceName": "Crypto Briefing",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNc0t1Z3ctS3BKYU84Y2VIaUczM0NxTHlIR2U5RGY0LWJJekNSQWpIQno0VDNZYlZWNkhvN3FqME40ek5aeUwwaE9yZE10QWpQNEtiUXU0MzZoSGtfaDFJVG1ZdkdGdW8?oc=5",
         "isRepublished": false,
         "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! ‘AI 트윈과 대화하기': 바쁜 경영진이 새로운 생산성 해킹을 당했습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능 (AI) 이 월스트리트 전역으로 확산됨에 따라 미래의 은행가들은 엔트리 레벨 일자리가 줄어들고 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "웍스피어, 비핵심 서비스 정리…AI 커리어 플랫폼 전환 속도",
-        "enTitle": "웍스피어, 비핵심 서비스 정리…AI 커리어 플랫폼 전환 속도",
-        "date": "2026-06-09",
-        "originalDate": "2026-06-08",
-        "sourceName": "전자신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9obEY4bmdIdExSZ1dVSWV4dm5SNVBMYWZsU1RDME03NncyaS1yZVV3TkUyeTE0VU5pYW1aTEM3U3VoOUFjWFRTYzVaQ0ZsQQ?oc=5",
+        "koTitle": "챗GPT·클로드…서울런 회원에 유료 AI 9종 무료 지원",
+        "enTitle": "챗GPT·클로드…서울런 회원에 유료 AI 9종 무료 지원",
+        "date": "2026-06-10",
+        "originalDate": "2026-06-09",
+        "sourceName": "서울특별시",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qcnNsdkxLSFNQYml0Y244VldSamZid3laUnNoSmlCeXJNbEppQjFNOVpVSDNXaXlJREM4U0xmc1pSdnBGT0diZm14Y2psZEphbFF1WTlLMUQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 웍스피어, 비핵심 서비스 정리…AI 커리어 플랫폼 전환 속도 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 챗GPT·클로드…서울런 회원에 유료 AI 9종 무료 지원 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "무신사, 글로벌 AI 패션·뷰티 시장 정조준··· 챗GPT 무신사 전용 앱 출시",
-        "enTitle": "무신사, 글로벌 AI 패션·뷰티 시장 정조준··· 챗GPT 무신사 전용 앱 출시",
-        "date": "2026-06-09",
-        "originalDate": "2026-06-08",
-        "sourceName": "무신사 뉴스룸",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5UT19kSmVzQ0RtelptUUZFOWRRbk56NGpRZ0N0Q29XOG5KaDJ4enBqdkxVX19Nc0ZWN2dZWU5GeU1Xclp3TS1Lb2xRQXJXTGhnVjZKbXR6ZTJXVXpsUTQ5U3ZSRV94UQ?oc=5",
+        "koTitle": "무신사, 챗GPT 무신사 전용 앱 출시…AI 패션·뷰티 시장 정조준",
+        "enTitle": "무신사, 챗GPT 무신사 전용 앱 출시…AI 패션·뷰티 시장 정조준",
+        "date": "2026-06-10",
+        "originalDate": "2026-06-09",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9lRDQxNW9oS3kyM3o0M2JjeVQ0ZF85eHQ1bmgyZjQyNFdfb3BJekJYYW9mckhVSG1QU0FxMWZqQWpJaXJWalE?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 무신사, 글로벌 AI 패션·뷰티 시장 정조준··· 챗GPT 무신사 전용 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 무신사, 챗GPT 무신사 전용 앱 출시…AI 패션·뷰티 시장 정조준 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "애플, 제미나이 통합한 새 '시리 AI' 공개…\"프라이버시 최우선\"",
-        "enTitle": "애플, 제미나이 통합한 새 '시리 AI' 공개…\"프라이버시 최우선\"",
-        "date": "2026-06-09",
-        "originalDate": "2026-06-08",
-        "sourceName": "연합뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE96bTBPTWlMOWF1LVFFS1ZrUjBqenJPSmxWNm95dXM0eWVzQ2lJVWdtOFdVeGtSbkllMVlYakJEUEd6RVhyUUpZc0lvZm9FNFFsaXJrU1lRZDM2QkkxMWZLZtIBYEFVX3lxTE96bTBPTWlMOWF1LVFFS1ZrUjBqenJPSmxWNm95dXM0eWVzQ2lJVWdtOFdVeGtSbkllMVlYakJEUEd6RVhyUUpZc0lvZm9FNFFsaXJrU1lRZDM2QkkxMWZLZg?oc=5",
+        "koTitle": "클로드 '페이블 5' 공개…\"수일간 자율작업 가능\"",
+        "enTitle": "클로드 '페이블 5' 공개…\"수일간 자율작업 가능\"",
+        "date": "2026-06-10",
+        "originalDate": "2026-06-09",
+        "sourceName": "일간투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1UdTRLc0JDeW5RUVVpVWR2eHJYSEpyMmZKd2o1TGN4YWNFMi01WEF2R0NLdUF6U2l4cmdWVko5ZVU3TEthcW1zUUZLUXRKV2VLeU5GdXZPclpzUDZTUVBiZGw3Q2pkLUpXak5F?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 애플, 제미나이 통합한 새 '시리 AI' 공개…\"프라이버시 최우선\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 클로드 '페이블 5' 공개…\"수일간 자율작업 가능\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
