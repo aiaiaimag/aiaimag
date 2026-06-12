@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-12
+ * 최신 업데이트: 2026-06-13
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "기업가가 AI를 사용하여 일자리의 미래를 바꿀 수 있는 방법",
-        "enTitle": "How entrepreneurs can change the future of jobs using AI",
-        "date": "2026-06-12",
-        "originalDate": "2026-06-11",
-        "sourceName": "The World Economic Forum",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTmFYcHNJcUFDbUQ0ZXdGZHJCZ1JqOTEwRmZiQWtVaHdfRVppRXQwbEJfQVdUaHRkR1lTWmYySEhOVHNWVTk4MlBLSklBWkJOMFZlV3dXTG9nei0taFFlUFB5bW4yMGczR1BxSS1QWmg2R2taTm90d0duUVdTenczYV9kNjlsVmhsZXU1eWhHbnY?oc=5",
+        "koTitle": "생산성 도구에 대해 알아볼 블로그 게시물 97개",
+        "enTitle": "97 Blog Posts To Learn About Productivity Tools",
+        "date": "2026-06-13",
+        "originalDate": "2026-06-12",
+        "sourceName": "HackerNoon",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBMVmpxeGRiai1jZkFCOFAzZWhFZTB4dUpCWk5IZmNyazN5dlR4NUt6RlRoMUs1Ykx3WVBzU3ZveElUdkZJSG94amFQX09EanVRN256RUIyNmdrY1hEMTI5UEtTRVhoMUVySDctRS1vaks4Si1sU1F4bmRR?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 기업가가 AI를 사용하여 일자리의 미래를 바꿀 수 있는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! 생산성 도구에 대해 알아볼 블로그 게시물 97개 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "클링 AI, '한국 야구 트렌드' 로 전 세계 42개국 앱스토어 차트 상위권 진입",
-        "enTitle": "Kling AI Tops App Store Charts in 42 Countries as 'Korean Baseball Trend' Goes Viral Globally",
-        "date": "2026-06-12",
-        "originalDate": "2026-06-11",
-        "sourceName": "The Manila Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQV2dHUENid20ySEppMWJ6OE90YzQ3R2g0ZW5Ob2xncGl5MTdVazBrX2JuQXpycmVpTFZCNTJ5Z0l0OEx5blFxTE9oa1NybU8taTRlVFA4MFRfY2FrRVFZcGFUbjFvVFhSblE3TUZqRWc5VWZiWVU3T0h2ZGUxcmhEWW11aVZpWWFVSGp6TlExTGVNYTNrYTdSSjljVktPQjVqQzdjR25wQUdVRUY3bllNYWZMTnpoZlRNam85YVpvMjlJY1pLZWlzSndZR05pdEl0aW9ueGJrWm5fX0NoUUNoTTI5VmNFTmt5S0xSZVpaYUR4cWlI0gH6AUFVX3lxTFBKS05xUnNEcGpRbkJWbUdOOXVtRjVXWFVsN1k1a0dBSFFVMl8yQTZ5U1UzdU4xd19wMXpmXzg0bkNuQ2dvekhhaHFGRWkxUXk4T20xcHFEMi0tS2QxZDdMWTJPX2xtazVaM2xuUVR1UzZnZkdSbm1URzdZUnNHWm9wc0NmWmdTcGt0N0dEeG9jSlo4TGxZTFFDS3U0bGZjVjAxaE9IYzZ5SGpGS3pxODdLdEMwZl8tSFJUZjA0THVsbFhGMWljNEtkR0s3Qm16dnE5UVNoUWt1QUo1ck5LWUVITHZuWFNkRkx5d2NVNkF0SWFEMTJyWTFCX0E?oc=5",
+        "koTitle": "Walmart는 210만 명의 직원에게 다음과 같은 메시지를 전합니다. AI는 당신의 일을 개선할 것입니다.",
+        "enTitle": "Walmart has a message for its 2.1 million workers: AI is going to improve your job, not take it",
+        "date": "2026-06-13",
+        "originalDate": "2026-06-12",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdEhXQ0tIbXBtRnhBRktZUEozZGh4ZnB2VzhSRFBFdEdCVHVQbzZfLXMyMFFULU9KQ3Qzczg4OXFQNWhta2pXX3VCSW1Tc1gtNmZRRTJidWg4cDBKbnRXSjN1VjlCOURnSjZJQnczMDAtd3hDWm9kUWoydVhkcnFjYTIyTGFsbFRNY2xyUW9rLTFabnREWDUzdXNfLTdhcHBWWlE1RlR6eW1KUG1zczV2Y1FVWEo5bHlMa3c?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 클링 AI, '한국 야구 트렌드' 로 전 세계 42개국 앱스토어 차트 상위권 진입 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! Walmart는 210만 명의 직원에게 다음과 같은 메시지를 전합니다. AI는 당신의 일을 개선할 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "인공지능 절대주의는 우리의 두뇌를 깨뜨리고 있습니다. 우리가 팔리고 있는 종말론적 미래는 피할 수 없는 것이 아닙니다.",
-        "enTitle": "AI absolutism is breaking our brains. The apocalyptic future we’re being sold isn’t inevitable",
-        "date": "2026-06-12",
+        "koTitle": "기업가가 AI를 사용하여 일자리의 미래를 바꿀 수 있는 방법",
+        "enTitle": "How entrepreneurs can change the future of jobs using AI",
+        "date": "2026-06-13",
         "originalDate": "2026-06-11",
-        "sourceName": "The Guardian",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSWc4aWFjWUFGdjhMYlp1UDJkemlXdzJnY2l0RHpxQWJaaV9OMG5OVXB1TC1qQXM1SXppVUxhRXJydmV0dzZkVTNNY2VMQ3hOaTZKNmozeXI3UkwzQUc0enpoWkVBSkdPbFdXcXJiOTd3TzRKeUpFTzJZYmczcWswRC1GRUEzUTF3WEFv?oc=5",
+        "sourceName": "The World Economic Forum",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTmFYcHNJcUFDbUQ0ZXdGZHJCZ1JqOTEwRmZiQWtVaHdfRVppRXQwbEJfQVdUaHRkR1lTWmYySEhOVHNWVTk4MlBLSklBWkJOMFZlV3dXTG9nei0taFFlUFB5bW4yMGczR1BxSS1QWmg2R2taTm90d0duUVdTenczYV9kNjlsVmhsZXU1eWhHbnY?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능 절대주의는 우리의 두뇌를 깨뜨리고 있습니다. 우리가 팔리고 있는 종말론적 미래는 피할 수 없는 것이 아닙니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 기업가가 AI를 사용하여 일자리의 미래를 바꿀 수 있는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "우리은행, AI로 신용 관리 돕는 '포용채무진단 서비스' 출시",
-        "enTitle": "우리은행, AI로 신용 관리 돕는 '포용채무진단 서비스' 출시",
-        "date": "2026-06-12",
-        "originalDate": "2026-06-11",
-        "sourceName": "연합뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1CNXVHYkFZekpodGxlMWlvRVRDU2MwdkhKOXNqRUlpV3NmeHJqRGVhVWNzU1l2aUZrM2NKTk8xcXZUSGZOeUg4QXpJYXRnNDM3S2dNUmVUVFo2MWRkUjhsMtIBYEFVX3lxTE1CNXVHYkFZekpodGxlMWlvRVRDU2MwdkhKOXNqRUlpV3NmeHJqRGVhVWNzU1l2aUZrM2NKTk8xcXZUSGZOeUg4QXpJYXRnNDM3S2dNUmVUVFo2MWRkUjhsMg?oc=5",
+        "koTitle": "앤스로픽의 클로드, 제미나이 제치고 한국 AI 앱 시장 2위 등극",
+        "enTitle": "앤스로픽의 클로드, 제미나이 제치고 한국 AI 앱 시장 2위 등극",
+        "date": "2026-06-13",
+        "originalDate": "2026-06-12",
+        "sourceName": "조선일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRnBtaUg3aDcwaXNYeGZWdEpibE10UVZXenUyUmJsSG9aSURqSUVpdC1NWFdBSHdlaHdTa0ZYVURISDJkeHZPa2F1Ykx6SVdLWjBGUHh0OWRaWVVrNlBFMG1HeURqV1hZWVhFNEk3elU2elp5MkhMbEZfbTgzOHZnNU5DMA?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 우리은행, AI로 신용 관리 돕는 '포용채무진단 서비스' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 앤스로픽의 클로드, 제미나이 제치고 한국 AI 앱 시장 2위 등극 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "한동대 기술경영학회, 소상공인 맞춤형 AI ERP 앱 출시",
-        "enTitle": "한동대 기술경영학회, 소상공인 맞춤형 AI ERP 앱 출시",
-        "date": "2026-06-12",
-        "originalDate": "2026-06-11",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5DR0poUjBBVHQtMlF5dEd3Nml2ZElsY0lkVkhrT1hmWWYyR2tGUW4wTmk5bGREWEg5QkJ4WTc4SnFYRWs3V2lxRHFzUkw4alNyRldTNU5yWXJ1VnhPRUZEblJPcklOV25jOFE?oc=5",
+        "koTitle": "캐시우드 \"반도체 분할매수 추천\" 조정 당연…AI 트렌드 수년간 지속",
+        "enTitle": "캐시우드 \"반도체 분할매수 추천\" 조정 당연…AI 트렌드 수년간 지속",
+        "date": "2026-06-13",
+        "originalDate": "2026-06-12",
+        "sourceName": "중소기업신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9vQTlDX21yRW52Qjd6dllPSUY0cTZ3QjU3S2Myc1dsUXFzd1lCSWlZVzAta21ZZnJnSDZaUDFVQXo1dHJBQklCLU9Qc2Y3VVZWOEtlWFczVjBEeWNqblVpSVV6M3p1SlYxcmhySmVR?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 한동대 기술경영학회, 소상공인 맞춤형 AI ERP 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 캐시우드 \"반도체 분할매수 추천\" 조정 당연…AI 트렌드 수년간 지속 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "클로드 페이블 5 출시, 구독자 이용 기한은 6월 23일까지",
-        "enTitle": "클로드 페이블 5 출시, 구독자 이용 기한은 6월 23일까지",
-        "date": "2026-06-12",
-        "originalDate": "2026-06-11",
-        "sourceName": "itworld.co.kr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOM24zY093THEyd3ZTSmwwMHc4YzRraWxkZ1lKSW5rMDZ2b1NBVlBDNGMwMTE0bFhpa1RPcGFkSDc2eWlkVkxDajJtMDdBSzdwTUh3a1BXY05rZUtrSXp2bkczLUE0NEFQa1ZjSS1nbWRBOWFFd2hzak90blR2emN4dHlhYUhCNkVnZHFPNW91V29zcnBmRUtiXzl3SlhVaTE0cGd0bmFwMHpDN0txWmhseWs5a2x2WlpURmdBZGhPRE4yWEVDUnRHMzJaaHA4blpwVFJhU3VEWWtPOFFQZldmR1hzSWpyYWJzS0dHeHEwemszUWktLWg1eWlfRW4tZWxjdUJjcUFoMl8yQURWZHl3LWRmakZ3WWJybFFCdWhENGpKQ21jZXNBR29NaEppTVJBTXNFalBBQmtkejh1S0NIb2U0cC1BYmdXeDM3VFlsTUhKdzg1YUFzYXFZRQ?oc=5",
+        "koTitle": "제미나이 밀어낸 '클로드'…국내 AI 시장 2위 격변, 비결은?",
+        "enTitle": "제미나이 밀어낸 '클로드'…국내 AI 시장 2위 격변, 비결은?",
+        "date": "2026-06-13",
+        "originalDate": "2026-06-12",
+        "sourceName": "지디넷코리아",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE81WEFHVHpHQV9qWG5PWnNtWTVGY05sUWNiZ3M4RHhydDBBYXV2c00wTEdqVV9GY0tHaEZkYzY5N0htQ1NxSXVIaENNMk85c1hhb2Ywdi13?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 클로드 페이블 5 출시, 구독자 이용 기한은 6월 23일까지 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 제미나이 밀어낸 '클로드'…국내 AI 시장 2위 격변, 비결은? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
