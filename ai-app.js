@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-13
+ * 최신 업데이트: 2026-06-14
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "생산성 도구에 대해 알아볼 블로그 게시물 97개",
-        "enTitle": "97 Blog Posts To Learn About Productivity Tools",
-        "date": "2026-06-13",
-        "originalDate": "2026-06-12",
-        "sourceName": "HackerNoon",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBMVmpxeGRiai1jZkFCOFAzZWhFZTB4dUpCWk5IZmNyazN5dlR4NUt6RlRoMUs1Ykx3WVBzU3ZveElUdkZJSG94amFQX09EanVRN256RUIyNmdrY1hEMTI5UEtTRVhoMUVySDctRS1vaks4Si1sU1F4bmRR?oc=5",
+        "koTitle": "태국인이 인공지능과 함께 생활하고 일하는 법을 배우는 방법",
+        "enTitle": "How young Thais are learning to live and work with AI",
+        "date": "2026-06-14",
+        "originalDate": "2026-06-13",
+        "sourceName": "Bangkok Post",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeGNhWkhMSXVMNFZ1bHl2RWNFNDZ5bG14OUlUYnR5TEpLMkVMRTBSZlFHdzdLZkxULU1nTWVGdjlaam5QVEQyaUxkSkJSOTRSMXVLU0ZHSlo3blM2VWF4Z2VFc2VGd19ZbmhCZEtuQ1JQa0psR29qTGlJa2gwczllSjg1WEMtbW4tNEcxdTcxYm1XcWp4Sm9VV1YySnNRYmJ1SGp6S2FPSW82RWJOWkQza1J5S2g?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! 생산성 도구에 대해 알아볼 블로그 게시물 97개 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 태국인이 인공지능과 함께 생활하고 일하는 법을 배우는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "Walmart는 210만 명의 직원에게 다음과 같은 메시지를 전합니다. AI는 당신의 일을 개선할 것입니다.",
-        "enTitle": "Walmart has a message for its 2.1 million workers: AI is going to improve your job, not take it",
-        "date": "2026-06-13",
-        "originalDate": "2026-06-12",
+        "koTitle": "Z세대가 업계 베테랑보다 더 나은 채용 베팅인 이유에 대한 자율주행 트럭 유니콘의 배후에 있는 ‘AI 슈퍼스타’ CEO",
+        "enTitle": "The ‘AI superstar’ CEO behind a self-driving truck unicorn on why Gen Z is a better hiring bet than industry veterans",
+        "date": "2026-06-14",
+        "originalDate": "2026-06-13",
         "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdEhXQ0tIbXBtRnhBRktZUEozZGh4ZnB2VzhSRFBFdEdCVHVQbzZfLXMyMFFULU9KQ3Qzczg4OXFQNWhta2pXX3VCSW1Tc1gtNmZRRTJidWg4cDBKbnRXSjN1VjlCOURnSjZJQnczMDAtd3hDWm9kUWoydVhkcnFjYTIyTGFsbFRNY2xyUW9rLTFabnREWDUzdXNfLTdhcHBWWlE1RlR6eW1KUG1zczV2Y1FVWEo5bHlMa3c?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQT2kycEJ4VjlnbXZIUEYtdTVGWlBxbFU1bXAyUnJoZ044U3BWcHhMVTQ5WE1zaTR3OUNINHZjb3UxcjFSUHFnX3VGUVFPVWI5RzBEYnB5bXdCUnp6dV9zalZldGpSOFh6Wl9xZ1dFZEt3bmJ2UWs4dDFTYnJheFo5b1BVdXBCNTBMbFYtdC1uVmd2Qkt4SFd5eHIwTlhKTUZIVjVCd3d4RWc3ZVdfVGJ3SWRYX2FDeEhlaVlwSk1OXzhzNjBrcnZYbnp3?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! Walmart는 210만 명의 직원에게 다음과 같은 메시지를 전합니다. AI는 당신의 일을 개선할 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! Z세대가 업계 베테랑보다 더 나은 채용 베팅인 이유에 대한 자율주행 트럭 유니콘의 배후에 있는 ‘AI 슈퍼스타’ CEO 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "기업가가 AI를 사용하여 일자리의 미래를 바꿀 수 있는 방법",
-        "enTitle": "How entrepreneurs can change the future of jobs using AI",
-        "date": "2026-06-13",
-        "originalDate": "2026-06-11",
-        "sourceName": "The World Economic Forum",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTmFYcHNJcUFDbUQ0ZXdGZHJCZ1JqOTEwRmZiQWtVaHdfRVppRXQwbEJfQVdUaHRkR1lTWmYySEhOVHNWVTk4MlBLSklBWkJOMFZlV3dXTG9nei0taFFlUFB5bW4yMGczR1BxSS1QWmg2R2taTm90d0duUVdTenczYV9kNjlsVmhsZXU1eWhHbnY?oc=5",
+        "koTitle": "생산성 도구에 대해 알아볼 블로그 게시물 97개",
+        "enTitle": "97 Blog Posts To Learn About Productivity Tools",
+        "date": "2026-06-14",
+        "originalDate": "2026-06-12",
+        "sourceName": "HackerNoon",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBMVmpxeGRiai1jZkFCOFAzZWhFZTB4dUpCWk5IZmNyazN5dlR4NUt6RlRoMUs1Ykx3WVBzU3ZveElUdkZJSG94amFQX09EanVRN256RUIyNmdrY1hEMTI5UEtTRVhoMUVySDctRS1vaks4Si1sU1F4bmRR?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 기업가가 AI를 사용하여 일자리의 미래를 바꿀 수 있는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 생산성 도구에 대해 알아볼 블로그 게시물 97개 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "앤스로픽의 클로드, 제미나이 제치고 한국 AI 앱 시장 2위 등극",
-        "enTitle": "앤스로픽의 클로드, 제미나이 제치고 한국 AI 앱 시장 2위 등극",
-        "date": "2026-06-13",
-        "originalDate": "2026-06-12",
-        "sourceName": "조선일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRnBtaUg3aDcwaXNYeGZWdEpibE10UVZXenUyUmJsSG9aSURqSUVpdC1NWFdBSHdlaHdTa0ZYVURISDJkeHZPa2F1Ykx6SVdLWjBGUHh0OWRaWVVrNlBFMG1HeURqV1hZWVhFNEk3elU2elp5MkhMbEZfbTgzOHZnNU5DMA?oc=5",
+        "koTitle": "클로드 페이블 5, 출시 하루 만에 너무 막힌다는 반응이 쏟아졌다",
+        "enTitle": "클로드 페이블 5, 출시 하루 만에 너무 막힌다는 반응이 쏟아졌다",
+        "date": "2026-06-14",
+        "originalDate": "2026-06-13",
+        "sourceName": "요즘IT",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9nejdRd2RodEZyajhsRjcwdERVcWxrY0VDeTVRYUNXSVFFbGRkamNYSGlfSzZSVWJsRnoyX2U2ekFkbDBDTXYxZlN6T3hsM1hZUmpzZ3lnU3BCdw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤스로픽의 클로드, 제미나이 제치고 한국 AI 앱 시장 2위 등극 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 클로드 페이블 5, 출시 하루 만에 너무 막힌다는 반응이 쏟아졌다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "캐시우드 \"반도체 분할매수 추천\" 조정 당연…AI 트렌드 수년간 지속",
-        "enTitle": "캐시우드 \"반도체 분할매수 추천\" 조정 당연…AI 트렌드 수년간 지속",
-        "date": "2026-06-13",
-        "originalDate": "2026-06-12",
-        "sourceName": "중소기업신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9vQTlDX21yRW52Qjd6dllPSUY0cTZ3QjU3S2Myc1dsUXFzd1lCSWlZVzAta21ZZnJnSDZaUDFVQXo1dHJBQklCLU9Qc2Y3VVZWOEtlWFczVjBEeWNqblVpSVV6M3p1SlYxcmhySmVR?oc=5",
+        "koTitle": "[인베스트] AI가 직접 비트코인 사고 판다…코인베이스 자동 거래 서비스 출시",
+        "enTitle": "[인베스트] AI가 직접 비트코인 사고 판다…코인베이스 자동 거래 서비스 출시",
+        "date": "2026-06-14",
+        "originalDate": "2026-06-13",
+        "sourceName": "위키리크스한국",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4aHVqcm5nd1BQc293bm53RGNZZ2huUUdYQmFRWjI3UWN1MzJld2VnOWhNekZGbUNVZ0pJRkI5eWRtTHJTdVRvaFB2LU15bFV4RTBTUUprQjNyUTVCNlItX3d6aDR2blhxY2JWbXk0NA?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 캐시우드 \"반도체 분할매수 추천\" 조정 당연…AI 트렌드 수년간 지속 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [인베스트] AI가 직접 비트코인 사고 판다…코인베이스 자동 거래 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "제미나이 밀어낸 '클로드'…국내 AI 시장 2위 격변, 비결은?",
-        "enTitle": "제미나이 밀어낸 '클로드'…국내 AI 시장 2위 격변, 비결은?",
-        "date": "2026-06-13",
-        "originalDate": "2026-06-12",
-        "sourceName": "지디넷코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE81WEFHVHpHQV9qWG5PWnNtWTVGY05sUWNiZ3M4RHhydDBBYXV2c00wTEdqVV9GY0tHaEZkYzY5N0htQ1NxSXVIaENNMk85c1hhb2Ywdi13?oc=5",
+        "koTitle": "수원특례시, 인공지능(AI) 기반 지능형 모바일 전자고지 서비스 체계 구현",
+        "enTitle": "수원특례시, 인공지능(AI) 기반 지능형 모바일 전자고지 서비스 체계 구현",
+        "date": "2026-06-14",
+        "originalDate": "2026-06-13",
+        "sourceName": "유교신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NMk5OWTMxeVNwbHlJQk1rT1pNcV83VC1CdmNTUlNTZEdtX1pkMWVsRFBOYzZCOUxTS2d4Q2FhaFF6QnpCV1JsSGN1c05iVVVOVDM1VVpwNnFYLThheFE?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 제미나이 밀어낸 '클로드'…국내 AI 시장 2위 격변, 비결은? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 수원특례시, 인공지능(AI) 기반 지능형 모바일 전자고지 서비스 체계 구현 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
