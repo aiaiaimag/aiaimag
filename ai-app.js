@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-15
+ * 최신 업데이트: 2026-06-16
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "거의 75% 가 실업 수당을 신청하지 않기 때문에 AI 일자리 중단이 가중될 수 있습니다.",
-        "enTitle": "AI job disruption may be compounded because nearly 75% don't apply for unemployment benefits",
-        "date": "2026-06-15",
-        "originalDate": "2026-06-14",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQc21OVjEyLThlX0tfSC00a3pXU3dadjNJcEdfWUFHZ1BXdk9FLTI4emNwU3hmb2dxRkxIN29Ub2R3cmpHMGx5YWJwSTkyZmtQVndXZF9jMDZmMlBmWDFkY2VtMGlfN2s3WkFReFdhaUF5elMtN3ZHQXVfYlpGSm5sWURsR2NaM0JMSUJfam9aRVZkU0ZMM0lUYlpUQXRsQQ?oc=5",
+        "koTitle": "4-H 설문 조사: 젊은이들은 AI 기술이 미래의 커리어에 필수적이라고 인식하고 있으며, 많은 사람들이 준비가되지 않았다고 느낍니다.",
+        "enTitle": "4-H Survey: Young People Recognize AI Skills are Essential for Future Careers, Many Feel Unprepared",
+        "date": "2026-06-16",
+        "originalDate": "2026-06-15",
+        "sourceName": "GlobeNewswire",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOTWRxbjBsVF94WldJV3Q3ZXc5RFM2QW1kd2w1VUpocnNWVjB5TjhMMG5xUm5KX1dnb0ZTeXVkRTBsT2xoMVpvNVdjZ1VRZFRLa2xiSnJvUkhPMEx1azNqQl9WRWNrNFV1azM3bzlLQjVJQVFVdVB3M3VBQVNmZndwZ3E4SzhNa05sYWVPX3ctaE13WHN0dmhPUUJib2xEVGEwUE8wd3FoaFRKOVJsYVluNnlKWFIycWw1NkZJX0NNbXIwSUxIZjFEMkZ0cXpOc0xPem1iTkYwYUpmYTdiUnJHQ1B3cVo5ZC1NN2E1RG05S2NKeXBpWnZBajl1VF9MQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 거의 75% 가 실업 수당을 신청하지 않기 때문에 AI 일자리 중단이 가중될 수 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "98%",
+        "analysis": "글로벌 AI 트렌드 체크! 4-H 설문 조사: 젊은이들은 AI 기술이 미래의 커리어에 필수적이라고 인식하고 있으며, 많은 사람들이 준비가되지 않았다고 느낍니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "24세에 메타에서 해고된 이 데이터 과학자는 다른 경력 경로를 추구하는 것을 고려하게 되었습니다.",
-        "enTitle": "A layoff from Meta at 24 has made this data scientist consider pursuing a different career path",
-        "date": "2026-06-15",
-        "originalDate": "2026-06-14",
-        "sourceName": "Business Insider",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaWxoLWhJYW5WeXNOMzVKendzNlZZYWRVLUtROHlsaW1pc1NyVEpNSzdreEFGUDVSZlJ6VXE5dzlHQTBsM21nTFBqN2JnQm5raWUzVDRGdEVBR1lxSEg0ZUFabW90M0pWc1d0RElZUHBydkdHSkhrMEwtQ1VVcHc0WVdHR1JCOUY2bngxOUJWckFzQQ?oc=5",
+        "koTitle": "미국인의 절반은 이제 AI가 가정에서 일자리를 잡을 수 있다고 두려워합니다.",
+        "enTitle": "Half of Americans Now Fear AI Could Take a Job in Their Household",
+        "date": "2026-06-16",
+        "originalDate": "2026-06-15",
+        "sourceName": "Memeburn",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ21ERjNwUXdrcW5CZFgzUHREazZCZ19HT3hoaDJRdTY2OEhPVFJaVWdIQmpwQUQ4UzBpNjh4clNscnFGNFQ2QjB4Y0JxUlk2YldVTmFZNm9VTFFJNlBMM3pXZlhYTTlweUxpY2JkU2NRRzFzbnYxX01jY1BZX3VLUFc4TXVGby1tR1BDcGJuaHo?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 24세에 메타에서 해고된 이 데이터 과학자는 다른 경력 경로를 추구하는 것을 고려하게 되었습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 미국인의 절반은 이제 AI가 가정에서 일자리를 잡을 수 있다고 두려워합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "일론 머스크와 코는 로봇의 행진을 좋아할 수 있지만 직장에는 AI 경계가 있어야 합니다 | 헤더 스튜어트",
-        "enTitle": "Elon Musk and co may relish march of the robots but there must be AI boundaries in the workplace | Heather Stewart",
-        "date": "2026-06-15",
+        "koTitle": "인공지능으로 돈을 버는 방법: 검증된 13가지 방법 (2026년 가이드)",
+        "enTitle": "How to Make Money with AI: 13 Proven Ways (2026 Guide)",
+        "date": "2026-06-16",
         "originalDate": "2026-06-14",
-        "sourceName": "The Guardian",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZkZoZXZId2tQeWliZXVMWWRjdTBUSmV5TmxrQnNjX0xoVlRjTUlsNTYxM1Y1dEUwRXN5clNGN0N2dVhUSnJxSFV6cmk3dUpObEwwMnl6X3dGSWpsSnVIOVVlNjM0WWI2NVNYcTNvU192LTRkdjFVWm5EZXI4ZDdSNkhGUHNuRGRCXzBUTU0zNVlMTUFBN2FUdw?oc=5",
+        "sourceName": "Memeburn",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1nYmhDZ01JVXBhRHJVdVg2dzkxOURWaUtiUWJSRzFXNnFsSDk3NjhOU29PaU1QQ0dvRTFFLU13OFJlQllkejRMMXYtOUZIZTRpSmJKcHd1Vi1ybWs?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! 일론 머스크와 코는 로봇의 행진을 좋아할 수 있지만 직장에는 AI 경계가 있어야 합니다 | 헤더 스튜어트 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능으로 돈을 버는 방법: 검증된 13가지 방법 (2026년 가이드) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[AI 이슈트렌드] 선관위 사태 파장 속 한성숙 총리 지명·젠슨 황 방한 주목",
-        "enTitle": "[AI 이슈트렌드] 선관위 사태 파장 속 한성숙 총리 지명·젠슨 황 방한 주목",
-        "date": "2026-06-15",
-        "originalDate": "2026-06-14",
+        "koTitle": "\"클로드 코드·코덱스를 하나로\"…데이터브릭스, 에이전트 통합 플랫폼 공개",
+        "enTitle": "\"클로드 코드·코덱스를 하나로\"…데이터브릭스, 에이전트 통합 플랫폼 공개",
+        "date": "2026-06-16",
+        "originalDate": "2026-06-15",
         "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KYlVxRHhGcjZIZHFadU8wemFWaGdjd3FVUk9SNFBEcUxJd2xYZHlSa3hMbWtuTmV1ZjJvQ0lYT1RHYnQ1dTViX0ZZODljc2lIRThab1o5djFUWXRNbUxmUVBuLUo3QUVtSEE?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55dXF4T05qd2o0YXdLSXBUbkI0d2pUTGVSSG01Qnd3bmVvYUs3X3FwbVVHdnV1XzA2ZDQ4a3BSdmtPTHJMZlhqOXZXQzBjWDFBNnJTeFBmV2dWWFJhNEo2c0hZMVNfbFZ1a2c?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI 이슈트렌드] 선관위 사태 파장 속 한성숙 총리 지명·젠슨 황 방한 주목 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! \"클로드 코드·코덱스를 하나로\"…데이터브릭스, 에이전트 통합 플랫폼 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "\"서류 500번 거절, 결국 '연봉 3억' 도어대시 뚫었다\"…무경력 AI 개발자가 밝힌 취업 비결",
-        "enTitle": "\"서류 500번 거절, 결국 '연봉 3억' 도어대시 뚫었다\"…무경력 AI 개발자가 밝힌 취업 비결",
-        "date": "2026-06-15",
-        "originalDate": "2026-06-14",
-        "sourceName": "AI포스트",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jQWNmT2VnS0ZQZk5DazQ1c2VWd1pUM0gwdjhJY08yaXduRzNQR05yR3pHbnB1LVAyczIwVlVTS2JDNmk3dXdIN2ZuVmpzSnZMRkdYQ2I2SWhyU080NG5WYmxIaVZkUkNKTklZdUt30gFyQVVfeXFMT2NzNTVPMVhWMzVDZG1IX3RsTTlGbVluME83aEZKdUN1bk12SW9mQmVpV1RKTFlMY3RFOXRkSlNPbUkxLWYtZ1g0T0t2RGtoZG56d0txOEZqSEkwWnZMR0ltQzdNM2NTemhTUVZXLVVWcHRB?oc=5",
+        "koTitle": "SLB, 에너지 AI 앱 디지털 마켓플레이스 출시",
+        "enTitle": "SLB, 에너지 AI 앱 디지털 마켓플레이스 출시",
+        "date": "2026-06-16",
+        "originalDate": "2026-06-15",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfUmIxU3c2SGhoazZoUm1yaHQtUXVOZWFGQmE0YW1USEJKR21FMzE3Mk4zdEZ0cWxoTUUxM2NDUUxzOGM4dE43QjU4amY2ekgwSVZlN1VIeWtNU3Y0ejZSOGlVUTNsYmFfOXgxQ0Q1VW0?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! \"서류 500번 거절, 결국 '연봉 3억' 도어대시 뚫었다\"…무경력 AI 개발자가 밝힌 취업 비결 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! SLB, 에너지 AI 앱 디지털 마켓플레이스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "[기업포커스] 유니에스, AI 기반 취업지원 플랫폼 ‘잡매칭’ 공식 론칭",
-        "enTitle": "[기업포커스] 유니에스, AI 기반 취업지원 플랫폼 ‘잡매칭’ 공식 론칭",
-        "date": "2026-06-15",
-        "originalDate": "2026-06-14",
-        "sourceName": "아웃소싱타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QQkZjU3pSYkhpSlZ2V0g1WkhzZ1daN1VzT25PN2JZYlZnYTdnQ19hbUJoeWlKVDBISHltcmhtejVoM0FJNzhxQkdjSWxLd0FHZGU5V3BfNnV1UmI4V25GSlRHdkJOM00tMjc5OExIa0hrQQ?oc=5",
+        "koTitle": "챗GPT·제미나이 싸움 구경하는 애플 … 진짜 노림수는 ‘AI 통행세’",
+        "enTitle": "챗GPT·제미나이 싸움 구경하는 애플 … 진짜 노림수는 ‘AI 통행세’",
+        "date": "2026-06-16",
+        "originalDate": "2026-06-15",
+        "sourceName": "매일경제",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5TcXdDWWlGZWl4Tzc1aURoTUFNU0RDTmJZZUZ4VGNSaXBrSGpsdmY1dF96OHVwaERJRHY1Q2tlS00zMV9aa2F5a3F3eXljQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! [기업포커스] 유니에스, AI 기반 취업지원 플랫폼 ‘잡매칭’ 공식 론칭 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 챗GPT·제미나이 싸움 구경하는 애플 … 진짜 노림수는 ‘AI 통행세’ 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
