@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-16
+ * 최신 업데이트: 2026-06-17
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "4-H 설문 조사: 젊은이들은 AI 기술이 미래의 커리어에 필수적이라고 인식하고 있으며, 많은 사람들이 준비가되지 않았다고 느낍니다.",
-        "enTitle": "4-H Survey: Young People Recognize AI Skills are Essential for Future Careers, Many Feel Unprepared",
-        "date": "2026-06-16",
-        "originalDate": "2026-06-15",
-        "sourceName": "GlobeNewswire",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOTWRxbjBsVF94WldJV3Q3ZXc5RFM2QW1kd2w1VUpocnNWVjB5TjhMMG5xUm5KX1dnb0ZTeXVkRTBsT2xoMVpvNVdjZ1VRZFRLa2xiSnJvUkhPMEx1azNqQl9WRWNrNFV1azM3bzlLQjVJQVFVdVB3M3VBQVNmZndwZ3E4SzhNa05sYWVPX3ctaE13WHN0dmhPUUJib2xEVGEwUE8wd3FoaFRKOVJsYVluNnlKWFIycWw1NkZJX0NNbXIwSUxIZjFEMkZ0cXpOc0xPem1iTkYwYUpmYTdiUnJHQ1B3cVo5ZC1NN2E1RG05S2NKeXBpWnZBajl1VF9MQQ?oc=5",
+        "koTitle": "인공지능 (AI) 이 일자리를 재편하면서 인간의 기술이 더욱 가치가 높아짐: 보고서",
+        "enTitle": "Human skills becoming more valuable as AI reshapes jobs: Report",
+        "date": "2026-06-17",
+        "originalDate": "2026-06-16",
+        "sourceName": "Anadolu Ajansı",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOE1GeFJJSmNES3J5YXh0SDI4WGQ0SjBhQ0lFUVZHa2dQMHVCV2hISG5kWnRTM1JWYXhQMFoyTEVzdFdkZGR6UTlwYWpsQ0lzN1ktQ2FiR0ZpOEpiZVp5RGctUENaLUhSNUxLbXh3QVhFQW1lSXI3aWtQcnBvOEpJckZ3Y2Z1ZHVwd2o0WjNMdG1OSDhnRkRKclZUYTljSEhnaC1qX24xYklYSzRWSlJiWlFYMGw?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "글로벌 AI 트렌드 체크! 4-H 설문 조사: 젊은이들은 AI 기술이 미래의 커리어에 필수적이라고 인식하고 있으며, 많은 사람들이 준비가되지 않았다고 느낍니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능 (AI) 이 일자리를 재편하면서 인간의 기술이 더욱 가치가 높아짐: 보고서 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "미국인의 절반은 이제 AI가 가정에서 일자리를 잡을 수 있다고 두려워합니다.",
-        "enTitle": "Half of Americans Now Fear AI Could Take a Job in Their Household",
-        "date": "2026-06-16",
-        "originalDate": "2026-06-15",
-        "sourceName": "Memeburn",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ21ERjNwUXdrcW5CZFgzUHREazZCZ19HT3hoaDJRdTY2OEhPVFJaVWdIQmpwQUQ4UzBpNjh4clNscnFGNFQ2QjB4Y0JxUlk2YldVTmFZNm9VTFFJNlBMM3pXZlhYTTlweUxpY2JkU2NRRzFzbnYxX01jY1BZX3VLUFc4TXVGby1tR1BDcGJuaHo?oc=5",
+        "koTitle": "\"자르기만 하면 성장할 수 없습니다\": Huy Nguyen Trieu가 재무 직무에서 AI에 대해 이야기합니다.",
+        "enTitle": "\"You Can’t Grow Just by Cutting”: Huy Nguyen Trieu on AI in Finance Jobs",
+        "date": "2026-06-17",
+        "originalDate": "2026-06-16",
+        "sourceName": "TradingView",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObmUtTWFUZTF1NWZoWDdBa0MwV28yRWhKLWJCMEpuRWd1amlOOGpOU3dYbEFVcTJFQkxOdnIzSVdjWTFsVEM1Y1RfY1FUMmVFR0VLa28wUC1VeG5NMlVMQWZRanlSalZqejNrTkMycHQyanozWlgwV3BJYjQteXVLSUx4LXVfaUxPaGUwV0tzWF92d0Ytd2RCZGs3RVZTMnlJNjQ2YnFoSjN3YUJSNExZZ1h6QkZLLTVDNlpqWUVsdjFlWklKdldJT1VtTEc1Q19l?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 미국인의 절반은 이제 AI가 가정에서 일자리를 잡을 수 있다고 두려워합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! \"자르기만 하면 성장할 수 없습니다\": Huy Nguyen Trieu가 재무 직무에서 AI에 대해 이야기합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "인공지능으로 돈을 버는 방법: 검증된 13가지 방법 (2026년 가이드)",
-        "enTitle": "How to Make Money with AI: 13 Proven Ways (2026 Guide)",
-        "date": "2026-06-16",
-        "originalDate": "2026-06-14",
-        "sourceName": "Memeburn",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1nYmhDZ01JVXBhRHJVdVg2dzkxOURWaUtiUWJSRzFXNnFsSDk3NjhOU29PaU1QQ0dvRTFFLU13OFJlQllkejRMMXYtOUZIZTRpSmJKcHd1Vi1ybWs?oc=5",
+        "koTitle": "AI의 가장 큰 이름조차도 당신의 직업 불안이 정당화된다고 말합니다.",
+        "enTitle": "Even AI's Biggest Names Say Your Job Anxiety Is Justified",
+        "date": "2026-06-17",
+        "originalDate": "2026-06-16",
+        "sourceName": "NDTV",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdy1INk16ajZFUnRUOHdRTDROU2xRSVl5YmpUUW5WQWRSdG5pTUJzSi1TX1lGYVN6dk4zSFJKWEdZTzQ1Z3FkaHpuaVcwVnhwaXM3MXFwZ1pIalEtRjNKd3E1aTNueUc1dUZLR0RvUEk5b1Nhb3RSUmdGeG1vM0dhYXhsZVJnSnNOcUhjZ1FVTS1TY1YyVTB1TFM5NVBtOHRDSWZVTkoxYWNNUWx3LS0tSHo2MnpvLVM0UWNMQW1rZm5oMXJzX1pZWEhOTXZaM2VTczdoTEN2dzc0Y3FVam40bGUxeF9QWWNGVDdF?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능으로 돈을 버는 방법: 검증된 13가지 방법 (2026년 가이드) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! AI의 가장 큰 이름조차도 당신의 직업 불안이 정당화된다고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "\"클로드 코드·코덱스를 하나로\"…데이터브릭스, 에이전트 통합 플랫폼 공개",
-        "enTitle": "\"클로드 코드·코덱스를 하나로\"…데이터브릭스, 에이전트 통합 플랫폼 공개",
-        "date": "2026-06-16",
-        "originalDate": "2026-06-15",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55dXF4T05qd2o0YXdLSXBUbkI0d2pUTGVSSG01Qnd3bmVvYUs3X3FwbVVHdnV1XzA2ZDQ4a3BSdmtPTHJMZlhqOXZXQzBjWDFBNnJTeFBmV2dWWFJhNEo2c0hZMVNfbFZ1a2c?oc=5",
+        "koTitle": "소프트뱅크, 日서 오픈AI 기반 사이버 보안 서비스 출시… 美 규제 속 '기술 독립' 가속",
+        "enTitle": "소프트뱅크, 日서 오픈AI 기반 사이버 보안 서비스 출시… 美 규제 속 '기술 독립' 가속",
+        "date": "2026-06-17",
+        "originalDate": "2026-06-16",
+        "sourceName": "글로벌이코노믹",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMUp3eGpLVlBReDNZQ2VQci12MEZSR01JWkNiOG5RWWgySS1PeWlPVGF1VUNKdGhnRGxmOXJzNFYzWjNPZF9EcXV5MXJQVHI4LXIyeHhsUjdRU3UxdE5TNjRTSklUZ1ZWbzlMQWVDSDF1dnNkQlBmMnhJVk02Wkdvc0RaM0YtOWxD?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! \"클로드 코드·코덱스를 하나로\"…데이터브릭스, 에이전트 통합 플랫폼 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 소프트뱅크, 日서 오픈AI 기반 사이버 보안 서비스 출시… 美 규제 속 '기술 독립' 가속 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "SLB, 에너지 AI 앱 디지털 마켓플레이스 출시",
-        "enTitle": "SLB, 에너지 AI 앱 디지털 마켓플레이스 출시",
-        "date": "2026-06-16",
-        "originalDate": "2026-06-15",
-        "sourceName": "Investing.com 한국어",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfUmIxU3c2SGhoazZoUm1yaHQtUXVOZWFGQmE0YW1USEJKR21FMzE3Mk4zdEZ0cWxoTUUxM2NDUUxzOGM4dE43QjU4amY2ekgwSVZlN1VIeWtNU3Y0ejZSOGlVUTNsYmFfOXgxQ0Q1VW0?oc=5",
+        "koTitle": "BNK금융, AI가 운용하는 퇴직연금 서비스 출시",
+        "enTitle": "BNK금융, AI가 운용하는 퇴직연금 서비스 출시",
+        "date": "2026-06-17",
+        "originalDate": "2026-06-16",
+        "sourceName": "bseconomy.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01RGVYbUxlZEpJOV80RkhXb3Z6N1liSnp6bUxyVGg1ZzhyTlI1RXV6RFJDQkxkN3VJblczNjFzQTc3c3VkRENLZThzdHlpOXV2T253QlFZV3l2dGoyT18tQnJLQXI1cTQ?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! SLB, 에너지 AI 앱 디지털 마켓플레이스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! BNK금융, AI가 운용하는 퇴직연금 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "챗GPT·제미나이 싸움 구경하는 애플 … 진짜 노림수는 ‘AI 통행세’",
-        "enTitle": "챗GPT·제미나이 싸움 구경하는 애플 … 진짜 노림수는 ‘AI 통행세’",
-        "date": "2026-06-16",
-        "originalDate": "2026-06-15",
-        "sourceName": "매일경제",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5TcXdDWWlGZWl4Tzc1aURoTUFNU0RDTmJZZUZ4VGNSaXBrSGpsdmY1dF96OHVwaERJRHY1Q2tlS00zMV9aa2F5a3F3eXljQQ?oc=5",
+        "koTitle": "앤트로픽, '클로드 맥스' 허위 광고 집단소송 직면...\"토큰 용량 못 미쳐\"",
+        "enTitle": "앤트로픽, '클로드 맥스' 허위 광고 집단소송 직면...\"토큰 용량 못 미쳐\"",
+        "date": "2026-06-17",
+        "originalDate": "2026-06-16",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TNFI4UDVvSDFhX3NuTjFmVllNSXNfVGdienJUcEg0dE03dEU2YV9jS3Y3eDl4ZHFHdEJ2aVNNeUhGR0VrMHAwcVNxcy1SOW5veldJQTlnSVh2emc0eUh2d0R6c0VhOTZhYnc?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 챗GPT·제미나이 싸움 구경하는 애플 … 진짜 노림수는 ‘AI 통행세’ 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, '클로드 맥스' 허위 광고 집단소송 직면...\"토큰 용량 못 미쳐\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
