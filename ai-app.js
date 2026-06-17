@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-17
+ * 최신 업데이트: 2026-06-18
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "인공지능 (AI) 이 일자리를 재편하면서 인간의 기술이 더욱 가치가 높아짐: 보고서",
-        "enTitle": "Human skills becoming more valuable as AI reshapes jobs: Report",
-        "date": "2026-06-17",
-        "originalDate": "2026-06-16",
-        "sourceName": "Anadolu Ajansı",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOE1GeFJJSmNES3J5YXh0SDI4WGQ0SjBhQ0lFUVZHa2dQMHVCV2hISG5kWnRTM1JWYXhQMFoyTEVzdFdkZGR6UTlwYWpsQ0lzN1ktQ2FiR0ZpOEpiZVp5RGctUENaLUhSNUxLbXh3QVhFQW1lSXI3aWtQcnBvOEpJckZ3Y2Z1ZHVwd2o0WjNMdG1OSDhnRkRKclZUYTljSEhnaC1qX24xYklYSzRWSlJiWlFYMGw?oc=5",
+        "koTitle": "NTUC: 어떤 싱가포르 근로자도 인공지능 일자리 전환에 뒤처져서는 안 됩니다. -제네바에서 국제노동기구 (International Labour Organization) 의 미래 업무 토론",
+        "enTitle": "NTUC: No Singaporean worker must be left behind in AI job transition—International Labour Organization future of work debate in Geneva",
+        "date": "2026-06-18",
+        "originalDate": "2026-06-17",
+        "sourceName": "The Independent Singapore News",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQUll6Rmsza3A2RzVULVBNUW1RSGV4VFlqUkFWN2VjMTJBNDhGcGNKWW1JWV9MOFBFNlJ3c3hTbXJmbEQ4Y1FkNWEzeGJwU0FpLWtfTHc2SjNXWklKQTlJTzdsVlRIQ3ZLQzNqa050dFljczB6bk1tVTU1aTdxVjJRbWt5aGNQT2U2Mk16RjVablViZHRJWHVwQWdjMWdiamZ4TlZKUHo5ZmhBWEtCYkg2S0NVa0Z3aWtacm5MdVhvUmlLdkxGekFjYTBHLUY4SUtvVk9ZNUJUZC0xc2Y2SVAyLUMybEdzYUZJdGRqbEhpbE1aQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능 (AI) 이 일자리를 재편하면서 인간의 기술이 더욱 가치가 높아짐: 보고서 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! NTUC: 어떤 싱가포르 근로자도 인공지능 일자리 전환에 뒤처져서는 안 됩니다. -제네바에서 국제노동기구 (International Labour Organization) 의 미래 업무 토론 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "\"자르기만 하면 성장할 수 없습니다\": Huy Nguyen Trieu가 재무 직무에서 AI에 대해 이야기합니다.",
-        "enTitle": "\"You Can’t Grow Just by Cutting”: Huy Nguyen Trieu on AI in Finance Jobs",
-        "date": "2026-06-17",
-        "originalDate": "2026-06-16",
-        "sourceName": "TradingView",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObmUtTWFUZTF1NWZoWDdBa0MwV28yRWhKLWJCMEpuRWd1amlOOGpOU3dYbEFVcTJFQkxOdnIzSVdjWTFsVEM1Y1RfY1FUMmVFR0VLa28wUC1VeG5NMlVMQWZRanlSalZqejNrTkMycHQyanozWlgwV3BJYjQteXVLSUx4LXVfaUxPaGUwV0tzWF92d0Ytd2RCZGs3RVZTMnlJNjQ2YnFoSjN3YUJSNExZZ1h6QkZLLTVDNlpqWUVsdjFlWklKdldJT1VtTEc1Q19l?oc=5",
+        "koTitle": "AI, 미래의 직업에 중요한 디지털 기술, 전문가들이 나이지리아 학생들에게 말하다",
+        "enTitle": "AI, Digital Skills Crucial for Future Jobs, Experts Tell Nigerian Students",
+        "date": "2026-06-18",
+        "originalDate": "2026-06-17",
+        "sourceName": "THISDAYLIVE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS1JKRWt2aG5xd1hQTFBoRGUwYjF4c3MydHhuNmVXeUhWSkdxY0JsSFg4LVFfSW82V21RMkE5UVlHRDJMdXl2TTBkSVdjR2dGMGQ1TVVlM2hCbzQzZjkxRnFGWjlIcFMwWGlFT0xaVGtEYy1jajJzQnpBNnEycEk3dlJLVnc4dExVaHpDak5JUGpwLU5wNFNwLVl3QkhCYk5aSVl5MjRBdG9XTWJNVDlybGh3?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! \"자르기만 하면 성장할 수 없습니다\": Huy Nguyen Trieu가 재무 직무에서 AI에 대해 이야기합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! AI, 미래의 직업에 중요한 디지털 기술, 전문가들이 나이지리아 학생들에게 말하다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI의 가장 큰 이름조차도 당신의 직업 불안이 정당화된다고 말합니다.",
-        "enTitle": "Even AI's Biggest Names Say Your Job Anxiety Is Justified",
-        "date": "2026-06-17",
+        "koTitle": "2026년 가장 높은 급여를 받는 AI 일자리로 이어질 수 있는 최고의 대학 학위",
+        "enTitle": "Top College Degrees That Can Lead to the Highest-Paying AI Jobs in 2026",
+        "date": "2026-06-18",
         "originalDate": "2026-06-16",
-        "sourceName": "NDTV",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdy1INk16ajZFUnRUOHdRTDROU2xRSVl5YmpUUW5WQWRSdG5pTUJzSi1TX1lGYVN6dk4zSFJKWEdZTzQ1Z3FkaHpuaVcwVnhwaXM3MXFwZ1pIalEtRjNKd3E1aTNueUc1dUZLR0RvUEk5b1Nhb3RSUmdGeG1vM0dhYXhsZVJnSnNOcUhjZ1FVTS1TY1YyVTB1TFM5NVBtOHRDSWZVTkoxYWNNUWx3LS0tSHo2MnpvLVM0UWNMQW1rZm5oMXJzX1pZWEhOTXZaM2VTczdoTEN2dzc0Y3FVam40bGUxeF9QWWNGVDdF?oc=5",
+        "sourceName": "Investopedia",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQm9BZVB6VzZYUURGRXZNYWFSdk84TGRvRUc2RGROandPR3ZiRTZHXzdUTGJJejlOdno3V2Q2SVhldnR4alJqUEtrdWRLVmktS0JtZG1TRWNqSHJSakt4ZWZYWDBmbkZpV1F6QlhOYWpsWS1qazhPVTN1SzhLdDNabm1vT0ZobkhxcGlpQi1rT0xNdnk3MTFvcm41VXYwZHotMTl2ZU53Y3FDY29SSlE?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! AI의 가장 큰 이름조차도 당신의 직업 불안이 정당화된다고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "91%",
+        "analysis": "글로벌 AI 트렌드 체크! 2026년 가장 높은 급여를 받는 AI 일자리로 이어질 수 있는 최고의 대학 학위 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "소프트뱅크, 日서 오픈AI 기반 사이버 보안 서비스 출시… 美 규제 속 '기술 독립' 가속",
-        "enTitle": "소프트뱅크, 日서 오픈AI 기반 사이버 보안 서비스 출시… 美 규제 속 '기술 독립' 가속",
-        "date": "2026-06-17",
-        "originalDate": "2026-06-16",
-        "sourceName": "글로벌이코노믹",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMUp3eGpLVlBReDNZQ2VQci12MEZSR01JWkNiOG5RWWgySS1PeWlPVGF1VUNKdGhnRGxmOXJzNFYzWjNPZF9EcXV5MXJQVHI4LXIyeHhsUjdRU3UxdE5TNjRTSklUZ1ZWbzlMQWVDSDF1dnNkQlBmMnhJVk02Wkdvc0RaM0YtOWxD?oc=5",
+        "koTitle": "KB부동산, ‘AI 단지분석/비교’ 서비스 출시",
+        "enTitle": "KB부동산, ‘AI 단지분석/비교’ 서비스 출시",
+        "date": "2026-06-18",
+        "originalDate": "2026-06-17",
+        "sourceName": "intn.co.kr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MWXBMelJyMVFiT2FUdzgwSjlKdTNZa2xnbUVkdmxfS3FyQjN2aXhqREFaZV91TWs1TFR6b1FzbW1EdUw3YVlYUXFkLU5lbG9lRm1TaU9yZTJ1YUl6Q0Q1MjFFVEY?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 소프트뱅크, 日서 오픈AI 기반 사이버 보안 서비스 출시… 美 규제 속 '기술 독립' 가속 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! KB부동산, ‘AI 단지분석/비교’ 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "BNK금융, AI가 운용하는 퇴직연금 서비스 출시",
-        "enTitle": "BNK금융, AI가 운용하는 퇴직연금 서비스 출시",
-        "date": "2026-06-17",
-        "originalDate": "2026-06-16",
-        "sourceName": "bseconomy.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01RGVYbUxlZEpJOV80RkhXb3Z6N1liSnp6bUxyVGg1ZzhyTlI1RXV6RFJDQkxkN3VJblczNjFzQTc3c3VkRENLZThzdHlpOXV2T253QlFZV3l2dGoyT18tQnJLQXI1cTQ?oc=5",
+        "koTitle": "코인베이스, AI 무료 투자 자문 서비스 출시·사업 다각화 기대…주가 강세",
+        "enTitle": "코인베이스, AI 무료 투자 자문 서비스 출시·사업 다각화 기대…주가 강세",
+        "date": "2026-06-18",
+        "originalDate": "2026-06-17",
+        "sourceName": "마켓인",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9RWEF2N2NSQnNKOE9OZDhIckZ0aHIwSGlxWUN6aTdZTVdfVXpBRFpBX3c3YmlYb3FrTURuVkRCT1pTTXZKTERWNmZyTHhsZ1M2RWo3NG1yTi1CYllQN0huMTJtdVhzajVDb3h2RE9Ib0ktQ2s?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! BNK금융, AI가 운용하는 퇴직연금 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 코인베이스, AI 무료 투자 자문 서비스 출시·사업 다각화 기대…주가 강세 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "앤트로픽, '클로드 맥스' 허위 광고 집단소송 직면...\"토큰 용량 못 미쳐\"",
-        "enTitle": "앤트로픽, '클로드 맥스' 허위 광고 집단소송 직면...\"토큰 용량 못 미쳐\"",
-        "date": "2026-06-17",
-        "originalDate": "2026-06-16",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TNFI4UDVvSDFhX3NuTjFmVllNSXNfVGdienJUcEg0dE03dEU2YV9jS3Y3eDl4ZHFHdEJ2aVNNeUhGR0VrMHAwcVNxcy1SOW5veldJQTlnSVh2emc0eUh2d0R6c0VhOTZhYnc?oc=5",
+        "koTitle": "TIME 글로벌AI인공지능액티브 ETF, 연초대비 수익률 100% 돌파…\"주식형 액티브 ETF 1위\"",
+        "enTitle": "TIME 글로벌AI인공지능액티브 ETF, 연초대비 수익률 100% 돌파…\"주식형 액티브 ETF 1위\"",
+        "date": "2026-06-18",
+        "originalDate": "2026-06-17",
+        "sourceName": "이투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9feVc2ajNKeWswMTFqMVhqOG9WbHNpSXJ5ZDEwVUpMUUUzTEtIb2cxa3NsYzFORERoWkxSeXJ5MUFPSWthRWVHeUNYR3hwRnNka3RjSA?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, '클로드 맥스' 허위 광고 집단소송 직면...\"토큰 용량 못 미쳐\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! TIME 글로벌AI인공지능액티브 ETF, 연초대비 수익률 100% 돌파…\"주식형 액티브 ETF 1위\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
