@@ -1,47 +1,33 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-18
+ * 최신 업데이트: 2026-06-19
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "NTUC: 어떤 싱가포르 근로자도 인공지능 일자리 전환에 뒤처져서는 안 됩니다. -제네바에서 국제노동기구 (International Labour Organization) 의 미래 업무 토론",
-        "enTitle": "NTUC: No Singaporean worker must be left behind in AI job transition—International Labour Organization future of work debate in Geneva",
-        "date": "2026-06-18",
-        "originalDate": "2026-06-17",
-        "sourceName": "The Independent Singapore News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQUll6Rmsza3A2RzVULVBNUW1RSGV4VFlqUkFWN2VjMTJBNDhGcGNKWW1JWV9MOFBFNlJ3c3hTbXJmbEQ4Y1FkNWEzeGJwU0FpLWtfTHc2SjNXWklKQTlJTzdsVlRIQ3ZLQzNqa050dFljczB6bk1tVTU1aTdxVjJRbWt5aGNQT2U2Mk16RjVablViZHRJWHVwQWdjMWdiamZ4TlZKUHo5ZmhBWEtCYkg2S0NVa0Z3aWtacm5MdVhvUmlLdkxGekFjYTBHLUY4SUtvVk9ZNUJUZC0xc2Y2SVAyLUMybEdzYUZJdGRqbEhpbE1aQQ?oc=5",
+        "isTopPick": true,
+        "koTitle": "오늘의 AI 뉴스를 수집하는 중입니다",
+        "enTitle": "Collecting Today's AI News...",
+        "date": "2026-06-19",
+        "originalDate": "2026-06-19",
+        "sourceName": "AIMAG",
+        "sourceUrl": "#",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! NTUC: 어떤 싱가포르 근로자도 인공지능 일자리 전환에 뒤처져서는 안 됩니다. -제네바에서 국제노동기구 (International Labour Organization) 의 미래 업무 토론 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
-        "isTopPick": true
-    },
-    {
-        "rank": 2,
-        "koTitle": "AI, 미래의 직업에 중요한 디지털 기술, 전문가들이 나이지리아 학생들에게 말하다",
-        "enTitle": "AI, Digital Skills Crucial for Future Jobs, Experts Tell Nigerian Students",
-        "date": "2026-06-18",
-        "originalDate": "2026-06-17",
-        "sourceName": "THISDAYLIVE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS1JKRWt2aG5xd1hQTFBoRGUwYjF4c3MydHhuNmVXeUhWSkdxY0JsSFg4LVFfSW82V21RMkE5UVlHRDJMdXl2TTBkSVdjR2dGMGQ1TVVlM2hCbzQzZjkxRnFGWjlIcFMwWGlFT0xaVGtEYy1jajJzQnpBNnEycEk3dlJLVnc4dExVaHpDak5JUGpwLU5wNFNwLVl3QkhCYk5aSVl5MjRBdG9XTWJNVDlybGh3?oc=5",
-        "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! AI, 미래의 직업에 중요한 디지털 기술, 전문가들이 나이지리아 학생들에게 말하다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "2026년 가장 높은 급여를 받는 AI 일자리로 이어질 수 있는 최고의 대학 학위",
-        "enTitle": "Top College Degrees That Can Lead to the Highest-Paying AI Jobs in 2026",
-        "date": "2026-06-18",
-        "originalDate": "2026-06-16",
-        "sourceName": "Investopedia",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQm9BZVB6VzZYUURGRXZNYWFSdk84TGRvRUc2RGROandPR3ZiRTZHXzdUTGJJejlOdno3V2Q2SVhldnR4alJqUEtrdWRLVmktS0JtZG1TRWNqSHJSakt4ZWZYWDBmbkZpV1F6QlhOYWpsWS1qazhPVTN1SzhLdDNabm1vT0ZobkhxcGlpQi1rT0xNdnk3MTFvcm41VXYwZHotMTl2ZU53Y3FDY29SSlE?oc=5",
-        "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "글로벌 AI 트렌드 체크! 2026년 가장 높은 급여를 받는 AI 일자리로 이어질 수 있는 최고의 대학 학위 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "99%",
+        "hookTitles": [
+            {
+                "top": "AI 뉴스 로딩 중",
+                "bottom": "잠시 후 업데이트됩니다"
+            },
+            {
+                "top": "코다리 부장 리서치 중",
+                "bottom": "최신 AI 소식을 큐레이션합니다"
+            }
+        ],
+        "analysis": "자동 수집 중입니다. 잠시 후 최신 뉴스가 표시됩니다."
     }
 ];
 
@@ -50,43 +36,27 @@ const aiNewsData = [
 // 단순 뉴스가 아닌, 2030의 삶을 바꿀 '기가 막힌 주제' 기반 큐레이션
 const generalTrendingData = [
     {
+        "category": "AI Trend",
         "rank": 1,
-        "koTitle": "KB부동산, ‘AI 단지분석/비교’ 서비스 출시",
-        "enTitle": "KB부동산, ‘AI 단지분석/비교’ 서비스 출시",
-        "date": "2026-06-18",
-        "originalDate": "2026-06-17",
-        "sourceName": "intn.co.kr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MWXBMelJyMVFiT2FUdzgwSjlKdTNZa2xnbUVkdmxfS3FyQjN2aXhqREFaZV91TWs1TFR6b1FzbW1EdUw3YVlYUXFkLU5lbG9lRm1TaU9yZTJ1YUl6Q0Q1MjFFVEY?oc=5",
+        "koTitle": "2026년 AI 트렌드를 분석 중입니다",
+        "enTitle": "Analyzing 2026 AI Trends...",
+        "date": "2026-06-19",
+        "originalDate": "2026-06-19",
+        "sourceName": "AIMAG",
+        "sourceUrl": "#",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! KB부동산, ‘AI 단지분석/비교’ 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Hot Issue"
-    },
-    {
-        "rank": 2,
-        "koTitle": "코인베이스, AI 무료 투자 자문 서비스 출시·사업 다각화 기대…주가 강세",
-        "enTitle": "코인베이스, AI 무료 투자 자문 서비스 출시·사업 다각화 기대…주가 강세",
-        "date": "2026-06-18",
-        "originalDate": "2026-06-17",
-        "sourceName": "마켓인",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9RWEF2N2NSQnNKOE9OZDhIckZ0aHIwSGlxWUN6aTdZTVdfVXpBRFpBX3c3YmlYb3FrTURuVkRCT1pTTXZKTERWNmZyTHhsZ1M2RWo3NG1yTi1CYllQN0huMTJtdVhzajVDb3h2RE9Ib0ktQ2s?oc=5",
-        "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 코인베이스, AI 무료 투자 자문 서비스 출시·사업 다각화 기대…주가 강세 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Life & Money"
-    },
-    {
-        "rank": 3,
-        "koTitle": "TIME 글로벌AI인공지능액티브 ETF, 연초대비 수익률 100% 돌파…\"주식형 액티브 ETF 1위\"",
-        "enTitle": "TIME 글로벌AI인공지능액티브 ETF, 연초대비 수익률 100% 돌파…\"주식형 액티브 ETF 1위\"",
-        "date": "2026-06-18",
-        "originalDate": "2026-06-17",
-        "sourceName": "이투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9feVc2ajNKeWswMTFqMVhqOG9WbHNpSXJ5ZDEwVUpMUUUzTEtIb2cxa3NsYzFORERoWkxSeXJ5MUFPSWthRWVHeUNYR3hwRnNka3RjSA?oc=5",
-        "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! TIME 글로벌AI인공지능액티브 ETF, 연초대비 수익률 100% 돌파…\"주식형 액티브 ETF 1위\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Tech & Service"
+        "viralRate": "95%",
+        "hookTitles": [
+            {
+                "top": "트렌드 분석 중",
+                "bottom": "AI 흐름을 읽어드립니다"
+            },
+            {
+                "top": "2030 맞춤 큐레이션",
+                "bottom": "곧 업데이트됩니다"
+            }
+        ],
+        "analysis": "자동 수집 중입니다."
     }
 ];
 
