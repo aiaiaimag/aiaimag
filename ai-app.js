@@ -1,33 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-19
+ * 최신 업데이트: 2026-06-20
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "isTopPick": true,
-        "koTitle": "오늘의 AI 뉴스를 수집하는 중입니다",
-        "enTitle": "Collecting Today's AI News...",
-        "date": "2026-06-19",
+        "koTitle": "하나의 차트는 AI의 업무 영향과 다른 기술 발전과 비교하여 AI가 어떻게 영향을 미치는지 보여줍니다.",
+        "enTitle": "One chart shows AI's jobs impact — and how it compares to other tech advances",
+        "date": "2026-06-20",
         "originalDate": "2026-06-19",
-        "sourceName": "AIMAG",
-        "sourceUrl": "#",
+        "sourceName": "Business Insider",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeVFvOU9rUlBEQUxFbE5UQmZLZkNfWFBaSnA5MWwzNW8yMS1CZkZFWGIyOWxSb0FaajlObnFFbm9tS01aenRWRkhaSl9fakJVY1dackg5aDlpRUYyYllnc2p5Mkp5d2lqdXdMWVVvMlBnYkNzb0taMEdva1F2bTdEMzQ1T2gxWFFmYjVGcDZjSTNyQkFEOE9UcTVXQlV4cG8?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "hookTitles": [
-            {
-                "top": "AI 뉴스 로딩 중",
-                "bottom": "잠시 후 업데이트됩니다"
-            },
-            {
-                "top": "코다리 부장 리서치 중",
-                "bottom": "최신 AI 소식을 큐레이션합니다"
-            }
-        ],
-        "analysis": "자동 수집 중입니다. 잠시 후 최신 뉴스가 표시됩니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 하나의 차트는 AI의 업무 영향과 다른 기술 발전과 비교하여 AI가 어떻게 영향을 미치는지 보여줍니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "isTopPick": true
+    },
+    {
+        "rank": 2,
+        "koTitle": "AI, 미래의 직업에 중요한 디지털 기술, 전문가들이 나이지리아 학생들에게 말하다",
+        "enTitle": "AI, Digital Skills Crucial for Future Jobs, Experts Tell Nigerian Students",
+        "date": "2026-06-20",
+        "originalDate": "2026-06-19",
+        "sourceName": "THISDAYLIVE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS1JKRWt2aG5xd1hQTFBoRGUwYjF4c3MydHhuNmVXeUhWSkdxY0JsSFg4LVFfSW82V21RMkE5UVlHRDJMdXl2TTBkSVdjR2dGMGQ1TVVlM2hCbzQzZjkxRnFGWjlIcFMwWGlFT0xaVGtEYy1jajJzQnpBNnEycEk3dlJLVnc4dExVaHpDak5JUGpwLU5wNFNwLVl3QkhCYk5aSVl5MjRBdG9XTWJNVDlybGh3?oc=5",
+        "isRepublished": false,
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! AI, 미래의 직업에 중요한 디지털 기술, 전문가들이 나이지리아 학생들에게 말하다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
+        "koTitle": "케빈 오리어리 (Kevin O'Leary) 는 '인공지능도 다르지 않다' 고 말합니다. 기술은 '차세대 혁신' 을 주도할 것입니다.",
+        "enTitle": "Kevin O'Leary Says 'AI Is No Different,' Technology Will Drive The 'Next Generation Of Innovation'",
+        "date": "2026-06-20",
+        "originalDate": "2026-06-19",
+        "sourceName": "Yahoo Finance",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOS1I0UkwwX0tSQS13TURkQmpYVmpXamJBWTU5NXo5WW10RTh1SDlUTllSRG5iSlRuLVVRWVBFaW5NN2dSblZFU3ZhdF9tWXE3YktEa1FJNklhM1drUWlsd05hbEJ4enR1Y0pHa1pTS0psdVFZVFhhVDVRbkJoOURfOHpMNHVYckxpSU4wNG5CUy0?oc=5",
+        "isRepublished": false,
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 케빈 오리어리 (Kevin O'Leary) 는 '인공지능도 다르지 않다' 고 말합니다. 기술은 '차세대 혁신' 을 주도할 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -36,27 +50,43 @@ const aiNewsData = [
 // 단순 뉴스가 아닌, 2030의 삶을 바꿀 '기가 막힌 주제' 기반 큐레이션
 const generalTrendingData = [
     {
-        "category": "AI Trend",
         "rank": 1,
-        "koTitle": "2026년 AI 트렌드를 분석 중입니다",
-        "enTitle": "Analyzing 2026 AI Trends...",
-        "date": "2026-06-19",
+        "koTitle": "오픈AI, 한국서 챗GPT 광고 도입… AI 수익모델 확대",
+        "enTitle": "오픈AI, 한국서 챗GPT 광고 도입… AI 수익모델 확대",
+        "date": "2026-06-20",
         "originalDate": "2026-06-19",
-        "sourceName": "AIMAG",
-        "sourceUrl": "#",
+        "sourceName": "브릿지경제",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YV05lT3E5UlQxNVc5UGtDUVA4Xy1fTC1hS3oycjkxNHJsdkUzOWdsZzFGZGE4TWFuTzFCRVFjXzktcFhLWi1FOHgtZmVYMjRrSlBPc2dsNl9uUQ?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "hookTitles": [
-            {
-                "top": "트렌드 분석 중",
-                "bottom": "AI 흐름을 읽어드립니다"
-            },
-            {
-                "top": "2030 맞춤 큐레이션",
-                "bottom": "곧 업데이트됩니다"
-            }
-        ],
-        "analysis": "자동 수집 중입니다."
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 오픈AI, 한국서 챗GPT 광고 도입… AI 수익모델 확대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Hot Issue"
+    },
+    {
+        "rank": 2,
+        "koTitle": "교황청, 인공지능(AI)과 노동에 있어서 인간의 존엄성과 공동선이 지켜져야 한다.",
+        "enTitle": "교황청, 인공지능(AI)과 노동에 있어서 인간의 존엄성과 공동선이 지켜져야 한다.",
+        "date": "2026-06-20",
+        "originalDate": "2026-06-19",
+        "sourceName": "Vatican News",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaWVaVzJZeDdMMlFVRzI1a0ZoeVlPY0ppV0drMHBBU3VoT3FWekZ1V0ZvNG1wVzZnZ09GVUJXdGpJQzNRTmxIMEV3anlLa3Y4WlBrN1B3YVMwSGluYk5Rck1OdjFnUHBKTnphMm5uZFFxay1qYnBTZTNvN29kcnBzQWpVb1E?oc=5",
+        "isRepublished": false,
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 교황청, 인공지능(AI)과 노동에 있어서 인간의 존엄성과 공동선이 지켜져야 한다. 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Life & Money"
+    },
+    {
+        "rank": 3,
+        "koTitle": "구글 제미나이로 탄생한 세계 첫 AI 미술관, '데이터랜드' 6월 20일 LA 개관",
+        "enTitle": "구글 제미나이로 탄생한 세계 첫 AI 미술관, '데이터랜드' 6월 20일 LA 개관",
+        "date": "2026-06-20",
+        "originalDate": "2026-06-19",
+        "sourceName": "지디넷코리아",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4td1Z5YjdLOHQ2SUFLZ0xZRHFqalYxWW9ia1o0SklUOW1PT0RvbGF1a19zS25iS2F6OS1qNTQ0OVNUeUdRVTRqZ0hDR05MZnd6NzVUSlFR?oc=5",
+        "isRepublished": false,
+        "viralRate": "96%",
+        "analysis": "2030을 위한 AI 실무 팁! 구글 제미나이로 탄생한 세계 첫 AI 미술관, '데이터랜드' 6월 20일 LA 개관 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Tech & Service"
     }
 ];
 
