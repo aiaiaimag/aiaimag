@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-21
+ * 최신 업데이트: 2026-06-22
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "프롬프트 엔지니어: 프롬프트 엔지니어링, AI 프롬프트 엔지니어, ChatGPT 및 인공 지능이 디지털 혁신의 미래를 재구성하는 방법",
-        "enTitle": "Prompt Engineer: How Prompt Engineering, AI Prompt Engineers, ChatGPT, and Artificial Intelligence Are Reshaping the Future of Digital Innovation",
-        "date": "2026-06-21",
-        "originalDate": "2026-06-20",
-        "sourceName": "vocal.media",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQdS1NbVpTd0UyeDZ5RF9xbjVvVWxwU3oyR3NtdDZ4cEJucDNXYjhhbkZ3cE1PRVhhMU5QOVAtU2ZaRi1FUHVtSmVQaUU5M3cyY0l6N3Y2REFtbkhXWGRJanI5ekRqTkZPemJsRDBRRmNxS3hNRm96MmZLa3VZSnVWVld2NWRaUE5ORVVTNWpfdzJyTXg4V3BKdlZuWDVIUVlEa0pYMnNCbUtPQjdkNDFoZkxMRHY4ZXZkYmVmLURmZXBTdmc2Q2R3TGZSZ3V2cGFWdm9mMW96MVBvUTdvNmZmMjl0QW52SmxqZnBwX05UVTd1cDc2bUJkVg?oc=5",
+        "koTitle": "AI vs. 아웃소싱: 미국과 선진국 일자리의 미래 (2026-2035)",
+        "enTitle": "AI vs. Outsourcing: The Future of Jobs in the US and the Developed World (2026–2035)",
+        "date": "2026-06-22",
+        "originalDate": "2026-06-21",
+        "sourceName": "Security Boulevard",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeEVPbG1pSmtkdWtXR3NZMVdIbmplbDNWWmJkMTdNSzFNM3RTUWFTZjF1ZEVncmhBSy1DaHgwejdzRzR3WTJyejNTYm9mU1RJM2FYZ3phUElERTNFVnhHNXE4RHdzNGFVaVRhSkxVTC1CaE5lWVBnTktoblNjTmFCRko1ZVRKQjhXMTQ3cDZEbkNhd1lLOTdOZjB0QkVLQU5ZLVpvOUxxUnZCajN2a3NYVWJBbGowUlVSRlFv?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 프롬프트 엔지니어: 프롬프트 엔지니어링, AI 프롬프트 엔지니어, ChatGPT 및 인공 지능이 디지털 혁신의 미래를 재구성하는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! AI vs. 아웃소싱: 미국과 선진국 일자리의 미래 (2026-2035) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "직업의 미래가 교육 시스템 리더십에 의존하는 이유",
-        "enTitle": "Why the Future of Jobs Depends on Education System Leadership",
-        "date": "2026-06-21",
-        "originalDate": "2026-06-18",
-        "sourceName": "World Bank Blogs",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaUZVV3dYbWVydHhYNVQ1ZEY2RnZMa0pJajZmVWVZWTJDRjVMTTJ3a1htNW91cWNqS2lCQy1xR25lRHUxcGp4OE1JdUxHbjBfXzh0bEJjQU9LbmxQdU03eEIxZEFoVnFsRlBUT3lOTi1WMTdUaE1UZlExWmZWYU90cHdyV2F5MlkxZlNpNy1WMzNKNlFzX2ZucTllTzlqeWxtNjhKZQ?oc=5",
+        "koTitle": "하나의 차트는 AI의 업무 영향과 다른 기술 발전과 비교하여 AI가 어떻게 영향을 미치는지 보여줍니다.",
+        "enTitle": "One chart shows AI's jobs impact — and how it compares to other tech advances",
+        "date": "2026-06-22",
+        "originalDate": "2026-06-19",
+        "sourceName": "Business Insider",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeVFvOU9rUlBEQUxFbE5UQmZLZkNfWFBaSnA5MWwzNW8yMS1CZkZFWGIyOWxSb0FaajlObnFFbm9tS01aenRWRkhaSl9fakJVY1dackg5aDlpRUYyYllnc2p5Mkp5d2lqdXdMWVVvMlBnYkNzb0taMEdva1F2bTdEMzQ1T2gxWFFmYjVGcDZjSTNyQkFEOE9UcTVXQlV4cG8?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 직업의 미래가 교육 시스템 리더십에 의존하는 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! 하나의 차트는 AI의 업무 영향과 다른 기술 발전과 비교하여 AI가 어떻게 영향을 미치는지 보여줍니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "PwC는 엔트리 레벨 작업이 사라지지 않았으며 '선임화' 를 통해 이를 찾습니다. '그냥 젊은 노동자들이 얻을 수 없는 무언가로 변형되었을 뿐이야.",
-        "enTitle": "Entry-level work didn't disappear, PwC finds with 'seniorization.' It just morphed into something young workers can't get",
-        "date": "2026-06-21",
-        "originalDate": "2026-06-18",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORzNyMmtFcVVJLTlFY04wd28wXzJ6SXlYRGJPcV9pYTFTTjNtMkJxWlFQZVhxOXpCMmdjZVBwZHBGTVMwN3c1LWFUcVg1NFBqN19xVHJ1d2M3bVd3TUpDLUJXcEh2YWMya0lQSmlaNC1kbll0d0lEZ2tuMkFrdk9kYXRn?oc=5",
+        "koTitle": "시청: '인공지능 시대의 직업의 미래' 포럼/기사",
+        "enTitle": "WATCH: 'Future of Work in the Age of AI' forum / Article",
+        "date": "2026-06-22",
+        "originalDate": "2026-06-19",
+        "sourceName": "LSM",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVUhQNFEwRll6ekc2NWplRVltcktCeUl3dkxWRi1WM0tySEtMOFRvLTMzT0hXeE5PZGhGVzJPQ1E3STR1aHRvR2czUGJzM0JXMFFQWEhIc0N3TGRTOEdQM2FsTlZJNVhEUXRkaEo0emVZeE83RFMyZDNPYU1BSzBneFQ5UUNXWU9Vcnlfb0w4NkNfbThEN3JJQm84WEFwVGpzSGFVQ3Q5SHNReEstZ3c?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! PwC는 엔트리 레벨 작업이 사라지지 않았으며 '선임화' 를 통해 이를 찾습니다. '그냥 젊은 노동자들이 얻을 수 없는 무언가로 변형되었을 뿐이야. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "88%",
+        "analysis": "글로벌 AI 트렌드 체크! 시청: '인공지능 시대의 직업의 미래' 포럼/기사 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "MS, 중국 기업에 오픈AI API 판매로 수익 올려…’증류’ 위험 경고",
-        "enTitle": "MS, 중국 기업에 오픈AI API 판매로 수익 올려…’증류’ 위험 경고",
-        "date": "2026-06-21",
-        "originalDate": "2026-06-20",
+        "koTitle": "구글, '제미나이' 탑재한 AI 스피커 5년 만에 출시…한국은 미정",
+        "enTitle": "구글, '제미나이' 탑재한 AI 스피커 5년 만에 출시…한국은 미정",
+        "date": "2026-06-22",
+        "originalDate": "2026-06-21",
         "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5vTU5LNGF4YWtoMG5WaDlXelBaN09rREswR2RLSlQ3UU4tUU5QbFZabXR5dXl3cFB0SjV3YU11ZEs3VGpwZ2xPWXI2c1VwcnJSdU9WOHpqR2x0aGZhdWFWWlFiWjVxMXRZbUE?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51NHdmbHJHbGZFaVZRZ3VxbmVSSDhPdFVyOEhXdVFHb05aWC1lNVVjOGY0dUZpaHJpNkRRdDh6TVZXQ1d6UTMwNmhaQ0d1UGJqeHVOdmxoZG5WbVVONmVRVUZzbTZfSDZ5QVE?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! MS, 중국 기업에 오픈AI API 판매로 수익 올려…’증류’ 위험 경고 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 구글, '제미나이' 탑재한 AI 스피커 5년 만에 출시…한국은 미정 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "[인공지능 줌인] \"AI의 도덕적 기준은 기업이 정해선 안 된다\"...교황과 AI 개발자들의 경고",
-        "enTitle": "[인공지능 줌인] \"AI의 도덕적 기준은 기업이 정해선 안 된다\"...교황과 AI 개발자들의 경고",
-        "date": "2026-06-21",
-        "originalDate": "2026-06-20",
-        "sourceName": "위키리크스한국",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GWXdRTkdienZWaWZ4eGhvX0JiZ1o3Um1ST3gwSHlVeFl5TUxxUy1hUS1nWGw1NWRjcnpMWXl4c3RMMGVVTENncjJUaGl4R3RRRGIxUWFXSERQZndmbHowN2YtUFJ4cm1IM3AxWC0xMA?oc=5",
+        "koTitle": "“AI로 쏟아지는 돈, 거품 경고일 수 있다”…美언론 섬뜩한 경고",
+        "enTitle": "“AI로 쏟아지는 돈, 거품 경고일 수 있다”…美언론 섬뜩한 경고",
+        "date": "2026-06-22",
+        "originalDate": "2026-06-21",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0ydFFMYTZxZTFLOFY3N183OHBNenFTVTJ1dkZnY1lidURsQlNiSG92ZGVMX3d3b0doT0Y3cFczNEVjRk5Vb1d1QS1ESXdvT00?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! [인공지능 줌인] \"AI의 도덕적 기준은 기업이 정해선 안 된다\"...교황과 AI 개발자들의 경고 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! “AI로 쏟아지는 돈, 거품 경고일 수 있다”…美언론 섬뜩한 경고 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "오픈AI 사장·딥마인드 CEO·클로드 코드 창시자가 말하는 5가지 미래",
-        "enTitle": "오픈AI 사장·딥마인드 CEO·클로드 코드 창시자가 말하는 5가지 미래",
-        "date": "2026-06-21",
-        "originalDate": "2026-06-20",
-        "sourceName": "요즘IT",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MQmhmcHRiQzdfbG1RV3hId0xRUktyX0FIYkpDQ3BaazhidUVlMENSY3U1RHBRSnNRWXU2alg3SW5SX19MRmxnQWRxWWIxR0NXcmttWGRxRi0yZw?oc=5",
+        "koTitle": "'프롬프트' 가고 '루프'의 시대…실리콘밸리 AI 개발 트렌드 급변",
+        "enTitle": "'프롬프트' 가고 '루프'의 시대…실리콘밸리 AI 개발 트렌드 급변",
+        "date": "2026-06-22",
+        "originalDate": "2026-06-21",
+        "sourceName": "진일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBvSXZNWTd4RnNYZVpQbkhzMG1TcC01YnVvckRHWnVaVmkxdHJ4N1RYZG90eTZIVnFuSHo5dlpwanA2QzVsclBjd3BrT3IwQXVKVENVTEdzVEp1dUdZODBma2xGcGJhcmV1dmI1MS1GWQ?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 오픈AI 사장·딥마인드 CEO·클로드 코드 창시자가 말하는 5가지 미래 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! '프롬프트' 가고 '루프'의 시대…실리콘밸리 AI 개발 트렌드 급변 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
