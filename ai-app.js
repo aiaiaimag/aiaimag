@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-22
+ * 최신 업데이트: 2026-06-23
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI vs. 아웃소싱: 미국과 선진국 일자리의 미래 (2026-2035)",
-        "enTitle": "AI vs. Outsourcing: The Future of Jobs in the US and the Developed World (2026–2035)",
-        "date": "2026-06-22",
-        "originalDate": "2026-06-21",
-        "sourceName": "Security Boulevard",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeEVPbG1pSmtkdWtXR3NZMVdIbmplbDNWWmJkMTdNSzFNM3RTUWFTZjF1ZEVncmhBSy1DaHgwejdzRzR3WTJyejNTYm9mU1RJM2FYZ3phUElERTNFVnhHNXE4RHdzNGFVaVRhSkxVTC1CaE5lWVBnTktoblNjTmFCRko1ZVRKQjhXMTQ3cDZEbkNhd1lLOTdOZjB0QkVLQU5ZLVpvOUxxUnZCajN2a3NYVWJBbGowUlVSRlFv?oc=5",
+        "koTitle": "Autodesk는 물리적 세계를 설계하고 만드는 AI 작업을 위해 차세대를 준비시키기 위해 3억 5천만 달러 ($) 를 투입합니다.",
+        "enTitle": "Autodesk commits $350 million to prepare the next generation for the AI jobs that design and make the physical world",
+        "date": "2026-06-23",
+        "originalDate": "2026-06-22",
+        "sourceName": "Autodesk News",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYWxiblZIUGl4M0ZYWEhsdTJib0dJdzJKd0RRT3NWZ2dCN3NublV3UHhvVHY1OE5heFRIT3o5M1lzQmVKWjc3U0FFcmlndGZvRmptX0tjTk9yS2FXNW1QQ1N2MUpZbkYtbElWZm1wX3RTeTBMNjhtNWpVdjBPOF9qcG1Wc1R2VWozVC1iaTd1RUNHUQ?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! AI vs. 아웃소싱: 미국과 선진국 일자리의 미래 (2026-2035) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "98%",
+        "analysis": "글로벌 AI 트렌드 체크! Autodesk는 물리적 세계를 설계하고 만드는 AI 작업을 위해 차세대를 준비시키기 위해 3억 5천만 달러 ($) 를 투입합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "하나의 차트는 AI의 업무 영향과 다른 기술 발전과 비교하여 AI가 어떻게 영향을 미치는지 보여줍니다.",
-        "enTitle": "One chart shows AI's jobs impact — and how it compares to other tech advances",
-        "date": "2026-06-22",
-        "originalDate": "2026-06-19",
-        "sourceName": "Business Insider",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeVFvOU9rUlBEQUxFbE5UQmZLZkNfWFBaSnA5MWwzNW8yMS1CZkZFWGIyOWxSb0FaajlObnFFbm9tS01aenRWRkhaSl9fakJVY1dackg5aDlpRUYyYllnc2p5Mkp5d2lqdXdMWVVvMlBnYkNzb0taMEdva1F2bTdEMzQ1T2gxWFFmYjVGcDZjSTNyQkFEOE9UcTVXQlV4cG8?oc=5",
+        "koTitle": "업무의 미래는 어떻게 될까요? 인간과 AI의 역할 정의",
+        "enTitle": "What is the future of work? Defining roles for humans and AI",
+        "date": "2026-06-23",
+        "originalDate": "2026-06-22",
+        "sourceName": "The World Economic Forum",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT1Bzc2hVWGVKXzNRamNfTWdZZ1lBM3plSk5VcnBzcGFZZUp2SEFRZlEtX3Aybi1FNnh4R3VxSDRZaW9RZEcta284STBrVEJTS09mM3BwZV9QZFlRV2lRN3ZpejV0M3kzRFVsX19abm9mZ0s3UGc1VXE3Wi1sclFuODVXdEw?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! 하나의 차트는 AI의 업무 영향과 다른 기술 발전과 비교하여 AI가 어떻게 영향을 미치는지 보여줍니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 업무의 미래는 어떻게 될까요? 인간과 AI의 역할 정의 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "시청: '인공지능 시대의 직업의 미래' 포럼/기사",
-        "enTitle": "WATCH: 'Future of Work in the Age of AI' forum / Article",
-        "date": "2026-06-22",
-        "originalDate": "2026-06-19",
-        "sourceName": "LSM",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVUhQNFEwRll6ekc2NWplRVltcktCeUl3dkxWRi1WM0tySEtMOFRvLTMzT0hXeE5PZGhGVzJPQ1E3STR1aHRvR2czUGJzM0JXMFFQWEhIc0N3TGRTOEdQM2FsTlZJNVhEUXRkaEo0emVZeE83RFMyZDNPYU1BSzBneFQ5UUNXWU9Vcnlfb0w4NkNfbThEN3JJQm84WEFwVGpzSGFVQ3Q5SHNReEstZ3c?oc=5",
+        "koTitle": "애널리스트에게 질문하십시오: AI 현실에 대비한 초기 경력 파이프라인을 구축할 때 HR 리더는 무엇을 우선시해야 합니까?",
+        "enTitle": "Ask the Analyst: What must HR leaders prioritize when building an early career pipeline ready for the AI reality?",
+        "date": "2026-06-23",
+        "originalDate": "2026-06-22",
+        "sourceName": "unleash.ai",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWDlpLUVsamxiNHEtdnBURDRPdkZ1d1ExZWZidVltby1YY2gtZHRxb2UzUXFTenZHR3lYTExsUVc1TlR5QW9UREV6UUZQZ19JdXFjVnlPSVh1TjBxYkoxVEs1ektSWFIweWZoc1puOU1YODY3MWI2T1FqMmJKcTh6NlZYNkxNWFUwQkFkX0tJWWFvcGxCbW03enQ2eXdXM09fUkdwS2xVZlJTcGtNQllYbXdiODBUM3VvbVNpT29LalRnVDE2Sklqams5WGZDZkFwekxpdzdaY0pvWWlGRE42UFU4ZjUxZl9iUEdINU92aEd0NjQ?oc=5",
         "isRepublished": false,
-        "viralRate": "88%",
-        "analysis": "글로벌 AI 트렌드 체크! 시청: '인공지능 시대의 직업의 미래' 포럼/기사 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 애널리스트에게 질문하십시오: AI 현실에 대비한 초기 경력 파이프라인을 구축할 때 HR 리더는 무엇을 우선시해야 합니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "구글, '제미나이' 탑재한 AI 스피커 5년 만에 출시…한국은 미정",
-        "enTitle": "구글, '제미나이' 탑재한 AI 스피커 5년 만에 출시…한국은 미정",
-        "date": "2026-06-22",
-        "originalDate": "2026-06-21",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51NHdmbHJHbGZFaVZRZ3VxbmVSSDhPdFVyOEhXdVFHb05aWC1lNVVjOGY0dUZpaHJpNkRRdDh6TVZXQ1d6UTMwNmhaQ0d1UGJqeHVOdmxoZG5WbVVONmVRVUZzbTZfSDZ5QVE?oc=5",
+        "koTitle": "IBM, 시간외 3% 강세…오픈AI와 새 보안 서비스 출시",
+        "enTitle": "IBM, 시간외 3% 강세…오픈AI와 새 보안 서비스 출시",
+        "date": "2026-06-23",
+        "originalDate": "2026-06-22",
+        "sourceName": "마켓인",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UTFpyTGo0TDczVnFuNXVrazB5WjlZdG9XRG8yMFg4Y01oRzhGOXlnWnFzN0lKUjZjZ1ZVU21qblpaYXFSN2xVbmxHcUFfUExnXzlTeV9Fam96cG16RFREYmxxdlFyLWFrZDQ5VUhVaVpCQTQ?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글, '제미나이' 탑재한 AI 스피커 5년 만에 출시…한국은 미정 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! IBM, 시간외 3% 강세…오픈AI와 새 보안 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "“AI로 쏟아지는 돈, 거품 경고일 수 있다”…美언론 섬뜩한 경고",
-        "enTitle": "“AI로 쏟아지는 돈, 거품 경고일 수 있다”…美언론 섬뜩한 경고",
-        "date": "2026-06-22",
-        "originalDate": "2026-06-21",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0ydFFMYTZxZTFLOFY3N183OHBNenFTVTJ1dkZnY1lidURsQlNiSG92ZGVMX3d3b0doT0Y3cFczNEVjRk5Vb1d1QS1ESXdvT00?oc=5",
+        "koTitle": "스마트관광 앱 ‘인천e지’, AI 여행비서 서비스 정식 출시",
+        "enTitle": "스마트관광 앱 ‘인천e지’, AI 여행비서 서비스 정식 출시",
+        "date": "2026-06-23",
+        "originalDate": "2026-06-22",
+        "sourceName": "우리일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBmd1Z3bVNod29Vb09RandhbVVnb0hlV2paMDA2eDQ4SUJ2X293elB3cWhsRHlaNFV6YWlwYmFZbnVRUWdUY0NnTE9FaHhQaEU0Qm1RQXk5OWtNUjA3Z1dkdnRKMA?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! “AI로 쏟아지는 돈, 거품 경고일 수 있다”…美언론 섬뜩한 경고 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 스마트관광 앱 ‘인천e지’, AI 여행비서 서비스 정식 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "'프롬프트' 가고 '루프'의 시대…실리콘밸리 AI 개발 트렌드 급변",
-        "enTitle": "'프롬프트' 가고 '루프'의 시대…실리콘밸리 AI 개발 트렌드 급변",
-        "date": "2026-06-22",
-        "originalDate": "2026-06-21",
-        "sourceName": "진일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBvSXZNWTd4RnNYZVpQbkhzMG1TcC01YnVvckRHWnVaVmkxdHJ4N1RYZG90eTZIVnFuSHo5dlpwanA2QzVsclBjd3BrT3IwQXVKVENVTEdzVEp1dUdZODBma2xGcGJhcmV1dmI1MS1GWQ?oc=5",
+        "koTitle": "앤트로픽, 클로드AI·클로드코드 서비스 ‘부분 중단’…모델 오류율 급증",
+        "enTitle": "앤트로픽, 클로드AI·클로드코드 서비스 ‘부분 중단’…모델 오류율 급증",
+        "date": "2026-06-23",
+        "originalDate": "2026-06-22",
+        "sourceName": "디지털데일리",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBJTDF6MktaR290LUd3aDhnSG5zMzVMM0poNzA3RVBFTHB6UEwwMmk0U3FOTXZNaEFaVUw2LUhHMVdsMmNuRXV5a2VSN1ItMnBMN2FKUjlLNDhFR1hPVG1kNU90TVk?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! '프롬프트' 가고 '루프'의 시대…실리콘밸리 AI 개발 트렌드 급변 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 클로드AI·클로드코드 서비스 ‘부분 중단’…모델 오류율 급증 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
