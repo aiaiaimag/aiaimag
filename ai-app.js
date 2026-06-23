@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-23
+ * 최신 업데이트: 2026-06-24
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Autodesk는 물리적 세계를 설계하고 만드는 AI 작업을 위해 차세대를 준비시키기 위해 3억 5천만 달러 ($) 를 투입합니다.",
-        "enTitle": "Autodesk commits $350 million to prepare the next generation for the AI jobs that design and make the physical world",
-        "date": "2026-06-23",
-        "originalDate": "2026-06-22",
-        "sourceName": "Autodesk News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYWxiblZIUGl4M0ZYWEhsdTJib0dJdzJKd0RRT3NWZ2dCN3NublV3UHhvVHY1OE5heFRIT3o5M1lzQmVKWjc3U0FFcmlndGZvRmptX0tjTk9yS2FXNW1QQ1N2MUpZbkYtbElWZm1wX3RTeTBMNjhtNWpVdjBPOF9qcG1Wc1R2VWozVC1iaTd1RUNHUQ?oc=5",
+        "koTitle": "그레이터 보스턴의 약 35만 개의 일자리는 AI에 취약합니다. 이 차트는 가장 많이 노출되는 차트를 보여줍니다.",
+        "enTitle": "Roughly 350,000 jobs in Greater Boston are vulnerable to AI. These charts show which ones are most exposed.",
+        "date": "2026-06-24",
+        "originalDate": "2026-06-23",
+        "sourceName": "The Boston Globe",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCTHMyUzVEemV4eWpTNDdDQ2dSZl93cldjbGJFX25lcWZld2UxOWt2eWpXZENQUHdfNHpCUkxMcUtwQV9LMENTNEtETUtQYkZ5MzJ6bW9kejVJa1J3ODQ3WlVVclVOV0lKTlZ3WXhXeGRiNWJ2VTBfSnJ3M2Y?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "글로벌 AI 트렌드 체크! Autodesk는 물리적 세계를 설계하고 만드는 AI 작업을 위해 차세대를 준비시키기 위해 3억 5천만 달러 ($) 를 투입합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! 그레이터 보스턴의 약 35만 개의 일자리는 AI에 취약합니다. 이 차트는 가장 많이 노출되는 차트를 보여줍니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "업무의 미래는 어떻게 될까요? 인간과 AI의 역할 정의",
-        "enTitle": "What is the future of work? Defining roles for humans and AI",
-        "date": "2026-06-23",
-        "originalDate": "2026-06-22",
-        "sourceName": "The World Economic Forum",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT1Bzc2hVWGVKXzNRamNfTWdZZ1lBM3plSk5VcnBzcGFZZUp2SEFRZlEtX3Aybi1FNnh4R3VxSDRZaW9RZEcta284STBrVEJTS09mM3BwZV9QZFlRV2lRN3ZpejV0M3kzRFVsX19abm9mZ0s3UGc1VXE3Wi1sclFuODVXdEw?oc=5",
+        "koTitle": "인공지능의 제국: 지식의 한계와 직업의 미래 예측",
+        "enTitle": "AI’s Empire: The Limits Of Knowledge, And Predicting The Job Future",
+        "date": "2026-06-24",
+        "originalDate": "2026-06-23",
+        "sourceName": "Forbes",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYnNiOEFTQTRJMGVJYngya0U5U2lidllScDhDWmJIOHU5QU5uT2t4MHFtNlh5TnhubzhvSWNDb1pTZWlXODVxLWp3OUxDZzlMVGJQVF9lbkEzTU4yMVdmU1BfVTlCZWFJVlVRMjR1WVJwRllMbl9yNWE4b1RRdHVZVWx5a3NlbzI2NU9fb3ZIRy1hNXZPbWRwQzUzWDFBOTJ5NEVZYUNfV2xoblI0UDh0QXV0R1NNa01DdmlZVw?oc=5",
         "isRepublished": false,
         "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 업무의 미래는 어떻게 될까요? 인간과 AI의 역할 정의 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능의 제국: 지식의 한계와 직업의 미래 예측 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "애널리스트에게 질문하십시오: AI 현실에 대비한 초기 경력 파이프라인을 구축할 때 HR 리더는 무엇을 우선시해야 합니까?",
-        "enTitle": "Ask the Analyst: What must HR leaders prioritize when building an early career pipeline ready for the AI reality?",
-        "date": "2026-06-23",
-        "originalDate": "2026-06-22",
-        "sourceName": "unleash.ai",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWDlpLUVsamxiNHEtdnBURDRPdkZ1d1ExZWZidVltby1YY2gtZHRxb2UzUXFTenZHR3lYTExsUVc1TlR5QW9UREV6UUZQZ19JdXFjVnlPSVh1TjBxYkoxVEs1ektSWFIweWZoc1puOU1YODY3MWI2T1FqMmJKcTh6NlZYNkxNWFUwQkFkX0tJWWFvcGxCbW03enQ2eXdXM09fUkdwS2xVZlJTcGtNQllYbXdiODBUM3VvbVNpT29LalRnVDE2Sklqams5WGZDZkFwekxpdzdaY0pvWWlGRE42UFU4ZjUxZl9iUEdINU92aEd0NjQ?oc=5",
+        "koTitle": "오라클은 AI에 초점을 맞추면서 21,000개의 일자리를 창출합니다.",
+        "enTitle": "Oracle Sheds 21,000 Jobs as It Sharpens Focus on AI",
+        "date": "2026-06-24",
+        "originalDate": "2026-06-23",
+        "sourceName": "WSJ",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc0JFTG9SOEstT0NWbUQwd3BkTmJXQ2FWNjQ3ZGdzQmFXZVU4QnNmX2NuUC1HRkM3VlU2R3k5Sm9mc1BBeDZiNkJwVFdicDdfUjFLQlJuRjhVMzdrd2dodVQ1Nm9rRTExNjVWU0tYLVVOQ0xzRlRyWjlKTzlqVThXZ2ppaXJ3WUxjUWI4TGZoYUxHcWFKbkxIZXFmb0dHSU8wRW9j?oc=5",
         "isRepublished": false,
         "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 애널리스트에게 질문하십시오: AI 현실에 대비한 초기 경력 파이프라인을 구축할 때 HR 리더는 무엇을 우선시해야 합니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 오라클은 AI에 초점을 맞추면서 21,000개의 일자리를 창출합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "IBM, 시간외 3% 강세…오픈AI와 새 보안 서비스 출시",
-        "enTitle": "IBM, 시간외 3% 강세…오픈AI와 새 보안 서비스 출시",
-        "date": "2026-06-23",
-        "originalDate": "2026-06-22",
-        "sourceName": "마켓인",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UTFpyTGo0TDczVnFuNXVrazB5WjlZdG9XRG8yMFg4Y01oRzhGOXlnWnFzN0lKUjZjZ1ZVU21qblpaYXFSN2xVbmxHcUFfUExnXzlTeV9Fam96cG16RFREYmxxdlFyLWFrZDQ5VUhVaVpCQTQ?oc=5",
+        "koTitle": "AI 보험추천 불법인데… 챗GPT·제미나이는 술술? - 머니투데이",
+        "enTitle": "AI 보험추천 불법인데… 챗GPT·제미나이는 술술? - 머니투데이",
+        "date": "2026-06-24",
+        "originalDate": "2026-06-23",
+        "sourceName": "머니투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SVGhfTFRnQTVHdXROMUJIaDNNWVU3ckNIdVlQWUdMVEMwc1l1MGRWM2tkNDltSnBZVjFWQm1kN0owZk16LXFuMllMQzY2Qi1JVmpORkUzbzV6NzdOcXZadHIxalhEVWxENldLZ1NQb3fSAXBBVV95cUxNUlRoX0xUZ0E1R3V0TjFCSGgzTVlVN3JDSHVZUFlHTFRDMHNZdTBkVjNrZDQ5bUpwWVYxVkJtZDdKMGZNei1xbjJZTEM2NkItSVZqTkZFM281ejc3TnF2WnRyMWpYRFVsRDZXS2dTUG93?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! IBM, 시간외 3% 강세…오픈AI와 새 보안 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! AI 보험추천 불법인데… 챗GPT·제미나이는 술술? - 머니투데이 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "스마트관광 앱 ‘인천e지’, AI 여행비서 서비스 정식 출시",
-        "enTitle": "스마트관광 앱 ‘인천e지’, AI 여행비서 서비스 정식 출시",
-        "date": "2026-06-23",
-        "originalDate": "2026-06-22",
-        "sourceName": "우리일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBmd1Z3bVNod29Vb09RandhbVVnb0hlV2paMDA2eDQ4SUJ2X293elB3cWhsRHlaNFV6YWlwYmFZbnVRUWdUY0NnTE9FaHhQaEU0Qm1RQXk5OWtNUjA3Z1dkdnRKMA?oc=5",
+        "koTitle": "[요즘구글] 계획 없어도 낭만은 챙깁니다! 극P 구서방의 제미나이 200% 활용법",
+        "enTitle": "[요즘구글] 계획 없어도 낭만은 챙깁니다! 극P 구서방의 제미나이 200% 활용법",
+        "date": "2026-06-24",
+        "originalDate": "2026-06-23",
+        "sourceName": "blog.google",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTHh5STVpWkJ5YmszOUcyYXNvV3g2d2xNRFpINEp0WFRPSVQ0ck0ycHBNbmJjWVhHQnhYekp0aVRVdG5Ta1lFMk54U3QwcnpfeE5iU3hSWi1kYjBhQWJ5X09YMDA5TlNSNldEc2xlNUpETWhiQ2JlcmtKLUJXNkF0ZzZRenQxS1N1dnNhd1h5UFcwUmVGczVublhrV1FySWRW?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 스마트관광 앱 ‘인천e지’, AI 여행비서 서비스 정식 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [요즘구글] 계획 없어도 낭만은 챙깁니다! 극P 구서방의 제미나이 200% 활용법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "앤트로픽, 클로드AI·클로드코드 서비스 ‘부분 중단’…모델 오류율 급증",
-        "enTitle": "앤트로픽, 클로드AI·클로드코드 서비스 ‘부분 중단’…모델 오류율 급증",
-        "date": "2026-06-23",
-        "originalDate": "2026-06-22",
-        "sourceName": "디지털데일리",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBJTDF6MktaR290LUd3aDhnSG5zMzVMM0poNzA3RVBFTHB6UEwwMmk0U3FOTXZNaEFaVUw2LUhHMVdsMmNuRXV5a2VSN1ItMnBMN2FKUjlLNDhFR1hPVG1kNU90TVk?oc=5",
+        "koTitle": "ChatGPT와 함께 남극 횡단 사이클링 훈련하기",
+        "enTitle": "ChatGPT와 함께 남극 횡단 사이클링 훈련하기",
+        "date": "2026-06-24",
+        "originalDate": "2026-06-23",
+        "sourceName": "OpenAI",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBEc092dE5oM0ZLQmItc1hrcXItN1V0X21POWFoNmo1MktlbXZkMGYwQng4eEV3YzhxOHJUeUtPSkloNHNzM2t3Z21ZT3hoM0g2aUV4Mk5HSFFISURzMDZ1Sl90MHlJX3hW?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 클로드AI·클로드코드 서비스 ‘부분 중단’…모델 오류율 급증 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! ChatGPT와 함께 남극 횡단 사이클링 훈련하기 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
