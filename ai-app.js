@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-24
+ * 최신 업데이트: 2026-06-25
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "그레이터 보스턴의 약 35만 개의 일자리는 AI에 취약합니다. 이 차트는 가장 많이 노출되는 차트를 보여줍니다.",
-        "enTitle": "Roughly 350,000 jobs in Greater Boston are vulnerable to AI. These charts show which ones are most exposed.",
-        "date": "2026-06-24",
-        "originalDate": "2026-06-23",
-        "sourceName": "The Boston Globe",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCTHMyUzVEemV4eWpTNDdDQ2dSZl93cldjbGJFX25lcWZld2UxOWt2eWpXZENQUHdfNHpCUkxMcUtwQV9LMENTNEtETUtQYkZ5MzJ6bW9kejVJa1J3ODQ3WlVVclVOV0lKTlZ3WXhXeGRiNWJ2VTBfSnJ3M2Y?oc=5",
+        "koTitle": "Chamath Palihapitiya는 AI 작업 묵시록을 거부합니다",
+        "enTitle": "Chamath Palihapitiya rejects the AI jobs apocalypse",
+        "date": "2026-06-25",
+        "originalDate": "2026-06-24",
+        "sourceName": "Axios",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QRVpjQy1EU185Z3BkMUhYc0dfcld4aGhXR281TGpkU21taWl4ZTFNZTItcEFvRkdsR3hwUHN1VzVlcnV1WnRpQVlrcGp1THpFU2Q5bG9sUU02d29icENCRm0yZlYyVmlPS2lVLTVmNHNZQmpLODRRV2V1MA?oc=5",
         "isRepublished": false,
         "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 그레이터 보스턴의 약 35만 개의 일자리는 AI에 취약합니다. 이 차트는 가장 많이 노출되는 차트를 보여줍니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! Chamath Palihapitiya는 AI 작업 묵시록을 거부합니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "인공지능의 제국: 지식의 한계와 직업의 미래 예측",
-        "enTitle": "AI’s Empire: The Limits Of Knowledge, And Predicting The Job Future",
-        "date": "2026-06-24",
-        "originalDate": "2026-06-23",
-        "sourceName": "Forbes",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYnNiOEFTQTRJMGVJYngya0U5U2lidllScDhDWmJIOHU5QU5uT2t4MHFtNlh5TnhubzhvSWNDb1pTZWlXODVxLWp3OUxDZzlMVGJQVF9lbkEzTU4yMVdmU1BfVTlCZWFJVlVRMjR1WVJwRllMbl9yNWE4b1RRdHVZVWx5a3NlbzI2NU9fb3ZIRy1hNXZPbWRwQzUzWDFBOTJ5NEVZYUNfV2xoblI0UDh0QXV0R1NNa01DdmlZVw?oc=5",
+        "koTitle": "‘전멸과 변화는 다르다’: 아마존 경영진은 수천 명의 Z세대 졸업생을 고용하면서 AI 직무 종말을 두려워한다.",
+        "enTitle": "‘Wipe out and change are different’: Amazon exec slams AI job apocalypse fears as he hires thousands of Gen Z grads",
+        "date": "2026-06-25",
+        "originalDate": "2026-06-24",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTW1aWU5zbTB3WjBZdHIwSVBGS1VlVERQN2RWeG1iQ0xSRi1ScThZX2ZyT0hwS0x0SnkwWjJBZ21Cd1JZNmJqYWlvb1Izbk83YnVCNlpxbmJYVkNWNGFRLTZ1eFd2WVdGeUJZc1BNME9rQmdxeXBibHlrY0dJWEotQ1c3UVplYlk3RUtNZzJyVGN1dzVWTmlGLXRpbTRuMXBBTnJBVW4xblZPdG50bFlPNGpaYzRPd0IzWXZvMzlmb3JiV1RNUUYxa2t1UEFyRlRLcDBMag?oc=5",
         "isRepublished": false,
         "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능의 제국: 지식의 한계와 직업의 미래 예측 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! ‘전멸과 변화는 다르다’: 아마존 경영진은 수천 명의 Z세대 졸업생을 고용하면서 AI 직무 종말을 두려워한다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "오라클은 AI에 초점을 맞추면서 21,000개의 일자리를 창출합니다.",
-        "enTitle": "Oracle Sheds 21,000 Jobs as It Sharpens Focus on AI",
-        "date": "2026-06-24",
-        "originalDate": "2026-06-23",
-        "sourceName": "WSJ",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc0JFTG9SOEstT0NWbUQwd3BkTmJXQ2FWNjQ3ZGdzQmFXZVU4QnNmX2NuUC1HRkM3VlU2R3k5Sm9mc1BBeDZiNkJwVFdicDdfUjFLQlJuRjhVMzdrd2dodVQ1Nm9rRTExNjVWU0tYLVVOQ0xzRlRyWjlKTzlqVThXZ2ppaXJ3WUxjUWI4TGZoYUxHcWFKbkxIZXFmb0dHSU8wRW9j?oc=5",
+        "koTitle": "실제로 시간을 절약하는 최고의 AI 생산성 해킹",
+        "enTitle": "Best AI Productivity Hacks That Actually Save Time",
+        "date": "2026-06-25",
+        "originalDate": "2026-06-24",
+        "sourceName": "Analytics Insight",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONXR3X01HbUQxeTU5dUlsdkZweDRRWlU3Z3JpcDVsYmdqWVhzNEx4cFRZbHZMNkpZcURRZFB6bUZRSkx5TjU4RG1HaDBBSlJ2cnJiTXYtb2d2RXBHZjRWMXNqQ3NRMGFLV1RBejl2SDdKMEplZWdadUVYYW1FWGtEd0VNRjJQVnl3RW40bDdwOWZNLURHWjlNd09XNlpmTkot0gGgAUFVX3lxTE41dHdfTUdtRDF5NTl1SWx2RnB4NFFaVTdncmlwNWxiZ2pZWHM0THhwVFlsdkw2SllxRFFkUHptRlFKTHlONThEbUdoMEFKUnZycmJNdi1vZ3ZFcEdmNFYxc2pDc1EwYUtXVEF6OXZIN0owSmVlZ1p1RVhhbUVYa0R3RU1GMlBWeXdFbjRsN3A5Zk0tREdaOU13T1c2WmZOSi0?oc=5",
         "isRepublished": false,
         "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 오라클은 AI에 초점을 맞추면서 21,000개의 일자리를 창출합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 실제로 시간을 절약하는 최고의 AI 생산성 해킹 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "AI 보험추천 불법인데… 챗GPT·제미나이는 술술? - 머니투데이",
-        "enTitle": "AI 보험추천 불법인데… 챗GPT·제미나이는 술술? - 머니투데이",
-        "date": "2026-06-24",
-        "originalDate": "2026-06-23",
-        "sourceName": "머니투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SVGhfTFRnQTVHdXROMUJIaDNNWVU3ckNIdVlQWUdMVEMwc1l1MGRWM2tkNDltSnBZVjFWQm1kN0owZk16LXFuMllMQzY2Qi1JVmpORkUzbzV6NzdOcXZadHIxalhEVWxENldLZ1NQb3fSAXBBVV95cUxNUlRoX0xUZ0E1R3V0TjFCSGgzTVlVN3JDSHVZUFlHTFRDMHNZdTBkVjNrZDQ5bUpwWVYxVkJtZDdKMGZNei1xbjJZTEM2NkItSVZqTkZFM281ejc3TnF2WnRyMWpYRFVsRDZXS2dTUG93?oc=5",
+        "koTitle": "생성형 AI 서비스 출시, 보도자료로 고객과 시장에 설명해야 하는 이유",
+        "enTitle": "생성형 AI 서비스 출시, 보도자료로 고객과 시장에 설명해야 하는 이유",
+        "date": "2026-06-25",
+        "originalDate": "2026-06-24",
+        "sourceName": "한국투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBGeHR3cVdSSnRVX3JKZkdnVElWUjNmeE55Qk9STzFvcFBQY3lPUlNxM09jYngxb0hNMnV1ZWFHUGQ4YWlaLU92eWhKQWtpMERLT2g4M3E0OHpNVGRPb3VDNGh1OWRuWmE2bGlRamx30gFuQVVfeXFMUEZ4dHdxV1JKdFVfckpmR2dUSVZSM2Z4TnlCT1JPMW9wUFBjeU9SU3EzT2NieDFvSE0ydXVlYUdQZDhhaVotT3Z5aEpBa2kwREtPaDgzcTQ4ek1UZE9vdUM0aHU5ZG5aYTZsaVFqbHc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! AI 보험추천 불법인데… 챗GPT·제미나이는 술술? - 머니투데이 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 생성형 AI 서비스 출시, 보도자료로 고객과 시장에 설명해야 하는 이유 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "[요즘구글] 계획 없어도 낭만은 챙깁니다! 극P 구서방의 제미나이 200% 활용법",
-        "enTitle": "[요즘구글] 계획 없어도 낭만은 챙깁니다! 극P 구서방의 제미나이 200% 활용법",
-        "date": "2026-06-24",
-        "originalDate": "2026-06-23",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTHh5STVpWkJ5YmszOUcyYXNvV3g2d2xNRFpINEp0WFRPSVQ0ck0ycHBNbmJjWVhHQnhYekp0aVRVdG5Ta1lFMk54U3QwcnpfeE5iU3hSWi1kYjBhQWJ5X09YMDA5TlNSNldEc2xlNUpETWhiQ2JlcmtKLUJXNkF0ZzZRenQxS1N1dnNhd1h5UFcwUmVGczVublhrV1FySWRW?oc=5",
+        "koTitle": "버즈니, 비스킷AI에 '상세페이지 숏폼 제작' 기능 출시",
+        "enTitle": "버즈니, 비스킷AI에 '상세페이지 숏폼 제작' 기능 출시",
+        "date": "2026-06-25",
+        "originalDate": "2026-06-24",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85OXhhTnl5bEZnc1lYSEY3bmhxSmowd21hT3lCLUZXaXFkS0dmMjdqS3M3MDFTWWQ0RWhTWkFhZE8waEdSUXdMdktKV2hXQ3dVdEYtZGNSWndxeU9fYjN3SVhwS3c4dlhLREE?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [요즘구글] 계획 없어도 낭만은 챙깁니다! 극P 구서방의 제미나이 200% 활용법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 버즈니, 비스킷AI에 '상세페이지 숏폼 제작' 기능 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "ChatGPT와 함께 남극 횡단 사이클링 훈련하기",
-        "enTitle": "ChatGPT와 함께 남극 횡단 사이클링 훈련하기",
-        "date": "2026-06-24",
-        "originalDate": "2026-06-23",
-        "sourceName": "OpenAI",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBEc092dE5oM0ZLQmItc1hrcXItN1V0X21POWFoNmo1MktlbXZkMGYwQng4eEV3YzhxOHJUeUtPSkloNHNzM2t3Z21ZT3hoM0g2aUV4Mk5HSFFISURzMDZ1Sl90MHlJX3hW?oc=5",
+        "koTitle": "한국식품안전관리인증원, AI 인공지능 기반 식품안전 혁신 성과로 대통령 표창 화제",
+        "enTitle": "한국식품안전관리인증원, AI 인공지능 기반 식품안전 혁신 성과로 대통령 표창 화제",
+        "date": "2026-06-25",
+        "originalDate": "2026-06-24",
+        "sourceName": "한국농촌경제신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uSTYxaDM0bkE4d2dreHNTQlMwX01Pb1ZDdVJsRmd4N1NFOUhoNXk5a0lock5QaFNla0N6dVBKQXkyY3hxaXkyc3dheGswS1BZRzdRMkF5Tldtb2pUS2dTaA?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! ChatGPT와 함께 남극 횡단 사이클링 훈련하기 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 한국식품안전관리인증원, AI 인공지능 기반 식품안전 혁신 성과로 대통령 표창 화제 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
