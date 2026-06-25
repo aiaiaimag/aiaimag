@@ -1,7 +1,7 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-25
+ * 최신 업데이트: 2026-06-26
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
@@ -10,38 +10,38 @@ const aiNewsData = [
         "rank": 1,
         "koTitle": "Chamath Palihapitiya는 AI 작업 묵시록을 거부합니다",
         "enTitle": "Chamath Palihapitiya rejects the AI jobs apocalypse",
-        "date": "2026-06-25",
+        "date": "2026-06-26",
         "originalDate": "2026-06-24",
         "sourceName": "Axios",
         "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QRVpjQy1EU185Z3BkMUhYc0dfcld4aGhXR281TGpkU21taWl4ZTFNZTItcEFvRkdsR3hwUHN1VzVlcnV1WnRpQVlrcGp1THpFU2Q5bG9sUU02d29icENCRm0yZlYyVmlPS2lVLTVmNHNZQmpLODRRV2V1MA?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
+        "viralRate": "93%",
         "analysis": "글로벌 AI 트렌드 체크! Chamath Palihapitiya는 AI 작업 묵시록을 거부합니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "‘전멸과 변화는 다르다’: 아마존 경영진은 수천 명의 Z세대 졸업생을 고용하면서 AI 직무 종말을 두려워한다.",
-        "enTitle": "‘Wipe out and change are different’: Amazon exec slams AI job apocalypse fears as he hires thousands of Gen Z grads",
-        "date": "2026-06-25",
-        "originalDate": "2026-06-24",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTW1aWU5zbTB3WjBZdHIwSVBGS1VlVERQN2RWeG1iQ0xSRi1ScThZX2ZyT0hwS0x0SnkwWjJBZ21Cd1JZNmJqYWlvb1Izbk83YnVCNlpxbmJYVkNWNGFRLTZ1eFd2WVdGeUJZc1BNME9rQmdxeXBibHlrY0dJWEotQ1c3UVplYlk3RUtNZzJyVGN1dzVWTmlGLXRpbTRuMXBBTnJBVW4xblZPdG50bFlPNGpaYzRPd0IzWXZvMzlmb3JiV1RNUUYxa2t1UEFyRlRLcDBMag?oc=5",
-        "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! ‘전멸과 변화는 다르다’: 아마존 경영진은 수천 명의 Z세대 졸업생을 고용하면서 AI 직무 종말을 두려워한다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
         "koTitle": "실제로 시간을 절약하는 최고의 AI 생산성 해킹",
         "enTitle": "Best AI Productivity Hacks That Actually Save Time",
-        "date": "2026-06-25",
+        "date": "2026-06-26",
         "originalDate": "2026-06-24",
         "sourceName": "Analytics Insight",
         "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONXR3X01HbUQxeTU5dUlsdkZweDRRWlU3Z3JpcDVsYmdqWVhzNEx4cFRZbHZMNkpZcURRZFB6bUZRSkx5TjU4RG1HaDBBSlJ2cnJiTXYtb2d2RXBHZjRWMXNqQ3NRMGFLV1RBejl2SDdKMEplZWdadUVYYW1FWGtEd0VNRjJQVnl3RW40bDdwOWZNLURHWjlNd09XNlpmTkot0gGgAUFVX3lxTE41dHdfTUdtRDF5NTl1SWx2RnB4NFFaVTdncmlwNWxiZ2pZWHM0THhwVFlsdkw2SllxRFFkUHptRlFKTHlONThEbUdoMEFKUnZycmJNdi1vZ3ZFcEdmNFYxc2pDc1EwYUtXVEF6OXZIN0owSmVlZ1p1RVhhbUVYa0R3RU1GMlBWeXdFbjRsN3A5Zk0tREdaOU13T1c2WmZOSi0?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
+        "viralRate": "92%",
         "analysis": "글로벌 AI 트렌드 체크! 실제로 시간을 절약하는 최고의 AI 생산성 해킹 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
+        "koTitle": "‘전멸과 변화는 다르다’: 아마존 경영진은 수천 명의 Z세대 졸업생을 고용하면서 AI 직무 종말을 두려워한다.",
+        "enTitle": "‘Wipe out and change are different’: Amazon exec slams AI job apocalypse fears as he hires thousands of Gen Z grads",
+        "date": "2026-06-26",
+        "originalDate": "2026-06-24",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTW1aWU5zbTB3WjBZdHIwSVBGS1VlVERQN2RWeG1iQ0xSRi1ScThZX2ZyT0hwS0x0SnkwWjJBZ21Cd1JZNmJqYWlvb1Izbk83YnVCNlpxbmJYVkNWNGFRLTZ1eFd2WVdGeUJZc1BNME9rQmdxeXBibHlrY0dJWEotQ1c3UVplYlk3RUtNZzJyVGN1dzVWTmlGLXRpbTRuMXBBTnJBVW4xblZPdG50bFlPNGpaYzRPd0IzWXZvMzlmb3JiV1RNUUYxa2t1UEFyRlRLcDBMag?oc=5",
+        "isRepublished": false,
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! ‘전멸과 변화는 다르다’: 아마존 경영진은 수천 명의 Z세대 졸업생을 고용하면서 AI 직무 종말을 두려워한다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "생성형 AI 서비스 출시, 보도자료로 고객과 시장에 설명해야 하는 이유",
-        "enTitle": "생성형 AI 서비스 출시, 보도자료로 고객과 시장에 설명해야 하는 이유",
-        "date": "2026-06-25",
-        "originalDate": "2026-06-24",
-        "sourceName": "한국투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBGeHR3cVdSSnRVX3JKZkdnVElWUjNmeE55Qk9STzFvcFBQY3lPUlNxM09jYngxb0hNMnV1ZWFHUGQ4YWlaLU92eWhKQWtpMERLT2g4M3E0OHpNVGRPb3VDNGh1OWRuWmE2bGlRamx30gFuQVVfeXFMUEZ4dHdxV1JKdFVfckpmR2dUSVZSM2Z4TnlCT1JPMW9wUFBjeU9SU3EzT2NieDFvSE0ydXVlYUdQZDhhaVotT3Z5aEpBa2kwREtPaDgzcTQ4ek1UZE9vdUM0aHU5ZG5aYTZsaVFqbHc?oc=5",
+        "koTitle": "WP “챗GPT는 AI 중 가장 좌파…제미나이·클로드는 중립”",
+        "enTitle": "WP “챗GPT는 AI 중 가장 좌파…제미나이·클로드는 중립”",
+        "date": "2026-06-26",
+        "originalDate": "2026-06-25",
+        "sourceName": "문화일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1BamtzM3hXT0RHNy1DeVpfcHBxWlZrRXUtSHIwU01SZmxwNlpKdHpDQVJFMmxaTzNhaXpHRTdpQnMtWjlJcDE0RDdodnVpWDlF?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 생성형 AI 서비스 출시, 보도자료로 고객과 시장에 설명해야 하는 이유 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! WP “챗GPT는 AI 중 가장 좌파…제미나이·클로드는 중립” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "버즈니, 비스킷AI에 '상세페이지 숏폼 제작' 기능 출시",
-        "enTitle": "버즈니, 비스킷AI에 '상세페이지 숏폼 제작' 기능 출시",
-        "date": "2026-06-25",
-        "originalDate": "2026-06-24",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85OXhhTnl5bEZnc1lYSEY3bmhxSmowd21hT3lCLUZXaXFkS0dmMjdqS3M3MDFTWWQ0RWhTWkFhZE8waEdSUXdMdktKV2hXQ3dVdEYtZGNSWndxeU9fYjN3SVhwS3c4dlhLREE?oc=5",
+        "koTitle": "﻿클로드 오푸스급 성능, 이제 누구나 무료로 쓴다 ﻿[정원훈의 AI 트렌드]",
+        "enTitle": "﻿클로드 오푸스급 성능, 이제 누구나 무료로 쓴다 ﻿[정원훈의 AI 트렌드]",
+        "date": "2026-06-26",
+        "originalDate": "2026-06-25",
+        "sourceName": "IT조선",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBlYzNRZ2UzYnFGUHgyYUNLbjBHbEt1YTQ1QlZQZnBEOWcyakNXdVhkd3V5MmFJT2I4djFsSmozVjFTZTVTSmJBcm5uNC1Bd2phSzN4RlFFV19hSjdpNmhkLUNkTVVHbXJycnJxZDNFLVjSAXRBVV95cUxPanZLMDhZM0d0TW9vdElaU2pYYjJpSGhBb1R3UDI3MzUxdnBZTnBCaVZGY2MwTWRsY0ZtVXJHeXhuV1QyVFJrS0ZqMkVhNE90OEkxMFhqdE13bUZXcGRXSDJYOGNybkU4RFFiY1R1aFQwck5ESg?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 버즈니, 비스킷AI에 '상세페이지 숏폼 제작' 기능 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! ﻿클로드 오푸스급 성능, 이제 누구나 무료로 쓴다 ﻿[정원훈의 AI 트렌드] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "한국식품안전관리인증원, AI 인공지능 기반 식품안전 혁신 성과로 대통령 표창 화제",
-        "enTitle": "한국식품안전관리인증원, AI 인공지능 기반 식품안전 혁신 성과로 대통령 표창 화제",
-        "date": "2026-06-25",
-        "originalDate": "2026-06-24",
-        "sourceName": "한국농촌경제신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uSTYxaDM0bkE4d2dreHNTQlMwX01Pb1ZDdVJsRmd4N1NFOUhoNXk5a0lock5QaFNla0N6dVBKQXkyY3hxaXkyc3dheGswS1BZRzdRMkF5Tldtb2pUS2dTaA?oc=5",
+        "koTitle": "[단독] “강남에 콘센트 있는 넓은 카페 추천해줘“… 네이버, 대화로 검색하는 ‘AI탭’ 정식 출시",
+        "enTitle": "[단독] “강남에 콘센트 있는 넓은 카페 추천해줘“… 네이버, 대화로 검색하는 ‘AI탭’ 정식 출시",
+        "date": "2026-06-26",
+        "originalDate": "2026-06-25",
+        "sourceName": "조선일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLXFGY1pqYmxLLUlzcHZaYk9FYlNfczVrZ3d0clpnMXB6VmFVZ0pScDRKQmYwdHdXaTlnb3Z1ZlFaMzZ3bGxpU1lrLUJfVE9DeXdYZjZBX0pybHNnOV9XZ1k3eHgwRTZtR2x0X2hVWEttVXFWeVIyT2NwelJUbUNYcXpOTQ?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 한국식품안전관리인증원, AI 인공지능 기반 식품안전 혁신 성과로 대통령 표창 화제 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! [단독] “강남에 콘센트 있는 넓은 카페 추천해줘“… 네이버, 대화로 검색하는 ‘AI탭’ 정식 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
