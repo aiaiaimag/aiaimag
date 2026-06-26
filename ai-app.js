@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-26
+ * 최신 업데이트: 2026-06-27
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Chamath Palihapitiya는 AI 작업 묵시록을 거부합니다",
-        "enTitle": "Chamath Palihapitiya rejects the AI jobs apocalypse",
-        "date": "2026-06-26",
-        "originalDate": "2026-06-24",
-        "sourceName": "Axios",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QRVpjQy1EU185Z3BkMUhYc0dfcld4aGhXR281TGpkU21taWl4ZTFNZTItcEFvRkdsR3hwUHN1VzVlcnV1WnRpQVlrcGp1THpFU2Q5bG9sUU02d29icENCRm0yZlYyVmlPS2lVLTVmNHNZQmpLODRRV2V1MA?oc=5",
+        "koTitle": "일의 미래는 AI에 관한 것이 아닙니다. 우리에 관한 것입니다.",
+        "enTitle": "The Future Of Work Isn’t About AI. It’s About Us.",
+        "date": "2026-06-27",
+        "originalDate": "2026-06-26",
+        "sourceName": "Forbes",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTDNxMDZPUzRiRTJtQndBZVZiNm1pS1Fad1dNMTBfQ2FmU1FuM3B6RV9UNDljU1Y5dDZ4VlpPRWxsekJibWJ2YkpfbHRuOXdqZXlWS0pKT2hpdG16QVJqTjFLV3JXT0U2U1huZlVkM2dnczh6S184UDFGR21RRjFEU0J0NGtNRVJUVUk2bGktMUpkeWloWm83TnRCT21xQlk0VWNwVQ?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! Chamath Palihapitiya는 AI 작업 묵시록을 거부합니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 일의 미래는 AI에 관한 것이 아닙니다. 우리에 관한 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "실제로 시간을 절약하는 최고의 AI 생산성 해킹",
-        "enTitle": "Best AI Productivity Hacks That Actually Save Time",
-        "date": "2026-06-26",
-        "originalDate": "2026-06-24",
-        "sourceName": "Analytics Insight",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONXR3X01HbUQxeTU5dUlsdkZweDRRWlU3Z3JpcDVsYmdqWVhzNEx4cFRZbHZMNkpZcURRZFB6bUZRSkx5TjU4RG1HaDBBSlJ2cnJiTXYtb2d2RXBHZjRWMXNqQ3NRMGFLV1RBejl2SDdKMEplZWdadUVYYW1FWGtEd0VNRjJQVnl3RW40bDdwOWZNLURHWjlNd09XNlpmTkot0gGgAUFVX3lxTE41dHdfTUdtRDF5NTl1SWx2RnB4NFFaVTdncmlwNWxiZ2pZWHM0THhwVFlsdkw2SllxRFFkUHptRlFKTHlONThEbUdoMEFKUnZycmJNdi1vZ3ZFcEdmNFYxc2pDc1EwYUtXVEF6OXZIN0owSmVlZ1p1RVhhbUVYa0R3RU1GMlBWeXdFbjRsN3A5Zk0tREdaOU13T1c2WmZOSi0?oc=5",
+        "koTitle": "인공지능의 제국: 지식의 한계와 직업의 미래 예측",
+        "enTitle": "AI’s Empire: The Limits Of Knowledge, And Predicting The Job Future",
+        "date": "2026-06-27",
+        "originalDate": "2026-06-26",
+        "sourceName": "CityWatch LA",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQWlldGoyOW9EZTAzN00wNHZrdmw2Qy1fUnU2WXkxMmhmbmFWRDZ2XzB1Ym5Dc3hLcmhKa0M2QTY2TzRqNDczT2cwWTRnWkNGRW1aT3l2b3IwY2VOcXZhblVxS1hldlg1Z3BvaWdERUJGbmZTZzJlRDNsUW8wV0xBZkdHN3BBVXg1SGRYNFpYMmExZ3JWSUNyWDRjbGdPUUZRdGJ5SnIwZjJZSkRZVnNnUG1CSkY?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 실제로 시간을 절약하는 최고의 AI 생산성 해킹 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능의 제국: 지식의 한계와 직업의 미래 예측 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "‘전멸과 변화는 다르다’: 아마존 경영진은 수천 명의 Z세대 졸업생을 고용하면서 AI 직무 종말을 두려워한다.",
-        "enTitle": "‘Wipe out and change are different’: Amazon exec slams AI job apocalypse fears as he hires thousands of Gen Z grads",
-        "date": "2026-06-26",
-        "originalDate": "2026-06-24",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTW1aWU5zbTB3WjBZdHIwSVBGS1VlVERQN2RWeG1iQ0xSRi1ScThZX2ZyT0hwS0x0SnkwWjJBZ21Cd1JZNmJqYWlvb1Izbk83YnVCNlpxbmJYVkNWNGFRLTZ1eFd2WVdGeUJZc1BNME9rQmdxeXBibHlrY0dJWEotQ1c3UVplYlk3RUtNZzJyVGN1dzVWTmlGLXRpbTRuMXBBTnJBVW4xblZPdG50bFlPNGpaYzRPd0IzWXZvMzlmb3JiV1RNUUYxa2t1UEFyRlRLcDBMag?oc=5",
+        "koTitle": "인도의 QS 도약은 더 큰 의문을 불러일으킵니다. 우리의 일자리는 미래 준비가 되어 있습니까?",
+        "enTitle": "India's QS leap raises a bigger question: Are our jobs future-ready?",
+        "date": "2026-06-27",
+        "originalDate": "2026-06-26",
+        "sourceName": "India Today",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPVVlXME5FZVRfUVpZSHNUNEJTYlBqS2RMbGhGTG1yMW1ra2ZXU3hFbjlxVHpfei1ZUFpYSjBVcGpnRmtqcnBOX1VjOHBJMFJxUHdqRUJYbjlXR1JEUm81V0hEUDM1NExlWDlfSzdPVzZDQkdvVGVzME44VjF3T2VMSmFBQXFDSTRUNVRUcnkxWl84THdTdTNSYXpwMzdGdEp0NllmVEFSQWRUY0dqV2NhSHJ6YkMxamlfX3VpQVVIcV9pX2pWNlRLQk8wQVMxUFZIN1VmWXR6UXVYSnBwbHlHbkQyTmVMX3fSAewBQVVfeXFMT1FOU3FlRTg2YjR6RHk4T2N3LWV0RVBQcW9pejFyRXNvNU5JTk0wTTI3LTl2bUpndmRMQUxpd3ZyOVd3T0pPOHJocnY2cGtYOHlTN0xSVzlyZFg0SHhFVW04UGd0VndQdC1CQTR2N0d4VmtDU0VRSHlCbGVqTnpydlN1VHFLVzRDV1J2ckxxektnVFZ2Ui1kUGRCVHJfd1l5RE91ZDlDaWdqUzdVckZIUWswR2kwS3hkbkNQVzVhN2FpRmJRbHJ6ZGdaYmhKbFF3ZUhYS1ZfWU9INEFIX2V3dHQwbjdTTFIzTjNVV1M?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! ‘전멸과 변화는 다르다’: 아마존 경영진은 수천 명의 Z세대 졸업생을 고용하면서 AI 직무 종말을 두려워한다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 인도의 QS 도약은 더 큰 의문을 불러일으킵니다. 우리의 일자리는 미래 준비가 되어 있습니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "WP “챗GPT는 AI 중 가장 좌파…제미나이·클로드는 중립”",
-        "enTitle": "WP “챗GPT는 AI 중 가장 좌파…제미나이·클로드는 중립”",
-        "date": "2026-06-26",
-        "originalDate": "2026-06-25",
-        "sourceName": "문화일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1BamtzM3hXT0RHNy1DeVpfcHBxWlZrRXUtSHIwU01SZmxwNlpKdHpDQVJFMmxaTzNhaXpHRTdpQnMtWjlJcDE0RDdodnVpWDlF?oc=5",
+        "koTitle": "[요즘구글] 계획 없어도 낭만은 챙깁니다! 극P 구서방의 제미나이 200% 활용법",
+        "enTitle": "[요즘구글] 계획 없어도 낭만은 챙깁니다! 극P 구서방의 제미나이 200% 활용법",
+        "date": "2026-06-27",
+        "originalDate": "2026-06-26",
+        "sourceName": "blog.google",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTHh5STVpWkJ5YmszOUcyYXNvV3g2d2xNRFpINEp0WFRPSVQ0ck0ycHBNbmJjWVhHQnhYekp0aVRVdG5Ta1lFMk54U3QwcnpfeE5iU3hSWi1kYjBhQWJ5X09YMDA5TlNSNldEc2xlNUpETWhiQ2JlcmtKLUJXNkF0ZzZRenQxS1N1dnNhd1h5UFcwUmVGczVublhrV1FySWRW?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! WP “챗GPT는 AI 중 가장 좌파…제미나이·클로드는 중립” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [요즘구글] 계획 없어도 낭만은 챙깁니다! 극P 구서방의 제미나이 200% 활용법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "﻿클로드 오푸스급 성능, 이제 누구나 무료로 쓴다 ﻿[정원훈의 AI 트렌드]",
-        "enTitle": "﻿클로드 오푸스급 성능, 이제 누구나 무료로 쓴다 ﻿[정원훈의 AI 트렌드]",
-        "date": "2026-06-26",
-        "originalDate": "2026-06-25",
-        "sourceName": "IT조선",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBlYzNRZ2UzYnFGUHgyYUNLbjBHbEt1YTQ1QlZQZnBEOWcyakNXdVhkd3V5MmFJT2I4djFsSmozVjFTZTVTSmJBcm5uNC1Bd2phSzN4RlFFV19hSjdpNmhkLUNkTVVHbXJycnJxZDNFLVjSAXRBVV95cUxPanZLMDhZM0d0TW9vdElaU2pYYjJpSGhBb1R3UDI3MzUxdnBZTnBCaVZGY2MwTWRsY0ZtVXJHeXhuV1QyVFJrS0ZqMkVhNE90OEkxMFhqdE13bUZXcGRXSDJYOGNybkU4RFFiY1R1aFQwck5ESg?oc=5",
+        "koTitle": "[AI 이슈트렌드] 월드컵 충격패 속 마이크론·스페이스X 증시 변동성 주목",
+        "enTitle": "[AI 이슈트렌드] 월드컵 충격패 속 마이크론·스페이스X 증시 변동성 주목",
+        "date": "2026-06-27",
+        "originalDate": "2026-06-26",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TTnVmc1VNNE9SWThwMWE3ZUZsM0ZhLUFSeF9KVEtxcDFuWHJJYVhFWURkYXFtQ3RURVRzREYyWGJFc05WNVRiYVY2YUJmT0dLbXpxZzhpN2F5YU1UaDlDb0JMYUJRYURJVWc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! ﻿클로드 오푸스급 성능, 이제 누구나 무료로 쓴다 ﻿[정원훈의 AI 트렌드] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [AI 이슈트렌드] 월드컵 충격패 속 마이크론·스페이스X 증시 변동성 주목 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "[단독] “강남에 콘센트 있는 넓은 카페 추천해줘“… 네이버, 대화로 검색하는 ‘AI탭’ 정식 출시",
-        "enTitle": "[단독] “강남에 콘센트 있는 넓은 카페 추천해줘“… 네이버, 대화로 검색하는 ‘AI탭’ 정식 출시",
-        "date": "2026-06-26",
-        "originalDate": "2026-06-25",
-        "sourceName": "조선일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLXFGY1pqYmxLLUlzcHZaYk9FYlNfczVrZ3d0clpnMXB6VmFVZ0pScDRKQmYwdHdXaTlnb3Z1ZlFaMzZ3bGxpU1lrLUJfVE9DeXdYZjZBX0pybHNnOV9XZ1k3eHgwRTZtR2x0X2hVWEttVXFWeVIyT2NwelJUbUNYcXpOTQ?oc=5",
+        "koTitle": "네이버, 대화형 검색 서비스 'AI탭' 정식 출시…전체 이용자로 확대",
+        "enTitle": "네이버, 대화형 검색 서비스 'AI탭' 정식 출시…전체 이용자로 확대",
+        "date": "2026-06-27",
+        "originalDate": "2026-06-26",
+        "sourceName": "더팩트",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tNG1BWDZ2UEZ5c0Q3T2ZSUTBXWm9yUFZSX2NWUUJSQ1B4NHFWMUxpVUgyUDZHZC1mcVdGLTE4dVhnbkVDM1ZaSkRONGU4ZDZnWjMtQ2ZzaGtrUdIBVEFVX3lxTE1SbHRNMWNKdFpSRzdYTXctbzkzLUFVYk1MZ0NxaFNpRFhlaGRGY1JzYWttR3NNbWdhbUxLc2xZbXRkSEtETGdmWjdnMXF4cFA0MFlaSg?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [단독] “강남에 콘센트 있는 넓은 카페 추천해줘“… 네이버, 대화로 검색하는 ‘AI탭’ 정식 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 네이버, 대화형 검색 서비스 'AI탭' 정식 출시…전체 이용자로 확대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
