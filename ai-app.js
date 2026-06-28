@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-28
+ * 최신 업데이트: 2026-06-29
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "일의 미래는 AI에 관한 것이 아닙니다. 우리에 관한 것입니다.",
-        "enTitle": "The Future Of Work Isn’t About AI. It’s About Us.",
-        "date": "2026-06-28",
-        "originalDate": "2026-06-26",
-        "sourceName": "Forbes",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTDNxMDZPUzRiRTJtQndBZVZiNm1pS1Fad1dNMTBfQ2FmU1FuM3B6RV9UNDljU1Y5dDZ4VlpPRWxsekJibWJ2YkpfbHRuOXdqZXlWS0pKT2hpdG16QVJqTjFLV3JXT0U2U1huZlVkM2dnczh6S184UDFGR21RRjFEU0J0NGtNRVJUVUk2bGktMUpkeWloWm83TnRCT21xQlk0VWNwVQ?oc=5",
+        "koTitle": "AWS CEO 매트 가먼 (Matt Garman) 은 주니어 직원을 대체하는 AI가 비즈니스에 좋지 않다고 말합니다.",
+        "enTitle": "AWS CEO Matt Garman says AI displacing junior employees is bad for business",
+        "date": "2026-06-29",
+        "originalDate": "2026-06-28",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWE9Od3F5S1p3UFNGM1Rwbm9ha2dWUEpDQmdTdERsLXR2cERNMW1JMFI2NEN1VWkxcm9ydHg3Q0QwVEVvd3pjZFNXTUpMU0hfaTV5TFA4eFIyV0lHZU5ZWVpyUTVfcThEZkxrWkY1S2ZudzBNMElGN1B6TkJyc2FDWGpKM0xIc0JhRVBtREFIWDJoUkxxMS1SdWd5MUZOc1MxV21jN2xQNFdJQ3ZjZDNkOVd0NGxBaVNMUndKOXMwcTNFT2lqWnNYQjdXcGc?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 일의 미래는 AI에 관한 것이 아닙니다. 우리에 관한 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! AWS CEO 매트 가먼 (Matt Garman) 은 주니어 직원을 대체하는 AI가 비즈니스에 좋지 않다고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "일의 미래는 AI에 관한 것이 아닙니다. 우리에 관한 것입니다.",
+        "enTitle": "The Future Of Work Isn’t About AI. It’s About Us.",
+        "date": "2026-06-29",
+        "originalDate": "2026-06-26",
+        "sourceName": "Forbes",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTDNxMDZPUzRiRTJtQndBZVZiNm1pS1Fad1dNMTBfQ2FmU1FuM3B6RV9UNDljU1Y5dDZ4VlpPRWxsekJibWJ2YkpfbHRuOXdqZXlWS0pKT2hpdG16QVJqTjFLV3JXT0U2U1huZlVkM2dnczh6S184UDFGR21RRjFEU0J0NGtNRVJUVUk2bGktMUpkeWloWm83TnRCT21xQlk0VWNwVQ?oc=5",
+        "isRepublished": false,
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! 일의 미래는 AI에 관한 것이 아닙니다. 우리에 관한 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "인공지능의 제국: 지식의 한계와 직업의 미래 예측",
         "enTitle": "AI’s Empire: The Limits Of Knowledge, And Predicting The Job Future",
-        "date": "2026-06-28",
+        "date": "2026-06-29",
         "originalDate": "2026-06-26",
         "sourceName": "CityWatch LA",
         "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQWlldGoyOW9EZTAzN00wNHZrdmw2Qy1fUnU2WXkxMmhmbmFWRDZ2XzB1Ym5Dc3hLcmhKa0M2QTY2TzRqNDczT2cwWTRnWkNGRW1aT3l2b3IwY2VOcXZhblVxS1hldlg1Z3BvaWdERUJGbmZTZzJlRDNsUW8wV0xBZkdHN3BBVXg1SGRYNFpYMmExZ3JWSUNyWDRjbGdPUUZRdGJ5SnIwZjJZSkRZVnNnUG1CSkY?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
+        "viralRate": "91%",
         "analysis": "글로벌 AI 트렌드 체크! 인공지능의 제국: 지식의 한계와 직업의 미래 예측 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "인도의 QS 도약은 더 큰 의문을 불러일으킵니다. 우리의 일자리는 미래 준비가 되어 있습니까?",
-        "enTitle": "India's QS leap raises a bigger question: Are our jobs future-ready?",
-        "date": "2026-06-28",
-        "originalDate": "2026-06-26",
-        "sourceName": "India Today",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPVVlXME5FZVRfUVpZSHNUNEJTYlBqS2RMbGhGTG1yMW1ra2ZXU3hFbjlxVHpfei1ZUFpYSjBVcGpnRmtqcnBOX1VjOHBJMFJxUHdqRUJYbjlXR1JEUm81V0hEUDM1NExlWDlfSzdPVzZDQkdvVGVzME44VjF3T2VMSmFBQXFDSTRUNVRUcnkxWl84THdTdTNSYXpwMzdGdEp0NllmVEFSQWRUY0dqV2NhSHJ6YkMxamlfX3VpQVVIcV9pX2pWNlRLQk8wQVMxUFZIN1VmWXR6UXVYSnBwbHlHbkQyTmVMX3fSAewBQVVfeXFMT1FOU3FlRTg2YjR6RHk4T2N3LWV0RVBQcW9pejFyRXNvNU5JTk0wTTI3LTl2bUpndmRMQUxpd3ZyOVd3T0pPOHJocnY2cGtYOHlTN0xSVzlyZFg0SHhFVW04UGd0VndQdC1CQTR2N0d4VmtDU0VRSHlCbGVqTnpydlN1VHFLVzRDV1J2ckxxektnVFZ2Ui1kUGRCVHJfd1l5RE91ZDlDaWdqUzdVckZIUWswR2kwS3hkbkNQVzVhN2FpRmJRbHJ6ZGdaYmhKbFF3ZUhYS1ZfWU9INEFIX2V3dHQwbjdTTFIzTjNVV1M?oc=5",
-        "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 인도의 QS 도약은 더 큰 의문을 불러일으킵니다. 우리의 일자리는 미래 준비가 되어 있습니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "美 MBA 초봉 하락…AI에 취업문도 좁아졌다",
-        "enTitle": "美 MBA 초봉 하락…AI에 취업문도 좁아졌다",
-        "date": "2026-06-28",
-        "originalDate": "2026-06-27",
-        "sourceName": "글로벌이코노믹",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNFFrd1NSLW1PLTJyaGI2RE1hVmdLVmVYeUpYWTVyUllqQ2dDaEZyVUZxZHBlTkZsd2wxd0tzRzZ6MGh5Z3UtWGxjRjdWbmlMSG9XN21rdnhxdlotZHE5QkM5R0RFb01vbi1uV2JweDk4ZWx3bzQwb3dLN19sb1l5UzRwejBINkxx?oc=5",
+        "koTitle": "“AI로 만든 영상입니다” 경고 붙인 틱톡, 되레 수익 급감한 사연 [팩플]",
+        "enTitle": "“AI로 만든 영상입니다” 경고 붙인 틱톡, 되레 수익 급감한 사연 [팩플]",
+        "date": "2026-06-29",
+        "originalDate": "2026-06-28",
+        "sourceName": "중앙일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpMHJsOXNrZzdaWHEzWlpjMXlpaHBTT3R6aHJpQko5RjNkLV90SGd5RmNzNVMwcExvQUhQWkdQM1hicTZuTllJdGtRVlhOSmhUWDVqWUpR?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 美 MBA 초봉 하락…AI에 취업문도 좁아졌다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! “AI로 만든 영상입니다” 경고 붙인 틱톡, 되레 수익 급감한 사연 [팩플] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "제미나이 3.5 플래시에 '컴퓨터 유즈' 내장…화면 조작·검색·지도 한 번에",
-        "enTitle": "제미나이 3.5 플래시에 '컴퓨터 유즈' 내장…화면 조작·검색·지도 한 번에",
-        "date": "2026-06-28",
-        "originalDate": "2026-06-27",
-        "sourceName": "지디넷코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVM294Q2ZnZHJzWGJCVklKbUQ3ZU9EekZFeTdwUGI3WkkxVkI0QUdueGVCR3JqV3NWVFlHWXJtWkxGNlVRQ0FPSGVOdVQ0aDQ4OG9TWnln?oc=5",
+        "koTitle": "【AI 시대 소비 트렌드】 (2)AI 추천은 소비자의 선택 기준을 어떻게 바꾸는가?",
+        "enTitle": "【AI 시대 소비 트렌드】 (2)AI 추천은 소비자의 선택 기준을 어떻게 바꾸는가?",
+        "date": "2026-06-29",
+        "originalDate": "2026-06-28",
+        "sourceName": "브랜드뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0yN2hiT2hnVmdNU3c2RDgtenhTZUE1aUd0d281SDRTb3FJTDBqdjFockRjWTNGRy05VDdpZHQzWDBJSGdYY3B6ZHV3VjRUeTltS2VkcHRlTlo1cVJhZzk2MWQ0bXJ2TXVHZ25uSg?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! 제미나이 3.5 플래시에 '컴퓨터 유즈' 내장…화면 조작·검색·지도 한 번에 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 【AI 시대 소비 트렌드】 (2)AI 추천은 소비자의 선택 기준을 어떻게 바꾸는가? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "AI에 “돈 어떻게 벌어?”…회사 다니기 싫은 美 MZ가 빠진 ‘자동수익’ 정체[나우,어스]",
-        "enTitle": "AI에 “돈 어떻게 벌어?”…회사 다니기 싫은 美 MZ가 빠진 ‘자동수익’ 정체[나우,어스]",
-        "date": "2026-06-28",
-        "originalDate": "2026-06-27",
-        "sourceName": "헤럴드경제",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DdGlDMVFvN2k1dEdCVWE0SUpRbTVnd3FNc3VKbVhOZUdpVUw4aUVMTGd0c1Y3Uk1GeWptcmU5MTJ1THdLU044MFF0SGFxeWxjc3BRcUxR?oc=5",
+        "koTitle": "[미국 특징주] 구글, AI 인프라 부족에 메타 '제미나이' 사용 제한…컴퓨팅 병목 현실화",
+        "enTitle": "[미국 특징주] 구글, AI 인프라 부족에 메타 '제미나이' 사용 제한…컴퓨팅 병목 현실화",
+        "date": "2026-06-29",
+        "originalDate": "2026-06-28",
+        "sourceName": "뉴스핌",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBfSTU1ZURvNGNwUEtPWnpXZm9USXBNQS1RSVFkVzBtVXB5VmhGYXJYbGRoZ0FzbWtiZU00MTFaZlpJRlZobGxienRfeW00Z0VSNjgxS0otc0d5MGp2?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! AI에 “돈 어떻게 벌어?”…회사 다니기 싫은 美 MZ가 빠진 ‘자동수익’ 정체[나우,어스] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! [미국 특징주] 구글, AI 인프라 부족에 메타 '제미나이' 사용 제한…컴퓨팅 병목 현실화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
