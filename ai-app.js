@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-06-29
+ * 최신 업데이트: 2026-06-30
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AWS CEO 매트 가먼 (Matt Garman) 은 주니어 직원을 대체하는 AI가 비즈니스에 좋지 않다고 말합니다.",
-        "enTitle": "AWS CEO Matt Garman says AI displacing junior employees is bad for business",
-        "date": "2026-06-29",
-        "originalDate": "2026-06-28",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWE9Od3F5S1p3UFNGM1Rwbm9ha2dWUEpDQmdTdERsLXR2cERNMW1JMFI2NEN1VWkxcm9ydHg3Q0QwVEVvd3pjZFNXTUpMU0hfaTV5TFA4eFIyV0lHZU5ZWVpyUTVfcThEZkxrWkY1S2ZudzBNMElGN1B6TkJyc2FDWGpKM0xIc0JhRVBtREFIWDJoUkxxMS1SdWd5MUZOc1MxV21jN2xQNFdJQ3ZjZDNkOVd0NGxBaVNMUndKOXMwcTNFT2lqWnNYQjdXcGc?oc=5",
+        "koTitle": "AI 및 초급 직업: 초기 경력자 역할을 기술로 대체할 때 가장 큰 위험은 무엇인가요?",
+        "enTitle": "AI and entry-level jobs: What's the greatest risk in replacing early-career roles with technology?",
+        "date": "2026-06-30",
+        "originalDate": "2026-06-29",
+        "sourceName": "The World Economic Forum",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN25UcmlIT21PRC1BbWMwTjJqUmE2US1uYUlVNDNOcVFmYzJQQl9zOHZadEpjUkM3UVVBUjF1Rlc1MzRKUnRhWWllcG03d1RFbHRfaGwtXzIwN3JCSXA2WlpIZE96d3BEMWRWNzJKdHhZcXlmRFdySmVPYUVxRnZ4VnFDWmNDbHdCc0xxZ1pB?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! AWS CEO 매트 가먼 (Matt Garman) 은 주니어 직원을 대체하는 AI가 비즈니스에 좋지 않다고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 및 초급 직업: 초기 경력자 역할을 기술로 대체할 때 가장 큰 위험은 무엇인가요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "일의 미래는 AI에 관한 것이 아닙니다. 우리에 관한 것입니다.",
-        "enTitle": "The Future Of Work Isn’t About AI. It’s About Us.",
-        "date": "2026-06-29",
-        "originalDate": "2026-06-26",
-        "sourceName": "Forbes",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTDNxMDZPUzRiRTJtQndBZVZiNm1pS1Fad1dNMTBfQ2FmU1FuM3B6RV9UNDljU1Y5dDZ4VlpPRWxsekJibWJ2YkpfbHRuOXdqZXlWS0pKT2hpdG16QVJqTjFLV3JXT0U2U1huZlVkM2dnczh6S184UDFGR21RRjFEU0J0NGtNRVJUVUk2bGktMUpkeWloWm83TnRCT21xQlk0VWNwVQ?oc=5",
+        "koTitle": "인공지능 시대의 일의 가치",
+        "enTitle": "The value of work in the age of AI",
+        "date": "2026-06-30",
+        "originalDate": "2026-06-29",
+        "sourceName": "Information Age | ACS",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WbXpIMzdYV2djbF83X2xMVEd3ZHR0T041UEJNN1EzYVhucGFtUHBmTndVUjZsaHV0V2hjYnhwb0s2VHk3ampQRllnc1lOZlZaRmdWVmVMVUJ6R0FVakY5UDNNejRyZ3EyMDhlaVNFc1FpYVNjclh0RW91QkFEVTA?oc=5",
         "isRepublished": false,
         "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! 일의 미래는 AI에 관한 것이 아닙니다. 우리에 관한 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능 시대의 일의 가치 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "인공지능의 제국: 지식의 한계와 직업의 미래 예측",
-        "enTitle": "AI’s Empire: The Limits Of Knowledge, And Predicting The Job Future",
-        "date": "2026-06-29",
-        "originalDate": "2026-06-26",
-        "sourceName": "CityWatch LA",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQWlldGoyOW9EZTAzN00wNHZrdmw2Qy1fUnU2WXkxMmhmbmFWRDZ2XzB1Ym5Dc3hLcmhKa0M2QTY2TzRqNDczT2cwWTRnWkNGRW1aT3l2b3IwY2VOcXZhblVxS1hldlg1Z3BvaWdERUJGbmZTZzJlRDNsUW8wV0xBZkdHN3BBVXg1SGRYNFpYMmExZ3JWSUNyWDRjbGdPUUZRdGJ5SnIwZjJZSkRZVnNnUG1CSkY?oc=5",
+        "koTitle": "AWS CEO 매트 가먼 (Matt Garman) 은 주니어 직원을 대체하는 AI가 비즈니스에 좋지 않다고 말합니다.",
+        "enTitle": "AWS CEO Matt Garman says AI displacing junior employees is bad for business",
+        "date": "2026-06-30",
+        "originalDate": "2026-06-29",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWE9Od3F5S1p3UFNGM1Rwbm9ha2dWUEpDQmdTdERsLXR2cERNMW1JMFI2NEN1VWkxcm9ydHg3Q0QwVEVvd3pjZFNXTUpMU0hfaTV5TFA4eFIyV0lHZU5ZWVpyUTVfcThEZkxrWkY1S2ZudzBNMElGN1B6TkJyc2FDWGpKM0xIc0JhRVBtREFIWDJoUkxxMS1SdWd5MUZOc1MxV21jN2xQNFdJQ3ZjZDNkOVd0NGxBaVNMUndKOXMwcTNFT2lqWnNYQjdXcGc?oc=5",
         "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능의 제국: 지식의 한계와 직업의 미래 예측 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! AWS CEO 매트 가먼 (Matt Garman) 은 주니어 직원을 대체하는 AI가 비즈니스에 좋지 않다고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "“AI로 만든 영상입니다” 경고 붙인 틱톡, 되레 수익 급감한 사연 [팩플]",
-        "enTitle": "“AI로 만든 영상입니다” 경고 붙인 틱톡, 되레 수익 급감한 사연 [팩플]",
-        "date": "2026-06-29",
-        "originalDate": "2026-06-28",
-        "sourceName": "중앙일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpMHJsOXNrZzdaWHEzWlpjMXlpaHBTT3R6aHJpQko5RjNkLV90SGd5RmNzNVMwcExvQUhQWkdQM1hicTZuTllJdGtRVlhOSmhUWDVqWUpR?oc=5",
+        "koTitle": "AI로 취업 확률 확인하고 전략 추천…노동부, AI 고용서비스 3종 선봬",
+        "enTitle": "AI로 취업 확률 확인하고 전략 추천…노동부, AI 고용서비스 3종 선봬",
+        "date": "2026-06-30",
+        "originalDate": "2026-06-29",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1SOGVrQkhRMTlTOXR1aVg1NlJkVk1UWFhkLWxCamJMZ3czYy14c0VsakJUSEpBbm1KZ3RlTUVYUzJEVzhVWmhkRGo5eTg1Umc?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! “AI로 만든 영상입니다” 경고 붙인 틱톡, 되레 수익 급감한 사연 [팩플] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! AI로 취업 확률 확인하고 전략 추천…노동부, AI 고용서비스 3종 선봬 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "【AI 시대 소비 트렌드】 (2)AI 추천은 소비자의 선택 기준을 어떻게 바꾸는가?",
-        "enTitle": "【AI 시대 소비 트렌드】 (2)AI 추천은 소비자의 선택 기준을 어떻게 바꾸는가?",
-        "date": "2026-06-29",
-        "originalDate": "2026-06-28",
-        "sourceName": "브랜드뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0yN2hiT2hnVmdNU3c2RDgtenhTZUE1aUd0d281SDRTb3FJTDBqdjFockRjWTNGRy05VDdpZHQzWDBJSGdYY3B6ZHV3VjRUeTltS2VkcHRlTlo1cVJhZzk2MWQ0bXJ2TXVHZ25uSg?oc=5",
+        "koTitle": "AI가 취업확률 분석하고 일자리 추천까지…고용24, 맞춤형 취업 서비스 시작",
+        "enTitle": "AI가 취업확률 분석하고 일자리 추천까지…고용24, 맞춤형 취업 서비스 시작",
+        "date": "2026-06-30",
+        "originalDate": "2026-06-29",
+        "sourceName": "브릿지경제",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yQUtrMktYZmNaT3JnbXZsb3lkeGxoVHZPQVZjSEloeXVNTmxxZTNlSTV1RC01U3RfZG01RG9uaE5LanhhcTJkb2dWb2lBV0NuWXZnTmlzdVlnZw?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 【AI 시대 소비 트렌드】 (2)AI 추천은 소비자의 선택 기준을 어떻게 바꾸는가? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! AI가 취업확률 분석하고 일자리 추천까지…고용24, 맞춤형 취업 서비스 시작 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "[미국 특징주] 구글, AI 인프라 부족에 메타 '제미나이' 사용 제한…컴퓨팅 병목 현실화",
-        "enTitle": "[미국 특징주] 구글, AI 인프라 부족에 메타 '제미나이' 사용 제한…컴퓨팅 병목 현실화",
-        "date": "2026-06-29",
-        "originalDate": "2026-06-28",
-        "sourceName": "뉴스핌",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBfSTU1ZURvNGNwUEtPWnpXZm9USXBNQS1RSVFkVzBtVXB5VmhGYXJYbGRoZ0FzbWtiZU00MTFaZlpJRlZobGxienRfeW00Z0VSNjgxS0otc0d5MGp2?oc=5",
+        "koTitle": "오라클 재무 소프트웨어, AI 기반 공급망 앱 출시",
+        "enTitle": "오라클 재무 소프트웨어, AI 기반 공급망 앱 출시",
+        "date": "2026-06-30",
+        "originalDate": "2026-06-29",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGVmhQNDhFRDFMazVyX3o1OFhEWHIyby1XdEhjMS1Ya3ZGajBCejZJbVI5dWlDMlY5YUZxU1B6SVJkRFBFaUlRamhpcnQtQTFWNzRSRUdBaV9qTkJrUGxWVk04VDBMYS1TNzdRdi0zR1I?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! [미국 특징주] 구글, AI 인프라 부족에 메타 '제미나이' 사용 제한…컴퓨팅 병목 현실화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 오라클 재무 소프트웨어, AI 기반 공급망 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
