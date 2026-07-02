@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-02
+ * 최신 업데이트: 2026-07-03
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI로 인해 진로가 불확실해짐에 따라, 캔자스시티 비영리 단체는 새로운 졸업생을 안내합니다 | 오피니언",
-        "enTitle": "As AI makes career paths uncertain, Kansas City nonprofit guides new grads | Opinion",
-        "date": "2026-07-02",
-        "originalDate": "2026-07-01",
-        "sourceName": "Kansas City Star",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MRndsbWFtYXBTQ0VQYnR6N0REdWo1cTFSZTdyNVFvQ1poMm8wTGRxSnZVTHRMMmVnZXM3aUxKUmp2TUNGRExiUlJLZXlyYW5hY29TR3h1WjdkQlNMUVVvYjh3bUswelXSAWdBVV95cUxNV2NuZkJEMHdfSE5MT3FqcndyNThuOUlpSzR6aWRoaWEzdjYwUW1qdE4xbkl1UUhVcXZwUzd3aUlCeWpQdVVKVVpPUlpVcnRRWjlzVnQ1WTRaaXJ2eFdnOENydWJlLVEw?oc=5",
+        "koTitle": "채용 공고가 다시 상승합니다. 인공지능은 일자리를 창출하는 것이지 파괴하는 것이 아닌가?",
+        "enTitle": "Job Openings Rise Again. Is AI Creating Jobs, Not Destroying Them?",
+        "date": "2026-07-03",
+        "originalDate": "2026-07-02",
+        "sourceName": "24/7 Wall St.",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMEl3RnBEZDYzaEJmOVdjRzYwTFcyZlk5N0VOZHZVNEdlUXJHZVJLcm1GQXVueEQyeV9pYVFnZnNJOURxR2J0RnBoRFRHZUJ3cmN5ZzR5RlMzZFFGSnNkeGxtRVZLSGJQMGdSd0FFcDRfaEF0cXBJdW5VSDgzN3F3eXdnZHFieUVwT2VEVXhleFVzOFFwVHMtSE9OakphZVRfbHp3SDVyTlVJb1U?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "글로벌 AI 트렌드 체크! AI로 인해 진로가 불확실해짐에 따라, 캔자스시티 비영리 단체는 새로운 졸업생을 안내합니다 | 오피니언 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! 채용 공고가 다시 상승합니다. 인공지능은 일자리를 창출하는 것이지 파괴하는 것이 아닌가? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "Meta가 8,000명의 직원에게 오전 4시 해고 이메일을 보낸 지 며칠 후, CEO Mark Zuckerberg는 AI 일자리에 대한 두려움이 사라졌다고 말합니다.",
-        "enTitle": "Days after Meta sent 4 AM layoff emails to 8,000 employees, CEO Mark Zuckerberg says fears of AI job losse",
-        "date": "2026-07-02",
-        "originalDate": "2026-07-01",
-        "sourceName": "The Economic Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiygJBVV95cUxOQ3AyMFNuOW4yNEpMdjN2MTdsYUlQQXprVnpQSUNPQUVsMTZQMEdXMnVOajRyR0I1V2U4SnVFRUg1aV9qdW1UUkZGai16UjY1RzlzQjd3WlFVenZoUUZqSXZVSHZ2cWs3ZUEwUE8ybU1tWE5rRjEzY1c2VHhFY1laY19qT25RcDU3YzZjSnd0N1RVakdHQnJKLUQtbWIyZzdtT0R6RnliSWU2N1JFQWp5Q0h1b19Jdnd3V0lnaHpnRHRPREdyQW14Y1FtdTJmSXVPM2JibktBXzU3NzhoZjlNNmxYRG5kdk5WV05mRjUxdHBxcUhFYkxEQWxRSGRTcWRxWE1IVGZyYkFXUTF1SzdmZXJEOEUtY3pYZkFheU9HUkg0Q2FkYXBPcXVOQkcwLThaMXhzbEZjRElDcnN0REJYVWZnUUxmTDlzN1HSAc8CQVVfeXFMTzVLN0JNTU1mdlM4c1JJTDllUGp1RlJjT2FtOWl6dVFMcTRhbmgzNmdKODdvMkU4OU94NTBEcEp3RE9zQ3VDSWxHa1NpRDVQajBadkN5eHZyY3VOeXI5NjZPdU9XZGNoU2IwOTR3VGItU2N6X2VHdDNxRlZyTXlxdUVNbi04QkdSQWVUbkpkei1Wck14bmRHcTI3U0JsU2hGMFhhdzJyQklWT0RSMnVsY3NNMVpzZW1QLXdsMEVzbmNKTkJieVpOYVk1ZFY0N3RvV0pjalVVTlBHam1oeTQtWHVUUkE1cjExZzlDcmlrOVZJd1VJOEc4LXpVNHEwaTZyMUl1TnNJRFNnWWJVaENtWEhQeGRQdGZ1d19YWHBNVjR2cVZ2cm5GY2RqZGZZTnVPa2ZUYjU4Ql9pMkZTbDl0VVlxQlJseE1FSFBxZG56V2M?oc=5",
+        "koTitle": "Seedance 2.0 AI 비디오로 돈을 버는 3가지 게으른 방법",
+        "enTitle": "3 Lazy Ways to Make Money With Seedance 2.0 AI Video",
+        "date": "2026-07-03",
+        "originalDate": "2026-07-02",
+        "sourceName": "Ilmilog",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4yQ2ttOXNtX2l1OFVtZFBHMW9jQUwyM1BfNkM1bE1FTkU5YVE5ZmFoS3oxbmg4QnR2YlIyazQ3QzJrWkVWVzBOV1o0ZERKbm8xd0l5ZXBLVFNtOVRGVVU4MEZTZUE?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! Meta가 8,000명의 직원에게 오전 4시 해고 이메일을 보낸 지 며칠 후, CEO Mark Zuckerberg는 AI 일자리에 대한 두려움이 사라졌다고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! Seedance 2.0 AI 비디오로 돈을 버는 3가지 게으른 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "귀하의 직업이 이 목록에 포함될 수 있습니까? 인공지능이 대체할 수 있다고 생각하는 커리어의 순위를 매겼습니다",
-        "enTitle": "Could your job be on this list? AI ranked the careers it thinks it can replace",
-        "date": "2026-07-02",
-        "originalDate": "2026-06-30",
-        "sourceName": "Click2Houston",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcC1ZRjV2NUhRRHRzd1hMNEdueEY3cm9VOUJ3Q1VRbGM2R1E4RDJ3elNkYmo2ZTlMb1RfakZzZUJGNWpKUUszcUZBTlBlM1p2ZnJRNEJBenIyU0RKSjRTYlJXNi1ZeUFsT0NlNjNmQjRxVFlIWWNDVEZzZXdaSmpnNzRzdmVsZVpSTHRYREhJT0tRRzZJaXVVNnZQWjlwaDhfODEwa2hyb3hleVJSVTJTOWJjenczelprQjFpTDdfdnRqejUzNzVzd05B?oc=5",
+        "koTitle": "AI 기회 불평등: 다음 성별 임금 격차?",
+        "enTitle": "AI opportunity inequality: the next gender pay gap?",
+        "date": "2026-07-03",
+        "originalDate": "2026-07-02",
+        "sourceName": "Lewis Silkin",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOExCcWJaVVVSR0g3aHRCemlhV2hZQkhmSU92a0hFNHNMNDBsNGpBT2ZtdWtmdHQtZHg5alZxWHJwX1ViSWw3X3UtVG56S05yNW5HR2NtQl9iTWhwM2RxTXYxYU5tSl8tb3c4b3NPWHNVWm8xSnVFMXVGN2t0SjdQTXNDT2JHU3J1ZWVWcHJsQVdKeDNlYWlmNjBPRy1hQ0J2bkRhb2l0R2Fhc1dOa3JPbkZFRDJ6QW5CSlZCSFJPUVpwWndoRWlJYQ?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 귀하의 직업이 이 목록에 포함될 수 있습니까? 인공지능이 대체할 수 있다고 생각하는 커리어의 순위를 매겼습니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 기회 불평등: 다음 성별 임금 격차? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "구글 제미나이 '나노 바나나' 개인화 이미지 생성, 미국서 무료 개방",
-        "enTitle": "구글 제미나이 '나노 바나나' 개인화 이미지 생성, 미국서 무료 개방",
-        "date": "2026-07-02",
-        "originalDate": "2026-07-01",
-        "sourceName": "지디넷코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JVzdfaVRiSmRZQS0yVU1abzl1UHhRd2dwWDVDWGthaVB1dS1tTUc1dDBUV3ZqcDRzTDA3SXpqS0l3SUFCQW1jSzR3d3BlcjhRY01veGNn?oc=5",
+        "koTitle": "서울 청년은 챗GPT·제미나이 공짜…오세훈 ‘AI 사다리’ 놓는다",
+        "enTitle": "서울 청년은 챗GPT·제미나이 공짜…오세훈 ‘AI 사다리’ 놓는다",
+        "date": "2026-07-03",
+        "originalDate": "2026-07-02",
+        "sourceName": "중앙일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93QThscTh3ZmR3X29TV0piaEJtTl9fMUVqS2dqWE5DbjNtaWdpMFkwemhMWVRMWmVjZ0FrcUM3ZGNLWEVVU01oblFnZWRmVXNUM0JCaGNR?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글 제미나이 '나노 바나나' 개인화 이미지 생성, 미국서 무료 개방 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 서울 청년은 챗GPT·제미나이 공짜…오세훈 ‘AI 사다리’ 놓는다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "\"퇴사 징후 미리 파악\"...블라인드, 1400만 직장인 데이터 기반 AI 서비스 출시",
-        "enTitle": "\"퇴사 징후 미리 파악\"...블라인드, 1400만 직장인 데이터 기반 AI 서비스 출시",
-        "date": "2026-07-02",
-        "originalDate": "2026-07-01",
+        "koTitle": "앤트로픽, '클로드 코드' 중국 사용자 비밀 추적 논란…결국 기능 철회",
+        "enTitle": "앤트로픽, '클로드 코드' 중국 사용자 비밀 추적 논란…결국 기능 철회",
+        "date": "2026-07-03",
+        "originalDate": "2026-07-02",
         "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSHdwWkkzdl9LcXpRbmdVcnBEZ25RNDBYa0VXMmIwNkFIeDJRbDdYbThZZlFsMjBfbW1OTVNINU1aNEFiN1ZvMzNKVEdJSDRzNXJwZEdjdkwxcy1wVExOYlB5U3ExNlBRYlE?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TU2RaWGdiX1RxaWdMYXJHbVpBczhhOUdlU2hBdDhudU5GVndDcXlXUlFDZldxejV2QVYzR1h5eWJUX0hwZkJ4Z0FoR3JUS2xuVkdkZU9XdnloUEdKN0JqNDNteDlxT2hGY3c?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! \"퇴사 징후 미리 파악\"...블라인드, 1400만 직장인 데이터 기반 AI 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, '클로드 코드' 중국 사용자 비밀 추적 논란…결국 기능 철회 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "앤트로픽, '클로드 페이블 5·미토스 5' 수출통제 해제…7월 1일부터 서비스 순차 복원",
-        "enTitle": "앤트로픽, '클로드 페이블 5·미토스 5' 수출통제 해제…7월 1일부터 서비스 순차 복원",
-        "date": "2026-07-02",
-        "originalDate": "2026-07-01",
-        "sourceName": "인공지능신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBBN0JoblhDaGRHeUpOc1RhWVN5QUcxdlBFUmRMekxhZktvTHVpYWpKMXFteXlrald2Y3dlbWU5Ukc1TGhQQTRSRV9XOXRlU2RoN2RfbkwtMlBJTllUNnpxbUdoUzNibTg?oc=5",
+        "koTitle": "아누마AI, 모바일 앱 출시… 플랫폼 이용자 15만명 돌파",
+        "enTitle": "아누마AI, 모바일 앱 출시… 플랫폼 이용자 15만명 돌파",
+        "date": "2026-07-03",
+        "originalDate": "2026-07-02",
+        "sourceName": "IT조선",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92ZEpUYUtWV3pmOFN4RzFYdmtfVUdNSkdicndaTU9pV19iME9JX3B0eUgxMWhjRkVBSk12RUI0Mk9iamE0bVdFUW50UjZGSUd1V2RxeXRzQnJydGdVMGlOeFNleUhMUHBiQXdiMzRvb1VhQWoz0gF0QVVfeXFMT3ZkSlRhS1ZXemY4U3hHMVh2a19VR01KR2Jyd1pNT2lXX2IwT0lfcHR5SDExaGNGRUFKTXZFQjQyT2JqYTRtV0VRbnRSNkZJR3VXZHF5dHNCcnJ0Z1UwaU54U2V5SExQcGJBd2IzNG9vVWFBajM?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, '클로드 페이블 5·미토스 5' 수출통제 해제…7월 1일부터 서비스 순차 복원 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 아누마AI, 모바일 앱 출시… 플랫폼 이용자 15만명 돌파 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
