@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-03
+ * 최신 업데이트: 2026-07-04
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "채용 공고가 다시 상승합니다. 인공지능은 일자리를 창출하는 것이지 파괴하는 것이 아닌가?",
-        "enTitle": "Job Openings Rise Again. Is AI Creating Jobs, Not Destroying Them?",
-        "date": "2026-07-03",
-        "originalDate": "2026-07-02",
-        "sourceName": "24/7 Wall St.",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMEl3RnBEZDYzaEJmOVdjRzYwTFcyZlk5N0VOZHZVNEdlUXJHZVJLcm1GQXVueEQyeV9pYVFnZnNJOURxR2J0RnBoRFRHZUJ3cmN5ZzR5RlMzZFFGSnNkeGxtRVZLSGJQMGdSd0FFcDRfaEF0cXBJdW5VSDgzN3F3eXdnZHFieUVwT2VEVXhleFVzOFFwVHMtSE9OakphZVRfbHp3SDVyTlVJb1U?oc=5",
+        "koTitle": "일의 미래",
+        "enTitle": "The future of work",
+        "date": "2026-07-04",
+        "originalDate": "2026-07-03",
+        "sourceName": "Chris Skinner's blog",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5xTlpwZXRDOWNVMnQyMU9faXZIS2pKcTBTQ2dUTmpFZ2dEVHM1ZEZKZzlENVlfZGN3cnllOXZqaExXd19jWldmS1Jta3hXNE43Q2xxa1puaXdqLTZwalFB?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 채용 공고가 다시 상승합니다. 인공지능은 일자리를 창출하는 것이지 파괴하는 것이 아닌가? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "Seedance 2.0 AI 비디오로 돈을 버는 3가지 게으른 방법",
-        "enTitle": "3 Lazy Ways to Make Money With Seedance 2.0 AI Video",
-        "date": "2026-07-03",
-        "originalDate": "2026-07-02",
-        "sourceName": "Ilmilog",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4yQ2ttOXNtX2l1OFVtZFBHMW9jQUwyM1BfNkM1bE1FTkU5YVE5ZmFoS3oxbmg4QnR2YlIyazQ3QzJrWkVWVzBOV1o0ZERKbm8xd0l5ZXBLVFNtOVRGVVU4MEZTZUE?oc=5",
+        "koTitle": "소프트웨어 산업에서 일자리의 미래: 인공지능의 부상 탐색",
+        "enTitle": "The future of jobs in the software industry: Navigating the rise of AI",
+        "date": "2026-07-04",
+        "originalDate": "2026-07-03",
+        "sourceName": "University of Waterloo",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbWZHNDBJSTJQVE1WZW14Umt6NnRXdE5tUF84eUdtcFdaYjM0T3FMTUEyTDRqaVZhb09RSE1wekJici1ObEQzQVpoOWNGajRaQld4RTUtVkV1V1hhLXp0aVZ5UlZBa3RfaTBKTXBkS3dqcnowUW92VGNoMUNSNzFGT0pxNlBMRlhIZ2VYY2ZVLTdmYlNDbm5zN2tOcHN4OHFYcnU5enlsNWxYVDQt?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! Seedance 2.0 AI 비디오로 돈을 버는 3가지 게으른 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 소프트웨어 산업에서 일자리의 미래: 인공지능의 부상 탐색 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI 기회 불평등: 다음 성별 임금 격차?",
-        "enTitle": "AI opportunity inequality: the next gender pay gap?",
-        "date": "2026-07-03",
-        "originalDate": "2026-07-02",
-        "sourceName": "Lewis Silkin",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOExCcWJaVVVSR0g3aHRCemlhV2hZQkhmSU92a0hFNHNMNDBsNGpBT2ZtdWtmdHQtZHg5alZxWHJwX1ViSWw3X3UtVG56S05yNW5HR2NtQl9iTWhwM2RxTXYxYU5tSl8tb3c4b3NPWHNVWm8xSnVFMXVGN2t0SjdQTXNDT2JHU3J1ZWVWcHJsQVdKeDNlYWlmNjBPRy1hQ0J2bkRhb2l0R2Fhc1dOa3JPbkZFRDJ6QW5CSlZCSFJPUVpwWndoRWlJYQ?oc=5",
+        "koTitle": "인공지능이 직업을 대체할까요? 최신 노동 시장 데이터가 실제로 알려주는 것",
+        "enTitle": "Will AI replace your job? What the latest labour market data really tells us",
+        "date": "2026-07-04",
+        "originalDate": "2026-07-03",
+        "sourceName": "Firstpost",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOal9wZm5rQm1TR0JJZHEyOW9obTc4ejhSbzh6WElaRV9zQWo0THg0cHVSVlpkU3hXTkI1V0xxelMzclNyYW94U1RtS0tlWjNUNmhSNzQ2VWczSGt6OVpnVjVPa2ZRVXBuU0cyMlh6aVlHNGNtRXNfTmh1Wlc0QWZvbWdGdFFqVFNtODljakFER1FJOXUyUzczVkd0VVVCazM0MHNSa1pxbnl5OXNEb2dNSkFkbWhZMHN5NldtQtIBwgFBVV95cUxOWlNZel9wRlRZOElvUVVzN1FLWUI0Ym9GSWNETzFxVTE5dThjemFVVHkyYXpnaDZxSkZacG9JWDBPNlVfMkxEdnE4cmxyOVpyRnhIYVVCRGdjZmRsNmlrMU1BbnNnRWpwZGQ1OEE5SFIxVnk3OU44MXphNjZtZWRFQmVlVFNPaExNYnI4Mjc4d0xxZzJFUS1fLWh4eWFhWWRGWHhJUGw3Z1NjSXhsLUJLc2Vva21XU3BHTUtsY1dMMnhRQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 기회 불평등: 다음 성별 임금 격차? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 직업을 대체할까요? 최신 노동 시장 데이터가 실제로 알려주는 것 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "서울 청년은 챗GPT·제미나이 공짜…오세훈 ‘AI 사다리’ 놓는다",
-        "enTitle": "서울 청년은 챗GPT·제미나이 공짜…오세훈 ‘AI 사다리’ 놓는다",
-        "date": "2026-07-03",
-        "originalDate": "2026-07-02",
-        "sourceName": "중앙일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93QThscTh3ZmR3X29TV0piaEJtTl9fMUVqS2dqWE5DbjNtaWdpMFkwemhMWVRMWmVjZ0FrcUM3ZGNLWEVVU01oblFnZWRmVXNUM0JCaGNR?oc=5",
+        "koTitle": "메타, AI로 친구들과 게임 만들어 공유하는 SNS 앱 출시",
+        "enTitle": "메타, AI로 친구들과 게임 만들어 공유하는 SNS 앱 출시",
+        "date": "2026-07-04",
+        "originalDate": "2026-07-03",
+        "sourceName": "연합뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zVm95N1dINVV6dDVwLUVGam9yU0ZsZEJ4M0l6ZjB0TzNFMTMzUmxpV3ZRNzl5dnROYTIyRGJxNjl5REM0cnowWUN3TkZRWkZTZWdpV0w2X1JmUGfSAWBBVV95cUxPWDNEckEtRi1uZjhKek5FNm9XTU9WTTI5djE2QUFRU2VPcUJKUEtickdZOVZwRUttNDNBcHRMdUdOUC0wYXRjbXRUMzlzZkplN3BmV3FiUFE4dWMxREdiVlg?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 서울 청년은 챗GPT·제미나이 공짜…오세훈 ‘AI 사다리’ 놓는다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 메타, AI로 친구들과 게임 만들어 공유하는 SNS 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "앤트로픽, '클로드 코드' 중국 사용자 비밀 추적 논란…결국 기능 철회",
-        "enTitle": "앤트로픽, '클로드 코드' 중국 사용자 비밀 추적 논란…결국 기능 철회",
-        "date": "2026-07-03",
-        "originalDate": "2026-07-02",
+        "koTitle": "\"제미나이 할인받고 쓰자\"...SKT, ‘구글 AI 플랜’ 구독 서비스 출시",
+        "enTitle": "\"제미나이 할인받고 쓰자\"...SKT, ‘구글 AI 플랜’ 구독 서비스 출시",
+        "date": "2026-07-04",
+        "originalDate": "2026-07-03",
         "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TU2RaWGdiX1RxaWdMYXJHbVpBczhhOUdlU2hBdDhudU5GVndDcXlXUlFDZldxejV2QVYzR1h5eWJUX0hwZkJ4Z0FoR3JUS2xuVkdkZU9XdnloUEdKN0JqNDNteDlxT2hGY3c?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZMWNOalZmdGg0QldlX2F2ZEJlbk1fQmlGRkxzSXNTRGQ1aVFwbEJqUWFlZGVrY1duUjJHYnRtTno3SnZhV1ZvRjdidGxnZk5WV3VCSkJvcWxoOGJSRER4ZVhVVmhZdXppSUE?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, '클로드 코드' 중국 사용자 비밀 추적 논란…결국 기능 철회 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! \"제미나이 할인받고 쓰자\"...SKT, ‘구글 AI 플랜’ 구독 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "아누마AI, 모바일 앱 출시… 플랫폼 이용자 15만명 돌파",
-        "enTitle": "아누마AI, 모바일 앱 출시… 플랫폼 이용자 15만명 돌파",
-        "date": "2026-07-03",
-        "originalDate": "2026-07-02",
-        "sourceName": "IT조선",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92ZEpUYUtWV3pmOFN4RzFYdmtfVUdNSkdicndaTU9pV19iME9JX3B0eUgxMWhjRkVBSk12RUI0Mk9iamE0bVdFUW50UjZGSUd1V2RxeXRzQnJydGdVMGlOeFNleUhMUHBiQXdiMzRvb1VhQWoz0gF0QVVfeXFMT3ZkSlRhS1ZXemY4U3hHMVh2a19VR01KR2Jyd1pNT2lXX2IwT0lfcHR5SDExaGNGRUFKTXZFQjQyT2JqYTRtV0VRbnRSNkZJR3VXZHF5dHNCcnJ0Z1UwaU54U2V5SExQcGJBd2IzNG9vVWFBajM?oc=5",
+        "koTitle": "\"中알리바바, '보안 위험' 이유로 AI도구 클로드코드 사용 금지\"",
+        "enTitle": "\"中알리바바, '보안 위험' 이유로 AI도구 클로드코드 사용 금지\"",
+        "date": "2026-07-04",
+        "originalDate": "2026-07-03",
+        "sourceName": "연합뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hcWt5NmdPeGVHa0FXX084aWYzc1o1cU5PdWU3cFVia1o5bHZlQ015cXNVLWllb3IwUk9LQnlKbXdJVjZKVXBfc0R6ODdhZGNLTEt2c2FEbS1UbWfSAWBBVV95cUxPcDB0ZF9NQ3pzSkMySGdJM3IzMWM1bmdXRGdPNGZzcnJ4eVd6Z1d2ZGR4NUVZZTRWMTlkc2JzbjhuWWRIR0xGQW9CVmVGTEJVRWhyM2hCQWhfYk5DMXVxZ2g?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 아누마AI, 모바일 앱 출시… 플랫폼 이용자 15만명 돌파 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! \"中알리바바, '보안 위험' 이유로 AI도구 클로드코드 사용 금지\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
