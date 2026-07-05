@@ -1,7 +1,7 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-05
+ * 최신 업데이트: 2026-07-06
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
@@ -10,8 +10,8 @@ const aiNewsData = [
         "rank": 1,
         "koTitle": "AI가 일자리에 미치는 영향 방글라데시 | 방글라데시는 미래의 일자리에 대비하고 있습니까?",
         "enTitle": "AI Impact on Jobs Bangladesh | Is Bangladesh ready for the future of work?",
-        "date": "2026-07-05",
-        "originalDate": "2026-07-04",
+        "date": "2026-07-06",
+        "originalDate": "2026-07-05",
         "sourceName": "The Daily Star",
         "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbkRyWFl5dkIzcVIyQ2MwSWxCMVJORm9MTFlwSXFOYVIxdXYwR0hGTkV1R3A2aTMyeW0zdkNVTjlpazJtOG9FcG1vRjZhNlQtQ1ZaM19fYnBxMnhWTWRPQlg5azRKOU1udnhEV1ZGZUVqN1VNMEh6NDNCM2ZPS3pTVHQxSUdvSklTeHVFaXM2aEtlVWNNX293M2E2ZUthdw?oc=5",
         "isRepublished": false,
@@ -21,27 +21,27 @@ const aiNewsData = [
     },
     {
         "rank": 2,
-        "koTitle": "VC 마문 하미드, 인공지능, 스타트업, 그리고 일의 미래",
-        "enTitle": "VC Mamoon Hamid on AI, Startups, and the Future of Work",
-        "date": "2026-07-05",
-        "originalDate": "2026-07-04",
-        "sourceName": "StartupHub.ai",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS0xBb0VwQUVRdVA4Y1FmVE14SkNpeVEwQUpPUGxpX200SlRONE83cDlLNVFWWUhCTjd3NTRVZDlrRk9hazBZYV92TEszTnU0dW1PQ2dkcU9WR2kzX2EtN0NtMVBoY01Gdzk2LWhBbFJoX1ZCWVhlWjA3RmpSdnZTM05IMFZVZW9NM2hZV2J0UnJ3azF0NmpLeVBsTnkxWHNIYlBXRlZWZW1iM2c?oc=5",
+        "koTitle": "소프트웨어 산업에서 일자리의 미래: 인공지능의 부상 탐색",
+        "enTitle": "The future of jobs in the software industry: Navigating the rise of AI",
+        "date": "2026-07-06",
+        "originalDate": "2026-07-03",
+        "sourceName": "University of Waterloo",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbWZHNDBJSTJQVE1WZW14Umt6NnRXdE5tUF84eUdtcFdaYjM0T3FMTUEyTDRqaVZhb09RSE1wekJici1ObEQzQVpoOWNGajRaQld4RTUtVkV1V1hhLXp0aVZ5UlZBa3RfaTBKTXBkS3dqcnowUW92VGNoMUNSNzFGT0pxNlBMRlhIZ2VYY2ZVLTdmYlNDbm5zN2tOcHN4OHFYcnU5enlsNWxYVDQt?oc=5",
         "isRepublished": false,
         "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! VC 마문 하미드, 인공지능, 스타트업, 그리고 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 소프트웨어 산업에서 일자리의 미래: 인공지능의 부상 탐색 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "일의 미래",
-        "enTitle": "The future of work",
-        "date": "2026-07-05",
-        "originalDate": "2026-07-03",
-        "sourceName": "Chris Skinner's blog",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5xTlpwZXRDOWNVMnQyMU9faXZIS2pKcTBTQ2dUTmpFZ2dEVHM1ZEZKZzlENVlfZGN3cnllOXZqaExXd19jWldmS1Jta3hXNE43Q2xxa1puaXdqLTZwalFB?oc=5",
+        "koTitle": "채용 공고가 다시 상승합니다. 인공지능은 일자리를 창출하는 것이지 파괴하는 것이 아닌가?",
+        "enTitle": "Job Openings Rise Again. Is AI Creating Jobs, Not Destroying Them?",
+        "date": "2026-07-06",
+        "originalDate": "2026-07-02",
+        "sourceName": "24/7 Wall St.",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMEl3RnBEZDYzaEJmOVdjRzYwTFcyZlk5N0VOZHZVNEdlUXJHZVJLcm1GQXVueEQyeV9pYVFnZnNJOURxR2J0RnBoRFRHZUJ3cmN5ZzR5RlMzZFFGSnNkeGxtRVZLSGJQMGdSd0FFcDRfaEF0cXBJdW5VSDgzN3F3eXdnZHFieUVwT2VEVXhleFVzOFFwVHMtSE9OakphZVRfbHp3SDVyTlVJb1U?oc=5",
         "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "글로벌 AI 트렌드 체크! 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! 채용 공고가 다시 상승합니다. 인공지능은 일자리를 창출하는 것이지 파괴하는 것이 아닌가? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "메타, 앤트로픽 '클로드' 직접 서비스 추진...\"클라우드 진입 준비\"",
-        "enTitle": "메타, 앤트로픽 '클로드' 직접 서비스 추진...\"클라우드 진입 준비\"",
-        "date": "2026-07-05",
-        "originalDate": "2026-07-04",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CSEJFX3VEUmhKOUUwVHFXbi1kLTV3UzB1emNBOXF2aHVES21Kck12VTRGTnBOVHJLWTZ3T1FUUW9FMGZ1ejZjWWVZMUVtNmR1Zzh6QjFfWkxOWFJ6Tkl0aGhLWGFyZE5tVXc?oc=5",
+        "koTitle": "[이슈&논란] 구글 지도+제미나이 AI, 이젠 주문·배달까지?…배민·쿠팡이츠·요기요 배달앱 체제에 일격 가할까",
+        "enTitle": "[이슈&논란] 구글 지도+제미나이 AI, 이젠 주문·배달까지?…배민·쿠팡이츠·요기요 배달앱 체제에 일격 가할까",
+        "date": "2026-07-06",
+        "originalDate": "2026-07-05",
+        "sourceName": "뉴스스페이스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QMGNxWjZONWJnSmVRM0RsNHhPOThOTTdYeEdXcnRPXzY0eGIySHYzSmc3OUpXNFFMTDM4LUdQcVVJZVJLNlQwaGFTQVJkQ2t4VkhObXB6VGctRFZBME1XZQ?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 메타, 앤트로픽 '클로드' 직접 서비스 추진...\"클라우드 진입 준비\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! [이슈&논란] 구글 지도+제미나이 AI, 이젠 주문·배달까지?…배민·쿠팡이츠·요기요 배달앱 체제에 일격 가할까 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "[AI 이슈트렌드] 월드컵 32강 탈락 속 '호남 반도체 투자' 논란 주목",
-        "enTitle": "[AI 이슈트렌드] 월드컵 32강 탈락 속 '호남 반도체 투자' 논란 주목",
-        "date": "2026-07-05",
-        "originalDate": "2026-07-04",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtc0JrRmtXVVdqQ1RGNk56ejYyb3dQY28zMW9SWXF3cWo0VHJQM1dxb21MVFdoSGxHLTl4Ny1mSXgxZk9KWDVnWkdjQ25zeF9lcHRWaUdaZUNLU2xVOHAxSmtxQjU2Z1JBd0E?oc=5",
+        "koTitle": "돌아온 '클로드 페이블5' 기대 이하…강화된 안전장치 불만",
+        "enTitle": "돌아온 '클로드 페이블5' 기대 이하…강화된 안전장치 불만",
+        "date": "2026-07-06",
+        "originalDate": "2026-07-05",
+        "sourceName": "지디넷코리아",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5mSVpZeEJ3TENiMEg0aU5lLW8wUEU1eTlMZUV1SHFZRzF2N05TR3lkZUozQ2Vvd1pqQ0J6c0p0VXlTNks3QjVwWEd5alhfV1dpblVaeFRR?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI 이슈트렌드] 월드컵 32강 탈락 속 '호남 반도체 투자' 논란 주목 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 돌아온 '클로드 페이블5' 기대 이하…강화된 안전장치 불만 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "[인공지능 줌인] \"AI를 많이 쓸수록 인간의 판단력이 약해진다\"…과학자들이 경고한 '감독의 역설'",
-        "enTitle": "[인공지능 줌인] \"AI를 많이 쓸수록 인간의 판단력이 약해진다\"…과학자들이 경고한 '감독의 역설'",
-        "date": "2026-07-05",
-        "originalDate": "2026-07-04",
-        "sourceName": "위키리크스한국",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9kRVdxLWtlcHRYZGFjUXZMVk5WTVpGbnJYU21mTW1Kc2RsTFNPRkwtUlVlc0JHLXRZZHJFWFdXenUydHBiOGo0Nl9rMXgyeVlqelQ2NWw1eUkyaTc0WDI5QmRIS2FnblJRYTUzdC1sdw?oc=5",
+        "koTitle": "반도체 쏠림에 갇힌 美 증시… 돈은 AI 서비스 아닌 인프라가 번다",
+        "enTitle": "반도체 쏠림에 갇힌 美 증시… 돈은 AI 서비스 아닌 인프라가 번다",
+        "date": "2026-07-06",
+        "originalDate": "2026-07-05",
+        "sourceName": "글로벌이코노믹",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU3Z4NW5uQ1Mzdy1iN1V0V3pGNUtWdkdJcnZDQlE1UXVJQWtCN3NxZjVHbzBGemdkVmVneWZTenNmUXkxb3BaT2kybzMzS1p0LVg5S0FRR1FIZ2Z1dFkxYzJxaFJ5ZVNBSkx5YWlYdDlKQlZKLTI4dGNMR0tiWHRuX3FkUXc3WEh3?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! [인공지능 줌인] \"AI를 많이 쓸수록 인간의 판단력이 약해진다\"…과학자들이 경고한 '감독의 역설' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 반도체 쏠림에 갇힌 美 증시… 돈은 AI 서비스 아닌 인프라가 번다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
