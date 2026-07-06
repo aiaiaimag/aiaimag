@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-06
+ * 최신 업데이트: 2026-07-07
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI가 일자리에 미치는 영향 방글라데시 | 방글라데시는 미래의 일자리에 대비하고 있습니까?",
-        "enTitle": "AI Impact on Jobs Bangladesh | Is Bangladesh ready for the future of work?",
-        "date": "2026-07-06",
-        "originalDate": "2026-07-05",
-        "sourceName": "The Daily Star",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbkRyWFl5dkIzcVIyQ2MwSWxCMVJORm9MTFlwSXFOYVIxdXYwR0hGTkV1R3A2aTMyeW0zdkNVTjlpazJtOG9FcG1vRjZhNlQtQ1ZaM19fYnBxMnhWTWRPQlg5azRKOU1udnhEV1ZGZUVqN1VNMEh6NDNCM2ZPS3pTVHQxSUdvSklTeHVFaXM2aEtlVWNNX293M2E2ZUthdw?oc=5",
+        "koTitle": "AI 시대에 자신의 경력을 미래에도 증명하기 위해 3가지 간단한 일을 해보세요. '가치를 유지할 수 있을 것' 이라고 전문가가 말합니다.",
+        "enTitle": "To future-proof your career in the age of AI, do 3 simple things: You'll 'remain valuable,' says expert",
+        "date": "2026-07-07",
+        "originalDate": "2026-07-06",
+        "sourceName": "CNBC",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbDFibkowUGcwZjlEZnBSM19Dek45cWczb09RcHM1Z2FEN2hlcWNuaWFkX2hGekRGQzR3OGZSRnJHSUZJMVVJbHpjNnl0OVQ3cmZaQWdyYS1PMGU5ZGp2dDd2bHB0OVNLNUR5Y3QzVEdETjZORTdTS2szV21GdVRfNHkyQ0xQZGZTbFg2UW5IRDk2UzZxa2VCeDJzSlRqSFlmQkHSAacBQVVfeXFMTzc1a3ZQOGU3SUhkNlRTSm5wc0dPQXlONDlkTEJteURqRmxGYzFvOURTdEo0SUVoR1Jpcy1keldIMUF6LTdQWVVNc1ZOTEhldGFnT1BDRl8wbS1uRlVNdkZ3RElMRzV3UmhNYm1qdG1oZUtiSkJPekVDd2hYM1BXS25zOWg5ZmQwQ0x6T01RSEF3UHhnZ3diV2p1Mi1KRVRyM0lVWlFUNGs?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 일자리에 미치는 영향 방글라데시 | 방글라데시는 미래의 일자리에 대비하고 있습니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 시대에 자신의 경력을 미래에도 증명하기 위해 3가지 간단한 일을 해보세요. '가치를 유지할 수 있을 것' 이라고 전문가가 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "소프트웨어 산업에서 일자리의 미래: 인공지능의 부상 탐색",
-        "enTitle": "The future of jobs in the software industry: Navigating the rise of AI",
-        "date": "2026-07-06",
-        "originalDate": "2026-07-03",
-        "sourceName": "University of Waterloo",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbWZHNDBJSTJQVE1WZW14Umt6NnRXdE5tUF84eUdtcFdaYjM0T3FMTUEyTDRqaVZhb09RSE1wekJici1ObEQzQVpoOWNGajRaQld4RTUtVkV1V1hhLXp0aVZ5UlZBa3RfaTBKTXBkS3dqcnowUW92VGNoMUNSNzFGT0pxNlBMRlhIZ2VYY2ZVLTdmYlNDbm5zN2tOcHN4OHFYcnU5enlsNWxYVDQt?oc=5",
+        "koTitle": "The Future of Work Capsules with Baptista S. Gebu: AI 시대에 비판적 사고와 문제 해결이 최고의 커리어 보험인 이유",
+        "enTitle": "The Future of Work Capsules with Baptista S. Gebu: Why critical thinking and problem solving are your best career insurance in the Age of AI",
+        "date": "2026-07-07",
+        "originalDate": "2026-07-06",
+        "sourceName": "Business & Financial Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOM05QQzJ0eWQxMkhvTTJzM3JBRHpxZXI4VkcyVW5WTzFDenBocG1CSHktWVVJZkMwa2RxRXZfZk93OEVObkVCS3RuSENmSmF5MTA5ZmNDV0k0cWRlbVlUdjRNbU43ZGttMnNMR3c4SUUwVXVjdlBNSXVCSmxoRzJsUE91VlJGZVJ2TTJpS003TENncHd1dVR4cm9aWXNvWGRQZGNxTlpSREt4UHRDUU94S253ZG9UNzhjaE5ObVczWm9kQ2RxSlIxOGEyY1drZnhMaFRKemdPRjE0X0pWWDdLQ3FNVDhLbTd0ODNUT3NXdlZNeDNSTzVNaDhlMUNzR2RW?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 소프트웨어 산업에서 일자리의 미래: 인공지능의 부상 탐색 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! The Future of Work Capsules with Baptista S. Gebu: AI 시대에 비판적 사고와 문제 해결이 최고의 커리어 보험인 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "채용 공고가 다시 상승합니다. 인공지능은 일자리를 창출하는 것이지 파괴하는 것이 아닌가?",
-        "enTitle": "Job Openings Rise Again. Is AI Creating Jobs, Not Destroying Them?",
-        "date": "2026-07-06",
-        "originalDate": "2026-07-02",
-        "sourceName": "24/7 Wall St.",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMEl3RnBEZDYzaEJmOVdjRzYwTFcyZlk5N0VOZHZVNEdlUXJHZVJLcm1GQXVueEQyeV9pYVFnZnNJOURxR2J0RnBoRFRHZUJ3cmN5ZzR5RlMzZFFGSnNkeGxtRVZLSGJQMGdSd0FFcDRfaEF0cXBJdW5VSDgzN3F3eXdnZHFieUVwT2VEVXhleFVzOFFwVHMtSE9OakphZVRfbHp3SDVyTlVJb1U?oc=5",
+        "koTitle": "모든 직장인이 알아야 할 AI 생산성 해킹",
+        "enTitle": "AI Productivity Hacks Every Office Worker Should Know",
+        "date": "2026-07-07",
+        "originalDate": "2026-07-06",
+        "sourceName": "Analytics Insight",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbGJBcGNobTZVOU4tbTRnZENHTzRyYi1mbEtkd3JKcUxHaFlwWlF2NWVtR0h4T2ZiU0VSdnZ6WFg0bDdZdndiOGw0MmZZUWNfaUhZeUdENVdURjdpWkZFc3lGOVp3SVB0TDc5ektvTEV0WGhncXRaSTlCd2NPOE92d3ZPNkVSX0paUmpFSk43dHlVWVVSeHg5NnlCZFRXN2d6N1l4U21BTTliT2VtYXR5NGh6UFl4Z19BQzROekV30gG-AUFVX3lxTFBsYkFwY2htNlU5Ti1tNGdkQ0dPNHJiLWZsS2R3ckpxTEdoWXBaUXY1ZW1HSHhPZmJTRVJ2dnpYWDRsN1l2d2I4bDQyZllRY19pSFl5R0Q1V1RGN2laRkVzeUY5WndJUHRMNzl6S29MRXRYaGdxdFpJOUJ3Y084T3Z3dk82RVJfSlpSakVKTjd0eVVZVVJ4eDk2eUJkVFc3Z3o3WXhTbUFNOWJPZW1hdHk0aHpQWXhnX0FDNE56RXc?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! 채용 공고가 다시 상승합니다. 인공지능은 일자리를 창출하는 것이지 파괴하는 것이 아닌가? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 모든 직장인이 알아야 할 AI 생산성 해킹 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[이슈&논란] 구글 지도+제미나이 AI, 이젠 주문·배달까지?…배민·쿠팡이츠·요기요 배달앱 체제에 일격 가할까",
-        "enTitle": "[이슈&논란] 구글 지도+제미나이 AI, 이젠 주문·배달까지?…배민·쿠팡이츠·요기요 배달앱 체제에 일격 가할까",
-        "date": "2026-07-06",
-        "originalDate": "2026-07-05",
-        "sourceName": "뉴스스페이스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QMGNxWjZONWJnSmVRM0RsNHhPOThOTTdYeEdXcnRPXzY0eGIySHYzSmc3OUpXNFFMTDM4LUdQcVVJZVJLNlQwaGFTQVJkQ2t4VkhObXB6VGctRFZBME1XZQ?oc=5",
+        "koTitle": "[단독] “클로드·GPT 결제 안 된다더니”… 모두의 창업에 ‘구매 대행’ 업체까지 등장 - 조선비즈",
+        "enTitle": "[단독] “클로드·GPT 결제 안 된다더니”… 모두의 창업에 ‘구매 대행’ 업체까지 등장 - 조선비즈",
+        "date": "2026-07-07",
+        "originalDate": "2026-07-06",
+        "sourceName": "Chosunbiz",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOUZtRnJKZ2JTODhuQ0puaUpzUWVzaUE0eTJwUzZJb0FFS0ZUQ1ZnVTFEeW02ajNpMHlib0NDZ3djZHNxWU4xZXB6SXgwRy16WXJnV0p5cDdUTUIzZU9hTGI3dU92OGpjNVJhNThldmhOT1Z5UnFhVWUtUFdCZzJfZTdpSXBFcDZablHSAZ4BQVVfeXFMT1c5ZDBiam1Ib2V5WUFrLVZSUkI3M3FxQXl6VWphQk5JbzlvWUJzZTV3ekhCMWxtaDlZc25UdWFKdVZzdVB0NVlRRVc5VjR0SkpGVTNob2JiWEVDTjMtTUlGS0hMMmtaNEFaSnUzY2dFRldrd0tsX1owbDdPU2NsY3NkRWZmZjhuUlNhWDJFZlhhOU0zbjRuM3RGa2ZyV1E?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! [이슈&논란] 구글 지도+제미나이 AI, 이젠 주문·배달까지?…배민·쿠팡이츠·요기요 배달앱 체제에 일격 가할까 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! [단독] “클로드·GPT 결제 안 된다더니”… 모두의 창업에 ‘구매 대행’ 업체까지 등장 - 조선비즈 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "돌아온 '클로드 페이블5' 기대 이하…강화된 안전장치 불만",
-        "enTitle": "돌아온 '클로드 페이블5' 기대 이하…강화된 안전장치 불만",
-        "date": "2026-07-06",
-        "originalDate": "2026-07-05",
-        "sourceName": "지디넷코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5mSVpZeEJ3TENiMEg0aU5lLW8wUEU1eTlMZUV1SHFZRzF2N05TR3lkZUozQ2Vvd1pqQ0J6c0p0VXlTNks3QjVwWEd5alhfV1dpblVaeFRR?oc=5",
+        "koTitle": "영국, 챗GPT·클로드·제미나이 금융 규제 검토 착수",
+        "enTitle": "영국, 챗GPT·클로드·제미나이 금융 규제 검토 착수",
+        "date": "2026-07-07",
+        "originalDate": "2026-07-06",
+        "sourceName": "ESG비즈니스리뷰",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OQTJkSVB2T29HeDk4NkNvVG1DRWhraERJeGw3VWgtMUZJYnZFVGRnM25BVUhKQTJFaWJfU2R0eENOZzliU0dRV0pOVlc4MHNocXhpRDJ1WDJNdVdHSk0zcG52Rld5Y2NYQ29lTGhjOWd2bDQ?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 돌아온 '클로드 페이블5' 기대 이하…강화된 안전장치 불만 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 영국, 챗GPT·클로드·제미나이 금융 규제 검토 착수 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "반도체 쏠림에 갇힌 美 증시… 돈은 AI 서비스 아닌 인프라가 번다",
-        "enTitle": "반도체 쏠림에 갇힌 美 증시… 돈은 AI 서비스 아닌 인프라가 번다",
-        "date": "2026-07-06",
-        "originalDate": "2026-07-05",
-        "sourceName": "글로벌이코노믹",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU3Z4NW5uQ1Mzdy1iN1V0V3pGNUtWdkdJcnZDQlE1UXVJQWtCN3NxZjVHbzBGemdkVmVneWZTenNmUXkxb3BaT2kybzMzS1p0LVg5S0FRR1FIZ2Z1dFkxYzJxaFJ5ZVNBSkx5YWlYdDlKQlZKLTI4dGNMR0tiWHRuX3FkUXc3WEh3?oc=5",
+        "koTitle": "AI '수익 거품' 우려 증폭...'AI 칩' 중심의 매출 독식에 경고",
+        "enTitle": "AI '수익 거품' 우려 증폭...'AI 칩' 중심의 매출 독식에 경고",
+        "date": "2026-07-07",
+        "originalDate": "2026-07-06",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xdGNycXpjeGE0dXQ5YUNVWHljc0pmSng2N0JjM19GYllTSUZrTHlGb2VnYlhMYlBvbWNleFM1TVJXYTJfVlNCWE9yYzFxYlhqUTJCbWx1OXU1cU0zZFYxS29kRG54ZUJvTUE?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 반도체 쏠림에 갇힌 美 증시… 돈은 AI 서비스 아닌 인프라가 번다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! AI '수익 거품' 우려 증폭...'AI 칩' 중심의 매출 독식에 경고 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
