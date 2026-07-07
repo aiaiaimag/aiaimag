@@ -1,46 +1,46 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-07
+ * 최신 업데이트: 2026-07-08
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI 시대에 자신의 경력을 미래에도 증명하기 위해 3가지 간단한 일을 해보세요. '가치를 유지할 수 있을 것' 이라고 전문가가 말합니다.",
-        "enTitle": "To future-proof your career in the age of AI, do 3 simple things: You'll 'remain valuable,' says expert",
-        "date": "2026-07-07",
-        "originalDate": "2026-07-06",
-        "sourceName": "CNBC",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbDFibkowUGcwZjlEZnBSM19Dek45cWczb09RcHM1Z2FEN2hlcWNuaWFkX2hGekRGQzR3OGZSRnJHSUZJMVVJbHpjNnl0OVQ3cmZaQWdyYS1PMGU5ZGp2dDd2bHB0OVNLNUR5Y3QzVEdETjZORTdTS2szV21GdVRfNHkyQ0xQZGZTbFg2UW5IRDk2UzZxa2VCeDJzSlRqSFlmQkHSAacBQVVfeXFMTzc1a3ZQOGU3SUhkNlRTSm5wc0dPQXlONDlkTEJteURqRmxGYzFvOURTdEo0SUVoR1Jpcy1keldIMUF6LTdQWVVNc1ZOTEhldGFnT1BDRl8wbS1uRlVNdkZ3RElMRzV3UmhNYm1qdG1oZUtiSkJPekVDd2hYM1BXS25zOWg5ZmQwQ0x6T01RSEF3UHhnZ3diV2p1Mi1KRVRyM0lVWlFUNGs?oc=5",
+        "koTitle": "AI가 당신의 직업을 취할 수는 없지만 커리어가 시작되는 방식을 바꿀 수 있습니다.",
+        "enTitle": "AI May Not Take Your Job, But It Could Change How Careers Begin",
+        "date": "2026-07-08",
+        "originalDate": "2026-07-07",
+        "sourceName": "iAfrica.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNLXl3N1lxYy1oZ0dDNjBENElpU29DZ2YyOHo0SGxwYTBnQkxFWXlCWEw2aWRDZjhETFNVeHo5Wm90YS01UTJQZzMwLWVYaU9icFdkeFVMT2NQbmR3UFhKWGV3SmxnNWwtUkphblZmbnVIVWRIQmdpSWhZMENrOGVBWFJJcXRwQVdwNE9r?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 시대에 자신의 경력을 미래에도 증명하기 위해 3가지 간단한 일을 해보세요. '가치를 유지할 수 있을 것' 이라고 전문가가 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! AI가 당신의 직업을 취할 수는 없지만 커리어가 시작되는 방식을 바꿀 수 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "The Future of Work Capsules with Baptista S. Gebu: AI 시대에 비판적 사고와 문제 해결이 최고의 커리어 보험인 이유",
-        "enTitle": "The Future of Work Capsules with Baptista S. Gebu: Why critical thinking and problem solving are your best career insurance in the Age of AI",
-        "date": "2026-07-07",
+        "koTitle": "AI 시대에 자신의 경력을 미래에도 증명하기 위해 3가지 간단한 일을 해보세요. '가치를 유지할 수 있을 것' 이라고 전문가가 말합니다.",
+        "enTitle": "To future-proof your career in the age of AI, do 3 simple things: You'll 'remain valuable,' says expert",
+        "date": "2026-07-08",
         "originalDate": "2026-07-06",
-        "sourceName": "Business & Financial Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOM05QQzJ0eWQxMkhvTTJzM3JBRHpxZXI4VkcyVW5WTzFDenBocG1CSHktWVVJZkMwa2RxRXZfZk93OEVObkVCS3RuSENmSmF5MTA5ZmNDV0k0cWRlbVlUdjRNbU43ZGttMnNMR3c4SUUwVXVjdlBNSXVCSmxoRzJsUE91VlJGZVJ2TTJpS003TENncHd1dVR4cm9aWXNvWGRQZGNxTlpSREt4UHRDUU94S253ZG9UNzhjaE5ObVczWm9kQ2RxSlIxOGEyY1drZnhMaFRKemdPRjE0X0pWWDdLQ3FNVDhLbTd0ODNUT3NXdlZNeDNSTzVNaDhlMUNzR2RW?oc=5",
+        "sourceName": "CNBC",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbDFibkowUGcwZjlEZnBSM19Dek45cWczb09RcHM1Z2FEN2hlcWNuaWFkX2hGekRGQzR3OGZSRnJHSUZJMVVJbHpjNnl0OVQ3cmZaQWdyYS1PMGU5ZGp2dDd2bHB0OVNLNUR5Y3QzVEdETjZORTdTS2szV21GdVRfNHkyQ0xQZGZTbFg2UW5IRDk2UzZxa2VCeDJzSlRqSFlmQkHSAacBQVVfeXFMTzc1a3ZQOGU3SUhkNlRTSm5wc0dPQXlONDlkTEJteURqRmxGYzFvOURTdEo0SUVoR1Jpcy1keldIMUF6LTdQWVVNc1ZOTEhldGFnT1BDRl8wbS1uRlVNdkZ3RElMRzV3UmhNYm1qdG1oZUtiSkJPekVDd2hYM1BXS25zOWg5ZmQwQ0x6T01RSEF3UHhnZ3diV2p1Mi1KRVRyM0lVWlFUNGs?oc=5",
         "isRepublished": false,
         "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! The Future of Work Capsules with Baptista S. Gebu: AI 시대에 비판적 사고와 문제 해결이 최고의 커리어 보험인 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! AI 시대에 자신의 경력을 미래에도 증명하기 위해 3가지 간단한 일을 해보세요. '가치를 유지할 수 있을 것' 이라고 전문가가 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
         "koTitle": "모든 직장인이 알아야 할 AI 생산성 해킹",
         "enTitle": "AI Productivity Hacks Every Office Worker Should Know",
-        "date": "2026-07-07",
+        "date": "2026-07-08",
         "originalDate": "2026-07-06",
         "sourceName": "Analytics Insight",
         "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbGJBcGNobTZVOU4tbTRnZENHTzRyYi1mbEtkd3JKcUxHaFlwWlF2NWVtR0h4T2ZiU0VSdnZ6WFg0bDdZdndiOGw0MmZZUWNfaUhZeUdENVdURjdpWkZFc3lGOVp3SVB0TDc5ektvTEV0WGhncXRaSTlCd2NPOE92d3ZPNkVSX0paUmpFSk43dHlVWVVSeHg5NnlCZFRXN2d6N1l4U21BTTliT2VtYXR5NGh6UFl4Z19BQzROekV30gG-AUFVX3lxTFBsYkFwY2htNlU5Ti1tNGdkQ0dPNHJiLWZsS2R3ckpxTEdoWXBaUXY1ZW1HSHhPZmJTRVJ2dnpYWDRsN1l2d2I4bDQyZllRY19pSFl5R0Q1V1RGN2laRkVzeUY5WndJUHRMNzl6S29MRXRYaGdxdFpJOUJ3Y084T3Z3dk82RVJfSlpSakVKTjd0eVVZVVJ4eDk2eUJkVFc3Z3o3WXhTbUFNOWJPZW1hdHk0aHpQWXhnX0FDNE56RXc?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
+        "viralRate": "90%",
         "analysis": "글로벌 AI 트렌드 체크! 모든 직장인이 알아야 할 AI 생산성 해킹 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[단독] “클로드·GPT 결제 안 된다더니”… 모두의 창업에 ‘구매 대행’ 업체까지 등장 - 조선비즈",
-        "enTitle": "[단독] “클로드·GPT 결제 안 된다더니”… 모두의 창업에 ‘구매 대행’ 업체까지 등장 - 조선비즈",
-        "date": "2026-07-07",
-        "originalDate": "2026-07-06",
-        "sourceName": "Chosunbiz",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOUZtRnJKZ2JTODhuQ0puaUpzUWVzaUE0eTJwUzZJb0FFS0ZUQ1ZnVTFEeW02ajNpMHlib0NDZ3djZHNxWU4xZXB6SXgwRy16WXJnV0p5cDdUTUIzZU9hTGI3dU92OGpjNVJhNThldmhOT1Z5UnFhVWUtUFdCZzJfZTdpSXBFcDZablHSAZ4BQVVfeXFMT1c5ZDBiam1Ib2V5WUFrLVZSUkI3M3FxQXl6VWphQk5JbzlvWUJzZTV3ekhCMWxtaDlZc25UdWFKdVZzdVB0NVlRRVc5VjR0SkpGVTNob2JiWEVDTjMtTUlGS0hMMmtaNEFaSnUzY2dFRldrd0tsX1owbDdPU2NsY3NkRWZmZjhuUlNhWDJFZlhhOU0zbjRuM3RGa2ZyV1E?oc=5",
+        "koTitle": "AWS 공인 파트너 '노타', AI칩 최적화 서비스 출시",
+        "enTitle": "AWS 공인 파트너 '노타', AI칩 최적화 서비스 출시",
+        "date": "2026-07-08",
+        "originalDate": "2026-07-07",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5vVmpMNzY0eUd5LXJ5UnQyZXJQdHY5NUE1X3RkaDIzaWZIdHJCYUNrOTZzYjFhVFU5Y0FKZDJDamptQ2FoRjcycE5Jbw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [단독] “클로드·GPT 결제 안 된다더니”… 모두의 창업에 ‘구매 대행’ 업체까지 등장 - 조선비즈 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! AWS 공인 파트너 '노타', AI칩 최적화 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "영국, 챗GPT·클로드·제미나이 금융 규제 검토 착수",
-        "enTitle": "영국, 챗GPT·클로드·제미나이 금융 규제 검토 착수",
-        "date": "2026-07-07",
-        "originalDate": "2026-07-06",
-        "sourceName": "ESG비즈니스리뷰",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OQTJkSVB2T29HeDk4NkNvVG1DRWhraERJeGw3VWgtMUZJYnZFVGRnM25BVUhKQTJFaWJfU2R0eENOZzliU0dRV0pOVlc4MHNocXhpRDJ1WDJNdVdHSk0zcG52Rld5Y2NYQ29lTGhjOWd2bDQ?oc=5",
+        "koTitle": "Anthropic, 클로드 코워크 모바일 및 웹 출시…원격 근무 지원 확대",
+        "enTitle": "Anthropic, 클로드 코워크 모바일 및 웹 출시…원격 근무 지원 확대",
+        "date": "2026-07-08",
+        "originalDate": "2026-07-07",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9LNUhYWGRvci1nQ1F0cDdReUdnU1JlQVA0T29JT3BlVnN4cmgwQks4ckxFeVRkaU1FZS05YzUxUngtU21hR2tfd080TEZuV210NXhMN1Nuc0h1dl9fb3I3cDVpT3UwVm9Xa2RZRTZCR2dKcWRsQUZn?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 영국, 챗GPT·클로드·제미나이 금융 규제 검토 착수 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! Anthropic, 클로드 코워크 모바일 및 웹 출시…원격 근무 지원 확대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "AI '수익 거품' 우려 증폭...'AI 칩' 중심의 매출 독식에 경고",
-        "enTitle": "AI '수익 거품' 우려 증폭...'AI 칩' 중심의 매출 독식에 경고",
-        "date": "2026-07-07",
-        "originalDate": "2026-07-06",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xdGNycXpjeGE0dXQ5YUNVWHljc0pmSng2N0JjM19GYllTSUZrTHlGb2VnYlhMYlBvbWNleFM1TVJXYTJfVlNCWE9yYzFxYlhqUTJCbWx1OXU1cU0zZFYxS29kRG54ZUJvTUE?oc=5",
+        "koTitle": "한국폴리텍Ⅳ대학 충남캠퍼스, 충청권 최초 ‘AI 매칭 취업박람회’ 연다",
+        "enTitle": "한국폴리텍Ⅳ대학 충남캠퍼스, 충청권 최초 ‘AI 매칭 취업박람회’ 연다",
+        "date": "2026-07-08",
+        "originalDate": "2026-07-07",
+        "sourceName": "뉴스와이어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4xQWZ5RnRGdUlTTHRWeG1EUzhiV2Q1MTU4OF9QSU02b016eWdzVEhiNlRuaFItcWxOZXRyVGcwcHFzd1U0R3Z0VDZZY1lYR3R1TE5aR29TQzZaRVpxTmcw?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! AI '수익 거품' 우려 증폭...'AI 칩' 중심의 매출 독식에 경고 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 한국폴리텍Ⅳ대학 충남캠퍼스, 충청권 최초 ‘AI 매칭 취업박람회’ 연다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
