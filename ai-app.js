@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-09
+ * 최신 업데이트: 2026-07-10
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI-네이티브 조직 변혁: 일의 미래를 재정의하다 – 일자리는 더 이상 사람 기반이 아니다",
-        "enTitle": "AI-Native Organizational Transformation: Redefining the Future of Work – Jobs Are No Longer Person-Based",
-        "date": "2026-07-09",
-        "originalDate": "2026-07-08",
-        "sourceName": "36Kr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1JZU9CeWhFUks0NmlBSkJabUNiVEtyTERDY1JNSDVVQi1qZm85OEhsM2VOVVgwdUJiOHhjWnRQMjBnV0RDU01zS1pvdFJJM0s0ZkI0?oc=5",
+        "koTitle": "ChatGPT 캐리커처 트렌드 프라이버시 위험: 사용자가 알아야 할 사항",
+        "enTitle": "ChatGPT caricature trend privacy risks: What users must know",
+        "date": "2026-07-10",
+        "originalDate": "2026-07-09",
+        "sourceName": "Bitdefender",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOE1HYUFNVnF3bkZFYVRxSzhRbEVibEhLek5xMmJqeS1IdGlmNWpQTW9OU0tMbkgzU0FwTHhOMDd2ZmtRcFdUQXA2YmpCX0w1VGh4NGhILURod0VMYjVCbndnZngyc0ZVTVY0OG5KZFNaOVVUY3lYS3Q0dEJkYUpQNllROWE3QQ?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! AI-네이티브 조직 변혁: 일의 미래를 재정의하다 – 일자리는 더 이상 사람 기반이 아니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! ChatGPT 캐리커처 트렌드 프라이버시 위험: 사용자가 알아야 할 사항 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI 작업 보고서에 따르면 큰 차질은 없지만 몇 가지 경고 징후가 있습니다.",
-        "enTitle": "AI jobs report finds no major disruption, but some warning signs",
-        "date": "2026-07-09",
-        "originalDate": "2026-07-07",
-        "sourceName": "ABC News & Headlines – Australian Broadcasting Corporation",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRVRzOVAyaHBGZkNnY2cxajV5T1VTUnpuRmVVdG1peGF4QXRWZC1QUnlTMmpNa0NoaHk2STIycGxHbWpNUmNENHNCOTB6ZmdCcUd4TWlzUUhhZlZIaUxkSlNsOHNnTThSZE41V191QXZDbHV5SUxYWU4yZVo5UnBjZWVkQzZqaS1NMk9KWGNyWDBXX3BpWkljMTZmcVFNZkx1N2dVSkRvZzdoMGc?oc=5",
+        "koTitle": "'가장 큰 AI 직업은 여전히 인간': 직업의 미래에 대한 CEA Nageswaran",
+        "enTitle": "'The biggest AI job is still human': CEA Nageswaran on the future of work",
+        "date": "2026-07-10",
+        "originalDate": "2026-07-09",
+        "sourceName": "Moneycontrol.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYWxnazhVSkx0QkJyX2V1dUh6YlZCUDhQVzdiTHhpaG85eFpoWGI0dmJmSlNUNU5JSWJxak91NW9EZGo4VURSWXF4VC1VdWVDTWgzbFJNLTdqa0o2Q2lnUlVzWm5IbTIzV3U0cHBJMGp4c2xIX2RyVHNoZGFoYlZaOHJDcHF2QXVoRmNZcU9lVDgyUHgzbFFieWFobG9fM1JCVG5LcjRKVzQ1ZUZZS0dLZV96S05MSk90U0xFQ0dWdnNhUdIBxwFBVV95cUxNSFZ0T2xoLWZ0dC01Yi1zeHZtaTFVWGtTUlYxZjBGYjlHWDBFT2dVYmQ0TFoyc3FhN3lGRTA4eUktZFNZemhHcTBKblZyV1YyZVM1YTNBVV9HZVM1a05Fc3dfQU8xRmIxYUNXZHpQQ1ZuODNIWUhGdlEySXVibzR4cWFkWUVENjZCel9sZWJKR0FyVFNxUHExd1dWZjEzNFg0RXlvUnhqaEpmT0E5eWFvOTZ0T3lJMUJ3ZHVJcURfTmdCZ1hJT0RF?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 작업 보고서에 따르면 큰 차질은 없지만 몇 가지 경고 징후가 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! '가장 큰 AI 직업은 여전히 인간': 직업의 미래에 대한 CEA Nageswaran 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI가 당신의 직업을 취할 수는 없지만 커리어가 시작되는 방식을 바꿀 수 있습니다.",
-        "enTitle": "AI May Not Take Your Job, But It Could Change How Careers Begin",
-        "date": "2026-07-09",
-        "originalDate": "2026-07-07",
-        "sourceName": "iAfrica.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNLXl3N1lxYy1oZ0dDNjBENElpU29DZ2YyOHo0SGxwYTBnQkxFWXlCWEw2aWRDZjhETFNVeHo5Wm90YS01UTJQZzMwLWVYaU9icFdkeFVMT2NQbmR3UFhKWGV3SmxnNWwtUkphblZmbnVIVWRIQmdpSWhZMENrOGVBWFJJcXRwQVdwNE9r?oc=5",
+        "koTitle": "팀이 리더십으로부터 최고의 AI 생산성 해킹을 숨기고 있는 3가지 이유",
+        "enTitle": "3 Reasons Your Team Is Hiding Its Best AI Productivity Hacks From Leadership",
+        "date": "2026-07-10",
+        "originalDate": "2026-07-08",
+        "sourceName": "streamlinefeed.co.ke",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ2hvZnVrbkJFRm9sbjhyLUNkLUJLR1E5WG11NmFBTmRqREVxRGlxS3dfdnVnU19pd25fXzB5N3d5eFViOGhxdjVZXzRSNUYxVUQwcUdDclBvYkhUYWxoc3FJRV9RcEpSUlh0ZkRkaGhDaXM4QzdjMVZjSExZX3FEUmFZNERYMS1zQWc?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 당신의 직업을 취할 수는 없지만 커리어가 시작되는 방식을 바꿀 수 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 팀이 리더십으로부터 최고의 AI 생산성 해킹을 숨기고 있는 3가지 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "한국인 챗GPT·클로드 구독료 연간 수천억… 심화되는 AI 국부 유출",
-        "enTitle": "한국인 챗GPT·클로드 구독료 연간 수천억… 심화되는 AI 국부 유출",
-        "date": "2026-07-09",
-        "originalDate": "2026-07-08",
-        "sourceName": "2news.co.kr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HMmtzdFdLVEpEMWRIMmlVdG1iZ2dQV1lGZXlneXNtRWptbXlnZVhzMEEwSkZqek83Rk1hblg5bkx5eHh1aWppNEstNy1PVGJ0QUVHcF9BUlozNDZNMlhTdDg2MzhqYXNV?oc=5",
+        "koTitle": "1인 빌더, 클로드 코드로 프로젝트 9개 동시 운영한 방법",
+        "enTitle": "1인 빌더, 클로드 코드로 프로젝트 9개 동시 운영한 방법",
+        "date": "2026-07-10",
+        "originalDate": "2026-07-09",
+        "sourceName": "요즘IT",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXbE5BZlRGME1UNDVKX3NSLVFXTURUM3MwcnU2eFB6YXFyUnBQN3Z1T0hET0tOM05TamZKZG1hYmIxenhOanZ6ZjJQUmQyQWhuS2l4bDNSTEY5UQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 한국인 챗GPT·클로드 구독료 연간 수천억… 심화되는 AI 국부 유출 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 1인 빌더, 클로드 코드로 프로젝트 9개 동시 운영한 방법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "카카오페이證, AI 어닝콜 서비스 출시…실시간 번역·요약에 매매 연동",
-        "enTitle": "카카오페이證, AI 어닝콜 서비스 출시…실시간 번역·요약에 매매 연동",
-        "date": "2026-07-09",
-        "originalDate": "2026-07-08",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5TZWJMZnJBbVFoQXRRaG9EaWdZcXRoZXl4Q0huMFhubWlTUHlMZFZSRFZYUElNbzNKRnRhVUVDTWZ0YUIzMkZVQWRqTQ?oc=5",
+        "koTitle": "OpenAI, GPT-5.6 모델 기반 ’ChatGPT Work’ 출시",
+        "enTitle": "OpenAI, GPT-5.6 모델 기반 ’ChatGPT Work’ 출시",
+        "date": "2026-07-10",
+        "originalDate": "2026-07-09",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84OFhkc3dYUVJWTUhnc1Q2THRNczBZcDUteU40UWJkcC1jc1hzVmlieDRRdk44Q0pjZzZ2aVhCenY0Ty1YXzdCbGh3dDVZTjJZTVNHTlVMTjZuZXdVbnByWDZqU0JkdUVFSk5sSmt2ZkkzdEVKeENN?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 카카오페이證, AI 어닝콜 서비스 출시…실시간 번역·요약에 매매 연동 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! OpenAI, GPT-5.6 모델 기반 ’ChatGPT Work’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "스페이스XAI, 그록4.5 출시…머스크 “클로드 오퍼스급”",
-        "enTitle": "스페이스XAI, 그록4.5 출시…머스크 “클로드 오퍼스급”",
-        "date": "2026-07-09",
-        "originalDate": "2026-07-08",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9maWFqY2dNaEw0YVZjTWphbnloSWpOMmpOTHFXa3Uwb05ha1dEaG1NdmhIUms3cmowYnRPYUMxVzZhU3phNzFIQ3FhbmR6Yms?oc=5",
+        "koTitle": "모바일 앱 출시 지연 막는 릴리스 자동화...AI 코드까지 검증",
+        "enTitle": "모바일 앱 출시 지연 막는 릴리스 자동화...AI 코드까지 검증",
+        "date": "2026-07-10",
+        "originalDate": "2026-07-09",
+        "sourceName": "지티티코리아",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYaDlsSGQtUFdrb1FhM0xncmhXcl91MlJiNW1RQi1PdG5rNEZTeUZ4c3M2OFRfbGpiSzNnUGpMaXhYbE1aMUw5MDYtLXRJTUR2OHotM2R5ZmpnckZFWTJsbW81ampmRVpfQ3c?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 스페이스XAI, 그록4.5 출시…머스크 “클로드 오퍼스급” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 모바일 앱 출시 지연 막는 릴리스 자동화...AI 코드까지 검증 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
