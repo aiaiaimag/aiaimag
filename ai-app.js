@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-10
+ * 최신 업데이트: 2026-07-11
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "ChatGPT 캐리커처 트렌드 프라이버시 위험: 사용자가 알아야 할 사항",
-        "enTitle": "ChatGPT caricature trend privacy risks: What users must know",
-        "date": "2026-07-10",
-        "originalDate": "2026-07-09",
-        "sourceName": "Bitdefender",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOE1HYUFNVnF3bkZFYVRxSzhRbEVibEhLek5xMmJqeS1IdGlmNWpQTW9OU0tMbkgzU0FwTHhOMDd2ZmtRcFdUQXA2YmpCX0w1VGh4NGhILURod0VMYjVCbndnZngyc0ZVTVY0OG5KZFNaOVVUY3lYS3Q0dEJkYUpQNllROWE3QQ?oc=5",
+        "koTitle": "SkillsVerse 창립자 Peter Bassey가 AI, 일자리 및 아프리카의 미래에 대한 교훈을 공유합니다 AMNC 2026 이후",
+        "enTitle": "SkillsVerse Founder Peter Bassey shares lessons on AI, jobs and Africa’s future After AMNC 2026",
+        "date": "2026-07-11",
+        "originalDate": "2026-07-10",
+        "sourceName": "Vanguard News",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYzJmNEV0UlFiX1M4RkhVc3QxS2twbkZ1b0dLbUNMX20zemRNdTR1UGdVRHNEZ0ZLTHlVRTgxMmMxWjdXeXRsSEZia2NiSEtiWXcyUjltNWdoZENScVlQcV9CZjIwYkhjRzJrYlRENHRIUVZmeFV3d1Q0Uzg2RUxldWNfOXNQMzh0bWRzbENzTWhUMndfRmd3bGRIZW5mbWIzZDlUZjlOUzNwbnpSOGpiV0lENXdwZThWTXk5N2ZuS2JoRDFQY0NRb3FR0gHPAUFVX3lxTE5QUkl1REVrb3JYUWlGb09IOEtsc0xSUUJBMTJQY2xmN0o5NDh5SmEtX2NzNmFNNmlESHVhelFVTGpKNlh3Z3BKTXdJTGhtRGtySW5oU2I5SWllVy1iTFpJNy1OUVZvdEpfbHZ4TlhiM25jaUFsWGttSmNLbkEtNU83OUlmWDBDVlBocHlvOEkyWTZDOGwycGItWDNPTXRPMmdmTFBOQ2dSc096YVZLMWQwUnA2US1BTUdrRVB5a0Ewdk9tUDljaVNQWnNKRC1OSQ?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! ChatGPT 캐리커처 트렌드 프라이버시 위험: 사용자가 알아야 할 사항 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! SkillsVerse 창립자 Peter Bassey가 AI, 일자리 및 아프리카의 미래에 대한 교훈을 공유합니다 AMNC 2026 이후 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "'가장 큰 AI 직업은 여전히 인간': 직업의 미래에 대한 CEA Nageswaran",
-        "enTitle": "'The biggest AI job is still human': CEA Nageswaran on the future of work",
-        "date": "2026-07-10",
-        "originalDate": "2026-07-09",
-        "sourceName": "Moneycontrol.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYWxnazhVSkx0QkJyX2V1dUh6YlZCUDhQVzdiTHhpaG85eFpoWGI0dmJmSlNUNU5JSWJxak91NW9EZGo4VURSWXF4VC1VdWVDTWgzbFJNLTdqa0o2Q2lnUlVzWm5IbTIzV3U0cHBJMGp4c2xIX2RyVHNoZGFoYlZaOHJDcHF2QXVoRmNZcU9lVDgyUHgzbFFieWFobG9fM1JCVG5LcjRKVzQ1ZUZZS0dLZV96S05MSk90U0xFQ0dWdnNhUdIBxwFBVV95cUxNSFZ0T2xoLWZ0dC01Yi1zeHZtaTFVWGtTUlYxZjBGYjlHWDBFT2dVYmQ0TFoyc3FhN3lGRTA4eUktZFNZemhHcTBKblZyV1YyZVM1YTNBVV9HZVM1a05Fc3dfQU8xRmIxYUNXZHpQQ1ZuODNIWUhGdlEySXVibzR4cWFkWUVENjZCel9sZWJKR0FyVFNxUHExd1dWZjEzNFg0RXlvUnhqaEpmT0E5eWFvOTZ0T3lJMUJ3ZHVJcURfTmdCZ1hJT0RF?oc=5",
+        "koTitle": "AI 시대에 경영 경력의 미래",
+        "enTitle": "Future of management careers in the era of AI",
+        "date": "2026-07-11",
+        "originalDate": "2026-07-10",
+        "sourceName": "The Hans India",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeWNmNl9CSHFOanpaZFU4cW5FU0NGNUhjX0VBQ0FfOV9sRXRUSHJmaHoyc2dSWTU1QVdHWGkzdjk2d2VQaktMclR0WmlDR3BheEtadXBrdGlaRkkyU1dPSFpsNzRfQ3RxOXRyQmpLc0pkYXJWanI0akN6SzFOWV8xX3Y4T3hQN25XdWJMZVd5dkdyeV84WWhYb3NHcElzb3E1R3VKdkVncDd3c29udkHSAbMBQVVfeXFMT3dZdkI2MHV2anFEeGdOOU51X0tJYXR5dVhOeGN5WW5SMlZ2NWJybXpnOG9mdVRWM2F0a1hfYVZPWVo0blQ3bExIYjJKTGdhSzB1ZG5nQWhFTHJjZ3V0U1BnRC1uYTdDdFhQWGR3N0JqaWdmZTBmYzdtcmgtMnhlMW51am5NLXN1ZTYtVVlRd2d3R1dNZW9UR1NKcllTR3RBUWR5U2JXd1BLdFNDMXdFWnVlSVk?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! '가장 큰 AI 직업은 여전히 인간': 직업의 미래에 대한 CEA Nageswaran 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! AI 시대에 경영 경력의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "팀이 리더십으로부터 최고의 AI 생산성 해킹을 숨기고 있는 3가지 이유",
-        "enTitle": "3 Reasons Your Team Is Hiding Its Best AI Productivity Hacks From Leadership",
-        "date": "2026-07-10",
-        "originalDate": "2026-07-08",
-        "sourceName": "streamlinefeed.co.ke",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ2hvZnVrbkJFRm9sbjhyLUNkLUJLR1E5WG11NmFBTmRqREVxRGlxS3dfdnVnU19pd25fXzB5N3d5eFViOGhxdjVZXzRSNUYxVUQwcUdDclBvYkhUYWxoc3FJRV9RcEpSUlh0ZkRkaGhDaXM4QzdjMVZjSExZX3FEUmFZNERYMS1zQWc?oc=5",
+        "koTitle": "ChatGPT 캐리커처 트렌드 프라이버시 위험: 사용자가 알아야 할 사항",
+        "enTitle": "ChatGPT caricature trend privacy risks: What users must know",
+        "date": "2026-07-11",
+        "originalDate": "2026-07-09",
+        "sourceName": "Bitdefender",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOE1HYUFNVnF3bkZFYVRxSzhRbEVibEhLek5xMmJqeS1IdGlmNWpQTW9OU0tMbkgzU0FwTHhOMDd2ZmtRcFdUQXA2YmpCX0w1VGh4NGhILURod0VMYjVCbndnZngyc0ZVTVY0OG5KZFNaOVVUY3lYS3Q0dEJkYUpQNllROWE3QQ?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 팀이 리더십으로부터 최고의 AI 생산성 해킹을 숨기고 있는 3가지 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! ChatGPT 캐리커처 트렌드 프라이버시 위험: 사용자가 알아야 할 사항 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -53,8 +53,8 @@ const generalTrendingData = [
         "rank": 1,
         "koTitle": "1인 빌더, 클로드 코드로 프로젝트 9개 동시 운영한 방법",
         "enTitle": "1인 빌더, 클로드 코드로 프로젝트 9개 동시 운영한 방법",
-        "date": "2026-07-10",
-        "originalDate": "2026-07-09",
+        "date": "2026-07-11",
+        "originalDate": "2026-07-10",
         "sourceName": "요즘IT",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXbE5BZlRGME1UNDVKX3NSLVFXTURUM3MwcnU2eFB6YXFyUnBQN3Z1T0hET0tOM05TamZKZG1hYmIxenhOanZ6ZjJQUmQyQWhuS2l4bDNSTEY5UQ?oc=5",
         "isRepublished": false,
@@ -64,28 +64,28 @@ const generalTrendingData = [
     },
     {
         "rank": 2,
-        "koTitle": "OpenAI, GPT-5.6 모델 기반 ’ChatGPT Work’ 출시",
-        "enTitle": "OpenAI, GPT-5.6 모델 기반 ’ChatGPT Work’ 출시",
-        "date": "2026-07-10",
-        "originalDate": "2026-07-09",
-        "sourceName": "Investing.com 한국어",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84OFhkc3dYUVJWTUhnc1Q2THRNczBZcDUteU40UWJkcC1jc1hzVmlieDRRdk44Q0pjZzZ2aVhCenY0Ty1YXzdCbGh3dDVZTjJZTVNHTlVMTjZuZXdVbnByWDZqU0JkdUVFSk5sSmt2ZkkzdEVKeENN?oc=5",
+        "koTitle": "“질문만 받던 AI는 끝났다”…몇 시간짜리 업무 맡는 ‘ChatGPT Work’ 공개",
+        "enTitle": "“질문만 받던 AI는 끝났다”…몇 시간짜리 업무 맡는 ‘ChatGPT Work’ 공개",
+        "date": "2026-07-11",
+        "originalDate": "2026-07-10",
+        "sourceName": "뉴스탭",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzREJSU2xXWDQ5UFJVYkRqRHd1SGd1dGpENnVZNjE1MUR0bjZDVnBUbXJ0bEk1dHpwbzZSa1BNNnd0M19ubWpOSWdmVHhKWXhzOFhreWk1d0pkb1lpcDAzVnJUSDBmTkdhRGh2RA?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! OpenAI, GPT-5.6 모델 기반 ’ChatGPT Work’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! “질문만 받던 AI는 끝났다”…몇 시간짜리 업무 맡는 ‘ChatGPT Work’ 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "모바일 앱 출시 지연 막는 릴리스 자동화...AI 코드까지 검증",
-        "enTitle": "모바일 앱 출시 지연 막는 릴리스 자동화...AI 코드까지 검증",
-        "date": "2026-07-10",
-        "originalDate": "2026-07-09",
-        "sourceName": "지티티코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYaDlsSGQtUFdrb1FhM0xncmhXcl91MlJiNW1RQi1PdG5rNEZTeUZ4c3M2OFRfbGpiSzNnUGpMaXhYbE1aMUw5MDYtLXRJTUR2OHotM2R5ZmpnckZFWTJsbW81ampmRVpfQ3c?oc=5",
+        "koTitle": "AI, 5060이 쓰기엔 어렵다고? “부업 대박났다” 57세의 꿀팁",
+        "enTitle": "AI, 5060이 쓰기엔 어렵다고? “부업 대박났다” 57세의 꿀팁",
+        "date": "2026-07-11",
+        "originalDate": "2026-07-10",
+        "sourceName": "중앙일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4R2FBU1NFbkI3WUNxTEk2bURrNmZiTUpLUTRPQ1IyTmxudkxGOUQ0dF9sdHU2NGJtX094YVRqTTFQR2RWSExITGlXVExLaVJGU2E3ZlRB?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 모바일 앱 출시 지연 막는 릴리스 자동화...AI 코드까지 검증 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! AI, 5060이 쓰기엔 어렵다고? “부업 대박났다” 57세의 꿀팁 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
