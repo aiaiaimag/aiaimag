@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-12
+ * 최신 업데이트: 2026-07-13
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI로부터 안전: 미래에 성공하는 데 도움이 될 직업은 무엇입니까?",
-        "enTitle": "Safe from AI: which jobs will help you thrive in the future?",
-        "date": "2026-07-12",
-        "originalDate": "2026-07-11",
-        "sourceName": "The Guardian",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMlhHMTNLWW9mT1RsOW1VaWwxa1V5TnJFc1FMdWRsNlQtWElUcl9CdEVoNmxBcndQYkdhdVowMTl4OGtlaU5JMTNTckkxZzVlZmNfc3A4Tm9yMVlPM0tqTFBXZW05SWdPNS02R1dGTmVleDY4MmNBTmlCVVk1OTBlYjRuT0N3ajNCNnJYa0dEcm5oQ3BZSlNVTnN3?oc=5",
+        "koTitle": "최고경영자 (CEO) 앨리슨 무어 (Alison Moore), 여성을 위한 일의 미래에 대해",
+        "enTitle": "Chief's CEO Alison Moore on the Future of Work for Women",
+        "date": "2026-07-13",
+        "originalDate": "2026-07-12",
+        "sourceName": "Time Magazine",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5kSUk3N3ZJbEFtRWVzQWI4Q1llTDVqZzVlbTJ2akh3dkhNdHI2bnpLUWNrZzFHcVdnaFZfa0w5Z1Q1Y3VoaGo0Z1A3XzJlbnJMOXhVUTM0Q1lHOWxySW1PbkNUSFl1NU9Zam0tUnM5R1JKUk9yS3QxbA?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! AI로부터 안전: 미래에 성공하는 데 도움이 될 직업은 무엇입니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 최고경영자 (CEO) 앨리슨 무어 (Alison Moore), 여성을 위한 일의 미래에 대해 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI 시대에 경영 경력의 미래",
-        "enTitle": "Future of management careers in the era of AI",
-        "date": "2026-07-12",
-        "originalDate": "2026-07-10",
-        "sourceName": "The Hans India",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeWNmNl9CSHFOanpaZFU4cW5FU0NGNUhjX0VBQ0FfOV9sRXRUSHJmaHoyc2dSWTU1QVdHWGkzdjk2d2VQaktMclR0WmlDR3BheEtadXBrdGlaRkkyU1dPSFpsNzRfQ3RxOXRyQmpLc0pkYXJWanI0akN6SzFOWV8xX3Y4T3hQN25XdWJMZVd5dkdyeV84WWhYb3NHcElzb3E1R3VKdkVncDd3c29udkHSAbMBQVVfeXFMT3dZdkI2MHV2anFEeGdOOU51X0tJYXR5dVhOeGN5WW5SMlZ2NWJybXpnOG9mdVRWM2F0a1hfYVZPWVo0blQ3bExIYjJKTGdhSzB1ZG5nQWhFTHJjZ3V0U1BnRC1uYTdDdFhQWGR3N0JqaWdmZTBmYzdtcmgtMnhlMW51am5NLXN1ZTYtVVlRd2d3R1dNZW9UR1NKcllTR3RBUWR5U2JXd1BLdFNDMXdFWnVlSVk?oc=5",
+        "koTitle": "AI로부터 안전: 미래에 성공하는 데 도움이 될 직업은 무엇입니까?",
+        "enTitle": "Safe from AI: which jobs will help you thrive in the future?",
+        "date": "2026-07-13",
+        "originalDate": "2026-07-11",
+        "sourceName": "The Guardian",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMlhHMTNLWW9mT1RsOW1VaWwxa1V5TnJFc1FMdWRsNlQtWElUcl9CdEVoNmxBcndQYkdhdVowMTl4OGtlaU5JMTNTckkxZzVlZmNfc3A4Tm9yMVlPM0tqTFBXZW05SWdPNS02R1dGTmVleDY4MmNBTmlCVVk1OTBlYjRuT0N3ajNCNnJYa0dEcm5oQ3BZSlNVTnN3?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 시대에 경영 경력의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "98%",
+        "analysis": "글로벌 AI 트렌드 체크! AI로부터 안전: 미래에 성공하는 데 도움이 될 직업은 무엇입니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "ChatGPT 캐리커처 트렌드 프라이버시 위험: 사용자가 알아야 할 사항",
-        "enTitle": "ChatGPT caricature trend privacy risks: What users must know",
-        "date": "2026-07-12",
-        "originalDate": "2026-07-09",
-        "sourceName": "Bitdefender",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOE1HYUFNVnF3bkZFYVRxSzhRbEVibEhLek5xMmJqeS1IdGlmNWpQTW9OU0tMbkgzU0FwTHhOMDd2ZmtRcFdUQXA2YmpCX0w1VGh4NGhILURod0VMYjVCbndnZngyc0ZVTVY0OG5KZFNaOVVUY3lYS3Q0dEJkYUpQNllROWE3QQ?oc=5",
+        "koTitle": "2026년 인도에서 가장 수요가 많은 IT 일자리 10개 (그리고 이를 얻는 방법)",
+        "enTitle": "The 10 Most In-Demand IT Jobs in India for 2026 (And How to Get Them)",
+        "date": "2026-07-13",
+        "originalDate": "2026-07-10",
+        "sourceName": "TalentSprint",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa1FIMmg5WjFJZmh3cE5GSEZDWW1BZFlqVHBlcjNCenI2SFpvZVYwV3RxNDUwRXdZQnhTWXVUMVZMSi1VZGltR2ZYS25zTFNiVEl1d2NEOWtOdDBKUEZqeWhOM0loM1hWcVhSQlN6bUdWSEFyVU1Sa29Ebzc0V3FPWlZR?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! ChatGPT 캐리커처 트렌드 프라이버시 위험: 사용자가 알아야 할 사항 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 2026년 인도에서 가장 수요가 많은 IT 일자리 10개 (그리고 이를 얻는 방법) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "메타, 남의 AI도 판다?…앤트로픽 '클로드' 직접 서비스 추진",
-        "enTitle": "메타, 남의 AI도 판다?…앤트로픽 '클로드' 직접 서비스 추진",
-        "date": "2026-07-12",
-        "originalDate": "2026-07-11",
-        "sourceName": "지디넷코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3dk9tSUh6SThud2R0Mk5raFFQN2pRSF9jcUVtazVjLU5xT09HWUktbE1NSDVVcFdMdS1xQzdzTkk4ZkhGTVlvMGxmWWFqV2FZeHZhdU5R?oc=5",
+        "koTitle": "오픈AI, 챗GPT 워크 출시 후 UX 혼란과 비용 문제 개선 착수",
+        "enTitle": "오픈AI, 챗GPT 워크 출시 후 UX 혼란과 비용 문제 개선 착수",
+        "date": "2026-07-13",
+        "originalDate": "2026-07-12",
+        "sourceName": "디자인 나침반",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9RMTlhcUI1eUs0RGt1em5xQk15XzhqdnJLWjc1YW9tYmwyaTJEYWdKcm51WGptZXd4ZkVSdDVPVWRINnlvdS1FLXAweEtnTEpSNTFINmZJcmwyQllTemNGaXhDRjBXYmhMa3p0SDR6eFQzYnZT?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 메타, 남의 AI도 판다?…앤트로픽 '클로드' 직접 서비스 추진 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 오픈AI, 챗GPT 워크 출시 후 UX 혼란과 비용 문제 개선 착수 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "[AI 프리즘] \"인공지능 배우가 영화 주연까지\"…'틸리 노우드' 논란, 엔터테인먼트의 미래인가 기술홍보인가",
-        "enTitle": "[AI 프리즘] \"인공지능 배우가 영화 주연까지\"…'틸리 노우드' 논란, 엔터테인먼트의 미래인가 기술홍보인가",
-        "date": "2026-07-12",
-        "originalDate": "2026-07-11",
-        "sourceName": "뉴시안",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6dFdPWlF2SUxLTlRpaWdtYzF4RklJNlJ3SjM2MDQyZ1ExTEpUNGw4M1dpRHZJQ2Qtd05mN0lZdHFSNGlack50UkVrM3pqZ0o5U0J4ajB4MnRYQUxxa2dpNmd2bmtteng5RG5N?oc=5",
+        "koTitle": "[중국증시 주간 포인트] ②'창신메모리' 청약, '제미나이 3.5 Pro' 공개설, TSMC∙ASML 2Q 실적, 알리클라우드+세일즈포스 서밋, 올리고머 가격 인상",
+        "enTitle": "[중국증시 주간 포인트] ②'창신메모리' 청약, '제미나이 3.5 Pro' 공개설, TSMC∙ASML 2Q 실적, 알리클라우드+세일즈포스 서밋, 올리고머 가격 인상",
+        "date": "2026-07-13",
+        "originalDate": "2026-07-12",
+        "sourceName": "뉴스핌",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5nZzBxWE0wTGpxMVNwSklPRlV3LTFXdTVqSXRsbmZuZzl3c2d5NzdGNVRtQ1RPS1B6eEh4ZjNrUERFQnczRGkwdm05eHlwTGN1ODJQamRyOW1ZUlhr?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI 프리즘] \"인공지능 배우가 영화 주연까지\"…'틸리 노우드' 논란, 엔터테인먼트의 미래인가 기술홍보인가 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! [중국증시 주간 포인트] ②'창신메모리' 청약, '제미나이 3.5 Pro' 공개설, TSMC∙ASML 2Q 실적, 알리클라우드+세일즈포스 서밋, 올리고머 가격 인상 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "글로벌 등대공장으로 본 中 미래 제조업 트렌드…\"AI, AI, AI\" - 머니투데이",
-        "enTitle": "글로벌 등대공장으로 본 中 미래 제조업 트렌드…\"AI, AI, AI\" - 머니투데이",
-        "date": "2026-07-12",
-        "originalDate": "2026-07-11",
-        "sourceName": "머니투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mN2tISF9jLUhJTHZ1SHotRF93V3pWOXF0S2VmUjFwLUwwRkM5RGhBdXVmUlB1TU14ZXVjNUw5X1poeEszTHM5bVNVbkxFZmpjV1B2a1lLNjNreDRjbFRhZUdsdi1MblZW0gFuQVVfeXFMTmZ5RG5WNHAxZmE0X2RuS0k5RC1pU2ljSmw3MXRKQlk3dDhIMC1OU3REa0lwanNoNTh6U3hUWUhGaHpFUVNhdHZMdFFjbDVFNTFXV0dkOUR3RjBPOTFtZUQ1d25obXdaY3I2VzRVZ3c?oc=5",
+        "koTitle": "네카오 2분기 호실적 전망…시장 시선은 AI 수익화로",
+        "enTitle": "네카오 2분기 호실적 전망…시장 시선은 AI 수익화로",
+        "date": "2026-07-13",
+        "originalDate": "2026-07-12",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tdzFYMDRET2dPNmlmcmRmYXF5aGZTMHdRejhlTE5Sd0d2RG5MbG5rdldySGNmaFlBT0xSUWdVUkJYV0xGczZyZGRGVXF0R25ld2Fudg?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 글로벌 등대공장으로 본 中 미래 제조업 트렌드…\"AI, AI, AI\" - 머니투데이 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 네카오 2분기 호실적 전망…시장 시선은 AI 수익화로 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
