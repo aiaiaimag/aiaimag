@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-13
+ * 최신 업데이트: 2026-07-14
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "최고경영자 (CEO) 앨리슨 무어 (Alison Moore), 여성을 위한 일의 미래에 대해",
-        "enTitle": "Chief's CEO Alison Moore on the Future of Work for Women",
-        "date": "2026-07-13",
-        "originalDate": "2026-07-12",
-        "sourceName": "Time Magazine",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5kSUk3N3ZJbEFtRWVzQWI4Q1llTDVqZzVlbTJ2akh3dkhNdHI2bnpLUWNrZzFHcVdnaFZfa0w5Z1Q1Y3VoaGo0Z1A3XzJlbnJMOXhVUTM0Q1lHOWxySW1PbkNUSFl1NU9Zam0tUnM5R1JKUk9yS3QxbA?oc=5",
+        "koTitle": "AI 시대에 전문가가 게임에서 앞서 나갈 수 있는 방법",
+        "enTitle": "How professionals can stay ahead of the game in the AI era",
+        "date": "2026-07-14",
+        "originalDate": "2026-07-13",
+        "sourceName": "The World Economic Forum",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLW5VVmJPSE9rZEFBcGd5eTMzdVNkNDg1Z1RaeS1Yek9vQ3dOMV9DLXd5TW92ak11WGMtTldsSWpSUC1Id2tRQV9CdkctRlB6ZWVPWDB5ekJtNmFHM3hoWEdIc2FJakRXYXdEMHM2dHpOOWlyOUFsbFJlMk1rZHR5cTdLSGRkSHhEQmwzX0IyRVBfUQ?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 최고경영자 (CEO) 앨리슨 무어 (Alison Moore), 여성을 위한 일의 미래에 대해 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 시대에 전문가가 게임에서 앞서 나갈 수 있는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI로부터 안전: 미래에 성공하는 데 도움이 될 직업은 무엇입니까?",
-        "enTitle": "Safe from AI: which jobs will help you thrive in the future?",
-        "date": "2026-07-13",
-        "originalDate": "2026-07-11",
-        "sourceName": "The Guardian",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMlhHMTNLWW9mT1RsOW1VaWwxa1V5TnJFc1FMdWRsNlQtWElUcl9CdEVoNmxBcndQYkdhdVowMTl4OGtlaU5JMTNTckkxZzVlZmNfc3A4Tm9yMVlPM0tqTFBXZW05SWdPNS02R1dGTmVleDY4MmNBTmlCVVk1OTBlYjRuT0N3ajNCNnJYa0dEcm5oQ3BZSlNVTnN3?oc=5",
+        "koTitle": "AI가 엘리미나보다 더 많은 일을 창출할 수 있기 때문에 시스코 사장이 '미래에는 더 많은 일자리가 생길 것 같다' 고 말합니다.",
+        "enTitle": "Cisco President Says 'the Future Will Likely Have More Jobs' as AI Could Create More Work Than It Elimina",
+        "date": "2026-07-14",
+        "originalDate": "2026-07-13",
+        "sourceName": "Benzinga",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPeTQxb1EyQWgxZ2xYRzVtTHZMUnh3M1RCU0lKSGhfQ2lVa2JHaU9wZzU1VHJtUWxaN0lxTkhKZmdIY3ZNaXhaWGpBczlzcDVuNDJNWXZCYUZIYzdkbFJLenFlVktYRnVzVTFJSXFndmlBN2lfeWUzZ3ZHNW82TXN3aUZwUUJjeWo4NUNzekF6NmR3aXFneXB2dklvNkdSUm14ZXdLemJ6UGJocnliMVkxUDVBanVnSnhSa0FxbEItcFI1eHhKTEJoeEtjVjItVS0yMTUyNDltX1QtR001WVQtVXJSYkhQZHNUMEZwZnVwdUs?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "글로벌 AI 트렌드 체크! AI로부터 안전: 미래에 성공하는 데 도움이 될 직업은 무엇입니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! AI가 엘리미나보다 더 많은 일을 창출할 수 있기 때문에 시스코 사장이 '미래에는 더 많은 일자리가 생길 것 같다' 고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "2026년 인도에서 가장 수요가 많은 IT 일자리 10개 (그리고 이를 얻는 방법)",
-        "enTitle": "The 10 Most In-Demand IT Jobs in India for 2026 (And How to Get Them)",
-        "date": "2026-07-13",
-        "originalDate": "2026-07-10",
-        "sourceName": "TalentSprint",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa1FIMmg5WjFJZmh3cE5GSEZDWW1BZFlqVHBlcjNCenI2SFpvZVYwV3RxNDUwRXdZQnhTWXVUMVZMSi1VZGltR2ZYS25zTFNiVEl1d2NEOWtOdDBKUEZqeWhOM0loM1hWcVhSQlN6bUdWSEFyVU1Sa29Ebzc0V3FPWlZR?oc=5",
+        "koTitle": "AI, 고령 근로자를 커리어 교차로로 밀어 넣다, 스터디 쇼",
+        "enTitle": "AI Pushes Older Workers Into Career Crossroads, Study Shows",
+        "date": "2026-07-14",
+        "originalDate": "2026-07-13",
+        "sourceName": "The Tech Buzz",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYlhqNW5uYUtEOWZ4NGVOT2UyaGVjQ1lRdTFoMXVHbXhEWUdfSndWUU9iZjZRQ2dkLUQ3UXQ0cjg0LUlSRUtHdDNwWWQ4MFpQbHV4MXdSZUcyaEhmRUl6bUhqTzhwZ2RteVdmY2tIUThUNVlKZTZvajROZTFKNWl1dndwUWI4Nlc1YU5Falc3dy1XWjlBMHc?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 2026년 인도에서 가장 수요가 많은 IT 일자리 10개 (그리고 이를 얻는 방법) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! AI, 고령 근로자를 커리어 교차로로 밀어 넣다, 스터디 쇼 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "오픈AI, 챗GPT 워크 출시 후 UX 혼란과 비용 문제 개선 착수",
-        "enTitle": "오픈AI, 챗GPT 워크 출시 후 UX 혼란과 비용 문제 개선 착수",
-        "date": "2026-07-13",
-        "originalDate": "2026-07-12",
-        "sourceName": "디자인 나침반",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9RMTlhcUI1eUs0RGt1em5xQk15XzhqdnJLWjc1YW9tYmwyaTJEYWdKcm51WGptZXd4ZkVSdDVPVWRINnlvdS1FLXAweEtnTEpSNTFINmZJcmwyQllTemNGaXhDRjBXYmhMa3p0SDR6eFQzYnZT?oc=5",
+        "koTitle": "클로드 페이블5 무료 체험, 7월 19일까지 또 연장…'GPT-5.6' 견제 심화",
+        "enTitle": "클로드 페이블5 무료 체험, 7월 19일까지 또 연장…'GPT-5.6' 견제 심화",
+        "date": "2026-07-14",
+        "originalDate": "2026-07-13",
+        "sourceName": "디지털투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OSnVzRUtVZjEtU21MbTFiTVV0TnpiZ1JtcDBXR3N0ZWNjeTM4VGZ6R0ZqZ2oyRm15a2RCLW1LcDVtSmkwclZmeWp0cU9wblNLY1ZoNGVQY0otTEtUWl9rRHBwM1A0dFpMNmx1MldnTVRWQ0k?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 오픈AI, 챗GPT 워크 출시 후 UX 혼란과 비용 문제 개선 착수 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 클로드 페이블5 무료 체험, 7월 19일까지 또 연장…'GPT-5.6' 견제 심화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "[중국증시 주간 포인트] ②'창신메모리' 청약, '제미나이 3.5 Pro' 공개설, TSMC∙ASML 2Q 실적, 알리클라우드+세일즈포스 서밋, 올리고머 가격 인상",
-        "enTitle": "[중국증시 주간 포인트] ②'창신메모리' 청약, '제미나이 3.5 Pro' 공개설, TSMC∙ASML 2Q 실적, 알리클라우드+세일즈포스 서밋, 올리고머 가격 인상",
-        "date": "2026-07-13",
-        "originalDate": "2026-07-12",
-        "sourceName": "뉴스핌",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5nZzBxWE0wTGpxMVNwSklPRlV3LTFXdTVqSXRsbmZuZzl3c2d5NzdGNVRtQ1RPS1B6eEh4ZjNrUERFQnczRGkwdm05eHlwTGN1ODJQamRyOW1ZUlhr?oc=5",
+        "koTitle": "삼성전자, DX 직원에 제미나이 제공",
+        "enTitle": "삼성전자, DX 직원에 제미나이 제공",
+        "date": "2026-07-14",
+        "originalDate": "2026-07-13",
+        "sourceName": "경향신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Ba2xkZUtoUTFvWmRuRVk0WlJzblJpaS1Ed0ZfN3RQcWR1d1EwZE5hbTAyZ3dFdFZybUlyVk5GNHpYRkROaXc4aTlOWWlMWE0zVjJGVDFadDBqUdIBX0FVX3lxTE1rOXNzLXBtMF9NYXNPZkxoLU4tWE9IRV9DRGEwc0pkang4ZEdfSDZCeUJqd3draEtMMlpjRkxlUENoWDA1UW5JNlVQYzBOR19qc2JlYjVCS080aEVZN0hV?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! [중국증시 주간 포인트] ②'창신메모리' 청약, '제미나이 3.5 Pro' 공개설, TSMC∙ASML 2Q 실적, 알리클라우드+세일즈포스 서밋, 올리고머 가격 인상 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 삼성전자, DX 직원에 제미나이 제공 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "네카오 2분기 호실적 전망…시장 시선은 AI 수익화로",
-        "enTitle": "네카오 2분기 호실적 전망…시장 시선은 AI 수익화로",
-        "date": "2026-07-13",
-        "originalDate": "2026-07-12",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tdzFYMDRET2dPNmlmcmRmYXF5aGZTMHdRejhlTE5Sd0d2RG5MbG5rdldySGNmaFlBT0xSUWdVUkJYV0xGczZyZGRGVXF0R25ld2Fudg?oc=5",
+        "koTitle": "챗GPT 독주 깨졌다…구글 '제미나이', 韓 AI 검색서 턱밑 추격",
+        "enTitle": "챗GPT 독주 깨졌다…구글 '제미나이', 韓 AI 검색서 턱밑 추격",
+        "date": "2026-07-14",
+        "originalDate": "2026-07-13",
+        "sourceName": "뉴시스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KcDlnY05ka1QzOUJsTzFMbV9OWVQ0WTByQ2Z5SXA2cENtQ2Zkd3VKU2g5anJaYW8tZ3ROS2RoY3BRcEV5cUVNSndMOEQ4UlBMQ1g4M0dieFUydUprOWYxRtIBeEFVX3lxTE5lZ0NrRWtwb2drUnZlb1hzOE1UZjY5SUdVYTczYk9MNWpIMFJKdFd5RU5haVloajR6Q0RRZ2t1bEJzUUh5T0xzRnVlTHU2QUVCUUwxenJjX21BZFZGSFlxODF5eFYyNlFWanJDU2RYR1VlWVl5UlpyTg?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 네카오 2분기 호실적 전망…시장 시선은 AI 수익화로 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 챗GPT 독주 깨졌다…구글 '제미나이', 韓 AI 검색서 턱밑 추격 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
