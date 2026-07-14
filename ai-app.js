@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-14
+ * 최신 업데이트: 2026-07-15
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI 시대에 전문가가 게임에서 앞서 나갈 수 있는 방법",
-        "enTitle": "How professionals can stay ahead of the game in the AI era",
-        "date": "2026-07-14",
-        "originalDate": "2026-07-13",
-        "sourceName": "The World Economic Forum",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLW5VVmJPSE9rZEFBcGd5eTMzdVNkNDg1Z1RaeS1Yek9vQ3dOMV9DLXd5TW92ak11WGMtTldsSWpSUC1Id2tRQV9CdkctRlB6ZWVPWDB5ekJtNmFHM3hoWEdIc2FJakRXYXdEMHM2dHpOOWlyOUFsbFJlMk1rZHR5cTdLSGRkSHhEQmwzX0IyRVBfUQ?oc=5",
+        "koTitle": "업워크 릴리스 2026 미래 인력 지수, AI를 찾는 것이 프리랜서 업무와 수입을 재편하고 있다",
+        "enTitle": "Upwork Releases 2026 Future Workforce Index, Finding AI Is Reshaping Freelance Work and Earnings",
+        "date": "2026-07-15",
+        "originalDate": "2026-07-14",
+        "sourceName": "Quiver Quantitative",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWlN5dzZRUVNZbm5jZGF4OWdZTFl1cEJhN0NkU25NbndoV1hGRUdHUE5RMkpPZDNyUVpxY2xSMlFCT0VWUEVCOGdyOUk3R1JHR2ZtZUFhU0VmWENpVk45cXBDdnZIZWdibDV5cDh6QnlFSVdjU2RSb0xETGNiQnZlWHNsNDVDVHF6WWluUzJZRTJmMlVZaDRYMDJOcXVickdBQ3BfR3dMRHhEVzNET3I3cFVkeElQZUZjYzR3UFJGcDB1X0JDajV1OHAxVQ?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 시대에 전문가가 게임에서 앞서 나갈 수 있는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "98%",
+        "analysis": "글로벌 AI 트렌드 체크! 업워크 릴리스 2026 미래 인력 지수, AI를 찾는 것이 프리랜서 업무와 수입을 재편하고 있다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI가 엘리미나보다 더 많은 일을 창출할 수 있기 때문에 시스코 사장이 '미래에는 더 많은 일자리가 생길 것 같다' 고 말합니다.",
-        "enTitle": "Cisco President Says 'the Future Will Likely Have More Jobs' as AI Could Create More Work Than It Elimina",
-        "date": "2026-07-14",
-        "originalDate": "2026-07-13",
-        "sourceName": "Benzinga",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPeTQxb1EyQWgxZ2xYRzVtTHZMUnh3M1RCU0lKSGhfQ2lVa2JHaU9wZzU1VHJtUWxaN0lxTkhKZmdIY3ZNaXhaWGpBczlzcDVuNDJNWXZCYUZIYzdkbFJLenFlVktYRnVzVTFJSXFndmlBN2lfeWUzZ3ZHNW82TXN3aUZwUUJjeWo4NUNzekF6NmR3aXFneXB2dklvNkdSUm14ZXdLemJ6UGJocnliMVkxUDVBanVnSnhSa0FxbEItcFI1eHhKTEJoeEtjVjItVS0yMTUyNDltX1QtR001WVQtVXJSYkhQZHNUMEZwZnVwdUs?oc=5",
+        "koTitle": "AI 시대에 주니어 커리어의 미래를 탐구하는 AUI 인텔리전스 포럼",
+        "enTitle": "AUI Intelligence Forum Explores Future of Junior Careers in Age of AI",
+        "date": "2026-07-15",
+        "originalDate": "2026-07-14",
+        "sourceName": "Morocco World News",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM193cldyNVFxMGhPdWlzQmNXUnlqSzl3bTVndXA3dVBqQjdPUmpHWkhkd0VVN2xQR0FTUXFhYmFmTy1QT1NoRmRpQXY0bDU2NWtYX2k4UXlrS2s4cFFMSjcyVzIwTEhpRVpQenJRMVJwXzZoNG5RX3ZKb2diLTNsOW0xM19rVG5TTDFaWldhRjJnMmF3N0xrNlluck95eEV1cjZmOVMxaE1XOGVHTFc0SHZMemFCRjh5X3c?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 엘리미나보다 더 많은 일을 창출할 수 있기 때문에 시스코 사장이 '미래에는 더 많은 일자리가 생길 것 같다' 고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 시대에 주니어 커리어의 미래를 탐구하는 AUI 인텔리전스 포럼 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI, 고령 근로자를 커리어 교차로로 밀어 넣다, 스터디 쇼",
-        "enTitle": "AI Pushes Older Workers Into Career Crossroads, Study Shows",
-        "date": "2026-07-14",
-        "originalDate": "2026-07-13",
-        "sourceName": "The Tech Buzz",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYlhqNW5uYUtEOWZ4NGVOT2UyaGVjQ1lRdTFoMXVHbXhEWUdfSndWUU9iZjZRQ2dkLUQ3UXQ0cjg0LUlSRUtHdDNwWWQ4MFpQbHV4MXdSZUcyaEhmRUl6bUhqTzhwZ2RteVdmY2tIUThUNVlKZTZvajROZTFKNWl1dndwUWI4Nlc1YU5Falc3dy1XWjlBMHc?oc=5",
+        "koTitle": "Upwork의 미래 인력 지수 2026: AI가 숙련된 프리랜서가 가속화됨에 따라 업무의 가치를 재정의하는 방법",
+        "enTitle": "Upwork's Future Workforce Index 2026: How AI is Redefining the Value of Work as Skilled Freelancing Accelerates",
+        "date": "2026-07-15",
+        "originalDate": "2026-07-14",
+        "sourceName": "The Manila Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOT24xTnNzYzFfdEw4TWZ0dUVOeXJMTWs5SE01MFJXWDZnallYbkU3UGF3Q2ZZRnBSTGY1em82dHdBSUpyelE2ektPX1BzRXQtTFNOZzdtb1NmUnI1aDZvUEh3cTdlc0UyTURIRm1tWHpZQUNFb18xdF9NX1JJcXlocE11OE9uc2RrTENYVFlYOHM4ZDE3cHM0dFFpdmc2aENWTmJvVHdLX3R1NnZrZk4tQjdmM1J0ODEycTVQTnpFbmwyVi1hNmJjVjVFVnNjVWNQYlAwNlFuVlphelpRdGpnRmd2SXRqVjg5MTNsTDVxakdlVDNiaHdQcXRzRE5LSTVLWEJlVTRkLWF3bDFJeFY5adIBlgJBVV95cUxQYVRoSDBuX1duOGV3SlZOdmxlc2FVMkVGZFdoU2lOWno5TFlxX0dKSi1qSFptTkhOUVZVTXZ0SkV5QjJrdUV3TVJmS2Y5V29DWFY5U1NHOTc0alB3czlTbUtHTXFkY3BuRDl2WkZPX2VuOVgxQVY4ckE0NWJsb1FkQkRyQlBla3NEaHFEWlpocGpGTWhfSFJ5UURYREpJQ1ZhbW1BZTZCNldBalVjRVZOQUpzOEZjQno2UVJtVDQ0WDNFelBKNVhTRjBRcXF2emRLZTY4dUVtTFQtZ3FTc2RRbG1JNzhVMjljVko4RTlWenJJeXVfZ0c2Y1F1eFVRa3I0amoweGRPNU5vUjQ4dEFGVEVxY1BLQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! AI, 고령 근로자를 커리어 교차로로 밀어 넣다, 스터디 쇼 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! Upwork의 미래 인력 지수 2026: AI가 숙련된 프리랜서가 가속화됨에 따라 업무의 가치를 재정의하는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "클로드 페이블5 무료 체험, 7월 19일까지 또 연장…'GPT-5.6' 견제 심화",
-        "enTitle": "클로드 페이블5 무료 체험, 7월 19일까지 또 연장…'GPT-5.6' 견제 심화",
-        "date": "2026-07-14",
-        "originalDate": "2026-07-13",
-        "sourceName": "디지털투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OSnVzRUtVZjEtU21MbTFiTVV0TnpiZ1JtcDBXR3N0ZWNjeTM4VGZ6R0ZqZ2oyRm15a2RCLW1LcDVtSmkwclZmeWp0cU9wblNLY1ZoNGVQY0otTEtUWl9rRHBwM1A0dFpMNmx1MldnTVRWQ0k?oc=5",
+        "koTitle": "드롭박스, 클로드·챗GPT·제미나이 연동 확대…AI 협업 생태계 강화",
+        "enTitle": "드롭박스, 클로드·챗GPT·제미나이 연동 확대…AI 협업 생태계 강화",
+        "date": "2026-07-15",
+        "originalDate": "2026-07-14",
+        "sourceName": "테크월드",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE40WmszTk9SNjgwN0FCcmpScmFQbmlycFI4eGtPeW5PNVhWX1RjbWJEbnZVRTFHZmlrNVBJaDdCRUh1Tkh5ZHJtODRNZXh1NWNHWjZmT3FMdm9FNEZOdmFDeE5JS0g2aVBr?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 클로드 페이블5 무료 체험, 7월 19일까지 또 연장…'GPT-5.6' 견제 심화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 드롭박스, 클로드·챗GPT·제미나이 연동 확대…AI 협업 생태계 강화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "삼성전자, DX 직원에 제미나이 제공",
-        "enTitle": "삼성전자, DX 직원에 제미나이 제공",
-        "date": "2026-07-14",
-        "originalDate": "2026-07-13",
-        "sourceName": "경향신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Ba2xkZUtoUTFvWmRuRVk0WlJzblJpaS1Ed0ZfN3RQcWR1d1EwZE5hbTAyZ3dFdFZybUlyVk5GNHpYRkROaXc4aTlOWWlMWE0zVjJGVDFadDBqUdIBX0FVX3lxTE1rOXNzLXBtMF9NYXNPZkxoLU4tWE9IRV9DRGEwc0pkang4ZEdfSDZCeUJqd3draEtMMlpjRkxlUENoWDA1UW5JNlVQYzBOR19qc2JlYjVCS080aEVZN0hV?oc=5",
+        "koTitle": "강남데이터랩, 페이플과 손잡고 양도세 AI 서비스 출시 - 머니투데이",
+        "enTitle": "강남데이터랩, 페이플과 손잡고 양도세 AI 서비스 출시 - 머니투데이",
+        "date": "2026-07-15",
+        "originalDate": "2026-07-14",
+        "sourceName": "머니투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5QLUdhN0NWMVBmRmpnV2RiOEV4VmRfV3U5NEMwMEtQdlZmMmZteVFfODlnYlQzbFJEY1FibS1FX29iNUZfbEFBX2MxcVNKX0tUOEgwSGRVS19tZUlWWkotSXF0YXd3SEJuRXZUUWFLdThyQdIBckFVX3lxTE5QLUdhN0NWMVBmRmpnV2RiOEV4VmRfV3U5NEMwMEtQdlZmMmZteVFfODlnYlQzbFJEY1FibS1FX29iNUZfbEFBX2MxcVNKX0tUOEgwSGRVS19tZUlWWkotSXF0YXd3SEJuRXZUUWFLdThyQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 삼성전자, DX 직원에 제미나이 제공 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 강남데이터랩, 페이플과 손잡고 양도세 AI 서비스 출시 - 머니투데이 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "챗GPT 독주 깨졌다…구글 '제미나이', 韓 AI 검색서 턱밑 추격",
-        "enTitle": "챗GPT 독주 깨졌다…구글 '제미나이', 韓 AI 검색서 턱밑 추격",
-        "date": "2026-07-14",
-        "originalDate": "2026-07-13",
-        "sourceName": "뉴시스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KcDlnY05ka1QzOUJsTzFMbV9OWVQ0WTByQ2Z5SXA2cENtQ2Zkd3VKU2g5anJaYW8tZ3ROS2RoY3BRcEV5cUVNSndMOEQ4UlBMQ1g4M0dieFUydUprOWYxRtIBeEFVX3lxTE5lZ0NrRWtwb2drUnZlb1hzOE1UZjY5SUdVYTczYk9MNWpIMFJKdFd5RU5haVloajR6Q0RRZ2t1bEJzUUh5T0xzRnVlTHU2QUVCUUwxenJjX21BZFZGSFlxODF5eFYyNlFWanJDU2RYR1VlWVl5UlpyTg?oc=5",
+        "koTitle": "\"한국어 쓰는 클로드, 더 다정하다\"…앤트로픽, 언어·모델별 가치 분석 공개",
+        "enTitle": "\"한국어 쓰는 클로드, 더 다정하다\"…앤트로픽, 언어·모델별 가치 분석 공개",
+        "date": "2026-07-15",
+        "originalDate": "2026-07-14",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qdXB4QVh4LWRzcURNZGowUnBGekRuTnhDbldGMUVjQm45bWhRTUgwNlkwLWdWSlhVa3QzaU1Cb05rcGZLRER4cWFHVUVFMjI1ZTRNVVpJWXBZVElPMG9yTHAtdXlZQkVmd0E?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 챗GPT 독주 깨졌다…구글 '제미나이', 韓 AI 검색서 턱밑 추격 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! \"한국어 쓰는 클로드, 더 다정하다\"…앤트로픽, 언어·모델별 가치 분석 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
