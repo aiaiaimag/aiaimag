@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-17
+ * 최신 업데이트: 2026-07-18
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "구직 활동의 미래는? 추천: 인공지능 플랫폼은 사람들이 일자리를 찾는 방식을 바꾸는 것을 목표로 합니다.",
-        "enTitle": "The future of job hunting? Refer, an AI platform aims to change the way people find jobs",
-        "date": "2026-07-17",
-        "originalDate": "2026-07-16",
-        "sourceName": "kmph.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaHU4VUdBa2Rsc2FyenAxZVNPbGNTVFR6N2ppM0hTR2JQVGFrYW02LUpsMk56YXJBOHNfQUNJYW1FbWJaTW4zb1BSRFV1TkNJMzJvS01DMmlHVWlPWVFiTEN5Ym9vdDZ5RlFXTVVVbXoxSDVMeDh2bjNmU2pCbHlEeHlxYjI2blhZRjZ6b3F5Wl9SOHRweDJPMkFsLTRBOFZnY00tV1NrRjhHaFJmb0dFX0ZNVjI?oc=5",
+        "koTitle": "인공지능 경제가 노동을 생계로 재고할 것을 요구하는 이유",
+        "enTitle": "Why the AI economy demands we rethink work as livelihood",
+        "date": "2026-07-18",
+        "originalDate": "2026-07-17",
+        "sourceName": "The World Economic Forum",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSmJwVzdGR0xJWlJaQ0R3N2VxZUFwUkotR2pyMTVSbTAzQ3lRVERJRGE2YTVmV2NnYzhGVDJrTmR6ZnJOeVJyQ3g1bnNwLU1aS1JMM3o4SUJ6aTlidzRrTTBKdVZuYlE0enlFTTJvS29EZFdFM3dmemNtUkRnOHZTeDVVUXV5QQ?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 구직 활동의 미래는? 추천: 인공지능 플랫폼은 사람들이 일자리를 찾는 방식을 바꾸는 것을 목표로 합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능 경제가 노동을 생계로 재고할 것을 요구하는 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "구직 활동의 미래는? 추천: 인공지능 플랫폼은 사람들이 일자리를 찾는 방식을 바꾸는 것을 목표로 합니다.",
+        "enTitle": "The future of job hunting? Refer, an AI platform aims to change the way people find jobs",
+        "date": "2026-07-18",
+        "originalDate": "2026-07-16",
+        "sourceName": "kmph.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaHU4VUdBa2Rsc2FyenAxZVNPbGNTVFR6N2ppM0hTR2JQVGFrYW02LUpsMk56YXJBOHNfQUNJYW1FbWJaTW4zb1BSRFV1TkNJMzJvS01DMmlHVWlPWVFiTEN5Ym9vdDZ5RlFXTVVVbXoxSDVMeDh2bjNmU2pCbHlEeHlxYjI2blhZRjZ6b3F5Wl9SOHRweDJPMkFsLTRBOFZnY00tV1NrRjhHaFJmb0dFX0ZNVjI?oc=5",
+        "isRepublished": false,
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 구직 활동의 미래는? 추천: 인공지능 플랫폼은 사람들이 일자리를 찾는 방식을 바꾸는 것을 목표로 합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "불확실한 미래를 위한 기술: 청년들이 변화하는 취업 시장을 탐색하는 방법",
         "enTitle": "Skills for an uncertain future: How youth can navigate a changing job market",
-        "date": "2026-07-17",
+        "date": "2026-07-18",
         "originalDate": "2026-07-15",
         "sourceName": "UN News",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3VGJBMFJXZ3FOcUhUVVJ1Q3g1OGNRYk5EVXpzV2xRYjFVYk80dkloZl9wTmxMNXJkWlVLOFlJa2w1MERXX1dKUkx4VnZnNTdvZGZuNFVKQQ?oc=5",
         "isRepublished": false,
         "viralRate": "96%",
         "analysis": "글로벌 AI 트렌드 체크! 불확실한 미래를 위한 기술: 청년들이 변화하는 취업 시장을 탐색하는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "AI 시대에 주니어 커리어의 미래를 탐구하는 AUI 인텔리전스 포럼",
-        "enTitle": "AUI Intelligence Forum Explores Future of Junior Careers in Age of AI",
-        "date": "2026-07-17",
-        "originalDate": "2026-07-15",
-        "sourceName": "Morocco World News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM193cldyNVFxMGhPdWlzQmNXUnlqSzl3bTVndXA3dVBqQjdPUmpHWkhkd0VVN2xQR0FTUXFhYmFmTy1QT1NoRmRpQXY0bDU2NWtYX2k4UXlrS2s4cFFMSjcyVzIwTEhpRVpQenJRMVJwXzZoNG5RX3ZKb2diLTNsOW0xM19rVG5TTDFaWldhRjJnMmF3N0xrNlluck95eEV1cjZmOVMxaE1XOGVHTFc0SHZMemFCRjh5X3c?oc=5",
-        "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 시대에 주니어 커리어의 미래를 탐구하는 AUI 인텔리전스 포럼 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "클로드 코드에서 스킬을 묶어 워크플로우 자동화하기",
-        "enTitle": "클로드 코드에서 스킬을 묶어 워크플로우 자동화하기",
-        "date": "2026-07-17",
-        "originalDate": "2026-07-16",
+        "koTitle": "클로드 코드, 폰에서도 간편하게 개발할 수 있나요?",
+        "enTitle": "클로드 코드, 폰에서도 간편하게 개발할 수 있나요?",
+        "date": "2026-07-18",
+        "originalDate": "2026-07-17",
         "sourceName": "요즘IT",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5SUYyMkFvLWVBeXBORTRQSy1wQkljLV9udC1OWDlqandPUGhOcU1LSGxLX0lHZlEtcVBScmFLcWo0d2Vzd0dNU1hucWgxcHE1RlIzWlpNb2kwZw?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNRDdmOEt4Z04tem4tVEptcXltVU9VUVJJcVdjNUZ3SEpFeDI0VWVrd1diQWlReVVURGhkbjF3a3dTR2lkOGYwT0JFZUx2MWhvcUxXd1VQQ1EzQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 클로드 코드에서 스킬을 묶어 워크플로우 자동화하기 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 클로드 코드, 폰에서도 간편하게 개발할 수 있나요? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "AI로 코드는 빨리 짰는데, 서비스 출시는 왜 제자리일까",
-        "enTitle": "AI로 코드는 빨리 짰는데, 서비스 출시는 왜 제자리일까",
-        "date": "2026-07-17",
-        "originalDate": "2026-07-16",
-        "sourceName": "조선일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbkZtb01jaUllY3dETlpvZFlLS21Sa1U3M1NLTC1feHJtVzdfWDhxNnBodFd1SkpTODA4WUJEUVVJbXJGY0EzS0MwR1lUOXNpNndFVEZNNWpWTWUtdFRNZk5td09wdFIxNlBFdGtsTDNaQjl5V3VwTGFVOGhWLW55MC00Zw?oc=5",
+        "koTitle": "\"구글, '제미나이 3.5 프로' 출시 수개월 지연\"…주가 4.4%↓",
+        "enTitle": "\"구글, '제미나이 3.5 프로' 출시 수개월 지연\"…주가 4.4%↓",
+        "date": "2026-07-18",
+        "originalDate": "2026-07-17",
+        "sourceName": "연합뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqcjZucGE5bjVqUy0xZmpxeS03aUEwektSdk1SenZ4QTJWc3llTGJ6TzVJeEJPbk13dW9CZ2pJSEFpVllFcXA1OW9EM2c3ekJzUWVnSnZHYWZRaHd1RlpDQdIBYEFVX3lxTFBqcjZucGE5bjVqUy0xZmpxeS03aUEwektSdk1SenZ4QTJWc3llTGJ6TzVJeEJPbk13dW9CZ2pJSEFpVllFcXA1OW9EM2c3ekJzUWVnSnZHYWZRaHd1RlpDQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! AI로 코드는 빨리 짰는데, 서비스 출시는 왜 제자리일까 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! \"구글, '제미나이 3.5 프로' 출시 수개월 지연\"…주가 4.4%↓ 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "돈내는 챗GPT·제미나이 그만! 연말 공짜 ‘K-AI’ 나온다",
-        "enTitle": "돈내는 챗GPT·제미나이 그만! 연말 공짜 ‘K-AI’ 나온다",
-        "date": "2026-07-17",
-        "originalDate": "2026-07-16",
-        "sourceName": "서울신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CUVhZM0trTFBJYXY2V0V4Y1NrSlVjTzFxekpQM01KbUl6Qzk3M3NrYmtHRUpfczRNT2hjUWRvdUFGc3N5R2xPQVJiRDBXNUpIYTJtY2VQbEswMER1YnJWWV9JR0JINU5BSHM1Z3hWZw?oc=5",
+        "koTitle": "애플, 엔비디아 제치고 시총 1위 탈환… ‘AI 수익화’ 기대감",
+        "enTitle": "애플, 엔비디아 제치고 시총 1위 탈환… ‘AI 수익화’ 기대감",
+        "date": "2026-07-18",
+        "originalDate": "2026-07-17",
+        "sourceName": "블록미디어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1UVlR4cHVnSXMyV1MyZFVTS0xqeHJweGdyXzNmUjMya09odjAyVTJETDQtOXlpQnRWc3JOUktmYkM0RGlzOUxTX1lFTjBheHFlSHNQUFFNbHY?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 돈내는 챗GPT·제미나이 그만! 연말 공짜 ‘K-AI’ 나온다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 애플, 엔비디아 제치고 시총 1위 탈환… ‘AI 수익화’ 기대감 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
