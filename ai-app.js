@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-21
+ * 최신 업데이트: 2026-07-22
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "미래 일자리를 위한 기술, AI를 받아들여라… 콘스탄스 스와니커, 청년들에게 권한다",
-        "enTitle": "Embrace AI, technical skills for future jobs …Constance Swaniker urges youth",
-        "date": "2026-07-21",
-        "originalDate": "2026-07-20",
-        "sourceName": "Ghanaian Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZEE3RTBYcUVnUFEzOWdfRzY5NU1KWm12Z25WbUpUS2pqUkRkUWtCRGRIa1F2b0ZrNWFlTzZXTXBzeUlibkVLeWtIMlM3ZU1Vbnl5ZFk5dEFlS2RadFZaWG5lSHJFQi1pdm11UWRRV3JlMWxjQ0NTS2ZUeUpsYmlzVWtQRnBlTHlNalpUR096X2RzYkhyZkJDR0FyOEdVU0o3RlJCNWJacw?oc=5",
+        "koTitle": "AI를 위해 초보 수준의 일자리를 줄이는 회사는 미래의 관리자를 잃을 위험이 있습니다.",
+        "enTitle": "Companies cutting entry-level jobs for AI risk losing future managers",
+        "date": "2026-07-22",
+        "originalDate": "2026-07-21",
+        "sourceName": "qz.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB3S1dYWktpcmktLWxRNkxkWXRNcURtdktMdWkzVzV6UUxkMmRaTVNrQ0dHOXBqNlV0el9KODZQcEI0a1N3ODVYWTFtdm12SGtCZkhHV2tLdDRHZV9XUjlN?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 미래 일자리를 위한 기술, AI를 받아들여라… 콘스탄스 스와니커, 청년들에게 권한다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! AI를 위해 초보 수준의 일자리를 줄이는 회사는 미래의 관리자를 잃을 위험이 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI 일자리 걱정이 커집니다. 하지만 일부 인간의 기술은 기계로 대체할 수 없습니다. | Gaynor Parkin and Dave Winsborough",
-        "enTitle": "AI job worries grow. But some human skills can’t be replaced by machines | Gaynor Parkin and Dave Winsborough",
-        "date": "2026-07-21",
-        "originalDate": "2026-07-19",
-        "sourceName": "The Guardian",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTkV3UjhER1IzMENoSGtrMmpLeWhxOGVuN0otcjk0WlBCc0RBUzcxQldBZmVwTm9aRm1ObGZCQ3NVZnYwUGxid0gzSWFYV2hqUF9BWXBwTnlPX2dXMkg0ZFNVcWM0U2s5Mm42UDRrN3AyXy01SFNSVDd3aXZWeTVRclFNZkpmSjFOaHdjWjJ0MlRjYjNHQ0VDZldoMHdxaXlSSXE2WV9n?oc=5",
+        "koTitle": "대학 졸업 후 즐겁고 생산적인 여름 휴가를 위한 13가지 Google 팁",
+        "enTitle": "13 Google tips for a fun, productive summer off from college",
+        "date": "2026-07-22",
+        "originalDate": "2026-07-21",
+        "sourceName": "blog.google",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeHNYTmNwME83SXJzVVlhcVl3SWp5eDROMlVUU1BKRWxKbE8wTFk3NWZBVFJObkxKYTZRQ1Utd3BLRWkzMzdTWnYyblVSQl9WQ3IwQkZhdEdEQWtUb29hdDVqX3FTeDJPRjN0OVFiQzZ0SllvTXNoUzlMRFdnQ0RPcWQteVlVWGI5YWZ6S1hVZENaWFJRUWFMdjJJWlFmN095dkJJODhn?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 일자리 걱정이 커집니다. 하지만 일부 인간의 기술은 기계로 대체할 수 없습니다. | Gaynor Parkin and Dave Winsborough 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! 대학 졸업 후 즐겁고 생산적인 여름 휴가를 위한 13가지 Google 팁 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "MIT AI 전문가는 Z세대 보급형 일자리를 자동화하면 역효과를 낼 수 있으며 기업의 미래 인력에 비용이 발생할 수 있다고 경고합니다.",
-        "enTitle": "MIT AI expert warns automating Gen Z entry-level jobs could backfire—and cost companies their future workforce",
-        "date": "2026-07-21",
-        "originalDate": "2026-07-19",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZXZVcWJtWFdJOHo1Q3FaUkhiNDhBclJpOXk4cG1CMVN4djBkRFlycUVtU1gydjhTLU41eExsWlRqT2hoSlFDYWRmOWRjR1pPUDhTTmVfVzVLTE9SSHhCRkZoZVR0a3dXSmpkdXJmRmJZZm1SS2U0eDN0SXNIblJDU19PYUQ3V1V0YVhfc1R0a014c3YxQ3RJV181ZnVYQnM3Vmo1dHZMRmFrdUZJVXF0V2pDbVFyXzN0N2dpQTUyUGEzYmdtWS1mb19MdHZSOEJVYko1UjVVX0M?oc=5",
+        "koTitle": "인공지능 리터러시 워크숍: BeSkilled America & Byteable.AI, '인공지능을 활용한 업무의 미래' 발표",
+        "enTitle": "AI Literacy Workshop: BeSkilled America & Byteable.AI Present 'Future of Work with AI'",
+        "date": "2026-07-22",
+        "originalDate": "2026-07-21",
+        "sourceName": "EIN News",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZjdFa0RyMVZWMVRJWmlVTVQ5RVJleU5sR0w1eEtPbDlndU85cm4zcEM2bmRwOG85b1VUX2I1LXNCNnAzZGtOOWxOaUh3WGloUDdxV2duTEdQcFJOZjZyQ0hNMXhFMGNuUW1QbzkwNkMxc1Z0Qlc1MWxGUG1aWWFfTmlPX0FaMEVjSG81TUtYMFplY19BbXhwanBnSlM2dVF1UFZSYzVYd211TE10X01hMTk5QWFmLTlkOXBDRUZzY2M?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! MIT AI 전문가는 Z세대 보급형 일자리를 자동화하면 역효과를 낼 수 있으며 기업의 미래 인력에 비용이 발생할 수 있다고 경고합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능 리터러시 워크숍: BeSkilled America & Byteable.AI, '인공지능을 활용한 업무의 미래' 발표 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "삼성SDS, 국산 NPU 기반 AI 서비스 출시",
-        "enTitle": "삼성SDS, 국산 NPU 기반 AI 서비스 출시",
-        "date": "2026-07-21",
-        "originalDate": "2026-07-20",
-        "sourceName": "세계일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1pUzRwWlZZeHRLV0tyRzhKbUlXeFRteVN2VS1ob3dVSVd4YlRRTmk2aGRXNm5TZnpLbS12QUlVVXZYOUtRTVZHcHg5Y0JtUF9TaWVMejdacDFTc0JITTg2ZTd2OGx6UFBLTFVj0gFUQVVfeXFMTm1CeUdLdzI3eU1MQmlTdXZzRjFoakZUUmxCWEk1NENEY1RTTHNia1N4R1UyV2RET1NfUUVDZmVES01SWjVVdjJqSlB4YUJGb0RRLUtk?oc=5",
+        "koTitle": "클로드 코드로 5일 만에 웹 포털 런칭한 방법",
+        "enTitle": "클로드 코드로 5일 만에 웹 포털 런칭한 방법",
+        "date": "2026-07-22",
+        "originalDate": "2026-07-21",
+        "sourceName": "요즘IT",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KQjU1RnlQdlR5U3p3bWtOT2dYbG0zTEc5QnAtcVZtbk5uOWhja3p0cE5KZkpwQUx2TjN1OUlpSHNrWWplZ3RGbkNMOWotQVUtdXRLTE5RQ3Jldw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 삼성SDS, 국산 NPU 기반 AI 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 클로드 코드로 5일 만에 웹 포털 런칭한 방법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "“모두의 AI, 생활밀착형 서비스로 승부”",
-        "enTitle": "“모두의 AI, 생활밀착형 서비스로 승부”",
-        "date": "2026-07-21",
-        "originalDate": "2026-07-20",
-        "sourceName": "서울신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBpWlZNMFhFWlNNZDQyTm9rTm8wQXl3MzRGY0tfNURIT0M2TElVS2NLM1Y2Wl9MazdNUTF5d2xZZEdGSS11cnNhQWFzV3MtT3FVUVZnczJ5Sk5uSTVqYlpDcjg3QWw3cTM0aUs0RXYtRQ?oc=5",
+        "koTitle": "OpenAI, 소상공인 위한 ChatGPT 프로그램 출시",
+        "enTitle": "OpenAI, 소상공인 위한 ChatGPT 프로그램 출시",
+        "date": "2026-07-22",
+        "originalDate": "2026-07-21",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84S1dhR1NaQ2pncjdRcTRFa1loMWFFY25PRUVQbXZRc3I3bGh0cjdCR2dJeWVJcjFxMThSQ1VmLTJPOV9YRXpZSFJXZk5Nai1Wc0hpNXVVTUZsZVkzNktwQmR3QzVEdjYxRU51bVEzeXJtR09Wbm9v?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! “모두의 AI, 생활밀착형 서비스로 승부” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! OpenAI, 소상공인 위한 ChatGPT 프로그램 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "구글, ’제미나이 전용’ AI 칩 개발…2028년 배치 목표",
-        "enTitle": "구글, ’제미나이 전용’ AI 칩 개발…2028년 배치 목표",
-        "date": "2026-07-21",
-        "originalDate": "2026-07-20",
-        "sourceName": "연합뉴스TV",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MQzl4QU10NnNsb1EtaDlyQTk5UWtsS0NDNjBxcXpVQ0NTNnEtN0ZpbTFjQlJaWUFOc0JXTHFGMHNZRUc0OEhCV0VIa3pKU01qcEUwaGJlYVlNTkxsOTJabmhjbzBQdFU?oc=5",
+        "koTitle": "전 국민 무료 AI 서비스 나온다…‘모두의 AI’ 연말 출시 계획",
+        "enTitle": "전 국민 무료 AI 서비스 나온다…‘모두의 AI’ 연말 출시 계획",
+        "date": "2026-07-22",
+        "originalDate": "2026-07-21",
+        "sourceName": "아시아투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE83ajMwYnVCdXJDZVhLNTJEcHlFNW9GZmdReGI3bWxpSEh6VGJfQTQ1Xy1PYTZueDF5N3pDMThBeW1sdnJUZ2Fpem5qNkxPWHRJMzgtTE1wUjUxcm4zNm9kcldFZUw3bFRpWlREMUhR?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글, ’제미나이 전용’ AI 칩 개발…2028년 배치 목표 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 전 국민 무료 AI 서비스 나온다…‘모두의 AI’ 연말 출시 계획 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
