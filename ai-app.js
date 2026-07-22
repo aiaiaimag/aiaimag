@@ -1,7 +1,7 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-22
+ * 최신 업데이트: 2026-07-23
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
@@ -10,38 +10,38 @@ const aiNewsData = [
         "rank": 1,
         "koTitle": "AI를 위해 초보 수준의 일자리를 줄이는 회사는 미래의 관리자를 잃을 위험이 있습니다.",
         "enTitle": "Companies cutting entry-level jobs for AI risk losing future managers",
-        "date": "2026-07-22",
-        "originalDate": "2026-07-21",
+        "date": "2026-07-23",
+        "originalDate": "2026-07-22",
         "sourceName": "qz.com",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB3S1dYWktpcmktLWxRNkxkWXRNcURtdktMdWkzVzV6UUxkMmRaTVNrQ0dHOXBqNlV0el9KODZQcEI0a1N3ODVYWTFtdm12SGtCZkhHV2tLdDRHZV9XUjlN?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
+        "viralRate": "97%",
         "analysis": "글로벌 AI 트렌드 체크! AI를 위해 초보 수준의 일자리를 줄이는 회사는 미래의 관리자를 잃을 위험이 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "대학 졸업 후 즐겁고 생산적인 여름 휴가를 위한 13가지 Google 팁",
-        "enTitle": "13 Google tips for a fun, productive summer off from college",
-        "date": "2026-07-22",
-        "originalDate": "2026-07-21",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeHNYTmNwME83SXJzVVlhcVl3SWp5eDROMlVUU1BKRWxKbE8wTFk3NWZBVFJObkxKYTZRQ1Utd3BLRWkzMzdTWnYyblVSQl9WQ3IwQkZhdEdEQWtUb29hdDVqX3FTeDJPRjN0OVFiQzZ0SllvTXNoUzlMRFdnQ0RPcWQteVlVWGI5YWZ6S1hVZENaWFJRUWFMdjJJWlFmN095dkJJODhn?oc=5",
+        "koTitle": "AI 시대에 대학, 비즈니스 리더가 업무의 미래를 공동 설계할 수 있는 방법",
+        "enTitle": "How colleges, business leaders can co-design the future of work in the age of AI",
+        "date": "2026-07-23",
+        "originalDate": "2026-07-22",
+        "sourceName": "The Business Journals",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaUl6R2E3cmVmUXZjSkhzVFF6c2phU0pIZmVjbU5PaDY2V1J6SzFLTmJsVkhSbWFMSXJJbllGMGM4Rmt3eF9DMXVrTnFWWFV1SXBMZTVsTkJBbVByR1VFOVd2c0NFME5MUFg3ellrSk1mV0tvX0NLWEdmckw3THkwMzJVR3F6alZHd19NSXlMalpwWW9ZV2YwM2lrSG9Cd3daVEE?oc=5",
         "isRepublished": false,
         "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! 대학 졸업 후 즐겁고 생산적인 여름 휴가를 위한 13가지 Google 팁 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! AI 시대에 대학, 비즈니스 리더가 업무의 미래를 공동 설계할 수 있는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "인공지능 리터러시 워크숍: BeSkilled America & Byteable.AI, '인공지능을 활용한 업무의 미래' 발표",
-        "enTitle": "AI Literacy Workshop: BeSkilled America & Byteable.AI Present 'Future of Work with AI'",
-        "date": "2026-07-22",
-        "originalDate": "2026-07-21",
-        "sourceName": "EIN News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZjdFa0RyMVZWMVRJWmlVTVQ5RVJleU5sR0w1eEtPbDlndU85cm4zcEM2bmRwOG85b1VUX2I1LXNCNnAzZGtOOWxOaUh3WGloUDdxV2duTEdQcFJOZjZyQ0hNMXhFMGNuUW1QbzkwNkMxc1Z0Qlc1MWxGUG1aWWFfTmlPX0FaMEVjSG81TUtYMFplY19BbXhwanBnSlM2dVF1UFZSYzVYd211TE10X01hMTk5QWFmLTlkOXBDRUZzY2M?oc=5",
+        "koTitle": "EU 집행위원회는 생활비, AI, 일자리 및 돌봄에 대한 사회 정책 의제를 검토합니다.",
+        "enTitle": "EU Commission reviews social policy agenda on living costs, AI, jobs and care",
+        "date": "2026-07-23",
+        "originalDate": "2026-07-22",
+        "sourceName": "INSIGHT EU MONITORING",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWDkzeFFtOEdXVkJJeUMwSUR6SDVTQ2RLUEF5dFFsUEU4LUNFTXZFUWkydE1EUXZUV3BSa1hHMEpGSFE0aTJrYjQySEx0aDg0WXYwX2gzZFZDbF9mdktVY1hNZGJzRVpZd1JZTFhscHZCOUVzUUsxQTdKNW82RXhHWmgtbk5rOEVQeU96dG0yMkFLNmRvcklGSjEzeHA0ZG1iNWhfZXZ5Uk9HYW51bXBEMTJJdFBSalBzOFRLcDVWRUZHU09SaHVMNjFjcmxpSUVZZUlLNkpwVkw?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능 리터러시 워크숍: BeSkilled America & Byteable.AI, '인공지능을 활용한 업무의 미래' 발표 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! EU 집행위원회는 생활비, AI, 일자리 및 돌봄에 대한 사회 정책 의제를 검토합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "클로드 코드로 5일 만에 웹 포털 런칭한 방법",
-        "enTitle": "클로드 코드로 5일 만에 웹 포털 런칭한 방법",
-        "date": "2026-07-22",
-        "originalDate": "2026-07-21",
-        "sourceName": "요즘IT",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KQjU1RnlQdlR5U3p3bWtOT2dYbG0zTEc5QnAtcVZtbk5uOWhja3p0cE5KZkpwQUx2TjN1OUlpSHNrWWplZ3RGbkNMOWotQVUtdXRLTE5RQ3Jldw?oc=5",
+        "koTitle": "‘제미나이 3.5 플래시 사이버’(Gemini 3.5 Flash Cyber)를 소개합니다",
+        "enTitle": "‘제미나이 3.5 플래시 사이버’(Gemini 3.5 Flash Cyber)를 소개합니다",
+        "date": "2026-07-23",
+        "originalDate": "2026-07-22",
+        "sourceName": "blog.google",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZEVVWkFOTEdXMi1ySUl5MWpBdkt0QkZGT01kbDlxMldfVnNNTVFTSGRLbTdQSjZDUWtEbHp4SFFHeEYtZEFPR3lsUGkzaGNTSU4wUEdaZFVwNzh0b09GTTlsSEJYNDljS2dQSWtpZGJ2b2ZXeXBmOG5lVkJKUWlvdmVYNHh4Q3dqQ2NPbmxOeVA0SGlV?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 클로드 코드로 5일 만에 웹 포털 런칭한 방법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! ‘제미나이 3.5 플래시 사이버’(Gemini 3.5 Flash Cyber)를 소개합니다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "OpenAI, 소상공인 위한 ChatGPT 프로그램 출시",
-        "enTitle": "OpenAI, 소상공인 위한 ChatGPT 프로그램 출시",
-        "date": "2026-07-22",
-        "originalDate": "2026-07-21",
-        "sourceName": "Investing.com 한국어",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84S1dhR1NaQ2pncjdRcTRFa1loMWFFY25PRUVQbXZRc3I3bGh0cjdCR2dJeWVJcjFxMThSQ1VmLTJPOV9YRXpZSFJXZk5Nai1Wc0hpNXVVTUZsZVkzNktwQmR3QzVEdjYxRU51bVEzeXJtR09Wbm9v?oc=5",
+        "koTitle": "[AI 뉴스] 구글 ‘제미나이 3.6 플래시’ 공개…빠른 AI가 앱까지 만든다",
+        "enTitle": "[AI 뉴스] 구글 ‘제미나이 3.6 플래시’ 공개…빠른 AI가 앱까지 만든다",
+        "date": "2026-07-23",
+        "originalDate": "2026-07-22",
+        "sourceName": "아웃소싱타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBOd0hDNGpnYVE0UVlJNHc1aVhIYzZaeVpsWllKdmY5ak1vNTJVOVF3YzN3SDNDV1ZjRzVvaE1FUlVvUFMyNVJmQjU2RnFPUXgzU2VONGJ6NENiVG1GZGowTzZJM3dkOFlDNlJKVUpNLXN2dw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! OpenAI, 소상공인 위한 ChatGPT 프로그램 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [AI 뉴스] 구글 ‘제미나이 3.6 플래시’ 공개…빠른 AI가 앱까지 만든다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "전 국민 무료 AI 서비스 나온다…‘모두의 AI’ 연말 출시 계획",
-        "enTitle": "전 국민 무료 AI 서비스 나온다…‘모두의 AI’ 연말 출시 계획",
-        "date": "2026-07-22",
-        "originalDate": "2026-07-21",
-        "sourceName": "아시아투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE83ajMwYnVCdXJDZVhLNTJEcHlFNW9GZmdReGI3bWxpSEh6VGJfQTQ1Xy1PYTZueDF5N3pDMThBeW1sdnJUZ2Fpem5qNkxPWHRJMzgtTE1wUjUxcm4zNm9kcldFZUw3bFRpWlREMUhR?oc=5",
+        "koTitle": "서비스나우, 구독 매출 25% '깜짝 성장'…AI 수익화 본격화│Global Money Club",
+        "enTitle": "서비스나우, 구독 매출 25% '깜짝 성장'…AI 수익화 본격화│Global Money Club",
+        "date": "2026-07-23",
+        "originalDate": "2026-07-22",
+        "sourceName": "중앙일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRTVVCeFFXQzhmOTZQWl92SlBJSUhEYkk0Z3Q2amFkYW41M3c4dDJnTmZ0cnRKSFd3SDM4cnJRckRMbGdxYk1QMkZ2R28tNWhHeGZiMUJQNU93SzA?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 전 국민 무료 AI 서비스 나온다…‘모두의 AI’ 연말 출시 계획 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 서비스나우, 구독 매출 25% '깜짝 성장'…AI 수익화 본격화│Global Money Club 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
