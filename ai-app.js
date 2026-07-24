@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-24
+ * 최신 업데이트: 2026-07-25
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI를 위해 초보 수준의 일자리를 줄이는 회사는 미래의 관리자를 잃을 위험이 있습니다.",
-        "enTitle": "Companies cutting entry-level jobs for AI risk losing future managers",
-        "date": "2026-07-24",
-        "originalDate": "2026-07-23",
-        "sourceName": "qz.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB3S1dYWktpcmktLWxRNkxkWXRNcURtdktMdWkzVzV6UUxkMmRaTVNrQ0dHOXBqNlV0el9KODZQcEI0a1N3ODVYWTFtdm12SGtCZkhHV2tLdDRHZV9XUjlN?oc=5",
+        "koTitle": "새로운 연구에 따르면 직업에 대한 가장 큰 위험은 AI가 아닙니다. 그것으로 배우는 것을 거부하고 있습니다",
+        "enTitle": "New Research Shows That the Biggest Risk to Your Job Isn’t AI. It’s Refusing to Learn With It",
+        "date": "2026-07-25",
+        "originalDate": "2026-07-24",
+        "sourceName": "inc.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdEtwSUVySjJlMm5sb0Nvb0JuSWZ4VHU3XzZpc01iSnZia195NW9oUC12RmdCN3VWSjBBQVhoeDBfU0N5OFE2enY1UzltMlAwUTFhSVBzQkQ1SE5XTXh6LUVBOEhlcm9QcU5KeGliVTh2V3BIZl8xWWZ2dWtOQnFYZFNrSGhPTkxMSGR5b3R2WlN5SDliRHdUcUFuMmhYdzdnZHRKNGFjZTJMN25NS2gtbW9ZTmZSOXVkSldXb0lqbzQ0NkJZbGRMSElITTNqZw?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! AI를 위해 초보 수준의 일자리를 줄이는 회사는 미래의 관리자를 잃을 위험이 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! 새로운 연구에 따르면 직업에 대한 가장 큰 위험은 AI가 아닙니다. 그것으로 배우는 것을 거부하고 있습니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "런던, 근로자와 기업이 AI에 대비할 수 있도록 돕는 £ 30M 계획 발표",
-        "enTitle": "London Unveils £30m Plan to Help Workers and Businesses Prepare for AI",
-        "date": "2026-07-24",
-        "originalDate": "2026-07-23",
-        "sourceName": "Fair Play Talks",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcUhpcEQ5OExQZ1V0d2UtbnJjVW5Yamp4Um5UNVR1UDRJMG02dl93VzJjX3ZzdHRCVU1PV0MyS2QtOWRGZGotM1RrMjhoemJZYzdzanB3UEs0dFJDdHBzWDJ6Y0FmQWIwUmVpbFVYVzhia2thU1RTUTliMC0wa0YyOG05cTR6ZU84eVM5RVBlRU9DMUYwaF8wSmpMOW1uMDdmTE5aal9iN2ctWVRDUkNLbQ?oc=5",
+        "koTitle": "Solopreneurs가 AI에게 넘겨주기를 거부해야 하는 것",
+        "enTitle": "What solopreneurs should refuse to hand over to AI",
+        "date": "2026-07-25",
+        "originalDate": "2026-07-24",
+        "sourceName": "Fast Company",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQTk1YjFMeHFLYTFRWjJqZ1o4QWdyUXZJaGpCSzRkVENwU0diYktSM0k3NlhoZ1BRal93Rm80UFpZRk5XQ3o1Mzd3RnlYZjJOd2RSRGpRVlZOU2hIdENtQTI0MXdtNGNKeHFWLVhhc3ZwMjdzZ19jNDJNWmluZnNXRkpDeTRYOXBIcjZjSTF2a1I?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 런던, 근로자와 기업이 AI에 대비할 수 있도록 돕는 £ 30M 계획 발표 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! Solopreneurs가 AI에게 넘겨주기를 거부해야 하는 것 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "EU 집행위원회는 생활비, AI, 일자리 및 돌봄에 대한 사회 정책 의제를 검토합니다.",
-        "enTitle": "EU Commission reviews social policy agenda on living costs, AI, jobs and care",
-        "date": "2026-07-24",
-        "originalDate": "2026-07-22",
-        "sourceName": "INSIGHT EU MONITORING",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWDkzeFFtOEdXVkJJeUMwSUR6SDVTQ2RLUEF5dFFsUEU4LUNFTXZFUWkydE1EUXZUV3BSa1hHMEpGSFE0aTJrYjQySEx0aDg0WXYwX2gzZFZDbF9mdktVY1hNZGJzRVpZd1JZTFhscHZCOUVzUUsxQTdKNW82RXhHWmgtbk5rOEVQeU96dG0yMkFLNmRvcklGSjEzeHA0ZG1iNWhfZXZ5Uk9HYW51bXBEMTJJdFBSalBzOFRLcDVWRUZHU09SaHVMNjFjcmxpSUVZZUlLNkpwVkw?oc=5",
+        "koTitle": "두 개의 트랙, 하나의 선택: PwC의 2026 AI Jobs Barometer가 몰타에 갖는 의미",
+        "enTitle": "Two tracks, one choice: What PwC's 2026 AI Jobs Barometer means for Malta",
+        "date": "2026-07-25",
+        "originalDate": "2026-07-24",
+        "sourceName": "Times of Malta",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONTJoU0V4MUtWTGtJU253OWdVcjRFOW9xckgyeU0tT1p1My01Q2gxRFpXM01wNllySHVLc0p3UGZJcExhMnBUZ0drU05rY19pU0xrSTlZb0wxdVBzdUhoVDBCa2U2eDdvRm1GUkU0bmg2VW9BZDYwVTJ0MVdFZmdNdWFnNmw3UGFuQkhKVHZScGNsbWFXZ3hWb241UXd5eXlvMHhQRXIyUQ?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! EU 집행위원회는 생활비, AI, 일자리 및 돌봄에 대한 사회 정책 의제를 검토합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 두 개의 트랙, 하나의 선택: PwC의 2026 AI Jobs Barometer가 몰타에 갖는 의미 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "AI투자, '규모'에서 '생산성'으로…하나증권 \"Capex보다 수익화 관건\" |",
-        "enTitle": "AI투자, '규모'에서 '생산성'으로…하나증권 \"Capex보다 수익화 관건\" |",
-        "date": "2026-07-24",
-        "originalDate": "2026-07-23",
-        "sourceName": "연합인포맥스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ZR3VWZERGUU1hSWZ2UUVkQWhuZVFfLWpaS2tJcmRJR3dIbVFSNUxCbTVyRmZaNENGUUVNS1JDR2pxMTFocnZENnhmMmZQRFNPUzlqbXRCNHVob0hMb2t6b1Q4bFZ2bnA3cTBHWGVNUVVBWUtI?oc=5",
+        "koTitle": "하이퍼커브, 2026 예비창업패키지 선정… AI 취업 에이전트 ‘마이커리어AI’ 출시 초읽기",
+        "enTitle": "하이퍼커브, 2026 예비창업패키지 선정… AI 취업 에이전트 ‘마이커리어AI’ 출시 초읽기",
+        "date": "2026-07-25",
+        "originalDate": "2026-07-24",
+        "sourceName": "글로벌 비즈 뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10RjZVR3NVNERFX0c4R1hGNzRUVmgyWnZ6ODJFUU5qcjA2cnp5V2NnZzk2MEM4c0ZOX2dldUpiTTEwRmNkOGpDWlhrSFNvMXRuMTVSMGo4QWI2dC1NMmUyRnBRY3JCTUdB0gFoQVVfeXFMTXRGNlVHc1U0REVfRzhHWEY3NFRWaDJadno4MkVRTmpyMDZyenlXY2dnOTYwQzhzRk5fZ2V1SmJNMTBGY2Q4akNaWGtIU28xdG4xNVIwajhBYjZ0LU0yZTJGcFFjckJNR0E?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! AI투자, '규모'에서 '생산성'으로…하나증권 \"Capex보다 수익화 관건\" | 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 하이퍼커브, 2026 예비창업패키지 선정… AI 취업 에이전트 ‘마이커리어AI’ 출시 초읽기 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "인크루트, AI 취업지원 서비스 '신입나비' 출시",
-        "enTitle": "인크루트, AI 취업지원 서비스 '신입나비' 출시",
-        "date": "2026-07-24",
-        "originalDate": "2026-07-23",
-        "sourceName": "지디넷코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1iblJMRHkwTnVrOUw2U2NOR1lWQ0hSSlpFdU5vS3dnc1l5c0pCSTJTR1h5X1hBaTJGeGh1VGRONGo5UzJRUTNrTEFfbjVTT2JPY1JVS0RB?oc=5",
+        "koTitle": "앤트로픽, 클로드 오푸스 5 AI 모델 절반 가격에 출시",
+        "enTitle": "앤트로픽, 클로드 오푸스 5 AI 모델 절반 가격에 출시",
+        "date": "2026-07-25",
+        "originalDate": "2026-07-24",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE95UW1kNDFNcU44ai1FMThmdFhjS253SHFSSF91bHllQlNMWVJVdFRmYlhTSEV5a1RGRzJ0QjB5NTdiX3I0LWxxckhaRkUwSTNLeXNGdUhHTldkcnE3RnFQbzRwVnhJV2RNOWxxelhRNDFQanBFbkV3?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 인크루트, AI 취업지원 서비스 '신입나비' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 클로드 오푸스 5 AI 모델 절반 가격에 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "클로드 디자인, 웹디자인에 가져온 변화",
-        "enTitle": "클로드 디자인, 웹디자인에 가져온 변화",
-        "date": "2026-07-24",
-        "originalDate": "2026-07-23",
-        "sourceName": "브런치",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XZTF2WmN2dDdNaHhHSWtNNXcyeXRtY0N2LXpCRWpyWF9jZE9fXzZLVEFKYVZIY3RudmZsZ0o1Mlg0U2l1bmVnR2pkZDhXSkZkX0E?oc=5",
+        "koTitle": "통화 듣다가 감 잡은 AI, 보이스피싱 실시간 경고",
+        "enTitle": "통화 듣다가 감 잡은 AI, 보이스피싱 실시간 경고",
+        "date": "2026-07-25",
+        "originalDate": "2026-07-24",
+        "sourceName": "백세시대",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBtRWhaTnMxTGl3SXM2NDJITGR2dWhnM0NIX25UekZyNy1nV2thSS1DbmZUZmIwZGgzcENjUWZUdUJjZTB3X2FPZWtuUThyU0tvN1p2VU9rRWFsVVpKUWcxZy1mQmlFLVY1RkI4?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 클로드 디자인, 웹디자인에 가져온 변화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 통화 듣다가 감 잡은 AI, 보이스피싱 실시간 경고 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
