@@ -1,7 +1,7 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-25
+ * 최신 업데이트: 2026-07-26
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
@@ -10,8 +10,8 @@ const aiNewsData = [
         "rank": 1,
         "koTitle": "새로운 연구에 따르면 직업에 대한 가장 큰 위험은 AI가 아닙니다. 그것으로 배우는 것을 거부하고 있습니다",
         "enTitle": "New Research Shows That the Biggest Risk to Your Job Isn’t AI. It’s Refusing to Learn With It",
-        "date": "2026-07-25",
-        "originalDate": "2026-07-24",
+        "date": "2026-07-26",
+        "originalDate": "2026-07-25",
         "sourceName": "inc.com",
         "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdEtwSUVySjJlMm5sb0Nvb0JuSWZ4VHU3XzZpc01iSnZia195NW9oUC12RmdCN3VWSjBBQVhoeDBfU0N5OFE2enY1UzltMlAwUTFhSVBzQkQ1SE5XTXh6LUVBOEhlcm9QcU5KeGliVTh2V3BIZl8xWWZ2dWtOQnFYZFNrSGhPTkxMSGR5b3R2WlN5SDliRHdUcUFuMmhYdzdnZHRKNGFjZTJMN25NS2gtbW9ZTmZSOXVkSldXb0lqbzQ0NkJZbGRMSElITTNqZw?oc=5",
         "isRepublished": false,
@@ -23,25 +23,25 @@ const aiNewsData = [
         "rank": 2,
         "koTitle": "Solopreneurs가 AI에게 넘겨주기를 거부해야 하는 것",
         "enTitle": "What solopreneurs should refuse to hand over to AI",
-        "date": "2026-07-25",
+        "date": "2026-07-26",
         "originalDate": "2026-07-24",
         "sourceName": "Fast Company",
         "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQTk1YjFMeHFLYTFRWjJqZ1o4QWdyUXZJaGpCSzRkVENwU0diYktSM0k3NlhoZ1BRal93Rm80UFpZRk5XQ3o1Mzd3RnlYZjJOd2RSRGpRVlZOU2hIdENtQTI0MXdtNGNKeHFWLVhhc3ZwMjdzZ19jNDJNWmluZnNXRkpDeTRYOXBIcjZjSTF2a1I?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
+        "viralRate": "91%",
         "analysis": "글로벌 AI 트렌드 체크! Solopreneurs가 AI에게 넘겨주기를 거부해야 하는 것 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "두 개의 트랙, 하나의 선택: PwC의 2026 AI Jobs Barometer가 몰타에 갖는 의미",
-        "enTitle": "Two tracks, one choice: What PwC's 2026 AI Jobs Barometer means for Malta",
-        "date": "2026-07-25",
+        "koTitle": "AI 작업 손실에 대한 전문가의 상위 20개 이상의 예측",
+        "enTitle": "Top 20+ Predictions from Experts on AI Job Loss",
+        "date": "2026-07-26",
         "originalDate": "2026-07-24",
-        "sourceName": "Times of Malta",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONTJoU0V4MUtWTGtJU253OWdVcjRFOW9xckgyeU0tT1p1My01Q2gxRFpXM01wNllySHVLc0p3UGZJcExhMnBUZ0drU05rY19pU0xrSTlZb0wxdVBzdUhoVDBCa2U2eDdvRm1GUkU0bmg2VW9BZDYwVTJ0MVdFZmdNdWFnNmw3UGFuQkhKVHZScGNsbWFXZ3hWb241UXd5eXlvMHhQRXIyUQ?oc=5",
+        "sourceName": "AIMultiple",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1LckFPekg2eWZXd2JuN19Bam5tNWV2WmtqOWVTbDJFT0lMNF9MSVpQUjZzZkkwaEJrZ0lmaHhYZ3FZRFVUcTJuVWx3?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 두 개의 트랙, 하나의 선택: PwC의 2026 AI Jobs Barometer가 몰타에 갖는 의미 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "91%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 작업 손실에 대한 전문가의 상위 20개 이상의 예측 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "하이퍼커브, 2026 예비창업패키지 선정… AI 취업 에이전트 ‘마이커리어AI’ 출시 초읽기",
-        "enTitle": "하이퍼커브, 2026 예비창업패키지 선정… AI 취업 에이전트 ‘마이커리어AI’ 출시 초읽기",
-        "date": "2026-07-25",
-        "originalDate": "2026-07-24",
-        "sourceName": "글로벌 비즈 뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10RjZVR3NVNERFX0c4R1hGNzRUVmgyWnZ6ODJFUU5qcjA2cnp5V2NnZzk2MEM4c0ZOX2dldUpiTTEwRmNkOGpDWlhrSFNvMXRuMTVSMGo4QWI2dC1NMmUyRnBRY3JCTUdB0gFoQVVfeXFMTXRGNlVHc1U0REVfRzhHWEY3NFRWaDJadno4MkVRTmpyMDZyenlXY2dnOTYwQzhzRk5fZ2V1SmJNMTBGY2Q4akNaWGtIU28xdG4xNVIwajhBYjZ0LU0yZTJGcFFjckJNR0E?oc=5",
+        "koTitle": "미드저니, 점성술 앱 인수하며 사업 다각화…첫 모바일 앱 출시 예고",
+        "enTitle": "미드저니, 점성술 앱 인수하며 사업 다각화…첫 모바일 앱 출시 예고",
+        "date": "2026-07-26",
+        "originalDate": "2026-07-25",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WcDJFM1djVjlTOEtYeHZWN1JUYi1SSlIxVGw3aDVIUVhvU0Z3YzlpaHY4TzZKSXREakh5YlNSeFZBclRNVDN4VU16bnJ5QVM3WFhDS2hFdHFGdmF6S2ZQX0xHX2FCVUJZWXc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 하이퍼커브, 2026 예비창업패키지 선정… AI 취업 에이전트 ‘마이커리어AI’ 출시 초읽기 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 미드저니, 점성술 앱 인수하며 사업 다각화…첫 모바일 앱 출시 예고 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "앤트로픽, 클로드 오푸스 5 AI 모델 절반 가격에 출시",
-        "enTitle": "앤트로픽, 클로드 오푸스 5 AI 모델 절반 가격에 출시",
-        "date": "2026-07-25",
-        "originalDate": "2026-07-24",
-        "sourceName": "Investing.com 한국어",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE95UW1kNDFNcU44ai1FMThmdFhjS253SHFSSF91bHllQlNMWVJVdFRmYlhTSEV5a1RGRzJ0QjB5NTdiX3I0LWxxckhaRkUwSTNLeXNGdUhHTldkcnE3RnFQbzRwVnhJV2RNOWxxelhRNDFQanBFbkV3?oc=5",
+        "koTitle": "클로드 코드, 42주 동안 사용한 팀의 워크플로우는 어떨까?",
+        "enTitle": "클로드 코드, 42주 동안 사용한 팀의 워크플로우는 어떨까?",
+        "date": "2026-07-26",
+        "originalDate": "2026-07-25",
+        "sourceName": "요즘IT",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DZEZnYlp5S3ZCZDg3Nks1RjF4bkxEcWstSHdpUngtUXhSRjJNOHdmWmtBakdVbVBSZm5CX0szdXdhYVotUjRJbGdWdXB0Rm1RY1VWVmlhT0hIQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 클로드 오푸스 5 AI 모델 절반 가격에 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 클로드 코드, 42주 동안 사용한 팀의 워크플로우는 어떨까? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "통화 듣다가 감 잡은 AI, 보이스피싱 실시간 경고",
-        "enTitle": "통화 듣다가 감 잡은 AI, 보이스피싱 실시간 경고",
-        "date": "2026-07-25",
-        "originalDate": "2026-07-24",
-        "sourceName": "백세시대",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBtRWhaTnMxTGl3SXM2NDJITGR2dWhnM0NIX25UekZyNy1nV2thSS1DbmZUZmIwZGgzcENjUWZUdUJjZTB3X2FPZWtuUThyU0tvN1p2VU9rRWFsVVpKUWcxZy1mQmlFLVY1RkI4?oc=5",
+        "koTitle": "[AI 이슈 트렌드] 쿠팡 화재·삼전닉스 레버리지 논란...BTS 월드컵·영화 '호프'도 눈길",
+        "enTitle": "[AI 이슈 트렌드] 쿠팡 화재·삼전닉스 레버리지 논란...BTS 월드컵·영화 '호프'도 눈길",
+        "date": "2026-07-26",
+        "originalDate": "2026-07-25",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kWjFLNTVGeTdLNExCQzk1UGNZRVIzNUZlY2pjNW9TaTdiYXA5S1ZudTFKQzZoVVo3bEZzVWxTYVRacmwxYjMzcGdSSTg3YXVqX25CY3o2Q2toVHE3clRKazZSc204WEJaQUE?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 통화 듣다가 감 잡은 AI, 보이스피싱 실시간 경고 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [AI 이슈 트렌드] 쿠팡 화재·삼전닉스 레버리지 논란...BTS 월드컵·영화 '호프'도 눈길 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
