@@ -1,7 +1,7 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-26
+ * 최신 업데이트: 2026-07-27
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
@@ -10,38 +10,38 @@ const aiNewsData = [
         "rank": 1,
         "koTitle": "새로운 연구에 따르면 직업에 대한 가장 큰 위험은 AI가 아닙니다. 그것으로 배우는 것을 거부하고 있습니다",
         "enTitle": "New Research Shows That the Biggest Risk to Your Job Isn’t AI. It’s Refusing to Learn With It",
-        "date": "2026-07-26",
+        "date": "2026-07-27",
         "originalDate": "2026-07-25",
         "sourceName": "inc.com",
         "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdEtwSUVySjJlMm5sb0Nvb0JuSWZ4VHU3XzZpc01iSnZia195NW9oUC12RmdCN3VWSjBBQVhoeDBfU0N5OFE2enY1UzltMlAwUTFhSVBzQkQ1SE5XTXh6LUVBOEhlcm9QcU5KeGliVTh2V3BIZl8xWWZ2dWtOQnFYZFNrSGhPTkxMSGR5b3R2WlN5SDliRHdUcUFuMmhYdzdnZHRKNGFjZTJMN25NS2gtbW9ZTmZSOXVkSldXb0lqbzQ0NkJZbGRMSElITTNqZw?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
+        "viralRate": "98%",
         "analysis": "글로벌 AI 트렌드 체크! 새로운 연구에 따르면 직업에 대한 가장 큰 위험은 AI가 아닙니다. 그것으로 배우는 것을 거부하고 있습니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "Solopreneurs가 AI에게 넘겨주기를 거부해야 하는 것",
-        "enTitle": "What solopreneurs should refuse to hand over to AI",
-        "date": "2026-07-26",
-        "originalDate": "2026-07-24",
-        "sourceName": "Fast Company",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQTk1YjFMeHFLYTFRWjJqZ1o4QWdyUXZJaGpCSzRkVENwU0diYktSM0k3NlhoZ1BRal93Rm80UFpZRk5XQ3o1Mzd3RnlYZjJOd2RSRGpRVlZOU2hIdENtQTI0MXdtNGNKeHFWLVhhc3ZwMjdzZ19jNDJNWmluZnNXRkpDeTRYOXBIcjZjSTF2a1I?oc=5",
-        "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "글로벌 AI 트렌드 체크! Solopreneurs가 AI에게 넘겨주기를 거부해야 하는 것 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
         "koTitle": "AI 작업 손실에 대한 전문가의 상위 20개 이상의 예측",
         "enTitle": "Top 20+ Predictions from Experts on AI Job Loss",
-        "date": "2026-07-26",
+        "date": "2026-07-27",
         "originalDate": "2026-07-24",
         "sourceName": "AIMultiple",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1LckFPekg2eWZXd2JuN19Bam5tNWV2WmtqOWVTbDJFT0lMNF9MSVpQUjZzZkkwaEJrZ0lmaHhYZ3FZRFVUcTJuVWx3?oc=5",
         "isRepublished": false,
-        "viralRate": "91%",
+        "viralRate": "92%",
         "analysis": "글로벌 AI 트렌드 체크! AI 작업 손실에 대한 전문가의 상위 20개 이상의 예측 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
+        "koTitle": "이것은 AI가 엔트리 레벨 작업 및 개발에 미칠 영향입니다.",
+        "enTitle": "This is the impact that AI will have on entry-level work and development",
+        "date": "2026-07-27",
+        "originalDate": "2026-07-24",
+        "sourceName": "Fast Company",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZHBHTVdiY1FZSV9JaEFVYXktaVA4bnBYU195bGFIZ1lLdzJaajRGYWEzeF9FcndMUk5fLWpoRDNPd24wX2tvOHV0bFZOM1hndHlYeFNid1RWSXZwQ09ucGtvd3VlN3JCckFRdmhCLS1YUGVLOEdoeHk2TzQzX2xSeHlCaUZtS25yVkJKWUh1MHB0YVdPbTMtNjdhajBuNU1udGpHX3dOWWYtYUpWVmc?oc=5",
+        "isRepublished": false,
+        "viralRate": "91%",
+        "analysis": "글로벌 AI 트렌드 체크! 이것은 AI가 엔트리 레벨 작업 및 개발에 미칠 영향입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "미드저니, 점성술 앱 인수하며 사업 다각화…첫 모바일 앱 출시 예고",
-        "enTitle": "미드저니, 점성술 앱 인수하며 사업 다각화…첫 모바일 앱 출시 예고",
-        "date": "2026-07-26",
-        "originalDate": "2026-07-25",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WcDJFM1djVjlTOEtYeHZWN1JUYi1SSlIxVGw3aDVIUVhvU0Z3YzlpaHY4TzZKSXREakh5YlNSeFZBclRNVDN4VU16bnJ5QVM3WFhDS2hFdHFGdmF6S2ZQX0xHX2FCVUJZWXc?oc=5",
+        "koTitle": "[Books] 챗GPT · 제미나이 · 클로드까지 모두를 위한 AI",
+        "enTitle": "[Books] 챗GPT · 제미나이 · 클로드까지 모두를 위한 AI",
+        "date": "2026-07-27",
+        "originalDate": "2026-07-26",
+        "sourceName": "로봇신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14Z0NKMU8tVjA5TC1Sa2l2NUxORmNmZFdWdlk1WE1wNDBHMWw4dW9mbm5SR3pTUVhQZmJETzlJRkpQcTRva1FiSURrMEw3dXh1TWtmNkhlMFRuUVpGSVJ5b0o4d0VVbC1nd0ZJdw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 미드저니, 점성술 앱 인수하며 사업 다각화…첫 모바일 앱 출시 예고 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [Books] 챗GPT · 제미나이 · 클로드까지 모두를 위한 AI 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
+        "koTitle": "구글, 프랑스에서 AI 개요 서비스 출시… 언론사들 트래픽 감소 우려 표해.",
+        "enTitle": "구글, 프랑스에서 AI 개요 서비스 출시… 언론사들 트래픽 감소 우려 표해.",
+        "date": "2026-07-27",
+        "originalDate": "2026-07-26",
+        "sourceName": "Vietnam.vn",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQT01WbFVSY3NCVTdjX0ctZkcwSWFvZHM1VTZlMDBLRWp3eExOenJXUGlFb0ZtdFdKNkx2QlNzMU1rVVdfRTZ6dFgwdUZIN0J1QU5FdU1VMFRDRks5Wlg0SU1LcWhORjMyWFRSNFJYLTEwY0tIaU1tUTBmaFVMbnQ0UUgyTExJcjBKT1lwSVF1ZXNPSG41TWZUalRIYw?oc=5",
+        "isRepublished": false,
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 구글, 프랑스에서 AI 개요 서비스 출시… 언론사들 트래픽 감소 우려 표해. 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Life & Money"
+    },
+    {
+        "rank": 3,
         "koTitle": "클로드 코드, 42주 동안 사용한 팀의 워크플로우는 어떨까?",
         "enTitle": "클로드 코드, 42주 동안 사용한 팀의 워크플로우는 어떨까?",
-        "date": "2026-07-26",
-        "originalDate": "2026-07-25",
+        "date": "2026-07-27",
+        "originalDate": "2026-07-26",
         "sourceName": "요즘IT",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DZEZnYlp5S3ZCZDg3Nks1RjF4bkxEcWstSHdpUngtUXhSRjJNOHdmWmtBakdVbVBSZm5CX0szdXdhYVotUjRJbGdWdXB0Rm1RY1VWVmlhT0hIQQ?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
         "analysis": "2030을 위한 AI 실무 팁! 클로드 코드, 42주 동안 사용한 팀의 워크플로우는 어떨까? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Life & Money"
-    },
-    {
-        "rank": 3,
-        "koTitle": "[AI 이슈 트렌드] 쿠팡 화재·삼전닉스 레버리지 논란...BTS 월드컵·영화 '호프'도 눈길",
-        "enTitle": "[AI 이슈 트렌드] 쿠팡 화재·삼전닉스 레버리지 논란...BTS 월드컵·영화 '호프'도 눈길",
-        "date": "2026-07-26",
-        "originalDate": "2026-07-25",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kWjFLNTVGeTdLNExCQzk1UGNZRVIzNUZlY2pjNW9TaTdiYXA5S1ZudTFKQzZoVVo3bEZzVWxTYVRacmwxYjMzcGdSSTg3YXVqX25CY3o2Q2toVHE3clRKazZSc204WEJaQUE?oc=5",
-        "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI 이슈 트렌드] 쿠팡 화재·삼전닉스 레버리지 논란...BTS 월드컵·영화 '호프'도 눈길 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
