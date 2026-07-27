@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-27
+ * 최신 업데이트: 2026-07-28
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "새로운 연구에 따르면 직업에 대한 가장 큰 위험은 AI가 아닙니다. 그것으로 배우는 것을 거부하고 있습니다",
-        "enTitle": "New Research Shows That the Biggest Risk to Your Job Isn’t AI. It’s Refusing to Learn With It",
-        "date": "2026-07-27",
-        "originalDate": "2026-07-25",
-        "sourceName": "inc.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdEtwSUVySjJlMm5sb0Nvb0JuSWZ4VHU3XzZpc01iSnZia195NW9oUC12RmdCN3VWSjBBQVhoeDBfU0N5OFE2enY1UzltMlAwUTFhSVBzQkQ1SE5XTXh6LUVBOEhlcm9QcU5KeGliVTh2V3BIZl8xWWZ2dWtOQnFYZFNrSGhPTkxMSGR5b3R2WlN5SDliRHdUcUFuMmhYdzdnZHRKNGFjZTJMN25NS2gtbW9ZTmZSOXVkSldXb0lqbzQ0NkJZbGRMSElITTNqZw?oc=5",
+        "koTitle": "인공지능이 인간을 대체할 수 있을까? 전문가들은 업무의 미래에 무게를 두고 있습니다.",
+        "enTitle": "Can AI Replace Humans? Experts Weigh In On The Future Of Work",
+        "date": "2026-07-28",
+        "originalDate": "2026-07-27",
+        "sourceName": "News18",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX0dZWXZZcW9pSFYxaWRDSDBaOFV1VWdHWG1RNGRiMkhvVHVWZWhVN2RvLUgxakEzam5SMWRKYjhubTlRVlg1Y201WlFHNjJWZlh5WDZaMFRlOVBvcmg2UE9aN21XNkpRZnFNcC02MmdZdUdUNXBaeTQ0WG83ODV3ZHY2Y0pNck1sOHJSQ1MzcWt6bHdsanVnLTFZNWhhbHRqYTI0eTRWY3B1dm960gGyAUFVX3lxTE8wdUJlSFBZT3paVUpTYVV2cDBnSEs4ckhUOWdvV2Jla1JIdTJkV1A1ZVViRWw4ZkhDU2JxSDdYMHNhS0RPaE1hNEtZTGdyQk1BUTRpMmxmUnBfWXJTS1N1X3o4c2gwSnNOZkQ3RnZDMTZaX1lFTFQ3NTlhTTRXWm9mYWUtUFBuak0tMVNFblpmbGttMDBVb3g0cnliQzRjS2VvZWEzOGFpNERFeG8yc1RvQVE?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "글로벌 AI 트렌드 체크! 새로운 연구에 따르면 직업에 대한 가장 큰 위험은 AI가 아닙니다. 그것으로 배우는 것을 거부하고 있습니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 인간을 대체할 수 있을까? 전문가들은 업무의 미래에 무게를 두고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI 작업 손실에 대한 전문가의 상위 20개 이상의 예측",
-        "enTitle": "Top 20+ Predictions from Experts on AI Job Loss",
-        "date": "2026-07-27",
-        "originalDate": "2026-07-24",
-        "sourceName": "AIMultiple",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1LckFPekg2eWZXd2JuN19Bam5tNWV2WmtqOWVTbDJFT0lMNF9MSVpQUjZzZkkwaEJrZ0lmaHhYZ3FZRFVUcTJuVWx3?oc=5",
+        "koTitle": "AI 작업 종말은 아마도 곧 오지 않을 것입니다.",
+        "enTitle": "The AI jobs apocalypse probably isn’t coming anytime soon",
+        "date": "2026-07-28",
+        "originalDate": "2026-07-25",
+        "sourceName": "The Guardian",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTlRPeHY4ZnZBa010WDFSS1p4YUxWNzdVRWo3X0g0Vk5LUEdFcjBsbnBMWTAzdG9jS0FUMTFKNkNsSnJnMTlNR1BoVkhYQy1EZmN2ZV8yWVJKbTFVTWJwZ2F2TjFLcU1OSlc4WEt6dW14QU1LUkFZVnlVUEpmVE93bGlkNEhqajRR?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 작업 손실에 대한 전문가의 상위 20개 이상의 예측 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 작업 종말은 아마도 곧 오지 않을 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "이것은 AI가 엔트리 레벨 작업 및 개발에 미칠 영향입니다.",
-        "enTitle": "This is the impact that AI will have on entry-level work and development",
-        "date": "2026-07-27",
-        "originalDate": "2026-07-24",
-        "sourceName": "Fast Company",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZHBHTVdiY1FZSV9JaEFVYXktaVA4bnBYU195bGFIZ1lLdzJaajRGYWEzeF9FcndMUk5fLWpoRDNPd24wX2tvOHV0bFZOM1hndHlYeFNid1RWSXZwQ09ucGtvd3VlN3JCckFRdmhCLS1YUGVLOEdoeHk2TzQzX2xSeHlCaUZtS25yVkJKWUh1MHB0YVdPbTMtNjdhajBuNU1udGpHX3dOWWYtYUpWVmc?oc=5",
+        "koTitle": "기술이 우리의 일자리를 빼앗을까요? 이전에 들어본 적이 있습니다.",
+        "enTitle": "Technology will take our jobs? We've heard that one before",
+        "date": "2026-07-28",
+        "originalDate": "2026-07-21",
+        "sourceName": "The World Economic Forum",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMy1pOEZDeWJfd0RLYlpJTWNSWmlVTUs0cjJzY1NhN1FNTTRhNG5XS2lxV0sxUC1OWHdrVlVYX1NaaXpiMnJiVG5oNmtFY0Jmb3ZWRS1wV0t4V2RPVERBeXBmOWFOaUtUVzlHVnBJVEd4UEJBNmsyQlhsSnBneXZmdkhPeHB0YWlURVJQcmF5UQ?oc=5",
         "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "글로벌 AI 트렌드 체크! 이것은 AI가 엔트리 레벨 작업 및 개발에 미칠 영향입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 기술이 우리의 일자리를 빼앗을까요? 이전에 들어본 적이 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[Books] 챗GPT · 제미나이 · 클로드까지 모두를 위한 AI",
-        "enTitle": "[Books] 챗GPT · 제미나이 · 클로드까지 모두를 위한 AI",
-        "date": "2026-07-27",
-        "originalDate": "2026-07-26",
-        "sourceName": "로봇신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14Z0NKMU8tVjA5TC1Sa2l2NUxORmNmZFdWdlk1WE1wNDBHMWw4dW9mbm5SR3pTUVhQZmJETzlJRkpQcTRva1FiSURrMEw3dXh1TWtmNkhlMFRuUVpGSVJ5b0o4d0VVbC1nd0ZJdw?oc=5",
+        "koTitle": "클로드 5 ‘컨텍스트 엔지니어링’ 공개...“규칙 줄여야 성능 올라간다”",
+        "enTitle": "클로드 5 ‘컨텍스트 엔지니어링’ 공개...“규칙 줄여야 성능 올라간다”",
+        "date": "2026-07-28",
+        "originalDate": "2026-07-27",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CU04tSTZ3QmxrbUF2RG05MHhfY0lnTGxnM0hVZnRaeVlObjRIeEZTY0ZWUXN3ZFJzQktyeVhrSk1fSUpXUW5Kbm1TY1dPTjdvTjZ5Q2tqM0R4c0FwM0RPTzlWVHFWZVYtNXc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [Books] 챗GPT · 제미나이 · 클로드까지 모두를 위한 AI 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 클로드 5 ‘컨텍스트 엔지니어링’ 공개...“규칙 줄여야 성능 올라간다” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "구글, 프랑스에서 AI 개요 서비스 출시… 언론사들 트래픽 감소 우려 표해.",
-        "enTitle": "구글, 프랑스에서 AI 개요 서비스 출시… 언론사들 트래픽 감소 우려 표해.",
-        "date": "2026-07-27",
-        "originalDate": "2026-07-26",
-        "sourceName": "Vietnam.vn",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQT01WbFVSY3NCVTdjX0ctZkcwSWFvZHM1VTZlMDBLRWp3eExOenJXUGlFb0ZtdFdKNkx2QlNzMU1rVVdfRTZ6dFgwdUZIN0J1QU5FdU1VMFRDRks5Wlg0SU1LcWhORjMyWFRSNFJYLTEwY0tIaU1tUTBmaFVMbnQ0UUgyTExJcjBKT1lwSVF1ZXNPSG41TWZUalRIYw?oc=5",
+        "koTitle": "경기도일자리포털 ‘잡아바’, 취업지원 서비스 무료 제공",
+        "enTitle": "경기도일자리포털 ‘잡아바’, 취업지원 서비스 무료 제공",
+        "date": "2026-07-28",
+        "originalDate": "2026-07-27",
+        "sourceName": "경기일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hcWVIT1dJbEVYeVc2R250Mjg0Ul9WMnBjVHRsTDZ4X0dVaVJkMkU2bzFqb3JKWmlsaUx0SDB1elFucHlqQW54NFgxVVdRYkUtYUVsT0hrc2tfdFU?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글, 프랑스에서 AI 개요 서비스 출시… 언론사들 트래픽 감소 우려 표해. 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 경기도일자리포털 ‘잡아바’, 취업지원 서비스 무료 제공 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "클로드 코드, 42주 동안 사용한 팀의 워크플로우는 어떨까?",
-        "enTitle": "클로드 코드, 42주 동안 사용한 팀의 워크플로우는 어떨까?",
-        "date": "2026-07-27",
-        "originalDate": "2026-07-26",
-        "sourceName": "요즘IT",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DZEZnYlp5S3ZCZDg3Nks1RjF4bkxEcWstSHdpUngtUXhSRjJNOHdmWmtBakdVbVBSZm5CX0szdXdhYVotUjRJbGdWdXB0Rm1RY1VWVmlhT0hIQQ?oc=5",
+        "koTitle": "클로드로 양자컴퓨팅 서비스 이용…노르마, ‘Q 플랫폼 MCP’ 출시",
+        "enTitle": "클로드로 양자컴퓨팅 서비스 이용…노르마, ‘Q 플랫폼 MCP’ 출시",
+        "date": "2026-07-28",
+        "originalDate": "2026-07-27",
+        "sourceName": "서울경제",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8tSVdFdmdUQ3VocGdCQzZvYlhEdlY3VmJzNS1rUGROVkg3TklYYkRkRVllOTA3LVYxZVdYV0pPXzF4RktLeUZ4eE9JRjR6R1QyQWfSAVNBVV95cUxOSVdic19KUFRWRkZyaDY4dm1sTi0tNkotVHFFcldnZkN3TjVVcWR2bUt6OW05bG84aDd1TGp3dXBqbUphcF9PdDNHd3E4eVJGZHlSdw?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 클로드 코드, 42주 동안 사용한 팀의 워크플로우는 어떨까? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 클로드로 양자컴퓨팅 서비스 이용…노르마, ‘Q 플랫폼 MCP’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
