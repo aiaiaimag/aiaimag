@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-28
+ * 최신 업데이트: 2026-07-29
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "인공지능이 인간을 대체할 수 있을까? 전문가들은 업무의 미래에 무게를 두고 있습니다.",
-        "enTitle": "Can AI Replace Humans? Experts Weigh In On The Future Of Work",
-        "date": "2026-07-28",
-        "originalDate": "2026-07-27",
-        "sourceName": "News18",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX0dZWXZZcW9pSFYxaWRDSDBaOFV1VWdHWG1RNGRiMkhvVHVWZWhVN2RvLUgxakEzam5SMWRKYjhubTlRVlg1Y201WlFHNjJWZlh5WDZaMFRlOVBvcmg2UE9aN21XNkpRZnFNcC02MmdZdUdUNXBaeTQ0WG83ODV3ZHY2Y0pNck1sOHJSQ1MzcWt6bHdsanVnLTFZNWhhbHRqYTI0eTRWY3B1dm960gGyAUFVX3lxTE8wdUJlSFBZT3paVUpTYVV2cDBnSEs4ckhUOWdvV2Jla1JIdTJkV1A1ZVViRWw4ZkhDU2JxSDdYMHNhS0RPaE1hNEtZTGdyQk1BUTRpMmxmUnBfWXJTS1N1X3o4c2gwSnNOZkQ3RnZDMTZaX1lFTFQ3NTlhTTRXWm9mYWUtUFBuak0tMVNFblpmbGttMDBVb3g0cnliQzRjS2VvZWEzOGFpNERFeG8yc1RvQVE?oc=5",
+        "koTitle": "AI 노동 시장 추적기: 채용, 채용 및 채택",
+        "enTitle": "AI Labor Market Tracker: Jobs, Hiring and Adoption",
+        "date": "2026-07-29",
+        "originalDate": "2026-07-28",
+        "sourceName": "Revelio Labs",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOFhEMTBBOTBtUTJwV1hCUEZlMENwMWhvanpXSUZRV25kbHo0ejZGaGUtUTJnUGZzQkRMRGYyTGZ3X09aYVFmZVNYc0dOYnhTdUo3ZE15R08tNmJ3VnM5djRrZ1NHVEQ0dVV1WUYyU2FlN0FxZmtjWHhOSko2enFjem12TkZPdm82TTRubHFmRTE5VnlGM2RzeA?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 인간을 대체할 수 있을까? 전문가들은 업무의 미래에 무게를 두고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 노동 시장 추적기: 채용, 채용 및 채택 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI 작업 종말은 아마도 곧 오지 않을 것입니다.",
-        "enTitle": "The AI jobs apocalypse probably isn’t coming anytime soon",
-        "date": "2026-07-28",
-        "originalDate": "2026-07-25",
-        "sourceName": "The Guardian",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTlRPeHY4ZnZBa010WDFSS1p4YUxWNzdVRWo3X0g0Vk5LUEdFcjBsbnBMWTAzdG9jS0FUMTFKNkNsSnJnMTlNR1BoVkhYQy1EZmN2ZV8yWVJKbTFVTWJwZ2F2TjFLcU1OSlc4WEt6dW14QU1LUkFZVnlVUEpmVE93bGlkNEhqajRR?oc=5",
+        "koTitle": "엔비디아 CEO 젠슨 황 (Jensen Huang) 은 AI가 일자리를 죽이는 것이지 일자리를 잃는 것에 대한 두려움은 ‘정확히 거꾸로‘ 가 아니라고 말합니다.",
+        "enTitle": "Nvidia CEO Jensen Huang says AI kills tasks, not jobs and job-loss fears are ‘exactly backwards’",
+        "date": "2026-07-29",
+        "originalDate": "2026-07-28",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNDVRbVpnQ1RfN3pFdVhvOVJsOEFjcm1NMjBrOEZPRG9hY2Z4UkpwUEFSM3hHaFQyeFJidnFscTBIclFBQlVqZ0U4Y3dEdDBpU3Mxbmh0Vy1td0FEOE5JZWRkaG93VEFJbnA3Q0VYSEJkZEpVVmdxRzBHcHJwZTBBUDFFQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 작업 종말은 아마도 곧 오지 않을 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! 엔비디아 CEO 젠슨 황 (Jensen Huang) 은 AI가 일자리를 죽이는 것이지 일자리를 잃는 것에 대한 두려움은 ‘정확히 거꾸로‘ 가 아니라고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "기술이 우리의 일자리를 빼앗을까요? 이전에 들어본 적이 있습니다.",
-        "enTitle": "Technology will take our jobs? We've heard that one before",
-        "date": "2026-07-28",
-        "originalDate": "2026-07-21",
-        "sourceName": "The World Economic Forum",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMy1pOEZDeWJfd0RLYlpJTWNSWmlVTUs0cjJzY1NhN1FNTTRhNG5XS2lxV0sxUC1OWHdrVlVYX1NaaXpiMnJiVG5oNmtFY0Jmb3ZWRS1wV0t4V2RPVERBeXBmOWFOaUtUVzlHVnBJVEd4UEJBNmsyQlhsSnBneXZmdkhPeHB0YWlURVJQcmF5UQ?oc=5",
+        "koTitle": "The HackerNoon Newsletter: AI 생산성이 결함이 있는 지표인 이유 (7/28/2026)",
+        "enTitle": "The HackerNoon Newsletter: Why AI Productivity Is a Faulty Metric (7/28/2026)",
+        "date": "2026-07-29",
+        "originalDate": "2026-07-28",
+        "sourceName": "HackerNoon",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5xNE9CN2llSEhNZGFQbGMxRkxCZDFmY3F6dkJ1RlNwZndIQTQyRWNWY01CUUpjWE9SUDFmSkd4RlM3Tmp6SWxjNzIxdXNoMTU4dWNWY2NR?oc=5",
         "isRepublished": false,
         "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 기술이 우리의 일자리를 빼앗을까요? 이전에 들어본 적이 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! The HackerNoon Newsletter: AI 생산성이 결함이 있는 지표인 이유 (7/28/2026) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "클로드 5 ‘컨텍스트 엔지니어링’ 공개...“규칙 줄여야 성능 올라간다”",
-        "enTitle": "클로드 5 ‘컨텍스트 엔지니어링’ 공개...“규칙 줄여야 성능 올라간다”",
-        "date": "2026-07-28",
-        "originalDate": "2026-07-27",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CU04tSTZ3QmxrbUF2RG05MHhfY0lnTGxnM0hVZnRaeVlObjRIeEZTY0ZWUXN3ZFJzQktyeVhrSk1fSUpXUW5Kbm1TY1dPTjdvTjZ5Q2tqM0R4c0FwM0RPTzlWVHFWZVYtNXc?oc=5",
+        "koTitle": "【AI 시대 소비 트렌드】 (5) 소상공인도 AI에게 추천될 수 있는 브랜드가 되어야 한다",
+        "enTitle": "【AI 시대 소비 트렌드】 (5) 소상공인도 AI에게 추천될 수 있는 브랜드가 되어야 한다",
+        "date": "2026-07-29",
+        "originalDate": "2026-07-28",
+        "sourceName": "브랜드뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PZl8ycEZJRGJMc2ZabWt5NTF3U3VtaDBXZjZyTUhTRGI1T2x6WTRQVHdUemp5TU9SWTNnYmRPR2R4QkxwaDBmd0tfUjduT0RGQjNaUkZrMlF6ZU9SWW5OWEZlTVQ1WkRSS0VYcA?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 클로드 5 ‘컨텍스트 엔지니어링’ 공개...“규칙 줄여야 성능 올라간다” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 【AI 시대 소비 트렌드】 (5) 소상공인도 AI에게 추천될 수 있는 브랜드가 되어야 한다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "경기도일자리포털 ‘잡아바’, 취업지원 서비스 무료 제공",
-        "enTitle": "경기도일자리포털 ‘잡아바’, 취업지원 서비스 무료 제공",
-        "date": "2026-07-28",
-        "originalDate": "2026-07-27",
-        "sourceName": "경기일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hcWVIT1dJbEVYeVc2R250Mjg0Ul9WMnBjVHRsTDZ4X0dVaVJkMkU2bzFqb3JKWmlsaUx0SDB1elFucHlqQW54NFgxVVdRYkUtYUVsT0hrc2tfdFU?oc=5",
+        "koTitle": "벼룩시장, AI 자기소개서 작성 서비스 출시",
+        "enTitle": "벼룩시장, AI 자기소개서 작성 서비스 출시",
+        "date": "2026-07-29",
+        "originalDate": "2026-07-28",
+        "sourceName": "워크투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ubENiYVllRnVGQjd3RlJKT3ZnQmZfR0NOUC1GaUZ1a3MtbTRYMURXTmUwUm4xSlRiTjI5QVpKdDdnQTBtcE5EMlpwRVh2WUZ6bGsxUTRrWVI0NVNkNkhKU1hocW1qd1hZQ3lqLQ?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 경기도일자리포털 ‘잡아바’, 취업지원 서비스 무료 제공 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 벼룩시장, AI 자기소개서 작성 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "클로드로 양자컴퓨팅 서비스 이용…노르마, ‘Q 플랫폼 MCP’ 출시",
-        "enTitle": "클로드로 양자컴퓨팅 서비스 이용…노르마, ‘Q 플랫폼 MCP’ 출시",
-        "date": "2026-07-28",
-        "originalDate": "2026-07-27",
-        "sourceName": "서울경제",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8tSVdFdmdUQ3VocGdCQzZvYlhEdlY3VmJzNS1rUGROVkg3TklYYkRkRVllOTA3LVYxZVdYV0pPXzF4RktLeUZ4eE9JRjR6R1QyQWfSAVNBVV95cUxOSVdic19KUFRWRkZyaDY4dm1sTi0tNkotVHFFcldnZkN3TjVVcWR2bUt6OW05bG84aDd1TGp3dXBqbUphcF9PdDNHd3E4eVJGZHlSdw?oc=5",
+        "koTitle": "‘해킹 비서’ 돼버린 AI... 클로드 데스크톱 악용 공격 실험 또 성공",
+        "enTitle": "‘해킹 비서’ 돼버린 AI... 클로드 데스크톱 악용 공격 실험 또 성공",
+        "date": "2026-07-29",
+        "originalDate": "2026-07-28",
+        "sourceName": "보안뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9WVzZmb01nV2ZDc2RPNzZnSmxfQU81S2pNMnpBTmFKdng4TjRCZHBGZ3ExRGF3TlBhUzNMc0dQYVZHZXUtU0Z2eUpHTko0MUZiaFJ4N0YycE9qMGNnWU1R?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 클로드로 양자컴퓨팅 서비스 이용…노르마, ‘Q 플랫폼 MCP’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! ‘해킹 비서’ 돼버린 AI... 클로드 데스크톱 악용 공격 실험 또 성공 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
