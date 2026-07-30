@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-07-30
+ * 최신 업데이트: 2026-07-31
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI 노동 시장 추적기: 채용, 채용 및 채택",
-        "enTitle": "AI Labor Market Tracker: Jobs, Hiring and Adoption",
-        "date": "2026-07-30",
-        "originalDate": "2026-07-28",
-        "sourceName": "Revelio Labs",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOFhEMTBBOTBtUTJwV1hCUEZlMENwMWhvanpXSUZRV25kbHo0ejZGaGUtUTJnUGZzQkRMRGYyTGZ3X09aYVFmZVNYc0dOYnhTdUo3ZE15R08tNmJ3VnM5djRrZ1NHVEQ0dVV1WUYyU2FlN0FxZmtjWHhOSko2enFjem12TkZPdm82TTRubHFmRTE5VnlGM2RzeA?oc=5",
+        "koTitle": "일의 미래를 위한 준비: 올해의 게리 플라워즈 업 유나이티드, 주목해야 할 5가지 트렌드",
+        "enTitle": "Preparing For The Future Of Work: Gary Flowers of Year Up United On The Top Five Trends To Watch In…",
+        "date": "2026-07-31",
+        "originalDate": "2026-07-30",
+        "sourceName": "Medium",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcVB2bVhWSWpzUFdsY05JWkFvclo1YktQNGh3alJWT2Nha0FkWnBNdjFWRWNFamI4M245OHlLdE56eWJMb2pNWnlkUjR1UTlhLVdOUmxSbWs4dmNQQjIyNVl5bFJRckwxa3hSQ2ZQRFdaNFBKdFU2RTNnUkdJTXVKVFQtcm9JMFNGWEVaQ1I2eHVZVGREOGVVV3B0Ym53QVZXMHp6OW5BVUVldi0tLTBQMzk5Z1lnYjZiU3AzWHBSNmY2dTh4eGIwT1hkdnJaMi12VGRVYTd3?oc=5",
         "isRepublished": false,
         "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 노동 시장 추적기: 채용, 채용 및 채택 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! 일의 미래를 위한 준비: 올해의 게리 플라워즈 업 유나이티드, 주목해야 할 5가지 트렌드 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "라이브 또는 가상 이벤트의 기조 연설을 위한 미래 업무 컨퍼런스 연사",
+        "enTitle": "FUTURE OF WORK CONFERENCE SPEAKER TO KEYNOTE AT LIVE OR VIRTUAL EVENTS",
+        "date": "2026-07-31",
+        "originalDate": "2026-07-30",
+        "sourceName": "futuristsspeakers.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUjh4Y18xR25YRlBJa3luVnRmNmE3Vnp5ajRLa2VsVjJfdWtrMkxJdTZucWhrc0I4aG42SGlKSEtHb1lsRXNoY3JjU0ljSTI5dHFnU0NIUzQ1TDBXXzMxdlVxT3o2VmhOaVAzNE1NSXVKUlBrOEo5Y3pMQnpZQkpJMEZBSUVGVGxL?oc=5",
+        "isRepublished": false,
+        "viralRate": "91%",
+        "analysis": "글로벌 AI 트렌드 체크! 라이브 또는 가상 이벤트의 기조 연설을 위한 미래 업무 컨퍼런스 연사 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "엔비디아 CEO 젠슨 황 (Jensen Huang) 은 AI가 일자리가 아닌 작업을 죽이고, 일자리 손실에 대한 두려움은 ‘정확히 거꾸로‘ 라고 말합니다.",
         "enTitle": "Nvidia CEO Jensen Huang says AI kills tasks not jobs, and job-loss fears are ‘exactly backwards’",
-        "date": "2026-07-30",
+        "date": "2026-07-31",
         "originalDate": "2026-07-28",
         "sourceName": "Fortune",
         "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNDVRbVpnQ1RfN3pFdVhvOVJsOEFjcm1NMjBrOEZPRG9hY2Z4UkpwUEFSM3hHaFQyeFJidnFscTBIclFBQlVqZ0U4Y3dEdDBpU3Mxbmh0Vy1td0FEOE5JZWRkaG93VEFJbnA3Q0VYSEJkZEpVVmdxRzBHcHJwZTBBUDFFQQ?oc=5",
         "isRepublished": false,
         "viralRate": "94%",
         "analysis": "글로벌 AI 트렌드 체크! 엔비디아 CEO 젠슨 황 (Jensen Huang) 은 AI가 일자리가 아닌 작업을 죽이고, 일자리 손실에 대한 두려움은 ‘정확히 거꾸로‘ 라고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "AI 생산성이 결함이 있는 지표인 이유",
-        "enTitle": "Why AI Productivity Is a Faulty Metric",
-        "date": "2026-07-30",
-        "originalDate": "2026-07-28",
-        "sourceName": "HackerNoon",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FZ01QSV9QaGhFQklTSlAtZ3VQcHFKMzNkTDhrQU1oeDdTUGtDeTk1NF9RdjZJTmhEbllrZ0t6SXJoX2Zzb0txdXUzdTkwbzUxaDZUbENUWGEtWjlYXzhXWHUzUVY0ZmgxZGhleC13?oc=5",
-        "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 생산성이 결함이 있는 지표인 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "24시간 개인 AI 에이전트 '제미나이 스파크' 를 선보입니다",
-        "enTitle": "24시간 개인 AI 에이전트 '제미나이 스파크' 를 선보입니다",
-        "date": "2026-07-30",
-        "originalDate": "2026-07-29",
+        "koTitle": "제미나이 로보틱스 2: 로봇에 전신 지능을 구현하다",
+        "enTitle": "제미나이 로보틱스 2: 로봇에 전신 지능을 구현하다",
+        "date": "2026-07-31",
+        "originalDate": "2026-07-30",
         "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SRnluMnFGX3NlMEV3dTh5ZEVQNUozWThGWWktYmJPN3dlT1JMVFdVazM2cnY0ZXF4RmktenE1UDNrSWhnc1J1VVJIaFhyLTJyTFpxVGpjaGhOd1VuME85Mk5BcnlLazg?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5VaF96eVNpckZmSGc1Tzc1R1ZIOUJ5cHZ3dkw5QWpjZHVZeFNNVmIxdWdqZldzdXJwZzlka1pIZ281NE1EWHp2QnZFdTk2OU9BZVI5UXoxWTNqS0pMdjFqWmNFTVJTX2JrSldQdTZjSVYyNzNuV1I5YjlUa2N2QQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 24시간 개인 AI 에이전트 '제미나이 스파크' 를 선보입니다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 제미나이 로보틱스 2: 로봇에 전신 지능을 구현하다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "마이스터즈, 엔비디아 인셉션 멤버 선정…8월 AI 기반 주거관리 서비스 출시",
-        "enTitle": "마이스터즈, 엔비디아 인셉션 멤버 선정…8월 AI 기반 주거관리 서비스 출시",
-        "date": "2026-07-30",
-        "originalDate": "2026-07-29",
-        "sourceName": "전자신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBFa2ltaEd1d0VmazlrbDF5V2sxcVlYSTY0dkpvVU9QUTkyOGxxalczaWZUVVhWWmF5cEMtQWFQOGJsX2ZsYXhPZm5Dc3Fsdw?oc=5",
+        "koTitle": "AI가 업무 대신 처리한다…구글 '제미나이 스파크' 출시",
+        "enTitle": "AI가 업무 대신 처리한다…구글 '제미나이 스파크' 출시",
+        "date": "2026-07-31",
+        "originalDate": "2026-07-30",
+        "sourceName": "mstoday.co.kr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZOW52UElBeEZtcUhOU0dCTGdIN292cFZZbHQ4WUtRTHlJaGtLa0VDbnBDUWF0SzJLVElCaFhaTzBLNVk5azNHTnlHb0pBOEEwbkk1MTU4eDJMbWtuOEFtcTFWMlh2NXNsUmRtWA?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 마이스터즈, 엔비디아 인셉션 멤버 선정…8월 AI 기반 주거관리 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! AI가 업무 대신 처리한다…구글 '제미나이 스파크' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "반도체 급락은 빅테크 부채 청구서…반등 열쇠는 AI 수익",
-        "enTitle": "반도체 급락은 빅테크 부채 청구서…반등 열쇠는 AI 수익",
-        "date": "2026-07-30",
-        "originalDate": "2026-07-29",
-        "sourceName": "글로벌이코노믹",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWDZTWEtfcVM4WWQ5eTBwckw1Q1I4VzVVRXItbWQ5bVkwWmNRWE5iZHIyUGpjMk5UeFRMSFdRdVhjcUxTQ2RpOTBxOE9ad0VHMV9BSTgzalhMbUozajZqZUt5bmllcmlPTjRWZFcwVVFhdFhIQjFVbVdLbTNYTGtseUJkTzdZb1Rl?oc=5",
+        "koTitle": "순천향대, AI 취업서류 작성부터 실전 모의면접까지…'Career Fit-Up 캠프' 운영",
+        "enTitle": "순천향대, AI 취업서류 작성부터 실전 모의면접까지…'Career Fit-Up 캠프' 운영",
+        "date": "2026-07-31",
+        "originalDate": "2026-07-30",
+        "sourceName": "충청뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1U3FIV2d5NGtDNzdWaU1oODM5Nl9UUWR0NmJQa2REM3Q2YTdDa1dXWmRubEJNZDhtTFpKU1poY2cyRzJCWmlTTVlFcFhCQjdDd0U3dVZ4TVVtR2ZYcEd2UFhLYmtVcVlXdFIySA?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 반도체 급락은 빅테크 부채 청구서…반등 열쇠는 AI 수익 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 순천향대, AI 취업서류 작성부터 실전 모의면접까지…'Career Fit-Up 캠프' 운영 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
