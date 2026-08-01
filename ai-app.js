@@ -1,47 +1,33 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-01
+ * 최신 업데이트: 2026-08-02
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "업무의 이면: 파올리 병원의 확장이 우리에게 커리어의 미래에 대해 가르쳐주는 것",
-        "enTitle": "The Work Behind the Work: What Paoli Hospital's Expansion Teaches Us About the Future of Careers",
-        "date": "2026-08-01",
-        "originalDate": "2026-07-31",
-        "sourceName": "VISTA.Today",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lMHhubVJ6R0hKbFVKdVR6cm96Y0dSWkNfY1luOV9yV011dXJFQ2VFRVVUT3c1LTc5RTBOb3o4RExTNWdNNDVLVVdnZTc4MFA2aHdmclNlRFhtc0xmRXF2dURVNTU?oc=5",
+        "isTopPick": true,
+        "koTitle": "오늘의 AI 뉴스를 수집하는 중입니다",
+        "enTitle": "Collecting Today's AI News...",
+        "date": "2026-08-02",
+        "originalDate": "2026-08-02",
+        "sourceName": "AIMAG",
+        "sourceUrl": "#",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 업무의 이면: 파올리 병원의 확장이 우리에게 커리어의 미래에 대해 가르쳐주는 것 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
-        "isTopPick": true
-    },
-    {
-        "rank": 2,
-        "koTitle": "인공지능이 재편되면서 한 대학의 일자리가 인문학의 미래에 대한 논쟁을 불러일으킨다.",
-        "enTitle": "As AI reshapes work, one university's job cuts fuel debate over future of humanities",
-        "date": "2026-08-01",
-        "originalDate": "2026-07-30",
-        "sourceName": "Anadolu Ajansı",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMUlsTlM1Qzk2a1VnQmMwVC1ySC1DaUw2MVhvaHRWaHFaa25zMkFHanAxcXU1N2FGUUFPNmM5X2J4MkNURWp0aThGQk1pNm9RQWJQeXdRSEhCSHNEVTYteUxwbFZRcC1xRDBvYXNCS3hiX2FLRV9EUlJxbzNoeE9hcWVXZWhVdGxsbzFrNnloYi0xX2NBR0JGV09DTTZPdFM2M2k0NTR0QmFTR3RXU2RvUWhMTjlLbmFqaGdIZUo3SUVzU0ZRdEprMFItMTM1RDQ?oc=5",
-        "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 재편되면서 한 대학의 일자리가 인문학의 미래에 대한 논쟁을 불러일으킨다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "AI 생산성이 결함이 있는 지표인 이유",
-        "enTitle": "Why AI Productivity Is a Faulty Metric",
-        "date": "2026-08-01",
-        "originalDate": "2026-07-28",
-        "sourceName": "HackerNoon",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FZ01QSV9QaGhFQklTSlAtZ3VQcHFKMzNkTDhrQU1oeDdTUGtDeTk1NF9RdjZJTmhEbllrZ0t6SXJoX2Zzb0txdXUzdTkwbzUxaDZUbENUWGEtWjlYXzhXWHUzUVY0ZmgxZGhleC13?oc=5",
-        "isRepublished": false,
-        "viralRate": "89%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 생산성이 결함이 있는 지표인 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "99%",
+        "hookTitles": [
+            {
+                "top": "AI 뉴스 로딩 중",
+                "bottom": "잠시 후 업데이트됩니다"
+            },
+            {
+                "top": "코다리 부장 리서치 중",
+                "bottom": "최신 AI 소식을 큐레이션합니다"
+            }
+        ],
+        "analysis": "자동 수집 중입니다. 잠시 후 최신 뉴스가 표시됩니다."
     }
 ];
 
@@ -50,43 +36,27 @@ const aiNewsData = [
 // 단순 뉴스가 아닌, 2030의 삶을 바꿀 '기가 막힌 주제' 기반 큐레이션
 const generalTrendingData = [
     {
+        "category": "AI Trend",
         "rank": 1,
-        "koTitle": "[\"AI 덕분에 앱 찍어내는 중\"... 메타, 실패 딛고 '앱 공세' 재개] 메타는 거대 언어 모델(LLM)이 단순한 앱 개발을 넘어, 사용자 콘텐츠 이해와 추천 시스템 고도화라는 핵심 영역에서 결정적인 역할을 하고 있다고 설명했다.",
-        "enTitle": "[\"AI 덕분에 앱 찍어내는 중\"... 메타, 실패 딛고 '앱 공세' 재개] 메타는 거대 언어 모델(LLM)이 단순한 앱 개발을 넘어, 사용자 콘텐츠 이해와 추천 시스템 고도화라는 핵심 영역에서 결정적인 역할을 하고 있다고 설명했다.",
-        "date": "2026-08-01",
-        "originalDate": "2026-07-31",
-        "sourceName": "AI넷",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE02ei1xOFNvRS1QVVF6ZXFnbDV0dnFsSDJ1bWlic040UkE5Z2lDMWtsV0d0RmxJNk11cE9GT1p4Uko?oc=5",
+        "koTitle": "2026년 AI 트렌드를 분석 중입니다",
+        "enTitle": "Analyzing 2026 AI Trends...",
+        "date": "2026-08-02",
+        "originalDate": "2026-08-02",
+        "sourceName": "AIMAG",
+        "sourceUrl": "#",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [\"AI 덕분에 앱 찍어내는 중\"... 메타, 실패 딛고 '앱 공세' 재개] 메타는 거대 언어 모델(LLM)이 단순한 앱 개발을 넘어, 사용자 콘텐츠 이해와 추천 시스템 고도화라는 핵심 영역에서 결정적인 역할을 하고 있다고 설명했다. 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Hot Issue"
-    },
-    {
-        "rank": 2,
-        "koTitle": "GPT 이어 클로드도…외부기관 3곳 무단 해킹",
-        "enTitle": "GPT 이어 클로드도…외부기관 3곳 무단 해킹",
-        "date": "2026-08-01",
-        "originalDate": "2026-07-31",
-        "sourceName": "연합뉴스TV",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qb3RLV3FxZ3ViRGVnWWQ1ZjBxTWZSVzY1S3lTNjdrdmNBMkxTcFA3bFh0aXZpNXdVTjJlMHBjMVdMMVZuZ3VEMXYzZjZOZ2xNYnhuOGhkTHl0cFFoWmRtZHJHZW1OSEU?oc=5",
-        "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! GPT 이어 클로드도…외부기관 3곳 무단 해킹 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Life & Money"
-    },
-    {
-        "rank": 3,
-        "koTitle": "틸론, AI 기반 동화책 제작 서비스 출시",
-        "enTitle": "틸론, AI 기반 동화책 제작 서비스 출시",
-        "date": "2026-08-01",
-        "originalDate": "2026-07-31",
-        "sourceName": "비욘드포스트",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE02M1hIZFB5Vmx6R1ZLTUowOXo0enVaTWxPMXNaeEhvVjBxX3RYQnV1NkRDOV9yZWZzV0JqMGx2cjYtbUpGRHFtU2tjZTgxaE0zV0k1NGRJZjVzM0FYS3VPT0FoSVJOSV8wZWhpaXN1VFd0RUttRGNZYW52elc?oc=5",
-        "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 틸론, AI 기반 동화책 제작 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Tech & Service"
+        "viralRate": "95%",
+        "hookTitles": [
+            {
+                "top": "트렌드 분석 중",
+                "bottom": "AI 흐름을 읽어드립니다"
+            },
+            {
+                "top": "2030 맞춤 큐레이션",
+                "bottom": "곧 업데이트됩니다"
+            }
+        ],
+        "analysis": "자동 수집 중입니다."
     }
 ];
 
