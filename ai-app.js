@@ -1,7 +1,7 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-02
+ * 최신 업데이트: 2026-08-03
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
@@ -11,8 +11,8 @@ const aiNewsData = [
         "isTopPick": true,
         "koTitle": "오늘의 AI 뉴스를 수집하는 중입니다",
         "enTitle": "Collecting Today's AI News...",
-        "date": "2026-08-02",
-        "originalDate": "2026-08-02",
+        "date": "2026-08-03",
+        "originalDate": "2026-08-03",
         "sourceName": "AIMAG",
         "sourceUrl": "#",
         "isRepublished": false,
@@ -40,8 +40,8 @@ const generalTrendingData = [
         "rank": 1,
         "koTitle": "2026년 AI 트렌드를 분석 중입니다",
         "enTitle": "Analyzing 2026 AI Trends...",
-        "date": "2026-08-02",
-        "originalDate": "2026-08-02",
+        "date": "2026-08-03",
+        "originalDate": "2026-08-03",
         "sourceName": "AIMAG",
         "sourceUrl": "#",
         "isRepublished": false,
