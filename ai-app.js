@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-04
+ * 최신 업데이트: 2026-08-05
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "순위: 미국에서 가장 AI에 강한 직업",
-        "enTitle": "Ranked: America’s Most AI-Resistant Jobs",
-        "date": "2026-08-04",
-        "originalDate": "2026-08-03",
-        "sourceName": "visualcapitalist.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYUV0VklEU21Kd3pNTGVrWjJKRnhTdk1jSGNQbjctOC1sUURma1JlWURvZEVOeVo0a1lTRjZ1eVk0TWZ1M0o5VlJHZHVRYkRGalJjeWthSk9VY24zLTVXMDlwZkFoQzdpLUpkY2pqZjRaMEdaLW8ybzhWYnhjUk8ycQ?oc=5",
+        "koTitle": "인공지능이 모든 일자리를 갉아먹고 있는가? 진실은 우리가 단지 모른다는 것입니다.",
+        "enTitle": "Is AI eating up all the jobs? The truth is that we just don’t know",
+        "date": "2026-08-05",
+        "originalDate": "2026-08-04",
+        "sourceName": "The Indian Express",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONnF4ZkdSN2lCOXdRUmFJcS00cWQwNmNGU2ZIQWhLMTlpbEpDYTJMZkdqWVRNRy1tVmRES2V0anNCX0t0cGQxdVNhUmk2ekNiaEtyTnRuN3A5T0NBb0ZjaFczc183Q2ZrUEJfY0I1cHFvRUxzaWlPTjlaTHBaRkYwcW9MSGxzbk8tdWNnSFI5QkdrUVJsd0JreGlnUmY5QkVJQ0w2bXgtV09kNHdsblNodDVwUWlDeF9zUEhwT29NXzhUZ9IByAFBVV95cUxObXZGaTV4UjUtRVlTTWZXRFNHblI2VXJPQWJObERFWkpiOUNkaHBFMURxRVRTRWU3Y052MFdlZDBSd04tNGpPcHRjdVNhZXUzd0NFcGh3WG1DU2VVcTJFTDhfc1h6NzdWZDgyMGJFbFg0aTdCLTR1NnAtWTJLdldHM1NoeGg1SkJXRnJSOVY5RC10U2J1YS02N0NrYk5YQjJrb0MwM3dWaXJtWndzTHZDN2tOTUxZNXVXUzhjV0RVSWRJeVFXeHlzcA?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 순위: 미국에서 가장 AI에 강한 직업 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 모든 일자리를 갉아먹고 있는가? 진실은 우리가 단지 모른다는 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "직업의 미래는 학위보다 빠르게 변화하고 있습니다. 대학은 무엇을 다르게 해야 할까요?",
-        "enTitle": "The future of work is changing faster than degrees: What must universities do differently?",
-        "date": "2026-08-04",
-        "originalDate": "2026-08-03",
-        "sourceName": "India Today",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZWNIaGExVmZQUVAyNGttbDBLdzhFVDdFOGV0SUFDdEt0OXR6ZGlDRGhHaDBXSHVaZHFZbXBNUXAtNzJORFNyWEhDaUpUOHBjM05UWlhEcmRTNDJ5bmYxWk9yRV9Ud2dsZ0M3REdZaWtueHlxeUVUZEJWem4wS0lrTUlyd3NFMFlISHY1Ync4WDRSVW1CVVNUa2hEcWgzRno0S1B0VzlGVExyWC02OWhmTWJaTF9BWjYtR1lkcnNMOUtvaFZEVUVfLXZQamkzc0xXSi1jMXRBeUY?oc=5",
+        "koTitle": "인력 트렌드 전문가이자 미래의 일 기조연설자: 지금 바로 예약하고 채용하세요!",
+        "enTitle": "WORKFORCE TRENDS EXPERT & FUTURE OF WORK KEYNOTE SPEAKER: BOOK AND HIRE TODAY!",
+        "date": "2026-08-05",
+        "originalDate": "2026-08-04",
+        "sourceName": "futuristsspeakers.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNXpyaWc1SVlJMmtlY1F1U3BPczZsWGlHSGhBTzRZeXo3MzZKNWFsTGE3bTJQMW1aaXNVNVJrUm1SRmwxQXNrUzV1WklSVDhma21yUE5heUNNblNxOEwwZ3NUU1A3SVAwU0xLcEhxeTBJM18xNGxZYU5HWEcyMjhGRnBuRS1UWl9LQ1dHRDdHZTdObXcySWV0ZmNXeDVER3RTamZ0MkRCZC1pMzI0aUE?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 직업의 미래는 학위보다 빠르게 변화하고 있습니다. 대학은 무엇을 다르게 해야 할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "91%",
+        "analysis": "글로벌 AI 트렌드 체크! 인력 트렌드 전문가이자 미래의 일 기조연설자: 지금 바로 예약하고 채용하세요! 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "Indeed는 AI가 영국에서 2속 일자리 시장을 창출하고 있다고 말합니다.",
-        "enTitle": "AI is creating a two-speed jobs market in the UK, Indeed says",
-        "date": "2026-08-04",
-        "originalDate": "2026-08-02",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMndfUmIxTmQtRTBqN3pQWWQ1ajhWbnVDNWp4MWhtaEd5aUZoUmN1X01XcXI0eEMxN00yZHI1YnhYNERTTHAzNlAxWmxWU3VDNGFQLTFVOGhnZjdtWWpFM2dFcEVUN0FWdl84cHZmXzJidWdMNXpMYmtPM0hacFhnclJ3OEExZk9uZWhNTEgwSHVIeU9QeThkZ0F2ekJXeHRfUVNQLWpvdw?oc=5",
+        "koTitle": "순위: 미국에서 가장 AI에 강한 직업",
+        "enTitle": "Ranked: America’s Most AI-Resistant Jobs",
+        "date": "2026-08-05",
+        "originalDate": "2026-08-03",
+        "sourceName": "Visual Capitalist",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYUV0VklEU21Kd3pNTGVrWjJKRnhTdk1jSGNQbjctOC1sUURma1JlWURvZEVOeVo0a1lTRjZ1eVk0TWZ1M0o5VlJHZHVRYkRGalJjeWthSk9VY24zLTVXMDlwZkFoQzdpLUpkY2pqZjRaMEdaLW8ybzhWYnhjUk8ycQ?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! Indeed는 AI가 영국에서 2속 일자리 시장을 창출하고 있다고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 순위: 미국에서 가장 AI에 강한 직업 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "구글이 로봇을 제어하는 방법… ‘제미나이 로보틱스2’ 공개",
-        "enTitle": "구글이 로봇을 제어하는 방법… ‘제미나이 로보틱스2’ 공개",
-        "date": "2026-08-04",
-        "originalDate": "2026-08-03",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iZ0FObW5RYkMyb2xNRkttQTZZQVBjbXZ5UGJOeTlTMC1IX0RrN2VPZnFxQ2kza2ZFZnZmRjZvc2d4eWpLNjE3YXNvZzFhWU9PdG84TmZLWW42Z0RLWW9xdS1oa3RIMlZXbXc?oc=5",
+        "koTitle": "[완전분석] 챗GPT·클로드·제미나이·코파일럿, 어떤 업무에 써야 할까…‘AI 도구 선택법’ 총정리",
+        "enTitle": "[완전분석] 챗GPT·클로드·제미나이·코파일럿, 어떤 업무에 써야 할까…‘AI 도구 선택법’ 총정리",
+        "date": "2026-08-05",
+        "originalDate": "2026-08-04",
+        "sourceName": "아웃소싱타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFAyUTVrMWVRdDFwdHN1UGZhTUY5VlIwMDlXZzRoVjk1S0hyM0wwOW9KekhENjJFUDE0ajJnRko3ZC10cGZfT3RYcGhzSGVGSW9hdENsUnlpZUttWkhtX3lvemJkcVc3aTN0aWExWGEyVVpydw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글이 로봇을 제어하는 방법… ‘제미나이 로보틱스2’ 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [완전분석] 챗GPT·클로드·제미나이·코파일럿, 어떤 업무에 써야 할까…‘AI 도구 선택법’ 총정리 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "GPT·클로드·제미나이 20여 종 한곳에서 쓴다...생성AI 구독·작업창 통합",
-        "enTitle": "GPT·클로드·제미나이 20여 종 한곳에서 쓴다...생성AI 구독·작업창 통합",
-        "date": "2026-08-04",
-        "originalDate": "2026-08-03",
-        "sourceName": "지티티코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xQ0hnRHRpR3JnVHBFNmlSOXZIYnRXVXl5NUEtNnlzWHZEMWpxY0RBUXZYLTF4ckZqbXNQeUlhV1RTNlVKYjFhZkZrQzg2SXZfNWZGRlM0ZmtUVHVuTFVtbTNUWmFaS3ZyQmc?oc=5",
+        "koTitle": "영림원, AI기반 입사자 온보딩 서비스 ‘에버웰커밍’ 출시",
+        "enTitle": "영림원, AI기반 입사자 온보딩 서비스 ‘에버웰커밍’ 출시",
+        "date": "2026-08-05",
+        "originalDate": "2026-08-04",
+        "sourceName": "dt.co.kr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ka1lLV2c4bl9qMF9OcXFBNWVoRzE5SnZ5YklFN2pzSEFKS0dMQmdraFloSURxMlduOGRyZnZscWNIdDB2STl2UVo2dlFmZw?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! GPT·클로드·제미나이 20여 종 한곳에서 쓴다...생성AI 구독·작업창 통합 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 영림원, AI기반 입사자 온보딩 서비스 ‘에버웰커밍’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "기계설비건설공제조합, AI·카카오톡 결합한 모바일 보증서비스 출시",
-        "enTitle": "기계설비건설공제조합, AI·카카오톡 결합한 모바일 보증서비스 출시",
-        "date": "2026-08-04",
-        "originalDate": "2026-08-03",
-        "sourceName": "건설이코노미뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5LWW5VUVVIWl9abVpRSXk3cHFQREZLZ1h0bTJCSXNwRFpNTnlvN3dvOWVYRWxTNmRDeFlXU1N3TG5XZ1dQQi1uV3gyOEZHRTVlVjlaLXZnUkFiMFR2RGhjSW4zXzk?oc=5",
+        "koTitle": "파리 생제르맹, 구글과 AI 파트너십...'제미나이' 공식 어시스턴트 도입",
+        "enTitle": "파리 생제르맹, 구글과 AI 파트너십...'제미나이' 공식 어시스턴트 도입",
+        "date": "2026-08-05",
+        "originalDate": "2026-08-04",
+        "sourceName": "aitimes.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxVVQtNGtxYmhhVS1STGg5dzdpMFBNWW11MTBWR1RMQ2FSUmxJZWFtc2lJLUhFa3BGQlppcHh5bTVqWXMzU3NUYlR1NDk0aWEzSkZaTHp5WFdtZ3hLLThyX2VMNEMwdUhseWc?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 기계설비건설공제조합, AI·카카오톡 결합한 모바일 보증서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 파리 생제르맹, 구글과 AI 파트너십...'제미나이' 공식 어시스턴트 도입 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
