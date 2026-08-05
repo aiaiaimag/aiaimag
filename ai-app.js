@@ -1,7 +1,7 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-05
+ * 최신 업데이트: 2026-08-06
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
@@ -10,12 +10,12 @@ const aiNewsData = [
         "rank": 1,
         "koTitle": "인공지능이 모든 일자리를 갉아먹고 있는가? 진실은 우리가 단지 모른다는 것입니다.",
         "enTitle": "Is AI eating up all the jobs? The truth is that we just don’t know",
-        "date": "2026-08-05",
+        "date": "2026-08-06",
         "originalDate": "2026-08-04",
         "sourceName": "The Indian Express",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONnF4ZkdSN2lCOXdRUmFJcS00cWQwNmNGU2ZIQWhLMTlpbEpDYTJMZkdqWVRNRy1tVmRES2V0anNCX0t0cGQxdVNhUmk2ekNiaEtyTnRuN3A5T0NBb0ZjaFczc183Q2ZrUEJfY0I1cHFvRUxzaWlPTjlaTHBaRkYwcW9MSGxzbk8tdWNnSFI5QkdrUVJsd0JreGlnUmY5QkVJQ0w2bXgtV09kNHdsblNodDVwUWlDeF9zUEhwT29NXzhUZ9IByAFBVV95cUxObXZGaTV4UjUtRVlTTWZXRFNHblI2VXJPQWJObERFWkpiOUNkaHBFMURxRVRTRWU3Y052MFdlZDBSd04tNGpPcHRjdVNhZXUzd0NFcGh3WG1DU2VVcTJFTDhfc1h6NzdWZDgyMGJFbFg0aTdCLTR1NnAtWTJLdldHM1NoeGg1SkJXRnJSOVY5RC10U2J1YS02N0NrYk5YQjJrb0MwM3dWaXJtWndzTHZDN2tOTUxZNXVXUzhjV0RVSWRJeVFXeHlzcA?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
+        "viralRate": "90%",
         "analysis": "글로벌 AI 트렌드 체크! 인공지능이 모든 일자리를 갉아먹고 있는가? 진실은 우리가 단지 모른다는 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
@@ -23,24 +23,24 @@ const aiNewsData = [
         "rank": 2,
         "koTitle": "인력 트렌드 전문가이자 미래의 일 기조연설자: 지금 바로 예약하고 채용하세요!",
         "enTitle": "WORKFORCE TRENDS EXPERT & FUTURE OF WORK KEYNOTE SPEAKER: BOOK AND HIRE TODAY!",
-        "date": "2026-08-05",
+        "date": "2026-08-06",
         "originalDate": "2026-08-04",
         "sourceName": "futuristsspeakers.com",
         "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNXpyaWc1SVlJMmtlY1F1U3BPczZsWGlHSGhBTzRZeXo3MzZKNWFsTGE3bTJQMW1aaXNVNVJrUm1SRmwxQXNrUzV1WklSVDhma21yUE5heUNNblNxOEwwZ3NUU1A3SVAwU0xLcEhxeTBJM18xNGxZYU5HWEcyMjhGRnBuRS1UWl9LQ1dHRDdHZTdObXcySWV0ZmNXeDVER3RTamZ0MkRCZC1pMzI0aUE?oc=5",
         "isRepublished": false,
-        "viralRate": "91%",
+        "viralRate": "88%",
         "analysis": "글로벌 AI 트렌드 체크! 인력 트렌드 전문가이자 미래의 일 기조연설자: 지금 바로 예약하고 채용하세요! 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
         "koTitle": "순위: 미국에서 가장 AI에 강한 직업",
         "enTitle": "Ranked: America’s Most AI-Resistant Jobs",
-        "date": "2026-08-05",
+        "date": "2026-08-06",
         "originalDate": "2026-08-03",
         "sourceName": "Visual Capitalist",
         "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYUV0VklEU21Kd3pNTGVrWjJKRnhTdk1jSGNQbjctOC1sUURma1JlWURvZEVOeVo0a1lTRjZ1eVk0TWZ1M0o5VlJHZHVRYkRGalJjeWthSk9VY24zLTVXMDlwZkFoQzdpLUpkY2pqZjRaMEdaLW8ybzhWYnhjUk8ycQ?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
+        "viralRate": "92%",
         "analysis": "글로벌 AI 트렌드 체크! 순위: 미국에서 가장 AI에 강한 직업 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[완전분석] 챗GPT·클로드·제미나이·코파일럿, 어떤 업무에 써야 할까…‘AI 도구 선택법’ 총정리",
-        "enTitle": "[완전분석] 챗GPT·클로드·제미나이·코파일럿, 어떤 업무에 써야 할까…‘AI 도구 선택법’ 총정리",
-        "date": "2026-08-05",
-        "originalDate": "2026-08-04",
-        "sourceName": "아웃소싱타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFAyUTVrMWVRdDFwdHN1UGZhTUY5VlIwMDlXZzRoVjk1S0hyM0wwOW9KekhENjJFUDE0ajJnRko3ZC10cGZfT3RYcGhzSGVGSW9hdENsUnlpZUttWkhtX3lvemJkcVc3aTN0aWExWGEyVVpydw?oc=5",
+        "koTitle": "Figma 실적 발표: AI 수익화가 경쟁 우려를 완화할 수 있을까?",
+        "enTitle": "Figma 실적 발표: AI 수익화가 경쟁 우려를 완화할 수 있을까?",
+        "date": "2026-08-06",
+        "originalDate": "2026-08-05",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE40VkNGUlAyME9nXzNFcTUxbVVxYlZCbmxMSEJWRmdOeTBCZWFFOFllbWNmRTRqcF9DczJ5TWlSSG9RS25TOXY2ODJKbDVQclk4VVVZOC1CTEt5LWRQVnV0d3M2WWMzdnFDb2QxaTVkMGowMy1JRzJLXzA5NA?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [완전분석] 챗GPT·클로드·제미나이·코파일럿, 어떤 업무에 써야 할까…‘AI 도구 선택법’ 총정리 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! Figma 실적 발표: AI 수익화가 경쟁 우려를 완화할 수 있을까? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "영림원, AI기반 입사자 온보딩 서비스 ‘에버웰커밍’ 출시",
-        "enTitle": "영림원, AI기반 입사자 온보딩 서비스 ‘에버웰커밍’ 출시",
-        "date": "2026-08-05",
-        "originalDate": "2026-08-04",
-        "sourceName": "dt.co.kr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ka1lLV2c4bl9qMF9OcXFBNWVoRzE5SnZ5YklFN2pzSEFKS0dMQmdraFloSURxMlduOGRyZnZscWNIdDB2STl2UVo2dlFmZw?oc=5",
+        "koTitle": "카카오페이, 금융 에이전트 ‘AI코치’ 베타 서비스 출시",
+        "enTitle": "카카오페이, 금융 에이전트 ‘AI코치’ 베타 서비스 출시",
+        "date": "2026-08-06",
+        "originalDate": "2026-08-05",
+        "sourceName": "비즈월드",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBDREZwX3k1US1EZHB5MlQ0WE1PS3JXcFYxNUtkU2oxT3hGZk1JbFFJMF9icVUwTzY4RGk0d3BGOVFoTXNNUGRpVmJHZVQ3Q1dlTHQ1X0djczBZdC11ZVAxaGVHOGlxLTBpaEJJ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 영림원, AI기반 입사자 온보딩 서비스 ‘에버웰커밍’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 카카오페이, 금융 에이전트 ‘AI코치’ 베타 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "파리 생제르맹, 구글과 AI 파트너십...'제미나이' 공식 어시스턴트 도입",
-        "enTitle": "파리 생제르맹, 구글과 AI 파트너십...'제미나이' 공식 어시스턴트 도입",
-        "date": "2026-08-05",
-        "originalDate": "2026-08-04",
-        "sourceName": "aitimes.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxVVQtNGtxYmhhVS1STGg5dzdpMFBNWW11MTBWR1RMQ2FSUmxJZWFtc2lJLUhFa3BGQlppcHh5bTVqWXMzU3NUYlR1NDk0aWEzSkZaTHp5WFdtZ3hLLThyX2VMNEMwdUhseWc?oc=5",
+        "koTitle": "코레일유통, AI 관광 앱 출시… 내부 업무도 AI 혁신",
+        "enTitle": "코레일유통, AI 관광 앱 출시… 내부 업무도 AI 혁신",
+        "date": "2026-08-06",
+        "originalDate": "2026-08-05",
+        "sourceName": "S저널",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kNGhxQmpCUmFWZG1RNzNHTVVzTHUxVjl5RGNwMDVZSS0yX1ZyQzJsLTlYSV95c2ZBUmZFTjVUZ08xSHJFUWlnMDg0eVdrZUE5eXFPQ0tpSGtHY3RtbnB4N3pIeVIwZ1o5OFY0bDVB?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 파리 생제르맹, 구글과 AI 파트너십...'제미나이' 공식 어시스턴트 도입 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 코레일유통, AI 관광 앱 출시… 내부 업무도 AI 혁신 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
