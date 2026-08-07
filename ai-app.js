@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-06
+ * 최신 업데이트: 2026-08-07
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "인공지능이 모든 일자리를 갉아먹고 있는가? 진실은 우리가 단지 모른다는 것입니다.",
-        "enTitle": "Is AI eating up all the jobs? The truth is that we just don’t know",
-        "date": "2026-08-06",
-        "originalDate": "2026-08-04",
-        "sourceName": "The Indian Express",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONnF4ZkdSN2lCOXdRUmFJcS00cWQwNmNGU2ZIQWhLMTlpbEpDYTJMZkdqWVRNRy1tVmRES2V0anNCX0t0cGQxdVNhUmk2ekNiaEtyTnRuN3A5T0NBb0ZjaFczc183Q2ZrUEJfY0I1cHFvRUxzaWlPTjlaTHBaRkYwcW9MSGxzbk8tdWNnSFI5QkdrUVJsd0JreGlnUmY5QkVJQ0w2bXgtV09kNHdsblNodDVwUWlDeF9zUEhwT29NXzhUZ9IByAFBVV95cUxObXZGaTV4UjUtRVlTTWZXRFNHblI2VXJPQWJObERFWkpiOUNkaHBFMURxRVRTRWU3Y052MFdlZDBSd04tNGpPcHRjdVNhZXUzd0NFcGh3WG1DU2VVcTJFTDhfc1h6NzdWZDgyMGJFbFg0aTdCLTR1NnAtWTJLdldHM1NoeGg1SkJXRnJSOVY5RC10U2J1YS02N0NrYk5YQjJrb0MwM3dWaXJtWndzTHZDN2tOTUxZNXVXUzhjV0RVSWRJeVFXeHlzcA?oc=5",
+        "koTitle": "8-21-26에 참여하여 \"AI로 생산성 해킹하기\" – 슈퍼 사이버 프라이데이",
+        "enTitle": "Join us on 8-21-26 for “Hacking Productivity with AI” – Super Cyber Friday",
+        "date": "2026-08-07",
+        "originalDate": "2026-08-06",
+        "sourceName": "CISO Series",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYm9fSjlEdG9KVzJDcExtUWE4RENHVmJOdXhJaE5zY3hWSnFhekoxeGZYci1rVUxYTDFpX2JGY3ZTOTV1ckV4QUJIZVBlUzh4RGhYT1N2NEotU1haT1ExdlV0eE5Pa0RKY3EyS3N0SE9kX0FqQkVDMHRtamwyS29TQjdwX21lN2Q3cUlSLXptRjhlMUg3Q0oxSW1B?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능이 모든 일자리를 갉아먹고 있는가? 진실은 우리가 단지 모른다는 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 8-21-26에 참여하여 \"AI로 생산성 해킹하기\" – 슈퍼 사이버 프라이데이 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "인력 트렌드 전문가이자 미래의 일 기조연설자: 지금 바로 예약하고 채용하세요!",
-        "enTitle": "WORKFORCE TRENDS EXPERT & FUTURE OF WORK KEYNOTE SPEAKER: BOOK AND HIRE TODAY!",
-        "date": "2026-08-06",
-        "originalDate": "2026-08-04",
-        "sourceName": "futuristsspeakers.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNXpyaWc1SVlJMmtlY1F1U3BPczZsWGlHSGhBTzRZeXo3MzZKNWFsTGE3bTJQMW1aaXNVNVJrUm1SRmwxQXNrUzV1WklSVDhma21yUE5heUNNblNxOEwwZ3NUU1A3SVAwU0xLcEhxeTBJM18xNGxZYU5HWEcyMjhGRnBuRS1UWl9LQ1dHRDdHZTdObXcySWV0ZmNXeDVER3RTamZ0MkRCZC1pMzI0aUE?oc=5",
+        "koTitle": "세 명의 AI 개척자가 일자리, 규제, AI의 미래를 놓고 충돌합니다.",
+        "enTitle": "Three AI Pioneers Clash Over Jobs, Regulation And The Future Of AI",
+        "date": "2026-08-07",
+        "originalDate": "2026-08-06",
+        "sourceName": "Forbes",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcnR4QkVrUnFuczNyOUIzUl8tdUhhTVJQM0piQnlYZTlpQkxrTWRlV0d1Q1RuOUx0ZEtab2R4WXNCZm5pMkw5WS0wOG8wX0tfQkR5WHpzZkZXOTlSSHFZckV1bkRNOHRiSkktMkNhTzBMMnl3UHRlZFNSWUt4ZS1CZUE0U1YwaG5meVZueXZR?oc=5",
         "isRepublished": false,
-        "viralRate": "88%",
-        "analysis": "글로벌 AI 트렌드 체크! 인력 트렌드 전문가이자 미래의 일 기조연설자: 지금 바로 예약하고 채용하세요! 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 세 명의 AI 개척자가 일자리, 규제, AI의 미래를 놓고 충돌합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "순위: 미국에서 가장 AI에 강한 직업",
-        "enTitle": "Ranked: America’s Most AI-Resistant Jobs",
-        "date": "2026-08-06",
-        "originalDate": "2026-08-03",
-        "sourceName": "Visual Capitalist",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYUV0VklEU21Kd3pNTGVrWjJKRnhTdk1jSGNQbjctOC1sUURma1JlWURvZEVOeVo0a1lTRjZ1eVk0TWZ1M0o5VlJHZHVRYkRGalJjeWthSk9VY24zLTVXMDlwZkFoQzdpLUpkY2pqZjRaMEdaLW8ybzhWYnhjUk8ycQ?oc=5",
+        "koTitle": "'적응성은 AI 공포에 대한 해독제': 직업의 미래에 대한 ETS CEO",
+        "enTitle": "'Adaptability Is The Antidote To AI Fear': ETS CEO On The Future Of Jobs",
+        "date": "2026-08-07",
+        "originalDate": "2026-08-05",
+        "sourceName": "NDTV",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOXpwLTVPYnRNbEZRbHZ6aGFDTUpDRlRKcWkzekZjRTdjY1VHa1VqMDhsVXd4Z0hWNWhtVHh6cVQtMU1zSVYxUlBUZzNtVUdINHc1S2tGdEpkamhVWnBxZDVqaHlHWVRIOGE0cmdwaVhTOVFjM0JyM01ZeWlCM3NuN0lHMnlWUFdUNFFJMThtYzFHQVNkTFlFdENyemx5QlJRUFJuWi1Kd1ZCUkRldkHSAbYBQVVfeXFMUHFpbHZfb0tQdFQ0QWVFM1JCQ2tDVUF1TlZDQ3NEay12WTZuU1NkZkVmVzh2a1l6ck15Nnh1ZzFnZzkyVUVsbGtvZjY3aURSUndhSnhHalA4V0VQaW1ITWlTQzNUQzhtQkJNb3NhZTFySW5oSVJ3TmtzTlpHdXJKZmNtME5Rc19VSjFFQzNIMXNoOTZ4U1ZCVEppaE5vSzdVZy1qYWdJQ2Z4VlFtdGZOMHhtUlNhMVE?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 순위: 미국에서 가장 AI에 강한 직업 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! '적응성은 AI 공포에 대한 해독제': 직업의 미래에 대한 ETS CEO 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "Figma 실적 발표: AI 수익화가 경쟁 우려를 완화할 수 있을까?",
-        "enTitle": "Figma 실적 발표: AI 수익화가 경쟁 우려를 완화할 수 있을까?",
-        "date": "2026-08-06",
-        "originalDate": "2026-08-05",
-        "sourceName": "Investing.com 한국어",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE40VkNGUlAyME9nXzNFcTUxbVVxYlZCbmxMSEJWRmdOeTBCZWFFOFllbWNmRTRqcF9DczJ5TWlSSG9RS25TOXY2ODJKbDVQclk4VVVZOC1CTEt5LWRQVnV0d3M2WWMzdnFDb2QxaTVkMGowMy1JRzJLXzA5NA?oc=5",
+        "koTitle": "구글 제미나이·BTS 협업 티저 공개…라스베이거스 스피어 장식",
+        "enTitle": "구글 제미나이·BTS 협업 티저 공개…라스베이거스 스피어 장식",
+        "date": "2026-08-07",
+        "originalDate": "2026-08-07",
+        "sourceName": "연합뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE14RFBKWEp0SHM3UGhpZE5kYnhySTF6Y2hOZ3I1aWpGeWEwdGZDWi1fMndHQWtJNXg3OS1kX3FmTmtSN0VkZnFXTXgzR0U0RG9XenNmZDRzb0RLRWvSAWBBVV95cUxQaWhsa1VuazlRQlVYSUlMNmxWQUdPZ2dLbF8yVDJrNFVOOGJ3Y3dqejhndTRVY2dCcGJqbndvMFlQTUFBS3RaYWhjOTBsbVRLSndqQnFhSVRaa2l3VXE4N2o?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! Figma 실적 발표: AI 수익화가 경쟁 우려를 완화할 수 있을까? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 구글 제미나이·BTS 협업 티저 공개…라스베이거스 스피어 장식 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "카카오페이, 금융 에이전트 ‘AI코치’ 베타 서비스 출시",
-        "enTitle": "카카오페이, 금융 에이전트 ‘AI코치’ 베타 서비스 출시",
-        "date": "2026-08-06",
-        "originalDate": "2026-08-05",
-        "sourceName": "비즈월드",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBDREZwX3k1US1EZHB5MlQ0WE1PS3JXcFYxNUtkU2oxT3hGZk1JbFFJMF9icVUwTzY4RGk0d3BGOVFoTXNNUGRpVmJHZVQ3Q1dlTHQ1X0djczBZdC11ZVAxaGVHOGlxLTBpaEJJ?oc=5",
+        "koTitle": "조폐공사, '공공구매 정책 학습 앱' 출시…실무자가 AI로 개발",
+        "enTitle": "조폐공사, '공공구매 정책 학습 앱' 출시…실무자가 AI로 개발",
+        "date": "2026-08-07",
+        "originalDate": "2026-08-06",
+        "sourceName": "연합뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzaGp1SmdLYm8wZUx6T1NvV1RoLW1xUGVLNjdqUWFsZDBwd09xYzdWVElUNDg3bWNQbUpMemVXY09zMm45REZjdDBxa0piaVR6eXg3VXpVSjFTdm9UYVJ3MtIBYEFVX3lxTFAzaGp1SmdLYm8wZUx6T1NvV1RoLW1xUGVLNjdqUWFsZDBwd09xYzdWVElUNDg3bWNQbUpMemVXY09zMm45REZjdDBxa0piaVR6eXg3VXpVSjFTdm9UYVJ3Mg?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 카카오페이, 금융 에이전트 ‘AI코치’ 베타 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 조폐공사, '공공구매 정책 학습 앱' 출시…실무자가 AI로 개발 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "코레일유통, AI 관광 앱 출시… 내부 업무도 AI 혁신",
-        "enTitle": "코레일유통, AI 관광 앱 출시… 내부 업무도 AI 혁신",
-        "date": "2026-08-06",
-        "originalDate": "2026-08-05",
-        "sourceName": "S저널",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kNGhxQmpCUmFWZG1RNzNHTVVzTHUxVjl5RGNwMDVZSS0yX1ZyQzJsLTlYSV95c2ZBUmZFTjVUZ08xSHJFUWlnMDg0eVdrZUE5eXFPQ0tpSGtHY3RtbnB4N3pIeVIwZ1o5OFY0bDVB?oc=5",
+        "koTitle": "구글 제미나이, 美 라스베이거스 스피어에서 방탄소년단 협업 티저 공개 - 조선비즈",
+        "enTitle": "구글 제미나이, 美 라스베이거스 스피어에서 방탄소년단 협업 티저 공개 - 조선비즈",
+        "date": "2026-08-07",
+        "originalDate": "2026-08-07",
+        "sourceName": "Chosunbiz",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcVhCUGpiOEI1NThRN09QY2NpYnE1aVpNbWlMa1VraUdGekxRbDI4MnhVUXFCOXlFRVA4QXk4ejJvR2hLTlpkM0Q2djRkazJ1eHlLSk5Cemx4ZVlHSHY0d3lPc3k2YlQ1SmtiNlVTUWktdG5YRXdZaVc1XzQ3Nk0tcW9n0gGWAUFVX3lxTFBqcUVxQTFsRW56OF91cXUwM09raWdrZi1ab0hyTTN6ODg0S3hmNkl2ckxTSXEzUVhGV1lyb1RVdWdBbDROa1J0SFdxWkpoelNQcWdxOWFDTnlmWE9OalJyXzU3c0RhZUoySjdvaE1XMFgtV2Q0OGYwMVhvRnBfNUgtdTFEb0s2TC0yOU1NbWZWcm9YVGJsZw?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 코레일유통, AI 관광 앱 출시… 내부 업무도 AI 혁신 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 구글 제미나이, 美 라스베이거스 스피어에서 방탄소년단 협업 티저 공개 - 조선비즈 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
