@@ -1,7 +1,7 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-09
+ * 최신 업데이트: 2026-08-10
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
@@ -10,7 +10,7 @@ const aiNewsData = [
         "rank": 1,
         "koTitle": "아프리카의 차세대 인력: AI가 창출할 일자리",
         "enTitle": "Africa’s Next Workforce: The Jobs AI Will Create",
-        "date": "2026-08-09",
+        "date": "2026-08-10",
         "originalDate": "2026-08-07",
         "sourceName": "Forbes Africa",
         "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSHRJR09zN0dMRnpLYjVad0RFTURCdmlfNVpkZU5LUFdzMXhSYXFUQ05qaFY3RnZoVE9SZElXaFQycG5jZzJOaXlOY1hWMUFOVEkwczFRakZjYUlWVmpSYUNsN09JR3FPaVBSOWFvdGRQX3RKcFhJTjlIY2dXeGNXblRpc3RzbkppaVI2V3Nrc1QwMzQwVFBnRktKVXZMVnNC?oc=5",
@@ -23,25 +23,25 @@ const aiNewsData = [
         "rank": 2,
         "koTitle": "8-21-26에 참여하여 \"AI로 생산성 해킹하기\" – 슈퍼 사이버 프라이데이",
         "enTitle": "Join us on 8-21-26 for “Hacking Productivity with AI” – Super Cyber Friday",
-        "date": "2026-08-09",
+        "date": "2026-08-10",
         "originalDate": "2026-08-06",
         "sourceName": "CISO Series",
         "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYm9fSjlEdG9KVzJDcExtUWE4RENHVmJOdXhJaE5zY3hWSnFhekoxeGZYci1rVUxYTDFpX2JGY3ZTOTV1ckV4QUJIZVBlUzh4RGhYT1N2NEotU1haT1ExdlV0eE5Pa0RKY3EyS3N0SE9kX0FqQkVDMHRtamwyS29TQjdwX21lN2Q3cUlSLXptRjhlMUg3Q0oxSW1B?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
+        "viralRate": "94%",
         "analysis": "글로벌 AI 트렌드 체크! 8-21-26에 참여하여 \"AI로 생산성 해킹하기\" – 슈퍼 사이버 프라이데이 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "세 명의 AI 개척자가 일자리, 규제, AI의 미래를 놓고 충돌합니다.",
-        "enTitle": "Three AI Pioneers Clash Over Jobs, Regulation And The Future Of AI",
-        "date": "2026-08-09",
+        "koTitle": "기술 분야에 종사하는 모든 사람들이 왜 그렇게 슬퍼할까요?",
+        "enTitle": "Why Is Everyone In Tech So Sad?",
+        "date": "2026-08-10",
         "originalDate": "2026-08-06",
-        "sourceName": "Forbes",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcnR4QkVrUnFuczNyOUIzUl8tdUhhTVJQM0piQnlYZTlpQkxrTWRlV0d1Q1RuOUx0ZEtab2R4WXNCZm5pMkw5WS0wOG8wX0tfQkR5WHpzZkZXOTlSSHFZckV1bkRNOHRiSkktMkNhTzBMMnl3UHRlZFNSWUt4ZS1CZUE0U1YwaG5meVZueXZR?oc=5",
+        "sourceName": "Noema Magazine",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjZFhRZDRYRjlMLVQwcEE1Z0tPNGZna3Y3SFJzRHJKT0hSM1ZwOW5KZzJ4c19FRmVLYTZzOEliWjF6bFd3QV9OVF9XODZlVHcxak5zWHJFSDF5V0hPbVJ5SFE0dWxuZw?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 세 명의 AI 개척자가 일자리, 규제, AI의 미래를 놓고 충돌합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 기술 분야에 종사하는 모든 사람들이 왜 그렇게 슬퍼할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "‘클로드’에 백업 맡겼더니 홈 디렉토리 전체 삭제...\"미안, 오타였다\"",
-        "enTitle": "‘클로드’에 백업 맡겼더니 홈 디렉토리 전체 삭제...\"미안, 오타였다\"",
-        "date": "2026-08-09",
+        "koTitle": "오픈AI, 챗GPT 무료도 최신 모델 무한 지원…'아스트라' 출시 연기",
+        "enTitle": "오픈AI, 챗GPT 무료도 최신 모델 무한 지원…'아스트라' 출시 연기",
+        "date": "2026-08-10",
         "originalDate": "2026-08-08",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0RlBBYlZrSHFVaFVHWXRkUTBtVmt2ZXkzVHRId0JudFdXZjdTWHJRTkxCOHpoTW9GSmlRY3o5WlRqbmt4dHlkZzVFUEozQzVZSWpkb3I3Y3pnaWVoNzl2X1ZXZi11d0VhS1E?oc=5",
+        "sourceName": "전자신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9SdHN2Q1ZrSHpTb2pzN01ndl8wc1E1ZWQ2MzhXeDZSMW8xc01ZbktyTWNwUDRmeHlIaG9FelJILVJvNXluTU1Ba2NweHUwdw?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! ‘클로드’에 백업 맡겼더니 홈 디렉토리 전체 삭제...\"미안, 오타였다\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 오픈AI, 챗GPT 무료도 최신 모델 무한 지원…'아스트라' 출시 연기 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "네이버, AI 수익화 확장…AI팩토리 새 성장축 키운다",
-        "enTitle": "네이버, AI 수익화 확장…AI팩토리 새 성장축 키운다",
-        "date": "2026-08-09",
-        "originalDate": "2026-08-08",
-        "sourceName": "Naver Blog",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNlcxWUpWRmZXTFpHRGNHbFIxbmlGaXNydlJnZnljLWdsSFJwakhjekJtQ1o2MGt4TWRFUER5Y3ZEcW9zeWFRcXZBWUVBaGNhSWxrTTNsczVnX0dqd01ZSEs4UXdnNndqeU9qaUZKOWo1MzRrRExYYnpCTXVVVXJwdXVxUW53eVFObGJIN3RFMA?oc=5",
+        "koTitle": "식품 트렌드 분석부터 상품화까지 AI로 ‘뚝딱’… K푸드 날개",
+        "enTitle": "식품 트렌드 분석부터 상품화까지 AI로 ‘뚝딱’… K푸드 날개",
+        "date": "2026-08-10",
+        "originalDate": "2026-08-09",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9YZW0yQlBNTlVrZldDNG51Z1VsQWJETXBGejBpWHJYM3RBNDF0ODZRWW1zYXVkRHdIaVlzOU80S1dDU0dZX2lZQmdicEVwNkE?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 네이버, AI 수익화 확장…AI팩토리 새 성장축 키운다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 식품 트렌드 분석부터 상품화까지 AI로 ‘뚝딱’… K푸드 날개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "하이퍼커브, AI 취업 에이전트 ‘마이커리어AI’ 오픈 베타 개시… 취업 준비 패러다임 혁신",
-        "enTitle": "하이퍼커브, AI 취업 에이전트 ‘마이커리어AI’ 오픈 베타 개시… 취업 준비 패러다임 혁신",
-        "date": "2026-08-09",
-        "originalDate": "2026-08-08",
-        "sourceName": "국민기자뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE45bnQ5a09XYkFXbW5sbG93WmJCdjRPdnZpaXpwT25BYTNHT2otNXRaOHFHdFRWNGdsZTJuWllVYnk3ejJEV3c3Yi1jaFR0M3U3TjVEV1ppTDFERWZzNk9FdVZDRdIBZ0FVX3lxTE1KRmJzTU5oUHpkTThCNmJBMUdjeDJQZEkxQWxLMV92UVltQ1hyQlBESWlvcU02ZExDYk9URTFtb3o4eVF3ZF9xN3ZPYkNnNDk5T0Z4dUw5dlZyaTAwU09XVnduUUJtUVk?oc=5",
+        "koTitle": "'AI 수익화' 방향 다른 네카오, 엇갈린 실적 - 머니투데이",
+        "enTitle": "'AI 수익화' 방향 다른 네카오, 엇갈린 실적 - 머니투데이",
+        "date": "2026-08-10",
+        "originalDate": "2026-08-09",
+        "sourceName": "머니투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12YnhZMmN4X29RaUhjQnV6Y3k3cGNmTEtNakppTkJ2T3M2R1FreHNOeGZiNU52SXZhNVBVWFFpLXp6M2ROVGxhRnBYZzc0a3pXRWN0UFBRRE81eUh5b1pxZ05nZU5ndTFWVjRDVNIBbEFVX3lxTE12YnhZMmN4X29RaUhjQnV6Y3k3cGNmTEtNakppTkJ2T3M2R1FreHNOeGZiNU52SXZhNVBVWFFpLXp6M2ROVGxhRnBYZzc0a3pXRWN0UFBRRE81eUh5b1pxZ05nZU5ndTFWVjRDVA?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 하이퍼커브, AI 취업 에이전트 ‘마이커리어AI’ 오픈 베타 개시… 취업 준비 패러다임 혁신 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 'AI 수익화' 방향 다른 네카오, 엇갈린 실적 - 머니투데이 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
