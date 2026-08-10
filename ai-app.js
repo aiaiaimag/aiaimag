@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-10
+ * 최신 업데이트: 2026-08-11
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "아프리카의 차세대 인력: AI가 창출할 일자리",
-        "enTitle": "Africa’s Next Workforce: The Jobs AI Will Create",
-        "date": "2026-08-10",
-        "originalDate": "2026-08-07",
-        "sourceName": "Forbes Africa",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSHRJR09zN0dMRnpLYjVad0RFTURCdmlfNVpkZU5LUFdzMXhSYXFUQ05qaFY3RnZoVE9SZElXaFQycG5jZzJOaXlOY1hWMUFOVEkwczFRakZjYUlWVmpSYUNsN09JR3FPaVBSOWFvdGRQX3RKcFhJTjlIY2dXeGNXblRpc3RzbkppaVI2V3Nrc1QwMzQwVFBnRktKVXZMVnNC?oc=5",
+        "koTitle": "인공지능 (AI) 시대에 당신의 커리어를 미래로 증명하는 방법",
+        "enTitle": "How to Future-Proof Your Career in the Age of AI",
+        "date": "2026-08-11",
+        "originalDate": "2026-08-10",
+        "sourceName": "NBC Palm Springs",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPempyWFNua0JGSmJmc2w1Ymh2Nk5ZSWVtLTZDNzg0X0t4M2lLbmFsdGU5SzN2ZW10LWdkVExHb3ByUHZiOU9QYkFsT0dPQUhyS09yVm9VdWR1SlhNbGxzUUZXbVJKd28tMGxhcVI2Vmg5RUxIYVl1VXQ1LVdIdkNJeWtJVlczTXRCLWhfcG1R?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 아프리카의 차세대 인력: AI가 창출할 일자리 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능 (AI) 시대에 당신의 커리어를 미래로 증명하는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "8-21-26에 참여하여 \"AI로 생산성 해킹하기\" – 슈퍼 사이버 프라이데이",
-        "enTitle": "Join us on 8-21-26 for “Hacking Productivity with AI” – Super Cyber Friday",
-        "date": "2026-08-10",
-        "originalDate": "2026-08-06",
-        "sourceName": "CISO Series",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYm9fSjlEdG9KVzJDcExtUWE4RENHVmJOdXhJaE5zY3hWSnFhekoxeGZYci1rVUxYTDFpX2JGY3ZTOTV1ckV4QUJIZVBlUzh4RGhYT1N2NEotU1haT1ExdlV0eE5Pa0RKY3EyS3N0SE9kX0FqQkVDMHRtamwyS29TQjdwX21lN2Q3cUlSLXptRjhlMUg3Q0oxSW1B?oc=5",
+        "koTitle": "바이럴 \"가짜 테이크아웃\" 트렌드: 이 AI 자산 관리 앱은 테이크아웃 주문으로 사용자를 로스팅하여 연간 매출 1억 $ 이상을 창출합니다.",
+        "enTitle": "Viral \"Fake Takeaway\" Trend: This AI Wealth Management App Roasts Users for Ordering Takeout, Generating Over $100 Million in Annual Revenue",
+        "date": "2026-08-11",
+        "originalDate": "2026-08-10",
+        "sourceName": "36 Kr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HbzhpSHBXbVRyWjgwUm4yVXRvX045VFN0enhrNnREb1dWdkU3cmdveTN2NXFPeEhhQWd0ZjhHam9TUWtrSmt4U1hQYUc3VVJfQ21R?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 8-21-26에 참여하여 \"AI로 생산성 해킹하기\" – 슈퍼 사이버 프라이데이 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 바이럴 \"가짜 테이크아웃\" 트렌드: 이 AI 자산 관리 앱은 테이크아웃 주문으로 사용자를 로스팅하여 연간 매출 1억 $ 이상을 창출합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "기술 분야에 종사하는 모든 사람들이 왜 그렇게 슬퍼할까요?",
-        "enTitle": "Why Is Everyone In Tech So Sad?",
-        "date": "2026-08-10",
-        "originalDate": "2026-08-06",
-        "sourceName": "Noema Magazine",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjZFhRZDRYRjlMLVQwcEE1Z0tPNGZna3Y3SFJzRHJKT0hSM1ZwOW5KZzJ4c19FRmVLYTZzOEliWjF6bFd3QV9OVF9XODZlVHcxak5zWHJFSDF5V0hPbVJ5SFE0dWxuZw?oc=5",
+        "koTitle": "일의 미래는 첫 직장에서 시작됩니다: 초보 수준의 기회 감소가 고용주에게 의미하는 바",
+        "enTitle": "The future of work starts with the first job: what the decline of entry-level opportunities means for employers",
+        "date": "2026-08-11",
+        "originalDate": "2026-08-10",
+        "sourceName": "Lewis Silkin LLP",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZHE5UXJqMHJjb2JWMVJfdlM3NWs3MVRVdFdXYkx6ajlvcnBzb0h3bTlFQXlWZDZJcEF3a3ExT0hkVzlONW83Z1VyQUxULVViSW9naVVaQ0VWVHFXSC1rUHJ0bFM3YWt6d2k4ajZZU0hWM2JTWmJmclA5azZfbHd5SHdKTnFxQlZ6b2c3a19mYUNGUmM0eTdvS1pyaWJ0bmR3U3FaU2VFUFd1OENhRUgyQnFhTkNmc2hsX1Bzd0hrbDNBdkFRam9kR1pCbEJ5U2RTN25xZ25uRWIzZ3JES3c?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 기술 분야에 종사하는 모든 사람들이 왜 그렇게 슬퍼할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 일의 미래는 첫 직장에서 시작됩니다: 초보 수준의 기회 감소가 고용주에게 의미하는 바 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "오픈AI, 챗GPT 무료도 최신 모델 무한 지원…'아스트라' 출시 연기",
-        "enTitle": "오픈AI, 챗GPT 무료도 최신 모델 무한 지원…'아스트라' 출시 연기",
-        "date": "2026-08-10",
-        "originalDate": "2026-08-08",
-        "sourceName": "전자신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9SdHN2Q1ZrSHpTb2pzN01ndl8wc1E1ZWQ2MzhXeDZSMW8xc01ZbktyTWNwUDRmeHlIaG9FelJILVJvNXluTU1Ba2NweHUwdw?oc=5",
+        "koTitle": "OpenAI, ChatGPT 비즈니스용 월 $125 프리미엄 요금제 출시",
+        "enTitle": "OpenAI, ChatGPT 비즈니스용 월 $125 프리미엄 요금제 출시",
+        "date": "2026-08-11",
+        "originalDate": "2026-08-10",
+        "sourceName": "kr.investing.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBoNHVKN2FyekFzOEJBOEN1aERqV3RIOVg3eXlLaWN1SlNTZ1g3MEgtQ3pKZHBDWW16Z2p4SHpGcElMXzZKVV9xZFpjUzA5TExXeVZvcDQxdE1WLXpjd0Fwd2kyVDNFMkJhcW1EMmxiVTVKYlNZcnlB?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 오픈AI, 챗GPT 무료도 최신 모델 무한 지원…'아스트라' 출시 연기 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! OpenAI, ChatGPT 비즈니스용 월 $125 프리미엄 요금제 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "식품 트렌드 분석부터 상품화까지 AI로 ‘뚝딱’… K푸드 날개",
-        "enTitle": "식품 트렌드 분석부터 상품화까지 AI로 ‘뚝딱’… K푸드 날개",
-        "date": "2026-08-10",
-        "originalDate": "2026-08-09",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9YZW0yQlBNTlVrZldDNG51Z1VsQWJETXBGejBpWHJYM3RBNDF0ODZRWW1zYXVkRHdIaVlzOU80S1dDU0dZX2lZQmdicEVwNkE?oc=5",
+        "koTitle": "로빈후드, 영국서 가상자산 거래 서비스 출시…AI 분석 기능도 탑재",
+        "enTitle": "로빈후드, 영국서 가상자산 거래 서비스 출시…AI 분석 기능도 탑재",
+        "date": "2026-08-11",
+        "originalDate": "2026-08-10",
+        "sourceName": "블루밍비트",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpcjhZSTFpcmtQd2pxRzFmblJuMHJUemNBUWFYLVc0SmgxWGlPZC1Lbjl1a1RRUFhaTVhjQXRwbXFfTHhIOFVIdHVfTm1BMVF1?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 식품 트렌드 분석부터 상품화까지 AI로 ‘뚝딱’… K푸드 날개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 로빈후드, 영국서 가상자산 거래 서비스 출시…AI 분석 기능도 탑재 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "'AI 수익화' 방향 다른 네카오, 엇갈린 실적 - 머니투데이",
-        "enTitle": "'AI 수익화' 방향 다른 네카오, 엇갈린 실적 - 머니투데이",
-        "date": "2026-08-10",
-        "originalDate": "2026-08-09",
-        "sourceName": "머니투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12YnhZMmN4X29RaUhjQnV6Y3k3cGNmTEtNakppTkJ2T3M2R1FreHNOeGZiNU52SXZhNVBVWFFpLXp6M2ROVGxhRnBYZzc0a3pXRWN0UFBRRE81eUh5b1pxZ05nZU5ndTFWVjRDVNIBbEFVX3lxTE12YnhZMmN4X29RaUhjQnV6Y3k3cGNmTEtNakppTkJ2T3M2R1FreHNOeGZiNU52SXZhNVBVWFFpLXp6M2ROVGxhRnBYZzc0a3pXRWN0UFBRRE81eUh5b1pxZ05nZU5ndTFWVjRDVA?oc=5",
+        "koTitle": "'AI 접목' 집중하는 네이버…'AI 수익화' 윤곽 만든다",
+        "enTitle": "'AI 접목' 집중하는 네이버…'AI 수익화' 윤곽 만든다",
+        "date": "2026-08-11",
+        "originalDate": "2026-08-10",
+        "sourceName": "굿모닝경제",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xUmVsbFpSOEE2XzU5Q2FLUXFxYTZnQS1PeFBGeHJUaWdrdDhwYmpfSjJHbE9vVDdrOTcyZGJPZFFWWnQzbGlTU3U1Vk9iVU9DTmhPY1lSZ2thZmM2YzJzUjA3S2JaMGhPYlV3eA?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 'AI 수익화' 방향 다른 네카오, 엇갈린 실적 - 머니투데이 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 'AI 접목' 집중하는 네이버…'AI 수익화' 윤곽 만든다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
