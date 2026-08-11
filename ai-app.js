@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-11
+ * 최신 업데이트: 2026-08-12
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "인공지능 (AI) 시대에 당신의 커리어를 미래로 증명하는 방법",
-        "enTitle": "How to Future-Proof Your Career in the Age of AI",
-        "date": "2026-08-11",
-        "originalDate": "2026-08-10",
-        "sourceName": "NBC Palm Springs",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPempyWFNua0JGSmJmc2w1Ymh2Nk5ZSWVtLTZDNzg0X0t4M2lLbmFsdGU5SzN2ZW10LWdkVExHb3ByUHZiOU9QYkFsT0dPQUhyS09yVm9VdWR1SlhNbGxzUUZXbVJKd28tMGxhcVI2Vmg5RUxIYVl1VXQ1LVdIdkNJeWtJVlczTXRCLWhfcG1R?oc=5",
+        "koTitle": "저커버그의 AI 비전: 더 많은 일자리, 더 적은 근로자 및 ‘개인 초지능’",
+        "enTitle": "Zuckerberg’s AI vision: More jobs, fewer workers and ‘personal superintelligence’",
+        "date": "2026-08-12",
+        "originalDate": "2026-08-11",
+        "sourceName": "HR Executive",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbkxUWU13Z0gyR3JpMW5hLXN4VzRXYlRRS2tSMjlCQS1xOXEwVVAxQ0d0RnZ5a1FkTDUyWHdEN0kzRjg2QkFxaWF4Y245ZTFYa0tUZ0djWko4WGlPZHppTTgzSXVpT01ITEVKdFcyYlpFYXdsWlM0ZDlxcFB6Zk85TmZObDhRLU5VQ0ZLVUlZYklMSVowS0tnaEUzTUNrVWtmYURZ?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능 (AI) 시대에 당신의 커리어를 미래로 증명하는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 저커버그의 AI 비전: 더 많은 일자리, 더 적은 근로자 및 ‘개인 초지능’ 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
         "koTitle": "바이럴 \"가짜 테이크아웃\" 트렌드: 이 AI 자산 관리 앱은 테이크아웃 주문으로 사용자를 로스팅하여 연간 매출 1억 $ 이상을 창출합니다.",
         "enTitle": "Viral \"Fake Takeaway\" Trend: This AI Wealth Management App Roasts Users for Ordering Takeout, Generating Over $100 Million in Annual Revenue",
-        "date": "2026-08-11",
+        "date": "2026-08-12",
         "originalDate": "2026-08-10",
         "sourceName": "36 Kr",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HbzhpSHBXbVRyWjgwUm4yVXRvX045VFN0enhrNnREb1dWdkU3cmdveTN2NXFPeEhhQWd0ZjhHam9TUWtrSmt4U1hQYUc3VVJfQ21R?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
+        "viralRate": "95%",
         "analysis": "글로벌 AI 트렌드 체크! 바이럴 \"가짜 테이크아웃\" 트렌드: 이 AI 자산 관리 앱은 테이크아웃 주문으로 사용자를 로스팅하여 연간 매출 1억 $ 이상을 창출합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "일의 미래는 첫 직장에서 시작됩니다: 초보 수준의 기회 감소가 고용주에게 의미하는 바",
-        "enTitle": "The future of work starts with the first job: what the decline of entry-level opportunities means for employers",
-        "date": "2026-08-11",
+        "koTitle": "마크 주커버그 (Mark Zuckerberg) 는 미래가 ‘풍부한 일자리’ 를 가질 것이라고 말하며 새로운 커리어의 물결을 예측합니다.",
+        "enTitle": "Mark Zuckerberg says the future will have an ‘abundance of jobs’—and predicts a wave of new careers",
+        "date": "2026-08-12",
         "originalDate": "2026-08-10",
-        "sourceName": "Lewis Silkin LLP",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZHE5UXJqMHJjb2JWMVJfdlM3NWs3MVRVdFdXYkx6ajlvcnBzb0h3bTlFQXlWZDZJcEF3a3ExT0hkVzlONW83Z1VyQUxULVViSW9naVVaQ0VWVHFXSC1rUHJ0bFM3YWt6d2k4ajZZU0hWM2JTWmJmclA5azZfbHd5SHdKTnFxQlZ6b2c3a19mYUNGUmM0eTdvS1pyaWJ0bmR3U3FaU2VFUFd1OENhRUgyQnFhTkNmc2hsX1Bzd0hrbDNBdkFRam9kR1pCbEJ5U2RTN25xZ25uRWIzZ3JES3c?oc=5",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPZE15a3JzNEp2dWRZNXR2Q0UyLXhNcWMzTWJKRGJMblBzSW1Yb011UmdSSTIyWkFVRVM5aVlzeUxucWs1OUFWN0JRWUVhNmw1VzNmT0tkREdackZVbVF5dl9CMkVPQ1F2eVdEYVRHbzV1NEZKXzVxeDZ2czhPSl95YkxnUE1SdlRaVTFSbWZ0NWtRNjZqekl1akszeGxsTUtkei1VN1huUWdWRjlrdnV2clFoQ3I2UmltNDc2clZhZmlGOWN2TmRuekxOLVpBTTB4enVMZHdOZDNtQWY5aWt2QVBfTHFHNDhteDJmUTdrOE9FZmkxSjk3M3N1VWI0TF9yN2c?oc=5",
         "isRepublished": false,
         "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 일의 미래는 첫 직장에서 시작됩니다: 초보 수준의 기회 감소가 고용주에게 의미하는 바 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 마크 주커버그 (Mark Zuckerberg) 는 미래가 ‘풍부한 일자리’ 를 가질 것이라고 말하며 새로운 커리어의 물결을 예측합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "OpenAI, ChatGPT 비즈니스용 월 $125 프리미엄 요금제 출시",
-        "enTitle": "OpenAI, ChatGPT 비즈니스용 월 $125 프리미엄 요금제 출시",
-        "date": "2026-08-11",
-        "originalDate": "2026-08-10",
-        "sourceName": "kr.investing.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBoNHVKN2FyekFzOEJBOEN1aERqV3RIOVg3eXlLaWN1SlNTZ1g3MEgtQ3pKZHBDWW16Z2p4SHpGcElMXzZKVV9xZFpjUzA5TExXeVZvcDQxdE1WLXpjd0Fwd2kyVDNFMkJhcW1EMmxiVTVKYlNZcnlB?oc=5",
+        "koTitle": "챗GPT·제미나이, 국내 이용 경험률 1·2위…검색 절반 이상 AI로 대체",
+        "enTitle": "챗GPT·제미나이, 국내 이용 경험률 1·2위…검색 절반 이상 AI로 대체",
+        "date": "2026-08-12",
+        "originalDate": "2026-08-11",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SZlZ2YVBIQm5aNUNZcVJuSFdCUENRX0VwV2RlNERCMzJtMFhjc1YzZE96U3FTRTE4dk5pM3FwSGRiVFUyRkdvSkg5X1lmZEk?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! OpenAI, ChatGPT 비즈니스용 월 $125 프리미엄 요금제 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 챗GPT·제미나이, 국내 이용 경험률 1·2위…검색 절반 이상 AI로 대체 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "로빈후드, 영국서 가상자산 거래 서비스 출시…AI 분석 기능도 탑재",
-        "enTitle": "로빈후드, 영국서 가상자산 거래 서비스 출시…AI 분석 기능도 탑재",
-        "date": "2026-08-11",
-        "originalDate": "2026-08-10",
-        "sourceName": "블루밍비트",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpcjhZSTFpcmtQd2pxRzFmblJuMHJUemNBUWFYLVc0SmgxWGlPZC1Lbjl1a1RRUFhaTVhjQXRwbXFfTHhIOFVIdHVfTm1BMVF1?oc=5",
+        "koTitle": "오픈AI, 리눅스용 챗GPT 데스크톱 앱 출시",
+        "enTitle": "오픈AI, 리눅스용 챗GPT 데스크톱 앱 출시",
+        "date": "2026-08-12",
+        "originalDate": "2026-08-11",
+        "sourceName": "디지털투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBnWlhoMDZtdlY0cUxoSHBja3pzaXhoX2pFWnROM1kxY055UVlRNWxBRkVqOE9mUHpMQ2p6Wk5tbktzLWt6OXFTYWludHVCT3N5akpMODFZQ2cyQnlGUzdSd2ozcU1MWGQ4dFZGeXBFdWRtRGc?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 로빈후드, 영국서 가상자산 거래 서비스 출시…AI 분석 기능도 탑재 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 오픈AI, 리눅스용 챗GPT 데스크톱 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "'AI 접목' 집중하는 네이버…'AI 수익화' 윤곽 만든다",
-        "enTitle": "'AI 접목' 집중하는 네이버…'AI 수익화' 윤곽 만든다",
-        "date": "2026-08-11",
-        "originalDate": "2026-08-10",
-        "sourceName": "굿모닝경제",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xUmVsbFpSOEE2XzU5Q2FLUXFxYTZnQS1PeFBGeHJUaWdrdDhwYmpfSjJHbE9vVDdrOTcyZGJPZFFWWnQzbGlTU3U1Vk9iVU9DTmhPY1lSZ2thZmM2YzJzUjA3S2JaMGhPYlV3eA?oc=5",
+        "koTitle": "동원과기대, AI 취업·창업 시대 연다… AI 실전 프로젝트 참여자 모집",
+        "enTitle": "동원과기대, AI 취업·창업 시대 연다… AI 실전 프로젝트 참여자 모집",
+        "date": "2026-08-12",
+        "originalDate": "2026-08-11",
+        "sourceName": "411개 대학을 연결하는 '힘'",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBNX25wN0ZJOGZsMVNMNy16R2lTN2lRNFViNENQWGRRVDFvSllNX29ZZGV2aEFDM3hNc2hxOWJRWnFvWjNITFVEczVKZTR6UE8tUHRTNFZITzl6NlNidjdtekFfaDBCdw?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 'AI 접목' 집중하는 네이버…'AI 수익화' 윤곽 만든다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 동원과기대, AI 취업·창업 시대 연다… AI 실전 프로젝트 참여자 모집 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
