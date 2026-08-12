@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-12
+ * 최신 업데이트: 2026-08-13
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "저커버그의 AI 비전: 더 많은 일자리, 더 적은 근로자 및 ‘개인 초지능’",
-        "enTitle": "Zuckerberg’s AI vision: More jobs, fewer workers and ‘personal superintelligence’",
-        "date": "2026-08-12",
-        "originalDate": "2026-08-11",
-        "sourceName": "HR Executive",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbkxUWU13Z0gyR3JpMW5hLXN4VzRXYlRRS2tSMjlCQS1xOXEwVVAxQ0d0RnZ5a1FkTDUyWHdEN0kzRjg2QkFxaWF4Y245ZTFYa0tUZ0djWko4WGlPZHppTTgzSXVpT01ITEVKdFcyYlpFYXdsWlM0ZDlxcFB6Zk85TmZObDhRLU5VQ0ZLVUlZYklMSVowS0tnaEUzTUNrVWtmYURZ?oc=5",
+        "koTitle": "인공지능은 일자리를 파괴해야 했습니다. 대학살은 어디 있지?",
+        "enTitle": "AI was supposed to destroy jobs. Where’s the carnage?",
+        "date": "2026-08-13",
+        "originalDate": "2026-08-12",
+        "sourceName": "The Guardian",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE85RVJfLU9XbWFoYlEzQ0hqdWxJVlJBZUxIcnk1VnZkR0JiVHNvSDVEelVmbDU4Ung2M3FJQUtncTNDUDR2NDJ0RkgxUWJEZEd4VzY5WUlJTGhGenVqOTZRcEYzcFNPc29xT2pYRUdFcF9kZFpEa2VXZQ?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 저커버그의 AI 비전: 더 많은 일자리, 더 적은 근로자 및 ‘개인 초지능’ 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능은 일자리를 파괴해야 했습니다. 대학살은 어디 있지? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "바이럴 \"가짜 테이크아웃\" 트렌드: 이 AI 자산 관리 앱은 테이크아웃 주문으로 사용자를 로스팅하여 연간 매출 1억 $ 이상을 창출합니다.",
-        "enTitle": "Viral \"Fake Takeaway\" Trend: This AI Wealth Management App Roasts Users for Ordering Takeout, Generating Over $100 Million in Annual Revenue",
-        "date": "2026-08-12",
-        "originalDate": "2026-08-10",
-        "sourceName": "36 Kr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HbzhpSHBXbVRyWjgwUm4yVXRvX045VFN0enhrNnREb1dWdkU3cmdveTN2NXFPeEhhQWd0ZjhHam9TUWtrSmt4U1hQYUc3VVJfQ21R?oc=5",
+        "koTitle": "마크 주커버그 (Mark Zuckerberg) 는 일자리의 미래에 대해 논란의 여지가 있는 메시지를 보낸다.",
+        "enTitle": "Mark Zuckerberg sends controversial message on the future of jobs",
+        "date": "2026-08-13",
+        "originalDate": "2026-08-12",
+        "sourceName": "thestreet.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVmstMFJHWVZpS3VLeDNnV2c0djdadDRUM0Fucldka1h5bjd2YUlPVHdlMzJiOVlTLW5ONkJrVkEyMkVsUXlSUkVZLWxGLTZ5X1d6VUFrcHVRaHNyMmhXMDZyLWt3VDJXSXNVc3d0YkZETU5ZQV9kOHNGYy1tejVFblEzRG5RWUE4WktlcA?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 바이럴 \"가짜 테이크아웃\" 트렌드: 이 AI 자산 관리 앱은 테이크아웃 주문으로 사용자를 로스팅하여 연간 매출 1억 $ 이상을 창출합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! 마크 주커버그 (Mark Zuckerberg) 는 일자리의 미래에 대해 논란의 여지가 있는 메시지를 보낸다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "마크 주커버그 (Mark Zuckerberg) 는 미래가 ‘풍부한 일자리’ 를 가질 것이라고 말하며 새로운 커리어의 물결을 예측합니다.",
-        "enTitle": "Mark Zuckerberg says the future will have an ‘abundance of jobs’—and predicts a wave of new careers",
-        "date": "2026-08-12",
-        "originalDate": "2026-08-10",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPZE15a3JzNEp2dWRZNXR2Q0UyLXhNcWMzTWJKRGJMblBzSW1Yb011UmdSSTIyWkFVRVM5aVlzeUxucWs1OUFWN0JRWUVhNmw1VzNmT0tkREdackZVbVF5dl9CMkVPQ1F2eVdEYVRHbzV1NEZKXzVxeDZ2czhPSl95YkxnUE1SdlRaVTFSbWZ0NWtRNjZqekl1akszeGxsTUtkei1VN1huUWdWRjlrdnV2clFoQ3I2UmltNDc2clZhZmlGOWN2TmRuekxOLVpBTTB4enVMZHdOZDNtQWY5aWt2QVBfTHFHNDhteDJmUTdrOE9FZmkxSjk3M3N1VWI0TF9yN2c?oc=5",
+        "koTitle": "HR 리더는 미래의 직업을 위한 전문가를 갖추기 위한 획기적인 커리어 가이드를 출시합니다.",
+        "enTitle": "HR Leaders launch landmark career guide to equip professionals for the future of work",
+        "date": "2026-08-13",
+        "originalDate": "2026-08-12",
+        "sourceName": "citinewsroom.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOclFEbG8wd0gxV2ZGa1J2U1dzLTdZWDRRWWNKMUVqd1ZfTnBMVHVnZHNzaXJxUmRpTTd3b1l4bl9WdE9ab3lYS09zMTNWNEp1Y2M5Y1YtWXcwcUpFdU1INlZjX3BZRnkzSjBLcjA0T3ZtaEp5MGktdFNNXzhXS3dqaXkwV2ZVdXFuZXRKeU1zcG5SeTRDa0NIM3J1QjFkMGwwak5YUXFFNDltZlVhaUo2TzhidjMzczA4Vkw0dUJJVEg?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 마크 주커버그 (Mark Zuckerberg) 는 미래가 ‘풍부한 일자리’ 를 가질 것이라고 말하며 새로운 커리어의 물결을 예측합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! HR 리더는 미래의 직업을 위한 전문가를 갖추기 위한 획기적인 커리어 가이드를 출시합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "챗GPT·제미나이, 국내 이용 경험률 1·2위…검색 절반 이상 AI로 대체",
-        "enTitle": "챗GPT·제미나이, 국내 이용 경험률 1·2위…검색 절반 이상 AI로 대체",
-        "date": "2026-08-12",
-        "originalDate": "2026-08-11",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SZlZ2YVBIQm5aNUNZcVJuSFdCUENRX0VwV2RlNERCMzJtMFhjc1YzZE96U3FTRTE4dk5pM3FwSGRiVFUyRkdvSkg5X1lmZEk?oc=5",
+        "koTitle": "앙기, Gemini AI 플랫폼에 연동 앱 출시",
+        "enTitle": "앙기, Gemini AI 플랫폼에 연동 앱 출시",
+        "date": "2026-08-13",
+        "originalDate": "2026-08-12",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aUDNrRGNITHhRMWtuTHhzMGhzeHhDdkpJN3FUWEwxR2Z2N0lsR1NWeVlvaTVkUUxwcklSNnRCVGlxQWlYaGxRLTkwcDJOMS1tZ29wME11Ym1pT2lrV1Q0YWU1WmJZbmR1MFhsbTBsOHU?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 챗GPT·제미나이, 국내 이용 경험률 1·2위…검색 절반 이상 AI로 대체 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 앙기, Gemini AI 플랫폼에 연동 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "오픈AI, 리눅스용 챗GPT 데스크톱 앱 출시",
-        "enTitle": "오픈AI, 리눅스용 챗GPT 데스크톱 앱 출시",
-        "date": "2026-08-12",
-        "originalDate": "2026-08-11",
-        "sourceName": "디지털투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBnWlhoMDZtdlY0cUxoSHBja3pzaXhoX2pFWnROM1kxY055UVlRNWxBRkVqOE9mUHpMQ2p6Wk5tbktzLWt6OXFTYWludHVCT3N5akpMODFZQ2cyQnlGUzdSd2ozcU1MWGQ4dFZGeXBFdWRtRGc?oc=5",
+        "koTitle": "바운드포, AI 토큰 지출 관리 서비스 '파레토' 출시",
+        "enTitle": "바운드포, AI 토큰 지출 관리 서비스 '파레토' 출시",
+        "date": "2026-08-13",
+        "originalDate": "2026-08-12",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAycXFTOC1NR2ViN0I3X0hDVmM2M3I0bFRyOXdjMzViUDJvdXMteThoODNWX1NBZkpWTEp5dldTa2VvVXNneW9xZFJ4WFVXT3p2emZVSzFmRFRHNFlPWHgyNVI0cTkxVUw2WkE?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 오픈AI, 리눅스용 챗GPT 데스크톱 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 바운드포, AI 토큰 지출 관리 서비스 '파레토' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "동원과기대, AI 취업·창업 시대 연다… AI 실전 프로젝트 참여자 모집",
-        "enTitle": "동원과기대, AI 취업·창업 시대 연다… AI 실전 프로젝트 참여자 모집",
-        "date": "2026-08-12",
-        "originalDate": "2026-08-11",
-        "sourceName": "411개 대학을 연결하는 '힘'",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBNX25wN0ZJOGZsMVNMNy16R2lTN2lRNFViNENQWGRRVDFvSllNX29ZZGV2aEFDM3hNc2hxOWJRWnFvWjNITFVEczVKZTR6UE8tUHRTNFZITzl6NlNidjdtekFfaDBCdw?oc=5",
+        "koTitle": "충주시, NHN와플랫과 손잡고 ‘AI 생활지원사 서비스’ 도입",
+        "enTitle": "충주시, NHN와플랫과 손잡고 ‘AI 생활지원사 서비스’ 도입",
+        "date": "2026-08-13",
+        "originalDate": "2026-08-12",
+        "sourceName": "충청미디어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GLUV4ZWRMZy1LSFh5WU1haGdTMlpvRC1ma0VNalYtTHN1MXJ5cDJwWjl3ZUdaZ2tHeFJTUHFaemU2VWhmV19TVWozc1A3NEhpWkxSS1l0ZmRHSmw0bEE1T2xTZHcxWWxYNFHSAWpBVV95cUxPRi1FeGVkTGctS0hYeVlNYWhnUzJab0QtZmtFTWpWLUxzdTFyeXAycFo5d2VHWmdrR3hSU1BxWnplNlVoZldfU1VqM3NQNzRIaVpMUktZdGZkR0psNGxBNU9sU2R3MVlsWDRR?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 동원과기대, AI 취업·창업 시대 연다… AI 실전 프로젝트 참여자 모집 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 충주시, NHN와플랫과 손잡고 ‘AI 생활지원사 서비스’ 도입 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
