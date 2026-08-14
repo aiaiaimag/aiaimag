@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-14
+ * 최신 업데이트: 2026-08-15
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "‘코드 배우기’ 는 2010년의 일입니다. 이제 AI 부트캠프는 업무의 미래를 위한 곳입니다.",
-        "enTitle": "‘Learn to code’ is so 2010 — now AI boot camps are where it’s at for the future of work",
-        "date": "2026-08-14",
-        "originalDate": "2026-08-13",
-        "sourceName": "moneywise.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTXZtQ3JUTHJETkgxNjdNUGV5a2xaaU82ZHV1eEcwM29haWFQTC04Um0zUVU1YUJvbkR2V3dtMFhHcmdXWkJSVWdaZm11OVhlRlVWWXVIcHRWcnJlWnFJTUNEenVZMi1lSkFGSUFHd3p6R3RtRVFwUEh1TVhCRjFtdFFXdw?oc=5",
+        "koTitle": "바이럴 \"가짜 테이크아웃\" 트렌드: 이 AI 자산 관리 앱은 테이크아웃 주문으로 사용자를 로스팅하여 연간 매출 1억 $ 이상을 창출합니다.",
+        "enTitle": "Viral \"Fake Takeaway\" Trend: This AI Wealth Management App Roasts Users for Ordering Takeout, Generating Over $100 Million in Annual Revenue",
+        "date": "2026-08-15",
+        "originalDate": "2026-08-10",
+        "sourceName": "36Kr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HbzhpSHBXbVRyWjgwUm4yVXRvX045VFN0enhrNnREb1dWdkU3cmdveTN2NXFPeEhhQWd0ZjhHam9TUWtrSmt4U1hQYUc3VVJfQ21R?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! ‘코드 배우기’ 는 2010년의 일입니다. 이제 AI 부트캠프는 업무의 미래를 위한 곳입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 바이럴 \"가짜 테이크아웃\" 트렌드: 이 AI 자산 관리 앱은 테이크아웃 주문으로 사용자를 로스팅하여 연간 매출 1억 $ 이상을 창출합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "인공지능은 일자리를 파괴해야 했습니다. 대학살은 어디 있지?",
-        "enTitle": "AI was supposed to destroy jobs. Where’s the carnage?",
-        "date": "2026-08-14",
-        "originalDate": "2026-08-12",
-        "sourceName": "The Guardian",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE85RVJfLU9XbWFoYlEzQ0hqdWxJVlJBZUxIcnk1VnZkR0JiVHNvSDVEelVmbDU4Ung2M3FJQUtncTNDUDR2NDJ0RkgxUWJEZEd4VzY5WUlJTGhGenVqOTZRcEYzcFNPc29xT2pYRUdFcF9kZFpEa2VXZQ?oc=5",
-        "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능은 일자리를 파괴해야 했습니다. 대학살은 어디 있지? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "koTitle": "8-21-26에 참여하여 \"AI로 생산성 해킹하기\" – 슈퍼 사이버 프라이데이",
+        "enTitle": "Join us on 8-21-26 for “Hacking Productivity with AI” – Super Cyber Friday",
+        "date": "2026-08-15",
+        "originalDate": "2026-08-06",
+        "sourceName": "CISO Series",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYm9fSjlEdG9KVzJDcExtUWE4RENHVmJOdXhJaE5zY3hWSnFhekoxeGZYci1rVUxYTDFpX2JGY3ZTOTV1ckV4QUJIZVBlUzh4RGhYT1N2NEotU1haT1ExdlV0eE5Pa0RKY3EyS3N0SE9kX0FqQkVDMHRtamwyS29TQjdwX21lN2Q3cUlSLXptRjhlMUg3Q0oxSW1B?oc=5",
+        "isRepublished": true,
+        "viralRate": "91%",
+        "analysis": "글로벌 AI 트렌드 체크! 8-21-26에 참여하여 \"AI로 생산성 해킹하기\" – 슈퍼 사이버 프라이데이 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "마크 주커버그 (Mark Zuckerberg) 는 일자리의 미래에 대해 논란의 여지가 있는 메시지를 보낸다.",
-        "enTitle": "Mark Zuckerberg sends controversial message on the future of jobs",
-        "date": "2026-08-14",
-        "originalDate": "2026-08-12",
-        "sourceName": "thestreet.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVmstMFJHWVZpS3VLeDNnV2c0djdadDRUM0Fucldka1h5bjd2YUlPVHdlMzJiOVlTLW5ONkJrVkEyMkVsUXlSUkVZLWxGLTZ5X1d6VUFrcHVRaHNyMmhXMDZyLWt3VDJXSXNVc3d0YkZETU5ZQV9kOHNGYy1tejVFblEzRG5RWUE4WktlcA?oc=5",
-        "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 마크 주커버그 (Mark Zuckerberg) 는 일자리의 미래에 대해 논란의 여지가 있는 메시지를 보낸다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "koTitle": "대학 졸업 후 즐겁고 생산적인 여름 휴가를 위한 13가지 Google 팁",
+        "enTitle": "13 Google tips for a fun, productive summer off from college",
+        "date": "2026-08-15",
+        "originalDate": "2026-07-21",
+        "sourceName": "blog.google",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeHNYTmNwME83SXJzVVlhcVl3SWp5eDROMlVUU1BKRWxKbE8wTFk3NWZBVFJObkxKYTZRQ1Utd3BLRWkzMzdTWnYyblVSQl9WQ3IwQkZhdEdEQWtUb29hdDVqX3FTeDJPRjN0OVFiQzZ0SllvTXNoUzlMRFdnQ0RPcWQteVlVWGI5YWZ6S1hVZENaWFJRUWFMdjJJWlFmN095dkJJODhn?oc=5",
+        "isRepublished": true,
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 대학 졸업 후 즐겁고 생산적인 여름 휴가를 위한 13가지 Google 팁 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "페이스북, 크리에이터 전용 앱 출시…AI가 댓글 읽고 답글 초안까지 만든다",
-        "enTitle": "페이스북, 크리에이터 전용 앱 출시…AI가 댓글 읽고 답글 초안까지 만든다",
-        "date": "2026-08-14",
-        "originalDate": "2026-08-13",
-        "sourceName": "지디넷코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYZlpCUW41NHhSblVrQ25yV1M1b1hfd2FtV0t0SmpqcUVmWld1aXAzNFNxaTROYkNDX3JxTjRTYW9oRGV4ZDdzQmxuM0M3M3BaaXJLc0lR?oc=5",
+        "koTitle": "제미나이 3.7 플래시를 소개합니다",
+        "enTitle": "제미나이 3.7 플래시를 소개합니다",
+        "date": "2026-08-15",
+        "originalDate": "2026-08-14",
+        "sourceName": "blog.google",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQalF5T1N2NF80LWkxT2Z6NUN5T01vck5zaFRzSWxSdDliRHZOQldFbWFFQTN6VnN4MWlpNU13MnlFVzJZSUk0UGcwcGlSNGY5OXVId3RJLUJERGIwdVZ3dEVTN3BxTkdjQ1BKNnZ4bEVITHg3c2duMW5IdWVHR2FQcHdSWmRKVC1BSzhCb0M3Sjk?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 페이스북, 크리에이터 전용 앱 출시…AI가 댓글 읽고 답글 초안까지 만든다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 제미나이 3.7 플래시를 소개합니다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "[외신 헤드라인] 구글, 3주만에 제미나이 3.7 플래시 공개",
-        "enTitle": "[외신 헤드라인] 구글, 3주만에 제미나이 3.7 플래시 공개",
-        "date": "2026-08-14",
-        "originalDate": "2026-08-13",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5SajRBNVdXaFF2Sk5HWnA1eUROcXhxREtuRDlHdW5OeE1DQXhqV3N1dWwyYnNwM1JCVWdzdVhzLW9MWGJseUxxbV80Mk9XLXc?oc=5",
+        "koTitle": "'택시 불러줘' 말하면 앱이 척척…AI '말하면척척' 출시",
+        "enTitle": "'택시 불러줘' 말하면 앱이 척척…AI '말하면척척' 출시",
+        "date": "2026-08-15",
+        "originalDate": "2026-08-14",
+        "sourceName": "서울특별시",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE40Rlk0WFhZLTliTTZ4N3pwRnczNmNoNjFJY1F3UFRfNk1LREZuc21nRFM2R0pBcXYxbmhJRkJZVV9laXdsWnFGZnVNc0t4VE5VcXp6NEpRS1g?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! [외신 헤드라인] 구글, 3주만에 제미나이 3.7 플래시 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! '택시 불러줘' 말하면 앱이 척척…AI '말하면척척' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "[8월13일] 클로드 워터마크 도입에 불붙은 논쟁…\"AI가 썼다와 AI가 처리했다는 다르다\"",
-        "enTitle": "[8월13일] 클로드 워터마크 도입에 불붙은 논쟁…\"AI가 썼다와 AI가 처리했다는 다르다\"",
-        "date": "2026-08-14",
-        "originalDate": "2026-08-13",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qY2dMeWh2Um5WdWxXalZTR3NqNXVfSWg1M2ZCU0VfNURFX1VrQTYzRXBpVG9aQy1QWW5pbEFoeEJveE1ESEZuQnF6d29uSnE0bUNvVEhHUThNYmlVaGpKT19WMnhxWTN6NVE?oc=5",
+        "koTitle": "크립토랩, 병원 급여·청구·심사 지원 AI 서비스 출시",
+        "enTitle": "크립토랩, 병원 급여·청구·심사 지원 AI 서비스 출시",
+        "date": "2026-08-15",
+        "originalDate": "2026-08-14",
+        "sourceName": "etnews.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9qZWdqcUlPZnVzZjNaeDU2WG5Sc1lFcHRsWUZVejI4TnZpRUlxZjZ4SFMtT1FfMzJOWUMxanlSYjgyMkZTQjNaTkg1bDdEdw?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! [8월13일] 클로드 워터마크 도입에 불붙은 논쟁…\"AI가 썼다와 AI가 처리했다는 다르다\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 크립토랩, 병원 급여·청구·심사 지원 AI 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
