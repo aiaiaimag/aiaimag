@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-15
+ * 최신 업데이트: 2026-08-16
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "바이럴 \"가짜 테이크아웃\" 트렌드: 이 AI 자산 관리 앱은 테이크아웃 주문으로 사용자를 로스팅하여 연간 매출 1억 $ 이상을 창출합니다.",
-        "enTitle": "Viral \"Fake Takeaway\" Trend: This AI Wealth Management App Roasts Users for Ordering Takeout, Generating Over $100 Million in Annual Revenue",
-        "date": "2026-08-15",
-        "originalDate": "2026-08-10",
-        "sourceName": "36Kr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HbzhpSHBXbVRyWjgwUm4yVXRvX045VFN0enhrNnREb1dWdkU3cmdveTN2NXFPeEhhQWd0ZjhHam9TUWtrSmt4U1hQYUc3VVJfQ21R?oc=5",
+        "koTitle": "PayTech Women, AI와 Future of Work 패널로 캘거리 지부 출범",
+        "enTitle": "PayTech Women Launches Calgary Chapter With AI and Future of Work Panel",
+        "date": "2026-08-16",
+        "originalDate": "2026-08-15",
+        "sourceName": "Calgary.Tech",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMkdtYXBXYnYxZmJLb1ZscnVkWUpfUWV0VHA5Yndwc0dtVFk0OW5tNWI2SkRyc2JUQ0JRWVlpeFdEZWcxSlp5RllxSnVQOEh2Ym1RY3EtN2ozU0dyTUpxUWdEVUtFRi1EUUNpdDB2Q0c2U21GY3lIQ1RWc3duTU1aT2JyekFEeXpnS19ZMzBDUWVlQ3pDS0JHVnpsVjBSMnNBWVdMa3J4aw?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 바이럴 \"가짜 테이크아웃\" 트렌드: 이 AI 자산 관리 앱은 테이크아웃 주문으로 사용자를 로스팅하여 연간 매출 1억 $ 이상을 창출합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! PayTech Women, AI와 Future of Work 패널로 캘거리 지부 출범 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "8-21-26에 참여하여 \"AI로 생산성 해킹하기\" – 슈퍼 사이버 프라이데이",
-        "enTitle": "Join us on 8-21-26 for “Hacking Productivity with AI” – Super Cyber Friday",
-        "date": "2026-08-15",
-        "originalDate": "2026-08-06",
-        "sourceName": "CISO Series",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYm9fSjlEdG9KVzJDcExtUWE4RENHVmJOdXhJaE5zY3hWSnFhekoxeGZYci1rVUxYTDFpX2JGY3ZTOTV1ckV4QUJIZVBlUzh4RGhYT1N2NEotU1haT1ExdlV0eE5Pa0RKY3EyS3N0SE9kX0FqQkVDMHRtamwyS29TQjdwX21lN2Q3cUlSLXptRjhlMUg3Q0oxSW1B?oc=5",
-        "isRepublished": true,
-        "viralRate": "91%",
-        "analysis": "글로벌 AI 트렌드 체크! 8-21-26에 참여하여 \"AI로 생산성 해킹하기\" – 슈퍼 사이버 프라이데이 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "koTitle": "연구에 따르면 '직업 종말’ 에 대한 미래의 대학 졸업생들의 대답이 밝혀졌습니다.",
+        "enTitle": "Study reveals future college grads’ answer to the ‘job apocalypse’",
+        "date": "2026-08-16",
+        "originalDate": "2026-08-14",
+        "sourceName": "Digital Information World",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVVJaQXNDWW95U2NSVVhYY1R5OF9GdWh4YXBvMlFWTUI5YVNDaDlGS0FOUURVX1FhWGhnMDl2YjFMTlY1LTdBVGV5cG5JdVJWem90eGRLRWpGTDhFa0s2X3I2dmRUaWYwZElXdmh6Nm9YTzZIT1lSS19lVlVBV1NudjZmc3RPNEJ4NlVJLWt4YjA?oc=5",
+        "isRepublished": false,
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 연구에 따르면 '직업 종말’ 에 대한 미래의 대학 졸업생들의 대답이 밝혀졌습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "대학 졸업 후 즐겁고 생산적인 여름 휴가를 위한 13가지 Google 팁",
-        "enTitle": "13 Google tips for a fun, productive summer off from college",
-        "date": "2026-08-15",
-        "originalDate": "2026-07-21",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeHNYTmNwME83SXJzVVlhcVl3SWp5eDROMlVUU1BKRWxKbE8wTFk3NWZBVFJObkxKYTZRQ1Utd3BLRWkzMzdTWnYyblVSQl9WQ3IwQkZhdEdEQWtUb29hdDVqX3FTeDJPRjN0OVFiQzZ0SllvTXNoUzlMRFdnQ0RPcWQteVlVWGI5YWZ6S1hVZENaWFJRUWFMdjJJWlFmN095dkJJODhn?oc=5",
-        "isRepublished": true,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 대학 졸업 후 즐겁고 생산적인 여름 휴가를 위한 13가지 Google 팁 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "koTitle": "AI 위기에서 살아남을 10가지 직업",
+        "enTitle": "10 jobs that will survive the AI crunch",
+        "date": "2026-08-16",
+        "originalDate": "2026-08-13",
+        "sourceName": "The Telegraph",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPclcteFh1SDdGSGlfZ2RXNHJVaVpJbllWVER1VGtRdGx3UWY0Q1p1dno1WS1lNzNSY0RVTm9HbGN1SjFDNGhpMnk1VXhjeTVmbmNQWDlIQXdlRjhmdDRXZTZnX0hsYjBMUnc0UW1ERktOaDBVMmh4MldMOVlBTFl5NkhQbWJpcV8wRTlES216Yzh1dFFlUlF5N3EzN2tRdlRZQ2pRYVV5a1p6VjNCYW9uVQ?oc=5",
+        "isRepublished": false,
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 위기에서 살아남을 10가지 직업 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "제미나이 3.7 플래시를 소개합니다",
-        "enTitle": "제미나이 3.7 플래시를 소개합니다",
-        "date": "2026-08-15",
-        "originalDate": "2026-08-14",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQalF5T1N2NF80LWkxT2Z6NUN5T01vck5zaFRzSWxSdDliRHZOQldFbWFFQTN6VnN4MWlpNU13MnlFVzJZSUk0UGcwcGlSNGY5OXVId3RJLUJERGIwdVZ3dEVTN3BxTkdjQ1BKNnZ4bEVITHg3c2duMW5IdWVHR2FQcHdSWmRKVC1BSzhCb0M3Sjk?oc=5",
+        "koTitle": "[AI 이슈트렌드] 황정민 스토킹 공판 논란 속 8·13 부동산 대책·민주당 경선 주목",
+        "enTitle": "[AI 이슈트렌드] 황정민 스토킹 공판 논란 속 8·13 부동산 대책·민주당 경선 주목",
+        "date": "2026-08-16",
+        "originalDate": "2026-08-15",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5NNnl5bjcyZ2RwMDlhUmg3SkpOcy1nNmhYOWRtNkd2ZmZlOElDZDUwbjhISUpNdE13WE0yV3N0MkVHY3FGa2YtcWRuY3BaWEVWVUhhQzc3SF9sbWJuSmdpVmRGcmFaUEUySmc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 제미나이 3.7 플래시를 소개합니다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [AI 이슈트렌드] 황정민 스토킹 공판 논란 속 8·13 부동산 대책·민주당 경선 주목 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "'택시 불러줘' 말하면 앱이 척척…AI '말하면척척' 출시",
-        "enTitle": "'택시 불러줘' 말하면 앱이 척척…AI '말하면척척' 출시",
-        "date": "2026-08-15",
-        "originalDate": "2026-08-14",
-        "sourceName": "서울특별시",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE40Rlk0WFhZLTliTTZ4N3pwRnczNmNoNjFJY1F3UFRfNk1LREZuc21nRFM2R0pBcXYxbmhJRkJZVV9laXdsWnFGZnVNc0t4VE5VcXp6NEpRS1g?oc=5",
+        "koTitle": "오픈AI, 맥용 챗GPT '컴퓨터 히스토리' 출시...앱·웹 활동 기억한다",
+        "enTitle": "오픈AI, 맥용 챗GPT '컴퓨터 히스토리' 출시...앱·웹 활동 기억한다",
+        "date": "2026-08-16",
+        "originalDate": "2026-08-15",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBCYnNsMEFDeERtc0NCbl83emdWcmpveHhhc3BHSE9LT1dnaGwzYzRnenhmU2hCRHplb19MeHZzUTFCLVdSdDB1SHZOcXZxenhTMzNwTTA2VlFtajB1QjJUWUFibVpTLWRqaHc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! '택시 불러줘' 말하면 앱이 척척…AI '말하면척척' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 오픈AI, 맥용 챗GPT '컴퓨터 히스토리' 출시...앱·웹 활동 기억한다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "크립토랩, 병원 급여·청구·심사 지원 AI 서비스 출시",
-        "enTitle": "크립토랩, 병원 급여·청구·심사 지원 AI 서비스 출시",
-        "date": "2026-08-15",
-        "originalDate": "2026-08-14",
-        "sourceName": "etnews.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9qZWdqcUlPZnVzZjNaeDU2WG5Sc1lFcHRsWUZVejI4TnZpRUlxZjZ4SFMtT1FfMzJOWUMxanlSYjgyMkZTQjNaTkg1bDdEdw?oc=5",
+        "koTitle": "이제 클로드가 만든 글엔 눈에 안 보이는 워터마크가 붙습니다",
+        "enTitle": "이제 클로드가 만든 글엔 눈에 안 보이는 워터마크가 붙습니다",
+        "date": "2026-08-16",
+        "originalDate": "2026-08-15",
+        "sourceName": "요즘IT",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xWlNTdS1ZSVgxaTJEekFUaEx1Z1pYQTBLZmlyUktTemVKSFkwTXd0My10RlgwRUVseWU4QlI4VDYzNFYzT25Ca2JyUUNsTjVodTFJVmNneGhXZw?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 크립토랩, 병원 급여·청구·심사 지원 AI 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 이제 클로드가 만든 글엔 눈에 안 보이는 워터마크가 붙습니다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
