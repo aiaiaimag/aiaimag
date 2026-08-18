@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-18
+ * 최신 업데이트: 2026-08-19
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
+        "koTitle": "인공지능으로 돈을 버는 방법: 실용적인 소득 경로",
+        "enTitle": "How to make money with AI: Practical income paths",
+        "date": "2026-08-19",
+        "originalDate": "2026-08-18",
+        "sourceName": "Condia",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBOFh1OVhlTE1rT3hscHlNYlNya2VwS1hrYTFsaEVyMGEzTjdGcU9IcHl5eGN4bndHdzhac2hveDlJUmxHSUc3ejVlSFhqLXl4aE9yY0dIVTd5NWpj?oc=5",
+        "isRepublished": false,
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능으로 돈을 버는 방법: 실용적인 소득 경로 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "isTopPick": true
+    },
+    {
+        "rank": 2,
+        "koTitle": "아일랜드 학생들은 AI 교정 경력에 대한 올바른 조언을 얻고 있습니까?",
+        "enTitle": "Are Irish students getting right advice on AI-proofing careers?",
+        "date": "2026-08-19",
+        "originalDate": "2026-08-18",
+        "sourceName": "RTE.ie",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQanROUkdBUi0ycDhPeGdVX1RpV3o2VWFKemNkbGJzTjRwWTBkTnpnRlhqMVhTM1Rsbm5hUTRZUjZ1bEc0cmNENEE1OW9Ub3o1VHFvWnpLOFFuWDBDcjVxeFZMdW1HaUlmRlBjUUlhMG1QQUxteWdSaEVzZTN4MTdfd05oWTIwTTFxWDFWbjc0Um54TkZGclA2TFk2RlBRUUNFTkhXLTkyUXV3OVcwbG1QZUR3?oc=5",
+        "isRepublished": false,
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 아일랜드 학생들은 AI 교정 경력에 대한 올바른 조언을 얻고 있습니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "‘인공지능의 대부’ 는 대량 실업이 도래하고 있다고 예측한다.",
         "enTitle": "‘Godfather of AI’ predicts mass unemployment is on its way",
-        "date": "2026-08-18",
+        "date": "2026-08-19",
         "originalDate": "2026-08-16",
         "sourceName": "Fortune",
         "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQmxheVQtQ3RYOGwwbkpaWmpyZlIzVmdmemJkS2F4bVBsUEs0NW5zRW80RFNYZ2hUbjlxMnBxZHc2VzMwVDVWZGp3bEtVQ2JFdWFMUTIzbHVvdEJiekc3MTNOeEhCRVo4eFBBWkVldW5pbUZzQkEyS3RoV3EyRkhUVmlDd1hnS0ltbm9QOHg3eC1SUVFEeVNEdERXYnRTM3NDbzQ5Um1GaEhfOGFUMmtLbk5TeWxzVjg?oc=5",
         "isRepublished": false,
         "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! ‘인공지능의 대부’ 는 대량 실업이 도래하고 있다고 예측한다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
-        "isTopPick": true
-    },
-    {
-        "rank": 2,
-        "koTitle": "AI 위기에서 살아남을 10가지 직업",
-        "enTitle": "10 jobs that will survive the AI crunch",
-        "date": "2026-08-18",
-        "originalDate": "2026-08-13",
-        "sourceName": "The Telegraph",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPclcteFh1SDdGSGlfZ2RXNHJVaVpJbllWVER1VGtRdGx3UWY0Q1p1dno1WS1lNzNSY0RVTm9HbGN1SjFDNGhpMnk1VXhjeTVmbmNQWDlIQXdlRjhmdDRXZTZnX0hsYjBMUnc0UW1ERktOaDBVMmh4MldMOVlBTFl5NkhQbWJpcV8wRTlES216Yzh1dFFlUlF5N3EzN2tRdlRZQ2pRYVV5a1p6VjNCYW9uVQ?oc=5",
-        "isRepublished": false,
-        "viralRate": "89%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 위기에서 살아남을 10가지 직업 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "인공지능은 일자리를 파괴해야 했습니다. 대학살은 어디 있지?",
-        "enTitle": "AI was supposed to destroy jobs. Where’s the carnage?",
-        "date": "2026-08-18",
-        "originalDate": "2026-08-12",
-        "sourceName": "The Guardian",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE85RVJfLU9XbWFoYlEzQ0hqdWxJVlJBZUxIcnk1VnZkR0JiVHNvSDVEelVmbDU4Ung2M3FJQUtncTNDUDR2NDJ0RkgxUWJEZEd4VzY5WUlJTGhGenVqOTZRcEYzcFNPc29xT2pYRUdFcF9kZFpEa2VXZQ?oc=5",
-        "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능은 일자리를 파괴해야 했습니다. 대학살은 어디 있지? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! ‘인공지능의 대부’ 는 대량 실업이 도래하고 있다고 예측한다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "ChatGPT, Google Cloud 실시간 동기화로 Workspace 탭 전환 없앤다",
-        "enTitle": "ChatGPT, Google Cloud 실시간 동기화로 Workspace 탭 전환 없앤다",
-        "date": "2026-08-18",
-        "originalDate": "2026-08-17",
-        "sourceName": "Hypebeast.KR",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVWlKa1NJOThiR0YtdWRNcW9qczZqT2Frb2FGeURvTGRNM18zTXg1WG9FZ2pPcHVNYWNvbGtmbE9HV2ZCRy14YUFubFdPVFViMXB6UzlRU2k1Q1hmT3hBOHlsajNBTk00bTdyTllPQXZodktIOXB0UWluV0JQMGtWMThPSHBGZ0ZHTWc?oc=5",
+        "koTitle": "동국대 WISE, 전교생 7000명에 ‘AI 비서’…챗GPT·제미나이·클로드 한곳에",
+        "enTitle": "동국대 WISE, 전교생 7000명에 ‘AI 비서’…챗GPT·제미나이·클로드 한곳에",
+        "date": "2026-08-19",
+        "originalDate": "2026-08-18",
+        "sourceName": "kyongbuk.co.kr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1oTWZkaFpLNGg2d3ZudjJCX0pXNmZYV0hQcFZ1YjZZcV9ESmdIakRDeWNseklIX2xfaTIxZi1ZZVV3SUlubFE2cXJBeU13RDNYRU1KYlhqMjF6RlRaNWxuakNydk1IRzJFNTVQWk5pMA?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! ChatGPT, Google Cloud 실시간 동기화로 Workspace 탭 전환 없앤다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 동국대 WISE, 전교생 7000명에 ‘AI 비서’…챗GPT·제미나이·클로드 한곳에 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "[AI 뉴스] 구글 ‘제미나이 3.7 플래시’ 출시…가격 낮추고 코딩·업무 자동화 강화",
-        "enTitle": "[AI 뉴스] 구글 ‘제미나이 3.7 플래시’ 출시…가격 낮추고 코딩·업무 자동화 강화",
-        "date": "2026-08-18",
-        "originalDate": "2026-08-17",
-        "sourceName": "아웃소싱타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9JTHhkVk1UQU5qamdwV2hlVzgtMDRfUWFWWmRwVnp6SE5HcEhyZE1GVkw2TFowWmJHcGdtZ3VtVmJoVnhLUHFXakl2RENOZUhpRUFGdXBsM0t6YW5YUkhwY3dPd1ljS240X3o3eFphMG5oUQ?oc=5",
+        "koTitle": "\"이 글, AI가 썼습니다\"…클로드, 워터마크 남긴다?",
+        "enTitle": "\"이 글, AI가 썼습니다\"…클로드, 워터마크 남긴다?",
+        "date": "2026-08-19",
+        "originalDate": "2026-08-18",
+        "sourceName": "지디넷코리아",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XTEdvaWVuLTAwVEhQdTFKNWo3LUthWHhNWDlpY3I1b3hKV093YTFOeTFZMG1GNEprVVFhdWVNV2EzNjVXZTRzcjVCZ1c4TFl6eUROeVd3?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI 뉴스] 구글 ‘제미나이 3.7 플래시’ 출시…가격 낮추고 코딩·업무 자동화 강화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! \"이 글, AI가 썼습니다\"…클로드, 워터마크 남긴다? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "빅테크, 1276조 투자 vs 중소기업 AI 지출, 0.1%… '수익 회수' 시험대",
-        "enTitle": "빅테크, 1276조 투자 vs 중소기업 AI 지출, 0.1%… '수익 회수' 시험대",
-        "date": "2026-08-18",
-        "originalDate": "2026-08-17",
-        "sourceName": "글로벌이코노믹",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeFRYbl9aV3pjaVFzWUNmamNudUo3am1DcldqSGs0bUVEV1VjTFotaDVJaHhjcFppQi1MdmluOEVNVFVtNXFWZkR5Z2lyVm03OHdWN2RMbUgxcGxYSVZNWEVNd0FXNXpmNkc3UGROcGxnTV9KQjlGcUp6X1g4WGFpSTJodU15aGg5?oc=5",
+        "koTitle": "AI 영상 의심받던 새치기 난리에…인천공항 결국 펜스 설치",
+        "enTitle": "AI 영상 의심받던 새치기 난리에…인천공항 결국 펜스 설치",
+        "date": "2026-08-19",
+        "originalDate": "2026-08-18",
+        "sourceName": "주간조선",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE14LV9pTkpDekdwemtPNFE4LURTMjduOWJaVEZraWk2SmZCVWYyVE5EYmlaaENobUEtN3FTdnJFaXUzbHJidnVScEE4STBBWk1TaEpoWkVwZHo3aTZhTktCcU15MGFKUm9oemdB0gFuQVVfeXFMUG9XM19kTkw4aVVRSVJFRU9EZ1hoejU5bmtTMnNMTG9RRHZjaEQ2SGFXbUJWZWh4RnpXbGUwaWlvSkRreTdub1dxRFRyV2tnTlo2TzFoNG1wSGNNbXBydmJJRWpCQkRPLUp5anBVeEE?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 빅테크, 1276조 투자 vs 중소기업 AI 지출, 0.1%… '수익 회수' 시험대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! AI 영상 의심받던 새치기 난리에…인천공항 결국 펜스 설치 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
