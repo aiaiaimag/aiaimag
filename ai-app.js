@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-19
+ * 최신 업데이트: 2026-08-20
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "인공지능으로 돈을 버는 방법: 실용적인 소득 경로",
-        "enTitle": "How to make money with AI: Practical income paths",
-        "date": "2026-08-19",
-        "originalDate": "2026-08-18",
-        "sourceName": "Condia",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBOFh1OVhlTE1rT3hscHlNYlNya2VwS1hrYTFsaEVyMGEzTjdGcU9IcHl5eGN4bndHdzhac2hveDlJUmxHSUc3ejVlSFhqLXl4aE9yY0dIVTd5NWpj?oc=5",
+        "koTitle": "업무의 미래: 젊은이들이 앞서 나가기 위해 필요한 기술",
+        "enTitle": "Future of Work: The skills young people need to stay ahead",
+        "date": "2026-08-20",
+        "originalDate": "2026-08-19",
+        "sourceName": "KBC Digital",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbnJ6eHVSLXAyR1dnYlFHLWpHVHUta3Y1S1Boem1TWEY1SzBWMWpyamdPU1FnSFRRSXhEUl9PZW5saWdfRUZSaXh0WjhhRV9fVDl6cHdwVG10M3Uxai0tMUdDZmdRVEZZdG1uVGh2NDJGajJXN09DdWNmX0lmSk9keUpfOFJMdTA?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능으로 돈을 버는 방법: 실용적인 소득 경로 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 업무의 미래: 젊은이들이 앞서 나가기 위해 필요한 기술 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "아일랜드 학생들은 AI 교정 경력에 대한 올바른 조언을 얻고 있습니까?",
-        "enTitle": "Are Irish students getting right advice on AI-proofing careers?",
-        "date": "2026-08-19",
-        "originalDate": "2026-08-18",
-        "sourceName": "RTE.ie",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQanROUkdBUi0ycDhPeGdVX1RpV3o2VWFKemNkbGJzTjRwWTBkTnpnRlhqMVhTM1Rsbm5hUTRZUjZ1bEc0cmNENEE1OW9Ub3o1VHFvWnpLOFFuWDBDcjVxeFZMdW1HaUlmRlBjUUlhMG1QQUxteWdSaEVzZTN4MTdfd05oWTIwTTFxWDFWbjc0Um54TkZGclA2TFk2RlBRUUNFTkhXLTkyUXV3OVcwbG1QZUR3?oc=5",
+        "koTitle": "AI 시대에 미래를 대비한 커리어: 리더십 전문가가 돋보일 수 있는 ‘인간적’ 전략을 공유합니다.",
+        "enTitle": "Future-proof your career in the age of AI: Leadership expert shares ‘human’ strategies to stand out",
+        "date": "2026-08-20",
+        "originalDate": "2026-08-19",
+        "sourceName": "The Straits Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORFNodWNFUk5XRHZSaWhBeldsamE5RGRwdlZDZF9jTms5WnZRUV9ZaGZIU01xdWlXQk5LdkRIRVh0VGhCcnkyYm92WHBKY1ZfZmVCNGJ2bTljS21ObXE0X3VIczZqLUtDZEFCXzBzdEJDU01uR3RBUC1SblBfejg3ZmRFSHIzNkh4MkRXMjBoVVpqU2s0eEJPM25hOUpHSlp2SWxoYUd3?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 아일랜드 학생들은 AI 교정 경력에 대한 올바른 조언을 얻고 있습니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! AI 시대에 미래를 대비한 커리어: 리더십 전문가가 돋보일 수 있는 ‘인간적’ 전략을 공유합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "‘인공지능의 대부’ 는 대량 실업이 도래하고 있다고 예측한다.",
-        "enTitle": "‘Godfather of AI’ predicts mass unemployment is on its way",
-        "date": "2026-08-19",
-        "originalDate": "2026-08-16",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQmxheVQtQ3RYOGwwbkpaWmpyZlIzVmdmemJkS2F4bVBsUEs0NW5zRW80RFNYZ2hUbjlxMnBxZHc2VzMwVDVWZGp3bEtVQ2JFdWFMUTIzbHVvdEJiekc3MTNOeEhCRVo4eFBBWkVldW5pbUZzQkEyS3RoV3EyRkhUVmlDd1hnS0ltbm9QOHg3eC1SUVFEeVNEdERXYnRTM3NDbzQ5Um1GaEhfOGFUMmtLbk5TeWxzVjg?oc=5",
+        "koTitle": "LinkedIn 연구에 따르면 밀레니엄 세대와 Z세대는 빠르게 성장하는 고임금 AI 일자리를 창출하고 있습니다.",
+        "enTitle": "Millennials and Gen Z are landing fast-growing, high-paying AI jobs, according to LinkedIn study",
+        "date": "2026-08-20",
+        "originalDate": "2026-08-18",
+        "sourceName": "CNBC",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb091YW44NUc5QnpXUFltNEVoc0w1THl2NHl0V3NSUXozRGhYUkFUd3hfTVg1X2pRTEtXWmlPNzJra2tZOU5HTWVNY1RFaDA4WTZHNXNRU18zVWxuUHNkRXBmeFhPVVBsSzVLaDJjbjVWYzdBM3NsM3h3aEtLbEJEajZCbUR4RzRHSmJ1aDA4UktaUzYzRGxSc1FDVnF5Y1YtdXUwYUl6RG1ZSVo5dWhxNjJrVzVtMHlPZXfSAb8BQVVfeXFMT3p1NmtqMldPOE9Gb1JEX2ZtNzFPcmZ3WDN4VEZJQ2JUVTlrM2Z1ZVFkQUkwS0xmUk1OR0FPMTVaTVNCWDA5VVo2WFlmaGNGc0FrUjN6SmM0dFNiZ2JWM2Vna1QyWDY4Rzk3bmItRFJ0dHhsSC1KSWdWb3FHRm5XSVJXaFVRc2FuLV8xY1k1MlVMQzc4WFRYVEYtdmdfRVNsbE90YzJOcTZ2b1F6bHAzOTlRN0c3ZzVLdWtMSlFtLW8?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! ‘인공지능의 대부’ 는 대량 실업이 도래하고 있다고 예측한다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! LinkedIn 연구에 따르면 밀레니엄 세대와 Z세대는 빠르게 성장하는 고임금 AI 일자리를 창출하고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "동국대 WISE, 전교생 7000명에 ‘AI 비서’…챗GPT·제미나이·클로드 한곳에",
-        "enTitle": "동국대 WISE, 전교생 7000명에 ‘AI 비서’…챗GPT·제미나이·클로드 한곳에",
-        "date": "2026-08-19",
-        "originalDate": "2026-08-18",
-        "sourceName": "kyongbuk.co.kr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1oTWZkaFpLNGg2d3ZudjJCX0pXNmZYV0hQcFZ1YjZZcV9ESmdIakRDeWNseklIX2xfaTIxZi1ZZVV3SUlubFE2cXJBeU13RDNYRU1KYlhqMjF6RlRaNWxuakNydk1IRzJFNTVQWk5pMA?oc=5",
+        "koTitle": "제미나이 앱에서 방탄소년단과 함께하는 4가지 새로운 인터랙티브 경험을 만나보세요",
+        "enTitle": "제미나이 앱에서 방탄소년단과 함께하는 4가지 새로운 인터랙티브 경험을 만나보세요",
+        "date": "2026-08-20",
+        "originalDate": "2026-08-19",
+        "sourceName": "blog.google",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQlVmUkttb21aSjdMRnVwR3p1S01GRy1XZFB4cFVqZXlBSm53RUtUcmlvclBVaUw4aDRaci1acHJEN0FLRF9KNW4wa0dYVHRBbktMV1kyUWJoS2daRnFxQ1FaR1pvaXVBYjZiTVNBc3JGZnR2YlBLUmI3cmtPM21lTmY3RExlamc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 동국대 WISE, 전교생 7000명에 ‘AI 비서’…챗GPT·제미나이·클로드 한곳에 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 제미나이 앱에서 방탄소년단과 함께하는 4가지 새로운 인터랙티브 경험을 만나보세요 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "\"이 글, AI가 썼습니다\"…클로드, 워터마크 남긴다?",
-        "enTitle": "\"이 글, AI가 썼습니다\"…클로드, 워터마크 남긴다?",
-        "date": "2026-08-19",
-        "originalDate": "2026-08-18",
-        "sourceName": "지디넷코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XTEdvaWVuLTAwVEhQdTFKNWo3LUthWHhNWDlpY3I1b3hKV093YTFOeTFZMG1GNEprVVFhdWVNV2EzNjVXZTRzcjVCZ1c4TFl6eUROeVd3?oc=5",
+        "koTitle": "동국대 WISE캠, 전교생에 AI 서비스…챗GPT·제미나이·클로드 골라 쓴다",
+        "enTitle": "동국대 WISE캠, 전교생에 AI 서비스…챗GPT·제미나이·클로드 골라 쓴다",
+        "date": "2026-08-20",
+        "originalDate": "2026-08-19",
+        "sourceName": "중앙일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkTjgwZklPNXQzZVBXbm5pYzBfUWhFODFONnZZZmhzV1RiMnpxY0NjWVJSU21ueTVVZDNRYWJIN0Zkay1ONDhIZEFJaW01d0FGbGlabml3?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! \"이 글, AI가 썼습니다\"…클로드, 워터마크 남긴다? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 동국대 WISE캠, 전교생에 AI 서비스…챗GPT·제미나이·클로드 골라 쓴다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "AI 영상 의심받던 새치기 난리에…인천공항 결국 펜스 설치",
-        "enTitle": "AI 영상 의심받던 새치기 난리에…인천공항 결국 펜스 설치",
-        "date": "2026-08-19",
-        "originalDate": "2026-08-18",
-        "sourceName": "주간조선",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE14LV9pTkpDekdwemtPNFE4LURTMjduOWJaVEZraWk2SmZCVWYyVE5EYmlaaENobUEtN3FTdnJFaXUzbHJidnVScEE4STBBWk1TaEpoWkVwZHo3aTZhTktCcU15MGFKUm9oemdB0gFuQVVfeXFMUG9XM19kTkw4aVVRSVJFRU9EZ1hoejU5bmtTMnNMTG9RRHZjaEQ2SGFXbUJWZWh4RnpXbGUwaWlvSkRreTdub1dxRFRyV2tnTlo2TzFoNG1wSGNNbXBydmJJRWpCQkRPLUp5anBVeEE?oc=5",
+        "koTitle": "뉴플로이, 온디바이스 AI 기반 '문서 OCR' 서비스 출시 - 머니투데이",
+        "enTitle": "뉴플로이, 온디바이스 AI 기반 '문서 OCR' 서비스 출시 - 머니투데이",
+        "date": "2026-08-20",
+        "originalDate": "2026-08-19",
+        "sourceName": "머니투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ERENhMFkzWC1MLU5DeF9BZ0ZCcThibUsxM1pqTmdic04taVVPSWxXMjZGMHRfdlNuN2tRT3FDNi12MnotckI3YjFXcnRKS0g3aVIxNlc1dXF2Yll1Wm4tSWhZcnRmZExOVVHSAW9BVV95cUxNV0ZMLWoydWQtUXZpME5IYzhMNmtpVTl2TlBSUi1oZG1fblp3RllNVHpYd3Q2TmVJT3BaYU9td3FFZEdySTUtaHVFMC00bG9Hb2RNLXZHaDJ2VkMzeW9OX2VCc2VjWUVZQlVSZFdFT0k?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! AI 영상 의심받던 새치기 난리에…인천공항 결국 펜스 설치 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 뉴플로이, 온디바이스 AI 기반 '문서 OCR' 서비스 출시 - 머니투데이 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
