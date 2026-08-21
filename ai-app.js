@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-21
+ * 최신 업데이트: 2026-08-22
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI 시대에 미래를 대비한 커리어: 리더십 전문가가 돋보일 수 있는 ‘인간적’ 전략을 공유합니다.",
-        "enTitle": "Future-proof your career in the age of AI: Leadership expert shares ‘human’ strategies to stand out",
-        "date": "2026-08-21",
-        "originalDate": "2026-08-19",
-        "sourceName": "The Straits Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORFNodWNFUk5XRHZSaWhBeldsamE5RGRwdlZDZF9jTms5WnZRUV9ZaGZIU01xdWlXQk5LdkRIRVh0VGhCcnkyYm92WHBKY1ZfZmVCNGJ2bTljS21ObXE0X3VIczZqLUtDZEFCXzBzdEJDU01uR3RBUC1SblBfejg3ZmRFSHIzNkh4MkRXMjBoVVpqU2s0eEJPM25hOUpHSlp2SWxoYUd3?oc=5",
+        "koTitle": "변화하는 취업 시장에서 인공지능의 재판 요인 후 남자는 $ 95,000를 얻습니다.",
+        "enTitle": "Man wins $950,000 after tribunal factors in AI in changing job market",
+        "date": "2026-08-22",
+        "originalDate": "2026-08-21",
+        "sourceName": "ABC News & Headlines – Australian Broadcasting Corporation",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSWkyc205bm0xcWl4Q0FTeDdGWTR6RE8yXzJSVzNkMEg2MzdrenRLSlBPTktNd1pKQ1Y3WlJDT3FEb3BhWEI3ZHlGaENBV2M5emtSd3d2V0M3c2czeDhGNXFHbzVlRF9OMkR4LXgzNUNPLTVaM2V4eWNMMEVSajVxZUlCS0EtVXBmdGN6STFscUF5QQ?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 시대에 미래를 대비한 커리어: 리더십 전문가가 돋보일 수 있는 ‘인간적’ 전략을 공유합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! 변화하는 취업 시장에서 인공지능의 재판 요인 후 남자는 $ 95,000를 얻습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "LinkedIn 연구에 따르면 밀레니엄 세대와 Z세대는 빠르게 성장하는 고임금 AI 일자리를 창출하고 있습니다.",
-        "enTitle": "Millennials and Gen Z are landing fast-growing, high-paying AI jobs, according to LinkedIn study",
-        "date": "2026-08-21",
-        "originalDate": "2026-08-18",
-        "sourceName": "CNBC",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb091YW44NUc5QnpXUFltNEVoc0w1THl2NHl0V3NSUXozRGhYUkFUd3hfTVg1X2pRTEtXWmlPNzJra2tZOU5HTWVNY1RFaDA4WTZHNXNRU18zVWxuUHNkRXBmeFhPVVBsSzVLaDJjbjVWYzdBM3NsM3h3aEtLbEJEajZCbUR4RzRHSmJ1aDA4UktaUzYzRGxSc1FDVnF5Y1YtdXUwYUl6RG1ZSVo5dWhxNjJrVzVtMHlPZXfSAb8BQVVfeXFMT3p1NmtqMldPOE9Gb1JEX2ZtNzFPcmZ3WDN4VEZJQ2JUVTlrM2Z1ZVFkQUkwS0xmUk1OR0FPMTVaTVNCWDA5VVo2WFlmaGNGc0FrUjN6SmM0dFNiZ2JWM2Vna1QyWDY4Rzk3bmItRFJ0dHhsSC1KSWdWb3FHRm5XSVJXaFVRc2FuLV8xY1k1MlVMQzc4WFRYVEYtdmdfRVNsbE90YzJOcTZ2b1F6bHAzOTlRN0c3ZzVLdWtMSlFtLW8?oc=5",
+        "koTitle": "주제 - AI가 소셜 모빌리티와 업무의 미래에 의미하는 바는 무엇인가요?",
+        "enTitle": "Topics - What does AI mean for social mobility and the future of work?",
+        "date": "2026-08-22",
+        "originalDate": "2026-08-21",
+        "sourceName": "Charity Digital",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM2djbmZsR1o0cVBvWE5RTU5uR2d1VVpsal8zQ2RhcjBjZlBsMEVNRlp6RE9UREdvSi00dk1DNU9zMzY4VzlnQjl4ZUFpX2R0eG55clJ3UG5qRXhEUWdZZGlQRWpLcWhXbE9SbW9admRXZXFybm5HWkVMZ19DNHJxZDJOV29lUEhLcjVxcGRWY0htX2pNUTdScWtlSjVNYnktUGFSSURn?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! LinkedIn 연구에 따르면 밀레니엄 세대와 Z세대는 빠르게 성장하는 고임금 AI 일자리를 창출하고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "91%",
+        "analysis": "글로벌 AI 트렌드 체크! 주제 - AI가 소셜 모빌리티와 업무의 미래에 의미하는 바는 무엇인가요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "인공지능으로 돈을 버는 방법: 실용적인 소득 경로",
-        "enTitle": "How to make money with AI: Practical income paths",
-        "date": "2026-08-21",
-        "originalDate": "2026-08-18",
-        "sourceName": "Condia",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBOFh1OVhlTE1rT3hscHlNYlNya2VwS1hrYTFsaEVyMGEzTjdGcU9IcHl5eGN4bndHdzhac2hveDlJUmxHSUc3ejVlSFhqLXl4aE9yY0dIVTd5NWpj?oc=5",
+        "koTitle": "2026년 인공지능을 활용한 수익 창출 방법",
+        "enTitle": "How to Make Money Using AI in 2026",
+        "date": "2026-08-22",
+        "originalDate": "2026-08-19",
+        "sourceName": "Coursera",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB4blFmZmVmYVRzODJ1eThvRGhFTVlTWDhqU3FWM2xSNjVpSXdrTkNxTVhlWDNlTk53YkktUy1ZNG1hckFwQzRpU2N0dU9keDN4V1M4SXczRUQyRkE2dlBISXBRWm5vTFplTWJoaQ?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능으로 돈을 버는 방법: 실용적인 소득 경로 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 2026년 인공지능을 활용한 수익 창출 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "제미나이 1년 무료 혜택과 함께, 알찬 새 학기를 시작해 보세요",
-        "enTitle": "제미나이 1년 무료 혜택과 함께, 알찬 새 학기를 시작해 보세요",
-        "date": "2026-08-21",
-        "originalDate": "2026-08-20",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNUtuUldXVHNWZVlnOXRLV290X014X0Qyc1lKT0h0WEJYTDAyM3B3eFU1bkxrQWw0WkQyaDFRNS1TaUwycmtqVFA4MFllN3liWkFFTU1XeFUteUM3Q1l3b3g1aUI3ak1GTVJtRk5iYXJSQVl6TXJ2R1BkZWJQRWF1ZTU5NE5hQU5SbnRmMUxR?oc=5",
+        "koTitle": "에듀윌, 'AI취업패스' 자기소개서 진단 서비스 도입",
+        "enTitle": "에듀윌, 'AI취업패스' 자기소개서 진단 서비스 도입",
+        "date": "2026-08-22",
+        "originalDate": "2026-08-21",
+        "sourceName": "리버티코리아포스트",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1keE9aVWFMM05ybTNwZ3ZlWll1TWhJak8zZEJJWW1PNWpqX25zRGNzMU9pWkFBV2kxS0YtYk9FY3I4dVVCNEVkVTRzTGZLZVI3dVhSd2NoSlRHblVYUlZBeTRfRdIBZ0FVX3lxTE1LWXdfWWd4OGJpelZYcmJoNWltbHFkYTNGTXZnZFNqdno0Y0xsaDd0TXNYRG5WbnlJN2xtWE81N2doSFI2TWVIUjFXNVBQbFhoMHNJZ2F4YmJVcXA4QUNRbXdPSkpNTjA?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 제미나이 1년 무료 혜택과 함께, 알찬 새 학기를 시작해 보세요 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 에듀윌, 'AI취업패스' 자기소개서 진단 서비스 도입 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "메타, 맥용 'AI 비서' 앱 출시…인스타·광고 연동 강점",
-        "enTitle": "메타, 맥용 'AI 비서' 앱 출시…인스타·광고 연동 강점",
-        "date": "2026-08-21",
-        "originalDate": "2026-08-20",
-        "sourceName": "지디넷코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5OSjV6alQ3U1luUG5RN1RYZ3hkSmZ6dWk1ODR0dHZTeFZqN3lvZ05maEFlbm1kMkt0TmFCdjYxaDdDeVZTQlVrekJYaGN2RUhtano4VWh3?oc=5",
+        "koTitle": "메타, 미국서 '바이브 코딩' 게임 앱 '포켓' 출시",
+        "enTitle": "메타, 미국서 '바이브 코딩' 게임 앱 '포켓' 출시",
+        "date": "2026-08-22",
+        "originalDate": "2026-08-21",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5EMlBYU3lyQ3pzYmNLZ1J1OThrQnRGWXU3eW1GRTk4b1N2UEdFeFF3UDU5bUtXeFdfbXM5LTdmUW9VdnVSSHY2Zk9LRGktSFEyR2xfV1NnbnhSVzN4c2w0NXVSMmFjNDlvWGc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 메타, 맥용 'AI 비서' 앱 출시…인스타·광고 연동 강점 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 메타, 미국서 '바이브 코딩' 게임 앱 '포켓' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "메타, 맥OS 전용 AI 데스크톱 앱 정식 출시...‘슈퍼 앱’ 시장 추격전",
-        "enTitle": "메타, 맥OS 전용 AI 데스크톱 앱 정식 출시...‘슈퍼 앱’ 시장 추격전",
-        "date": "2026-08-21",
-        "originalDate": "2026-08-20",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBDd0NHLUk3cl94bTdzc2VtVF95OE55bmNNcjVyTGM3SDdqRGpNQ05CQzJZMXlXLTNvVUxTYzNoaVdHYnVtOWlQOWU3MVB5VjlobEJ0M1hsb251eFFaVDZOTmZrV2NaZTRNR3c?oc=5",
+        "koTitle": "구글, 대학생에 제미나이 1년 '공짜'로",
+        "enTitle": "구글, 대학생에 제미나이 1년 '공짜'로",
+        "date": "2026-08-22",
+        "originalDate": "2026-08-21",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jRmd1SkU5T1RTRkR2MDRua0pia3YzdnU0bTZZQnR0Qno5RW9ueE5wMnk3RnFGazJ3YjZiRUVtemsxLTNrOFM1VExfZmNVb2s?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 메타, 맥OS 전용 AI 데스크톱 앱 정식 출시...‘슈퍼 앱’ 시장 추격전 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 구글, 대학생에 제미나이 1년 '공짜'로 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
