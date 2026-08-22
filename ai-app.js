@@ -1,7 +1,7 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-22
+ * 최신 업데이트: 2026-08-23
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
@@ -10,38 +10,38 @@ const aiNewsData = [
         "rank": 1,
         "koTitle": "변화하는 취업 시장에서 인공지능의 재판 요인 후 남자는 $ 95,000를 얻습니다.",
         "enTitle": "Man wins $950,000 after tribunal factors in AI in changing job market",
-        "date": "2026-08-22",
+        "date": "2026-08-23",
         "originalDate": "2026-08-21",
         "sourceName": "ABC News & Headlines – Australian Broadcasting Corporation",
         "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSWkyc205bm0xcWl4Q0FTeDdGWTR6RE8yXzJSVzNkMEg2MzdrenRLSlBPTktNd1pKQ1Y3WlJDT3FEb3BhWEI3ZHlGaENBV2M5emtSd3d2V0M3c2czeDhGNXFHbzVlRF9OMkR4LXgzNUNPLTVaM2V4eWNMMEVSajVxZUlCS0EtVXBmdGN6STFscUF5QQ?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
+        "viralRate": "92%",
         "analysis": "글로벌 AI 트렌드 체크! 변화하는 취업 시장에서 인공지능의 재판 요인 후 남자는 $ 95,000를 얻습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "들쭉날쭉한 작은 기술: 차세대 커리어를 구축할 인공지능이 변화하는 방법",
+        "enTitle": "Jagged little skill: How AI is changing where the next generation of careers will be built",
+        "date": "2026-08-23",
+        "originalDate": "2026-08-21",
+        "sourceName": "The Globe and Mail",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQai1ya1RuWU5NY1lNeERpeTVCVGpKcVBwTXlFaUNLcFlzdXhhRkdsaTVoS1pCOVNnaTdLZlN3WE1LMzlTeXlFd19lMEk2d1dqb1IyTW5WYWlkS3lDcTJIMjNHT1pISlQxRE1SQTZ5WVBWOC1lMy1SSEZxLTNNMWVlYUFNbTJZSWI0eFA1YzRQaEg4bGwwLUYyNy1VU0VBVllGQVdnV2xNRjZSbmluX0xTNEJHaHRnZjZOVDRxSDJXZng5UFliNl9EWXQ3a3k?oc=5",
+        "isRepublished": false,
+        "viralRate": "91%",
+        "analysis": "글로벌 AI 트렌드 체크! 들쭉날쭉한 작은 기술: 차세대 커리어를 구축할 인공지능이 변화하는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "주제 - AI가 소셜 모빌리티와 업무의 미래에 의미하는 바는 무엇인가요?",
         "enTitle": "Topics - What does AI mean for social mobility and the future of work?",
-        "date": "2026-08-22",
+        "date": "2026-08-23",
         "originalDate": "2026-08-21",
         "sourceName": "Charity Digital",
         "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM2djbmZsR1o0cVBvWE5RTU5uR2d1VVpsal8zQ2RhcjBjZlBsMEVNRlp6RE9UREdvSi00dk1DNU9zMzY4VzlnQjl4ZUFpX2R0eG55clJ3UG5qRXhEUWdZZGlQRWpLcWhXbE9SbW9admRXZXFybm5HWkVMZ19DNHJxZDJOV29lUEhLcjVxcGRWY0htX2pNUTdScWtlSjVNYnktUGFSSURn?oc=5",
         "isRepublished": false,
-        "viralRate": "91%",
+        "viralRate": "88%",
         "analysis": "글로벌 AI 트렌드 체크! 주제 - AI가 소셜 모빌리티와 업무의 미래에 의미하는 바는 무엇인가요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "2026년 인공지능을 활용한 수익 창출 방법",
-        "enTitle": "How to Make Money Using AI in 2026",
-        "date": "2026-08-22",
-        "originalDate": "2026-08-19",
-        "sourceName": "Coursera",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB4blFmZmVmYVRzODJ1eThvRGhFTVlTWDhqU3FWM2xSNjVpSXdrTkNxTVhlWDNlTk53YkktUy1ZNG1hckFwQzRpU2N0dU9keDN4V1M4SXczRUQyRkE2dlBISXBRWm5vTFplTWJoaQ?oc=5",
-        "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 2026년 인공지능을 활용한 수익 창출 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "에듀윌, 'AI취업패스' 자기소개서 진단 서비스 도입",
-        "enTitle": "에듀윌, 'AI취업패스' 자기소개서 진단 서비스 도입",
-        "date": "2026-08-22",
-        "originalDate": "2026-08-21",
-        "sourceName": "리버티코리아포스트",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1keE9aVWFMM05ybTNwZ3ZlWll1TWhJak8zZEJJWW1PNWpqX25zRGNzMU9pWkFBV2kxS0YtYk9FY3I4dVVCNEVkVTRzTGZLZVI3dVhSd2NoSlRHblVYUlZBeTRfRdIBZ0FVX3lxTE1LWXdfWWd4OGJpelZYcmJoNWltbHFkYTNGTXZnZFNqdno0Y0xsaDd0TXNYRG5WbnlJN2xtWE81N2doSFI2TWVIUjFXNVBQbFhoMHNJZ2F4YmJVcXA4QUNRbXdPSkpNTjA?oc=5",
+        "koTitle": "[AI 이슈트렌드] 집중호우 피해·민주당 전당대회 주목…증권가는 '대형 주주환원' 화제",
+        "enTitle": "[AI 이슈트렌드] 집중호우 피해·민주당 전당대회 주목…증권가는 '대형 주주환원' 화제",
+        "date": "2026-08-23",
+        "originalDate": "2026-08-22",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5zTlBYQ25FWmVFS2p6aVF6dzRZTHZ0SEktaTR0NFBEbERIaU0yUDdZdUlQSDNIS3Z2ZG5abmhvdElmQ0J4dGt4Y3RTejBidTM3Q3JOVzRELUk4eGxHbFNyanRKcmJEZTU2NGc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 에듀윌, 'AI취업패스' 자기소개서 진단 서비스 도입 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [AI 이슈트렌드] 집중호우 피해·민주당 전당대회 주목…증권가는 '대형 주주환원' 화제 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "메타, 미국서 '바이브 코딩' 게임 앱 '포켓' 출시",
-        "enTitle": "메타, 미국서 '바이브 코딩' 게임 앱 '포켓' 출시",
-        "date": "2026-08-22",
-        "originalDate": "2026-08-21",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5EMlBYU3lyQ3pzYmNLZ1J1OThrQnRGWXU3eW1GRTk4b1N2UEdFeFF3UDU5bUtXeFdfbXM5LTdmUW9VdnVSSHY2Zk9LRGktSFEyR2xfV1NnbnhSVzN4c2w0NXVSMmFjNDlvWGc?oc=5",
+        "koTitle": "챗GPT·클로드 구독료 10% 할인…‘카카오뱅크 착붙 신한카드’ 출시",
+        "enTitle": "챗GPT·클로드 구독료 10% 할인…‘카카오뱅크 착붙 신한카드’ 출시",
+        "date": "2026-08-23",
+        "originalDate": "2026-08-22",
+        "sourceName": "issueon.co.kr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ydVF3Nm54YzJnelhHcXJhSzkzQ1dFZ2RzNG83ek1DQkwtTHVMWFNOZW53RG5oZmYwTU04b0xDRnZ3RHg5Y3pZdUJEVU83em5nQ0RtWVRjMC1ONVdVb2U1MlZzT2RjcUZuOTRV?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 메타, 미국서 '바이브 코딩' 게임 앱 '포켓' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 챗GPT·클로드 구독료 10% 할인…‘카카오뱅크 착붙 신한카드’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "구글, 대학생에 제미나이 1년 '공짜'로",
-        "enTitle": "구글, 대학생에 제미나이 1년 '공짜'로",
-        "date": "2026-08-22",
-        "originalDate": "2026-08-21",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jRmd1SkU5T1RTRkR2MDRua0pia3YzdnU0bTZZQnR0Qno5RW9ueE5wMnk3RnFGazJ3YjZiRUVtemsxLTNrOFM1VExfZmNVb2s?oc=5",
+        "koTitle": "요즘 클로드가 한국어를 어색하게 쓴다고 느꼈다면",
+        "enTitle": "요즘 클로드가 한국어를 어색하게 쓴다고 느꼈다면",
+        "date": "2026-08-23",
+        "originalDate": "2026-08-22",
+        "sourceName": "요즘IT",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5RUExIRGsyM21YVGdBanBObGxWQ245MEJXVDQ1XzgzM3MydlowQk5oLUxUNXFsUVBhZ3JLWmo2N25ZSlZ3NFdNU2Y4MlNRaTdtS2JEN0djRXQwQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글, 대학생에 제미나이 1년 '공짜'로 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 요즘 클로드가 한국어를 어색하게 쓴다고 느꼈다면 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
