@@ -1,7 +1,7 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-23
+ * 최신 업데이트: 2026-08-24
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
@@ -10,7 +10,7 @@ const aiNewsData = [
         "rank": 1,
         "koTitle": "변화하는 취업 시장에서 인공지능의 재판 요인 후 남자는 $ 95,000를 얻습니다.",
         "enTitle": "Man wins $950,000 after tribunal factors in AI in changing job market",
-        "date": "2026-08-23",
+        "date": "2026-08-24",
         "originalDate": "2026-08-21",
         "sourceName": "ABC News & Headlines – Australian Broadcasting Corporation",
         "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSWkyc205bm0xcWl4Q0FTeDdGWTR6RE8yXzJSVzNkMEg2MzdrenRLSlBPTktNd1pKQ1Y3WlJDT3FEb3BhWEI3ZHlGaENBV2M5emtSd3d2V0M3c2czeDhGNXFHbzVlRF9OMkR4LXgzNUNPLTVaM2V4eWNMMEVSajVxZUlCS0EtVXBmdGN6STFscUF5QQ?oc=5",
@@ -21,27 +21,27 @@ const aiNewsData = [
     },
     {
         "rank": 2,
-        "koTitle": "들쭉날쭉한 작은 기술: 차세대 커리어를 구축할 인공지능이 변화하는 방법",
-        "enTitle": "Jagged little skill: How AI is changing where the next generation of careers will be built",
-        "date": "2026-08-23",
-        "originalDate": "2026-08-21",
-        "sourceName": "The Globe and Mail",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQai1ya1RuWU5NY1lNeERpeTVCVGpKcVBwTXlFaUNLcFlzdXhhRkdsaTVoS1pCOVNnaTdLZlN3WE1LMzlTeXlFd19lMEk2d1dqb1IyTW5WYWlkS3lDcTJIMjNHT1pISlQxRE1SQTZ5WVBWOC1lMy1SSEZxLTNNMWVlYUFNbTJZSWI0eFA1YzRQaEg4bGwwLUYyNy1VU0VBVllGQVdnV2xNRjZSbmluX0xTNEJHaHRnZjZOVDRxSDJXZng5UFliNl9EWXQ3a3k?oc=5",
-        "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "글로벌 AI 트렌드 체크! 들쭉날쭉한 작은 기술: 차세대 커리어를 구축할 인공지능이 변화하는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
         "koTitle": "주제 - AI가 소셜 모빌리티와 업무의 미래에 의미하는 바는 무엇인가요?",
         "enTitle": "Topics - What does AI mean for social mobility and the future of work?",
-        "date": "2026-08-23",
+        "date": "2026-08-24",
         "originalDate": "2026-08-21",
         "sourceName": "Charity Digital",
         "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM2djbmZsR1o0cVBvWE5RTU5uR2d1VVpsal8zQ2RhcjBjZlBsMEVNRlp6RE9UREdvSi00dk1DNU9zMzY4VzlnQjl4ZUFpX2R0eG55clJ3UG5qRXhEUWdZZGlQRWpLcWhXbE9SbW9admRXZXFybm5HWkVMZ19DNHJxZDJOV29lUEhLcjVxcGRWY0htX2pNUTdScWtlSjVNYnktUGFSSURn?oc=5",
         "isRepublished": false,
         "viralRate": "88%",
         "analysis": "글로벌 AI 트렌드 체크! 주제 - AI가 소셜 모빌리티와 업무의 미래에 의미하는 바는 무엇인가요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
+        "koTitle": "AI는 인간이 직장에서 상호 작용하는 방식을 엉망으로 만들고 있습니다.",
+        "enTitle": "AI is making a mess of how humans interact at work",
+        "date": "2026-08-24",
+        "originalDate": "2026-08-20",
+        "sourceName": "CNBC",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRXU5akdIVl9XNk1vNGxBckVmS3VXOEpTTzVscVZ6SGFwT1NQd3YtTzdPU0d2a2M1OUpGWGVkVVEtZ19McDlHNko3cGV3MWFZSXlZeHhWMmJabXU5UFBOVHhFckpYQmkwVVo2bEFmVGZfbmNvaHVhaTl0SFV2dTNtX0tzV1AwRy1zaHFFTUNhQXkzZXRiWnZ6ODFvSUJ1RlZ3ZU5vRi16M0pMZ01ySmpZ0gG0AUFVX3lxTE1KV0tYTFZ6QXgzbTVIU2tXdEs2elo1QUh3eWZDQmpWMU9oODlsdmU5VVdqQWtLTDJueV9wRE4zMFptVC1HeFVJNVl0VUg2Sk11eEdRbDJ4c0JsdXRENXNra3g0MzZhaDhaN1BZX2xXVzZrNncxT2k4dW9xUVZDLXNKR3RzeGpieUp4a3k0QmVnQVlUZldmNl9MdGh3Q3Q0SVh5MXo1cHdONnZwREVHdG5STFFlMA?oc=5",
+        "isRepublished": false,
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! AI는 인간이 직장에서 상호 작용하는 방식을 엉망으로 만들고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[AI 이슈트렌드] 집중호우 피해·민주당 전당대회 주목…증권가는 '대형 주주환원' 화제",
-        "enTitle": "[AI 이슈트렌드] 집중호우 피해·민주당 전당대회 주목…증권가는 '대형 주주환원' 화제",
-        "date": "2026-08-23",
-        "originalDate": "2026-08-22",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5zTlBYQ25FWmVFS2p6aVF6dzRZTHZ0SEktaTR0NFBEbERIaU0yUDdZdUlQSDNIS3Z2ZG5abmhvdElmQ0J4dGt4Y3RTejBidTM3Q3JOVzRELUk4eGxHbFNyanRKcmJEZTU2NGc?oc=5",
+        "koTitle": "이름 숨기고 공짜로 풀린 AI ‘옥스 알파’ 화제…이번에도 중국산?",
+        "enTitle": "이름 숨기고 공짜로 풀린 AI ‘옥스 알파’ 화제…이번에도 중국산?",
+        "date": "2026-08-24",
+        "originalDate": "2026-08-23",
+        "sourceName": "조선일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQempsN0k3cTFMbExLMVhwTFBHeVBrUjJOVEFSMnhwalg1U0ZlU3JxZDA1Ri01dnBOZGp5X0RKcVF1N2J0NG5sdjdaMU1YWEJLTlZib01BVFZQLS1Sb1htSWZGRUhpR2xCa09VOFg0aTgzV2ZXMVZjVWw1NS1TNHFha0dHdw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI 이슈트렌드] 집중호우 피해·민주당 전당대회 주목…증권가는 '대형 주주환원' 화제 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 이름 숨기고 공짜로 풀린 AI ‘옥스 알파’ 화제…이번에도 중국산? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "챗GPT·클로드 구독료 10% 할인…‘카카오뱅크 착붙 신한카드’ 출시",
-        "enTitle": "챗GPT·클로드 구독료 10% 할인…‘카카오뱅크 착붙 신한카드’ 출시",
-        "date": "2026-08-23",
-        "originalDate": "2026-08-22",
-        "sourceName": "issueon.co.kr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ydVF3Nm54YzJnelhHcXJhSzkzQ1dFZ2RzNG83ek1DQkwtTHVMWFNOZW53RG5oZmYwTU04b0xDRnZ3RHg5Y3pZdUJEVU83em5nQ0RtWVRjMC1ONVdVb2U1MlZzT2RjcUZuOTRV?oc=5",
+        "koTitle": "챗GPT, 가격·웹검색·딥리서치서 클로드 앞서지만 이미지 생성은 격차 압도적",
+        "enTitle": "챗GPT, 가격·웹검색·딥리서치서 클로드 앞서지만 이미지 생성은 격차 압도적",
+        "date": "2026-08-24",
+        "originalDate": "2026-08-23",
+        "sourceName": "위키트리",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Jc3A1bnFWVGVQckVFa3ZKaklCaElJU3lybmlndjJnVUh3dlQyMEZFa3I4cVZkeTZGWXVINDE3NlFYTDF6TmxWQWVZQVU3cHJqRFY3ZUpB?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 챗GPT·클로드 구독료 10% 할인…‘카카오뱅크 착붙 신한카드’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 챗GPT, 가격·웹검색·딥리서치서 클로드 앞서지만 이미지 생성은 격차 압도적 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "요즘 클로드가 한국어를 어색하게 쓴다고 느꼈다면",
-        "enTitle": "요즘 클로드가 한국어를 어색하게 쓴다고 느꼈다면",
-        "date": "2026-08-23",
-        "originalDate": "2026-08-22",
-        "sourceName": "요즘IT",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5RUExIRGsyM21YVGdBanBObGxWQ245MEJXVDQ1XzgzM3MydlowQk5oLUxUNXFsUVBhZ3JLWmo2N25ZSlZ3NFdNU2Y4MlNRaTdtS2JEN0djRXQwQQ?oc=5",
+        "koTitle": "설계된 불안, AI 업무 자동화 [이서윤의 인공지능&인권지능]",
+        "enTitle": "설계된 불안, AI 업무 자동화 [이서윤의 인공지능&인권지능]",
+        "date": "2026-08-24",
+        "originalDate": "2026-08-23",
+        "sourceName": "한겨레",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB0R3Z2WFVGZ0c1alROaWdJZEZlSzl4RmF6NGc0U0p1NmsyckREVjdNUVdOZGYxZ3VtR19mNEtkTmJUcVljV015d2pPb19qdjN3QmVfSVpMQlF6T2NLaU9BY0RTRVE2QQ?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 요즘 클로드가 한국어를 어색하게 쓴다고 느꼈다면 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 설계된 불안, AI 업무 자동화 [이서윤의 인공지능&인권지능] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
