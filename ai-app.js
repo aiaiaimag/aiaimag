@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-25
+ * 최신 업데이트: 2026-08-26
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "중국의 근로자들은 AI가 일자리에 미치는 영향이 커짐에 따라 대체되는 것에 대해 걱정하고 있습니다.",
-        "enTitle": "Workers in China worry over being replaced as they adapt to the growing impact of AI on jobs",
-        "date": "2026-08-25",
-        "originalDate": "2026-08-24",
-        "sourceName": "The Washington Post",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPM3Q0bm1za3JlalpEaWJIeEZqOTFUMWJzNWpMR19TSk5hSTltVklWZ001MElsNFIxS01zWDZMY3NVaVlXNzNoOUdyY1dIZENxc3h1TTlvQlMtTXJQNHVFNUpDMXNIVVBqamt1TU5ncUx2eXRxcEZkb3YwRDM4TDI0bC1IUkZTeld4S0Z2UllsX2wxRnFTMGtGOHAyTmNOTzVRcFRKN2NGM2JlYVhTWGk5eW1IQ0JLckZrQnZVYWc3M2g5Z3kyZW1RQTMtVQ?oc=5",
+        "koTitle": "인공지능 직업의 미래에서 5가지 새로운 커리어 기회",
+        "enTitle": "5 New Career Opportunities In The AI Future Of Work",
+        "date": "2026-08-26",
+        "originalDate": "2026-08-25",
+        "sourceName": "Forbes",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMm9LRWFVamFfQUY5WFpvRzVLSG1iaFlKQ3MxdElKTGRvOFd3MUtyOUNwV1AxUWFOcVc5MGwyZjdhejRzd3JGN1RHZVZ2clZvTU9JbDlBdjl5WWVBTElmVmRUOUV4blZQZ2tQU2Z1b2ppbGtpcjVtRm1oWHFYVnZIQk8xeTVndE44SmI3MmtqV3pKSUw0M011NUY3MEgwY1VHMjVzb0xHNA?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! 중국의 근로자들은 AI가 일자리에 미치는 영향이 커짐에 따라 대체되는 것에 대해 걱정하고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능 직업의 미래에서 5가지 새로운 커리어 기회 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI 시대에 커리어를 미래로 이끌 수 있는 6가지 핵심 기술",
-        "enTitle": "6 Critical Skills To Future-Proof Your Career In The Age Of AI",
-        "date": "2026-08-25",
-        "originalDate": "2026-08-24",
-        "sourceName": "Forbes",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdXBQQlh5dXJ1OWtoMC1UczhxUXhha1E1N1JoUGZGVFF3Zmg1VDBxUWRVZ1VHTDFtUEJ1ZlZudk5CS2ctU3VyMU54ei1pNWplNG4tMERRX3NDQ3Bhb09IUmVEaVlkT1F5X0wycDdzNUx1Y2JXT2hqMHBRT1E0QXNHVkhDQTFrN012bEhDUWtad0ZPeEl0YmNiVElpZ1BaUDhqT1JNcldHZGxVQUdHXzFvZ1BkQ1FKZw?oc=5",
+        "koTitle": "AI가 조기 취업을 변화시키는 방법",
+        "enTitle": "How AI Is Changing Early Career Jobs",
+        "date": "2026-08-26",
+        "originalDate": "2026-08-25",
+        "sourceName": "Techerati",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNjRHV29NdWJ4RnVGRUNlbW96aHNhbklqanhXLVZhbU1GMVpab0tsV2ZMTUdCUzBscldTUzlIaW55SEdrVDZUYkc2YktCLXNDVzd0X3ZTeV9reVF0TzA0ZzVJWEJUckF0b21YZWZ5bXEwWlY1bE1SV1VBeTF6TVZvV0Y0NnlGY29jRlNsVUItWElnWG9IUlNlVGFn?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 시대에 커리어를 미래로 이끌 수 있는 6가지 핵심 기술 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! AI가 조기 취업을 변화시키는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "이벤트를 위한 최고의 AI 기조 연설자: # 1 채용 Scott Steinberg",
-        "enTitle": "Best AI Keynote Speakers for Events: Hire #1 Scott Steinberg",
-        "date": "2026-08-25",
-        "originalDate": "2026-08-24",
-        "sourceName": "futuristsspeakers.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVXo2SE9JZXA3aWZMM2hYcU5pMFpuQ0JpanF6bGhVbTEwYTRJWU1EaWotVFR0TDhrbE02X3g4YlZ3eVJvWDdBeUNNTjhLVlgwZ0F2czBYU3VhMzBGSkdTNlcweVBNcW04VFQwekYyXzRUTTlPTW55U0otWVc3V3lCQW1NdldfQlhBSzBR?oc=5",
+        "koTitle": "영국, 반즐리 거주민이 미래 일자리에 대비할 수 있도록 AI 교육 계획 시작",
+        "enTitle": "UK launches AI training schemes to prepare Barnsley residents for future jobs",
+        "date": "2026-08-26",
+        "originalDate": "2026-08-25",
+        "sourceName": "Digital Watch Observatory",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBWbVp1eUoyNXdNTXNjSEdNdkJNdHNyNktRVVlDUl9veEZHWVVRRU5laVRwSWFUajF1RmNid1BZYkpZbGJ5aXFGWFp1bVFrdlBPUmN2Um9lbU91MDNGWjRqLXM2UW0wc3h4WHJxTzRoSDMtNTQxZWs3WQ?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 이벤트를 위한 최고의 AI 기조 연설자: # 1 채용 Scott Steinberg 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 영국, 반즐리 거주민이 미래 일자리에 대비할 수 있도록 AI 교육 계획 시작 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "앤트로픽, 클로드 챗봇·코딩 서비스 장애…정상화 시점 '미정'",
-        "enTitle": "앤트로픽, 클로드 챗봇·코딩 서비스 장애…정상화 시점 '미정'",
-        "date": "2026-08-25",
-        "originalDate": "2026-08-24",
-        "sourceName": "지디넷코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84TXdSYk5kUm5WRXdQLXJsaWdGbVNkdUxUZXFlTkJSeEwxelVVUnJMRWltZ2FrWVJjYW5lT1VHNWlhaVRCeTR4a3BOeC1lUm5iLXItQXVB?oc=5",
+        "koTitle": "대학생이면 구글 제미나이 ‘0원’… AI 플러스 1년 무료",
+        "enTitle": "대학생이면 구글 제미나이 ‘0원’… AI 플러스 1년 무료",
+        "date": "2026-08-26",
+        "originalDate": "2026-08-25",
+        "sourceName": "한국대학신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBaX0RKc3p2cnQyRFB1Ukp3dGlOYXNXWGxUVGZGcE16aXZRTTBkeXZyV3A5dmFrcVJGR0twRWllcFhCOE5UN1V0T1JfbzBJUnVwWkNHajRKR012ZjhRLW9jTzlJbVlLdw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 클로드 챗봇·코딩 서비스 장애…정상화 시점 '미정' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 대학생이면 구글 제미나이 ‘0원’… AI 플러스 1년 무료 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "韓 대학생에 또 '제미나이' 1년 무료 푼 구글…챗GPT 추격 승부수",
-        "enTitle": "韓 대학생에 또 '제미나이' 1년 무료 푼 구글…챗GPT 추격 승부수",
-        "date": "2026-08-25",
-        "originalDate": "2026-08-24",
-        "sourceName": "뉴시스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Na1lqQ2ZKR3NMWmhLRTdpcWhBUTVseEJvOWZYU3RVQ0tTRlgydDNtdTRGaGhka3kwSjVaRElxalZIS29Sc2pmMUtYZkEydS1oSS1UTTROZmh0cnd5YW5hY9IBeEFVX3lxTE9MQUE0M3l2UTRXZkd1dXk5SGt1aWNmZkttY1hzc2lBZ1ZBTHp3WUJzRzZ2QktpcDJEWVdPNnhDS1lXMkU5SVVaMk1GM3luSmkwTUVaVUJmdnVSZFRhT2JmUmhKdmZRZkZkcUlfcnp0WmlMMzM1Y09oMw?oc=5",
+        "koTitle": "이스트소프트, 비개발자 위한 AI 마크다운 앱 '마크닷' 출시",
+        "enTitle": "이스트소프트, 비개발자 위한 AI 마크다운 앱 '마크닷' 출시",
+        "date": "2026-08-26",
+        "originalDate": "2026-08-25",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qZXVOS3EtcWUwSmpWZGNyVDhtdGt4WXZza0o3RW5lM04weFhyNmpfRGNpel9OZWxIV3I3amJjWHBFallmSmpOWV9YOTJwVkdBRXZ4eVVUam5KdGVhWTJRM3Rnd1NHTzJaR1E?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 韓 대학생에 또 '제미나이' 1년 무료 푼 구글…챗GPT 추격 승부수 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 이스트소프트, 비개발자 위한 AI 마크다운 앱 '마크닷' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "\"AI 메가트렌드에 주목\"… 반도체ETF 수익률 1위 운용사의 투자전략 - 머니투데이",
-        "enTitle": "\"AI 메가트렌드에 주목\"… 반도체ETF 수익률 1위 운용사의 투자전략 - 머니투데이",
-        "date": "2026-08-25",
-        "originalDate": "2026-08-24",
-        "sourceName": "머니투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pQXpOQllGU18ySFlfb3pPaUdtYUJEbVZGU1owWll0SGhDN0VTcFJZS1JJdDFSYU91NGdUNGxvSHR1UTJCTXRxU0VxZVpZcmJ0YVRFdmFYbklEYU9vOGFyU0ItMktuT2I40gFuQVVfeXFMTjJDMjZBMk50ZlMxX3kwRDZMTl9VSUJhM3pBRlNLMVpiQ0FBS3YwcUxhM2ZXekxGVHFtNWZ3Z2ZrRWdULWRoWGhoMmJEM1ZWY3hYdy1TNEtYeC1sMTFHWHA3NVpsdVRZVFFDWXpMblE?oc=5",
+        "koTitle": "리퀴드 AI, 스마트폰용 AI 벤치마크 앱 '피펫' 출시…무료 이용 가능",
+        "enTitle": "리퀴드 AI, 스마트폰용 AI 벤치마크 앱 '피펫' 출시…무료 이용 가능",
+        "date": "2026-08-26",
+        "originalDate": "2026-08-25",
+        "sourceName": "디지털투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAyTy1IV0l3bjJnMkZTU21kcE04X0x4NEI5MnhPLTQzQ3k2LXNxOE1LTW1BN18tMWFlNXFFeWZTZVV3QURQc2gyMUtaeEcxYTRPS3RwYUpPaEVVMDVieThUNE8ySWNIMWxKRGxzMG9nSXhESnM?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! \"AI 메가트렌드에 주목\"… 반도체ETF 수익률 1위 운용사의 투자전략 - 머니투데이 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 리퀴드 AI, 스마트폰용 AI 벤치마크 앱 '피펫' 출시…무료 이용 가능 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
