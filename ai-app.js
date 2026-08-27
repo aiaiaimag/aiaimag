@@ -1,46 +1,46 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-26
+ * 최신 업데이트: 2026-08-27
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "인공지능 직업의 미래에서 5가지 새로운 커리어 기회",
-        "enTitle": "5 New Career Opportunities In The AI Future Of Work",
-        "date": "2026-08-26",
-        "originalDate": "2026-08-25",
-        "sourceName": "Forbes",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMm9LRWFVamFfQUY5WFpvRzVLSG1iaFlKQ3MxdElKTGRvOFd3MUtyOUNwV1AxUWFOcVc5MGwyZjdhejRzd3JGN1RHZVZ2clZvTU9JbDlBdjl5WWVBTElmVmRUOUV4blZQZ2tQU2Z1b2ppbGtpcjVtRm1oWHFYVnZIQk8xeTVndE44SmI3MmtqV3pKSUw0M011NUY3MEgwY1VHMjVzb0xHNA?oc=5",
+        "koTitle": "Mark Zuckerberg는 Meta 직원을 AI로 대체할 대담한 계획을 가지고 있었습니다. 이것이 어떻게 분해되었는지 설명합니다.",
+        "enTitle": "Mark Zuckerberg had a bold plan to replace Meta staff with AI. Here’s how it imploded.",
+        "date": "2026-08-27",
+        "originalDate": "2026-08-26",
+        "sourceName": "Reuters",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMVhpalVEX2c1eUE5LVNJX0QyX0oyRmlxOThJTm9TZXpKbnpUbWU1Z1ZuQjlvVWpMQzBaamtsZlRpS2daendQY1pDQ2ZRWG45VlJ0eVlXNFVzUC1DcUQ0eTlMZEhRUnBjSmo3MHB6X1JCT2RZY0YyOGFPdjF2c216MnBZR3RSaFplYTg0bmVuNk42amZERzB3NGM1NGJaMUQtSjZXdlJtZmlUTktDcVBKaXVWekdtOGdoRlQ2d09CRFM1LVN1MktkTg?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능 직업의 미래에서 5가지 새로운 커리어 기회 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! Mark Zuckerberg는 Meta 직원을 AI로 대체할 대담한 계획을 가지고 있었습니다. 이것이 어떻게 분해되었는지 설명합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI가 조기 취업을 변화시키는 방법",
-        "enTitle": "How AI Is Changing Early Career Jobs",
-        "date": "2026-08-26",
+        "koTitle": "인공지능 직업의 미래에서 5가지 새로운 커리어 기회",
+        "enTitle": "5 New Career Opportunities In The AI Future Of Work",
+        "date": "2026-08-27",
         "originalDate": "2026-08-25",
-        "sourceName": "Techerati",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNjRHV29NdWJ4RnVGRUNlbW96aHNhbklqanhXLVZhbU1GMVpab0tsV2ZMTUdCUzBscldTUzlIaW55SEdrVDZUYkc2YktCLXNDVzd0X3ZTeV9reVF0TzA0ZzVJWEJUckF0b21YZWZ5bXEwWlY1bE1SV1VBeTF6TVZvV0Y0NnlGY29jRlNsVUItWElnWG9IUlNlVGFn?oc=5",
+        "sourceName": "Forbes",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMm9LRWFVamFfQUY5WFpvRzVLSG1iaFlKQ3MxdElKTGRvOFd3MUtyOUNwV1AxUWFOcVc5MGwyZjdhejRzd3JGN1RHZVZ2clZvTU9JbDlBdjl5WWVBTElmVmRUOUV4blZQZ2tQU2Z1b2ppbGtpcjVtRm1oWHFYVnZIQk8xeTVndE44SmI3MmtqV3pKSUw0M011NUY3MEgwY1VHMjVzb0xHNA?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 조기 취업을 변화시키는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능 직업의 미래에서 5가지 새로운 커리어 기회 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
         "koTitle": "영국, 반즐리 거주민이 미래 일자리에 대비할 수 있도록 AI 교육 계획 시작",
         "enTitle": "UK launches AI training schemes to prepare Barnsley residents for future jobs",
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "originalDate": "2026-08-25",
         "sourceName": "Digital Watch Observatory",
         "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBWbVp1eUoyNXdNTXNjSEdNdkJNdHNyNktRVVlDUl9veEZHWVVRRU5laVRwSWFUajF1RmNid1BZYkpZbGJ5aXFGWFp1bVFrdlBPUmN2Um9lbU91MDNGWjRqLXM2UW0wc3h4WHJxTzRoSDMtNTQxZWs3WQ?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
+        "viralRate": "92%",
         "analysis": "글로벌 AI 트렌드 체크! 영국, 반즐리 거주민이 미래 일자리에 대비할 수 있도록 AI 교육 계획 시작 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "대학생이면 구글 제미나이 ‘0원’… AI 플러스 1년 무료",
-        "enTitle": "대학생이면 구글 제미나이 ‘0원’… AI 플러스 1년 무료",
-        "date": "2026-08-26",
-        "originalDate": "2026-08-25",
-        "sourceName": "한국대학신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBaX0RKc3p2cnQyRFB1Ukp3dGlOYXNXWGxUVGZGcE16aXZRTTBkeXZyV3A5dmFrcVJGR0twRWllcFhCOE5UN1V0T1JfbzBJUnVwWkNHajRKR012ZjhRLW9jTzlJbVlLdw?oc=5",
+        "koTitle": "‘챗GPT VS 제미나이’...돈 되는 한국 시장 놓고 마케팅 전쟁",
+        "enTitle": "‘챗GPT VS 제미나이’...돈 되는 한국 시장 놓고 마케팅 전쟁",
+        "date": "2026-08-27",
+        "originalDate": "2026-08-27",
+        "sourceName": "조선일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUXpER2Rvb3dwVlJDemItUUNPTGRFQ2ZIcjV6dkd0LVMwS0xpZk85dlFpU3ZfQm1vQVhVTWZVMFExdGw0YW9ZLTdHcEFKS2VmYl95RHZWWjhvLWJPZ0FfSmVKRlE4ZWlqUUk5cDJBaVU1VmRRSTROUlJRSDdnMU5HODFkaw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 대학생이면 구글 제미나이 ‘0원’… AI 플러스 1년 무료 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! ‘챗GPT VS 제미나이’...돈 되는 한국 시장 놓고 마케팅 전쟁 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "이스트소프트, 비개발자 위한 AI 마크다운 앱 '마크닷' 출시",
-        "enTitle": "이스트소프트, 비개발자 위한 AI 마크다운 앱 '마크닷' 출시",
-        "date": "2026-08-26",
-        "originalDate": "2026-08-25",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qZXVOS3EtcWUwSmpWZGNyVDhtdGt4WXZza0o3RW5lM04weFhyNmpfRGNpel9OZWxIV3I3amJjWHBFallmSmpOWV9YOTJwVkdBRXZ4eVVUam5KdGVhWTJRM3Rnd1NHTzJaR1E?oc=5",
+        "koTitle": "키움증권, 자체 캐릭터 ‘키우마·키우묘’ 출시…AI 서비스 활용",
+        "enTitle": "키움증권, 자체 캐릭터 ‘키우마·키우묘’ 출시…AI 서비스 활용",
+        "date": "2026-08-27",
+        "originalDate": "2026-08-27",
+        "sourceName": "스마트투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5peDc5U0tUVkFWZXVIbkRkTGcyazhmZlVuR0RLeGViMVVwQXQxdVpmRVRzSFlONERLZVRDR2wyZ3N0UHBPTDJlTlRqVWhtOERPNXI3VnBaUjBwMU5pNm9j?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 이스트소프트, 비개발자 위한 AI 마크다운 앱 '마크닷' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 키움증권, 자체 캐릭터 ‘키우마·키우묘’ 출시…AI 서비스 활용 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "리퀴드 AI, 스마트폰용 AI 벤치마크 앱 '피펫' 출시…무료 이용 가능",
-        "enTitle": "리퀴드 AI, 스마트폰용 AI 벤치마크 앱 '피펫' 출시…무료 이용 가능",
-        "date": "2026-08-26",
-        "originalDate": "2026-08-25",
-        "sourceName": "디지털투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAyTy1IV0l3bjJnMkZTU21kcE04X0x4NEI5MnhPLTQzQ3k2LXNxOE1LTW1BN18tMWFlNXFFeWZTZVV3QURQc2gyMUtaeEcxYTRPS3RwYUpPaEVVMDVieThUNE8ySWNIMWxKRGxzMG9nSXhESnM?oc=5",
+        "koTitle": "OpenAI, 교사용 ChatGPT 10만 명 이상 교육자에게 확대",
+        "enTitle": "OpenAI, 교사용 ChatGPT 10만 명 이상 교육자에게 확대",
+        "date": "2026-08-27",
+        "originalDate": "2026-08-26",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE91NHBqaGhqUVhTczhIc3dqSEJpYVBXRDh1S254c2RHbHJyaHN5VDQtZkFrSzZGanJ0U09LbHhTOUY0SERMN0JYRmNNcDRPS21YT2ZpU0ZNSzA5X3JjTkxkZUxGRnNsNldCdzdSaGw5a2t0dmxWNlNN?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 리퀴드 AI, 스마트폰용 AI 벤치마크 앱 '피펫' 출시…무료 이용 가능 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! OpenAI, 교사용 ChatGPT 10만 명 이상 교육자에게 확대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
