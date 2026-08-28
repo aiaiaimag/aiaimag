@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-27
+ * 최신 업데이트: 2026-08-28
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Mark Zuckerberg는 Meta 직원을 AI로 대체할 대담한 계획을 가지고 있었습니다. 이것이 어떻게 분해되었는지 설명합니다.",
-        "enTitle": "Mark Zuckerberg had a bold plan to replace Meta staff with AI. Here’s how it imploded.",
-        "date": "2026-08-27",
-        "originalDate": "2026-08-26",
-        "sourceName": "Reuters",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMVhpalVEX2c1eUE5LVNJX0QyX0oyRmlxOThJTm9TZXpKbnpUbWU1Z1ZuQjlvVWpMQzBaamtsZlRpS2daendQY1pDQ2ZRWG45VlJ0eVlXNFVzUC1DcUQ0eTlMZEhRUnBjSmo3MHB6X1JCT2RZY0YyOGFPdjF2c216MnBZR3RSaFplYTg0bmVuNk42amZERzB3NGM1NGJaMUQtSjZXdlJtZmlUTktDcVBKaXVWekdtOGdoRlQ2d09CRFM1LVN1MktkTg?oc=5",
+        "koTitle": "격동의 AI 시대가 도래했습니다. 지금 우리가 내리는 선택은 매우 중요합니다.",
+        "enTitle": "The turbulent AI era is here. The choices we make now are critical.",
+        "date": "2026-08-28",
+        "originalDate": "2026-08-28",
+        "sourceName": "gatesnotes.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! Mark Zuckerberg는 Meta 직원을 AI로 대체할 대담한 계획을 가지고 있었습니다. 이것이 어떻게 분해되었는지 설명합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 격동의 AI 시대가 도래했습니다. 지금 우리가 내리는 선택은 매우 중요합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "인공지능 직업의 미래에서 5가지 새로운 커리어 기회",
-        "enTitle": "5 New Career Opportunities In The AI Future Of Work",
-        "date": "2026-08-27",
-        "originalDate": "2026-08-25",
-        "sourceName": "Forbes",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMm9LRWFVamFfQUY5WFpvRzVLSG1iaFlKQ3MxdElKTGRvOFd3MUtyOUNwV1AxUWFOcVc5MGwyZjdhejRzd3JGN1RHZVZ2clZvTU9JbDlBdjl5WWVBTElmVmRUOUV4blZQZ2tQU2Z1b2ppbGtpcjVtRm1oWHFYVnZIQk8xeTVndE44SmI3MmtqV3pKSUw0M011NUY3MEgwY1VHMjVzb0xHNA?oc=5",
+        "koTitle": "파키스탄의 새로운 학문적 경쟁: 엔지니어링, AI 및 미래의 직업",
+        "enTitle": "The new academic race in Pakistan: engineering, AI and the future of work",
+        "date": "2026-08-28",
+        "originalDate": "2026-08-28",
+        "sourceName": "The News Pakistan",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYlVqRWEtNzRMaFVHMG9HX1FTc2RaVVB0SGpjNGRhWGlEVzVfS0ZoTjR4SEZiMWtvLXQyVC1UaUIzMHZycVBrcUJrcHl6aWVaamJGeTJMWnF4M192Z2FZdE01Y1NCVlVWbERqMEdtV1lZR2d2SndoSjRrTTFFSUNOWnpfTk1MeVZIbnRGcFZ0S2xMU0JvNlF6MXBDc2gzMDl4VjVrMnBhU2dWYVRRSlNhalY0TGM?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능 직업의 미래에서 5가지 새로운 커리어 기회 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 파키스탄의 새로운 학문적 경쟁: 엔지니어링, AI 및 미래의 직업 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "영국, 반즐리 거주민이 미래 일자리에 대비할 수 있도록 AI 교육 계획 시작",
-        "enTitle": "UK launches AI training schemes to prepare Barnsley residents for future jobs",
-        "date": "2026-08-27",
-        "originalDate": "2026-08-25",
-        "sourceName": "Digital Watch Observatory",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBWbVp1eUoyNXdNTXNjSEdNdkJNdHNyNktRVVlDUl9veEZHWVVRRU5laVRwSWFUajF1RmNid1BZYkpZbGJ5aXFGWFp1bVFrdlBPUmN2Um9lbU91MDNGWjRqLXM2UW0wc3h4WHJxTzRoSDMtNTQxZWs3WQ?oc=5",
+        "koTitle": "Mark Zuckerberg는 Meta 직원을 AI로 대체할 대담한 계획을 가지고 있었습니다. 이것이 어떻게 분해되었는지 설명합니다.",
+        "enTitle": "Mark Zuckerberg had a bold plan to replace Meta staff with AI. Here’s how it imploded.",
+        "date": "2026-08-28",
+        "originalDate": "2026-08-26",
+        "sourceName": "Reuters",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMVhpalVEX2c1eUE5LVNJX0QyX0oyRmlxOThJTm9TZXpKbnpUbWU1Z1ZuQjlvVWpMQzBaamtsZlRpS2daendQY1pDQ2ZRWG45VlJ0eVlXNFVzUC1DcUQ0eTlMZEhRUnBjSmo3MHB6X1JCT2RZY0YyOGFPdjF2c216MnBZR3RSaFplYTg0bmVuNk42amZERzB3NGM1NGJaMUQtSjZXdlJtZmlUTktDcVBKaXVWekdtOGdoRlQ2d09CRFM1LVN1MktkTg?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 영국, 반즐리 거주민이 미래 일자리에 대비할 수 있도록 AI 교육 계획 시작 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! Mark Zuckerberg는 Meta 직원을 AI로 대체할 대담한 계획을 가지고 있었습니다. 이것이 어떻게 분해되었는지 설명합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "‘챗GPT VS 제미나이’...돈 되는 한국 시장 놓고 마케팅 전쟁",
-        "enTitle": "‘챗GPT VS 제미나이’...돈 되는 한국 시장 놓고 마케팅 전쟁",
-        "date": "2026-08-27",
-        "originalDate": "2026-08-27",
-        "sourceName": "조선일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUXpER2Rvb3dwVlJDemItUUNPTGRFQ2ZIcjV6dkd0LVMwS0xpZk85dlFpU3ZfQm1vQVhVTWZVMFExdGw0YW9ZLTdHcEFKS2VmYl95RHZWWjhvLWJPZ0FfSmVKRlE4ZWlqUUk5cDJBaVU1VmRRSTROUlJRSDdnMU5HODFkaw?oc=5",
+        "koTitle": "세일즈포스, 앤트로픽과 CRM·클로드 결합한 ‘클로드포스’ 발표 - 조선비즈",
+        "enTitle": "세일즈포스, 앤트로픽과 CRM·클로드 결합한 ‘클로드포스’ 발표 - 조선비즈",
+        "date": "2026-08-28",
+        "originalDate": "2026-08-28",
+        "sourceName": "Chosunbiz",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOS3Z1cVNJdnIzWExZWFhzQ1hXLUM0cWYwUUpocTdrQU9Da041MW5UYVVubGtlc2xocnZMaEF0UEF6RVlFZUFucHN2akNFeG9YTWJEU011eWFqTi1mNHZDVjdJUWRSdF9zQkd0VEhkSTdNNHltNGlfclBYQ1l1X2lQT0130gGWAUFVX3lxTE5mdy10TTlLLVVuTngwUWI0VkMxY3hqaU9iWnVCYXRMT1pNZkw4WUtMc0N6TEZ5U3lfcnM4LW5nbTUxY2pBQWpmS29UQ2pzM2hNZjFvU2JhMFdOMmdRYkVQM0NjYjI0VXRUR3FVMmRHQjktVlV1M1VMekVyQ3NvWDFnVHA3cXdNQlZTZFdNMU9GRGk5a3pFdw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! ‘챗GPT VS 제미나이’...돈 되는 한국 시장 놓고 마케팅 전쟁 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 세일즈포스, 앤트로픽과 CRM·클로드 결합한 ‘클로드포스’ 발표 - 조선비즈 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "키움증권, 자체 캐릭터 ‘키우마·키우묘’ 출시…AI 서비스 활용",
-        "enTitle": "키움증권, 자체 캐릭터 ‘키우마·키우묘’ 출시…AI 서비스 활용",
-        "date": "2026-08-27",
-        "originalDate": "2026-08-27",
-        "sourceName": "스마트투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5peDc5U0tUVkFWZXVIbkRkTGcyazhmZlVuR0RLeGViMVVwQXQxdVpmRVRzSFlONERLZVRDR2wyZ3N0UHBPTDJlTlRqVWhtOERPNXI3VnBaUjBwMU5pNm9j?oc=5",
+        "koTitle": "ADT캡스, ‘캡스홈’ AI 기능 강화…생활안전 서비스 확대",
+        "enTitle": "ADT캡스, ‘캡스홈’ AI 기능 강화…생활안전 서비스 확대",
+        "date": "2026-08-28",
+        "originalDate": "2026-08-28",
+        "sourceName": "서울경제TV",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9yVzBJcGoyNzRkd2NYMEp4RFhVY21tMUVEN3EwRWp2TW9qVFcxUmFqNDQtMkhzYnFQRGsxeTdCTzRtWG9DcFVTMHE5Yk9MM0M4ekMyN3B2ekpvUUtreW9pNEJDc1I?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 키움증권, 자체 캐릭터 ‘키우마·키우묘’ 출시…AI 서비스 활용 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! ADT캡스, ‘캡스홈’ AI 기능 강화…생활안전 서비스 확대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "OpenAI, 교사용 ChatGPT 10만 명 이상 교육자에게 확대",
-        "enTitle": "OpenAI, 교사용 ChatGPT 10만 명 이상 교육자에게 확대",
-        "date": "2026-08-27",
-        "originalDate": "2026-08-26",
-        "sourceName": "Investing.com 한국어",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE91NHBqaGhqUVhTczhIc3dqSEJpYVBXRDh1S254c2RHbHJyaHN5VDQtZkFrSzZGanJ0U09LbHhTOUY0SERMN0JYRmNNcDRPS21YT2ZpU0ZNSzA5X3JjTkxkZUxGRnNsNldCdzdSaGw5a2t0dmxWNlNN?oc=5",
+        "koTitle": "LSK아이로봇, AI 트렌드 조사…80.8% \"버추얼 IP가 산업 혁신할 것\" - 머니투데이",
+        "enTitle": "LSK아이로봇, AI 트렌드 조사…80.8% \"버추얼 IP가 산업 혁신할 것\" - 머니투데이",
+        "date": "2026-08-28",
+        "originalDate": "2026-08-28",
+        "sourceName": "머니투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TLUdZSEJZVGMycjhYTmZGUzFJc2kwQm1nWkI2Mzk2TDhHS19oV0I1UFBMdkFQeGpDVmNnTzFrNk5MdnZCOGxyU3FfY2VkSG92YkhQbXBKU3VHT21zY0dWQUhlY3VMNTVfMGpzWERn0gFuQVVfeXFMTVMtR1lIQllUYzJyOFhOZkZTMUlzaTBCbWdaQjYzOTZMOEdLX2hXQjVQUEx2QVB4akNWY2dPMWs2Tkx2dkI4bHJTcV9jZWRIb3ZiSFBtcEpTdUdPbXNjR1ZBSGVjdUw1NV8wanNYRGc?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! OpenAI, 교사용 ChatGPT 10만 명 이상 교육자에게 확대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! LSK아이로봇, AI 트렌드 조사…80.8% \"버추얼 IP가 산업 혁신할 것\" - 머니투데이 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
