@@ -1,7 +1,7 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-28
+ * 최신 업데이트: 2026-08-29
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
@@ -10,8 +10,8 @@ const aiNewsData = [
         "rank": 1,
         "koTitle": "격동의 AI 시대가 도래했습니다. 지금 우리가 내리는 선택은 매우 중요합니다.",
         "enTitle": "The turbulent AI era is here. The choices we make now are critical.",
-        "date": "2026-08-28",
-        "originalDate": "2026-08-28",
+        "date": "2026-08-29",
+        "originalDate": "2026-08-29",
         "sourceName": "gatesnotes.com",
         "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
         "isRepublished": false,
@@ -21,21 +21,21 @@ const aiNewsData = [
     },
     {
         "rank": 2,
-        "koTitle": "파키스탄의 새로운 학문적 경쟁: 엔지니어링, AI 및 미래의 직업",
-        "enTitle": "The new academic race in Pakistan: engineering, AI and the future of work",
-        "date": "2026-08-28",
-        "originalDate": "2026-08-28",
-        "sourceName": "The News Pakistan",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYlVqRWEtNzRMaFVHMG9HX1FTc2RaVVB0SGpjNGRhWGlEVzVfS0ZoTjR4SEZiMWtvLXQyVC1UaUIzMHZycVBrcUJrcHl6aWVaamJGeTJMWnF4M192Z2FZdE01Y1NCVlVWbERqMEdtV1lZR2d2SndoSjRrTTFFSUNOWnpfTk1MeVZIbnRGcFZ0S2xMU0JvNlF6MXBDc2gzMDl4VjVrMnBhU2dWYVRRSlNhalY0TGM?oc=5",
+        "koTitle": "빌 게이츠는 인공지능과 인류의 미래에 대해 엄중한 경고를 내린다.",
+        "enTitle": "Bill Gates issues stark warning about AI and the future of humanity",
+        "date": "2026-08-29",
+        "originalDate": "2026-08-27",
+        "sourceName": "SiliconANGLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUzdMcXZ2cm5hZXYtRXgzQ193YTBISmNpSWptT3hBeERqaTg0WWhUVVVvRmdxWVlGS1ZfZHhWZ25QanZhYmZZeUQyYWEtTVplekw1YWhIUnh2SlRQY0wtY05OTmtJUnNwT1NOTUxfR3dSUXhCeWM5cGF2R0M0TGpNaE5DWmUwRnRFb1EyTUs4R3h3RG9pMzJWSHZzRkI4cGlfeXA4T3Njaw?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 파키스탄의 새로운 학문적 경쟁: 엔지니어링, AI 및 미래의 직업 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 빌 게이츠는 인공지능과 인류의 미래에 대해 엄중한 경고를 내린다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
         "koTitle": "Mark Zuckerberg는 Meta 직원을 AI로 대체할 대담한 계획을 가지고 있었습니다. 이것이 어떻게 분해되었는지 설명합니다.",
         "enTitle": "Mark Zuckerberg had a bold plan to replace Meta staff with AI. Here’s how it imploded.",
-        "date": "2026-08-28",
+        "date": "2026-08-29",
         "originalDate": "2026-08-26",
         "sourceName": "Reuters",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMVhpalVEX2c1eUE5LVNJX0QyX0oyRmlxOThJTm9TZXpKbnpUbWU1Z1ZuQjlvVWpMQzBaamtsZlRpS2daendQY1pDQ2ZRWG45VlJ0eVlXNFVzUC1DcUQ0eTlMZEhRUnBjSmo3MHB6X1JCT2RZY0YyOGFPdjF2c216MnBZR3RSaFplYTg0bmVuNk42amZERzB3NGM1NGJaMUQtSjZXdlJtZmlUTktDcVBKaXVWekdtOGdoRlQ2d09CRFM1LVN1MktkTg?oc=5",
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "세일즈포스, 앤트로픽과 CRM·클로드 결합한 ‘클로드포스’ 발표 - 조선비즈",
-        "enTitle": "세일즈포스, 앤트로픽과 CRM·클로드 결합한 ‘클로드포스’ 발표 - 조선비즈",
-        "date": "2026-08-28",
-        "originalDate": "2026-08-28",
-        "sourceName": "Chosunbiz",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOS3Z1cVNJdnIzWExZWFhzQ1hXLUM0cWYwUUpocTdrQU9Da041MW5UYVVubGtlc2xocnZMaEF0UEF6RVlFZUFucHN2akNFeG9YTWJEU011eWFqTi1mNHZDVjdJUWRSdF9zQkd0VEhkSTdNNHltNGlfclBYQ1l1X2lQT0130gGWAUFVX3lxTE5mdy10TTlLLVVuTngwUWI0VkMxY3hqaU9iWnVCYXRMT1pNZkw4WUtMc0N6TEZ5U3lfcnM4LW5nbTUxY2pBQWpmS29UQ2pzM2hNZjFvU2JhMFdOMmdRYkVQM0NjYjI0VXRUR3FVMmRHQjktVlV1M1VMekVyQ3NvWDFnVHA3cXdNQlZTZFdNMU9GRGk5a3pFdw?oc=5",
+        "koTitle": "비디오 생성 AI ‘제미나이 옴니 1.1 플래시’ 공개… “4K 업스케일링 및 제어 기능 강화”",
+        "enTitle": "비디오 생성 AI ‘제미나이 옴니 1.1 플래시’ 공개… “4K 업스케일링 및 제어 기능 강화”",
+        "date": "2026-08-29",
+        "originalDate": "2026-08-29",
+        "sourceName": "인공지능신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84TVYwcWFmYjNlMVhiOXB4UzVlMDZlMUdMNzVOV2tNZTJ1VWlYNnY4c0ZKekw1Q1FnM3RMUWk5aXAyZ25HY1Q4ZXpXQUdhVjNyekVMUU9TQUdvWVVRY0stTDFmU2NyMzQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 세일즈포스, 앤트로픽과 CRM·클로드 결합한 ‘클로드포스’ 발표 - 조선비즈 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 비디오 생성 AI ‘제미나이 옴니 1.1 플래시’ 공개… “4K 업스케일링 및 제어 기능 강화” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "ADT캡스, ‘캡스홈’ AI 기능 강화…생활안전 서비스 확대",
-        "enTitle": "ADT캡스, ‘캡스홈’ AI 기능 강화…생활안전 서비스 확대",
-        "date": "2026-08-28",
-        "originalDate": "2026-08-28",
-        "sourceName": "서울경제TV",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9yVzBJcGoyNzRkd2NYMEp4RFhVY21tMUVEN3EwRWp2TW9qVFcxUmFqNDQtMkhzYnFQRGsxeTdCTzRtWG9DcFVTMHE5Yk9MM0M4ekMyN3B2ekpvUUtreW9pNEJDc1I?oc=5",
+        "koTitle": "메타, 80억 소형 AI로 ‘클로드 오퍼스 4.5’급 성능 구현…‘에보하네스-RL’ 공개",
+        "enTitle": "메타, 80억 소형 AI로 ‘클로드 오퍼스 4.5’급 성능 구현…‘에보하네스-RL’ 공개",
+        "date": "2026-08-29",
+        "originalDate": "2026-08-29",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Calg1V00yVFdxeXp1TjBDSzlnWm5NX2NVOHA4aUx6SFdyUDBqLWxfQWQ0Nm1naFJuLVN3dnZCTGI5X2J2eGtYM0Y2dW85SVhNWHFuRmVoTjdaUHNiTjg0Qi1tVzFLU05VZkE?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! ADT캡스, ‘캡스홈’ AI 기능 강화…생활안전 서비스 확대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 메타, 80억 소형 AI로 ‘클로드 오퍼스 4.5’급 성능 구현…‘에보하네스-RL’ 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "LSK아이로봇, AI 트렌드 조사…80.8% \"버추얼 IP가 산업 혁신할 것\" - 머니투데이",
-        "enTitle": "LSK아이로봇, AI 트렌드 조사…80.8% \"버추얼 IP가 산업 혁신할 것\" - 머니투데이",
-        "date": "2026-08-28",
+        "koTitle": "연내 ‘전국민 무료 AI 시대’ 열린다…‘모두의 AI’에 카카오·SKT·KT 선정",
+        "enTitle": "연내 ‘전국민 무료 AI 시대’ 열린다…‘모두의 AI’에 카카오·SKT·KT 선정",
+        "date": "2026-08-29",
         "originalDate": "2026-08-28",
-        "sourceName": "머니투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TLUdZSEJZVGMycjhYTmZGUzFJc2kwQm1nWkI2Mzk2TDhHS19oV0I1UFBMdkFQeGpDVmNnTzFrNk5MdnZCOGxyU3FfY2VkSG92YkhQbXBKU3VHT21zY0dWQUhlY3VMNTVfMGpzWERn0gFuQVVfeXFMTVMtR1lIQllUYzJyOFhOZkZTMUlzaTBCbWdaQjYzOTZMOEdLX2hXQjVQUEx2QVB4akNWY2dPMWs2Tkx2dkI4bHJTcV9jZWRIb3ZiSFBtcEpTdUdPbXNjR1ZBSGVjdUw1NV8wanNYRGc?oc=5",
+        "sourceName": "농민신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3VlRsQWdJVTA2VTBzcGljUlRxZ2YxakhQNnFURER0UGxqYWZDM2lZZGNBcnNMUEppcDRWaXQxZFlpRXlRRng1el9NWExSY3RSSUhCVjl6MW9XUQ?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! LSK아이로봇, AI 트렌드 조사…80.8% \"버추얼 IP가 산업 혁신할 것\" - 머니투데이 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 연내 ‘전국민 무료 AI 시대’ 열린다…‘모두의 AI’에 카카오·SKT·KT 선정 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
