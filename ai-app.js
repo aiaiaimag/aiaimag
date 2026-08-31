@@ -1,7 +1,7 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-08-30
+ * 최신 업데이트: 2026-08-31
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
@@ -10,8 +10,8 @@ const aiNewsData = [
         "rank": 1,
         "koTitle": "격동의 AI 시대가 도래했습니다. 지금 우리가 내리는 선택은 매우 중요합니다.",
         "enTitle": "The turbulent AI era is here. The choices we make now are critical.",
-        "date": "2026-08-30",
-        "originalDate": "2026-08-29",
+        "date": "2026-08-31",
+        "originalDate": "2026-08-30",
         "sourceName": "gatesnotes.com",
         "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
         "isRepublished": false,
@@ -21,27 +21,27 @@ const aiNewsData = [
     },
     {
         "rank": 2,
+        "koTitle": "앞으로의 일터: 인공지능, 인재 그리고 일의 미래",
+        "enTitle": "The workplace ahead: AI, talent and the future of work",
+        "date": "2026-08-31",
+        "originalDate": "2026-08-28",
+        "sourceName": "The Business Journals",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdTJRWjFNWlJUNHBHUGt3ZmgwMG1WbUNKU3BKdmN3aDY5MW1LSHp6MkV2U1RRZ2wwelRRMHBzSHE0SUZJbmxqa2Z6SEtQb01OU1gxTUV4aV96R2pGQjkyaEZKeTVtcHNMQ0xUOTBNd1FKdE1wbkJENG9fT0lVWFVhanJvTGRXN3NrRTkxNklURkx0LS02cWo4UkxmYw?oc=5",
+        "isRepublished": false,
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 앞으로의 일터: 인공지능, 인재 그리고 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "파키스탄의 새로운 학문적 경쟁: 엔지니어링, AI 및 미래의 직업",
         "enTitle": "The new academic race in Pakistan: engineering, AI and the future of work",
-        "date": "2026-08-30",
+        "date": "2026-08-31",
         "originalDate": "2026-08-28",
         "sourceName": "The News Pakistan",
         "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYlVqRWEtNzRMaFVHMG9HX1FTc2RaVVB0SGpjNGRhWGlEVzVfS0ZoTjR4SEZiMWtvLXQyVC1UaUIzMHZycVBrcUJrcHl6aWVaamJGeTJMWnF4M192Z2FZdE01Y1NCVlVWbERqMEdtV1lZR2d2SndoSjRrTTFFSUNOWnpfTk1MeVZIbnRGcFZ0S2xMU0JvNlF6MXBDc2gzMDl4VjVrMnBhU2dWYVRRSlNhalY0TGM?oc=5",
         "isRepublished": false,
         "viralRate": "90%",
         "analysis": "글로벌 AI 트렌드 체크! 파키스탄의 새로운 학문적 경쟁: 엔지니어링, AI 및 미래의 직업 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "빌 게이츠는 인공지능과 인류의 미래에 대해 엄중한 경고를 내린다.",
-        "enTitle": "Bill Gates issues stark warning about AI and the future of humanity",
-        "date": "2026-08-30",
-        "originalDate": "2026-08-27",
-        "sourceName": "SiliconANGLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUzdMcXZ2cm5hZXYtRXgzQ193YTBISmNpSWptT3hBeERqaTg0WWhUVVVvRmdxWVlGS1ZfZHhWZ25QanZhYmZZeUQyYWEtTVplekw1YWhIUnh2SlRQY0wtY05OTmtJUnNwT1NOTUxfR3dSUXhCeWM5cGF2R0M0TGpNaE5DWmUwRnRFb1EyTUs4R3h3RG9pMzJWSHZzRkI4cGlfeXA4T3Njaw?oc=5",
-        "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 빌 게이츠는 인공지능과 인류의 미래에 대해 엄중한 경고를 내린다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "\"메일 지워줘\" 말로 시키면 척척⋯구글, 제미나이 라이브에 업무 기능 통합",
-        "enTitle": "\"메일 지워줘\" 말로 시키면 척척⋯구글, 제미나이 라이브에 업무 기능 통합",
-        "date": "2026-08-30",
-        "originalDate": "2026-08-29",
-        "sourceName": "아이뉴스24",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBUeWoxZkd6cjRoNzZSNU1kdGEwRlVBaHc4Y0VCUG93T0s5ZnRPQVpfM1JDa21RM3o1WWoyZDlkUnFjQlRhemlwSlVzaw?oc=5",
+        "koTitle": "ChatGPT 0830",
+        "enTitle": "ChatGPT 0830",
+        "date": "2026-08-31",
+        "originalDate": "2026-08-30",
+        "sourceName": "더인디고",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9TYXZzYm5FQ2hEX1FHZlMzclN6dzE1QV9vMUYwOF9YbUlYSmU0RG5LNTNDdTVNamZnOFpEYzhwcFo5bV9ibXQ4UDFvOWdZd0hiYl9wSVhOajV2RFlqVUZMNQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! \"메일 지워줘\" 말로 시키면 척척⋯구글, 제미나이 라이브에 업무 기능 통합 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! ChatGPT 0830 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "엔비디아 실적 보는 눈 달라졌다…'GPU 판매'서 '고객 수익화'로",
-        "enTitle": "엔비디아 실적 보는 눈 달라졌다…'GPU 판매'서 '고객 수익화'로",
-        "date": "2026-08-30",
-        "originalDate": "2026-08-29",
-        "sourceName": "KB Think",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5wbDNtd0FUc2kxbVdOcXBOS1lUcXJ5NXBuRUM0OWVWeW1oLXFvaUhPYXUwblV1dkc1enc2OWJWYm1ybGhRN2FoQVEtZzlfM0d5Vi14dTlaRDVBYlJ2RzU0Q1g3bFNNZXVYUTJockJwMy0wZw?oc=5",
+        "koTitle": "재테크부터 AI·취업까지…강서구, 청년의 날 ‘어쩌다 청년생활’",
+        "enTitle": "재테크부터 AI·취업까지…강서구, 청년의 날 ‘어쩌다 청년생활’",
+        "date": "2026-08-31",
+        "originalDate": "2026-08-30",
+        "sourceName": "문화일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE43T1BWelBSQ21qazFUMW03NGI5VVA0ZnZ4azl3X19ieHJOUmtDaVZfbms3ckpvZVdfVEVySXF5V1N0Rms5bEo2WVF3MXFCckFD?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 엔비디아 실적 보는 눈 달라졌다…'GPU 판매'서 '고객 수익화'로 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 재테크부터 AI·취업까지…강서구, 청년의 날 ‘어쩌다 청년생활’ 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "건강·매장관리·취업까지…'모두의 AI'가 바꿀 풍경 \"체감이 관건\" - 머니투데이",
-        "enTitle": "건강·매장관리·취업까지…'모두의 AI'가 바꿀 풍경 \"체감이 관건\" - 머니투데이",
-        "date": "2026-08-30",
-        "originalDate": "2026-08-29",
-        "sourceName": "머니투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VY01vZnZzR19WQ2NCeHdBYkZzX1VfRGE4NHJTV1JYWUIyUnloeUJ3U3dkNzg0SGYxU0xremJDOFhxeFJlX2NSRmZubkRmYzFmR0RmajdSYVpVWl9BVDhjejlrdWtSSkXSAWxBVV95cUxPTlBwS3ZtRnEwYlphandDLUNMNG90UGQ2eVBNN3A2cFVYQjlMeGptV2R2R25nTHFyVzNCTWE5cVhzYjFOYmM4Njd0Q0ZrS0tRTThiQzZEWXU5SEFHR1BFRHI0a1o4Tm5zSzNOZWE?oc=5",
+        "koTitle": "ChatGPT 광고가 시작되면, 브랜드는 무엇을 준비해야 할까",
+        "enTitle": "ChatGPT 광고가 시작되면, 브랜드는 무엇을 준비해야 할까",
+        "date": "2026-08-31",
+        "originalDate": "2026-08-30",
+        "sourceName": "오픈애즈",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81RHM5WGtvNEthcDRDZ0R3Z0F0NmFQUDQxcU5hUFA0TVRwbXJqMEhZUnhWOEExbGVLRFJxNDRLOU9SNzBJaEEyZjk3NDZJZ0NjOHlQMjhqMklNQU1ESXZ3Z3lKc25LQ0x6UVZGWkZ3?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 건강·매장관리·취업까지…'모두의 AI'가 바꿀 풍경 \"체감이 관건\" - 머니투데이 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! ChatGPT 광고가 시작되면, 브랜드는 무엇을 준비해야 할까 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
