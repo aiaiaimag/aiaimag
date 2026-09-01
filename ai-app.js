@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-01
+ * 최신 업데이트: 2026-09-02
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "ADP CEO: 일자리와 AI에 대한 진정한 대화는 다음에 올 일에 어떻게 대비해야 할까요?",
-        "enTitle": "ADP CEO: the real conversation on jobs and AI is how do we prepare for what comes next?",
-        "date": "2026-09-01",
-        "originalDate": "2026-08-31",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcHFMVmhxWGFrbVlRbDlJMkZuNjNNcFJ0WmFMNnAybU9sTTVXUE1GdkpVbzJEMFlDWEdHVU5EZXhsQ1pUX3kyNmVHTXRVZnZoUlVwQUR3bks1TElpSmRfd2pSSEZUY0poeTU1MFhvcU9ZcXY0eG1vYXdRZjRpVk5rOTN3Ti1XNF9qaTlJZkpIUXNLQXdpSWpaRFZOakRpcFJFLVpzdWV6ZFRRSUJINFUwSWFWdkVzTzgx?oc=5",
+        "koTitle": "이 노동자들은 그들의 직업이 AI로 대체되었다고 말합니다. 당신에게 그런 일이 일어날 수 있습니까?",
+        "enTitle": "These workers say their jobs were replaced by AI. Could it happen to you?",
+        "date": "2026-09-02",
+        "originalDate": "2026-09-01",
+        "sourceName": "SBS",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZ19mWjBIR2x4VnVCSFo4TWxjRGRMUUlRNWpPQmxKY3pjRllsZWtlbkk4VFpCNlp4OElfaGdyVU50bEFWaHVwS1JLWnNsOFA5SVdaRER1LTVKV1ZaWFprUE9tUmsxMXltV1FNdXd2VzE5ektoOUFZV2dfSGNRYTRxNVdDMGpqYmdVNUE?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! ADP CEO: 일자리와 AI에 대한 진정한 대화는 다음에 올 일에 어떻게 대비해야 할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 이 노동자들은 그들의 직업이 AI로 대체되었다고 말합니다. 당신에게 그런 일이 일어날 수 있습니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "싱가포르는 AI가 일자리를 방해하기 전에 근로자들이 지원이 필요하다고 말합니다.",
-        "enTitle": "Singapore Says Workers Need Support Before AI Disrupts Jobs",
-        "date": "2026-09-01",
-        "originalDate": "2026-08-31",
-        "sourceName": "Migrant Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbDJjWEdYbjJxc0VKcTRQaHdwSUhSRVRpNTA2RXExR3FmZWVkcEVoZjF2RVhSUFBhQVJiZVRBOFhyb1pxTDl3dzluUkp4b3laazhXNXBqVmNnWnB5SlRnQUo5Mzl3ZFJ4VDVxdlNrRlNTQmY0RUw4d3FDRFpLOEVFVG9WX0ZxeTd1YkMtNTNaZjhhdlZpd3FwdmVZMTMzLUhoWVdJQmUxOTVpNHZVZll5NThYalJEaUlWZVhrMlkxdFRxc1NFUGpuMU9NRVo0Zy1DRE5RYTVrSnl1UWc?oc=5",
-        "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 싱가포르는 AI가 일자리를 방해하기 전에 근로자들이 지원이 필요하다고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "koTitle": "인공지능으로 수익을 창출하는 방법: 2026년을 위한 15가지 이상의 효과적인 방법",
+        "enTitle": "How to make money with AI: 15+ effective ways for 2026",
+        "date": "2026-09-02",
+        "originalDate": "2026-08-25",
+        "sourceName": "Hostinger",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84emdrNFphd0FHbTlXM1ZLcVpaUEhnaUROOExrUDBsWmotdVhlQ3hPeFpfTmZJcGtLWmMxS0F0SWN2MHpHYU56RWx3a0FtOXZfblpTRzg2WFFLWmNrcGRmdFY2UVAzYndnOC1WTS1nQVFkcFk?oc=5",
+        "isRepublished": true,
+        "viralRate": "91%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능으로 수익을 창출하는 방법: 2026년을 위한 15가지 이상의 효과적인 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "앞으로의 일터: 인공지능, 인재 그리고 일의 미래",
-        "enTitle": "The workplace ahead: AI, talent and the future of work",
-        "date": "2026-09-01",
-        "originalDate": "2026-08-28",
-        "sourceName": "The Business Journals",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdTJRWjFNWlJUNHBHUGt3ZmgwMG1WbUNKU3BKdmN3aDY5MW1LSHp6MkV2U1RRZ2wwelRRMHBzSHE0SUZJbmxqa2Z6SEtQb01OU1gxTUV4aV96R2pGQjkyaEZKeTVtcHNMQ0xUOTBNd1FKdE1wbkJENG9fT0lVWFVhanJvTGRXN3NrRTkxNklURkx0LS02cWo4UkxmYw?oc=5",
-        "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "글로벌 AI 트렌드 체크! 앞으로의 일터: 인공지능, 인재 그리고 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "koTitle": "AI 의류 교환기 앱 8개를 테스트했습니다. 결과는 다음과 같습니다.",
+        "enTitle": "I Tested 8 AI Clothes Changer Apps — And Here Are the Results",
+        "date": "2026-09-02",
+        "originalDate": "2026-08-21",
+        "sourceName": "perfectcorp.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWVlQY0U5SExfUUVCZDFIbHJOVnVxcDM2cnpFQm1ROFBOY0tqQjlHTlhXeEJESHQ1SVV0dndxUGNzOC1KWVhlQ0VNdkRFd3FTeHZNTlBQazFMUGZ6T1NaS2pzd0UzV09YQW5ZMDNLSXdMT24xY0h4TGhEb3NGRzBzdFRB?oc=5",
+        "isRepublished": true,
+        "viralRate": "87%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 의류 교환기 앱 8개를 테스트했습니다. 결과는 다음과 같습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "유럽연합(EU)은 ChatGPT를 포함한 미국 서비스 플랫폼 3곳에 대한 감시를 강화하고 있다.",
-        "enTitle": "유럽연합(EU)은 ChatGPT를 포함한 미국 서비스 플랫폼 3곳에 대한 감시를 강화하고 있다.",
-        "date": "2026-09-01",
+        "koTitle": "앤스로픽, 클로드 페이블 5.1 공개…\"가격 25% 인하\"",
+        "enTitle": "앤스로픽, 클로드 페이블 5.1 공개…\"가격 25% 인하\"",
+        "date": "2026-09-02",
         "originalDate": "2026-09-01",
-        "sourceName": "Vietnam.vn",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWW1iNXl1YjN4WGVqM3RQTkVYaTNoRjdLbFhSeW4wLV8teW1QOWIxZjZZTWN0TkNuMy1uSzdBa2NwQ0dfNG83M0xMRjZPY1ZUcFJOM1hsdE9xcExMYzF4S1ZDZ3JJMThLUXVjc0xabkg3YzVodkE2elQwdVRoZkZMeHg0dnhqRnBuRFN5d2ZHVXJNUGM?oc=5",
+        "sourceName": "뉴스핌",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9VRld5bUpFVnJNWTNBWEJ2MVpEYVNxcmlBLXhpY0hhNXcxbC03UVAxU2RWUUdPa3BPSVhlR3RWbzF5aDhlb3AxelhlckQ3Y1BXLUVKRkpHaXBCX05M?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 유럽연합(EU)은 ChatGPT를 포함한 미국 서비스 플랫폼 3곳에 대한 감시를 강화하고 있다. 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 앤스로픽, 클로드 페이블 5.1 공개…\"가격 25% 인하\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "AI로 벌었나? 머스크 덕에 벌었나? 빅테크 AI 수익 ‘착시 논란’",
-        "enTitle": "AI로 벌었나? 머스크 덕에 벌었나? 빅테크 AI 수익 ‘착시 논란’",
-        "date": "2026-09-01",
-        "originalDate": "2026-08-31",
-        "sourceName": "더스쿠프",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBZVTVraXROUkxzbzlEdVBGLVdleXRfbDdCZ1VjY21PRlBsUWpVRWZUN1lnX0dxUkp2cTd4d2s3YjZhUGRqSHlvZmpub0tOX0VOQW1TMG1UckQzRkU3M21HYUpBYmw0cjl4LTFyTWt3?oc=5",
+        "koTitle": "위바이글로벌, AI 기반 스마트 여행카드 출시…여행 전 과정 통합 서비스로 시장 주목",
+        "enTitle": "위바이글로벌, AI 기반 스마트 여행카드 출시…여행 전 과정 통합 서비스로 시장 주목",
+        "date": "2026-09-02",
+        "originalDate": "2026-09-01",
+        "sourceName": "매일경제 마켓",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9wZkpmZTl2WS1zc0ZSa0Z4a1RkdVZpM2VaLWZBNWtHMXNneUpsVkI0Y0I1MVkxd0RFRkZYLThSQVdmc3IxOURhUmFSSEdSeS1mZVE?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! AI로 벌었나? 머스크 덕에 벌었나? 빅테크 AI 수익 ‘착시 논란’ 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 위바이글로벌, AI 기반 스마트 여행카드 출시…여행 전 과정 통합 서비스로 시장 주목 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "챗GPT도 클로드도 제미나이도… 왜 모두 ‘채팅창’일까?",
-        "enTitle": "챗GPT도 클로드도 제미나이도… 왜 모두 ‘채팅창’일까?",
-        "date": "2026-09-01",
-        "originalDate": "2026-08-31",
-        "sourceName": "디지털 인사이트 DIGITAL iNSIGHT",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOVnc2YUlZYzRKVHlQSHBpX1AwSFpwUHFmWHBENHUyZF9XQXJ4YTR0cThtbnYwbjczMmo0dGxGcnFaOURuZzdwT09BMWdkLS1talRMNEFYT0dZSzRIWVZ3SU1LUkE5QksxLWhQUThZTGZDQjhqSHh3bmpQLWxmTlBzZkNyZVVXODA0WmZNU2ZpN0Z5OXVma3kzbUhENXJyMEtqNWRJYmhOOXJ0Y24wRzhRREdYb3pzemhBN0c0OTJXQUd4ZE9leE9JWUUzbUo4eXpELXh4bzBuQi1pSjM2dld3Qm9qTHpLbmtlZWVWbFJfUk4xTFZKTVhvSDFEa1ZaMExRaEdBQmxLb1g3WTlWSTlGTjVhdmZxMzA5MVZsTVE4X3RkOHA1d0xj?oc=5",
+        "koTitle": "알바천국, ‘AI 매칭 공고 서비스’ 출시",
+        "enTitle": "알바천국, ‘AI 매칭 공고 서비스’ 출시",
+        "date": "2026-09-02",
+        "originalDate": "2026-09-01",
+        "sourceName": "한스경제",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81S04zZFFDaV9sTS1takdSNWlKb3VtTTZla2ZQUHoyWk41UmE0dzlNXzlucnBDQ1phcVZZRjRlNVpoWlF6bGQtaXd3YVZPci1haXRMeUx1TE91NUc4TFlIc1RtTThKOVZEclBvaNIBb0FVX3lxTE5KaWx2SXp0VGtNd3BfQ2hmS1c1UlRCc3NFR2dSdEExWlFaQXpKVHZEbUVnMGh6V2RVejNrWWZhNjNYMmxRMmlfbHJ0LTBDMHBqcE44SXN2NFRHdXhLUDByeUNSRkhfdVFoNmlzZ2M4SQ?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 챗GPT도 클로드도 제미나이도… 왜 모두 ‘채팅창’일까? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 알바천국, ‘AI 매칭 공고 서비스’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
