@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-02
+ * 최신 업데이트: 2026-09-03
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "이 노동자들은 그들의 직업이 AI로 대체되었다고 말합니다. 당신에게 그런 일이 일어날 수 있습니까?",
-        "enTitle": "These workers say their jobs were replaced by AI. Could it happen to you?",
-        "date": "2026-09-02",
-        "originalDate": "2026-09-01",
-        "sourceName": "SBS",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZ19mWjBIR2x4VnVCSFo4TWxjRGRMUUlRNWpPQmxKY3pjRllsZWtlbkk4VFpCNlp4OElfaGdyVU50bEFWaHVwS1JLWnNsOFA5SVdaRER1LTVKV1ZaWFprUE9tUmsxMXltV1FNdXd2VzE5ektoOUFZV2dfSGNRYTRxNVdDMGpqYmdVNUE?oc=5",
+        "koTitle": "ADP CEO: 일자리와 AI에 대한 진정한 대화는 다음에 올 일에 어떻게 대비해야 할까요?",
+        "enTitle": "ADP CEO: the real conversation on jobs and AI is how do we prepare for what comes next?",
+        "date": "2026-09-03",
+        "originalDate": "2026-08-31",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcHFMVmhxWGFrbVlRbDlJMkZuNjNNcFJ0WmFMNnAybU9sTTVXUE1GdkpVbzJEMFlDWEdHVU5EZXhsQ1pUX3kyNmVHTXRVZnZoUlVwQUR3bks1TElpSmRfd2pSSEZUY0poeTU1MFhvcU9ZcXY0eG1vYXdRZjRpVk5rOTN3Ti1XNF9qaTlJZkpIUXNLQXdpSWpaRFZOakRpcFJFLVpzdWV6ZFRRSUJINFUwSWFWdkVzTzgx?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 이 노동자들은 그들의 직업이 AI로 대체되었다고 말합니다. 당신에게 그런 일이 일어날 수 있습니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! ADP CEO: 일자리와 AI에 대한 진정한 대화는 다음에 올 일에 어떻게 대비해야 할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
         "koTitle": "인공지능으로 수익을 창출하는 방법: 2026년을 위한 15가지 이상의 효과적인 방법",
         "enTitle": "How to make money with AI: 15+ effective ways for 2026",
-        "date": "2026-09-02",
+        "date": "2026-09-03",
         "originalDate": "2026-08-25",
         "sourceName": "Hostinger",
         "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84emdrNFphd0FHbTlXM1ZLcVpaUEhnaUROOExrUDBsWmotdVhlQ3hPeFpfTmZJcGtLWmMxS0F0SWN2MHpHYU56RWx3a0FtOXZfblpTRzg2WFFLWmNrcGRmdFY2UVAzYndnOC1WTS1nQVFkcFk?oc=5",
         "isRepublished": true,
-        "viralRate": "91%",
+        "viralRate": "92%",
         "analysis": "글로벌 AI 트렌드 체크! 인공지능으로 수익을 창출하는 방법: 2026년을 위한 15가지 이상의 효과적인 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI 의류 교환기 앱 8개를 테스트했습니다. 결과는 다음과 같습니다.",
-        "enTitle": "I Tested 8 AI Clothes Changer Apps — And Here Are the Results",
-        "date": "2026-09-02",
-        "originalDate": "2026-08-21",
-        "sourceName": "perfectcorp.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWVlQY0U5SExfUUVCZDFIbHJOVnVxcDM2cnpFQm1ROFBOY0tqQjlHTlhXeEJESHQ1SVV0dndxUGNzOC1KWVhlQ0VNdkRFd3FTeHZNTlBQazFMUGZ6T1NaS2pzd0UzV09YQW5ZMDNLSXdMT24xY0h4TGhEb3NGRzBzdFRB?oc=5",
+        "koTitle": "돈을 버는 25가지 취미: 오늘부터 수입을 올리세요 (2026년)",
+        "enTitle": "25 Hobbies That Make Money: Start Earning Today (2026)",
+        "date": "2026-09-03",
+        "originalDate": "2026-08-13",
+        "sourceName": "Shopify",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tT3dSSEdtNEZRVkhXZ2dtbHQ2SHdwOUkzLWtNY1h4V29LWm5FckVMd3VrVFNDeEd4Mi1PYkxhNk5DLWx2SEdXY1luUUs2VXROV0xXTG5wRWVDejRsYWhUZzhsWFlMR0My?oc=5",
         "isRepublished": true,
-        "viralRate": "87%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 의류 교환기 앱 8개를 테스트했습니다. 결과는 다음과 같습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "89%",
+        "analysis": "글로벌 AI 트렌드 체크! 돈을 버는 25가지 취미: 오늘부터 수입을 올리세요 (2026년) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "앤스로픽, 클로드 페이블 5.1 공개…\"가격 25% 인하\"",
-        "enTitle": "앤스로픽, 클로드 페이블 5.1 공개…\"가격 25% 인하\"",
-        "date": "2026-09-02",
-        "originalDate": "2026-09-01",
-        "sourceName": "뉴스핌",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9VRld5bUpFVnJNWTNBWEJ2MVpEYVNxcmlBLXhpY0hhNXcxbC03UVAxU2RWUUdPa3BPSVhlR3RWbzF5aDhlb3AxelhlckQ3Y1BXLUVKRkpHaXBCX05M?oc=5",
+        "koTitle": "스니커즈 먹은 제미나이 vs 꼼수 명령어 거부한 챗GPT",
+        "enTitle": "스니커즈 먹은 제미나이 vs 꼼수 명령어 거부한 챗GPT",
+        "date": "2026-09-03",
+        "originalDate": "2026-09-02",
+        "sourceName": "글로벌이코노믹",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNc1BXWWRqQU5XYXNKXzZ3RkdGclA2V2M5Nndqd1BMWWhjSVVLWThSRXFrMEQ1bEJVc2NRYUt2SlRzRlA1WU1QSUlwNk5JRk9pY2tyVGFxRFRKYVNJV2FDOVB0YmNjMXNkLWhFNkljT1RLUDdKS244dVdhVTVMeWh2ZkFhQ2tJTWFj?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤스로픽, 클로드 페이블 5.1 공개…\"가격 25% 인하\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 스니커즈 먹은 제미나이 vs 꼼수 명령어 거부한 챗GPT 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "위바이글로벌, AI 기반 스마트 여행카드 출시…여행 전 과정 통합 서비스로 시장 주목",
-        "enTitle": "위바이글로벌, AI 기반 스마트 여행카드 출시…여행 전 과정 통합 서비스로 시장 주목",
-        "date": "2026-09-02",
-        "originalDate": "2026-09-01",
-        "sourceName": "매일경제 마켓",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9wZkpmZTl2WS1zc0ZSa0Z4a1RkdVZpM2VaLWZBNWtHMXNneUpsVkI0Y0I1MVkxd0RFRkZYLThSQVdmc3IxOURhUmFSSEdSeS1mZVE?oc=5",
+        "koTitle": "‘제미나이 3.8 플래시’와 ‘3.8 플래시 사이버’를 소개합니다",
+        "enTitle": "‘제미나이 3.8 플래시’와 ‘3.8 플래시 사이버’를 소개합니다",
+        "date": "2026-09-03",
+        "originalDate": "2026-09-02",
+        "sourceName": "blog.google",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMERjbV9yQWliOUN0ajRmZ2hQSHVrTm9KQlFoZTdWVHdVTmF5RjA3ZjJKS3Q5VzFkYW1MWlZrTnMtT2t2MU9CSFVhakduWDBiSU55c2xQLXpRT1hsNVNEcl9kb0FKWk9GU1R5UXFiNDllNU1WeGF4VVFjX1JlRG5uN1VDdUFyeDdvXzVjcnVJRFE3QQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 위바이글로벌, AI 기반 스마트 여행카드 출시…여행 전 과정 통합 서비스로 시장 주목 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! ‘제미나이 3.8 플래시’와 ‘3.8 플래시 사이버’를 소개합니다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "알바천국, ‘AI 매칭 공고 서비스’ 출시",
-        "enTitle": "알바천국, ‘AI 매칭 공고 서비스’ 출시",
-        "date": "2026-09-02",
-        "originalDate": "2026-09-01",
-        "sourceName": "한스경제",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81S04zZFFDaV9sTS1takdSNWlKb3VtTTZla2ZQUHoyWk41UmE0dzlNXzlucnBDQ1phcVZZRjRlNVpoWlF6bGQtaXd3YVZPci1haXRMeUx1TE91NUc4TFlIc1RtTThKOVZEclBvaNIBb0FVX3lxTE5KaWx2SXp0VGtNd3BfQ2hmS1c1UlRCc3NFR2dSdEExWlFaQXpKVHZEbUVnMGh6V2RVejNrWWZhNjNYMmxRMmlfbHJ0LTBDMHBqcE44SXN2NFRHdXhLUDByeUNSRkhfdVFoNmlzZ2M4SQ?oc=5",
+        "koTitle": "AI가 가상자산 종목까지 분석...'빗썸 AI' 서비스 출시",
+        "enTitle": "AI가 가상자산 종목까지 분석...'빗썸 AI' 서비스 출시",
+        "date": "2026-09-03",
+        "originalDate": "2026-09-02",
+        "sourceName": "뉴스;트리",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0zZVRBaS10XzE2cW5FWE9ZdHRhd0I5Vm1pY0xjcC1vcVZGSkY3OGxJdy1hLWQ0VmRQR1R3UzBsWnBjMVJGdURnclhHUVNSbmFyREdpM2tVYk9HRU1N?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 알바천국, ‘AI 매칭 공고 서비스’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! AI가 가상자산 종목까지 분석...'빗썸 AI' 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
