@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-03
+ * 최신 업데이트: 2026-09-04
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "ADP CEO: 일자리와 AI에 대한 진정한 대화는 다음에 올 일에 어떻게 대비해야 할까요?",
-        "enTitle": "ADP CEO: the real conversation on jobs and AI is how do we prepare for what comes next?",
-        "date": "2026-09-03",
-        "originalDate": "2026-08-31",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcHFMVmhxWGFrbVlRbDlJMkZuNjNNcFJ0WmFMNnAybU9sTTVXUE1GdkpVbzJEMFlDWEdHVU5EZXhsQ1pUX3kyNmVHTXRVZnZoUlVwQUR3bks1TElpSmRfd2pSSEZUY0poeTU1MFhvcU9ZcXY0eG1vYXdRZjRpVk5rOTN3Ti1XNF9qaTlJZkpIUXNLQXdpSWpaRFZOakRpcFJFLVpzdWV6ZFRRSUJINFUwSWFWdkVzTzgx?oc=5",
+        "koTitle": "인공 지능 시대에 인간 관계가 새로운 채용 우위입니까? – 그리고 이번 달의 직업과 기술의 다른 동향",
+        "enTitle": "In the age of AI, are human connections the new hiring advantage? – and other trends in jobs and skills this month",
+        "date": "2026-09-04",
+        "originalDate": "2026-09-02",
+        "sourceName": "The World Economic Forum",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLTVYVlEzQmNTYV9vclV2bk1oRjVST2RSTnlhcHdmMUFwRENrLXFTb1hKOTlIc1Q0aXZEMk8xUjB5aW0yTUVtRHpRUkNvNGJYSmxxNjk1WDBLY2tGSTM5dTMwcU9YQTRxU0MxVm84OHo1T0pIcE14ZXRkTDBIN3Qxamx5UUMyYkNRdXRfb3hRX2ZSQnJGZ1pPTlNqSDVMZlNxek9CLVhFZmtwejVXY014NGlZNVEzMVAz?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! ADP CEO: 일자리와 AI에 대한 진정한 대화는 다음에 올 일에 어떻게 대비해야 할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공 지능 시대에 인간 관계가 새로운 채용 우위입니까? – 그리고 이번 달의 직업과 기술의 다른 동향 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "인공지능으로 수익을 창출하는 방법: 2026년을 위한 15가지 이상의 효과적인 방법",
-        "enTitle": "How to make money with AI: 15+ effective ways for 2026",
-        "date": "2026-09-03",
-        "originalDate": "2026-08-25",
-        "sourceName": "Hostinger",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84emdrNFphd0FHbTlXM1ZLcVpaUEhnaUROOExrUDBsWmotdVhlQ3hPeFpfTmZJcGtLWmMxS0F0SWN2MHpHYU56RWx3a0FtOXZfblpTRzg2WFFLWmNrcGRmdFY2UVAzYndnOC1WTS1nQVFkcFk?oc=5",
-        "isRepublished": true,
+        "koTitle": "‘인공지능과 일의 미래’ 시리즈 — 대학이 학생들에게 다음 과제를 준비시키는 방법",
+        "enTitle": "The ‘AI and Future of Work’ Series — How the University is preparing students for what is next",
+        "date": "2026-09-04",
+        "originalDate": "2026-09-02",
+        "sourceName": "The Cavalier Daily",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPM2E2U0RYU09IWGlNTWRMS3FWQmRmQnAxUUZVckFKLURvcmFwdDdFemRqeF9NSFQzLXZ4bzRybVRjeTFyYVcxdWpWRVFvbDFIOGlWNnlzUEEzVkxpWWwtdDJVMTRObmZrLW5RRHM4TnVNYkFGTnpvWjNJRW43SVNNUjJDZ1p4cWlmNG9pQi1Wb20xalZQQjBxNnlQX1F5a1E5Q3puOU5TenZZUDlTWms2bldVTnFfQ3B2V29id2RyTFRfYzJ1VUhaZWppNDdyYzZwTWc?oc=5",
+        "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능으로 수익을 창출하는 방법: 2026년을 위한 15가지 이상의 효과적인 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! ‘인공지능과 일의 미래’ 시리즈 — 대학이 학생들에게 다음 과제를 준비시키는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "돈을 버는 25가지 취미: 오늘부터 수입을 올리세요 (2026년)",
-        "enTitle": "25 Hobbies That Make Money: Start Earning Today (2026)",
-        "date": "2026-09-03",
-        "originalDate": "2026-08-13",
-        "sourceName": "Shopify",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tT3dSSEdtNEZRVkhXZ2dtbHQ2SHdwOUkzLWtNY1h4V29LWm5FckVMd3VrVFNDeEd4Mi1PYkxhNk5DLWx2SEdXY1luUUs2VXROV0xXTG5wRWVDejRsYWhUZzhsWFlMR0My?oc=5",
-        "isRepublished": true,
-        "viralRate": "89%",
-        "analysis": "글로벌 AI 트렌드 체크! 돈을 버는 25가지 취미: 오늘부터 수입을 올리세요 (2026년) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "koTitle": "향후 10년간 가장 빠르게 성장할 것으로 예상되는 미국 일자리 10개 중 6개가 한 산업에 속하며 이는 기술이나 AI가 아닙니다.",
+        "enTitle": "6 of the 10 U.S. jobs projected to grow fastest over the next decade are in one industry—and it's not tech or AI",
+        "date": "2026-09-04",
+        "originalDate": "2026-09-02",
+        "sourceName": "CNBC",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYVQyUjJXdXNGdUhpb0FWQ1RwSGhJc3BMLXRSWTRJX0FCN3U4eHBwU3FxcDlYU0h1bnhXMWNfYUVuakRyRl9EY1JNU19BMzJhbWdWcmQzUVlRTFdSWWZIbjdDbW9nRWsxZlV5WEFMSUxSYjQtTXo0WVFOUDZtVk5UMTR6SFU5MVpJdGYyR3JKU2V4cENkbzYtQ3JFTm5uQjhhUFhXRFJMWkhncUHSAbABQVVfeXFMTjlxLUgydXFpcm1JR3htTmZ4UTFoNTdUXy1ZMkhTQkZjUWNMXzBWOGI4cmdfdml3eDRCMmNZX1BiNWQ4d2Z2SHVjSUp4bVRCbzBPVDZIMHcyZXJ1eHA5a2FZbDlMV1ZjUTBKSGpRUzB6bGJRM0Z4VlpINHVsY2IwaU5ycC1VME1YSll5ZXNyOXJCUVozM3lPN1MzNzRld0NadnJBOEI5WXg1N0UwWkpGNkY?oc=5",
+        "isRepublished": false,
+        "viralRate": "91%",
+        "analysis": "글로벌 AI 트렌드 체크! 향후 10년간 가장 빠르게 성장할 것으로 예상되는 미국 일자리 10개 중 6개가 한 산업에 속하며 이는 기술이나 AI가 아닙니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "스니커즈 먹은 제미나이 vs 꼼수 명령어 거부한 챗GPT",
-        "enTitle": "스니커즈 먹은 제미나이 vs 꼼수 명령어 거부한 챗GPT",
-        "date": "2026-09-03",
-        "originalDate": "2026-09-02",
-        "sourceName": "글로벌이코노믹",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNc1BXWWRqQU5XYXNKXzZ3RkdGclA2V2M5Nndqd1BMWWhjSVVLWThSRXFrMEQ1bEJVc2NRYUt2SlRzRlA1WU1QSUlwNk5JRk9pY2tyVGFxRFRKYVNJV2FDOVB0YmNjMXNkLWhFNkljT1RLUDdKS244dVdhVTVMeWh2ZkFhQ2tJTWFj?oc=5",
+        "koTitle": "챗GPT·클로드·그록 한꺼번에 ’먹통’…이례적 동시 장애",
+        "enTitle": "챗GPT·클로드·그록 한꺼번에 ’먹통’…이례적 동시 장애",
+        "date": "2026-09-04",
+        "originalDate": "2026-09-03",
+        "sourceName": "연합뉴스TV",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZRGRJOGlzcGVyWFBqdFM3cWZDRVdzRGQxTURVa2g3ZzlTSDFIc1JJX2EydlUxS3dWcmFIZ0tWN1VOcEJDSzg1MzB6N2hDdzJuM3pHYUp4eHZSLTREUHRlcURoNjh5OWM?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 스니커즈 먹은 제미나이 vs 꼼수 명령어 거부한 챗GPT 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 챗GPT·클로드·그록 한꺼번에 ’먹통’…이례적 동시 장애 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "‘제미나이 3.8 플래시’와 ‘3.8 플래시 사이버’를 소개합니다",
-        "enTitle": "‘제미나이 3.8 플래시’와 ‘3.8 플래시 사이버’를 소개합니다",
-        "date": "2026-09-03",
-        "originalDate": "2026-09-02",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMERjbV9yQWliOUN0ajRmZ2hQSHVrTm9KQlFoZTdWVHdVTmF5RjA3ZjJKS3Q5VzFkYW1MWlZrTnMtT2t2MU9CSFVhakduWDBiSU55c2xQLXpRT1hsNVNEcl9kb0FKWk9GU1R5UXFiNDllNU1WeGF4VVFjX1JlRG5uN1VDdUFyeDdvXzVjcnVJRFE3QQ?oc=5",
+        "koTitle": "챗GPT·클로드·그록 등 주요 AI 서비스, 한때 일제히 '먹통'",
+        "enTitle": "챗GPT·클로드·그록 등 주요 AI 서비스, 한때 일제히 '먹통'",
+        "date": "2026-09-04",
+        "originalDate": "2026-09-03",
+        "sourceName": "전자신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9PMWVMZk91TU9IZndkRUt3SmxHT1A5QTZqVVVLcjN6dWplMFlZVmVKa0xDTDd1Z2pqN1oyNGU2WlRCTS1PNHBUYXY5ZFBCZw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! ‘제미나이 3.8 플래시’와 ‘3.8 플래시 사이버’를 소개합니다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 챗GPT·클로드·그록 등 주요 AI 서비스, 한때 일제히 '먹통' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "AI가 가상자산 종목까지 분석...'빗썸 AI' 서비스 출시",
-        "enTitle": "AI가 가상자산 종목까지 분석...'빗썸 AI' 서비스 출시",
-        "date": "2026-09-03",
-        "originalDate": "2026-09-02",
-        "sourceName": "뉴스;트리",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0zZVRBaS10XzE2cW5FWE9ZdHRhd0I5Vm1pY0xjcC1vcVZGSkY3OGxJdy1hLWQ0VmRQR1R3UzBsWnBjMVJGdURnclhHUVNSbmFyREdpM2tVYk9HRU1N?oc=5",
+        "koTitle": "Cloudflare, AI 기반 취약점 탐지 서비스 출시",
+        "enTitle": "Cloudflare, AI 기반 취약점 탐지 서비스 출시",
+        "date": "2026-09-04",
+        "originalDate": "2026-09-03",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrT2ZIWU95Zk5LeE5aZGRHQnJ5VGl1UGJNZ2ZkbEI0RlZLMFROVEdWYnZRb1d1MzJWV0k2RmlKTHpLOHF3Q1ZteTdOdGctbjctWkFDTFlGcDZ1OUk2SXNtWU9WWnVKM0hQQ2E5bEpIRkc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! AI가 가상자산 종목까지 분석...'빗썸 AI' 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! Cloudflare, AI 기반 취약점 탐지 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
