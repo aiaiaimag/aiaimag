@@ -1,47 +1,33 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-04
+ * 최신 업데이트: 2026-09-05
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "인공 지능 시대에 인간 관계가 새로운 채용 우위입니까? – 그리고 이번 달의 직업과 기술의 다른 동향",
-        "enTitle": "In the age of AI, are human connections the new hiring advantage? – and other trends in jobs and skills this month",
-        "date": "2026-09-04",
-        "originalDate": "2026-09-02",
-        "sourceName": "The World Economic Forum",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLTVYVlEzQmNTYV9vclV2bk1oRjVST2RSTnlhcHdmMUFwRENrLXFTb1hKOTlIc1Q0aXZEMk8xUjB5aW0yTUVtRHpRUkNvNGJYSmxxNjk1WDBLY2tGSTM5dTMwcU9YQTRxU0MxVm84OHo1T0pIcE14ZXRkTDBIN3Qxamx5UUMyYkNRdXRfb3hRX2ZSQnJGZ1pPTlNqSDVMZlNxek9CLVhFZmtwejVXY014NGlZNVEzMVAz?oc=5",
+        "isTopPick": true,
+        "koTitle": "오늘의 AI 뉴스를 수집하는 중입니다",
+        "enTitle": "Collecting Today's AI News...",
+        "date": "2026-09-05",
+        "originalDate": "2026-09-05",
+        "sourceName": "AIMAG",
+        "sourceUrl": "#",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공 지능 시대에 인간 관계가 새로운 채용 우위입니까? – 그리고 이번 달의 직업과 기술의 다른 동향 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
-        "isTopPick": true
-    },
-    {
-        "rank": 2,
-        "koTitle": "‘인공지능과 일의 미래’ 시리즈 — 대학이 학생들에게 다음 과제를 준비시키는 방법",
-        "enTitle": "The ‘AI and Future of Work’ Series — How the University is preparing students for what is next",
-        "date": "2026-09-04",
-        "originalDate": "2026-09-02",
-        "sourceName": "The Cavalier Daily",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPM2E2U0RYU09IWGlNTWRMS3FWQmRmQnAxUUZVckFKLURvcmFwdDdFemRqeF9NSFQzLXZ4bzRybVRjeTFyYVcxdWpWRVFvbDFIOGlWNnlzUEEzVkxpWWwtdDJVMTRObmZrLW5RRHM4TnVNYkFGTnpvWjNJRW43SVNNUjJDZ1p4cWlmNG9pQi1Wb20xalZQQjBxNnlQX1F5a1E5Q3puOU5TenZZUDlTWms2bldVTnFfQ3B2V29id2RyTFRfYzJ1VUhaZWppNDdyYzZwTWc?oc=5",
-        "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! ‘인공지능과 일의 미래’ 시리즈 — 대학이 학생들에게 다음 과제를 준비시키는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "향후 10년간 가장 빠르게 성장할 것으로 예상되는 미국 일자리 10개 중 6개가 한 산업에 속하며 이는 기술이나 AI가 아닙니다.",
-        "enTitle": "6 of the 10 U.S. jobs projected to grow fastest over the next decade are in one industry—and it's not tech or AI",
-        "date": "2026-09-04",
-        "originalDate": "2026-09-02",
-        "sourceName": "CNBC",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYVQyUjJXdXNGdUhpb0FWQ1RwSGhJc3BMLXRSWTRJX0FCN3U4eHBwU3FxcDlYU0h1bnhXMWNfYUVuakRyRl9EY1JNU19BMzJhbWdWcmQzUVlRTFdSWWZIbjdDbW9nRWsxZlV5WEFMSUxSYjQtTXo0WVFOUDZtVk5UMTR6SFU5MVpJdGYyR3JKU2V4cENkbzYtQ3JFTm5uQjhhUFhXRFJMWkhncUHSAbABQVVfeXFMTjlxLUgydXFpcm1JR3htTmZ4UTFoNTdUXy1ZMkhTQkZjUWNMXzBWOGI4cmdfdml3eDRCMmNZX1BiNWQ4d2Z2SHVjSUp4bVRCbzBPVDZIMHcyZXJ1eHA5a2FZbDlMV1ZjUTBKSGpRUzB6bGJRM0Z4VlpINHVsY2IwaU5ycC1VME1YSll5ZXNyOXJCUVozM3lPN1MzNzRld0NadnJBOEI5WXg1N0UwWkpGNkY?oc=5",
-        "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "글로벌 AI 트렌드 체크! 향후 10년간 가장 빠르게 성장할 것으로 예상되는 미국 일자리 10개 중 6개가 한 산업에 속하며 이는 기술이나 AI가 아닙니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "99%",
+        "hookTitles": [
+            {
+                "top": "AI 뉴스 로딩 중",
+                "bottom": "잠시 후 업데이트됩니다"
+            },
+            {
+                "top": "코다리 부장 리서치 중",
+                "bottom": "최신 AI 소식을 큐레이션합니다"
+            }
+        ],
+        "analysis": "자동 수집 중입니다. 잠시 후 최신 뉴스가 표시됩니다."
     }
 ];
 
@@ -50,43 +36,27 @@ const aiNewsData = [
 // 단순 뉴스가 아닌, 2030의 삶을 바꿀 '기가 막힌 주제' 기반 큐레이션
 const generalTrendingData = [
     {
+        "category": "AI Trend",
         "rank": 1,
-        "koTitle": "챗GPT·클로드·그록 한꺼번에 ’먹통’…이례적 동시 장애",
-        "enTitle": "챗GPT·클로드·그록 한꺼번에 ’먹통’…이례적 동시 장애",
-        "date": "2026-09-04",
-        "originalDate": "2026-09-03",
-        "sourceName": "연합뉴스TV",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZRGRJOGlzcGVyWFBqdFM3cWZDRVdzRGQxTURVa2g3ZzlTSDFIc1JJX2EydlUxS3dWcmFIZ0tWN1VOcEJDSzg1MzB6N2hDdzJuM3pHYUp4eHZSLTREUHRlcURoNjh5OWM?oc=5",
+        "koTitle": "2026년 AI 트렌드를 분석 중입니다",
+        "enTitle": "Analyzing 2026 AI Trends...",
+        "date": "2026-09-05",
+        "originalDate": "2026-09-05",
+        "sourceName": "AIMAG",
+        "sourceUrl": "#",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 챗GPT·클로드·그록 한꺼번에 ’먹통’…이례적 동시 장애 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Hot Issue"
-    },
-    {
-        "rank": 2,
-        "koTitle": "챗GPT·클로드·그록 등 주요 AI 서비스, 한때 일제히 '먹통'",
-        "enTitle": "챗GPT·클로드·그록 등 주요 AI 서비스, 한때 일제히 '먹통'",
-        "date": "2026-09-04",
-        "originalDate": "2026-09-03",
-        "sourceName": "전자신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9PMWVMZk91TU9IZndkRUt3SmxHT1A5QTZqVVVLcjN6dWplMFlZVmVKa0xDTDd1Z2pqN1oyNGU2WlRCTS1PNHBUYXY5ZFBCZw?oc=5",
-        "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 챗GPT·클로드·그록 등 주요 AI 서비스, 한때 일제히 '먹통' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Life & Money"
-    },
-    {
-        "rank": 3,
-        "koTitle": "Cloudflare, AI 기반 취약점 탐지 서비스 출시",
-        "enTitle": "Cloudflare, AI 기반 취약점 탐지 서비스 출시",
-        "date": "2026-09-04",
-        "originalDate": "2026-09-03",
-        "sourceName": "Investing.com 한국어",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrT2ZIWU95Zk5LeE5aZGRHQnJ5VGl1UGJNZ2ZkbEI0RlZLMFROVEdWYnZRb1d1MzJWV0k2RmlKTHpLOHF3Q1ZteTdOdGctbjctWkFDTFlGcDZ1OUk2SXNtWU9WWnVKM0hQQ2E5bEpIRkc?oc=5",
-        "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! Cloudflare, AI 기반 취약점 탐지 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Tech & Service"
+        "viralRate": "95%",
+        "hookTitles": [
+            {
+                "top": "트렌드 분석 중",
+                "bottom": "AI 흐름을 읽어드립니다"
+            },
+            {
+                "top": "2030 맞춤 큐레이션",
+                "bottom": "곧 업데이트됩니다"
+            }
+        ],
+        "analysis": "자동 수집 중입니다."
     }
 ];
 
