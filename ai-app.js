@@ -1,33 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-05
+ * 최신 업데이트: 2026-09-06
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "isTopPick": true,
-        "koTitle": "오늘의 AI 뉴스를 수집하는 중입니다",
-        "enTitle": "Collecting Today's AI News...",
-        "date": "2026-09-05",
+        "koTitle": "무료 AI Art Generator 앱 10개를 테스트했습니다. 결과는 다음과 같습니다.",
+        "enTitle": "I Tested 10 Free AI Art Generator Apps — Here Are the Results",
+        "date": "2026-09-06",
         "originalDate": "2026-09-05",
-        "sourceName": "AIMAG",
-        "sourceUrl": "#",
+        "sourceName": "perfectcorp.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTNLcVRYWmZkVDl6S0JfZHdVOW5HbGVwMldVOXdwX1pxNmFrRkw0ak5rRTBHdE5PUFBvelZBbjRaM1pLZmYzZlBCWi1jcmNMaEFEeExGRWhWZUZHLWl2VVRPbmE4Vk5kU2V2Z2ZJOEtWcEFiNHU1R0JOd1ZiazZrS0p1R0RzQWVoenFUUzFKcw?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "hookTitles": [
-            {
-                "top": "AI 뉴스 로딩 중",
-                "bottom": "잠시 후 업데이트됩니다"
-            },
-            {
-                "top": "코다리 부장 리서치 중",
-                "bottom": "최신 AI 소식을 큐레이션합니다"
-            }
-        ],
-        "analysis": "자동 수집 중입니다. 잠시 후 최신 뉴스가 표시됩니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 무료 AI Art Generator 앱 10개를 테스트했습니다. 결과는 다음과 같습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "isTopPick": true
+    },
+    {
+        "rank": 2,
+        "koTitle": "빌 게이츠의 AI 직무 경고 및 개입 제안",
+        "enTitle": "Bill Gates’s AI Jobs Warning and Intervention Proposals",
+        "date": "2026-09-06",
+        "originalDate": "2026-09-05",
+        "sourceName": "quasa.io",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQb29NVFB6M1ZNMTBVbDgteWhTc1dVZi1HQVQ5a29wWFZTMFNNYUZSSEd5dV9oUC1pU1lYcWRFMUdqVFBEZ3ZQWlhXeGFaNkxPdURCZkVBZ1lrd3JMdlk0N2NSSjN2VG4xOVRQXzF3RnJYWFJQQkFsbTBSb2dGaFVOSmhsRkcyOVEtcUdNV1RSTDd0VFBORkd2NERNY2hLLUZIWmc?oc=5",
+        "isRepublished": false,
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 빌 게이츠의 AI 직무 경고 및 개입 제안 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
+        "koTitle": "A.I. 의 부상과 함께 Harrisites는 일의 미래를 고려합니다. AI가 그들의 일자리를 빼앗을까요?",
+        "enTitle": "With the rise of A.I., Harrisites consider the future of work. Will A.I. take their jobs?",
+        "date": "2026-09-06",
+        "originalDate": "2026-09-04",
+        "sourceName": "thhsclassic.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYlJkdGxVLXhrX2VtZ0t0M3VBOWZYcldxaUI1T0g5TDY1aEhuWFduSW9lUm9vSVRpQUt6OF8xQ09TVjJRWEZ4a1M2aFAzc1hUdDlZenlkWVpBWHJDcnE0TTdaQXdtNWhPTlVyUm1zbHRpQllDdnprTU1xeXRaX0R4OEZ1YVhwUDZZMjRxbE1yVDVVaW9Wb1QxVkhQOVZhSjVEZnkyc0xGUWdLNGN6NWhSU3JOOThzVlNWODYxdU12YmZkVzJZdW1mTzBLVUxuaG1oWGY2Ug?oc=5",
+        "isRepublished": false,
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! A.I. 의 부상과 함께 Harrisites는 일의 미래를 고려합니다. AI가 그들의 일자리를 빼앗을까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -36,27 +50,43 @@ const aiNewsData = [
 // 단순 뉴스가 아닌, 2030의 삶을 바꿀 '기가 막힌 주제' 기반 큐레이션
 const generalTrendingData = [
     {
-        "category": "AI Trend",
         "rank": 1,
-        "koTitle": "2026년 AI 트렌드를 분석 중입니다",
-        "enTitle": "Analyzing 2026 AI Trends...",
-        "date": "2026-09-05",
+        "koTitle": "G마켓, ChatGPT와 쇼핑 연동…초개인화 상품 추천 강화",
+        "enTitle": "G마켓, ChatGPT와 쇼핑 연동…초개인화 상품 추천 강화",
+        "date": "2026-09-06",
         "originalDate": "2026-09-05",
-        "sourceName": "AIMAG",
-        "sourceUrl": "#",
+        "sourceName": "서울경제TV",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBMZ2VqMGVHMGI5cmJ3NF9tQWlLVXlURW1TYTE3cGIwVy1VVnUxLThEZ3ZmV3ZtelpsMERBQ0tfUXBkWHp3b2ZhZG1DZDBzYkpWS05HblpRRzU2UVhTWnV4MlMxSnU?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "hookTitles": [
-            {
-                "top": "트렌드 분석 중",
-                "bottom": "AI 흐름을 읽어드립니다"
-            },
-            {
-                "top": "2030 맞춤 큐레이션",
-                "bottom": "곧 업데이트됩니다"
-            }
-        ],
-        "analysis": "자동 수집 중입니다."
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! G마켓, ChatGPT와 쇼핑 연동…초개인화 상품 추천 강화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Hot Issue"
+    },
+    {
+        "rank": 2,
+        "koTitle": "구글, AI 이미지 앱 '픽스' 정식 출시⋯캔바·어도비에 도전장 ?",
+        "enTitle": "구글, AI 이미지 앱 '픽스' 정식 출시⋯캔바·어도비에 도전장 ?",
+        "date": "2026-09-06",
+        "originalDate": "2026-09-05",
+        "sourceName": "아이뉴스24",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBQT1R0NlRxTW9keDBMZjVjVXBwVDNCMDhUNWU3Vzk4RU5QUi1wQ0R6REpkMXVfdUtuQmtSRkFLZzJwQjRoMWV1d2FEQQ?oc=5",
+        "isRepublished": false,
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 구글, AI 이미지 앱 '픽스' 정식 출시⋯캔바·어도비에 도전장 ? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Life & Money"
+    },
+    {
+        "rank": 3,
+        "koTitle": "G마켓, ChatGPT서 상품 추천·구매 연결…\"AI가 맞춤 쇼핑\"",
+        "enTitle": "G마켓, ChatGPT서 상품 추천·구매 연결…\"AI가 맞춤 쇼핑\"",
+        "date": "2026-09-06",
+        "originalDate": "2026-09-05",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE95alI4ZjRZVm02R19hZmNHRVE0Wmh6d0RjWHNFODV5V04ydGdtZFhxNGtHT25pRktjdHROOERBM1dLNzZxLVVhV1ZQRUhnTTg?oc=5",
+        "isRepublished": false,
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! G마켓, ChatGPT서 상품 추천·구매 연결…\"AI가 맞춤 쇼핑\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Tech & Service"
     }
 ];
 
