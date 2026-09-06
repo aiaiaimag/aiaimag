@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-06
+ * 최신 업데이트: 2026-09-07
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "무료 AI Art Generator 앱 10개를 테스트했습니다. 결과는 다음과 같습니다.",
-        "enTitle": "I Tested 10 Free AI Art Generator Apps — Here Are the Results",
-        "date": "2026-09-06",
-        "originalDate": "2026-09-05",
-        "sourceName": "perfectcorp.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTNLcVRYWmZkVDl6S0JfZHdVOW5HbGVwMldVOXdwX1pxNmFrRkw0ak5rRTBHdE5PUFBvelZBbjRaM1pLZmYzZlBCWi1jcmNMaEFEeExGRWhWZUZHLWl2VVRPbmE4Vk5kU2V2Z2ZJOEtWcEFiNHU1R0JOd1ZiazZrS0p1R0RzQWVoenFUUzFKcw?oc=5",
+        "koTitle": "TechBeat: AI 생산성 향상으로 인재 위기 발생 (9/6/2026)",
+        "enTitle": "The TechBeat: Your AI Productivity Gains Are Creating a Talent Crisis (9/6/2026)",
+        "date": "2026-09-07",
+        "originalDate": "2026-09-06",
+        "sourceName": "HackerNoon",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95QVlKVDNYaGtoSHQxeUFvUVdzUTh4QzhQUjJzX2NmQVZpc1p5ZldaWjUyS0VNVE5LVy1idFp3cUoyeDVYSHdaSHdYWWJkbUh5eEE?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 무료 AI Art Generator 앱 10개를 테스트했습니다. 결과는 다음과 같습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! TechBeat: AI 생산성 향상으로 인재 위기 발생 (9/6/2026) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "'소프트웨어에 종사하는 우리 모두는 관련성을 유지하는 방법을 찾아야합니다.': Sridhar Vembu는 AI가 변형 될 수 있다고 경고합니다...",
+        "enTitle": "'All of us in software need to figure out how to stay relevant': Sridhar Vembu warns AI could transform...",
+        "date": "2026-09-07",
+        "originalDate": "2026-09-06",
+        "sourceName": "Moneycontrol.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOd3lEbkpxQVMwaGFIajRnNE1PSEtDTTk4czg5bHZNNWJhdEpyWTlqcjV3b2hmSzBpdHVQeUNackNOQVpVNVZHUHJCY1dvTzRVa3RSSDdsNkhnaUhxa2dzUlRZTmphNkZKbTFOZm1XeG9jcnNEVmctbVBRSkx0a2NBVGRjSF9BckZLRFJVekxsY0NCa1hkY1EzaEZNVTlPZHZRSFM3U0FLX0tYLUJpY01ZdFJqc25raWlYUkdadXdvSnIzOEY1RUMwdVpJbktZQlFrTXFwcEN2Y21uS2p0OExJMXhkNHg0cV84ZjRIM0pEb2RrSkNwSThLcTB4UGJscnhvOTdqVG16S3ZxQ19reHfSAZMCQVVfeXFMT0E3Xzk2MktLZjF2d2tRMV9Da3lTbERyS3B0VGZJX1VyV3NCV0I5VVFJX25BYkpiMjRjNVp0aUpPd3BvQy1RTVRObUktb0F2OF9zYjMwNVFDeDBJcFVBS2RZd3Z0aXByMHRGZjNUaDh5QWp4SW04NXI1SnFQSXl5bWg4UVNIY2ZZWFRZbnAzZDNDdm1FN2F1VC05dC04ZjBLdDhEN3ctMjNMdUFJdXIxeHlwZkdNZC1DRDMtSkxiM0hmdjdOWDBJcEFZQ245YVdJV3dBbWlIVFl6cThCNmZXUG85TE5IdTRrcGp1UG83LTJiRndCc19tUWliU2Q0bFpfNXhZVk4zYWhGNWlQWTJ6dTlDc0E?oc=5",
+        "isRepublished": false,
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! '소프트웨어에 종사하는 우리 모두는 관련성을 유지하는 방법을 찾아야합니다.': Sridhar Vembu는 AI가 변형 될 수 있다고 경고합니다... 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "빌 게이츠의 AI 직무 경고 및 개입 제안",
         "enTitle": "Bill Gates’s AI Jobs Warning and Intervention Proposals",
-        "date": "2026-09-06",
+        "date": "2026-09-07",
         "originalDate": "2026-09-05",
         "sourceName": "quasa.io",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQb29NVFB6M1ZNMTBVbDgteWhTc1dVZi1HQVQ5a29wWFZTMFNNYUZSSEd5dV9oUC1pU1lYcWRFMUdqVFBEZ3ZQWlhXeGFaNkxPdURCZkVBZ1lrd3JMdlk0N2NSSjN2VG4xOVRQXzF3RnJYWFJQQkFsbTBSb2dGaFVOSmhsRkcyOVEtcUdNV1RSTDd0VFBORkd2NERNY2hLLUZIWmc?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
+        "viralRate": "90%",
         "analysis": "글로벌 AI 트렌드 체크! 빌 게이츠의 AI 직무 경고 및 개입 제안 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "A.I. 의 부상과 함께 Harrisites는 일의 미래를 고려합니다. AI가 그들의 일자리를 빼앗을까요?",
-        "enTitle": "With the rise of A.I., Harrisites consider the future of work. Will A.I. take their jobs?",
-        "date": "2026-09-06",
-        "originalDate": "2026-09-04",
-        "sourceName": "thhsclassic.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYlJkdGxVLXhrX2VtZ0t0M3VBOWZYcldxaUI1T0g5TDY1aEhuWFduSW9lUm9vSVRpQUt6OF8xQ09TVjJRWEZ4a1M2aFAzc1hUdDlZenlkWVpBWHJDcnE0TTdaQXdtNWhPTlVyUm1zbHRpQllDdnprTU1xeXRaX0R4OEZ1YVhwUDZZMjRxbE1yVDVVaW9Wb1QxVkhQOVZhSjVEZnkyc0xGUWdLNGN6NWhSU3JOOThzVlNWODYxdU12YmZkVzJZdW1mTzBLVUxuaG1oWGY2Ug?oc=5",
-        "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! A.I. 의 부상과 함께 Harrisites는 일의 미래를 고려합니다. AI가 그들의 일자리를 빼앗을까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "G마켓, ChatGPT와 쇼핑 연동…초개인화 상품 추천 강화",
-        "enTitle": "G마켓, ChatGPT와 쇼핑 연동…초개인화 상품 추천 강화",
-        "date": "2026-09-06",
-        "originalDate": "2026-09-05",
-        "sourceName": "서울경제TV",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBMZ2VqMGVHMGI5cmJ3NF9tQWlLVXlURW1TYTE3cGIwVy1VVnUxLThEZ3ZmV3ZtelpsMERBQ0tfUXBkWHp3b2ZhZG1DZDBzYkpWS05HblpRRzU2UVhTWnV4MlMxSnU?oc=5",
+        "koTitle": "중국, 온라인 사기 방지용 AI 앱 출시.",
+        "enTitle": "중국, 온라인 사기 방지용 AI 앱 출시.",
+        "date": "2026-09-07",
+        "originalDate": "2026-09-06",
+        "sourceName": "Vietnam.vn",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQXZCRS1yVXN4NjA0aGI2OG0tbUNnZC1NWDJhRWFOeDA5aUk3VjhDSzY5Sk01Y1owTVNWeWx5TWNaODh4Yk9hSXh2UTA5UGxtNUpNbWdGOWtzNERxRV9SelhQSVhrajA4VjZtOGJCNWdpMlpiamVpcUgtaDRzYldTZjdTWFNERkE?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! G마켓, ChatGPT와 쇼핑 연동…초개인화 상품 추천 강화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 중국, 온라인 사기 방지용 AI 앱 출시. 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "구글, AI 이미지 앱 '픽스' 정식 출시⋯캔바·어도비에 도전장 ?",
-        "enTitle": "구글, AI 이미지 앱 '픽스' 정식 출시⋯캔바·어도비에 도전장 ?",
-        "date": "2026-09-06",
-        "originalDate": "2026-09-05",
-        "sourceName": "아이뉴스24",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBQT1R0NlRxTW9keDBMZjVjVXBwVDNCMDhUNWU3Vzk4RU5QUi1wQ0R6REpkMXVfdUtuQmtSRkFLZzJwQjRoMWV1d2FEQQ?oc=5",
+        "koTitle": "구글 AI 제미나이는 왜 ‘작은 모델’만 빨라졌을까",
+        "enTitle": "구글 AI 제미나이는 왜 ‘작은 모델’만 빨라졌을까",
+        "date": "2026-09-07",
+        "originalDate": "2026-09-06",
+        "sourceName": "포춘코리아",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBSTWVESEhmZU9mVDNJZVpSQ3FDaFdDTUlwdkhxNW9CX2VBQTdXRkZKRVYtZWNWa3huNVQyTVRzYldRRjRvZW5LRElPa3NZNjF1LUt0LVQ2T0xGdDBrM2xPSnRhYWg3LUFyUzNWV1dBWGpwd9IBdkFVX3lxTE14cmdKcW1lVFpzUGJXbHRMNWZ0aVZvS2NSR3dpaksydTAxNk82dnNTejZKZms0MUdSN3lDT0VvRkxBc0ZFZEw0MW55VXRYNVRhbnVCWS14M2xxMXozVWlTb01KRTQ3QkNCOHJMMXZpUXpkTS1rcWc?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글, AI 이미지 앱 '픽스' 정식 출시⋯캔바·어도비에 도전장 ? 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 구글 AI 제미나이는 왜 ‘작은 모델’만 빨라졌을까 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "G마켓, ChatGPT서 상품 추천·구매 연결…\"AI가 맞춤 쇼핑\"",
-        "enTitle": "G마켓, ChatGPT서 상품 추천·구매 연결…\"AI가 맞춤 쇼핑\"",
-        "date": "2026-09-06",
-        "originalDate": "2026-09-05",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE95alI4ZjRZVm02R19hZmNHRVE0Wmh6d0RjWHNFODV5V04ydGdtZFhxNGtHT25pRktjdHROOERBM1dLNzZxLVVhV1ZQRUhnTTg?oc=5",
+        "koTitle": "서울중남부AI조합, 중소기업 '돈 되는 AI' 찾는다…무료 컨설팅",
+        "enTitle": "서울중남부AI조합, 중소기업 '돈 되는 AI' 찾는다…무료 컨설팅",
+        "date": "2026-09-07",
+        "originalDate": "2026-09-06",
+        "sourceName": "신아일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1abWxvNjZzazBKUGkyQzM5dnp4NjFYSFN5LWFaWllOQWd4TjhvMFp6VFJHYzB1T2dxaGZ5M1QwZ21penRDZUZPaEI1RFV4UG9jOE4wZXdaajI1YnFId0Eyem43MFJnTGg1QmRsRm5MaGU?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! G마켓, ChatGPT서 상품 추천·구매 연결…\"AI가 맞춤 쇼핑\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 서울중남부AI조합, 중소기업 '돈 되는 AI' 찾는다…무료 컨설팅 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
