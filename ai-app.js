@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-07
+ * 최신 업데이트: 2026-09-08
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "TechBeat: AI 생산성 향상으로 인재 위기 발생 (9/6/2026)",
-        "enTitle": "The TechBeat: Your AI Productivity Gains Are Creating a Talent Crisis (9/6/2026)",
-        "date": "2026-09-07",
-        "originalDate": "2026-09-06",
-        "sourceName": "HackerNoon",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95QVlKVDNYaGtoSHQxeUFvUVdzUTh4QzhQUjJzX2NmQVZpc1p5ZldaWjUyS0VNVE5LVy1idFp3cUoyeDVYSHdaSHdYWWJkbUh5eEE?oc=5",
+        "koTitle": "Top AI Tools for Productivity Hacks to Work Smarter",
+        "enTitle": "Top AI Tools for Productivity Hacks to Work Smarter",
+        "date": "2026-09-08",
+        "originalDate": "2026-09-07",
+        "sourceName": "KTPL Blog",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV0x3TUkydERlaTdKeENPLUd3T0RtQ29ITVd1NFZsUEMtRElSVmFaUF9RdTlQREdUYXFZcnRJTjZZcmNEY3dMSEJPdHZnc1hhcUg0RldCWlJLTkRXb2hRd3Q3Ync5YVRHQ3RqVU5yRXdVdWhUZHc2T2haU1YzeVR2VXVLZ0hXNXNs?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! TechBeat: AI 생산성 향상으로 인재 위기 발생 (9/6/2026) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! Top AI Tools for Productivity Hacks to Work Smarter 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "'소프트웨어에 종사하는 우리 모두는 관련성을 유지하는 방법을 찾아야합니다.': Sridhar Vembu는 AI가 변형 될 수 있다고 경고합니다...",
-        "enTitle": "'All of us in software need to figure out how to stay relevant': Sridhar Vembu warns AI could transform...",
-        "date": "2026-09-07",
-        "originalDate": "2026-09-06",
-        "sourceName": "Moneycontrol.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOd3lEbkpxQVMwaGFIajRnNE1PSEtDTTk4czg5bHZNNWJhdEpyWTlqcjV3b2hmSzBpdHVQeUNackNOQVpVNVZHUHJCY1dvTzRVa3RSSDdsNkhnaUhxa2dzUlRZTmphNkZKbTFOZm1XeG9jcnNEVmctbVBRSkx0a2NBVGRjSF9BckZLRFJVekxsY0NCa1hkY1EzaEZNVTlPZHZRSFM3U0FLX0tYLUJpY01ZdFJqc25raWlYUkdadXdvSnIzOEY1RUMwdVpJbktZQlFrTXFwcEN2Y21uS2p0OExJMXhkNHg0cV84ZjRIM0pEb2RrSkNwSThLcTB4UGJscnhvOTdqVG16S3ZxQ19reHfSAZMCQVVfeXFMT0E3Xzk2MktLZjF2d2tRMV9Da3lTbERyS3B0VGZJX1VyV3NCV0I5VVFJX25BYkpiMjRjNVp0aUpPd3BvQy1RTVRObUktb0F2OF9zYjMwNVFDeDBJcFVBS2RZd3Z0aXByMHRGZjNUaDh5QWp4SW04NXI1SnFQSXl5bWg4UVNIY2ZZWFRZbnAzZDNDdm1FN2F1VC05dC04ZjBLdDhEN3ctMjNMdUFJdXIxeHlwZkdNZC1DRDMtSkxiM0hmdjdOWDBJcEFZQ245YVdJV3dBbWlIVFl6cThCNmZXUG85TE5IdTRrcGp1UG83LTJiRndCc19tUWliU2Q0bFpfNXhZVk4zYWhGNWlQWTJ6dTlDc0E?oc=5",
+        "koTitle": "Exclusive: Coursera, Microsoft and Steve Hanke on the Future of Jobs — AI Could Be a ‘Net Job Creator’",
+        "enTitle": "Exclusive: Coursera, Microsoft and Steve Hanke on the Future of Jobs — AI Could Be a ‘Net Job Creator’",
+        "date": "2026-09-08",
+        "originalDate": "2026-09-07",
+        "sourceName": "Benzinga",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcVVEYlc5aG1vSHd6bkNhTGh1Q0xYRVBFT1BWanJKdy14cDkyVmozM29TdS1feW8wYmRMQjFock9GN3gxVndFR3FIX3Z2cjFQZU1VU3Q0cE5lNHBwNUx6bHMzSktxenppdE5DUHJpd0tVSTNmMm5jLXdJVEJmVzA2UkhMTzg5cTltUGMzclRyUlM0VXh5NGQ4SnRYSjh4WTlCeDZWakh1WlRqMUU1QXVhMjZWbEp5WFN5Z0pwbWJveGlOSDk4MkM5R24xVVRRUVF1b2FSX0trY0t4b0paUDU5SGZZaw?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! '소프트웨어에 종사하는 우리 모두는 관련성을 유지하는 방법을 찾아야합니다.': Sridhar Vembu는 AI가 변형 될 수 있다고 경고합니다... 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! Exclusive: Coursera, Microsoft and Steve Hanke on the Future of Jobs — AI Could Be a ‘Net Job Creator’ 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "빌 게이츠의 AI 직무 경고 및 개입 제안",
-        "enTitle": "Bill Gates’s AI Jobs Warning and Intervention Proposals",
-        "date": "2026-09-07",
-        "originalDate": "2026-09-05",
+        "koTitle": "AI Job-Loss Fear Doubled as Saving Expectations Weakened",
+        "enTitle": "AI Job-Loss Fear Doubled as Saving Expectations Weakened",
+        "date": "2026-09-08",
+        "originalDate": "2026-09-07",
         "sourceName": "quasa.io",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQb29NVFB6M1ZNMTBVbDgteWhTc1dVZi1HQVQ5a29wWFZTMFNNYUZSSEd5dV9oUC1pU1lYcWRFMUdqVFBEZ3ZQWlhXeGFaNkxPdURCZkVBZ1lrd3JMdlk0N2NSSjN2VG4xOVRQXzF3RnJYWFJQQkFsbTBSb2dGaFVOSmhsRkcyOVEtcUdNV1RSTDd0VFBORkd2NERNY2hLLUZIWmc?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdmhhMHBXUXo4bUVLMGc4ZkZWTXV3OG4tNTF2by15SW5uaTQ5eDhEc2Nhck9ZSXJPT3FJa1ZfNzRKTXVFTzVlN1JVOG1wcmRHRnhOUXRwT25WYzE2YTlRTFZGRm1Sc1pvbEJvaDBpdV9ZQmQwVzhxYnBzeWdqeHBkcXVQNmdTN09GWnlCWlNtZDJJYnpBTVFr?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 빌 게이츠의 AI 직무 경고 및 개입 제안 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! AI Job-Loss Fear Doubled as Saving Expectations Weakened 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "중국, 온라인 사기 방지용 AI 앱 출시.",
-        "enTitle": "중국, 온라인 사기 방지용 AI 앱 출시.",
-        "date": "2026-09-07",
-        "originalDate": "2026-09-06",
-        "sourceName": "Vietnam.vn",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQXZCRS1yVXN4NjA0aGI2OG0tbUNnZC1NWDJhRWFOeDA5aUk3VjhDSzY5Sk01Y1owTVNWeWx5TWNaODh4Yk9hSXh2UTA5UGxtNUpNbWdGOWtzNERxRV9SelhQSVhrajA4VjZtOGJCNWdpMlpiamVpcUgtaDRzYldTZjdTWFNERkE?oc=5",
+        "koTitle": "“S&P500 이겨줘” 말만 했다…31% 수익 낸 클로드 투자법",
+        "enTitle": "“S&P500 이겨줘” 말만 했다…31% 수익 낸 클로드 투자법",
+        "date": "2026-09-08",
+        "originalDate": "2026-09-07",
+        "sourceName": "중앙일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zZnoyNnItZEF4Skwxdkd1bmJZMEIwQUV0cHFfeVlYQXRONjFXN0wzeXVtaWVhT08weXNKQjhfSVBDcVluNTMtelhnS244REZGWm5xR3V3?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 중국, 온라인 사기 방지용 AI 앱 출시. 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! “S&P500 이겨줘” 말만 했다…31% 수익 낸 클로드 투자법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "구글 AI 제미나이는 왜 ‘작은 모델’만 빨라졌을까",
-        "enTitle": "구글 AI 제미나이는 왜 ‘작은 모델’만 빨라졌을까",
-        "date": "2026-09-07",
-        "originalDate": "2026-09-06",
-        "sourceName": "포춘코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBSTWVESEhmZU9mVDNJZVpSQ3FDaFdDTUlwdkhxNW9CX2VBQTdXRkZKRVYtZWNWa3huNVQyTVRzYldRRjRvZW5LRElPa3NZNjF1LUt0LVQ2T0xGdDBrM2xPSnRhYWg3LUFyUzNWV1dBWGpwd9IBdkFVX3lxTE14cmdKcW1lVFpzUGJXbHRMNWZ0aVZvS2NSR3dpaksydTAxNk82dnNTejZKZms0MUdSN3lDT0VvRkxBc0ZFZEw0MW55VXRYNVRhbnVCWS14M2xxMXozVWlTb01KRTQ3QkNCOHJMMXZpUXpkTS1rcWc?oc=5",
+        "koTitle": "中, 보이스피싱 잡는 AI 앱 출시…사기 수법·대응법까지 안내",
+        "enTitle": "中, 보이스피싱 잡는 AI 앱 출시…사기 수법·대응법까지 안내",
+        "date": "2026-09-08",
+        "originalDate": "2026-09-07",
+        "sourceName": "문화일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9vUlRjOUxsb0VseEJaOXktQVQzRk5CSjZLTGpfMGJLejAxN0s3eFhhLWFIUC1iUk9rdWlwV2V3eVlPUDhMVEZjTV81MUJ4TU53?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글 AI 제미나이는 왜 ‘작은 모델’만 빨라졌을까 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 中, 보이스피싱 잡는 AI 앱 출시…사기 수법·대응법까지 안내 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "서울중남부AI조합, 중소기업 '돈 되는 AI' 찾는다…무료 컨설팅",
-        "enTitle": "서울중남부AI조합, 중소기업 '돈 되는 AI' 찾는다…무료 컨설팅",
-        "date": "2026-09-07",
-        "originalDate": "2026-09-06",
-        "sourceName": "신아일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1abWxvNjZzazBKUGkyQzM5dnp4NjFYSFN5LWFaWllOQWd4TjhvMFp6VFJHYzB1T2dxaGZ5M1QwZ21penRDZUZPaEI1RFV4UG9jOE4wZXdaajI1YnFId0Eyem43MFJnTGg1QmRsRm5MaGU?oc=5",
+        "koTitle": "카카오, 모델 경쟁 넘어 '생활 속 AI'로…연결 경험 살린 서비스 청사진 10월 공개",
+        "enTitle": "카카오, 모델 경쟁 넘어 '생활 속 AI'로…연결 경험 살린 서비스 청사진 10월 공개",
+        "date": "2026-09-08",
+        "originalDate": "2026-09-07",
+        "sourceName": "서울이코노미뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yQ3R5VzlqekRDYXpRTzlDSjUtRURxYjZhR2JIZW9xNDV0ZnphUGFzV3hZb1VkME1qT0VEU05GOW1qQTQwUFhqODdBMnZIOGQ3bmRya2U5UG8zYlE3X1Y3YkdpUHBUam11R2x4ZzdR?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 서울중남부AI조합, 중소기업 '돈 되는 AI' 찾는다…무료 컨설팅 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 카카오, 모델 경쟁 넘어 '생활 속 AI'로…연결 경험 살린 서비스 청사진 10월 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
