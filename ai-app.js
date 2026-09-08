@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-08
+ * 최신 업데이트: 2026-09-09
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Top AI Tools for Productivity Hacks to Work Smarter",
-        "enTitle": "Top AI Tools for Productivity Hacks to Work Smarter",
-        "date": "2026-09-08",
-        "originalDate": "2026-09-07",
-        "sourceName": "KTPL Blog",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV0x3TUkydERlaTdKeENPLUd3T0RtQ29ITVd1NFZsUEMtRElSVmFaUF9RdTlQREdUYXFZcnRJTjZZcmNEY3dMSEJPdHZnc1hhcUg0RldCWlJLTkRXb2hRd3Q3Ync5YVRHQ3RqVU5yRXdVdWhUZHc2T2haU1YzeVR2VXVLZ0hXNXNs?oc=5",
+        "koTitle": "버지니아는 AI 도입으로 커리어 사다리를 강화해야 합니다 | 게스트 칼럼",
+        "enTitle": "Virginia should make AI adoption strengthen the career ladder | Guest column",
+        "date": "2026-09-09",
+        "originalDate": "2026-09-08",
+        "sourceName": "Richmond Times-Dispatch",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbXdIc3hMM3F5MzZ6U1c5UWFnS0JlN1VLNnpxQm1faTBDcVlPajZCMG5EZEdzek5RTk1nTndFaGF1dFR6dzRkMXBqV2w3LTFidXhyY2YzVHJoS0NiTFRIbkpMZTBTdm5WWEl6ODlGYnAxeWlBZGdvWDlKZTUyWHBxRUNfbWNoWW9VZXJSQVNB?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! Top AI Tools for Productivity Hacks to Work Smarter 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! 버지니아는 AI 도입으로 커리어 사다리를 강화해야 합니다 | 게스트 칼럼 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "Exclusive: Coursera, Microsoft and Steve Hanke on the Future of Jobs — AI Could Be a ‘Net Job Creator’",
-        "enTitle": "Exclusive: Coursera, Microsoft and Steve Hanke on the Future of Jobs — AI Could Be a ‘Net Job Creator’",
-        "date": "2026-09-08",
-        "originalDate": "2026-09-07",
-        "sourceName": "Benzinga",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcVVEYlc5aG1vSHd6bkNhTGh1Q0xYRVBFT1BWanJKdy14cDkyVmozM29TdS1feW8wYmRMQjFock9GN3gxVndFR3FIX3Z2cjFQZU1VU3Q0cE5lNHBwNUx6bHMzSktxenppdE5DUHJpd0tVSTNmMm5jLXdJVEJmVzA2UkhMTzg5cTltUGMzclRyUlM0VXh5NGQ4SnRYSjh4WTlCeDZWakh1WlRqMUU1QXVhMjZWbEp5WFN5Z0pwbWJveGlOSDk4MkM5R24xVVRRUVF1b2FSX0trY0t4b0paUDU5SGZZaw?oc=5",
+        "koTitle": "AI Jobs Future: Kris Gopalakrishnan의 견해",
+        "enTitle": "AI Jobs Future: Kris Gopalakrishnan’s View",
+        "date": "2026-09-09",
+        "originalDate": "2026-09-08",
+        "sourceName": "StratNews Global",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE11RmpXYWFkUERVLXctb1hrVVl4c252WS1rUXVyRnQ1RXBXMHBXZ0NSUWl5MWl3NXRuV2hxV1phUUEtZVp1RVBwNnBXRVBfVFJpUDVudEhuZ1RpcE1PUHVib09lU3UzenVqU1ZkNU03TWgtcV9udDM2dA?oc=5",
         "isRepublished": false,
         "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! Exclusive: Coursera, Microsoft and Steve Hanke on the Future of Jobs — AI Could Be a ‘Net Job Creator’ 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! AI Jobs Future: Kris Gopalakrishnan의 견해 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI Job-Loss Fear Doubled as Saving Expectations Weakened",
-        "enTitle": "AI Job-Loss Fear Doubled as Saving Expectations Weakened",
-        "date": "2026-09-08",
+        "koTitle": "생산성 향상을 위한 최고의 AI 도구",
+        "enTitle": "Top AI Tools for Productivity Hacks to Work Smarter",
+        "date": "2026-09-09",
         "originalDate": "2026-09-07",
-        "sourceName": "quasa.io",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdmhhMHBXUXo4bUVLMGc4ZkZWTXV3OG4tNTF2by15SW5uaTQ5eDhEc2Nhck9ZSXJPT3FJa1ZfNzRKTXVFTzVlN1JVOG1wcmRHRnhOUXRwT25WYzE2YTlRTFZGRm1Sc1pvbEJvaDBpdV9ZQmQwVzhxYnBzeWdqeHBkcXVQNmdTN09GWnlCWlNtZDJJYnpBTVFr?oc=5",
+        "sourceName": "KTPL Blog",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV0x3TUkydERlaTdKeENPLUd3T0RtQ29ITVd1NFZsUEMtRElSVmFaUF9RdTlQREdUYXFZcnRJTjZZcmNEY3dMSEJPdHZnc1hhcUg0RldCWlJLTkRXb2hRd3Q3Ync5YVRHQ3RqVU5yRXdVdWhUZHc2T2haU1YzeVR2VXVLZ0hXNXNs?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! AI Job-Loss Fear Doubled as Saving Expectations Weakened 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 생산성 향상을 위한 최고의 AI 도구 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "“S&P500 이겨줘” 말만 했다…31% 수익 낸 클로드 투자법",
-        "enTitle": "“S&P500 이겨줘” 말만 했다…31% 수익 낸 클로드 투자법",
-        "date": "2026-09-08",
-        "originalDate": "2026-09-07",
-        "sourceName": "중앙일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zZnoyNnItZEF4Skwxdkd1bmJZMEIwQUV0cHFfeVlYQXRONjFXN0wzeXVtaWVhT08weXNKQjhfSVBDcVluNTMtelhnS244REZGWm5xR3V3?oc=5",
+        "koTitle": "AI 클로드, 10년 걸릴 '페르마의 마지막 정리' 증명 검증 11일 만에",
+        "enTitle": "AI 클로드, 10년 걸릴 '페르마의 마지막 정리' 증명 검증 11일 만에",
+        "date": "2026-09-09",
+        "originalDate": "2026-09-08",
+        "sourceName": "DongA Science",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBUTHd4Zng1QnhGV1pfak5XNTNWNXotaGxoeUxJbVdwZ3lINEtrWEt1NkdUVEtENmRGOFN4Q1VpYk01N0tESHZkNWhFSTVnV1V3UEp0Qg?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! “S&P500 이겨줘” 말만 했다…31% 수익 낸 클로드 투자법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! AI 클로드, 10년 걸릴 '페르마의 마지막 정리' 증명 검증 11일 만에 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "中, 보이스피싱 잡는 AI 앱 출시…사기 수법·대응법까지 안내",
-        "enTitle": "中, 보이스피싱 잡는 AI 앱 출시…사기 수법·대응법까지 안내",
-        "date": "2026-09-08",
-        "originalDate": "2026-09-07",
-        "sourceName": "문화일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9vUlRjOUxsb0VseEJaOXktQVQzRk5CSjZLTGpfMGJLejAxN0s3eFhhLWFIUC1iUk9rdWlwV2V3eVlPUDhMVEZjTV81MUJ4TU53?oc=5",
+        "koTitle": "스스로 앱 열어 메일·예약·쇼핑…메타, AI 에이전트 출시",
+        "enTitle": "스스로 앱 열어 메일·예약·쇼핑…메타, AI 에이전트 출시",
+        "date": "2026-09-09",
+        "originalDate": "2026-09-08",
+        "sourceName": "edaily.co.kr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeTZwYkdYZGFKcXNqOGFCV01fd1Q2TTA3TlZaM3BNTDE2a1BpNEZqenZkeldWNkNTU2d4ZzM4ZVFVeE43TTVnVHFMUmJFME1rYWd1V1ZvdlZabGlBVWZjXzdTdFY3VHBsVnNmWXUxMXJKb1FEaUJ6S18yQnhiaWRhVQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 中, 보이스피싱 잡는 AI 앱 출시…사기 수법·대응법까지 안내 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 스스로 앱 열어 메일·예약·쇼핑…메타, AI 에이전트 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "카카오, 모델 경쟁 넘어 '생활 속 AI'로…연결 경험 살린 서비스 청사진 10월 공개",
-        "enTitle": "카카오, 모델 경쟁 넘어 '생활 속 AI'로…연결 경험 살린 서비스 청사진 10월 공개",
-        "date": "2026-09-08",
-        "originalDate": "2026-09-07",
-        "sourceName": "서울이코노미뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yQ3R5VzlqekRDYXpRTzlDSjUtRURxYjZhR2JIZW9xNDV0ZnphUGFzV3hZb1VkME1qT0VEU05GOW1qQTQwUFhqODdBMnZIOGQ3bmRya2U5UG8zYlE3X1Y3YkdpUHBUam11R2x4ZzdR?oc=5",
+        "koTitle": "'AI가 선생님 대신 학생 상담을'…日통신사, 유료 서비스 출시",
+        "enTitle": "'AI가 선생님 대신 학생 상담을'…日통신사, 유료 서비스 출시",
+        "date": "2026-09-09",
+        "originalDate": "2026-09-08",
+        "sourceName": "연합뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5wTFk0VklOM3VmRG1HZ29JNWQ2Wmd0VFVTbjFpQ1lvenY1WllzUzVhUHI1NUZOUnVrODNtS3hGeVMzcjhJSFEwSGR5bmw2N1ZGTS00c3AtWm9WeFVzcF9URNIBYEFVX3lxTE5wTFk0VklOM3VmRG1HZ29JNWQ2Wmd0VFVTbjFpQ1lvenY1WllzUzVhUHI1NUZOUnVrODNtS3hGeVMzcjhJSFEwSGR5bmw2N1ZGTS00c3AtWm9WeFVzcF9URA?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 카카오, 모델 경쟁 넘어 '생활 속 AI'로…연결 경험 살린 서비스 청사진 10월 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 'AI가 선생님 대신 학생 상담을'…日통신사, 유료 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
