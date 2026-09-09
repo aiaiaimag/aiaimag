@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-09
+ * 최신 업데이트: 2026-09-10
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "버지니아는 AI 도입으로 커리어 사다리를 강화해야 합니다 | 게스트 칼럼",
-        "enTitle": "Virginia should make AI adoption strengthen the career ladder | Guest column",
-        "date": "2026-09-09",
-        "originalDate": "2026-09-08",
-        "sourceName": "Richmond Times-Dispatch",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbXdIc3hMM3F5MzZ6U1c5UWFnS0JlN1VLNnpxQm1faTBDcVlPajZCMG5EZEdzek5RTk1nTndFaGF1dFR6dzRkMXBqV2w3LTFidXhyY2YzVHJoS0NiTFRIbkpMZTBTdm5WWEl6ODlGYnAxeWlBZGdvWDlKZTUyWHBxRUNfbWNoWW9VZXJSQVNB?oc=5",
+        "koTitle": "ChatGPT의 1980년대 빈티지 에스테틱에서 바이럴 나노 바나나까지: 비즈니스를 활성화한 5대 AI 트렌드와 그 방법",
+        "enTitle": "From ChatGPT’s 1980s Vintage Aesthetic to the Viral Nano Banana: Top 5 AI Trends That Boosted Business And How",
+        "date": "2026-09-10",
+        "originalDate": "2026-09-09",
+        "sourceName": "Jagran Josh",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNaDVlRDNmalFGb094UEttOVdZQlZ6dG16QTNsX0ZsTjZidVdoajFjT2hmMHBleDNRM1VmOVo5dWNwSkRPWGdFWXYzaW12blkwZFlscl9RX0tMaTRES253dXhqN3JtNllhVDRGM2wxa09FYlYycEtMZ3U1Y01Sb1VfVmlCWXQwZ3dMZU9feVhmRno0QVRnVWRSWU8xdGc3LXczczY3T1pXb2dfX0tjX0RPSlp6bzItb0hKZnM0Z2VQN202VWVUNmdCcXdyNzhQZVh4azhwRURMcTRocmFCdkpKTHNHaFRGMElqVlk3Q2hQS1M2ZEhPUW82NdIB_wFBVV95cUxNdjduVEE3cGNZclVfcEprNktMMkF3czV0a1FCMWdKU3lMTXlvT3dXd3RobWNBdGJPby1fVGEtMVBxVm5SLXNNYzN1YjBZRGpTUHVtYWxuSVVmVWJhUmlfQlNrSnlBZ1RMRmlMN09mNnlEeEUzejEtR1VSN3VOZkpHNlFrRVR0ME4yVHo0Q09oQ2Jjbm0zMVllb19hTDlUamRFRnlHMjJlYUFFVTJCeTVPUWttWUFkempfUFBLaHZpWUR3bnVwTHFrVmQwNGJDNnA1OGd3a3lSR2pMbndrWkEzZjVfLTNXR3J6Nm5pR204U3hvbU5IeXZON1ZtMmFlek0?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 버지니아는 AI 도입으로 커리어 사다리를 강화해야 합니다 | 게스트 칼럼 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! ChatGPT의 1980년대 빈티지 에스테틱에서 바이럴 나노 바나나까지: 비즈니스를 활성화한 5대 AI 트렌드와 그 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI Jobs Future: Kris Gopalakrishnan의 견해",
-        "enTitle": "AI Jobs Future: Kris Gopalakrishnan’s View",
-        "date": "2026-09-09",
-        "originalDate": "2026-09-08",
-        "sourceName": "StratNews Global",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE11RmpXYWFkUERVLXctb1hrVVl4c252WS1rUXVyRnQ1RXBXMHBXZ0NSUWl5MWl3NXRuV2hxV1phUUEtZVp1RVBwNnBXRVBfVFJpUDVudEhuZ1RpcE1PUHVib09lU3UzenVqU1ZkNU03TWgtcV9udDM2dA?oc=5",
+        "koTitle": "ChatGPT 1980년대 사진 트렌드 화제: 1990년대 발리우드, Y2K 패션 및 2000년대 초반을 위한 10가지 이상의 최고의 AI 프롬프트",
+        "enTitle": "ChatGPT 1980s photo trend goes viral: 10+ best AI prompts for 1990s Bollywood, Y2K fashion and early 2000s",
+        "date": "2026-09-10",
+        "originalDate": "2026-09-09",
+        "sourceName": "The Economic Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPQ1Z4NmJwSU1BTjRNWmxSOWZRRHhYUmdFb2lKbUdYTmZ2NF84TXpKMUZnU19hY2xGNmhQMk9JTEc0WWF5SlZmY2xjVnhQSW54WVBBN2QteEZWRjg4VFUtdDdaTE9JT2x3cHZPNUc4dGFwNTM2YTFNS0RiZnlsRFNmTXR0Z0hHTVJIZUZGRVNOa0hocFB6dDJWeV92b29BM2V1WENIbDdnMER6ZVBmUUJRc3RLR2gybTZ1MDNXWmdoRVpxZmZFeUZlcDFRUEhFX0c3a2F3YzlERVZ2MnAweXRDdFNEZDlZSUEzbWdkMUFsUUxiY21pVzlicGhuSE8wd0E3YXQxWUl0Q2dCR2UwTHNJMGo1UXJWUzZrdHA4ZkMyM23SAaACQVVfeXFMT0NWeDZicElNQU40TVpsUjlmUUR4WFJnRW9pSm1HWE5mdjRfOE16SjFGZ1NfYWNsRjZoUDJPSUxHNFlheUpWZmNsY1Z4UElueFlQQTdkLXhGVkY4OFRVLXQ3WkxPSU9sd3B2TzVHOHRhcDUzNmExTUtEYmZ5bERTZk10dGdIR01SSGVGRkVTTmtIaHBQenQyVnlfdm9vQTNldVhDSGw3ZzBEemVQZlFCUXN0S0doMm02dTAzV1pnaEVacWZmRXlGZXAxUVBIRV9HN2thd2M5REVWdjJwMHl0Q3RTRGQ5WUlBM21nZDFBbFFMYmNtaVc5YnBobkhPMHdBN2F0MVlJdENnQkdlMExzSTBqNVFyVlM2a3RwOGZDMjNt?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! AI Jobs Future: Kris Gopalakrishnan의 견해 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "98%",
+        "analysis": "글로벌 AI 트렌드 체크! ChatGPT 1980년대 사진 트렌드 화제: 1990년대 발리우드, Y2K 패션 및 2000년대 초반을 위한 10가지 이상의 최고의 AI 프롬프트 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "생산성 향상을 위한 최고의 AI 도구",
-        "enTitle": "Top AI Tools for Productivity Hacks to Work Smarter",
-        "date": "2026-09-09",
-        "originalDate": "2026-09-07",
-        "sourceName": "KTPL Blog",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV0x3TUkydERlaTdKeENPLUd3T0RtQ29ITVd1NFZsUEMtRElSVmFaUF9RdTlQREdUYXFZcnRJTjZZcmNEY3dMSEJPdHZnc1hhcUg0RldCWlJLTkRXb2hRd3Q3Ync5YVRHQ3RqVU5yRXdVdWhUZHc2T2haU1YzeVR2VXVLZ0hXNXNs?oc=5",
+        "koTitle": "바이럴 80년대 AI 사진 트렌드는 인터넷에 심각한 복고풍 변신을 선사하고 있습니다.",
+        "enTitle": "The viral 80s AI photo trend is giving Internet a serious retro makeover",
+        "date": "2026-09-10",
+        "originalDate": "2026-09-09",
+        "sourceName": "India Today",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQmhjRDcyY2VVM1NxX3ZlLW41UlVHWHpRR3JWak9OeTV2djJUQkdCbVBBS0JCNFB4MDRPdTNXaUNZSmF5VlBVQTE0cDNndloxU3R1clItN2d2VElaNjg2OU9qcmVZaVg1dEtLSUdGNUxSVmFvVkVmamJiWDFadGh4VGNjSkNIVEJSZnc0MmZOMlRHTXJNQVlkVmhGZ3NxVFlpdnJjR2pXMndZbFFfUW5XS3BnbjRJWWszbEwxVlBlQ1ZPT19ocmhRdFVlV0NJRGJfWjJN0gHYAUFVX3lxTE9Od3FoeFprdG5naWRleFhtV3NwS3hOSEFrZHRERTlhcW5jS0RWei1QWWJ5dDMzbVNGeDBuRE1hdVJCYkN6S1hNSy1JM3hLVHN1eGp5NDZWai1SZkZFbUxlZ0NZTm5XTjBhdXBnVjVEM3A3ZDlNTmp1ZFZBX2RHdnhrMFVkcEFCblRIRllES1ZnSzBWM200UmxfS0xEY2haUk42UlQ1MU91R0hUVGl5Q3BiV2VFNktRZllXMG56ZTBTZUdweU1GSmN6OXVUNGhaTjFqWGE2R21odA?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 생산성 향상을 위한 최고의 AI 도구 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 바이럴 80년대 AI 사진 트렌드는 인터넷에 심각한 복고풍 변신을 선사하고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "AI 클로드, 10년 걸릴 '페르마의 마지막 정리' 증명 검증 11일 만에",
-        "enTitle": "AI 클로드, 10년 걸릴 '페르마의 마지막 정리' 증명 검증 11일 만에",
-        "date": "2026-09-09",
-        "originalDate": "2026-09-08",
-        "sourceName": "DongA Science",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBUTHd4Zng1QnhGV1pfak5XNTNWNXotaGxoeUxJbVdwZ3lINEtrWEt1NkdUVEtENmRGOFN4Q1VpYk01N0tESHZkNWhFSTVnV1V3UEp0Qg?oc=5",
+        "koTitle": "“S&P500 이겨줘” 말만 했다…31% 수익 낸 클로드 투자법",
+        "enTitle": "“S&P500 이겨줘” 말만 했다…31% 수익 낸 클로드 투자법",
+        "date": "2026-09-10",
+        "originalDate": "2026-09-09",
+        "sourceName": "중앙일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBEMUVsU1NwWTFyUzVHSVJJSW5KYjRxUU1wZFgzOXpoNFpLV3ZNRmx4SnYxUEdYRU1CS2pjbHlGZlJXZndMT3NyM08wemE0Y1Uyd3dZZ3h3?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! AI 클로드, 10년 걸릴 '페르마의 마지막 정리' 증명 검증 11일 만에 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! “S&P500 이겨줘” 말만 했다…31% 수익 낸 클로드 투자법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "스스로 앱 열어 메일·예약·쇼핑…메타, AI 에이전트 출시",
-        "enTitle": "스스로 앱 열어 메일·예약·쇼핑…메타, AI 에이전트 출시",
-        "date": "2026-09-09",
-        "originalDate": "2026-09-08",
-        "sourceName": "edaily.co.kr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeTZwYkdYZGFKcXNqOGFCV01fd1Q2TTA3TlZaM3BNTDE2a1BpNEZqenZkeldWNkNTU2d4ZzM4ZVFVeE43TTVnVHFMUmJFME1rYWd1V1ZvdlZabGlBVWZjXzdTdFY3VHBsVnNmWXUxMXJKb1FEaUJ6S18yQnhiaWRhVQ?oc=5",
+        "koTitle": "앤트로픽, 클로드 AI 모델서 4번째 보안 사고 발생 발표",
+        "enTitle": "앤트로픽, 클로드 AI 모델서 4번째 보안 사고 발생 발표",
+        "date": "2026-09-10",
+        "originalDate": "2026-09-09",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9yUWtacUl6S3l0Vkc2amxJc1hFVzk3eFQxLTFUYzllbVF1c3BRRnZORGNqZ2gwa0hOUFZFQnN5dllhdjhpYWNKbmNjUXk2QUJBOEdYNzRXeXZKbGR2dUw4THVYQjNqYnVtdktLNGxLWUtIQWhKVk5r?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 스스로 앱 열어 메일·예약·쇼핑…메타, AI 에이전트 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 클로드 AI 모델서 4번째 보안 사고 발생 발표 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "'AI가 선생님 대신 학생 상담을'…日통신사, 유료 서비스 출시",
-        "enTitle": "'AI가 선생님 대신 학생 상담을'…日통신사, 유료 서비스 출시",
-        "date": "2026-09-09",
-        "originalDate": "2026-09-08",
-        "sourceName": "연합뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5wTFk0VklOM3VmRG1HZ29JNWQ2Wmd0VFVTbjFpQ1lvenY1WllzUzVhUHI1NUZOUnVrODNtS3hGeVMzcjhJSFEwSGR5bmw2N1ZGTS00c3AtWm9WeFVzcF9URNIBYEFVX3lxTE5wTFk0VklOM3VmRG1HZ29JNWQ2Wmd0VFVTbjFpQ1lvenY1WllzUzVhUHI1NUZOUnVrODNtS3hGeVMzcjhJSFEwSGR5bmw2N1ZGTS00c3AtWm9WeFVzcF9URA?oc=5",
+        "koTitle": "[미국 특징주] 앤스로픽, 클로드 관련 네 번째 사이버보안 사고 공개",
+        "enTitle": "[미국 특징주] 앤스로픽, 클로드 관련 네 번째 사이버보안 사고 공개",
+        "date": "2026-09-10",
+        "originalDate": "2026-09-09",
+        "sourceName": "뉴스핌",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Ha3JnSHB2MjhtN1pzQ0dOd1dncWY3cjZjX0MwQmg0R1BpOFp2MUFJVkt0SUN2Q0JWRm1FTWFKMVNJeUhlajNjOGFoWHBjWmxvNFpBeXc2MnpJWmxh?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 'AI가 선생님 대신 학생 상담을'…日통신사, 유료 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! [미국 특징주] 앤스로픽, 클로드 관련 네 번째 사이버보안 사고 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
