@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-11
+ * 최신 업데이트: 2026-09-12
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "아일랜드 근로자의 거의 절반 (47%) 이 새로운 경력 경로를 고려하고 있다고 답했습니다. AI가 업무의 미래를 형성하기 때문에 Microsoft Ireland 연구에 따르면",
-        "enTitle": "Almost half (47%) of Irish workers say they are considering new career paths, as AI shapes the future of work, Microsoft Ireland study finds",
-        "date": "2026-09-11",
-        "originalDate": "2026-09-10",
-        "sourceName": "Microsoft Source",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPc0RjNGRGa29QdjlSci1POUJEVGpYMUw5Yk5CeEJsWVo0UEpxcFlmLTR2ZE9sVXpqMWJwZHhENzVCNmNOM0NvZnA0WlUyQmZsNnpHanlaTzdiV0pMRGtIZThwTGg2T01UNFRFV3lXQVVDSTBRQzlUekVzZkozbFBDWC1ZemNjdU11cmV1TzAyM1NEOG9Db203R2VHVHJZSTVMc1lzZzBIb1BLLXFiaWNtemxtUXFzNVBmWldoV0JIbDRCQ3oyMGFqLVJ3Yko0ZmhNd2kwMlVOMW1kVzlQVDRuQl8yeXhZRzR3T3dXeXNmdkNkRjdiVlQtWTdtY2I3SEFqTl8xVkNnUmN4cGtNZXY3UmpR?oc=5",
+        "koTitle": "1980년대 AI 사진 채팅GPT 트렌드는 바이러스성입니다. 하지만 얼굴을 업로드하는 것이 안전한가요? | 세계 뉴스",
+        "enTitle": "1980s AI photo ChatGPT trend is viral. But is it safe to upload your face? | World News",
+        "date": "2026-09-12",
+        "originalDate": "2026-09-11",
+        "sourceName": "hindustantimes.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNLVgzRDgyeE9qVF9VSWc0LTY2QWtaY1EzRWFtVXVzRFpFZTdpcXNsU1NCcVUyZnpBaGRZSkxqbjF5eDdWVXh0akRvNGtzYU5HS09ZdUxxdWV5cnN5a2tLYVZLbzN3Z3oxaU1xM3UzWHZHODlBdEhISmJvVnFBT1ZncFk2LWt4Z2NUcXcxV2steks0VHh0Q2ZSazg4V1RpdGdfZHgxOXZNdjNtR0JnYWljeWlTZkwxNkQ3VGY4VFF0b0trblJpMGgwcl9DYzY5MXJYVkE3ZEs2WEJCWEd4X3RsVGd30gHnAUFVX3lxTFB1bXpFWW1ZU0xublZzU1dPTUlGZFY1ZFhOOFVSZWsyZVBnQU9jYkRQcmNZRXE0SFBYSkRQYWVsQ2hVN0pfeGptQVVjVHhMSmJmN25GNUdrZHlQZjdFRDlWeGxna0xybVExX0Vsamp6ZzBRLVYydVAzSC0zYk5pblFpd3lvTU9sRVd1VFNGM2gzLThmRmRwazlTMzdWYWJvMlQxYzlJanJUSHluVXVxVDZKbW5kTlBZa1Y5b2hWVHJFc1NidnlsbVFrUGxMNERGYlZ6UHFoVjZybVhMaXR1LXFwcXJPSTJRcw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! 아일랜드 근로자의 거의 절반 (47%) 이 새로운 경력 경로를 고려하고 있다고 답했습니다. AI가 업무의 미래를 형성하기 때문에 Microsoft Ireland 연구에 따르면 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! 1980년대 AI 사진 채팅GPT 트렌드는 바이러스성입니다. 하지만 얼굴을 업로드하는 것이 안전한가요? | 세계 뉴스 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "바이러스 성 채팅을 시도하기 전에GPT 80 년대 사진 트렌드, 이러한 개인 정보 보호 위험을 알고",
-        "enTitle": "Before You Try The Viral ChatGPT 80s Photo Trend, Know These Privacy Risks",
-        "date": "2026-09-11",
-        "originalDate": "2026-09-10",
-        "sourceName": "NDTV",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN3FlUk43MTgtc2lmYXEydUd6MDdjZGMzOHRpbXI2LXo3Y1lvV1l0S2tNZU9YUk5VZExVcy1sZ2QtdkxQSk91WDRGQnBTbjNzTnNDRU4tWEUtSFBlaGFoV0hxeFk3NW84anlfTlNQQ3FOYjdJekFMWmk5OE5mSzRkRE5tcm9pc1BRMWotbkowM2lhTWlKbmQ2cVYxZlpkYjBfeVNadGJ1SjJmb2fSAbMBQVVfeXFMUDF4Y0JmYWFQVVg4dFZQR2RhU09pdlM2MWZBb0pOc1d2NVRzSTF0MW5pekFfclJrTmdrMzJicGE5SktKVWFYYkxLNWJFdDl6dlFyQkZTcG5USnhtc01uRHJMRE5MdjNnYUdnYVZpTDV5LVRUc01CU2tIQzJoTFRRMjgzQXRtU0QxS3ptQ3I0Z1A0MmRucnhubG4zbG01RzhFdm43bDEyTUx0Y19RcU10X09GTlk?oc=5",
+        "koTitle": "Anthropic의 2030년 세 가지 AI 경제 시나리오에 대해 설명합니다.",
+        "enTitle": "Anthropic's three AI economic scenarios for 2030, explained",
+        "date": "2026-09-12",
+        "originalDate": "2026-09-11",
+        "sourceName": "The Next Web",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE03aUMtcGw5cVg3NmlYT2FSN0diekpsZUZsMnhubnFxNDg0ZDBKakVMaHB5SkNEbjVnWGhCLXlTX05zSHIwZHJLM2c5NDFZVUVub1IwbXhMeG9zRDRWLWEtcWZGdXdZQ1diVEFWNGFjbmp4QQ?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! 바이러스 성 채팅을 시도하기 전에GPT 80 년대 사진 트렌드, 이러한 개인 정보 보호 위험을 알고 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! Anthropic의 2030년 세 가지 AI 경제 시나리오에 대해 설명합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "ChatGPT 80년대 트렌드: 인공지능 사진이 환경에 미치는 영향",
-        "enTitle": "ChatGPT 80s trend: How AI photos are impacting the environment",
-        "date": "2026-09-11",
-        "originalDate": "2026-09-10",
-        "sourceName": "Firstpost",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYXlTaEpZeU1ZUnRNUk9RRjJnYXdqTDVBUHZnZUR3aWxHNXpBZXp4OUo4UlpzX0d4QmlURjBLU0J2MWpHczJmbUozdGU5cmJNU1BiZ0pFVFAxdS1mZ2NnRzVmdElsSkxsTG5PLU5kYnZOOVYyYUtoSDc1MUFfNDJleHBHaDQ1amFrcFp4Q1g4eEFjU0NxR0RXTFBiSEJqRW9HUktrakVDYjM0Z9IBrwFBVV95cUxNS0IxbW9KQnBpcWp3TkJwRGpoeWFZU0NrdThHeU9EZWFWLXptWTI1N1AxUU03MTB3OWRPS1BORUhET0d4YmpyTDUtSnFreHplUlg2QkliY1lLa0MyVEIzd0ZLOE9yT2hTNzZTSlpoTDE1bWdDNnpNazB5QW81NEJsTmthRHg0YW5KdEtva2luTmtPcUZOajNad20tdXJNSk9HN0MzbnNjYkNQZEQyYjdj?oc=5",
+        "koTitle": "아일랜드 근로자의 절반이 AI의 부상으로 인해 새로운 경력 경로를 고려하고 있다고 연구 결과가 밝혔습니다.",
+        "enTitle": "Half of workers in Ireland considering new career path due to rise of AI, study shows",
+        "date": "2026-09-12",
+        "originalDate": "2026-09-11",
+        "sourceName": "tuamherald.ie",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSTNuM2lVWTZnbTR0SFZ5OGRMOF9MLXBYc1hudVpESlgtUmRrbFQxWUlWQm1qdjdRTmYwTndwR1NZR2NyN2dmQnQxME1PNmo3VVVRRE95aG1tcjc4WDhpdVFjN3VsUVBOTWtnYmxxdXZWSUI4b2xBQkVXY1ZIazd2UEFmZEtXRmdzY0RNVDRyeVJ3ZHJROTF6Tkp1TjY1RlpfMHB5aVhvOEY3QUNOUmlyb0FCdDc4T3pVUWxFbktwdw?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "글로벌 AI 트렌드 체크! ChatGPT 80년대 트렌드: 인공지능 사진이 환경에 미치는 영향 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 아일랜드 근로자의 절반이 AI의 부상으로 인해 새로운 경력 경로를 고려하고 있다고 연구 결과가 밝혔습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "GPT-6 Astra: 새로운 세대의 지능",
-        "enTitle": "GPT-6 Astra: 새로운 세대의 지능",
-        "date": "2026-09-11",
-        "originalDate": "2026-09-10",
-        "sourceName": "OpenAI",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DdWlyc0FQSDFUeE8tblc2YzdaNHNXX29uNkxXbFFlbVF3MXZYU3JSd2NDOFVyUHNXdVowekdEU2NYY1daZlhuLXBzMUxkdmZnU2lfdXhB?oc=5",
+        "koTitle": "돈 냈는데 '사용 한도 초과?'⋯챗GPT·클로드, 얼마나 쓸 수 있나",
+        "enTitle": "돈 냈는데 '사용 한도 초과?'⋯챗GPT·클로드, 얼마나 쓸 수 있나",
+        "date": "2026-09-12",
+        "originalDate": "2026-09-11",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5JSFQxb3dkVjVyc2h1X0ppT3hURExkaHRBbjAzT2JTbUZGV2p3OGcyS1dST3BhXzBIQ2VZelNQVFgxTDZzUXFwMGZTa1lUNk0?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! GPT-6 Astra: 새로운 세대의 지능 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 돈 냈는데 '사용 한도 초과?'⋯챗GPT·클로드, 얼마나 쓸 수 있나 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "오픈AI, 챗GPT 금융서비스 출시…월가 신입 애널리스트 대체하나",
-        "enTitle": "오픈AI, 챗GPT 금융서비스 출시…월가 신입 애널리스트 대체하나",
-        "date": "2026-09-11",
-        "originalDate": "2026-09-10",
-        "sourceName": "와우테일",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96ZmJiUmVnYmUxdWZoZEtSUTlyOVV0eXVHNjZwbVFyUTZqaDBJX1ZoNkdkeXU5VXc0Z25CRHJYQ1FvdHN6WlNrOWpxY05VSmc?oc=5",
+        "koTitle": "웹 브라우저 벗어난 구글 '제미나이', 윈도우용 데스크톱 앱 출시",
+        "enTitle": "웹 브라우저 벗어난 구글 '제미나이', 윈도우용 데스크톱 앱 출시",
+        "date": "2026-09-12",
+        "originalDate": "2026-09-11",
+        "sourceName": "aitimes.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UUFZTdTdhQkdIR21nc00yUXpLbDBWYlM5WXh2QWpUQjlpOW9oS2JWLWltZVBEMkI0MkxvQlZvaTUyNThjN2xDVXR5aVdUakVPTWNMVEZMNWFON1k3QVJSVTgwV253TFl3cUE?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 오픈AI, 챗GPT 금융서비스 출시…월가 신입 애널리스트 대체하나 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 웹 브라우저 벗어난 구글 '제미나이', 윈도우용 데스크톱 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "오션 네트워크, AI 추론 서비스 출시…GPU 시간 단위 과금",
-        "enTitle": "오션 네트워크, AI 추론 서비스 출시…GPU 시간 단위 과금",
-        "date": "2026-09-11",
-        "originalDate": "2026-09-10",
-        "sourceName": "블루밍비트",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5xSWxnZjJ0WkRkRXhEUDR5eG0zUmEzMHpNUmxYeEZIYlpuLUQ1eFp3RWl4dXZTNmlNN2xnaEZHRWpSd1M4NGZFMVNnR3g1dkw4?oc=5",
+        "koTitle": "\"스마트워치 없이도 수면 측정\"...비브레스트, '트랜슬립 AI' 앱 출시",
+        "enTitle": "\"스마트워치 없이도 수면 측정\"...비브레스트, '트랜슬립 AI' 앱 출시",
+        "date": "2026-09-12",
+        "originalDate": "2026-09-11",
+        "sourceName": "aitimes.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5zT0VqWFFHbkVVa3ZpT2t0NDdMQ09wdU5uT0k2THRoTktwcXREbzZiTkZIVHdrbEZsNmJWMHRNUVRZNTFoQURVNjZuR1ZTcXVoMU1PVFFJMkNIWURUNHp5WVN1ZHVaMFlmdlE?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 오션 네트워크, AI 추론 서비스 출시…GPU 시간 단위 과금 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! \"스마트워치 없이도 수면 측정\"...비브레스트, '트랜슬립 AI' 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
