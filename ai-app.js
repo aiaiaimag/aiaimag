@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-12
+ * 최신 업데이트: 2026-09-13
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "1980년대 AI 사진 채팅GPT 트렌드는 바이러스성입니다. 하지만 얼굴을 업로드하는 것이 안전한가요? | 세계 뉴스",
-        "enTitle": "1980s AI photo ChatGPT trend is viral. But is it safe to upload your face? | World News",
-        "date": "2026-09-12",
-        "originalDate": "2026-09-11",
-        "sourceName": "hindustantimes.com",
+        "koTitle": "인공지능으로 만든 1980년대식 메이크오버를 원하시나요? 사진을 업로드하기 전에 두 번 생각하세요 | 세계일보",
+        "enTitle": "Want an AI-made 1980s makeover? Think twice before uploading your photo | World News",
+        "date": "2026-09-13",
+        "originalDate": "2026-09-12",
+        "sourceName": "Hindustan Times",
         "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNLVgzRDgyeE9qVF9VSWc0LTY2QWtaY1EzRWFtVXVzRFpFZTdpcXNsU1NCcVUyZnpBaGRZSkxqbjF5eDdWVXh0akRvNGtzYU5HS09ZdUxxdWV5cnN5a2tLYVZLbzN3Z3oxaU1xM3UzWHZHODlBdEhISmJvVnFBT1ZncFk2LWt4Z2NUcXcxV2steks0VHh0Q2ZSazg4V1RpdGdfZHgxOXZNdjNtR0JnYWljeWlTZkwxNkQ3VGY4VFF0b0trblJpMGgwcl9DYzY5MXJYVkE3ZEs2WEJCWEd4X3RsVGd30gHnAUFVX3lxTFB1bXpFWW1ZU0xublZzU1dPTUlGZFY1ZFhOOFVSZWsyZVBnQU9jYkRQcmNZRXE0SFBYSkRQYWVsQ2hVN0pfeGptQVVjVHhMSmJmN25GNUdrZHlQZjdFRDlWeGxna0xybVExX0Vsamp6ZzBRLVYydVAzSC0zYk5pblFpd3lvTU9sRVd1VFNGM2gzLThmRmRwazlTMzdWYWJvMlQxYzlJanJUSHluVXVxVDZKbW5kTlBZa1Y5b2hWVHJFc1NidnlsbVFrUGxMNERGYlZ6UHFoVjZybVhMaXR1LXFwcXJPSTJRcw?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! 1980년대 AI 사진 채팅GPT 트렌드는 바이러스성입니다. 하지만 얼굴을 업로드하는 것이 안전한가요? | 세계 뉴스 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능으로 만든 1980년대식 메이크오버를 원하시나요? 사진을 업로드하기 전에 두 번 생각하세요 | 세계일보 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "Anthropic의 2030년 세 가지 AI 경제 시나리오에 대해 설명합니다.",
-        "enTitle": "Anthropic's three AI economic scenarios for 2030, explained",
-        "date": "2026-09-12",
-        "originalDate": "2026-09-11",
-        "sourceName": "The Next Web",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE03aUMtcGw5cVg3NmlYT2FSN0diekpsZUZsMnhubnFxNDg0ZDBKakVMaHB5SkNEbjVnWGhCLXlTX05zSHIwZHJLM2c5NDFZVUVub1IwbXhMeG9zRDRWLWEtcWZGdXdZQ1diVEFWNGFjbmp4QQ?oc=5",
+        "koTitle": "해고를 늘리지 않으면서 AI가 채용을 줄이는 방법",
+        "enTitle": "How AI May Reduce Hiring Without Increasing Layoffs",
+        "date": "2026-09-13",
+        "originalDate": "2026-09-12",
+        "sourceName": "quasa.io",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdWRfb3gwNGhiOFhSLXVSV2JYX2Vra21XNmZFSlFMUVV6azFrS0gtQjZrUjFpYk8zRG84NklURHZVYkFaTnY5SG9mbGJzS00zRzFNZEZycmJnNjh5cWtqZGwwcjZlaU9JUm9JSnkzY1VDcEtOVXN5U1pkNU04MmQyVldfbmdDeWFvQWVhZ1piMGI4ajFGMVMzd0RNWHNxSUE?oc=5",
         "isRepublished": false,
         "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! Anthropic의 2030년 세 가지 AI 경제 시나리오에 대해 설명합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 해고를 늘리지 않으면서 AI가 채용을 줄이는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "아일랜드 근로자의 절반이 AI의 부상으로 인해 새로운 경력 경로를 고려하고 있다고 연구 결과가 밝혔습니다.",
-        "enTitle": "Half of workers in Ireland considering new career path due to rise of AI, study shows",
-        "date": "2026-09-12",
-        "originalDate": "2026-09-11",
-        "sourceName": "tuamherald.ie",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSTNuM2lVWTZnbTR0SFZ5OGRMOF9MLXBYc1hudVpESlgtUmRrbFQxWUlWQm1qdjdRTmYwTndwR1NZR2NyN2dmQnQxME1PNmo3VVVRRE95aG1tcjc4WDhpdVFjN3VsUVBOTWtnYmxxdXZWSUI4b2xBQkVXY1ZIazd2UEFmZEtXRmdzY0RNVDRyeVJ3ZHJROTF6Tkp1TjY1RlpfMHB5aVhvOEY3QUNOUmlyb0FCdDc4T3pVUWxFbktwdw?oc=5",
+        "koTitle": "구인 광고에서 AI 기술 언급 Rose 165% - 수요는 기술 이상으로 확장됩니다.",
+        "enTitle": "AI Skill Mentions in Job Ads Rose 165%—The Demand Extends Beyond Tech",
+        "date": "2026-09-13",
+        "originalDate": "2026-09-12",
+        "sourceName": "quasa.io",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdzJtTHVpakJZRGdQZFBoSnlDek9GZS1hUHE0V2NnSExkTDh4a0FxakhlaHhxWm55SlVIMm5LNWNZMjJTZ25sSzB3Q2FJLTNkbzlleldvRXNia1AycXliR1VsODdHSjNZVjJWWXI4V2FmejRQQlRMTzVPT2VEc2F5N1RNbXBmRjhWYWFMN2d3TUZfQTZnLXBWNnhn?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 아일랜드 근로자의 절반이 AI의 부상으로 인해 새로운 경력 경로를 고려하고 있다고 연구 결과가 밝혔습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 구인 광고에서 AI 기술 언급 Rose 165% - 수요는 기술 이상으로 확장됩니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "돈 냈는데 '사용 한도 초과?'⋯챗GPT·클로드, 얼마나 쓸 수 있나",
-        "enTitle": "돈 냈는데 '사용 한도 초과?'⋯챗GPT·클로드, 얼마나 쓸 수 있나",
-        "date": "2026-09-12",
-        "originalDate": "2026-09-11",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5JSFQxb3dkVjVyc2h1X0ppT3hURExkaHRBbjAzT2JTbUZGV2p3OGcyS1dST3BhXzBIQ2VZelNQVFgxTDZzUXFwMGZTa1lUNk0?oc=5",
+        "koTitle": "\"브라우저 열 필요 없다\"…구글, 윈도우용 '제미나이' 앱 출시",
+        "enTitle": "\"브라우저 열 필요 없다\"…구글, 윈도우용 '제미나이' 앱 출시",
+        "date": "2026-09-13",
+        "originalDate": "2026-09-12",
+        "sourceName": "네이트",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LTVRTTVQ0eGpKUlBXQzNhQ01VRDlFR1Y0aWlxQlpIVjlEN0Fqcmg4NGJwbFpzbmVLc2p6RnVkd252dV81ZEY2WFdVU0RiQ0pUM1FF?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 돈 냈는데 '사용 한도 초과?'⋯챗GPT·클로드, 얼마나 쓸 수 있나 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! \"브라우저 열 필요 없다\"…구글, 윈도우용 '제미나이' 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "웹 브라우저 벗어난 구글 '제미나이', 윈도우용 데스크톱 앱 출시",
-        "enTitle": "웹 브라우저 벗어난 구글 '제미나이', 윈도우용 데스크톱 앱 출시",
-        "date": "2026-09-12",
-        "originalDate": "2026-09-11",
-        "sourceName": "aitimes.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UUFZTdTdhQkdIR21nc00yUXpLbDBWYlM5WXh2QWpUQjlpOW9oS2JWLWltZVBEMkI0MkxvQlZvaTUyNThjN2xDVXR5aVdUakVPTWNMVEZMNWFON1k3QVJSVTgwV253TFl3cUE?oc=5",
+        "koTitle": "이란 해커, AI ‘클로드’로 美 해군 표적화…군사적 악용 일파만파",
+        "enTitle": "이란 해커, AI ‘클로드’로 美 해군 표적화…군사적 악용 일파만파",
+        "date": "2026-09-13",
+        "originalDate": "2026-09-12",
+        "sourceName": "글로벌이코노믹",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNY0h4dFBzQ28ydzUwZjkwVElvVVgtQ2wzT1c0dmJ4bGdhRTFRYUIyX0d2dEZ0YmM3c0FZc2NYOTZ5Z1hIYWUyT1RjeDFJYkNRWjBqM3o3SXpBLVpMRVlnUnNZM3YxRE5xRFRKVXRYS3ZObFJCcElhdzkyUEJwbGlEaTZYOHJoM00z?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 웹 브라우저 벗어난 구글 '제미나이', 윈도우용 데스크톱 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 이란 해커, AI ‘클로드’로 美 해군 표적화…군사적 악용 일파만파 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "\"스마트워치 없이도 수면 측정\"...비브레스트, '트랜슬립 AI' 앱 출시",
-        "enTitle": "\"스마트워치 없이도 수면 측정\"...비브레스트, '트랜슬립 AI' 앱 출시",
-        "date": "2026-09-12",
-        "originalDate": "2026-09-11",
-        "sourceName": "aitimes.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5zT0VqWFFHbkVVa3ZpT2t0NDdMQ09wdU5uT0k2THRoTktwcXREbzZiTkZIVHdrbEZsNmJWMHRNUVRZNTFoQURVNjZuR1ZTcXVoMU1PVFFJMkNIWURUNHp5WVN1ZHVaMFlmdlE?oc=5",
+        "koTitle": "최태원 \"AI, 수익 못내면 거품처럼 꺼져…데이터 플랫폼이 관건\"",
+        "enTitle": "최태원 \"AI, 수익 못내면 거품처럼 꺼져…데이터 플랫폼이 관건\"",
+        "date": "2026-09-13",
+        "originalDate": "2026-09-12",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90dy1BU1NIOFNDOTBUX2JkR3lPY1lyNW9vR1NaU1VZN2ZpQ0wzVU1mRld3SUZHVy1qQ2ZjV1BidS1tZmpfMGl5S0NzYWk5WHc?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! \"스마트워치 없이도 수면 측정\"...비브레스트, '트랜슬립 AI' 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 최태원 \"AI, 수익 못내면 거품처럼 꺼져…데이터 플랫폼이 관건\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
