@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-13
+ * 최신 업데이트: 2026-09-14
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "인공지능으로 만든 1980년대식 메이크오버를 원하시나요? 사진을 업로드하기 전에 두 번 생각하세요 | 세계일보",
-        "enTitle": "Want an AI-made 1980s makeover? Think twice before uploading your photo | World News",
-        "date": "2026-09-13",
-        "originalDate": "2026-09-12",
-        "sourceName": "Hindustan Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNLVgzRDgyeE9qVF9VSWc0LTY2QWtaY1EzRWFtVXVzRFpFZTdpcXNsU1NCcVUyZnpBaGRZSkxqbjF5eDdWVXh0akRvNGtzYU5HS09ZdUxxdWV5cnN5a2tLYVZLbzN3Z3oxaU1xM3UzWHZHODlBdEhISmJvVnFBT1ZncFk2LWt4Z2NUcXcxV2steks0VHh0Q2ZSazg4V1RpdGdfZHgxOXZNdjNtR0JnYWljeWlTZkwxNkQ3VGY4VFF0b0trblJpMGgwcl9DYzY5MXJYVkE3ZEs2WEJCWEd4X3RsVGd30gHnAUFVX3lxTFB1bXpFWW1ZU0xublZzU1dPTUlGZFY1ZFhOOFVSZWsyZVBnQU9jYkRQcmNZRXE0SFBYSkRQYWVsQ2hVN0pfeGptQVVjVHhMSmJmN25GNUdrZHlQZjdFRDlWeGxna0xybVExX0Vsamp6ZzBRLVYydVAzSC0zYk5pblFpd3lvTU9sRVd1VFNGM2gzLThmRmRwazlTMzdWYWJvMlQxYzlJanJUSHluVXVxVDZKbW5kTlBZa1Y5b2hWVHJFc1NidnlsbVFrUGxMNERGYlZ6UHFoVjZybVhMaXR1LXFwcXJPSTJRcw?oc=5",
+        "koTitle": "Beyond Generative AI: 업무의 미래를 형성하는 7가지 기술",
+        "enTitle": "Beyond Generative AI: 7 Skills that Will Shape the Future of Work",
+        "date": "2026-09-14",
+        "originalDate": "2026-09-13",
+        "sourceName": "analyticsinsight.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObUo2aTB0ZTE3SlpIOHNnZjRRU0J1TmxXbml3Q3BhbFRqc3l2MG9CM1ZkcWg0UUFyVWJ3UDNQcHpDSVVzOFdNRFBjTXJidlJNMjgwbldyVVJNd2dSU3JqU29LVDBmdUUxY1d3UGFlZGI0OWlfMnV5QWZZUEdoNjhrUkg2elItMjdzeVdmOTdLWWdjVUYtMEVOWFZnYmFvTGZlUkJVSjZHdFNpOEVKS29ZcHFxaTNueEVhd0JlOXVB0gHLAUFVX3lxTE43NXVCNFpUaVBBVzJ4dWFpVWFUbWhmS1l6UFkyRzlINVhUQlBYSHlFS0wtaGJETG0xR0xVT3o0bnBCWGRXcC1IWi1GTms1dmhkWmxkNm03Qnptd19lUjlDVWRxTUlieWx6cVRRWjIxQjV4TXBxNkxYRGV0d3RJZVVlVXV2bDlJVmhBOTlvS0o5WjRYQ0VCR1VqUnpEWC1YRmtueTVfZm0yWnV2SVR4d09VbldOeWFJWjVNN05rcnExNHRTRndPWWN0NmJz?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능으로 만든 1980년대식 메이크오버를 원하시나요? 사진을 업로드하기 전에 두 번 생각하세요 | 세계일보 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! Beyond Generative AI: 업무의 미래를 형성하는 7가지 기술 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "인공지능으로 만든 1980년대식 메이크오버를 원하시나요? 사진을 업로드하기 전에 두 번 생각하세요 | 세계일보",
+        "enTitle": "Want an AI-made 1980s makeover? Think twice before uploading your photo | World News",
+        "date": "2026-09-14",
+        "originalDate": "2026-09-12",
+        "sourceName": "Hindustan Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNLVgzRDgyeE9qVF9VSWc0LTY2QWtaY1EzRWFtVXVzRFpFZTdpcXNsU1NCcVUyZnpBaGRZSkxqbjF5eDdWVXh0akRvNGtzYU5HS09ZdUxxdWV5cnN5a2tLYVZLbzN3Z3oxaU1xM3UzWHZHODlBdEhISmJvVnFBT1ZncFk2LWt4Z2NUcXcxV2steks0VHh0Q2ZSazg4V1RpdGdfZHgxOXZNdjNtR0JnYWljeWlTZkwxNkQ3VGY4VFF0b0trblJpMGgwcl9DYzY5MXJYVkE3ZEs2WEJCWEd4X3RsVGd30gHnAUFVX3lxTFB1bXpFWW1ZU0xublZzU1dPTUlGZFY1ZFhOOFVSZWsyZVBnQU9jYkRQcmNZRXE0SFBYSkRQYWVsQ2hVN0pfeGptQVVjVHhMSmJmN25GNUdrZHlQZjdFRDlWeGxna0xybVExX0Vsamp6ZzBRLVYydVAzSC0zYk5pblFpd3lvTU9sRVd1VFNGM2gzLThmRmRwazlTMzdWYWJvMlQxYzlJanJUSHluVXVxVDZKbW5kTlBZa1Y5b2hWVHJFc1NidnlsbVFrUGxMNERGYlZ6UHFoVjZybVhMaXR1LXFwcXJPSTJRcw?oc=5",
+        "isRepublished": false,
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능으로 만든 1980년대식 메이크오버를 원하시나요? 사진을 업로드하기 전에 두 번 생각하세요 | 세계일보 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "해고를 늘리지 않으면서 AI가 채용을 줄이는 방법",
         "enTitle": "How AI May Reduce Hiring Without Increasing Layoffs",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "originalDate": "2026-09-12",
         "sourceName": "quasa.io",
         "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdWRfb3gwNGhiOFhSLXVSV2JYX2Vra21XNmZFSlFMUVV6azFrS0gtQjZrUjFpYk8zRG84NklURHZVYkFaTnY5SG9mbGJzS00zRzFNZEZycmJnNjh5cWtqZGwwcjZlaU9JUm9JSnkzY1VDcEtOVXN5U1pkNU04MmQyVldfbmdDeWFvQWVhZ1piMGI4ajFGMVMzd0RNWHNxSUE?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
+        "viralRate": "90%",
         "analysis": "글로벌 AI 트렌드 체크! 해고를 늘리지 않으면서 AI가 채용을 줄이는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "구인 광고에서 AI 기술 언급 Rose 165% - 수요는 기술 이상으로 확장됩니다.",
-        "enTitle": "AI Skill Mentions in Job Ads Rose 165%—The Demand Extends Beyond Tech",
-        "date": "2026-09-13",
-        "originalDate": "2026-09-12",
-        "sourceName": "quasa.io",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdzJtTHVpakJZRGdQZFBoSnlDek9GZS1hUHE0V2NnSExkTDh4a0FxakhlaHhxWm55SlVIMm5LNWNZMjJTZ25sSzB3Q2FJLTNkbzlleldvRXNia1AycXliR1VsODdHSjNZVjJWWXI4V2FmejRQQlRMTzVPT2VEc2F5N1RNbXBmRjhWYWFMN2d3TUZfQTZnLXBWNnhn?oc=5",
-        "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 구인 광고에서 AI 기술 언급 Rose 165% - 수요는 기술 이상으로 확장됩니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "\"브라우저 열 필요 없다\"…구글, 윈도우용 '제미나이' 앱 출시",
-        "enTitle": "\"브라우저 열 필요 없다\"…구글, 윈도우용 '제미나이' 앱 출시",
-        "date": "2026-09-13",
-        "originalDate": "2026-09-12",
-        "sourceName": "네이트",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LTVRTTVQ0eGpKUlBXQzNhQ01VRDlFR1Y0aWlxQlpIVjlEN0Fqcmg4NGJwbFpzbmVLc2p6RnVkd252dV81ZEY2WFdVU0RiQ0pUM1FF?oc=5",
+        "koTitle": "구글, 윈도우용 '제미나이' 앱 출시…단축키로 AI 바로 호출",
+        "enTitle": "구글, 윈도우용 '제미나이' 앱 출시…단축키로 AI 바로 호출",
+        "date": "2026-09-14",
+        "originalDate": "2026-09-13",
+        "sourceName": "메트로신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNZFVoSXRDV01ia1U5MFN2aFp2Y3NRaU9wQjVZRHk1Z0pVVXJqRUFKd1JGUmVrOE5tUTF5N2xXekF0clcxN1pNRXJlVklid2l6UVdIYVpzZ0pHT1hlQVpPUA?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! \"브라우저 열 필요 없다\"…구글, 윈도우용 '제미나이' 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 구글, 윈도우용 '제미나이' 앱 출시…단축키로 AI 바로 호출 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "이란 해커, AI ‘클로드’로 美 해군 표적화…군사적 악용 일파만파",
-        "enTitle": "이란 해커, AI ‘클로드’로 美 해군 표적화…군사적 악용 일파만파",
-        "date": "2026-09-13",
-        "originalDate": "2026-09-12",
-        "sourceName": "글로벌이코노믹",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNY0h4dFBzQ28ydzUwZjkwVElvVVgtQ2wzT1c0dmJ4bGdhRTFRYUIyX0d2dEZ0YmM3c0FZc2NYOTZ5Z1hIYWUyT1RjeDFJYkNRWjBqM3o3SXpBLVpMRVlnUnNZM3YxRE5xRFRKVXRYS3ZObFJCcElhdzkyUEJwbGlEaTZYOHJoM00z?oc=5",
+        "koTitle": "래디시스, V.AI 에코시스템 출시로 통신 AI 서비스 혁신 가속화",
+        "enTitle": "래디시스, V.AI 에코시스템 출시로 통신 AI 서비스 혁신 가속화",
+        "date": "2026-09-14",
+        "originalDate": "2026-09-13",
+        "sourceName": "newswire.co.kr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5vdVYzRUhhWFBBclE1WTNBeHBzN1BHMDlqVkFSMUdQay15VEVuQmMzMXZnRnJObXFtU1dtczJPaEhIa2YtbWhUcjlQQkxjc2RDNmhDRWtxczJlbUN5N3U4?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 이란 해커, AI ‘클로드’로 美 해군 표적화…군사적 악용 일파만파 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 래디시스, V.AI 에코시스템 출시로 통신 AI 서비스 혁신 가속화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "최태원 \"AI, 수익 못내면 거품처럼 꺼져…데이터 플랫폼이 관건\"",
-        "enTitle": "최태원 \"AI, 수익 못내면 거품처럼 꺼져…데이터 플랫폼이 관건\"",
-        "date": "2026-09-13",
-        "originalDate": "2026-09-12",
+        "koTitle": "미국은 ‘미국산’으로 잡는다? 이란·후티, 클로드로 공격 시도 [이런뉴스]",
+        "enTitle": "미국은 ‘미국산’으로 잡는다? 이란·후티, 클로드로 공격 시도 [이런뉴스]",
+        "date": "2026-09-14",
+        "originalDate": "2026-09-13",
         "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90dy1BU1NIOFNDOTBUX2JkR3lPY1lyNW9vR1NaU1VZN2ZpQ0wzVU1mRld3SUZHVy1qQ2ZjV1BidS1tZmpfMGl5S0NzYWk5WHc?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05bjZYVWxzeExOalVac0x0ZmZfNDQyMmZsSnFCek9yYVVYOEs4UXJuWktNck5WemZRaWhCVXJFZjJaN000cnVEMmozMUxaWG8?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 최태원 \"AI, 수익 못내면 거품처럼 꺼져…데이터 플랫폼이 관건\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 미국은 ‘미국산’으로 잡는다? 이란·후티, 클로드로 공격 시도 [이런뉴스] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
