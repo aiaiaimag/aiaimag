@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-14
+ * 최신 업데이트: 2026-09-15
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Beyond Generative AI: 업무의 미래를 형성하는 7가지 기술",
-        "enTitle": "Beyond Generative AI: 7 Skills that Will Shape the Future of Work",
-        "date": "2026-09-14",
-        "originalDate": "2026-09-13",
-        "sourceName": "analyticsinsight.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObUo2aTB0ZTE3SlpIOHNnZjRRU0J1TmxXbml3Q3BhbFRqc3l2MG9CM1ZkcWg0UUFyVWJ3UDNQcHpDSVVzOFdNRFBjTXJidlJNMjgwbldyVVJNd2dSU3JqU29LVDBmdUUxY1d3UGFlZGI0OWlfMnV5QWZZUEdoNjhrUkg2elItMjdzeVdmOTdLWWdjVUYtMEVOWFZnYmFvTGZlUkJVSjZHdFNpOEVKS29ZcHFxaTNueEVhd0JlOXVB0gHLAUFVX3lxTE43NXVCNFpUaVBBVzJ4dWFpVWFUbWhmS1l6UFkyRzlINVhUQlBYSHlFS0wtaGJETG0xR0xVT3o0bnBCWGRXcC1IWi1GTms1dmhkWmxkNm03Qnptd19lUjlDVWRxTUlieWx6cVRRWjIxQjV4TXBxNkxYRGV0d3RJZVVlVXV2bDlJVmhBOTlvS0o5WjRYQ0VCR1VqUnpEWC1YRmtueTVfZm0yWnV2SVR4d09VbldOeWFJWjVNN05rcnExNHRTRndPWWN0NmJz?oc=5",
+        "koTitle": "전문가, 바이러스성 80년대 AI 추세로 인한 위험 경고",
+        "enTitle": "Expert warns of risks from viral 80s AI trend",
+        "date": "2026-09-15",
+        "originalDate": "2026-09-14",
+        "sourceName": "Te Ao Māori News",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObWtYSWwxZzRBaGMzU1o2SkhzbGNBNUtBalBTRE1idkZGYUwxdU1lUG82Rnlfdk84ZkQ3TXhQdFAtcFlVdV9iYmRyUUFjVUZYOUpGNUxvVUlJVmR5UDd4UEZmdFo1V1NPVlpQUHo3WU05eFNpdENqdkxGd2V2amJ4bUJ5TFFJUWw4Zm5KbQ?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! Beyond Generative AI: 업무의 미래를 형성하는 7가지 기술 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! 전문가, 바이러스성 80년대 AI 추세로 인한 위험 경고 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "인공지능으로 만든 1980년대식 메이크오버를 원하시나요? 사진을 업로드하기 전에 두 번 생각하세요 | 세계일보",
-        "enTitle": "Want an AI-made 1980s makeover? Think twice before uploading your photo | World News",
-        "date": "2026-09-14",
-        "originalDate": "2026-09-12",
-        "sourceName": "Hindustan Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNLVgzRDgyeE9qVF9VSWc0LTY2QWtaY1EzRWFtVXVzRFpFZTdpcXNsU1NCcVUyZnpBaGRZSkxqbjF5eDdWVXh0akRvNGtzYU5HS09ZdUxxdWV5cnN5a2tLYVZLbzN3Z3oxaU1xM3UzWHZHODlBdEhISmJvVnFBT1ZncFk2LWt4Z2NUcXcxV2steks0VHh0Q2ZSazg4V1RpdGdfZHgxOXZNdjNtR0JnYWljeWlTZkwxNkQ3VGY4VFF0b0trblJpMGgwcl9DYzY5MXJYVkE3ZEs2WEJCWEd4X3RsVGd30gHnAUFVX3lxTFB1bXpFWW1ZU0xublZzU1dPTUlGZFY1ZFhOOFVSZWsyZVBnQU9jYkRQcmNZRXE0SFBYSkRQYWVsQ2hVN0pfeGptQVVjVHhMSmJmN25GNUdrZHlQZjdFRDlWeGxna0xybVExX0Vsamp6ZzBRLVYydVAzSC0zYk5pblFpd3lvTU9sRVd1VFNGM2gzLThmRmRwazlTMzdWYWJvMlQxYzlJanJUSHluVXVxVDZKbW5kTlBZa1Y5b2hWVHJFc1NidnlsbVFrUGxMNERGYlZ6UHFoVjZybVhMaXR1LXFwcXJPSTJRcw?oc=5",
+        "koTitle": "인공지능과 일의 미래: 인공지능이 일자리를 대체할 것인가, 아니면 재정의할 것인가?",
+        "enTitle": "AI and the Future of Work: Will AI Replace Jobs or Redefine Them?",
+        "date": "2026-09-15",
+        "originalDate": "2026-09-14",
+        "sourceName": "CNBC Africa",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYW0tTXhWSmJjTzBtc0I5UHdpM3B4TXc2YnZJNmt6M2pWbHdRX0dpY2xfbXRqU0VyS1hwTmRCNlE4RmF3T3lfUEh3MDBoRmdUTlF4d01takpvRXFiMXRhWnBpNHV2TG5HaS1VQWh4MFZGVVpncDlRYjA0cWZMQTQySEV0Nm84Sm9iQmd0b1BFYmdNZG5vaE9oOHFNTjNRQnhkUmE1eGVHQlRFWEJW?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능으로 만든 1980년대식 메이크오버를 원하시나요? 사진을 업로드하기 전에 두 번 생각하세요 | 세계일보 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능과 일의 미래: 인공지능이 일자리를 대체할 것인가, 아니면 재정의할 것인가? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "해고를 늘리지 않으면서 AI가 채용을 줄이는 방법",
-        "enTitle": "How AI May Reduce Hiring Without Increasing Layoffs",
-        "date": "2026-09-14",
-        "originalDate": "2026-09-12",
-        "sourceName": "quasa.io",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdWRfb3gwNGhiOFhSLXVSV2JYX2Vra21XNmZFSlFMUVV6azFrS0gtQjZrUjFpYk8zRG84NklURHZVYkFaTnY5SG9mbGJzS00zRzFNZEZycmJnNjh5cWtqZGwwcjZlaU9JUm9JSnkzY1VDcEtOVXN5U1pkNU04MmQyVldfbmdDeWFvQWVhZ1piMGI4ajFGMVMzd0RNWHNxSUE?oc=5",
+        "koTitle": "무역 학교는 학생들이 AI, 화이트 칼라 작업의 직업 안정성에 대해 걱정함에 따라 등록 범프를 봅니다.",
+        "enTitle": "Trade schools see enrollment bumps as students worry about AI, job security in white-collar work",
+        "date": "2026-09-15",
+        "originalDate": "2026-09-13",
+        "sourceName": "Pittsburgh Post-Gazette",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaTdBT1VIblVsSzZZUzJULVlvWmdzbWZfSS1mM2RxLUFBdUk4NkZ5YWdNZWVkVjFRRU1ScE5XNG1MVDZYeDcwTEpGenROeXpoREkxZ0VVamFIVF9aaUc1UEZhcUJZeGRhMTNDQ2VraFRHbTNyenZZNEJOQTBuX3UwYjRncnFHeVBqVlN6ajh5YjhVVzlyeTFTRFk1NlRhMVFVRVplLWxBQU90ZHhhbTVZdnhoZDhsYVhR?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 해고를 늘리지 않으면서 AI가 채용을 줄이는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "91%",
+        "analysis": "글로벌 AI 트렌드 체크! 무역 학교는 학생들이 AI, 화이트 칼라 작업의 직업 안정성에 대해 걱정함에 따라 등록 범프를 봅니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "구글, 윈도우용 '제미나이' 앱 출시…단축키로 AI 바로 호출",
-        "enTitle": "구글, 윈도우용 '제미나이' 앱 출시…단축키로 AI 바로 호출",
-        "date": "2026-09-14",
-        "originalDate": "2026-09-13",
-        "sourceName": "메트로신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNZFVoSXRDV01ia1U5MFN2aFp2Y3NRaU9wQjVZRHk1Z0pVVXJqRUFKd1JGUmVrOE5tUTF5N2xXekF0clcxN1pNRXJlVklid2l6UVdIYVpzZ0pHT1hlQVpPUA?oc=5",
+        "koTitle": "삼성SDS, 국내 최초 앤트로픽 ‘클로드 파트너 네트워크’ 셀렉트 티어 획득",
+        "enTitle": "삼성SDS, 국내 최초 앤트로픽 ‘클로드 파트너 네트워크’ 셀렉트 티어 획득",
+        "date": "2026-09-15",
+        "originalDate": "2026-09-14",
+        "sourceName": "에너지경제신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aTlJsWVR0aGJhUHEwQWR0Si1oSFo5ZlhUT3V0TFVCSjJRazRVOENCbTMwTVpVV2pTZ3BCT21ncG5KNjd2S0t3ZS0tVHRmRWhLc25Yb3hsRENzYkc2YklhNmdtSQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글, 윈도우용 '제미나이' 앱 출시…단축키로 AI 바로 호출 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 삼성SDS, 국내 최초 앤트로픽 ‘클로드 파트너 네트워크’ 셀렉트 티어 획득 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "래디시스, V.AI 에코시스템 출시로 통신 AI 서비스 혁신 가속화",
-        "enTitle": "래디시스, V.AI 에코시스템 출시로 통신 AI 서비스 혁신 가속화",
-        "date": "2026-09-14",
-        "originalDate": "2026-09-13",
-        "sourceName": "newswire.co.kr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5vdVYzRUhhWFBBclE1WTNBeHBzN1BHMDlqVkFSMUdQay15VEVuQmMzMXZnRnJObXFtU1dtczJPaEhIa2YtbWhUcjlQQkxjc2RDNmhDRWtxczJlbUN5N3U4?oc=5",
+        "koTitle": "모아시스AI, AI·건강 데이터 기반 건강관리 앱 출시",
+        "enTitle": "모아시스AI, AI·건강 데이터 기반 건강관리 앱 출시",
+        "date": "2026-09-15",
+        "originalDate": "2026-09-15",
+        "sourceName": "한국경제",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uN211Zng5akZyYlltc2hsX2MzUUo3eUZpTkp2dWdfUUdwVEFELThkLTlieU5qMGJBU19kdFhxSVRQdW9jOUNmcE12Nmh6NlI1Rk9nV1hBNnk2Zw?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 래디시스, V.AI 에코시스템 출시로 통신 AI 서비스 혁신 가속화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 모아시스AI, AI·건강 데이터 기반 건강관리 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "미국은 ‘미국산’으로 잡는다? 이란·후티, 클로드로 공격 시도 [이런뉴스]",
-        "enTitle": "미국은 ‘미국산’으로 잡는다? 이란·후티, 클로드로 공격 시도 [이런뉴스]",
-        "date": "2026-09-14",
-        "originalDate": "2026-09-13",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05bjZYVWxzeExOalVac0x0ZmZfNDQyMmZsSnFCek9yYVVYOEs4UXJuWktNck5WemZRaWhCVXJFZjJaN000cnVEMmozMUxaWG8?oc=5",
+        "koTitle": "삼성SDS, 국내 최초 앤트로픽 클로드 파트너 네트워크 셀렉트 티어 획득",
+        "enTitle": "삼성SDS, 국내 최초 앤트로픽 클로드 파트너 네트워크 셀렉트 티어 획득",
+        "date": "2026-09-15",
+        "originalDate": "2026-09-15",
+        "sourceName": "인공지능신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50bV80Umd0NjdoZHlsQTU0NDVTNXVfR28xU1J6dlcwbENyMkpEWDlIUnd1eGVGSnUtU2NDNUxhSFlYTjgzcl9oWEwtVGZuanNmMERLRWpzdTl1RXAtdkFVVmdsV1BPSWM?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 미국은 ‘미국산’으로 잡는다? 이란·후티, 클로드로 공격 시도 [이런뉴스] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 삼성SDS, 국내 최초 앤트로픽 클로드 파트너 네트워크 셀렉트 티어 획득 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
