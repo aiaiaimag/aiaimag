@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-18
+ * 최신 업데이트: 2026-09-19
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "래디슨 호텔 그룹의 글로벌 커리어 페스티벌은 호스피탈리티 분야에서 커리어 모빌리티와 AI에 중점을 두고 돌아왔습니다.",
-        "enTitle": "Radisson Hotel Group’s global career festival returns with a focus on career mobility and AI in hospitality",
-        "date": "2026-09-18",
-        "originalDate": "2026-09-17",
-        "sourceName": "Hospitality Net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYTBnS3Z2TEh1d1pOcjQtMTBVdW9MYThfOUtLOE1zbHpLbkVMeWtuajdBNE9MU1FPZlhpcWJmaEVQbDlzT3NYM0M5b1JBNlFxNEtscUhXU01DR3VUYk51aFZyd3I0bFZ5NGpwMWJVX0JQR05jeWVUbG1SV0doTWdoOUc0dk9NSFZUZUlSd25jUW8zekZVWWUwcUxCMlVCcUtzQU1yMDIyUVQzQy1rM1VFZ2EtaDBJZVFMVndkd0d5VmVIclJxMG9UYnlkbDA5YmNRdWZWZ0wxT1E3TGRJQlk1bTJvcDE?oc=5",
+        "koTitle": "Gemini Ghostface를 수행하는 방법 AI 사진 트렌드 (프롬프트 포함)",
+        "enTitle": "How to Do Gemini Ghostface AI Photo Trend (Prompts Included)",
+        "date": "2026-09-19",
+        "originalDate": "2026-09-18",
+        "sourceName": "perfectcorp.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcHBPUURNczAxX1NtbmVTOW1qcVVyNl9yWlpjaFZBNFhoYi1aMHpNQ1FvTkxrUjU1SkJCUGZodTdiUHkzRHM1eTBsN2pTZ1MwWmFRZFBfWnd1NF9fbVhXcm5RcTVyX0xCa2dXLTItQXhleHltLVNuOXh2QjdiN1ZWa1VibGVFdw?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 래디슨 호텔 그룹의 글로벌 커리어 페스티벌은 호스피탈리티 분야에서 커리어 모빌리티와 AI에 중점을 두고 돌아왔습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! Gemini Ghostface를 수행하는 방법 AI 사진 트렌드 (프롬프트 포함) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "래디슨 호텔 그룹의 글로벌 커리어 페스티벌은 호스피탈리티 분야에서 커리어 모빌리티와 AI에 중점을 두고 돌아왔습니다.",
+        "enTitle": "Radisson Hotel Group’s global career festival returns with a focus on career mobility and AI in hospitality",
+        "date": "2026-09-19",
+        "originalDate": "2026-09-17",
+        "sourceName": "Hospitality Net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYTBnS3Z2TEh1d1pOcjQtMTBVdW9MYThfOUtLOE1zbHpLbkVMeWtuajdBNE9MU1FPZlhpcWJmaEVQbDlzT3NYM0M5b1JBNlFxNEtscUhXU01DR3VUYk51aFZyd3I0bFZ5NGpwMWJVX0JQR05jeWVUbG1SV0doTWdoOUc0dk9NSFZUZUlSd25jUW8zekZVWWUwcUxCMlVCcUtzQU1yMDIyUVQzQy1rM1VFZ2EtaDBJZVFMVndkd0d5VmVIclJxMG9UYnlkbDA5YmNRdWZWZ0wxT1E3TGRJQlk1bTJvcDE?oc=5",
+        "isRepublished": false,
+        "viralRate": "91%",
+        "analysis": "글로벌 AI 트렌드 체크! 래디슨 호텔 그룹의 글로벌 커리어 페스티벌은 호스피탈리티 분야에서 커리어 모빌리티와 AI에 중점을 두고 돌아왔습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "인력: 일부 대학 졸업생이 일자리를 찾지 못하는 이유",
         "enTitle": "Workforce: Why some college grads are not finding jobs",
-        "date": "2026-09-18",
+        "date": "2026-09-19",
         "originalDate": "2026-09-16",
         "sourceName": "The Journalist's Resource",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSW4tYjEwTDlVdVoyTGZISm9tUVl4angyLW4wWU1jenhtTDdaVGp2eEJXNlY1X3hvaEZuOVRiT04zUGMyU05NQ3VkQS1aVWJZR1pGQ1pEaWI1VUdzcW5XWlNTazBFQkRxakZMOVJEQTJyeDl6TWJabTZZNFN2NEVya013?oc=5",
         "isRepublished": false,
         "viralRate": "94%",
         "analysis": "글로벌 AI 트렌드 체크! 인력: 일부 대학 졸업생이 일자리를 찾지 못하는 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "고용주는 AI 시대에 젊은이들이 인력에 진입하는 데 어떤 기술을 원합니까?",
-        "enTitle": "What skills do employers want from young people entering the workforce in the age of AI?",
-        "date": "2026-09-18",
-        "originalDate": "2026-09-16",
-        "sourceName": "The World Economic Forum",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUVBxMTk2aHhjWlJYbGJRTUdZOS1fRDZYYWIzYVZVMmtiUHIxamV3TlZPZVJhWnhwcjVvR012T1JLM3cyQTVLNHdDTEJ0d0JrQkhqTmZoZmxtSTVZS0pOOGhJRURqRTd5U0hIU2xsZWx2anBVZVB0WVBmdE5zd1BUVmVpQXItbVpmS3E1ZGp1MWlGZ2JlSTJQUkVGdEJOM0I4NWlldThQSW1BdmM?oc=5",
-        "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! 고용주는 AI 시대에 젊은이들이 인력에 진입하는 데 어떤 기술을 원합니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "플로우, 국산 협업툴 최초 챗GPT·클로드 앱 동시 입점",
-        "enTitle": "플로우, 국산 협업툴 최초 챗GPT·클로드 앱 동시 입점",
-        "date": "2026-09-18",
-        "originalDate": "2026-09-17",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4wOFRoU1NfanRCVHJtMVZyUEt0YjAtMDNuQVVGa3dGOFNmQUt2RHF0eWwzU3JGamVDdXhobWpVSjRLWTBqOGlBU1cxcEoxTGxrSlVTMkwzYTlqS2FBVTRQYkRfOFFremRaRWc?oc=5",
+        "koTitle": "\"클로드로 챗GPT 뚫었다\"…내부 코드 저장소까지 접근",
+        "enTitle": "\"클로드로 챗GPT 뚫었다\"…내부 코드 저장소까지 접근",
+        "date": "2026-09-19",
+        "originalDate": "2026-09-18",
+        "sourceName": "연합뉴스TV",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TdFJCemEyVjF3c3BEaHVrV1EwaFhrallVengybEkyZS1ja3ItUDY2U0RFV05zOFgxckl4TlNJNlJOZHlRZEliRU0yalM0QTNNUUVZdkRDYlIwUU0tRUtxdXh2OVdSM0U?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 플로우, 국산 협업툴 최초 챗GPT·클로드 앱 동시 입점 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! \"클로드로 챗GPT 뚫었다\"…내부 코드 저장소까지 접근 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "ChatGPT로 산불 조기 감지하기",
-        "enTitle": "ChatGPT로 산불 조기 감지하기",
-        "date": "2026-09-18",
-        "originalDate": "2026-09-17",
-        "sourceName": "OpenAI",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xcm43bkJVY2F5eGs4Ri1DMno5ZzFyeVM3dGt5eU5KODR1N3pNblNvRmRsMUQwU21pbURzdElWc2FWal9jVWl4bmhnbWRFdWcxczY5NkJlaWpsaWJQVDJUWUJSSDNYVzBn?oc=5",
+        "koTitle": "렌탈앤캐시, AI 기반 `맞춤형 렌탈·가입 비교 서비스` 정식 출시",
+        "enTitle": "렌탈앤캐시, AI 기반 `맞춤형 렌탈·가입 비교 서비스` 정식 출시",
+        "date": "2026-09-19",
+        "originalDate": "2026-09-18",
+        "sourceName": "마이데일리",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94cVh0YzNYQ21ydGhXdms3aU1vb09FMnJ2S29aS25QQVlBN3k5U01rYWNwNGwzQ0twc1RCRHhCOFF4bGRWRXVuYW43OS1RSXUxQnEtUFI1eXVEeGxlQ0xSMQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! ChatGPT로 산불 조기 감지하기 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 렌탈앤캐시, AI 기반 `맞춤형 렌탈·가입 비교 서비스` 정식 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "KB국민은행, 생성형 AI 탑재 ‘KB AI’ 서비스 출시…16개 언어·금융거래 지원",
-        "enTitle": "KB국민은행, 생성형 AI 탑재 ‘KB AI’ 서비스 출시…16개 언어·금융거래 지원",
-        "date": "2026-09-18",
-        "originalDate": "2026-09-17",
-        "sourceName": "CBC뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8ydWc1T25qWXRQczdQaVNVRzFmZFdfa2pJQl80VUJqQVFxN0VINjlreElTMnZ2bkdZOTBRSHFZanBSRFdVRUNfN0tzVFVaT1dEcFZpZHZEVU9nQVZ3d2dXY05GTWhkazQ1?oc=5",
+        "koTitle": "AI 자율 상담기업 케이잡스, AI 취업센터 출시",
+        "enTitle": "AI 자율 상담기업 케이잡스, AI 취업센터 출시",
+        "date": "2026-09-19",
+        "originalDate": "2026-09-18",
+        "sourceName": "ceoeconomy.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhMXJaZzJfdGxaRHBGYVdLdHFXMWdrTWpyZEZzdjdYNjNMcm1RSGNDa21wOXZGMVhnMXVCb1JrbUxLUWxKT0NZVU5yZjc0U2VlTXpKUUZ3ZUlaM2FaNGJRQy1uZlBKLVVoc1NSRA?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! KB국민은행, 생성형 AI 탑재 ‘KB AI’ 서비스 출시…16개 언어·금융거래 지원 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! AI 자율 상담기업 케이잡스, AI 취업센터 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
