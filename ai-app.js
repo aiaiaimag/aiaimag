@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-21
+ * 최신 업데이트: 2026-09-22
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "1백만 명 이상의 젊은이들이 일자리를 잃었고 AI는 수백만 개의 일자리를 없애려고 합니다. 어떻게 해야 할까요?",
-        "enTitle": "More than 1m young people are out of work, and AI is about to wipe out millions more jobs. What should we do?",
-        "date": "2026-09-21",
-        "originalDate": "2026-09-20",
-        "sourceName": "The Independent",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPc3YtcEI2WHRPUjZoV2twWmw5X0FWNmlYazFadURwTzRHN2RaakhEREFQaDFtRk9HZlJxdkhWRlBjQWxsLUpQWWNsYWJSd3d2THEwQm9LX05XTEgzMkRiTnljVGc1aEhBUngtZHBVUGxBd3JFVW9FSThzUGZScTNnZEd4UnlVY0tfSUZwbjIxVlU?oc=5",
+        "koTitle": "Navigating the Future of Work: A Conversation with JFF’s Maria Flynn",
+        "enTitle": "Navigating the Future of Work: A Conversation with JFF’s Maria Flynn",
+        "date": "2026-09-22",
+        "originalDate": "2026-09-21",
+        "sourceName": "EdSurge",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMlFLeDg0MGFNdlY5SVNZZkl5a3lLV3ZLWTRwM3ZCdTFBTXRuSkhIbTdIN2lsbkZBSGNGYmJYSzk4eWZqYU1QZHAtQS1KMW1yaDQwcGhSeWxkUnBZS2EwWjN2Y3A5TmJUOElfMkdyT1JfcXJrZjc5RWxNUEVUaktmNm9XbV9aQWc5Tk1HZk1zU1FzdHdWUHZvb1RRSQ?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 1백만 명 이상의 젊은이들이 일자리를 잃었고 AI는 수백만 개의 일자리를 없애려고 합니다. 어떻게 해야 할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! Navigating the Future of Work: A Conversation with JFF’s Maria Flynn 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI 유창성이 새로운 커리어 통화인 이유에 대한 Biocon의 CHRO",
-        "enTitle": "Biocon's CHRO On Why AI Fluency Is The New Career Currency",
-        "date": "2026-09-21",
-        "originalDate": "2026-09-20",
-        "sourceName": "BW People",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZVZsYWx3dG5mWHlHQUJWbzZTNGUyRnpSLV9nYnhiLXFUMDY0Vk1vTXFKNTJ6YVlMVGczcUxzR1JCTGJiclZRSmxqSHBMU3hueDIwTlJpb1ZtcDlKM0dZcDh5X0U2ektLNkhfdndQckNHbndJU0tNLWJaMldqTjRJU0IxMThBMU9VeTNuU01FLXhfN1IzQjhsYUk4SE1OZw?oc=5",
+        "koTitle": "Watch What Career Should You Choose in the AI Age?",
+        "enTitle": "Watch What Career Should You Choose in the AI Age?",
+        "date": "2026-09-22",
+        "originalDate": "2026-09-21",
+        "sourceName": "Bloomberg.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQS0U1Rm1qTjFjM1UzMFNKZGpqYl85NHhreWxrOWlXT0Y0RGZXa2xPdk81VFFrd09KVExkNXlPeG9HLW5KNjU0RG8yelYxLXUwZklCRW52cVN5dFpudGFXTTUzLUpQbTM1VFVpWUREaHlrZG5tNHJ6bGZvMUtGTHA1bENaZkR5REdXWEliVXBQQ1lwOGRzQkNWTGZfQUlsZnM?oc=5",
         "isRepublished": false,
         "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 유창성이 새로운 커리어 통화인 이유에 대한 Biocon의 CHRO 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! Watch What Career Should You Choose in the AI Age? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "싱가포르 장관은 고용주가 AI와 일자리에 대해 개방적이어야 한다고 촉구합니다.",
-        "enTitle": "Singapore Minister Urges Employers to Be Open About AI and Jobs",
-        "date": "2026-09-21",
+        "koTitle": "With AI about to wipe out millions of jobs, what should we do?",
+        "enTitle": "With AI about to wipe out millions of jobs, what should we do?",
+        "date": "2026-09-22",
         "originalDate": "2026-09-20",
-        "sourceName": "Migrant Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTUVocTZpY0hmbnl5b0JrTVk3djIwdEZ6MGhjLVEydDhZWTY2U0tBQmFkTVhxdGxCbWJjdm9CSWx6OVZoWHJfdGUwTklZdjFHRVR0d2RMbFYtRTU3cmV4a0VYS1ZzYlhfOV9PRFRXcXQ2TTJaVGtjVmdGVjE4clNUTTI3MjRlV0ZCd2JCVGs4OXlPd1g4bmVtSzF6UlhyMVkzb2EyamlDenA5SHhQWFh5VzhOdw?oc=5",
+        "sourceName": "The Independent",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPc3YtcEI2WHRPUjZoV2twWmw5X0FWNmlYazFadURwTzRHN2RaakhEREFQaDFtRk9HZlJxdkhWRlBjQWxsLUpQWWNsYWJSd3d2THEwQm9LX05XTEgzMkRiTnljVGc1aEhBUngtZHBVUGxBd3JFVW9FSThzUGZScTNnZEd4UnlVY0tfSUZwbjIxVlU?oc=5",
         "isRepublished": false,
         "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! 싱가포르 장관은 고용주가 AI와 일자리에 대해 개방적이어야 한다고 촉구합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! With AI about to wipe out millions of jobs, what should we do? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "에이직랜드, TSMC OIP서 AI 설계 플랫폼 공개",
-        "enTitle": "에이직랜드, TSMC OIP서 AI 설계 플랫폼 공개",
-        "date": "2026-09-21",
-        "originalDate": "2026-09-20",
-        "sourceName": "핀포인트뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1KZU8wbm9xelJRaDRzckxLekpzU2F2em8ycjY1bjZQR0tuWG9xem9qU1E0UUdldmJsSUJueDhuN2dGYUo5dUJVcE9ZV1ZuTUFxdmdVV3E5OEVXaXJDLWd5Z0RtZU5la1JiaGZrY0Z5b0VBclnSAXdBVV95cUxPdm55SDdlOVZHVTFCbkNac0tiLU9xUlRQd1VHZGlvdS1pbUswNHZNVV9PX05ZRGtZZHRkRmpXVy1KN0NNVnFLMGFsU3dmb242NlZXeldFNFI2SEh2TzZGOUJpX2V0YXZ3U3FvbDl1RzdEekx1amM2cw?oc=5",
+        "koTitle": "구글, 제미나이 품은 '구글북' 출시",
+        "enTitle": "구글, 제미나이 품은 '구글북' 출시",
+        "date": "2026-09-22",
+        "originalDate": "2026-09-21",
+        "sourceName": "v.daum.net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yYThBdEJCNnlTbFdPR01FNUZYMUlEdURpSGdNNXo2ZEZXNWNZWF9XeXFBQnFaRkF2cExmOGZpRXNwNTc2VFBScWVXTXdvbjg?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 에이직랜드, TSMC OIP서 AI 설계 플랫폼 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 구글, 제미나이 품은 '구글북' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "보이스루, AI·전문가 결합 더빙 서비스 ‘폴리타’ 출시",
-        "enTitle": "보이스루, AI·전문가 결합 더빙 서비스 ‘폴리타’ 출시",
-        "date": "2026-09-21",
-        "originalDate": "2026-09-20",
-        "sourceName": "FA저널",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjMnpJN0NJZ3VKTFhHS2lKZFU0NGVqcGpoWS1xemxUM283ZG9pNURjRnRRUzNRX21FQ2MzZ2JLdTNTS1J1ekFFVURqM0pYZWdCcVVvZnNiNXZSUkF1UDNURG1pQlBpZW44Yzhv?oc=5",
+        "koTitle": "메타 '뮤즈' 출시 2주 만에 앱스토어 1위…주가 11% 급등",
+        "enTitle": "메타 '뮤즈' 출시 2주 만에 앱스토어 1위…주가 11% 급등",
+        "date": "2026-09-22",
+        "originalDate": "2026-09-21",
+        "sourceName": "머니투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBrLWljYjlWRmZrRTJkdmR5TzlJVm9JU1FDeTNKSmZCdnBVSUpaOTUtUklBYVpzVWkxVW4ySk1GWFhWempaSDJYdHdhaUwwWmd6Z0d1TU9YMXFJeVBpTVZjZjRyV2dybmVC?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 보이스루, AI·전문가 결합 더빙 서비스 ‘폴리타’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 메타 '뮤즈' 출시 2주 만에 앱스토어 1위…주가 11% 급등 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "[중국의 새로운 AI 부업: 사람들이 얼굴 라이선스로 수익을 얻다] ActID와 New Claw 같은 플랫폼은 제작자들이 AI 생성 광고와 마이크로드라마에 얼굴을 라이선스할 수 있는 마켓플레이스를",
-        "enTitle": "[중국의 새로운 AI 부업: 사람들이 얼굴 라이선스로 수익을 얻다] ActID와 New Claw 같은 플랫폼은 제작자들이 AI 생성 광고와 마이크로드라마에 얼굴을 라이선스할 수 있는 마켓플레이스를",
-        "date": "2026-09-21",
-        "originalDate": "2026-09-20",
-        "sourceName": "AI넷",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9JRGpHSEUzQjRFM2o2MVVVTnJ5YUtVbUdnTWJQMm52UUJPSmlsZ29YLVdHb29WbWhIZFlaNERXeDc?oc=5",
+        "koTitle": "[미국 특징주] \"GPT·클로드 비싸\"...스타트업들, 저비용 개방형 AI로",
+        "enTitle": "[미국 특징주] \"GPT·클로드 비싸\"...스타트업들, 저비용 개방형 AI로",
+        "date": "2026-09-22",
+        "originalDate": "2026-09-21",
+        "sourceName": "뉴스핌",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1qRUlrcjJmbUJQS2RUbV9xRURTTnY1bFhUV0Y1cnJGUHFzajZjTlpiLUQyN0FOUko3WmNWMDRuUkxRVGlMVGVjelBMSWpkcEZXMkhCV2dydTFsbW9M?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! [중국의 새로운 AI 부업: 사람들이 얼굴 라이선스로 수익을 얻다] ActID와 New Claw 같은 플랫폼은 제작자들이 AI 생성 광고와 마이크로드라마에 얼굴을 라이선스할 수 있는 마켓플레이스를 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [미국 특징주] \"GPT·클로드 비싸\"...스타트업들, 저비용 개방형 AI로 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
