@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-23
+ * 최신 업데이트: 2026-09-24
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI의 역량이 높아짐에 따라, 사람들이",
-        "enTitle": "With AI becoming more capable, here's why people must too",
-        "date": "2026-09-23",
-        "originalDate": "2026-09-21",
-        "sourceName": "The World Economic Forum",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbWRNQVNSczJQUDR2YkZ0Ym04WUxGVzl0OUtCVm9JMFZEYkh1bmY5UkVUa1JoRVp1UU5rNkdWdkRxZXhxMlFmVFN1NGFJdXZKUmFjSmdISUc0Y2pkZzZmNm0tTHBwaDByLWNuWTl2LVZyeVJZWTBhWG5KNU9GYXJYLThMUUJTMlZtQTBr?oc=5",
+        "koTitle": "아이윌 이그나이트, 2030년 일의 미래를 통해 250명 이상의 구직자와 고용주를 연결하다",
+        "enTitle": "IWIL Ignite Connects 250+ Job Seekers With Employers Through Future of Work 2030",
+        "date": "2026-09-24",
+        "originalDate": "2026-09-23",
+        "sourceName": "HRTech Series",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUjd0ZkFMSEk0V083QXZFRDVlMWI0Z3ZwUnp0bGJFUGFhbXFhbXNJNzlOM2JVX0VLQ3NjWVdyTGVpZ2h1SWVxX3diSlppZ2l1VmFmSW96RkhTVVo0OXYwYVo4cjZhZHRtbHZIbXl6dVhyajFCWGp4NWlpc21qZU5QYXZoemd2OGtXZDEzajNPNXhFSUJXQktoUDdNeFZDU2RIckZLd1pBejJkNWU4bTRlWDF3QkZjbHlKcGgxaFVGeXQtUQ?oc=5",
         "isRepublished": false,
-        "viralRate": "89%",
-        "analysis": "글로벌 AI 트렌드 체크! AI의 역량이 높아짐에 따라, 사람들이 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 아이윌 이그나이트, 2030년 일의 미래를 통해 250명 이상의 구직자와 고용주를 연결하다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "인공지능 시대에 어떤 직업을 선택해야 할까요?",
-        "enTitle": "Watch What Career Should You Choose in the AI Age?",
-        "date": "2026-09-23",
-        "originalDate": "2026-09-21",
-        "sourceName": "Bloomberg.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQS0U1Rm1qTjFjM1UzMFNKZGpqYl85NHhreWxrOWlXT0Y0RGZXa2xPdk81VFFrd09KVExkNXlPeG9HLW5KNjU0RG8yelYxLXUwZklCRW52cVN5dFpudGFXTTUzLUpQbTM1VFVpWUREaHlrZG5tNHJ6bGZvMUtGTHA1bENaZkR5REdXWEliVXBQQ1lwOGRzQkNWTGZfQUlsZnM?oc=5",
+        "koTitle": "Transcript: 스탠포드의 채드 존스 (Chad Jones) 가 인공지능 세상에서 일자리의 미래에 대해 이야기하다",
+        "enTitle": "Transcript: Stanford’s Chad Jones on The Future of Jobs in an AI World",
+        "date": "2026-09-24",
+        "originalDate": "2026-09-22",
+        "sourceName": "The Singju Post",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdmlFZE9sVjZ0SzIzYWc4akJZWlBxR0FVUXVyTnhMMnA5VkcwMWxCcFA1b0ppVnV0UDRzeFZKbmlGRXJzMnZYMWJqMTAwYkZIUVJGbHhGa2xnYWZQNndNcHpvdUZlV2lEYkZQMjJOR1NqdTZScUlHSnVBVDdPNFJZMkNCblljbnRMNGlGNm5ucmJkTTdkdklB?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능 시대에 어떤 직업을 선택해야 할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! Transcript: 스탠포드의 채드 존스 (Chad Jones) 가 인공지능 세상에서 일자리의 미래에 대해 이야기하다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI가 수백만 개의 일자리를 없애려 한다면, 우리는 어떻게 해야 할까요?",
-        "enTitle": "With AI about to wipe out millions of jobs, what should we do?",
-        "date": "2026-09-23",
-        "originalDate": "2026-09-20",
-        "sourceName": "The Independent",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPc3YtcEI2WHRPUjZoV2twWmw5X0FWNmlYazFadURwTzRHN2RaakhEREFQaDFtRk9HZlJxdkhWRlBjQWxsLUpQWWNsYWJSd3d2THEwQm9LX05XTEgzMkRiTnljVGc1aEhBUngtZHBVUGxBd3JFVW9FSThzUGZScTNnZEd4UnlVY0tfSUZwbjIxVlU?oc=5",
+        "koTitle": "AI의 역량이 높아짐에 따라, 사람들이",
+        "enTitle": "With AI becoming more capable, here's why people must too",
+        "date": "2026-09-24",
+        "originalDate": "2026-09-21",
+        "sourceName": "The World Economic Forum",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbWRNQVNSczJQUDR2YkZ0Ym04WUxGVzl0OUtCVm9JMFZEYkh1bmY5UkVUa1JoRVp1UU5rNkdWdkRxZXhxMlFmVFN1NGFJdXZKUmFjSmdISUc0Y2pkZzZmNm0tTHBwaDByLWNuWTl2LVZyeVJZWTBhWG5KNU9GYXJYLThMUUJTMlZtQTBr?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 수백만 개의 일자리를 없애려 한다면, 우리는 어떻게 해야 할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! AI의 역량이 높아짐에 따라, 사람들이 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "AI 속도조절 외친 앤트로픽, 새 모델 ‘클로드 오퍼스 5.5’ 출시…“최상위 성능에 비용은 40%↓”",
-        "enTitle": "AI 속도조절 외친 앤트로픽, 새 모델 ‘클로드 오퍼스 5.5’ 출시…“최상위 성능에 비용은 40%↓”",
-        "date": "2026-09-23",
-        "originalDate": "2026-09-22",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xSUU5VUR5Yk8tVWdxdzNWb1hxZ09UX29RVlZUQkpyaG91RW53NTJzdi1sakZ3elYwRGNsbWFSbVpvYXdPaEk4RzdDOXBWT3c?oc=5",
+        "koTitle": "앤트로픽, 클로드 오퍼스 5.5 공개…클로드 5.5 패밀리 첫 모델, 성능은 높이고 운영비는 40% 낮췄다",
+        "enTitle": "앤트로픽, 클로드 오퍼스 5.5 공개…클로드 5.5 패밀리 첫 모델, 성능은 높이고 운영비는 40% 낮췄다",
+        "date": "2026-09-24",
+        "originalDate": "2026-09-23",
+        "sourceName": "인공지능신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nRjRhMnNBVjZzNVhTenFNV1F2aEdmYzdsLXRjdUhjSXBQbE82eXp1NjQ5dzNMWmQyVnB0SDNUbElqLTJpMUpQemRrc2dwOHFYM240OE9scmE1ZHlQSHpoQ2x1RHpzRGs?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! AI 속도조절 외친 앤트로픽, 새 모델 ‘클로드 오퍼스 5.5’ 출시…“최상위 성능에 비용은 40%↓” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 클로드 오퍼스 5.5 공개…클로드 5.5 패밀리 첫 모델, 성능은 높이고 운영비는 40% 낮췄다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "메타 에이전트 '뮤즈' 돌풍, 출시 초기 챗GPT 기록 뛰어넘었다",
-        "enTitle": "메타 에이전트 '뮤즈' 돌풍, 출시 초기 챗GPT 기록 뛰어넘었다",
-        "date": "2026-09-23",
-        "originalDate": "2026-09-22",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qNGxJVE5SaERaVGhrS3Y4Sm9zaWRlMzNCcnJWVG93Q1lCdGpaMnV3b01ybGdoams0YWlWQTBRTzEzdnplWXY4Y0EyUFpfa09uVVNsZk45S3JCZnQ1eW5OZVJ0eXp1Q2hIWFE?oc=5",
+        "koTitle": "신한투자증권, 신규 AI 서비스 2종 출시",
+        "enTitle": "신한투자증권, 신규 AI 서비스 2종 출시",
+        "date": "2026-09-24",
+        "originalDate": "2026-09-23",
+        "sourceName": "issuetoday.co.kr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sb3lRajdSS1gtOEdWcnBIeUZkX19salRXS2RicV82MFhuX2NQaDBMTDVWTHNLLTdZTmlFaExyaHFPLW56bzAwRE1iQjVoVFoxa1VOTkxKWmw4MEhfa1B6V1FRY2k0Zw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 메타 에이전트 '뮤즈' 돌풍, 출시 초기 챗GPT 기록 뛰어넘었다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 신한투자증권, 신규 AI 서비스 2종 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "팔로 알토 네트웍스, AI 기반 보안 테스트 서비스 출시",
-        "enTitle": "팔로 알토 네트웍스, AI 기반 보안 테스트 서비스 출시",
-        "date": "2026-09-23",
-        "originalDate": "2026-09-22",
-        "sourceName": "Investing.com 한국어",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE12VzlGdDA4OWZXOENGT0hmcm1Ec3JLeFZPelZfRno3a213OGZ3aVZITHI3bUx5WGJsZHlVQWZTLVNvZWVQb3JGWmJtekJRSjVNNHdWNllBQzNyaVk3dXIwMUZWd2VBUFE3QUFNcTBjRnE?oc=5",
+        "koTitle": "인공지능: '중국식 속도' 내몽골 평원에 무섭게 생겨나는 AI 데이터 센터",
+        "enTitle": "인공지능: '중국식 속도' 내몽골 평원에 무섭게 생겨나는 AI 데이터 센터",
+        "date": "2026-09-24",
+        "originalDate": "2026-09-23",
+        "sourceName": "BBC",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54MVNVZXBfVzRRaWNJeTVhSlRNSjVjaC1zdi1oSXcwVkJ6REJQZzMxRVFrbzhsb0VpQ1hxekxzZGhHblpIbW41Q1RIb1M2Q0lRdkcwYldFa2R6RmV3TVHSAWNBVV95cUxNQ0tPc0UtR0gxdE0zQmVSaGVBVmpTY3BlQXFMX21kSUx0WEE5blpkME5JelRhaGZKNnlUakp2TFQyNWJFdWpJOHlLcTk1Z193T3lBb2d1N2w1MVZTZWlEQkF6ejA?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 팔로 알토 네트웍스, AI 기반 보안 테스트 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 인공지능: '중국식 속도' 내몽골 평원에 무섭게 생겨나는 AI 데이터 센터 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
