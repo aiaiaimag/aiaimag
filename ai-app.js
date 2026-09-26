@@ -1,7 +1,7 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-25
+ * 최신 업데이트: 2026-09-26
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
@@ -10,38 +10,38 @@ const aiNewsData = [
         "rank": 1,
         "koTitle": "바이럴 AI 트렌드는 유명인, 동물 등을 Quavo와 Takeoff의 '호텔 로비' 컬러 퍼포먼스 안에 집어넣습니다.",
         "enTitle": "Viral AI Trend Puts Celebrities, Animals and More Inside Quavo and Takeoff's 'Hotel Lobby' Colors Performance",
-        "date": "2026-09-25",
+        "date": "2026-09-26",
         "originalDate": "2026-09-24",
         "sourceName": "XXL Mag",
         "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE0ydFFwTTBWb3poODVTeEI3TXRvLTB4REhJMmdCTW42NTNSMFYwNHlRV3puaEcwRl9sQ0xZMFRVYk4tY1JlUEVGSWpQZXNWejFXQUIzOHFUcENGQVA3X2t6SmN0YVp4TDFhcmVBY0o1MW8ydw?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
+        "viralRate": "95%",
         "analysis": "글로벌 AI 트렌드 체크! 바이럴 AI 트렌드는 유명인, 동물 등을 Quavo와 Takeoff의 '호텔 로비' 컬러 퍼포먼스 안에 집어넣습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "직업의 미래를 재정의하는 젊은 개척자: 윤리적 해킹에서 법정 창의성까지",
+        "enTitle": "Young Trailblazers Redefine Future of Work: From Ethical Hacking to Courtroom Creativity",
+        "date": "2026-09-26",
+        "originalDate": "2026-09-23",
+        "sourceName": "ednews.africa",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4xci1DTW43TnRScF9feFFRZW42ME4xeFpBdHZoajdZaUQ0MEttdlFxcjJOMTlIOEZmR3E0bXNqd0VXc3dXUlhZNGtYS0tYTDFyWEJCMlhQUXZMVzRoX3Y0dG42WWkzQUVRSTUxMmE1SQ?oc=5",
+        "isRepublished": false,
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 직업의 미래를 재정의하는 젊은 개척자: 윤리적 해킹에서 법정 창의성까지 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "Transcript: 스탠포드의 채드 존스 (Chad Jones) 가 인공지능 세상에서 일자리의 미래에 대해 이야기하다",
         "enTitle": "Transcript: Stanford’s Chad Jones on The Future of Jobs in an AI World",
-        "date": "2026-09-25",
+        "date": "2026-09-26",
         "originalDate": "2026-09-22",
-        "sourceName": "The Singju Post",
+        "sourceName": "singjupost.com",
         "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdmlFZE9sVjZ0SzIzYWc4akJZWlBxR0FVUXVyTnhMMnA5VkcwMWxCcFA1b0ppVnV0UDRzeFZKbmlGRXJzMnZYMWJqMTAwYkZIUVJGbHhGa2xnYWZQNndNcHpvdUZlV2lEYkZQMjJOR1NqdTZScUlHSnVBVDdPNFJZMkNCblljbnRMNGlGNm5ucmJkTTdkdklB?oc=5",
         "isRepublished": false,
         "viralRate": "91%",
         "analysis": "글로벌 AI 트렌드 체크! Transcript: 스탠포드의 채드 존스 (Chad Jones) 가 인공지능 세상에서 일자리의 미래에 대해 이야기하다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "The Shrinking First Rung: How AI Is Disrupting Entry-Level Work in NYC Tech",
-        "enTitle": "The Shrinking First Rung: How AI Is Disrupting Entry-Level Work in NYC Tech",
-        "date": "2026-09-25",
-        "originalDate": "2026-09-22",
-        "sourceName": "Citizens Union",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ3FyaDJQM3RtZ1FFR0owX1d0emtKRVJCT2wtMXM4YlpMdDVhQzRIZ1BDR3FPOVhJcjNCZ0tSckNjYUh6c0FianowR3VPMkVJMWs4SVc0YS14d1JrX1FWQlpDaTh4UzUtUDZnRXVFemhxbTFZN0d6eTVQc0FheUNnTWN3Y1VGbExJR0Z2NU00WXZRZGNHZEtNRGUxSWo2RHV3WmNlRUNpaThGWnRyamxBSGI5OA?oc=5",
-        "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! The Shrinking First Rung: How AI Is Disrupting Entry-Level Work in NYC Tech 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "\"제미나이 4 조기 출시\"… 구글 딥마인드 수장, 첫 인터뷰서 공식화",
-        "enTitle": "\"제미나이 4 조기 출시\"… 구글 딥마인드 수장, 첫 인터뷰서 공식화",
-        "date": "2026-09-25",
-        "originalDate": "2026-09-24",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE10OWRBQ3BWb1l5SlBsb2RHVm1OVVhrZDNlaDgxVFBQcE5CRTJRSGJibm02X2c2eVp4LXc4eHdhOGdtamNHeHVpelA1Y05ETDhfcFdwUzc3d3Bfb1FZc1MwR2dRLWJsYnF5R0E?oc=5",
+        "koTitle": "'클로드' 국내 AI 앱 2위 굳히기…1위는 챗GPT",
+        "enTitle": "'클로드' 국내 AI 앱 2위 굳히기…1위는 챗GPT",
+        "date": "2026-09-26",
+        "originalDate": "2026-09-25",
+        "sourceName": "전자신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5uRXlScmh1TGI2MHV0SlZldFBva3BZT0U5YXhPaV9KclpNVmZVYTZJTmxyQVh1OXNaNm5jbUlzV2U2SUZiWEJnQmFBcS1uQQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! \"제미나이 4 조기 출시\"… 구글 딥마인드 수장, 첫 인터뷰서 공식화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! '클로드' 국내 AI 앱 2위 굳히기…1위는 챗GPT 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "신한투자증권, 신규 AI 서비스 2종 출시",
-        "enTitle": "신한투자증권, 신규 AI 서비스 2종 출시",
-        "date": "2026-09-25",
-        "originalDate": "2026-09-24",
-        "sourceName": "비즈월드",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBiZ082Vk56LXRncEdiYjJwRDdBZExIRXBJckVVNEpKQkJwQVVNV2taRl96N2hVWnVWQlkybGFjVG54b2NjRkdWWThsM3dfUkhTTzJzTm9ncEpvN0V3MjFOY2l5eU5hcXVTc2c?oc=5",
+        "koTitle": "챗GPT 다음은 클로드…국내 AI앱 2위 자리 굳혀",
+        "enTitle": "챗GPT 다음은 클로드…국내 AI앱 2위 자리 굳혀",
+        "date": "2026-09-26",
+        "originalDate": "2026-09-25",
+        "sourceName": "연합뉴스TV",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9mYTdvZnZNVkpDdGJmaVhkT0c5LTU5TDQwcGRaV09vN1FWVzNuTFdzU2RlekVPSUZ5bExfSHJ3ZEQ1bmh6aFFwNWoxdkdWaGNfQlB6aXNqVklFRlMtQllzTUdxR0t5TUk?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 신한투자증권, 신규 AI 서비스 2종 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 챗GPT 다음은 클로드…국내 AI앱 2위 자리 굳혀 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "구글, AI 영상 제작 문턱 낮췄다…제미나이로 1080p 영상 무료 생성",
-        "enTitle": "구글, AI 영상 제작 문턱 낮췄다…제미나이로 1080p 영상 무료 생성",
-        "date": "2026-09-25",
-        "originalDate": "2026-09-24",
-        "sourceName": "인공지능신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSeWpJVjNUeTRXV1FBeDF6eDk5aGVlZlBoZDMxYl9WVW0tc25OdnBlRFItX2hSS0E4WUlUV0VJb25FVzY0WlZQcjQxLWhhWHNpN0NMaEdYdHM2RHdFaGlYdElYa0xSdkk?oc=5",
+        "koTitle": "클로드, 국내 AI 앱 사용자·신규 설치 모두 2위…챗GPT 추격",
+        "enTitle": "클로드, 국내 AI 앱 사용자·신규 설치 모두 2위…챗GPT 추격",
+        "date": "2026-09-26",
+        "originalDate": "2026-09-25",
+        "sourceName": "ebn.co.kr",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ORkVqZW9kaGhuSWdJWlBWZWZpUmtqdG91amppazk3c2tYX1JQZEptU1d3WWhnTlFlSzZ5ek43NFgzRHo5Mi1kRlpGRy1hOTEwdFZncTZQNUMzSWROMDByWXczMDM2M1R2?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글, AI 영상 제작 문턱 낮췄다…제미나이로 1080p 영상 무료 생성 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 클로드, 국내 AI 앱 사용자·신규 설치 모두 2위…챗GPT 추격 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
