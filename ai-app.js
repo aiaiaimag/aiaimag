@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-28
+ * 최신 업데이트: 2026-09-29
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
+        "koTitle": "HP의 Future of Work Accelerator는 AI의 엔트리 레벨 Catch-22를 활용합니다.",
+        "enTitle": "HP's Future of Work Accelerator Takes on AI's Entry-Level Catch-22",
+        "date": "2026-09-29",
+        "originalDate": "2026-09-28",
+        "sourceName": "TechNewsWorld",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZmxKQmpXNEpoaklMc1p1aDlDUlFlQXZ1Q285cEdIYS1GUVBaUGxrSVJKb0hvNkRmVUhvTzBwNGpUY29wWExWMmJqMF9hZG9pYkVWTXJBSlFQT3VPZ3F0cHRRVm1fWXhYSXZiUF9kV1dPVjZ3UGs3QzB3V0xxNFFwTWtoSm1jcVBTQ3c2cDZwZ0xtZVRDM0RCUXdHZXJJRUlDRWxDZEhsRFRTXzMyNEpnTm9n?oc=5",
+        "isRepublished": false,
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! HP의 Future of Work Accelerator는 AI의 엔트리 레벨 Catch-22를 활용합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "isTopPick": true
+    },
+    {
+        "rank": 2,
+        "koTitle": "Meta's Muse AI에 생산성 해킹을 요청했습니다. 이 7가지 독창적인 아이디어가 저를 가장 놀라게 했습니다.",
+        "enTitle": "I asked Meta’s Muse AI for productivity hacks — these 7 unconventional ideas surprised me the most",
+        "date": "2026-09-29",
+        "originalDate": "2026-09-28",
+        "sourceName": "Tom's Guide",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcW5DeE1KTk5kYkRkRFdyYmlRbjRtUklFb19mRUVpSWJpNm03dVlqWXlYUWxXOGdNNzVpbjZ6LW9SSGVXMjJ2RlV2eGFSZjAzWkI4ZEoxVURlVGJSS2hzX1Q2NHBQZWFwNFhlaUVtTE1KRnBvZjVGeG56QXMybmZCM2ZaTjY5UGZQOWd5RFd1aXFOQm4xUV9mMjhIak43Z3ZZVVVZQ1p5TENBUThKR2Y3WXJtS0llSmR1Uldra2h0QXlnUQ?oc=5",
+        "isRepublished": false,
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! Meta's Muse AI에 생산성 해킹을 요청했습니다. 이 7가지 독창적인 아이디어가 저를 가장 놀라게 했습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "AI가 일자리를 없애거나 새로운 일자리를 창출할까요? 아마도 둘 다일 것입니다.",
         "enTitle": "Will AI Eliminate Jobs or Create New Ones? Probably Both.",
-        "date": "2026-09-28",
+        "date": "2026-09-29",
         "originalDate": "2026-09-25",
         "sourceName": "Yale Insights",
         "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObDBjR2xjMW0tM1dHMTRycUZXWHlLT2N4M3VxcTh3elFuXzNIeVVSQlluSm1HLXhsU3VOOTFsQTRGSE5BZ21rTTlUak5uQXkzYnNIS0QzaVhfRGtVQzJrWER6T2Q2X0VRVlJFWnBXQ2U2Z3V0d0RlaDVaampwN2RXT1d5alZha2RSd1BlNE1jMlo4Q2Q4YXR3a3RR?oc=5",
         "isRepublished": false,
         "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 일자리를 없애거나 새로운 일자리를 창출할까요? 아마도 둘 다일 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
-        "isTopPick": true
-    },
-    {
-        "rank": 2,
-        "koTitle": "바이럴 AI 트렌드는 유명인, 동물 등을 Quavo와 Takeoff의 '호텔 로비' 컬러 퍼포먼스 안에 집어넣습니다.",
-        "enTitle": "Viral AI Trend Puts Celebrities, Animals and More Inside Quavo and Takeoff's 'Hotel Lobby' Colors Performance",
-        "date": "2026-09-28",
-        "originalDate": "2026-09-24",
-        "sourceName": "XXL Mag",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE0ydFFwTTBWb3poODVTeEI3TXRvLTB4REhJMmdCTW42NTNSMFYwNHlRV3puaEcwRl9sQ0xZMFRVYk4tY1JlUEVGSWpQZXNWejFXQUIzOHFUcENGQVA3X2t6SmN0YVp4TDFhcmVBY0o1MW8ydw?oc=5",
-        "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 바이럴 AI 트렌드는 유명인, 동물 등을 Quavo와 Takeoff의 '호텔 로비' 컬러 퍼포먼스 안에 집어넣습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "Transcript: 스탠포드의 채드 존스 (Chad Jones) 가 인공지능 세상에서 일자리의 미래에 대해 이야기하다",
-        "enTitle": "Transcript: Stanford’s Chad Jones on The Future of Jobs in an AI World",
-        "date": "2026-09-28",
-        "originalDate": "2026-09-22",
-        "sourceName": "The Singju Post",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdmlFZE9sVjZ0SzIzYWc4akJZWlBxR0FVUXVyTnhMMnA5VkcwMWxCcFA1b0ppVnV0UDRzeFZKbmlGRXJzMnZYMWJqMTAwYkZIUVJGbHhGa2xnYWZQNndNcHpvdUZlV2lEYkZQMjJOR1NqdTZScUlHSnVBVDdPNFJZMkNCblljbnRMNGlGNm5ucmJkTTdkdklB?oc=5",
-        "isRepublished": false,
-        "viralRate": "89%",
-        "analysis": "글로벌 AI 트렌드 체크! Transcript: 스탠포드의 채드 존스 (Chad Jones) 가 인공지능 세상에서 일자리의 미래에 대해 이야기하다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! AI가 일자리를 없애거나 새로운 일자리를 창출할까요? 아마도 둘 다일 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "앤트로픽, 클로드 최적화를 클로드에 맡겼더니…\"속도 3배 빨라져\"",
-        "enTitle": "앤트로픽, 클로드 최적화를 클로드에 맡겼더니…\"속도 3배 빨라져\"",
-        "date": "2026-09-28",
-        "originalDate": "2026-09-27",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3LTM4LXlkaHlra0dPZW15UFNJT0hKa3pVbG9VeG1mdTFKSXFyMXVDTk03T1ZHUG9nSXAwak83SVd4VldmdFJzSTg4a2NsRC1fQWU3UW5CTUhEQUFsRHFMcHFZMDFycVpwMXc?oc=5",
+        "koTitle": "챗GPT·클로드에 지갑 여는 한국…AI 시대 커지는 ‘SW 적자’",
+        "enTitle": "챗GPT·클로드에 지갑 여는 한국…AI 시대 커지는 ‘SW 적자’",
+        "date": "2026-09-29",
+        "originalDate": "2026-09-28",
+        "sourceName": "IT조선",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9qVllEMjdMM0RxeUkwdU1MMUJUbi1tTmZBSXdlbTJHbWR4UWNncjR3RkZIbGpUUDdPSng1cHRrTS10RDBfVmNsOFd6SVFLRXZPbFlUak9vXzMyV2JkaEdJZk5od0hZWDF6Y3JxaHNqXzdNa3RF0gF0QVVfeXFMT2pWWUQyN0wzRHF5STB1TUwxQlRuLW1OZkFJd2VtMkdtZHhRY2dyNHdGRkhsalRQN09KeDVwdGtNLXREMF9WY2w4V3pJUUtFdk9sWVRqT29fMzJXYmRoR0lmTmh3SFlYMXpjcnFoc2pfN01rdEU?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 클로드 최적화를 클로드에 맡겼더니…\"속도 3배 빨라져\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 챗GPT·클로드에 지갑 여는 한국…AI 시대 커지는 ‘SW 적자’ 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "[AI 뉴스] 구글 ‘제미나이 3.8 TTS’ 출시…어디서 어떻게 사용하나",
-        "enTitle": "[AI 뉴스] 구글 ‘제미나이 3.8 TTS’ 출시…어디서 어떻게 사용하나",
-        "date": "2026-09-28",
-        "originalDate": "2026-09-27",
-        "sourceName": "아웃소싱타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBBU0dUay1mZDQ5ZElOQi1iZDhRUDdwYXVvdlFzdzI3SkpTYzVBaWw5dW5PaU1pSWpQcEUwSWs4TUZ0YThEUzBSb0U5QVo1MFJTVnlnWXJ0YlBuQ084TVpGZ1VhQ3Y2WW8xbHcxTTJWaFRsUQ?oc=5",
+        "koTitle": "중장년 재취업 돕는다…서류·면접부터 AI 취업 준비까지 ‘무료’",
+        "enTitle": "중장년 재취업 돕는다…서류·면접부터 AI 취업 준비까지 ‘무료’",
+        "date": "2026-09-29",
+        "originalDate": "2026-09-28",
+        "sourceName": "농민신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50Z0VKdnNFdWhRQlJrcUlJa3ZJU2xhVzNLYlFqUzJLWWxWMk5jN01UaGZUZzJRMXZfZFVfeFh4bk16Q3Q1Rm1WeGhIbVI4enlJcGJ4ZzNxTGtKdw?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI 뉴스] 구글 ‘제미나이 3.8 TTS’ 출시…어디서 어떻게 사용하나 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 중장년 재취업 돕는다…서류·면접부터 AI 취업 준비까지 ‘무료’ 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "영진전문대 신설 글로벌시스템융합과, 일본 AI·IT 취업 ‘돌풍’",
-        "enTitle": "영진전문대 신설 글로벌시스템융합과, 일본 AI·IT 취업 ‘돌풍’",
-        "date": "2026-09-28",
-        "originalDate": "2026-09-27",
-        "sourceName": "sentv.co.kr",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Fb21zYmxEbUd1MWE5WGNaWVA2MS11UnVWaF9DVkZBQXZFbHpCTHlZVnB3TkJTRzFDT2dKamNtZVJNaUF1Y0hfRUZIN0NGYXNWQ1hkdlAwZlJfN2VJeE9mczBnU1U?oc=5",
+        "koTitle": "“장소 추천부터 결제까지”… 네카오·통신사, ‘AI 에이전트’ 서비스 경쟁",
+        "enTitle": "“장소 추천부터 결제까지”… 네카오·통신사, ‘AI 에이전트’ 서비스 경쟁",
+        "date": "2026-09-29",
+        "originalDate": "2026-09-28",
+        "sourceName": "조선일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeV9mQ1RLVk16bjFMNFBoWXozcEYyUUlnVEdnNUs5bGNaNmFoZGRJUmt6X2V4ZExUSFZ0MGhIMzN5Z19oSERBR3lzOTdrdEVDUksyRlY4UnFEUFpGR2c0R2phNlZGU2FmUGFRTG1NMFh2YTVvVGYtT0twMEVKRzliY2lHaw?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 영진전문대 신설 글로벌시스템융합과, 일본 AI·IT 취업 ‘돌풍’ 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! “장소 추천부터 결제까지”… 네카오·통신사, ‘AI 에이전트’ 서비스 경쟁 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
