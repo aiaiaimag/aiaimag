@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-09-29
+ * 최신 업데이트: 2026-09-30
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "HP의 Future of Work Accelerator는 AI의 엔트리 레벨 Catch-22를 활용합니다.",
-        "enTitle": "HP's Future of Work Accelerator Takes on AI's Entry-Level Catch-22",
-        "date": "2026-09-29",
-        "originalDate": "2026-09-28",
-        "sourceName": "TechNewsWorld",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZmxKQmpXNEpoaklMc1p1aDlDUlFlQXZ1Q285cEdIYS1GUVBaUGxrSVJKb0hvNkRmVUhvTzBwNGpUY29wWExWMmJqMF9hZG9pYkVWTXJBSlFQT3VPZ3F0cHRRVm1fWXhYSXZiUF9kV1dPVjZ3UGs3QzB3V0xxNFFwTWtoSm1jcVBTQ3c2cDZwZ0xtZVRDM0RCUXdHZXJJRUlDRWxDZEhsRFRTXzMyNEpnTm9n?oc=5",
+        "koTitle": "구직자들은 화요일에 보스턴 AI 주간을 위해 보스턴 대학을 포장했습니다.",
+        "enTitle": "Job seekers packed Boston University on Tuesday for Boston AI Week.",
+        "date": "2026-09-30",
+        "originalDate": "2026-09-29",
+        "sourceName": "facebook.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSW9lOUI4QldhQllFSExrUGZPc21nN0FCMGFHd3NPVmItcHdjbEp3azF2YlR0SmtCYWRwalJySUtQTnhkQUhGREtCckl3TFhJRjc5WUg3a29sd0ZRMlFRc2ZLemFSUEUxYWkwYlAyM2lYWHhxeXNJWHlLN3FINjE5OHRaTGxpSDBibGk5b29RUkNpWWhSUi0zUTl4Qnp5Ymh1dG5yRjNHY3haRWt5VklsSVBFTUo0RndmNkhNMGFTWldPZk1reS1N?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! HP의 Future of Work Accelerator는 AI의 엔트리 레벨 Catch-22를 활용합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 구직자들은 화요일에 보스턴 AI 주간을 위해 보스턴 대학을 포장했습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "Meta's Muse AI에 생산성 해킹을 요청했습니다. 이 7가지 독창적인 아이디어가 저를 가장 놀라게 했습니다.",
-        "enTitle": "I asked Meta’s Muse AI for productivity hacks — these 7 unconventional ideas surprised me the most",
-        "date": "2026-09-29",
-        "originalDate": "2026-09-28",
-        "sourceName": "Tom's Guide",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcW5DeE1KTk5kYkRkRFdyYmlRbjRtUklFb19mRUVpSWJpNm03dVlqWXlYUWxXOGdNNzVpbjZ6LW9SSGVXMjJ2RlV2eGFSZjAzWkI4ZEoxVURlVGJSS2hzX1Q2NHBQZWFwNFhlaUVtTE1KRnBvZjVGeG56QXMybmZCM2ZaTjY5UGZQOWd5RFd1aXFOQm4xUV9mMjhIak43Z3ZZVVVZQ1p5TENBUThKR2Y3WXJtS0llSmR1Uldra2h0QXlnUQ?oc=5",
+        "koTitle": "취업 사기는 더욱 정교해졌습니다. 이를 발견하고 방지하는 방법은 다음과 같습니다.",
+        "enTitle": "Job scams have gotten more sophisticated. Here’s how to spot and avoid them.",
+        "date": "2026-09-30",
+        "originalDate": "2026-09-29",
+        "sourceName": "The Washington Post",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWU03azB0NEdvSmoxeTBXZENOS0NhUU8yVUh1aHQxNm1IZUJBcHN3Rl9iZWM3OFRpM0dKRW4tRVgteVE5am0zZC1nVTYyT1RGbGk1eUtscmZ2aHNzSTdfNnVZZlRTcmk3bVVlampRYTV0Tm4wZGtDaHU1UnU0WG9Pb2d2ZG5aSm9yOWV4Y1Bydkt5MlJTWFZCZFJhQWxvVlFESVV3X3VpWTQ4SVBtLUFxRWFOV2NmejJuUlE?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! Meta's Muse AI에 생산성 해킹을 요청했습니다. 이 7가지 독창적인 아이디어가 저를 가장 놀라게 했습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 취업 사기는 더욱 정교해졌습니다. 이를 발견하고 방지하는 방법은 다음과 같습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI가 일자리를 없애거나 새로운 일자리를 창출할까요? 아마도 둘 다일 것입니다.",
-        "enTitle": "Will AI Eliminate Jobs or Create New Ones? Probably Both.",
-        "date": "2026-09-29",
-        "originalDate": "2026-09-25",
-        "sourceName": "Yale Insights",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObDBjR2xjMW0tM1dHMTRycUZXWHlLT2N4M3VxcTh3elFuXzNIeVVSQlluSm1HLXhsU3VOOTFsQTRGSE5BZ21rTTlUak5uQXkzYnNIS0QzaVhfRGtVQzJrWER6T2Q2X0VRVlJFWnBXQ2U2Z3V0d0RlaDVaampwN2RXT1d5alZha2RSd1BlNE1jMlo4Q2Q4YXR3a3RR?oc=5",
+        "koTitle": "인력 이동: 미국 내 미래 일자리를 위한 기술 및 경로",
+        "enTitle": "Workforce in motion: Skills and pathways to future jobs in the United States",
+        "date": "2026-09-30",
+        "originalDate": "2026-09-29",
+        "sourceName": "McKinsey & Company",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWnRQelpmc0kxV2JCaHpiZUxSSndBVnlXT2YzNEpudGpFZWUtcmtFUUNJZV9xLUdJMFBKMDE0b2pIaVZ0TWszREI0YzZZRXg4M0w1YTE2UERuV29TaEtMTzl4bllxcGY5UElVajFRRjJtYnpTWUF0eEVIV2JHWHRFVEpMa1BwTGNwaXk4WlFMYk1sLXhSVFdJaVNpTGJjU05neklXamtXVHp4WFZ4b1VwWDFDUlQxcW12?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 일자리를 없애거나 새로운 일자리를 창출할까요? 아마도 둘 다일 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 인력 이동: 미국 내 미래 일자리를 위한 기술 및 경로 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "챗GPT·클로드에 지갑 여는 한국…AI 시대 커지는 ‘SW 적자’",
-        "enTitle": "챗GPT·클로드에 지갑 여는 한국…AI 시대 커지는 ‘SW 적자’",
-        "date": "2026-09-29",
-        "originalDate": "2026-09-28",
-        "sourceName": "IT조선",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9qVllEMjdMM0RxeUkwdU1MMUJUbi1tTmZBSXdlbTJHbWR4UWNncjR3RkZIbGpUUDdPSng1cHRrTS10RDBfVmNsOFd6SVFLRXZPbFlUak9vXzMyV2JkaEdJZk5od0hZWDF6Y3JxaHNqXzdNa3RF0gF0QVVfeXFMT2pWWUQyN0wzRHF5STB1TUwxQlRuLW1OZkFJd2VtMkdtZHhRY2dyNHdGRkhsalRQN09KeDVwdGtNLXREMF9WY2w4V3pJUUtFdk9sWVRqT29fMzJXYmRoR0lmTmh3SFlYMXpjcnFoc2pfN01rdEU?oc=5",
+        "koTitle": "DevDay 2026 주요 발표",
+        "enTitle": "DevDay 2026 주요 발표",
+        "date": "2026-09-30",
+        "originalDate": "2026-09-29",
+        "sourceName": "OpenAI",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBRNlRWMjc4Ykd0NUIxVUF5ZTNyS1dfQmNhNWNRQVFUVllabHZCYW5SR1UwSXMwRFNCRTI4NW50NEs0UHBWSVM1RjF1RVpOT1NoNXV2ZEdfRnJYbG81SHc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 챗GPT·클로드에 지갑 여는 한국…AI 시대 커지는 ‘SW 적자’ 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! DevDay 2026 주요 발표 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "중장년 재취업 돕는다…서류·면접부터 AI 취업 준비까지 ‘무료’",
-        "enTitle": "중장년 재취업 돕는다…서류·면접부터 AI 취업 준비까지 ‘무료’",
-        "date": "2026-09-29",
-        "originalDate": "2026-09-28",
-        "sourceName": "농민신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50Z0VKdnNFdWhRQlJrcUlJa3ZJU2xhVzNLYlFqUzJLWWxWMk5jN01UaGZUZzJRMXZfZFVfeFh4bk16Q3Q1Rm1WeGhIbVI4enlJcGJ4ZzNxTGtKdw?oc=5",
+        "koTitle": "에이치티비욘드, 아파트 생활 플랫폼 ‘바이비’ AI 관리자앱 출시… 새 미션도 첫 공개",
+        "enTitle": "에이치티비욘드, 아파트 생활 플랫폼 ‘바이비’ AI 관리자앱 출시… 새 미션도 첫 공개",
+        "date": "2026-09-30",
+        "originalDate": "2026-09-29",
+        "sourceName": "뉴스와이어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pUDFfLVhfWHdldDZjc2YzRWJXSzNjTkFaUFVabzdtNjBvXzdsNGdXMWtZekFPd0RLdFhSRS1zSzRHWkdGbllPRzVsNVJQaXZBNTdOTlpTWXotNmM3eVlR?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 중장년 재취업 돕는다…서류·면접부터 AI 취업 준비까지 ‘무료’ 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 에이치티비욘드, 아파트 생활 플랫폼 ‘바이비’ AI 관리자앱 출시… 새 미션도 첫 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "“장소 추천부터 결제까지”… 네카오·통신사, ‘AI 에이전트’ 서비스 경쟁",
-        "enTitle": "“장소 추천부터 결제까지”… 네카오·통신사, ‘AI 에이전트’ 서비스 경쟁",
-        "date": "2026-09-29",
-        "originalDate": "2026-09-28",
-        "sourceName": "조선일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeV9mQ1RLVk16bjFMNFBoWXozcEYyUUlnVEdnNUs5bGNaNmFoZGRJUmt6X2V4ZExUSFZ0MGhIMzN5Z19oSERBR3lzOTdrdEVDUksyRlY4UnFEUFpGR2c0R2phNlZGU2FmUGFRTG1NMFh2YTVvVGYtT0twMEVKRzliY2lHaw?oc=5",
+        "koTitle": "KT, ‘마이 AI’ 탑재한 마이케이티 앱 출시…통신 서비스 편의성 높인다",
+        "enTitle": "KT, ‘마이 AI’ 탑재한 마이케이티 앱 출시…통신 서비스 편의성 높인다",
+        "date": "2026-09-30",
+        "originalDate": "2026-09-29",
+        "sourceName": "데일리포스트",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5PemNiem0ycTV0N29CdUd4UFpZWnpQYzJ6MXkyT3o4MlB3OGZMdU5VQzYzb0tjSWlFZDdYM3JQU3pkcV9XMU1vRlZYT2V2NmZmMzlXazN6c2duOU1Ra0hBZl83Vm96dFlib29NTHh6WdIBc0FVX3lxTE5ESmRINklCY0FBWHhfUTBqdmo5LXJCVnZuemZWTHhoSVJLaXlQdUtNM0VoQ2xmOVhPOEQ2eXotVFRVZ3pYRG5PckdaV1NUUkQ2aUlXTjB0YmxkdEpCd1F6N1I0TlFqbXYyUjU5ZlhJTVlqSkk?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! “장소 추천부터 결제까지”… 네카오·통신사, ‘AI 에이전트’ 서비스 경쟁 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! KT, ‘마이 AI’ 탑재한 마이케이티 앱 출시…통신 서비스 편의성 높인다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
