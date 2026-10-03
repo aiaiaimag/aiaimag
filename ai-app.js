@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-02
+ * 최신 업데이트: 2026-10-03
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "‘인공지능과 일의 미래’ 시리즈 — 대학이 학생들에게 다음 과제를 준비시키는 방법",
-        "enTitle": "The ‘AI and Future of Work’ Series — How the University is preparing students for what is next",
-        "date": "2026-10-02",
-        "originalDate": "2026-10-01",
-        "sourceName": "The Cavalier Daily",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQU9ObVU1ZU8zZ0tBaS0xTUx6WDQwZFBCWnlsVWdYZjFrdDN2UkpHVjA5R1dsQ1ZpZEhta1A4cEZjdlUyQlFiWmQtM2x1WFNvR1BNUkFULXRaNVJxbWo0dWVxQVJyQll4WnhGN0puVkFoeTZRYkN6SkRueVRWQ3JKSDZaWVl2MDZMdUlTTWxRSkFxT1VNakpZS0Ryc2FQZThucjlZdnJxSlNNZWpfS3UweVo0ekVZbVlhMkNUVDZLZW5RTXBFMGpfY1hkQXNnVUVGV2c?oc=5",
+        "koTitle": "AI는 여전히 우리의 일자리를 빼앗을 것인가?",
+        "enTitle": "Will A.I. Still Take Our Jobs?",
+        "date": "2026-10-03",
+        "originalDate": "2026-10-02",
+        "sourceName": "The New Yorker",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaTZzWUdteVBNeXM5Ui1kemx6LU1SSVdUVXpWQzhKSFh4V3preFp4NkVoN1JSMzhBQXpZV0o5WXJaOGtjOEZiVWZnV2twTXJEQXE2aFMwTVJlZVl5WnpjSHdTY1NXRHB1enZ6TjFWaW1nMkNERjRWU2NsbndXemFIWUFB?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! ‘인공지능과 일의 미래’ 시리즈 — 대학이 학생들에게 다음 과제를 준비시키는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! AI는 여전히 우리의 일자리를 빼앗을 것인가? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "10세대 Z 두려움 AI 중 8개는 무역 커리어가 호소력을 얻음에 따라 전통적인 엔트리 레벨 일자리를 대체할 것입니다.",
-        "enTitle": "Eight in 10 Gen Z Fear AI Will Replace Traditional Entry-Level Jobs as Trade Careers Gain Appeal",
-        "date": "2026-10-02",
-        "originalDate": "2026-09-30",
-        "sourceName": "Fair Play Talks",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQem1sX3N6WVZfNkF1LXBibllYcnBueHluOU1McnVBWkVqTFdXakhKNUptNkRaR0J2Wk81THBrSnFseUduYmZ0c0RiWnUxWVVOcEhoTGxRSWZFdFBkUUR6Nk9feld5S0pRaFN3VWw5TWlkajY3Slp3SFR2WVU4aFQ3UzBQd1RjWURKMk84aGlrSnNjS0lRWFBLRWwzYUhpLW8wbDdGMFo2OFJaYWFyYU96YURrZHo3Wk92cGFGRTZwWmJPYUtJdVBXT2ZhUW9JWDJoN0k4ag?oc=5",
+        "koTitle": "리차드 플로리다 (Richard Florida) 는 인공 지능이 창조적 인 클래스를 위해 오지 않는다고 말합니다: '갈고 닦은 직업' 을 위해 오고 있습니다.",
+        "enTitle": "Richard Florida says AI isn't coming for the creative class: It's coming for the 'grind-out jobs'",
+        "date": "2026-10-03",
+        "originalDate": "2026-10-02",
+        "sourceName": "fortune.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbjNpRjd4dFBLbWxSRkU3MTBOeTVXTTBlRm93UnM2NFI4SnVrWE45b0hzNmVSWC1oTVA3eU8zdFc5UDgwdVhRX24wTHRRTEVCQS1fNXdCNE4xeVZUb1VlRTJWU0prdU5uOVVIVGVVeF9ZZmQwcTQ0VlpYV2FnT2tlRnp3ZHdNc1g1Nl9mdVBrc3pQZw?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! 10세대 Z 두려움 AI 중 8개는 무역 커리어가 호소력을 얻음에 따라 전통적인 엔트리 레벨 일자리를 대체할 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! 리차드 플로리다 (Richard Florida) 는 인공 지능이 창조적 인 클래스를 위해 오지 않는다고 말합니다: '갈고 닦은 직업' 을 위해 오고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "‘일자리는 변화할 것이다’: 인공지능 (AI) 이 업무의 미래에 미치는 '가장 유익한' 영향에 대한 일론 머스크 (Elon Musk)",
-        "enTitle": "‘Jobs Are Going To Change’: Elon Musk On AI’s 'Most Beneficial' Impact On Future Of Work",
-        "date": "2026-10-02",
-        "originalDate": "2026-09-30",
-        "sourceName": "News18",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaEozQWxzNV9OcUkzdmg0NGJKVmFnZEIyYUNaR2JsR1Q2UUFaelUzWGw0X2V6TjdUdDBNeV80cmp4SWFHdGg2RWxEM1Q0aS1DV0s1MWFuYllSa2VPY0w0YlZBLWZzbUptRkhDcHRueERDUFRXZWg1NUFmUDRDTVZUY3JPNXFJRVl6SEZfaEFuQW5GNTFpYlRfUGxpak5oaVIyTUJjVWdiNWpwX0xUY0ZRNVRXdXRkbXRXN252QVFHTUNfTUhQZmY1dExB0gHPAUFVX3lxTE90MzlGUlNnSWRqNjFPcmFrSWYzY2xvZTQ2cW9WVDFPSG9HQjBPQ1Y0RFkxZmE3bFZMZkQxR0lvRXZOV2VxeVUyR0RMSDNndl9lNGk4UEZUVDFWbVhJX0VuNG5LY19ERnZYMG1IOVR6dDBvXzJPNzE1anA4VTloWGxRUlhLRlZCWGhXcDFrS1BvUGNMLVJCczJEczlnankwV3RlbHpabDFxTXBUUURNTnN0TTktc3M2M0d5N0FNenNqdXhZd1ZnTzhyUElESVdidw?oc=5",
+        "koTitle": "벤 애플렉은 인공지능이 일자리를 없애거나 우리 모두를 죽일 것이라는 예측은 그저 '선전' 이라고 말합니다.",
+        "enTitle": "Ben Affleck says predictions that AI will wipe out jobs—or kill us all—are just 'propaganda'",
+        "date": "2026-10-03",
+        "originalDate": "2026-10-02",
+        "sourceName": "fortune.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQek0wYXI3VFkyY0l2VUJQZ3pNdWsxd2Q5dk90YVoxdXlPYldzeEozZnRkR0tCeFVGaWh6Zjk0OTVONXlna01UbFA3aTRjQmJwQ2FvaEJ0NFdzTTFQYzBDWW9NX3JGOG9fS2NiNVVWUnZmcThSUnBLXzJmeE1KS05kZlZ5WldZZXRIM1JMQk5NWmJhNW9JaEVXR0F5WVpCYjJzMmk5cDZmMkhfbmxoYTVNMV9hdmZaQ3pubmVSdmIxbGZJWWpIR25VV05uN2dCQ0ZGa2tuSg?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! ‘일자리는 변화할 것이다’: 인공지능 (AI) 이 업무의 미래에 미치는 '가장 유익한' 영향에 대한 일론 머스크 (Elon Musk) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 벤 애플렉은 인공지능이 일자리를 없애거나 우리 모두를 죽일 것이라는 예측은 그저 '선전' 이라고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -53,8 +53,8 @@ const generalTrendingData = [
         "rank": 1,
         "koTitle": "GPT-6.1 Sol 소개",
         "enTitle": "GPT-6.1 Sol 소개",
-        "date": "2026-10-02",
-        "originalDate": "2026-10-01",
+        "date": "2026-10-03",
+        "originalDate": "2026-10-02",
         "sourceName": "OpenAI",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5OemY4emxSNEladU40TC1hcUppTmEweWtJTnBJTkkxYlptbEpIaUhmOFFoYXUwVVI3TWxxX2tVMksyVG1CR3ZxQk1jclZvWWFHS1hPUzdOY3J2UXdweU5kbWYwOFFuUQ?oc=5",
         "isRepublished": false,
@@ -64,28 +64,28 @@ const generalTrendingData = [
     },
     {
         "rank": 2,
-        "koTitle": "더 강력해진 제미나이 ‘구글 AI 프로’ 캠페인과 특별 할인 혜택을 소개합니다",
-        "enTitle": "더 강력해진 제미나이 ‘구글 AI 프로’ 캠페인과 특별 할인 혜택을 소개합니다",
-        "date": "2026-10-02",
+        "koTitle": "[게시판] KT, 소상공인 플랫폼 ‘사장이지’에 AI면접 서비스 출시 등 단신",
+        "enTitle": "[게시판] KT, 소상공인 플랫폼 ‘사장이지’에 AI면접 서비스 출시 등 단신",
+        "date": "2026-10-03",
         "originalDate": "2026-10-02",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUDVTbVppMnhfQXYxQlRkcXZUOFJQQzdXazZRb0h1MHgxSm5haVowd0EwZy10Zkd4SVp6MkpLdkxCRmZCdUlnUDNVb1hmLTBZanV6X0NfUjZlSm8zX19kWHU4Zk9BOGRTSkg4VXVVWEEzbUtuVkoxYnc0U0xjZzhNLXZxMA?oc=5",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBOUQ0R01tX2FvbnBBZkwzekRUcVJ6ZnZGZU1YRVlybVRJRjBnQVhlSVdoSnhLZGwtSXRYc0d6ZHhrLVNsZlVDLVMtV1FPTC1PSy1MMm9nT04wcG9PZGwwUW1QNHNrcTV2SUE?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 더 강력해진 제미나이 ‘구글 AI 프로’ 캠페인과 특별 할인 혜택을 소개합니다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [게시판] KT, 소상공인 플랫폼 ‘사장이지’에 AI면접 서비스 출시 등 단신 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "오픈AI, 반도체 설계 전용 'GPT-시놉시스' 개발 합의…'수익 공유' 적용",
-        "enTitle": "오픈AI, 반도체 설계 전용 'GPT-시놉시스' 개발 합의…'수익 공유' 적용",
-        "date": "2026-10-02",
-        "originalDate": "2026-10-01",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82dWF5NmkwQkZhQTBGMnJPLVF5d1p6YlhTS19rR2cwb1lZcjA5b1h0cWJxY0wtMEI5NmwzaTloNUxsd0hxSVBhVEdidWx3ZWp0WHlObTljS1hWc29PLU9UaUVObzdZb2dCZ0E?oc=5",
+        "koTitle": "업비트, AI로 뉴스·데이터 분석 서비스 출시",
+        "enTitle": "업비트, AI로 뉴스·데이터 분석 서비스 출시",
+        "date": "2026-10-03",
+        "originalDate": "2026-10-02",
+        "sourceName": "주간한국",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBVWXhoVGpPVW1NZVMwYUtWMVZSWEdwMnBWQjc0OEFNb0RSQlN2RjRISEtWLWxBWmZuOENTRkNXRDg4X1Bmb2k2QlJTU0RFVVppLTZiR2xIbE1ZOVpUUzJzT1dQZFVHaGQ3UVJWMHRxYlJZdURq0gF0QVVfeXFMUFVZeGhUak9VbU1lUzBhS1YxVlJYR3AycFZCNzQ4QU1vRFJCU3ZGNEhIS1YtbEFaZm44Q1NGQ1dEODhfUGZvaTZCUlNTREVVWmktNmJHbEhsTVk5WlRTMnNPV1BkVUdoZDdRUlYwdHFiUll1RGo?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 오픈AI, 반도체 설계 전용 'GPT-시놉시스' 개발 합의…'수익 공유' 적용 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 업비트, AI로 뉴스·데이터 분석 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
