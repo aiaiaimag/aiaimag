@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-04
+ * 최신 업데이트: 2026-10-05
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "맥킨지: AI는 1100만 개를 파괴한 후 죽이는 것보다 더 많은 일자리를 창출할 것이다.",
-        "enTitle": "McKinsey: AI will create more jobs than it kills — after destroying 11 million",
-        "date": "2026-10-04",
-        "originalDate": "2026-10-03",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxON3U4UXcxbWZMQklxZW16a011VzFkaFFzeE80ZkhUcFRFUlhUNmYzM05UU19LUFFMSzZ2UmsxM1FWTmZMcDFlRnI5UWxWdUxMb2dzdXlQWDBoOElDNFRDNGN1cm41T1RUeWdTSjdvY0d4ZGxhcHhUbF9lS3FlQmhnSzZ3M2xXeTFlUmt6Mkx2aEs3V3R0Qk80akZTa19HZ0RYcURDeWpoMEtSbExKaEgyc2t3?oc=5",
-        "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 맥킨지: AI는 1100만 개를 파괴한 후 죽이는 것보다 더 많은 일자리를 창출할 것이다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
-        "isTopPick": true
-    },
-    {
-        "rank": 2,
         "koTitle": "AI는 여전히 우리의 일자리를 빼앗을 것인가?",
         "enTitle": "Will A.I. Still Take Our Jobs?",
-        "date": "2026-10-04",
+        "date": "2026-10-05",
         "originalDate": "2026-10-02",
         "sourceName": "The New Yorker",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaTZzWUdteVBNeXM5Ui1kemx6LU1SSVdUVXpWQzhKSFh4V3preFp4NkVoN1JSMzhBQXpZV0o5WXJaOGtjOEZiVWZnV2twTXJEQXE2aFMwTVJlZVl5WnpjSHdTY1NXRHB1enZ6TjFWaW1nMkNERjRWU2NsbndXemFIWUFB?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! AI는 여전히 우리의 일자리를 빼앗을 것인가? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! AI는 여전히 우리의 일자리를 빼앗을 것인가? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "isTopPick": true
+    },
+    {
+        "rank": 2,
+        "koTitle": "벤 애플렉은 인공지능이 일자리를 없애거나 우리 모두를 죽일 것이라는 예측은 그저 '선전' 이라고 말합니다.",
+        "enTitle": "Ben Affleck says predictions that AI will wipe out jobs—or kill us all—are just 'propaganda'",
+        "date": "2026-10-05",
+        "originalDate": "2026-10-02",
+        "sourceName": "Fortune",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQek0wYXI3VFkyY0l2VUJQZ3pNdWsxd2Q5dk90YVoxdXlPYldzeEozZnRkR0tCeFVGaWh6Zjk0OTVONXlna01UbFA3aTRjQmJwQ2FvaEJ0NFdzTTFQYzBDWW9NX3JGOG9fS2NiNVVWUnZmcThSUnBLXzJmeE1KS05kZlZ5WldZZXRIM1JMQk5NWmJhNW9JaEVXR0F5WVpCYjJzMmk5cDZmMkhfbmxoYTVNMV9hdmZaQ3pubmVSdmIxbGZJWWpIR25VV05uN2dCQ0ZGa2tuSg?oc=5",
+        "isRepublished": false,
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 벤 애플렉은 인공지능이 일자리를 없애거나 우리 모두를 죽일 것이라는 예측은 그저 '선전' 이라고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "크리에이티브 클래스 전문가 리차드 플로리다 (Richard Florida) 는 ‘AI는 기술을 향상시키고 기술을 없애는 것' 이라는 189k 직업 전멸에 직면합니다.",
-        "enTitle": "Creative class guru Richard Florida confronts 189k job wipeout: ‘AI is both an enhancing technology and eliminating technology’",
-        "date": "2026-10-04",
-        "originalDate": "2026-10-02",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbjNpRjd4dFBLbWxSRkU3MTBOeTVXTTBlRm93UnM2NFI4SnVrWE45b0hzNmVSWC1oTVA3eU8zdFc5UDgwdVhRX24wTHRRTEVCQS1fNXdCNE4xeVZUb1VlRTJWU0prdU5uOVVIVGVVeF9ZZmQwcTQ0VlpYV2FnT2tlRnp3ZHdNc1g1Nl9mdVBrc3pQZw?oc=5",
+        "koTitle": "‘인공지능과 일의 미래’ 시리즈 — 대학이 학생들에게 다음 과제를 준비시키는 방법",
+        "enTitle": "The ‘AI and Future of Work’ Series — How the University is preparing students for what is next",
+        "date": "2026-10-05",
+        "originalDate": "2026-10-01",
+        "sourceName": "The Cavalier Daily",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQU9ObVU1ZU8zZ0tBaS0xTUx6WDQwZFBCWnlsVWdYZjFrdDN2UkpHVjA5R1dsQ1ZpZEhta1A4cEZjdlUyQlFiWmQtM2x1WFNvR1BNUkFULXRaNVJxbWo0dWVxQVJyQll4WnhGN0puVkFoeTZRYkN6SkRueVRWQ3JKSDZaWVl2MDZMdUlTTWxRSkFxT1VNakpZS0Ryc2FQZThucjlZdnJxSlNNZWpfS3UweVo0ekVZbVlhMkNUVDZLZW5RTXBFMGpfY1hkQXNnVUVGV2c?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 크리에이티브 클래스 전문가 리차드 플로리다 (Richard Florida) 는 ‘AI는 기술을 향상시키고 기술을 없애는 것' 이라는 189k 직업 전멸에 직면합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "89%",
+        "analysis": "글로벌 AI 트렌드 체크! ‘인공지능과 일의 미래’ 시리즈 — 대학이 학생들에게 다음 과제를 준비시키는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "'나만의 클로드 코드' 만든다...앤트로픽, 커스텀 확장 기능 '모드' 출시",
-        "enTitle": "'나만의 클로드 코드' 만든다...앤트로픽, 커스텀 확장 기능 '모드' 출시",
-        "date": "2026-10-04",
-        "originalDate": "2026-10-03",
-        "sourceName": "aitimes.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB0ZnRRSkFTSWQzVkhMLXFWaW04Wkx6UE04X1ptQXlDRW5wdnM2akV5ODVtTEJVM2VmNXFSbmpXZS1CU01hVVRRTXRmMC1nWHlhSTk1NW5GcHl4NXF6ck8ybldaYzlzNjA5UlE?oc=5",
+        "koTitle": "구글 제미나이 AI요금 개편…월10달러 내도 '프로' 모델 못쓴다",
+        "enTitle": "구글 제미나이 AI요금 개편…월10달러 내도 '프로' 모델 못쓴다",
+        "date": "2026-10-05",
+        "originalDate": "2026-10-04",
+        "sourceName": "연합뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GOG1wb3lCVnprQm94djlIeEpzM0JwZmFFMjhnMDBLbXdvUXdQTWZTd2pPd2JMeGtfUEQtcHBuTC02TENPTkU5WTlSXzBHRG9IQmgybGY2dWx0Y0U2OEJVX9IBYEFVX3lxTE1GOG1wb3lCVnprQm94djlIeEpzM0JwZmFFMjhnMDBLbXdvUXdQTWZTd2pPd2JMeGtfUEQtcHBuTC02TENPTkU5WTlSXzBHRG9IQmgybGY2dWx0Y0U2OEJVXw?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! '나만의 클로드 코드' 만든다...앤트로픽, 커스텀 확장 기능 '모드' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 구글 제미나이 AI요금 개편…월10달러 내도 '프로' 모델 못쓴다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "[AI는 지금] 챗GPT·클로드 추격할까…'제미나이4' 띄운 구글, 기술·가격·마케팅 총공세",
-        "enTitle": "[AI는 지금] 챗GPT·클로드 추격할까…'제미나이4' 띄운 구글, 기술·가격·마케팅 총공세",
-        "date": "2026-10-04",
-        "originalDate": "2026-10-04",
-        "sourceName": "v.daum.net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9hbTl4SExFWm53Y1VxeU83UFRfRUtpdFdhcmlDdGp2cE9VY2J1emRtOU11SHg2TEprNEZjNnhzMFI2Rmo3TlF3WHpfSkFYcEU?oc=5",
+        "koTitle": "AI활용법 익힌 제주 청년, 지역 스타트업 '취업 연계' 구조 만든다",
+        "enTitle": "AI활용법 익힌 제주 청년, 지역 스타트업 '취업 연계' 구조 만든다",
+        "date": "2026-10-05",
+        "originalDate": "2026-10-05",
+        "sourceName": "헤드라인제주",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBnNjBlSXJTeHo0VXBKZktPQ2JBOXVKc01iME9iT3p1bVVOaHdGN3paS1RYc204M2dMTFpPd1hlUHpZclhGMWhqSkN0YUZRWlhyYTVnR1hHTjdadS0yRWdLdHpnbEQ1N04tZkFuTFE5ZWw5QQ?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI는 지금] 챗GPT·클로드 추격할까…'제미나이4' 띄운 구글, 기술·가격·마케팅 총공세 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! AI활용법 익힌 제주 청년, 지역 스타트업 '취업 연계' 구조 만든다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "챗GPT·클로드에도 있는데…메타 '뮤즈'에 월가가 열광한 이유 - 머니투데이",
-        "enTitle": "챗GPT·클로드에도 있는데…메타 '뮤즈'에 월가가 열광한 이유 - 머니투데이",
-        "date": "2026-10-04",
-        "originalDate": "2026-10-03",
-        "sourceName": "머니투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Oa2FuX2k4dXBLcXdpYjFsMUE2YTIteHVhbk1iNzBOZWFJTlVqajE1U2dQUThNNzFobWlRUjE4U2RpXzBlRXJoSDR6MnRTaWZsaXp2cDdBaWxnTzZUUTQyUWljMThOY1FZ0gFuQVVfeXFMTVNZNW8xLWxBd29zZUowdmkyMF9rdTZYZlpPalRtbVR2b3p4VUI2dFloUjFiT3hYQWhUZlpVVVI3UGFZTnNyLWtkcVBkQWxsczRScGVlaVFPd3lmS1k3OWR2cXJKMEtrZi14MUFGVmc?oc=5",
+        "koTitle": "LG유플러스, 해외 AI 서비스 '유독'으로 순차 출시",
+        "enTitle": "LG유플러스, 해외 AI 서비스 '유독'으로 순차 출시",
+        "date": "2026-10-05",
+        "originalDate": "2026-10-05",
+        "sourceName": "싱글리스트",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5zeTVpMzk4bnRpM3pzYlZYYktsOGFOZWluVWxCQWRoQVYzQnc1a3MwdDlnaHkwQUhxVFVRUHBhREEzdVdtZEZWWkhfaGM1VENRX1IxdlY3elVXcnZjWkxya2l3V0lEdw?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 챗GPT·클로드에도 있는데…메타 '뮤즈'에 월가가 열광한 이유 - 머니투데이 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! LG유플러스, 해외 AI 서비스 '유독'으로 순차 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
