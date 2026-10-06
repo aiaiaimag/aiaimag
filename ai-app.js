@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-05
+ * 최신 업데이트: 2026-10-06
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI는 여전히 우리의 일자리를 빼앗을 것인가?",
-        "enTitle": "Will A.I. Still Take Our Jobs?",
-        "date": "2026-10-05",
-        "originalDate": "2026-10-02",
-        "sourceName": "The New Yorker",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaTZzWUdteVBNeXM5Ui1kemx6LU1SSVdUVXpWQzhKSFh4V3preFp4NkVoN1JSMzhBQXpZV0o5WXJaOGtjOEZiVWZnV2twTXJEQXE2aFMwTVJlZVl5WnpjSHdTY1NXRHB1enZ6TjFWaW1nMkNERjRWU2NsbndXemFIWUFB?oc=5",
+        "koTitle": "HackerRank의 AI 면접관은 취업 면접이 어떻게 될 수 있는지 엿볼 수 있습니다.",
+        "enTitle": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+        "date": "2026-10-06",
+        "originalDate": "2026-10-05",
+        "sourceName": "TechCrunch",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUUEydTd1MnFMN1gyRzNvdnBTYi01R2hBazZLQnVYNkpCTHdaamY5cWkxRG0ydnc1eHlyUTdUTW00Tk5XS1ZMMHo1amlDTDNQQ3lvdDRleDhTWFdFS05OZUdtUkswaENEUjA0eTQxUUdfekEzajVwNlVuX0tpSUlPNFkxZ29YbUNlYk9wVGl1c1A2RW5TNzdKNlZuSEpEcmJ3dzBBZmdTbkIxX3E3cWlmNmtIU2FUc0k?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! AI는 여전히 우리의 일자리를 빼앗을 것인가? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! HackerRank의 AI 면접관은 취업 면접이 어떻게 될 수 있는지 엿볼 수 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "벤 애플렉은 인공지능이 일자리를 없애거나 우리 모두를 죽일 것이라는 예측은 그저 '선전' 이라고 말합니다.",
-        "enTitle": "Ben Affleck says predictions that AI will wipe out jobs—or kill us all—are just 'propaganda'",
-        "date": "2026-10-05",
-        "originalDate": "2026-10-02",
-        "sourceName": "Fortune",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQek0wYXI3VFkyY0l2VUJQZ3pNdWsxd2Q5dk90YVoxdXlPYldzeEozZnRkR0tCeFVGaWh6Zjk0OTVONXlna01UbFA3aTRjQmJwQ2FvaEJ0NFdzTTFQYzBDWW9NX3JGOG9fS2NiNVVWUnZmcThSUnBLXzJmeE1KS05kZlZ5WldZZXRIM1JMQk5NWmJhNW9JaEVXR0F5WVpCYjJzMmk5cDZmMkhfbmxoYTVNMV9hdmZaQ3pubmVSdmIxbGZJWWpIR25VV05uN2dCQ0ZGa2tuSg?oc=5",
+        "koTitle": "Zarb 동창은 일의 미래에 대한 인간적 관점을 공유합니다",
+        "enTitle": "Zarb Alumni Share a Human Perspective on the Future of Work",
+        "date": "2026-10-06",
+        "originalDate": "2026-10-05",
+        "sourceName": "Hofstra University News",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMGxyN2d6X2NLQzBIZ185aUlHVDdMZVZzQ3BDa2VsNkNYUlNHNzJjMXdKeGllM3pXbkRreE5WUFphWkRoY3JnakRycnlIWlVBNWp5N2FoQVY3cTlRT0hFN1BJUjI5ZFFRQTZDQW1XMVoySHl1dExvMWp1VDl1VGlBNzdaSGVlTkQ4RExiUTlHbWVqT19RSEFzREVWT3k?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 벤 애플렉은 인공지능이 일자리를 없애거나 우리 모두를 죽일 것이라는 예측은 그저 '선전' 이라고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! Zarb 동창은 일의 미래에 대한 인간적 관점을 공유합니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "‘인공지능과 일의 미래’ 시리즈 — 대학이 학생들에게 다음 과제를 준비시키는 방법",
-        "enTitle": "The ‘AI and Future of Work’ Series — How the University is preparing students for what is next",
-        "date": "2026-10-05",
-        "originalDate": "2026-10-01",
-        "sourceName": "The Cavalier Daily",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQU9ObVU1ZU8zZ0tBaS0xTUx6WDQwZFBCWnlsVWdYZjFrdDN2UkpHVjA5R1dsQ1ZpZEhta1A4cEZjdlUyQlFiWmQtM2x1WFNvR1BNUkFULXRaNVJxbWo0dWVxQVJyQll4WnhGN0puVkFoeTZRYkN6SkRueVRWQ3JKSDZaWVl2MDZMdUlTTWxRSkFxT1VNakpZS0Ryc2FQZThucjlZdnJxSlNNZWpfS3UweVo0ekVZbVlhMkNUVDZLZW5RTXBFMGpfY1hkQXNnVUVGV2c?oc=5",
+        "koTitle": "AI가 업무를 수행하는 방법을 가르치고 있습니다. 인공 지능이 우리를 대체할까요, 아니면 일하는 방식을 바꿀까요?",
+        "enTitle": "AI is being taught how to do your job. Will artificial intelligence replace us, or just change the way we work?",
+        "date": "2026-10-06",
+        "originalDate": "2026-10-04",
+        "sourceName": "CBS News",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVGR1UW82T0lfbHpsX3RoTEN5cDlWQXc4M2xVOFhnOVBpZloteEFMbmlqWUx5UWJ2cDJHMGxHb3A2TzlOY2RhQlotR3JZekh2Q213SVhhVHpLc3hySDNwRkozclJXUTNEQXRjZ3dISGVYM3Q0UVdwRWI4MmpqTk5qdGhYWmVxWTg1enV1T1U0YllHZUxFYmhVaQ?oc=5",
         "isRepublished": false,
-        "viralRate": "89%",
-        "analysis": "글로벌 AI 트렌드 체크! ‘인공지능과 일의 미래’ 시리즈 — 대학이 학생들에게 다음 과제를 준비시키는 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! AI가 업무를 수행하는 방법을 가르치고 있습니다. 인공 지능이 우리를 대체할까요, 아니면 일하는 방식을 바꿀까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "구글 제미나이 AI요금 개편…월10달러 내도 '프로' 모델 못쓴다",
-        "enTitle": "구글 제미나이 AI요금 개편…월10달러 내도 '프로' 모델 못쓴다",
-        "date": "2026-10-05",
-        "originalDate": "2026-10-04",
-        "sourceName": "연합뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GOG1wb3lCVnprQm94djlIeEpzM0JwZmFFMjhnMDBLbXdvUXdQTWZTd2pPd2JMeGtfUEQtcHBuTC02TENPTkU5WTlSXzBHRG9IQmgybGY2dWx0Y0U2OEJVX9IBYEFVX3lxTE1GOG1wb3lCVnprQm94djlIeEpzM0JwZmFFMjhnMDBLbXdvUXdQTWZTd2pPd2JMeGtfUEQtcHBuTC02TENPTkU5WTlSXzBHRG9IQmgybGY2dWx0Y0U2OEJVXw?oc=5",
+        "koTitle": "KT, ‘AI Festa 2026’서 AX 기술 공개…데이터센터부터 생활 서비스까지",
+        "enTitle": "KT, ‘AI Festa 2026’서 AX 기술 공개…데이터센터부터 생활 서비스까지",
+        "date": "2026-10-06",
+        "originalDate": "2026-10-06",
+        "sourceName": "서울타임즈뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5kSUVEbG5NeWpuVVQ4WjczRkNPTnhzcUp6cnl0N2JZS25DRG81ZWtpc3V2QWFVYUpTOFd6M05KVWV1bXJFRHpMOFRsckxMc3dWRXUwUzdsbGlwU3l2TVpjYUtwYndIR1QzU0dn?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글 제미나이 AI요금 개편…월10달러 내도 '프로' 모델 못쓴다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! KT, ‘AI Festa 2026’서 AX 기술 공개…데이터센터부터 생활 서비스까지 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "AI활용법 익힌 제주 청년, 지역 스타트업 '취업 연계' 구조 만든다",
-        "enTitle": "AI활용법 익힌 제주 청년, 지역 스타트업 '취업 연계' 구조 만든다",
-        "date": "2026-10-05",
+        "koTitle": "클로드 이어 챗GPT도 텍스트 워터마크 적용…EU지역 우선 적용",
+        "enTitle": "클로드 이어 챗GPT도 텍스트 워터마크 적용…EU지역 우선 적용",
+        "date": "2026-10-06",
         "originalDate": "2026-10-05",
-        "sourceName": "헤드라인제주",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBnNjBlSXJTeHo0VXBKZktPQ2JBOXVKc01iME9iT3p1bVVOaHdGN3paS1RYc204M2dMTFpPd1hlUHpZclhGMWhqSkN0YUZRWlhyYTVnR1hHTjdadS0yRWdLdHpnbEQ1N04tZkFuTFE5ZWw5QQ?oc=5",
+        "sourceName": "연합뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55b1FiLUEySzI3OWEzQjVFWjdRUUxsNTJxQ3RhNV81dU5DOEVGVW95Yld1R1VhTkwzSWROSGpKaDFtX2ZRT2VkaU85SkF6ODVjY3FXYzFZWDgwQXlQNlpEYdIBYEFVX3lxTE55b1FiLUEySzI3OWEzQjVFWjdRUUxsNTJxQ3RhNV81dU5DOEVGVW95Yld1R1VhTkwzSWROSGpKaDFtX2ZRT2VkaU85SkF6ODVjY3FXYzFZWDgwQXlQNlpEYQ?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! AI활용법 익힌 제주 청년, 지역 스타트업 '취업 연계' 구조 만든다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 클로드 이어 챗GPT도 텍스트 워터마크 적용…EU지역 우선 적용 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "LG유플러스, 해외 AI 서비스 '유독'으로 순차 출시",
-        "enTitle": "LG유플러스, 해외 AI 서비스 '유독'으로 순차 출시",
-        "date": "2026-10-05",
+        "koTitle": "클로드, 3개월 간 논문 36편 작성…새로운 'AI 과학 연구법' 조명",
+        "enTitle": "클로드, 3개월 간 논문 36편 작성…새로운 'AI 과학 연구법' 조명",
+        "date": "2026-10-06",
         "originalDate": "2026-10-05",
-        "sourceName": "싱글리스트",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5zeTVpMzk4bnRpM3pzYlZYYktsOGFOZWluVWxCQWRoQVYzQnc1a3MwdDlnaHkwQUhxVFVRUHBhREEzdVdtZEZWWkhfaGM1VENRX1IxdlY3elVXcnZjWkxya2l3V0lEdw?oc=5",
+        "sourceName": "aitimes.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14azJtb05ZUVNBc1ZiQmtHc0Jjai1haS1jaHJjM05nNndoUWhiX1lNMzVsYTg3SWcyVTJmeWl3TzZOVWJLTmQzLUd4b2laWFAtRVpLNW52VlBrRF9QUFdfaFpabmdpdjJ3WFE?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! LG유플러스, 해외 AI 서비스 '유독'으로 순차 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 클로드, 3개월 간 논문 36편 작성…새로운 'AI 과학 연구법' 조명 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
