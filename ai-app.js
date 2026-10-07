@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-06
+ * 최신 업데이트: 2026-10-07
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "HackerRank의 AI 면접관은 취업 면접이 어떻게 될 수 있는지 엿볼 수 있습니다.",
-        "enTitle": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
-        "date": "2026-10-06",
-        "originalDate": "2026-10-05",
-        "sourceName": "TechCrunch",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUUEydTd1MnFMN1gyRzNvdnBTYi01R2hBazZLQnVYNkpCTHdaamY5cWkxRG0ydnc1eHlyUTdUTW00Tk5XS1ZMMHo1amlDTDNQQ3lvdDRleDhTWFdFS05OZUdtUkswaENEUjA0eTQxUUdfekEzajVwNlVuX0tpSUlPNFkxZ29YbUNlYk9wVGl1c1A2RW5TNzdKNlZuSEpEcmJ3dzBBZmdTbkIxX3E3cWlmNmtIU2FUc0k?oc=5",
+        "koTitle": "Future of Work 기조 연설 | # 1 미래학자 스콧 스타인버그",
+        "enTitle": "Future of Work Keynote Speaker | #1 Futurist Scott Steinberg",
+        "date": "2026-10-07",
+        "originalDate": "2026-10-06",
+        "sourceName": "https://www.futuristsspeakers.com/",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRUVxcWRwdm1RSmhhbllGR3JPQW5xY25zOE0yUjI3WlJtdHFwdXZZbWlFZE80b3NJZmRGQ2Jja1N5VE9MS1A0NzBQb180YUtmLWw1aGM0ZzlTTWs4dHozUnQ5dGJ3NngxQVZkdTZTU0xadGhJVlRzSHc4UjdSbmw0RlJ3VHRPOHd0bklNUA?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! HackerRank의 AI 면접관은 취업 면접이 어떻게 될 수 있는지 엿볼 수 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! Future of Work 기조 연설 | # 1 미래학자 스콧 스타인버그 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "Zarb 동창은 일의 미래에 대한 인간적 관점을 공유합니다",
-        "enTitle": "Zarb Alumni Share a Human Perspective on the Future of Work",
-        "date": "2026-10-06",
-        "originalDate": "2026-10-05",
-        "sourceName": "Hofstra University News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMGxyN2d6X2NLQzBIZ185aUlHVDdMZVZzQ3BDa2VsNkNYUlNHNzJjMXdKeGllM3pXbkRreE5WUFphWkRoY3JnakRycnlIWlVBNWp5N2FoQVY3cTlRT0hFN1BJUjI5ZFFRQTZDQW1XMVoySHl1dExvMWp1VDl1VGlBNzdaSGVlTkQ4RExiUTlHbWVqT19RSEFzREVWT3k?oc=5",
+        "koTitle": "새로운 업무 세계는 커뮤니케이터에게 무엇을 요구합니까?",
+        "enTitle": "What does the new world of work demand from communicators?",
+        "date": "2026-10-07",
+        "originalDate": "2026-10-06",
+        "sourceName": "Exchange4Media",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZzczTTRRZEZETzMzOHk1TUIzdHR2ZGlmcFFCSHdNZFBzeGlRMTBRZkFueHJsZVFvNktVd01PSmZsc1ZnMG9lZktnTEc2ZzdORFVhNW1PQ1V3NnQ5RTM5eGhTOHh2N3lpcXpNTk12NWtibnZoYTZxVjd4NzJsRE9CWk1rWnBpN0N2ZE94MU9fS1h4S3VTSjN0VVphTEtUdHY5YWhHWnBDN0pTXzl4RGVBa0ptbUZ2NFNWaFE1WWwtcW5xSDlXWUt3TFhTeHdBZWExbmc?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! Zarb 동창은 일의 미래에 대한 인간적 관점을 공유합니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 새로운 업무 세계는 커뮤니케이터에게 무엇을 요구합니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI가 업무를 수행하는 방법을 가르치고 있습니다. 인공 지능이 우리를 대체할까요, 아니면 일하는 방식을 바꿀까요?",
-        "enTitle": "AI is being taught how to do your job. Will artificial intelligence replace us, or just change the way we work?",
-        "date": "2026-10-06",
-        "originalDate": "2026-10-04",
-        "sourceName": "CBS News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVGR1UW82T0lfbHpsX3RoTEN5cDlWQXc4M2xVOFhnOVBpZloteEFMbmlqWUx5UWJ2cDJHMGxHb3A2TzlOY2RhQlotR3JZekh2Q213SVhhVHpLc3hySDNwRkozclJXUTNEQXRjZ3dISGVYM3Q0UVdwRWI4MmpqTk5qdGhYWmVxWTg1enV1T1U0YllHZUxFYmhVaQ?oc=5",
+        "koTitle": "HackerRank의 AI 면접관은 취업 면접이 어떻게 될 수 있는지 엿볼 수 있습니다.",
+        "enTitle": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+        "date": "2026-10-07",
+        "originalDate": "2026-10-05",
+        "sourceName": "TechCrunch",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUUEydTd1MnFMN1gyRzNvdnBTYi01R2hBazZLQnVYNkpCTHdaamY5cWkxRG0ydnc1eHlyUTdUTW00Tk5XS1ZMMHo1amlDTDNQQ3lvdDRleDhTWFdFS05OZUdtUkswaENEUjA0eTQxUUdfekEzajVwNlVuX0tpSUlPNFkxZ29YbUNlYk9wVGl1c1A2RW5TNzdKNlZuSEpEcmJ3dzBBZmdTbkIxX3E3cWlmNmtIU2FUc0k?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 업무를 수행하는 방법을 가르치고 있습니다. 인공 지능이 우리를 대체할까요, 아니면 일하는 방식을 바꿀까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! HackerRank의 AI 면접관은 취업 면접이 어떻게 될 수 있는지 엿볼 수 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "KT, ‘AI Festa 2026’서 AX 기술 공개…데이터센터부터 생활 서비스까지",
-        "enTitle": "KT, ‘AI Festa 2026’서 AX 기술 공개…데이터센터부터 생활 서비스까지",
-        "date": "2026-10-06",
-        "originalDate": "2026-10-06",
-        "sourceName": "서울타임즈뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5kSUVEbG5NeWpuVVQ4WjczRkNPTnhzcUp6cnl0N2JZS25DRG81ZWtpc3V2QWFVYUpTOFd6M05KVWV1bXJFRHpMOFRsckxMc3dWRXUwUzdsbGlwU3l2TVpjYUtwYndIR1QzU0dn?oc=5",
+        "koTitle": "KT '모두의 AI', 국산 AI 연합으로 생활 서비스 연결…12월 정식 출시",
+        "enTitle": "KT '모두의 AI', 국산 AI 연합으로 생활 서비스 연결…12월 정식 출시",
+        "date": "2026-10-07",
+        "originalDate": "2026-10-07",
+        "sourceName": "뉴스핌",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAyUU5UcnJGRnFiVkg2b2xlbGJUcjZGMW5kNHVfVm5adURKNFdkblI4YnEtTmIzSnJDc2hRY3VsLU1kamRnYURnMF9iOTA3SVBhSWFDMEpKaElMN2p0?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! KT, ‘AI Festa 2026’서 AX 기술 공개…데이터센터부터 생활 서비스까지 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! KT '모두의 AI', 국산 AI 연합으로 생활 서비스 연결…12월 정식 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "클로드 이어 챗GPT도 텍스트 워터마크 적용…EU지역 우선 적용",
-        "enTitle": "클로드 이어 챗GPT도 텍스트 워터마크 적용…EU지역 우선 적용",
-        "date": "2026-10-06",
-        "originalDate": "2026-10-05",
-        "sourceName": "연합뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55b1FiLUEySzI3OWEzQjVFWjdRUUxsNTJxQ3RhNV81dU5DOEVGVW95Yld1R1VhTkwzSWROSGpKaDFtX2ZRT2VkaU85SkF6ODVjY3FXYzFZWDgwQXlQNlpEYdIBYEFVX3lxTE55b1FiLUEySzI3OWEzQjVFWjdRUUxsNTJxQ3RhNV81dU5DOEVGVW95Yld1R1VhTkwzSWROSGpKaDFtX2ZRT2VkaU85SkF6ODVjY3FXYzFZWDgwQXlQNlpEYQ?oc=5",
+        "koTitle": "BC카드, 카드사 최초 ChatGPT에 '퍼스널 쇼퍼' 띄웠다",
+        "enTitle": "BC카드, 카드사 최초 ChatGPT에 '퍼스널 쇼퍼' 띄웠다",
+        "date": "2026-10-07",
+        "originalDate": "2026-10-07",
+        "sourceName": "매일일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBXN1ZiWEljNHpVMUlNSHRmSW54MlNBdkRwejlxQ0hPckJEUWZpdFBmOWhILWZ1SHYzcXJ3dTFUTHgyc3djSUhQb3ZfRVJrSjJ6WmhJUXhnMEJvcWhGSTlCamctRlM?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 클로드 이어 챗GPT도 텍스트 워터마크 적용…EU지역 우선 적용 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! BC카드, 카드사 최초 ChatGPT에 '퍼스널 쇼퍼' 띄웠다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "클로드, 3개월 간 논문 36편 작성…새로운 'AI 과학 연구법' 조명",
-        "enTitle": "클로드, 3개월 간 논문 36편 작성…새로운 'AI 과학 연구법' 조명",
-        "date": "2026-10-06",
-        "originalDate": "2026-10-05",
-        "sourceName": "aitimes.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14azJtb05ZUVNBc1ZiQmtHc0Jjai1haS1jaHJjM05nNndoUWhiX1lNMzVsYTg3SWcyVTJmeWl3TzZOVWJLTmQzLUd4b2laWFAtRVpLNW52VlBrRF9QUFdfaFpabmdpdjJ3WFE?oc=5",
+        "koTitle": "롯데건설, 스마트홈 앱에 AI 음성인식 제어 서비스 출시",
+        "enTitle": "롯데건설, 스마트홈 앱에 AI 음성인식 제어 서비스 출시",
+        "date": "2026-10-07",
+        "originalDate": "2026-10-07",
+        "sourceName": "뉴스퀘스트",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE83cTNReUdOVjY5T2I2UllzYmhRVnZSSXRMMUp5UkpKUndoTGx3X0hLM21BVl9wRHVRaFdKbGNUZ3FGa1d4Y1dQTWpucFo0eE84MTZ6aDJGc1FtMEFMMm5zNVY1RUlBdVp2ZF9rZnhKQQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 클로드, 3개월 간 논문 36편 작성…새로운 'AI 과학 연구법' 조명 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 롯데건설, 스마트홈 앱에 AI 음성인식 제어 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
