@@ -1,41 +1,41 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-07
+ * 최신 업데이트: 2026-10-08
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Future of Work 기조 연설 | # 1 미래학자 스콧 스타인버그",
-        "enTitle": "Future of Work Keynote Speaker | #1 Futurist Scott Steinberg",
-        "date": "2026-10-07",
+        "koTitle": "실리콘 밸리는 인공지능이 일자리를 죽일 것이라고 생각합니다. 경제학자들은 확신하지 못합니다.",
+        "enTitle": "Silicon Valley thinks AI will kill jobs. Economists are not convinced",
+        "date": "2026-10-08",
         "originalDate": "2026-10-06",
-        "sourceName": "https://www.futuristsspeakers.com/",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRUVxcWRwdm1RSmhhbllGR3JPQW5xY25zOE0yUjI3WlJtdHFwdXZZbWlFZE80b3NJZmRGQ2Jja1N5VE9MS1A0NzBQb180YUtmLWw1aGM0ZzlTTWs4dHozUnQ5dGJ3NngxQVZkdTZTU0xadGhJVlRzSHc4UjdSbmw0RlJ3VHRPOHd0bklNUA?oc=5",
+        "sourceName": "Financial Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUHRrV2xZcjAyZmFfc3lnOHBudFBkb01ZRm8zbWw3NV9xY0N5ZlJaTUhDbV8zOGtaWDRHeU9YaDg1dnlsVlF1Rk1DRTJTZWJzU1JlbDhmOGdSRnprQ2Vtc2VaRTlnMl95VmJXcllSZkRtUlA3ZDZVY09PNjMtN2x4Tmg5RGQ?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! Future of Work 기조 연설 | # 1 미래학자 스콧 스타인버그 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! 실리콘 밸리는 인공지능이 일자리를 죽일 것이라고 생각합니다. 경제학자들은 확신하지 못합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "새로운 업무 세계는 커뮤니케이터에게 무엇을 요구합니까?",
-        "enTitle": "What does the new world of work demand from communicators?",
-        "date": "2026-10-07",
+        "koTitle": "Future of Work 기조 연설 | # 1 미래학자 스콧 스타인버그",
+        "enTitle": "Future of Work Keynote Speaker | #1 Futurist Scott Steinberg",
+        "date": "2026-10-08",
         "originalDate": "2026-10-06",
-        "sourceName": "Exchange4Media",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZzczTTRRZEZETzMzOHk1TUIzdHR2ZGlmcFFCSHdNZFBzeGlRMTBRZkFueHJsZVFvNktVd01PSmZsc1ZnMG9lZktnTEc2ZzdORFVhNW1PQ1V3NnQ5RTM5eGhTOHh2N3lpcXpNTk12NWtibnZoYTZxVjd4NzJsRE9CWk1rWnBpN0N2ZE94MU9fS1h4S3VTSjN0VVphTEtUdHY5YWhHWnBDN0pTXzl4RGVBa0ptbUZ2NFNWaFE1WWwtcW5xSDlXWUt3TFhTeHdBZWExbmc?oc=5",
+        "sourceName": "https://www.futuristsspeakers.com/",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRUVxcWRwdm1RSmhhbllGR3JPQW5xY25zOE0yUjI3WlJtdHFwdXZZbWlFZE80b3NJZmRGQ2Jja1N5VE9MS1A0NzBQb180YUtmLWw1aGM0ZzlTTWs4dHozUnQ5dGJ3NngxQVZkdTZTU0xadGhJVlRzSHc4UjdSbmw0RlJ3VHRPOHd0bklNUA?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 새로운 업무 세계는 커뮤니케이터에게 무엇을 요구합니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "88%",
+        "analysis": "글로벌 AI 트렌드 체크! Future of Work 기조 연설 | # 1 미래학자 스콧 스타인버그 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
         "koTitle": "HackerRank의 AI 면접관은 취업 면접이 어떻게 될 수 있는지 엿볼 수 있습니다.",
         "enTitle": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "originalDate": "2026-10-05",
         "sourceName": "TechCrunch",
         "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUUEydTd1MnFMN1gyRzNvdnBTYi01R2hBazZLQnVYNkpCTHdaamY5cWkxRG0ydnc1eHlyUTdUTW00Tk5XS1ZMMHo1amlDTDNQQ3lvdDRleDhTWFdFS05OZUdtUkswaENEUjA0eTQxUUdfekEzajVwNlVuX0tpSUlPNFkxZ29YbUNlYk9wVGl1c1A2RW5TNzdKNlZuSEpEcmJ3dzBBZmdTbkIxX3E3cWlmNmtIU2FUc0k?oc=5",
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "KT '모두의 AI', 국산 AI 연합으로 생활 서비스 연결…12월 정식 출시",
-        "enTitle": "KT '모두의 AI', 국산 AI 연합으로 생활 서비스 연결…12월 정식 출시",
-        "date": "2026-10-07",
+        "koTitle": "[10월7일] “비싸다던 클로드, 실제로는 챗GPT보다 5배 더 쓸 수 있었다”",
+        "enTitle": "[10월7일] “비싸다던 클로드, 실제로는 챗GPT보다 5배 더 쓸 수 있었다”",
+        "date": "2026-10-08",
         "originalDate": "2026-10-07",
-        "sourceName": "뉴스핌",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAyUU5UcnJGRnFiVkg2b2xlbGJUcjZGMW5kNHVfVm5adURKNFdkblI4YnEtTmIzSnJDc2hRY3VsLU1kamRnYURnMF9iOTA3SVBhSWFDMEpKaElMN2p0?oc=5",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95UzlQUnhsNXBWZ3ZldktxV0V6YTg5Q1lyT05RWG9mRTJsVEZWTWRjNm9GSkNwaGdwRS12dHluWEE4b003Yms1bjBSaVdUNXF5and2N2RodFNWTm1kajRBZE90YWVIXzMzb3c?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! KT '모두의 AI', 국산 AI 연합으로 생활 서비스 연결…12월 정식 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [10월7일] “비싸다던 클로드, 실제로는 챗GPT보다 5배 더 쓸 수 있었다” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "BC카드, 카드사 최초 ChatGPT에 '퍼스널 쇼퍼' 띄웠다",
-        "enTitle": "BC카드, 카드사 최초 ChatGPT에 '퍼스널 쇼퍼' 띄웠다",
-        "date": "2026-10-07",
-        "originalDate": "2026-10-07",
-        "sourceName": "매일일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBXN1ZiWEljNHpVMUlNSHRmSW54MlNBdkRwejlxQ0hPckJEUWZpdFBmOWhILWZ1SHYzcXJ3dTFUTHgyc3djSUhQb3ZfRVJrSjJ6WmhJUXhnMEJvcWhGSTlCamctRlM?oc=5",
+        "koTitle": "메타, AI 비서 ‘뮤즈’ 아이패드 전용 앱 출시",
+        "enTitle": "메타, AI 비서 ‘뮤즈’ 아이패드 전용 앱 출시",
+        "date": "2026-10-08",
+        "originalDate": "2026-10-08",
+        "sourceName": "IT조선",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1mOG41U2g2X0JQYUxaXzhMT1haRlR6emNFOU9KQUNSUGpOVDhoQVBTQjVybnp6bDk5TDZacFc5enhOUWlobE52bERad0pmam5hbHI3dUI5R0RxUmVBTWFJOHRGbkZzNkd3NEk0N0pMSDPSAXRBVV95cUxQbjVKWnJKMzhCVk1IRUoyaUNkRUFzNnd4dVFNVEd2ZlR2a1lIU2xtSnUwbl9FdXFEY3F1OXVYTFBnX2p3RTZmZVVsdHlyOXNKN1I5ZExwaFFhY1c1NGFxNThtQnN3NF9lcmdCV2Q2WW5qVUlBNA?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! BC카드, 카드사 최초 ChatGPT에 '퍼스널 쇼퍼' 띄웠다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 메타, AI 비서 ‘뮤즈’ 아이패드 전용 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "롯데건설, 스마트홈 앱에 AI 음성인식 제어 서비스 출시",
-        "enTitle": "롯데건설, 스마트홈 앱에 AI 음성인식 제어 서비스 출시",
-        "date": "2026-10-07",
-        "originalDate": "2026-10-07",
-        "sourceName": "뉴스퀘스트",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE83cTNReUdOVjY5T2I2UllzYmhRVnZSSXRMMUp5UkpKUndoTGx3X0hLM21BVl9wRHVRaFdKbGNUZ3FGa1d4Y1dQTWpucFo0eE84MTZ6aDJGc1FtMEFMMm5zNVY1RUlBdVp2ZF9rZnhKQQ?oc=5",
+        "koTitle": "앤트로픽, 저비용 AI 모델 ‘클로드 하이쿠 5.5’ 출시",
+        "enTitle": "앤트로픽, 저비용 AI 모델 ‘클로드 하이쿠 5.5’ 출시",
+        "date": "2026-10-08",
+        "originalDate": "2026-10-08",
+        "sourceName": "테크월드",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfRnZiUUNSaTZLc3RPXzNwdWNEOTdhYmtieUF3c1YtdV9tR2l0dUEzZC1idWtKbmt3dkpLSVhYUFZpdUszOTdxZVVweDk3R2N4YkxDODg4U1lhaUVBTWZXWmZSNU9kLTZ4?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 롯데건설, 스마트홈 앱에 AI 음성인식 제어 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 저비용 AI 모델 ‘클로드 하이쿠 5.5’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
