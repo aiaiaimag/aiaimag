@@ -1,47 +1,33 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-10
+ * 최신 업데이트: 2026-10-11
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "'AI는 중간 관리를 지울 것입니다': 골드만 삭스의 직업의 미래에 대한 큰 경고",
-        "enTitle": "'AI Will Erase Middle Management': Goldman Sachs' Big Warning On Future Of Jobs",
-        "date": "2026-10-10",
-        "originalDate": "2026-10-08",
-        "sourceName": "NDTV",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYktEdFFvbTlRMUs4MEFNVkV2dWpMMWxQRC1fQlpHUWJtaWN6cDZYNTlzZXlxUlMxcEFhakFnUEQ3ZWJMY1Z6eUJwY1Y3S0FRazViS3NkSmZWaVNoV0lDYXg3OXd4Wm9vdnptZDJHblNuRUEzNzUyRDBTaVlLUjRteVZvQkVsNlo2WHpSd3kxOVhEbWFSUElZRnJKcHpNRUtJcnR6QWVsNHJjLVFGNTJSbVNCNDZzUXV1Y0tzTVFjRdIBxwFBVV95cUxONUR3eWp5akdQaHZkTWxPT08tbnI3WHFfZ0pjUnpjc1FERGFqeWdQN3NraFAyUUJ6LTNLb3BiNThGeXFCQ3BYYnVnYmVRWnVCbWM2Y2JIdlBiMURsd0NCUDFoR3d6T0NuVEVVYjZhaVpjSU44a3hKcTBqOF9iWXRUMGJwTjBGNExoWVQ0SVZYWWNYYnJ4SDlwaFRWc0F3N09MdmNqYW9URWNIREpYcHNqRkxidXBxa0NxbVJNMTRfSUxsS21SX2xz?oc=5",
+        "isTopPick": true,
+        "koTitle": "오늘의 AI 뉴스를 수집하는 중입니다",
+        "enTitle": "Collecting Today's AI News...",
+        "date": "2026-10-11",
+        "originalDate": "2026-10-11",
+        "sourceName": "AIMAG",
+        "sourceUrl": "#",
         "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "글로벌 AI 트렌드 체크! 'AI는 중간 관리를 지울 것입니다': 골드만 삭스의 직업의 미래에 대한 큰 경고 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
-        "isTopPick": true
-    },
-    {
-        "rank": 2,
-        "koTitle": "인공지능과 일의 미래",
-        "enTitle": "AI and the Future of Work",
-        "date": "2026-10-10",
-        "originalDate": "2026-10-07",
-        "sourceName": "USBE and Information Technology",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfTXh5X2VQaUdrN3JfaEN3cklLZVZublA5cGVBZ2pYb0V6QkRES3Jta3VhQk83b0RzbHVRdTk3S0VuWTBHZFlzXzhOVG4tdEIyQjNRRTVtRjVwV0NiWU5sbUlsTXBYaDdWN3FtZ2Y2YS3SAXtBVV95cUxQSG51VURwSUF5TW9HZlFiOEgtWEZoSGxkUV9PRkQ2N1dSTzNZYTcxaGw3MjR6cDBITUY0VHFIMjZKMzVjNWJsNlBPSUVqSkVnNVR4WWJrM3NZb0F1UDdOdi02eFdkNjRoc1pnY2ZKdUF4dm1xN0tnZnlKZzg?oc=5",
-        "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능과 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "AI가 업무를 수행하는 방법을 가르치고 있습니다. 인공 지능이 우리를 대체할까요, 아니면 일하는 방식을 바꿀까요?",
-        "enTitle": "AI is being taught how to do your job. Will artificial intelligence replace us, or just change the way we work?",
-        "date": "2026-10-10",
-        "originalDate": "2026-10-04",
-        "sourceName": "CBS News",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVGR1UW82T0lfbHpsX3RoTEN5cDlWQXc4M2xVOFhnOVBpZloteEFMbmlqWUx5UWJ2cDJHMGxHb3A2TzlOY2RhQlotR3JZekh2Q213SVhhVHpLc3hySDNwRkozclJXUTNEQXRjZ3dISGVYM3Q0UVdwRWI4MmpqTk5qdGhYWmVxWTg1enV1T1U0YllHZUxFYmhVaQ?oc=5",
-        "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 업무를 수행하는 방법을 가르치고 있습니다. 인공 지능이 우리를 대체할까요, 아니면 일하는 방식을 바꿀까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "99%",
+        "hookTitles": [
+            {
+                "top": "AI 뉴스 로딩 중",
+                "bottom": "잠시 후 업데이트됩니다"
+            },
+            {
+                "top": "코다리 부장 리서치 중",
+                "bottom": "최신 AI 소식을 큐레이션합니다"
+            }
+        ],
+        "analysis": "자동 수집 중입니다. 잠시 후 최신 뉴스가 표시됩니다."
     }
 ];
 
@@ -50,43 +36,27 @@ const aiNewsData = [
 // 단순 뉴스가 아닌, 2030의 삶을 바꿀 '기가 막힌 주제' 기반 큐레이션
 const generalTrendingData = [
     {
+        "category": "AI Trend",
         "rank": 1,
-        "koTitle": "[10월7일] “비싸다던 클로드, 실제로는 챗GPT보다 5배 더 쓸 수 있었다”",
-        "enTitle": "[10월7일] “비싸다던 클로드, 실제로는 챗GPT보다 5배 더 쓸 수 있었다”",
-        "date": "2026-10-10",
-        "originalDate": "2026-10-09",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95UzlQUnhsNXBWZ3ZldktxV0V6YTg5Q1lyT05RWG9mRTJsVEZWTWRjNm9GSkNwaGdwRS12dHluWEE4b003Yms1bjBSaVdUNXF5and2N2RodFNWTm1kajRBZE90YWVIXzMzb3c?oc=5",
+        "koTitle": "2026년 AI 트렌드를 분석 중입니다",
+        "enTitle": "Analyzing 2026 AI Trends...",
+        "date": "2026-10-11",
+        "originalDate": "2026-10-11",
+        "sourceName": "AIMAG",
+        "sourceUrl": "#",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [10월7일] “비싸다던 클로드, 실제로는 챗GPT보다 5배 더 쓸 수 있었다” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Hot Issue"
-    },
-    {
-        "rank": 2,
-        "koTitle": "미국·유럽에서도 AI가 ‘취업 사다리’",
-        "enTitle": "미국·유럽에서도 AI가 ‘취업 사다리’",
-        "date": "2026-10-10",
-        "originalDate": "2026-10-09",
-        "sourceName": "조선일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMHlnZjhHZXkwZ256N1RXMU9XaDZXQmw0aGZDY1ZEWVhFRENFVmx6UUZsTTNSTkxVS21OQkFnVUF2R3R6aHhxdVVPN3hGNWdJYzBEUXNuWl9NNjAtb1JUcnJYaU5TeTRyaVZjNkZkUWlueGhiUU1jNDlycmlhSG0xbm9oVGlOdWJqeHhFVGRFaw?oc=5",
-        "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 미국·유럽에서도 AI가 ‘취업 사다리’ 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Life & Money"
-    },
-    {
-        "rank": 3,
-        "koTitle": "앤트로픽, 'AI모욕' 이용자 차단…\"클로드 지속 학대시 대화 종료\"",
-        "enTitle": "앤트로픽, 'AI모욕' 이용자 차단…\"클로드 지속 학대시 대화 종료\"",
-        "date": "2026-10-10",
-        "originalDate": "2026-10-09",
-        "sourceName": "연합뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RcUtfVnhiLXBnLUg0Y0RhWUJHM3h4dzk1Tk9UMmJqWWR5OG1hakEyUGViWkgxUDdSZmIyekNPY1dGUVRvWlJlQW5nZjlFTTRENnBtUFpKZXU0SmR2N2R2StIBYEFVX3lxTE9RcUtfVnhiLXBnLUg0Y0RhWUJHM3h4dzk1Tk9UMmJqWWR5OG1hakEyUGViWkgxUDdSZmIyekNPY1dGUVRvWlJlQW5nZjlFTTRENnBtUFpKZXU0SmR2N2R2Sg?oc=5",
-        "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 'AI모욕' 이용자 차단…\"클로드 지속 학대시 대화 종료\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Tech & Service"
+        "viralRate": "95%",
+        "hookTitles": [
+            {
+                "top": "트렌드 분석 중",
+                "bottom": "AI 흐름을 읽어드립니다"
+            },
+            {
+                "top": "2030 맞춤 큐레이션",
+                "bottom": "곧 업데이트됩니다"
+            }
+        ],
+        "analysis": "자동 수집 중입니다."
     }
 ];
 
