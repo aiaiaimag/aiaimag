@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-12
+ * 최신 업데이트: 2026-10-13
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "인공지능은 코딩을 자동화하고 있습니다. 그렇다면 소프트웨어 개발자 채용 공고가 급증하는 이유는 무엇일까요?",
-        "enTitle": "AI is automating coding. So why are software developer job postings on the rise?",
-        "date": "2026-10-12",
-        "originalDate": "2026-10-11",
-        "sourceName": "CNBC",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80a2hhYm5Pd1BrUWdvV1lNQ0pvUGVhSDRicGVQWG1IU3J1MzlBN012VDA4QjlITVdwcUFXcUl5anVacHpXZzgxaDI2a19BaHJvbnVLaU1EdXNGX3VwSWc2RDd2amhCdm9VblR3cTVodTbSAXZBVV95cUxPc1pqTVJmenh6aFNEUEdaMU0wMTN3eWRLNTBrR29LWHhQdzUyWXk3OEpvX1dEM2NzMXJSZWd4QzNDOVRhRElEaWg5YkN5ZjJ4cHYwd1NyVW5SS3owYUFJMDNvX01PbjNuVDJwQ3NDZlk0SnBITTVR?oc=5",
+        "koTitle": "2027년 일자리를 바꿀 수 있는 10가지 미래 업무 트렌드",
+        "enTitle": "10 Future Of Work Trends That Could Change Your Job In 2027",
+        "date": "2026-10-13",
+        "originalDate": "2026-10-12",
+        "sourceName": "Forbes",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONkhEaTBoTy1BbWFna2xTS2J4SkdvVE5KQ2dTdVA3UEJuN2FubDUycTlEUFVnTWRNaEZVR1FpSzF1VEttcWN5QXEzbW9vWlo5cWZuUnp2eXdJbklpWFpKMGlDZDFtaWZ0YnJNWU1hQjlVVHRfRWlqMFpWdXp4MnBpb2htXzVocmN3VC1NcFRDODVGZlNQYzlBUmRwSXJESnJ5dVdaTjlDWnNzVkRQZm15VDVn?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능은 코딩을 자동화하고 있습니다. 그렇다면 소프트웨어 개발자 채용 공고가 급증하는 이유는 무엇일까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! 2027년 일자리를 바꿀 수 있는 10가지 미래 업무 트렌드 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "University of Phoenix College of Doctoral Studies에서 발표한 인공지능, 기관 신뢰 및 작업의 미래를 조사하는 새로운 Phoenix Scholar 이슈",
-        "enTitle": "New Phoenix Scholar issue examining AI, institutional trust and the future of work published by University of Phoenix College of Doctoral Studies",
-        "date": "2026-10-12",
-        "originalDate": "2026-10-10",
-        "sourceName": "PR Newswire",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQamk3eDZlYWNmUXU0MlJBZXhlXzFQNFJ1ekVmVmNzNGs0V2c1TnJTUUZFOEg5OFhLSFRfMHZxcDBYUEl0TUhveU5RTGVqMV9XRlo5dVh3QWk3MHhUd3lhNjV4SlZlSFhmTXMwYkFJWHRSSFZQWEU0VHZLR1VtVy1SM2xPWnpWZW16a2ZsTnFWU3h2dlAyWkhVWHRzY25pSnV5UFhFaUhTV3UtMVNidDg5cFBMeUw5T19LVE1GSF9uc1lSOVNaVkFKY1F6dFJzOHgtQXE1Z0NueXROdzhXUHZHTk1nVE9OWm8tRjZlUDdqUnhJNTBLUDFTRm0xbTY2amhCa1Nnd3VOaGJackNDLThjOWZFSHpTc0d4UDU2R2dyM2g1bHpPVFQ0?oc=5",
+        "koTitle": "HubSpot, 660개 직무 삭감 계획, 직접 AI 교체 거부",
+        "enTitle": "HubSpot Plans 660 Job Cuts, Denies Direct AI Replacement",
+        "date": "2026-10-13",
+        "originalDate": "2026-10-12",
+        "sourceName": "Quasa.io",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeGNoaGxCNkp3OXp4ZHBwY2dEYWxJaWpGYi1oOEVseUYtUVlvam9iR0xPaWk3dkJXcmdRWlVlYzlrZUdvc2NmUEJQRzRQTVZ1dnV6VWltWEk5UlFTWWJJb3VmS0ZSVnNTMG1oUWFHa3FWdHJRM3hlQTZ6RFAzWWhvQ3FXcV81ZzJ4OWs4ZWxGQkw0UQ?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! University of Phoenix College of Doctoral Studies에서 발표한 인공지능, 기관 신뢰 및 작업의 미래를 조사하는 새로운 Phoenix Scholar 이슈 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! HubSpot, 660개 직무 삭감 계획, 직접 AI 교체 거부 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "2026년 AI 일자리: 인공지능이 직장을 변화시키면서 커리어 성장",
-        "enTitle": "AI Jobs in 2026: Careers Growing as Artificial Intelligence Changes the Workplace",
-        "date": "2026-10-12",
+        "koTitle": "인공지능은 코딩을 자동화하고 있습니다. 그렇다면 소프트웨어 개발자 채용 공고가 급증하는 이유는 무엇일까요?",
+        "enTitle": "AI is automating coding. So why are software developer job postings on the rise?",
+        "date": "2026-10-13",
         "originalDate": "2026-10-11",
-        "sourceName": "Aktualita.co",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdDh4ZVNqVGtScU5ZMV9uZy15MG9FUFBVMHMxZnlBX3EtOFAtSzRhZ0dIRXFGYllnTVRtWVg3QnR6alo2WWxGSGxGWTE1QnhGYWhEdzlXRUd1d0hsU09mVEUtWjlRaDN6R3JlampJTzMwcE1ocm10SUs2SEpIT0tIY0ZhcTV5eGlDYUt2dENnd21LWjJjRTFXek14eTJIRkVfNTQyQnByTTZUc1ZSV3FOZ0NMTQ?oc=5",
+        "sourceName": "CNBC",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80a2hhYm5Pd1BrUWdvV1lNQ0pvUGVhSDRicGVQWG1IU3J1MzlBN012VDA4QjlITVdwcUFXcUl5anVacHpXZzgxaDI2a19BaHJvbnVLaU1EdXNGX3VwSWc2RDd2amhCdm9VblR3cTVodTbSAXZBVV95cUxPc1pqTVJmenh6aFNEUEdaMU0wMTN3eWRLNTBrR29LWHhQdzUyWXk3OEpvX1dEM2NzMXJSZWd4QzNDOVRhRElEaWg5YkN5ZjJ4cHYwd1NyVW5SS3owYUFJMDNvX01PbjNuVDJwQ3NDZlk0SnBITTVR?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 2026년 AI 일자리: 인공지능이 직장을 변화시키면서 커리어 성장 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능은 코딩을 자동화하고 있습니다. 그렇다면 소프트웨어 개발자 채용 공고가 급증하는 이유는 무엇일까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "오피스·슬라이드 품는 챗GPT·클로드…파트너 영역까지 삼킨다 [AI 생존경쟁①]",
-        "enTitle": "오피스·슬라이드 품는 챗GPT·클로드…파트너 영역까지 삼킨다 [AI 생존경쟁①]",
-        "date": "2026-10-12",
-        "originalDate": "2026-10-11",
-        "sourceName": "IT조선",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE54c1RHbFd1LUg0dVJQd2J5LXR3NkxKZVJKLVlRNDlNQ2F2a2ZaZ1RKdVVaS19pdzF0NVBIMnBnaTF0RzdfN25iOTRFU2dsNzZGY2xrUUc3Um1tbmNwTkFWNW1QbGt4cEhCbnZMT29QdmZJbzRu0gF0QVVfeXFMTnhzVEdsV3UtSDR1UlB3YnktdHc2TEplUkotWVE0OU1DYXZrZlpnVEp1VVpLX2l3MXQ1UEgycGdpMXRHN183bmI5NEVTZ2w3NkZjbGtRRzdSbW1uY3BOQVY1bVBsa3hwSEJudkxPb1B2ZklvNG4?oc=5",
+        "koTitle": "[AI프리즘] AI가 업무까지 척척…챗GPT·클로드, 협업툴 넘본다",
+        "enTitle": "[AI프리즘] AI가 업무까지 척척…챗GPT·클로드, 협업툴 넘본다",
+        "date": "2026-10-13",
+        "originalDate": "2026-10-12",
+        "sourceName": "연합뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4SmIxRnk1ZHhfM0ZYeElocGxJY2dUTlN0cU95WTJDUHdUa2NkV3o3OHp6ZjJBRUxTVUkxemsyWU1OU3JyZEw5U1BKMWpFNUUtSlVqY2Fab2FRYkVYcmp4Z9IBYEFVX3lxTFA4SmIxRnk1ZHhfM0ZYeElocGxJY2dUTlN0cU95WTJDUHdUa2NkV3o3OHp6ZjJBRUxTVUkxemsyWU1OU3JyZEw5U1BKMWpFNUUtSlVqY2Fab2FRYkVYcmp4Zw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 오피스·슬라이드 품는 챗GPT·클로드…파트너 영역까지 삼킨다 [AI 생존경쟁①] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [AI프리즘] AI가 업무까지 척척…챗GPT·클로드, 협업툴 넘본다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "\"클로드, 챗GPT 쓸 줄 아세요?\"… AI 툴 키워드 공고 170% 증가",
-        "enTitle": "\"클로드, 챗GPT 쓸 줄 아세요?\"… AI 툴 키워드 공고 170% 증가",
-        "date": "2026-10-12",
+        "koTitle": "“AI가 읽을 책, 토큰으로 검색”…멘탯, 도서 데이터 거래 서비스 출시",
+        "enTitle": "“AI가 읽을 책, 토큰으로 검색”…멘탯, 도서 데이터 거래 서비스 출시",
+        "date": "2026-10-13",
         "originalDate": "2026-10-12",
-        "sourceName": "인공지능신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1EdEV3ZGd6WWJMdml5RzVlYThMZXJpTzJnaHl1YWFDRmlmV0R0TFl0Rm5jQTNlSTlCOHp6cllEWE9idEFPbHg0a1RJTzBfUmFSTmdGb3Y3Slg1NHdfVm5yNE5tVnlVSzg?oc=5",
+        "sourceName": "매일일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ZSFBEblNxR0Q2T3lyV3lUeWlpdV96Q0FkVEhBYklETzJYTG55OVFOd1JGci1FeE5mVS1tSnpJelBqb3RHSzkwc0RLdjdmTEU4ZGt6aTZ1ZVJvY2h2Qm9PUmdIRVo?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! \"클로드, 챗GPT 쓸 줄 아세요?\"… AI 툴 키워드 공고 170% 증가 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! “AI가 읽을 책, 토큰으로 검색”…멘탯, 도서 데이터 거래 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "KT, '모두의 AI' 12월 출시 앞두고 17개사 협력 강화 … 서비스 고도화 논의",
-        "enTitle": "KT, '모두의 AI' 12월 출시 앞두고 17개사 협력 강화 … 서비스 고도화 논의",
-        "date": "2026-10-12",
-        "originalDate": "2026-10-12",
-        "sourceName": "뉴데일리",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LNGRTSDJBMmozQmZPREdmVTRKbXJyck12NmMzOWx2VVhRSVVKNjVLYTQ2ZUhqalNqbVliTHRvdTdPSG42NkJRN29tdG5BSmo3QXk1MnZHUC1Gd3lXdTNQOFVCSmVrLUd4R0tjV2ZtUVJQYW1kVEl1cWRCSdIBgAFBVV95cUxOQU5zQzR2Zko1TFczWGt6dmNqMGhrandWOGttdGwzQkFvZ19FaEhSd0FJUVdUbFR3NVRCYkpCMllEYVRwVmhyZUFnME1kM3BqMk5qbXRXaEpVMjdSQzVWZjJCNDZRTWwzazRleUdSLTRUQTFRT3NZVzR1aEFmcEhiOQ?oc=5",
+        "koTitle": "KT, 구글 AI·생활 혜택 더한 구독 상품 출시",
+        "enTitle": "KT, 구글 AI·생활 혜택 더한 구독 상품 출시",
+        "date": "2026-10-13",
+        "originalDate": "2026-10-13",
+        "sourceName": "아시아경제",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5tNEg4NjZHbmhmbHd1dzhrcmtzTTZHSEJSZE5aa1VkZ2h6TndoMVBTOFNQM1ZpdGpVYjBpZFZuM3NzSW11a3llQWtaU0k5TkhEcUtiNzR1dXBNWmRnM3hkdw?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! KT, '모두의 AI' 12월 출시 앞두고 17개사 협력 강화 … 서비스 고도화 논의 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! KT, 구글 AI·생활 혜택 더한 구독 상품 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
