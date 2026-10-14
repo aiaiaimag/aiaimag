@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-13
+ * 최신 업데이트: 2026-10-14
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "2027년 일자리를 바꿀 수 있는 10가지 미래 업무 트렌드",
-        "enTitle": "10 Future Of Work Trends That Could Change Your Job In 2027",
-        "date": "2026-10-13",
-        "originalDate": "2026-10-12",
-        "sourceName": "Forbes",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONkhEaTBoTy1BbWFna2xTS2J4SkdvVE5KQ2dTdVA3UEJuN2FubDUycTlEUFVnTWRNaEZVR1FpSzF1VEttcWN5QXEzbW9vWlo5cWZuUnp2eXdJbklpWFpKMGlDZDFtaWZ0YnJNWU1hQjlVVHRfRWlqMFpWdXp4MnBpb2htXzVocmN3VC1NcFRDODVGZlNQYzlBUmRwSXJESnJ5dVdaTjlDWnNzVkRQZm15VDVn?oc=5",
+        "koTitle": "AI 발전은 CPP 학생들을 위한 직업의 미래에 대한 질문을 제기합니다",
+        "enTitle": "AI advances raise questions about the future of jobs for CPP students",
+        "date": "2026-10-14",
+        "originalDate": "2026-10-13",
+        "sourceName": "The Poly Post",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSVJFWkF4Nmpnc2ZYdmJLcXhMRWs0SllrYktoVGlWUnRRWlRkb3MyeWc1RVZld3pyT3FDZkpXWjZnaENZMWZWWThnLXZUSEVtNHVuOVR3STdPSTRCUm5PcjJfXzFIMEt4dEFkVEJVMnFrU05oUGN1QnAyVHpHeHRBbl8zSkd3d2E4Mk1IaXNpR1piYkpEMGl0YjdoRVZaZ0gtTW5QRjlYdjRuNXp1NW9hVXZjUVnSAbQBQVVfeXFMUElSRVpBeDZqZ3NmWHZiS3F4TEVrNEpZa2JLaFRpVlJ0UVpUZG9zMnlnNUVWZXd6ck9xQ2ZKV1o2Z2hDWTFmVlk4Zy12VEhFbTR1bjlUd0k3T0k0QlJuT3IyX18xSDBLeHRBZFRCVTJxa1NOaFBjdUJwMlR6R3h0QW5fM0pHd3dhODJNSGlzaUdaYmJKRDBpdGI3aEVWWmdILU1uUEY5WHY0bjV6dTVvYVV2Y1FZ?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 2027년 일자리를 바꿀 수 있는 10가지 미래 업무 트렌드 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! AI 발전은 CPP 학생들을 위한 직업의 미래에 대한 질문을 제기합니다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "HubSpot, 660개 직무 삭감 계획, 직접 AI 교체 거부",
-        "enTitle": "HubSpot Plans 660 Job Cuts, Denies Direct AI Replacement",
-        "date": "2026-10-13",
-        "originalDate": "2026-10-12",
-        "sourceName": "Quasa.io",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeGNoaGxCNkp3OXp4ZHBwY2dEYWxJaWpGYi1oOEVseUYtUVlvam9iR0xPaWk3dkJXcmdRWlVlYzlrZUdvc2NmUEJQRzRQTVZ1dnV6VWltWEk5UlFTWWJJb3VmS0ZSVnNTMG1oUWFHa3FWdHJRM3hlQTZ6RFAzWWhvQ3FXcV81ZzJ4OWs4ZWxGQkw0UQ?oc=5",
+        "koTitle": "남아프리카 공화국 경력 변경자의 48% 가 AI에 대해 불안해하고 있습니다. 어떤 직업이 안전한가요?",
+        "enTitle": "48% of South African Career Changers Anxious About AI Which Jobs Are Safe?",
+        "date": "2026-10-14",
+        "originalDate": "2026-10-13",
+        "sourceName": "EIN News",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNX0pkSHN0Wkg1YXlSWHBHclJzYVBZU3lOZVpJQW9CdXI0LWlueU9VazRSR1dheWtUcG1hWkdEb2lrT2M0emFXcFhNYVV1akNEY3FlQjF0VWw5ZEhkNzVhdkdfYUUtQU9aS2VKb09fbkoxcmlrT2xpdTNrUG50SkpTUndvWHZob0RYT2t4QW8yWUxobHRKakpfTVpMWmYxb3plTnJ2TEo4a3JqUHprUjluMk5KZUE?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! HubSpot, 660개 직무 삭감 계획, 직접 AI 교체 거부 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 남아프리카 공화국 경력 변경자의 48% 가 AI에 대해 불안해하고 있습니다. 어떤 직업이 안전한가요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "인공지능은 코딩을 자동화하고 있습니다. 그렇다면 소프트웨어 개발자 채용 공고가 급증하는 이유는 무엇일까요?",
-        "enTitle": "AI is automating coding. So why are software developer job postings on the rise?",
-        "date": "2026-10-13",
-        "originalDate": "2026-10-11",
-        "sourceName": "CNBC",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80a2hhYm5Pd1BrUWdvV1lNQ0pvUGVhSDRicGVQWG1IU3J1MzlBN012VDA4QjlITVdwcUFXcUl5anVacHpXZzgxaDI2a19BaHJvbnVLaU1EdXNGX3VwSWc2RDd2amhCdm9VblR3cTVodTbSAXZBVV95cUxPc1pqTVJmenh6aFNEUEdaMU0wMTN3eWRLNTBrR29LWHhQdzUyWXk3OEpvX1dEM2NzMXJSZWd4QzNDOVRhRElEaWg5YkN5ZjJ4cHYwd1NyVW5SS3owYUFJMDNvX01PbjNuVDJwQ3NDZlk0SnBITTVR?oc=5",
+        "koTitle": "AI는 경제를 부동적으로 유지하고 있습니다. IMF는 젊은 노동자들이 그 대가를 지불할 수 있다고 말합니다.",
+        "enTitle": "AI is keeping the economy afloat. The IMF says young workers could pay the price.",
+        "date": "2026-10-14",
+        "originalDate": "2026-10-13",
+        "sourceName": "Business Insider",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY1JVWkwydWJHRERRcUJCaFJOaXFveFBhdVcwMVlsc19yR0J6NnpvY29WdHl4WkNGMWpJUTN6U0ZRYlg0OC0yckhSVm5ValJrM203SmlPXzFyNFJqOE1VbVJnc0V4MjJmLUlWTE9vcUtLSEgtR3N5M1hZd0tURkxEXzFIR01fWlVieF82RGFiZDBZWnFWVW1lWFpuLXZYSDRfNXZv?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능은 코딩을 자동화하고 있습니다. 그렇다면 소프트웨어 개발자 채용 공고가 급증하는 이유는 무엇일까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! AI는 경제를 부동적으로 유지하고 있습니다. IMF는 젊은 노동자들이 그 대가를 지불할 수 있다고 말합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[AI프리즘] AI가 업무까지 척척…챗GPT·클로드, 협업툴 넘본다",
-        "enTitle": "[AI프리즘] AI가 업무까지 척척…챗GPT·클로드, 협업툴 넘본다",
-        "date": "2026-10-13",
-        "originalDate": "2026-10-12",
-        "sourceName": "연합뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4SmIxRnk1ZHhfM0ZYeElocGxJY2dUTlN0cU95WTJDUHdUa2NkV3o3OHp6ZjJBRUxTVUkxemsyWU1OU3JyZEw5U1BKMWpFNUUtSlVqY2Fab2FRYkVYcmp4Z9IBYEFVX3lxTFA4SmIxRnk1ZHhfM0ZYeElocGxJY2dUTlN0cU95WTJDUHdUa2NkV3o3OHp6ZjJBRUxTVUkxemsyWU1OU3JyZEw5U1BKMWpFNUUtSlVqY2Fab2FRYkVYcmp4Zw?oc=5",
+        "koTitle": "제미나이 4 아르곤: 가장 까다로운 난제를 해결하도록 설계된 모델",
+        "enTitle": "제미나이 4 아르곤: 가장 까다로운 난제를 해결하도록 설계된 모델",
+        "date": "2026-10-14",
+        "originalDate": "2026-10-13",
+        "sourceName": "blog.google",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51czdyblRzU3U2a2lYWTQyQXhPYjJCTmxWVjE2RS13NVlySzBZQ0VVRjRVSkFLYVZKZTlJLWZfSmxlT3g3TFRNS09KRE1waEhKd1lCSWI3TWo5OUxXRFBlVU9EdUlEU3d3VjFfR21ySjVCZlNpbFEyTFlR?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI프리즘] AI가 업무까지 척척…챗GPT·클로드, 협업툴 넘본다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 제미나이 4 아르곤: 가장 까다로운 난제를 해결하도록 설계된 모델 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "“AI가 읽을 책, 토큰으로 검색”…멘탯, 도서 데이터 거래 서비스 출시",
-        "enTitle": "“AI가 읽을 책, 토큰으로 검색”…멘탯, 도서 데이터 거래 서비스 출시",
-        "date": "2026-10-13",
-        "originalDate": "2026-10-12",
-        "sourceName": "매일일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ZSFBEblNxR0Q2T3lyV3lUeWlpdV96Q0FkVEhBYklETzJYTG55OVFOd1JGci1FeE5mVS1tSnpJelBqb3RHSzkwc0RLdjdmTEU4ZGt6aTZ1ZVJvY2h2Qm9PUmdIRVo?oc=5",
+        "koTitle": "AI 수익화 속도 내는 메타…‘유료 버전’ 뮤즈 원더 출시",
+        "enTitle": "AI 수익화 속도 내는 메타…‘유료 버전’ 뮤즈 원더 출시",
+        "date": "2026-10-14",
+        "originalDate": "2026-10-13",
+        "sourceName": "서울경제",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82N2xtNE9RU1dmMjYtX0dRTDhtZTBTaE9xUS1hcHVtajd4bmJlZnhvaHkzTXJvcndLM1htSjZuZi1qekJCNjJaZ244QUNOenBlS2fSAVNBVV95cUxOZlpFVEhacGM3VjdpWVZnZGhfUXA1MFFoQzFTNWZUTjNIVm5GZnNvYTQySlJoSXF6MVhXT3NSRnhLYUpaRlRqeHdoYTdubElDQ3JwNA?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! “AI가 읽을 책, 토큰으로 검색”…멘탯, 도서 데이터 거래 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! AI 수익화 속도 내는 메타…‘유료 버전’ 뮤즈 원더 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "KT, 구글 AI·생활 혜택 더한 구독 상품 출시",
-        "enTitle": "KT, 구글 AI·생활 혜택 더한 구독 상품 출시",
-        "date": "2026-10-13",
+        "koTitle": "클라우드타입, 기업 내 AI 앱 개발·배포 통합 지원 플랫폼 출시",
+        "enTitle": "클라우드타입, 기업 내 AI 앱 개발·배포 통합 지원 플랫폼 출시",
+        "date": "2026-10-14",
         "originalDate": "2026-10-13",
-        "sourceName": "아시아경제",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5tNEg4NjZHbmhmbHd1dzhrcmtzTTZHSEJSZE5aa1VkZ2h6TndoMVBTOFNQM1ZpdGpVYjBpZFZuM3NzSW11a3llQWtaU0k5TkhEcUtiNzR1dXBNWmRnM3hkdw?oc=5",
+        "sourceName": "중앙일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xdDJ6dDJ2OGdNODBnY1FhcENRNlJjUkhBTkRaQk5zZ0dydnhoOUtJU25nUlVKTC1hT0JZb2FZdndURDA4bER1MlFaV0k2NDhxWk1QSXJn?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! KT, 구글 AI·생활 혜택 더한 구독 상품 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 클라우드타입, 기업 내 AI 앱 개발·배포 통합 지원 플랫폼 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
