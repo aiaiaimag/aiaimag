@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-16
+ * 최신 업데이트: 2026-10-17
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI, 지저분한 직업, 그리고 학교 교육의 미래",
-        "enTitle": "AI, messy jobs, and the future of schooling",
-        "date": "2026-10-16",
-        "originalDate": "2026-10-15",
-        "sourceName": "The Thomas B. Fordham Institute",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZU9yZGltQU5GSlFJNnpQMTdySGV1bzdTMW5INHZwT2REOC1EdHhZNExfdnF6OHRad2dCS3lvSmVGY0Z5dmZHd0I5XzNhY0ZMRE1Zd0R1THdzbUVkN0xjbGo2dHNaYmxzcEhTZGNmU2VvWkE3MHktRk9TMzRGQVhJWnpDekRlQ2ZPU3F3?oc=5",
+        "koTitle": "인공지능, 직업, 직업의 미래에 관한 5가지 신화",
+        "enTitle": "5 myths about AI, jobs and the future of work",
+        "date": "2026-10-17",
+        "originalDate": "2026-10-16",
+        "sourceName": "NTT Data",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZXliX3hjTmF1eHI1SHJYaHp4U2NITnlmcElJU0x3R3hqRkdSUlRCTzBwSG1BU0dhN0dtc0tNQ1RBd2FmcmdSWW9UbDczR1UxbHJ1cWR4V21MUExReElrTWdXTFJsLUVZOXJxWmNUZ3MtQ1BoVTFsWTNKeVBnWmxVdjNNckY0STdYWkxmLVdiTmNFZw?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! AI, 지저분한 직업, 그리고 학교 교육의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능, 직업, 직업의 미래에 관한 5가지 신화 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "인텔리전스 시대를 위한 업무 재설계 방법",
-        "enTitle": "How to redesign work for the intelligence era",
-        "date": "2026-10-16",
-        "originalDate": "2026-10-15",
-        "sourceName": "The World Economic Forum",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdS1jbWViLXc2MUdiemcxNkNfVXVvQ1M1dy0zbFpxNEFwWkt3dEhOYXlrWVNuVnoxSTJzWUU4R2NsWjdoeGR2WElieWJJbFdOUEJJRmwxbWJMcEJxYW13SER0cUtKWUduMG0yaHBGTXJtRDUxbWpTbUlyakpjTmZTNFo3OHBOcExaRTBNcmdVVEpMOFhw?oc=5",
+        "koTitle": "SAP 10월 7일: 88% 가 AI 직무 변경 보고, 절반은 안내받지 못함",
+        "enTitle": "SAP Oct. 7: 88% Report AI Job Changes, Half Unguided",
+        "date": "2026-10-17",
+        "originalDate": "2026-10-16",
+        "sourceName": "Quasa.io",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSk45cFVsRTZsVHQ1QU4yOXA4OTZ4S3VlWDgycFd1YmFveVIxVWRSaGdtVy1YeFRUTjRBdWZtZzRDRGlMTEUyN00xX0ZTQXNGdkF6bzlhUWtXVTVWWDVfRF9SVXNHcWFlVmVCbUtzZkpERDBvT05MdGtmc0w0RDJNeTlfSTQ3YWZLa1J0RQ?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 인텔리전스 시대를 위한 업무 재설계 방법 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! SAP 10월 7일: 88% 가 AI 직무 변경 보고, 절반은 안내받지 못함 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "인공지능, 직업, 직업의 미래에 관한 5가지 신화",
-        "enTitle": "5 myths about AI, jobs and the future of work",
-        "date": "2026-10-16",
+        "koTitle": "AI, 지저분한 직업, 그리고 학교 교육의 미래",
+        "enTitle": "AI, messy jobs, and the future of schooling",
+        "date": "2026-10-17",
         "originalDate": "2026-10-15",
-        "sourceName": "NTT Data",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOXBYZ2ItNXhfUE8tSXdGaHpWNVU2SE14cnByZnlPWW11YjE5WWtFRHNaaVR5TUtxdUNrNDVnZVZERHU1V3dCdV9DRjJrMnhYUVFSTXY4VXRodGZ1T2ZBcXZ1cl9KU290eTQyd0ZDR0hDcDNDOTZqRzd6Yll5MzZZVXdYaVk3M19LUXpzVG9hSkJ3UQ?oc=5",
+        "sourceName": "The Thomas B. Fordham Institute",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZU9yZGltQU5GSlFJNnpQMTdySGV1bzdTMW5INHZwT2REOC1EdHhZNExfdnF6OHRad2dCS3lvSmVGY0Z5dmZHd0I5XzNhY0ZMRE1Zd0R1THdzbUVkN0xjbGo2dHNaYmxzcEhTZGNmU2VvWkE3MHktRk9TMzRGQVhJWnpDekRlQ2ZPU3F3?oc=5",
         "isRepublished": false,
         "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능, 직업, 직업의 미래에 관한 5가지 신화 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! AI, 지저분한 직업, 그리고 학교 교육의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "제미나이 4 아르곤: 가장 까다로운 난제를 해결하도록 설계된 모델",
-        "enTitle": "제미나이 4 아르곤: 가장 까다로운 난제를 해결하도록 설계된 모델",
-        "date": "2026-10-16",
-        "originalDate": "2026-10-15",
+        "koTitle": "제미나이와 함께 성수에서 캠퍼스 라이프를 완성해보세요!",
+        "enTitle": "제미나이와 함께 성수에서 캠퍼스 라이프를 완성해보세요!",
+        "date": "2026-10-17",
+        "originalDate": "2026-10-16",
         "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51czdyblRzU3U2a2lYWTQyQXhPYjJCTmxWVjE2RS13NVlySzBZQ0VVRjRVSkFLYVZKZTlJLWZfSmxlT3g3TFRNS09KRE1waEhKd1lCSWI3TWo5OUxXRFBlVU9EdUlEU3d3VjFfR21ySjVCZlNpbFEyTFlR?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaEFGdUwzYk1IQVE3MWRINVRaOUJNLTF1S0x6RjdOZ1ZyS2l3ZWxOVjFxT0o0Q3lmT0k3ajNBY0I0RGdHZWhPRlhZbG5WVk1ZM2gzTmc0ZW5aY2tidzR4UUlHM05Xd00yZWRBVld5U2xzNTdBSlV3ZVhNWmw2VU51U3lSaVViTFpjeDZVdkEyZ0I?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 제미나이 4 아르곤: 가장 까다로운 난제를 해결하도록 설계된 모델 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 제미나이와 함께 성수에서 캠퍼스 라이프를 완성해보세요! 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "미 물가 충격·AI 수익 우려에…코스피 5500선까지 추락",
-        "enTitle": "미 물가 충격·AI 수익 우려에…코스피 5500선까지 추락",
-        "date": "2026-10-16",
-        "originalDate": "2026-10-15",
-        "sourceName": "JTBC",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5NX20wbnVZYjdRZ3prMVhFZVFxWFMwNVFrRUEzejBZa0ZjYTJMTXJQNURBLXNWVm5NNWR6WjVmU3VtWEJxaHlURVZYaFB2cWQzUnU4bw?oc=5",
+        "koTitle": "[통신리뷰] KT, AI 매장음악 서비스 '래디오비즈' 출시(10월2주차)",
+        "enTitle": "[통신리뷰] KT, AI 매장음악 서비스 '래디오비즈' 출시(10월2주차)",
+        "date": "2026-10-17",
+        "originalDate": "2026-10-16",
+        "sourceName": "더구루",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9vWDRTSm5kZXV3NVJPWF9senZaYjc1Z0ZWUXE0Smc2ei1ITERPUk1DeWk0TFNDT2dpZHo2Szg2SWlybi1WQjJpdjdsdEVJVzJLdF9BaFJPcW5nd0h4TE5SYTA3SQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 미 물가 충격·AI 수익 우려에…코스피 5500선까지 추락 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [통신리뷰] KT, AI 매장음악 서비스 '래디오비즈' 출시(10월2주차) 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "제논, AI 에이전트 통합 포털 ‘제나’ 정식 출시...모바일 서비스 확대",
-        "enTitle": "제논, AI 에이전트 통합 포털 ‘제나’ 정식 출시...모바일 서비스 확대",
-        "date": "2026-10-16",
-        "originalDate": "2026-10-15",
-        "sourceName": "헬로티",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5NZjNXdEh2Z0VvMGwyNGVWTy16QlVNV2xNbVpRRGxXRDJFbVRaTVY3b0kxb0VlT0ZBa2tvelppZnhzTW1ubmhNb2NCaEJLUl9IdWRpV3NSQnJNVEd6YzlR?oc=5",
+        "koTitle": "오픈AI, '챗GPT 보이스' 업데이트…구글, '제미나이 4 아르곤' 일반 공개",
+        "enTitle": "오픈AI, '챗GPT 보이스' 업데이트…구글, '제미나이 4 아르곤' 일반 공개",
+        "date": "2026-10-17",
+        "originalDate": "2026-10-16",
+        "sourceName": "굿모닝경제",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uT3lTRHFhUnNfeWZhdlRzRlBPWXNOWU00OXA0blktODFfNm1ZMU5wME95YjRPTWgxRWJlTVpzejd5UU10ZjZqREtKd2o0dzY4WmNzN1BCbTZEWndQdjgzNTg2ZWRMSnFOQXJqWQ?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 제논, AI 에이전트 통합 포털 ‘제나’ 정식 출시...모바일 서비스 확대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 오픈AI, '챗GPT 보이스' 업데이트…구글, '제미나이 4 아르곤' 일반 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
