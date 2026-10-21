@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-20
+ * 최신 업데이트: 2026-10-21
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI와 업무의 미래: 일자리 손실에서 사무실 이익에 이르기까지?",
-        "enTitle": "AI and the future of work: From job losses to office gains?",
-        "date": "2026-10-20",
-        "originalDate": "2026-10-19",
-        "sourceName": "IPE Real Assets",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc1Z6UU9lZFVqMU9xLTdEQVNjS3JGMExVbndjdUk5dUNtanpOR1hWalFqcFVnTjdaU21pUWQzRUF6RVBRejVUdVdTbGdYOUZtbWowVGdhT3o4UERNZDFMUDB5c2MzQkVUcFVmUE5SYW1FQVhnd0NxUUZPMnJKbjNTRGdYRjhWQ19sT25SYU56NWE5OEpwbFJ6V2xVVTFWaXQ1c0VUcGRpMnFHWmJibUVOeXpwV0VKcUFw?oc=5",
+        "koTitle": "인도 학생들은 AI가 딥 러닝을 약화시킬 수 있다고 우려합니다. 설문 조사 결과",
+        "enTitle": "Indian students fear AI may be weakening deep learning, survey finds",
+        "date": "2026-10-21",
+        "originalDate": "2026-10-20",
+        "sourceName": "The New Indian Express",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNFdJbnNPMDFhZHFaWFltc2RnbU5DeUcwYXhVVllGQ3ZhOEFIeUdOaFdHRVNoRExKT09qOFJ4X3RpTmp5ZXRpbUVxT2NiSzhNNTcwaVgxb1B5Um5JTGZaZkw3cGY0WkZ5UGQ1VkZIa3loX3pXTmhtd1gxZnZJTXl3emVVWHcwRWxSLUdRa0NIQUpJeV9tbUZuS0RqVV9ScnNKM01XVzdfV1V5WTkyZkwyeHo0SkM4WWJPWkHSAccBQVVfeXFMTzhWR09iaVFHbjVxR190bmo0eDVNdFBodlJmcGNOUm1UNVByWVBpT01FZjA4cndnNVlVRFMxYkQ0b2lOcHIzQVJzRVhBWHVRQ3pMeXhiS2tvaXk1dFRiY1ozSnFMQVlmOHNjR0hPdkNvd1BuTy1yQVgzaHc5UzlOWkV3Z2dCb1pZZkV5cFpqMUp4bk9PbFlpczJ5czVDcmN2MDdmS0R0RmVTS1cydVRQcGpPUHltQ1RqelpxcTRGbmNZY09palZyRQ?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! AI와 업무의 미래: 일자리 손실에서 사무실 이익에 이르기까지? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 인도 학생들은 AI가 딥 러닝을 약화시킬 수 있다고 우려합니다. 설문 조사 결과 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "LinkedIn 데이터에 따르면 AI는 이미 130만 개의 일자리를 추가했다고 합니다 | 세계경제포럼",
-        "enTitle": "AI has already added 1.3 million jobs, LinkedIn data says | World Economic Forum",
-        "date": "2026-10-20",
-        "originalDate": "2026-10-17",
-        "sourceName": "World Economic Forum",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOR25JaFZwc183ZFVpbnQyU1VySXJPdXhPTWZUdV9aeUsxOUx1WnAtd2wzR1B5YkEwcERXMXc5TUlnSW9NQWJQTm5fdTlPTXdCRzZHZkRPM1V6eHlkQlVuNUZhS2VuWndrOG13LWRHaFE3YzJ4RjZoYTNZRURtRXYwN2lQQnhFUGItb3UxNVgxX2lkOUNRWVJjaWNVOFFBdEtiWEJuOEgwTzhTR1E0aGQ0SlVJRjNaUlRXREtKVklJcGE5eEtLYWc?oc=5",
+        "koTitle": "국제 AI 전략가이자 저자 인 Katie King, IAMPHENOM EUROPE 2026 기조 연설",
+        "enTitle": "International AI Strategist and Author Katie King to Keynote IAMPHENOM Europe 2026",
+        "date": "2026-10-21",
+        "originalDate": "2026-10-20",
+        "sourceName": "Via TT",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOeHlBbXNFcW01NlJlNjM4cE9NSmtTU1d2cU5jTzJXNlVyeUJKSENOVHVmNnU5elNrNlQ2YjlVZGdMMU9RNGNUak1HVTBsS0NpSW9URkpQNHNCRmE3Wm9vR2dEUlhFSktBR0wzeFBGQzN6bHprN0I1eThfakZ5YnJaLWVkWnVzMXNTOEJCOGI3NFdNU1kyUDBVUzBSXzVMYnR1bmdkZldJT0FDSTdYUW1FTExnU2xlQ1Yzci1vWjFNVmJrMTVtbWg2NV94bmlDZ3NzckVIM0VJOUFtS3R3TmZzRHlzWGNGQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! LinkedIn 데이터에 따르면 AI는 이미 130만 개의 일자리를 추가했다고 합니다 | 세계경제포럼 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 국제 AI 전략가이자 저자 인 Katie King, IAMPHENOM EUROPE 2026 기조 연설 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI 슬픔은 현실입니다: 일자리 불안, 변화, 일의 미래 | Cassandra Worthy",
-        "enTitle": "AI Grief Is Real: Job Anxiety, Change & the Future of Work | Cassandra Worthy",
-        "date": "2026-10-20",
-        "originalDate": "2026-10-17",
-        "sourceName": "KTVU",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MU3pGb0N2em5TVVc0SEdxZF9GOU9ZTEg5UHhGVDYtX1RBQW5nb0hwOEZZb0pUdXhnNi1zUjdsWm0wUk9kUTQ4dWd5cThjcnV6b3BsbXIyQnVpTGfSAWBBVV95cUxQX2VZcjZVbFRBRkg1OWNmeHI5WTJ5dmFmVVRNNTlXNEpjdzdkTUxSOVBUNmc1NnI1U1lWYkVoUnFmVlRvanhOa2Q0MkJsS0E3eTVIajl3REp5NFdhRUhCOW4?oc=5",
+        "koTitle": "AI와 업무의 미래: 일자리 손실에서 사무실 이익에 이르기까지?",
+        "enTitle": "AI and the future of work: From job losses to office gains?",
+        "date": "2026-10-21",
+        "originalDate": "2026-10-19",
+        "sourceName": "IPE Real Assets",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc1Z6UU9lZFVqMU9xLTdEQVNjS3JGMExVbndjdUk5dUNtanpOR1hWalFqcFVnTjdaU21pUWQzRUF6RVBRejVUdVdTbGdYOUZtbWowVGdhT3o4UERNZDFMUDB5c2MzQkVUcFVmUE5SYW1FQVhnd0NxUUZPMnJKbjNTRGdYRjhWQ19sT25SYU56NWE5OEpwbFJ6V2xVVTFWaXQ1c0VUcGRpMnFHWmJibUVOeXpwV0VKcUFw?oc=5",
         "isRepublished": false,
         "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 슬픔은 현실입니다: 일자리 불안, 변화, 일의 미래 | Cassandra Worthy 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! AI와 업무의 미래: 일자리 손실에서 사무실 이익에 이르기까지? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
+        "koTitle": "시장 출시 앞둔 환경분야 인공지능(AI) 서비스 첫선 보인다",
+        "enTitle": "시장 출시 앞둔 환경분야 인공지능(AI) 서비스 첫선 보인다",
+        "date": "2026-10-21",
+        "originalDate": "2026-10-20",
+        "sourceName": "에너지데일리",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tenRVZ3JwWEN1dXpPM1c1WmJmMU5CRVgwRkk3VUZCTTdlemZDQnAzRVNhM0ZSUVNiZUM4OUJKQjV3aDdhaXhWdWx4WDUxVmI0RkJQLTA0T3ZzVzFQSWp0LTQyMmp6Slc2Q1pqYnFKZXRkQQ?oc=5",
+        "isRepublished": false,
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 시장 출시 앞둔 환경분야 인공지능(AI) 서비스 첫선 보인다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Hot Issue"
+    },
+    {
+        "rank": 2,
         "koTitle": "제미나이 4 아르곤: 가장 까다로운 난제를 해결하도록 설계된 모델",
         "enTitle": "제미나이 4 아르곤: 가장 까다로운 난제를 해결하도록 설계된 모델",
-        "date": "2026-10-20",
-        "originalDate": "2026-10-19",
+        "date": "2026-10-21",
+        "originalDate": "2026-10-20",
         "sourceName": "blog.google",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51czdyblRzU3U2a2lYWTQyQXhPYjJCTmxWVjE2RS13NVlySzBZQ0VVRjRVSkFLYVZKZTlJLWZfSmxlT3g3TFRNS09KRE1waEhKd1lCSWI3TWo5OUxXRFBlVU9EdUlEU3d3VjFfR21ySjVCZlNpbFEyTFlR?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
         "analysis": "2030을 위한 AI 실무 팁! 제미나이 4 아르곤: 가장 까다로운 난제를 해결하도록 설계된 모델 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Hot Issue"
-    },
-    {
-        "rank": 2,
-        "koTitle": "[테크스냅] 나루씨큐리티, AI 공격 막는 'AI 웹 방어' 서비스 출시",
-        "enTitle": "[테크스냅] 나루씨큐리티, AI 공격 막는 'AI 웹 방어' 서비스 출시",
-        "date": "2026-10-20",
-        "originalDate": "2026-10-20",
-        "sourceName": "매일경제 마켓",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tMUZ4OWQteE5MalhrNjJCMF94bVdFNVh4Z19hM1FuLXBuUnhheWpRTVB2akZKMVU5MVBObkJQX1MwcWxEWUFGUDlnbVVWWXRrUFE?oc=5",
-        "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [테크스냅] 나루씨큐리티, AI 공격 막는 'AI 웹 방어' 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "텐센트, 챗봇마다 저장하던 AI 메모리 통합...클로드·챗GPT에서 공유",
-        "enTitle": "텐센트, 챗봇마다 저장하던 AI 메모리 통합...클로드·챗GPT에서 공유",
-        "date": "2026-10-20",
-        "originalDate": "2026-10-19",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Lc1h0aUVIU1RkdUQtajFXV2ttSFNlRi1veVpOQ3hSR1I4RnltRWlQZ1VwVi1FWlZhVmltYm9IREgzZFhuVEhOZ1ZQeHJJYS1UREFlc1IyRGRHUGJpa2thX3c3cWZQS3YxM0E?oc=5",
+        "koTitle": "“챗GPT 써봤다고? 뭘 만들었는데?”…AI 시대 취업법",
+        "enTitle": "“챗GPT 써봤다고? 뭘 만들었는데?”…AI 시대 취업법",
+        "date": "2026-10-21",
+        "originalDate": "2026-10-20",
+        "sourceName": "이데일리TV",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9wMHpYcm5pSzRJbEZlVjlsR2lycUlvQ3c5SHFHazhvTHgzRXFjM3BhU3lNM09TaVJoVllSUWp3dV8wY2I2TGtYYnZNNVlfb2dZVW1tNWI2UmxDUGxVY29UV0dPNTlKZ2RXaXlXUDBzdFJRbnhZY1dacHpMRQ?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 텐센트, 챗봇마다 저장하던 AI 메모리 통합...클로드·챗GPT에서 공유 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! “챗GPT 써봤다고? 뭘 만들었는데?”…AI 시대 취업법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
