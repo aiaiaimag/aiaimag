@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-22
+ * 최신 업데이트: 2026-10-23
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI, 지저분한 일자리, 그리고 학교 교육의 미래",
-        "enTitle": "AI, Messy Jobs, and the Future of Schooling",
-        "date": "2026-10-22",
-        "originalDate": "2026-10-21",
-        "sourceName": "Education Next",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWW01cXZjdE9GaU1qdEJMSmF0cFlpdnpTd3h2NkVFSVJ6Z183SVlfQ2g1S0FEc2M0NkQ5NzV2a1RqSm1tYklCN2FKN0RKN3RhQ2RJaW1FRl9rOTRDMFhBYy1GTjJWVlJZcW5SaHBmTEtER2FlWm9xTElZVWJDMUMzTGYxdi1OWmNwRDhCbg?oc=5",
+        "koTitle": "호철, AI 커리어를 위한 뉴요커 4만 명 양성 퀸즈 일자리 허브 공개​",
+        "enTitle": "Hochul unveils Queens jobs hub to train 40,000 New Yorkers for AI careers​",
+        "date": "2026-10-23",
+        "originalDate": "2026-10-22",
+        "sourceName": "Crain's New York",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRndMQnFKbEhmZnFKSkVZOXVqZlNzZm8xTUE1andxT0x4aHhZMmdYWGhna2R1dnE0QlV2aUhScGNOd2tYMno4bXJUNkEwbTJUdTNCeTNLZ2UwN2RVa0hYT1FiOUhFRU41d0V3Z1Z5OXRYamRsQTNMMkVvdVlFUWpzR3NsNnFxMExpcEpZem9INA?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! AI, 지저분한 일자리, 그리고 학교 교육의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! 호철, AI 커리어를 위한 뉴요커 4만 명 양성 퀸즈 일자리 허브 공개​ 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "Future Faces 회원이 버밍엄 테크 위크 (Birmingham Tech Week) 에서 경력 조언과 AI 통찰력을 공유합니다.",
-        "enTitle": "Future Faces member shares career advice and AI insights at Birmingham Tech Week",
-        "date": "2026-10-22",
-        "originalDate": "2026-10-21",
-        "sourceName": "Greater Birmingham Chambers of Commerce",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdk1BTTBWRzBacTIyc0xHbjZWQlV2QmgtU19NaGF1OG9wd0ZHalRlVjJEbWphNm1yY0Y2OF84T2xtSkZQTGlrVTdwTHlYdUp4bm1TTHc5c3MyRWduc0hvcXhWaEdfWERYUkdvd3MyM3pUUm50REduT2hnUXRRSGNkaHdqVTd6cEsxbmw2ejBrc3p2ejE1eHFrbU0xNlRQcF9oMllKQ25qVGZvNFhFcy1yZUZaR2FNVkhNWlpwNV9STHAxa2R3TWNING02c2ZTMHhiNEE?oc=5",
+        "koTitle": "글로벌 경영진이 AI 경제에서 일자리 창출 및 인력 기술에 대해 논의합니다.",
+        "enTitle": "Global Executives Discuss Job Creation & Workforce Skills in AI Economy",
+        "date": "2026-10-23",
+        "originalDate": "2026-10-22",
+        "sourceName": "Bangkok Post",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdTNaR3puTVp3WnU4T3pPVUFHWGVVTEZ5UXBBYXZlMDZLdDJJUXdvNjlwQi1Rcl9WR05lVDVqMEFTSnhkamZBeEVMYVduQlpLQm5YX3haZVlCclN1TzZhNnBJb21mUHAzcEdXSFhUeF9HY2pDU183dWZkOHNibmxMTW9EZXBNaDZyb2ZvLTdVbmJhbjdSRHE3TFVKY0V0SlNUYmZYNHV2Q2Q2NGtVVjJDUVlJYUpfSkRI?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! Future Faces 회원이 버밍엄 테크 위크 (Birmingham Tech Week) 에서 경력 조언과 AI 통찰력을 공유합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 글로벌 경영진이 AI 경제에서 일자리 창출 및 인력 기술에 대해 논의합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "국제 AI 전략가이자 저자 인 Katie King, IAMPHENOM EUROPE 2026 기조 연설",
-        "enTitle": "International AI Strategist and Author Katie King to Keynote IAMPHENOM Europe 2026",
-        "date": "2026-10-22",
+        "koTitle": "AI, 지저분한 일자리, 그리고 학교 교육의 미래",
+        "enTitle": "AI, Messy Jobs, and the Future of Schooling",
+        "date": "2026-10-23",
         "originalDate": "2026-10-21",
-        "sourceName": "HRTech Series",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSkVoQWNKQVAyMTZXOUM5SklTUkUtQWUyZHFfYXpjYTU2dy1acVoyYUd2NzJVZE5fUWtYM1hVeVY5QmZ3TGo0VHVoa2R3WG8wX0lTS2NneUU0ZXpEME5iemZCcUh4MWJqVXNwSGV5VW1rSDhSRVZyT2lYSVhJeUdHeU5jSFByMTlzZ3Zrc0hVbHhVT3hsa01wZVIzcE9ZUHlULUd3enF3cFV5YURZQ2oyUS0wTGI?oc=5",
+        "sourceName": "Education Next",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWW01cXZjdE9GaU1qdEJMSmF0cFlpdnpTd3h2NkVFSVJ6Z183SVlfQ2g1S0FEc2M0NkQ5NzV2a1RqSm1tYklCN2FKN0RKN3RhQ2RJaW1FRl9rOTRDMFhBYy1GTjJWVlJZcW5SaHBmTEtER2FlWm9xTElZVWJDMUMzTGYxdi1OWmNwRDhCbg?oc=5",
         "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "글로벌 AI 트렌드 체크! 국제 AI 전략가이자 저자 인 Katie King, IAMPHENOM EUROPE 2026 기조 연설 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! AI, 지저분한 일자리, 그리고 학교 교육의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "제미나이 4 아르곤: 가장 까다로운 난제를 해결하도록 설계된 모델",
-        "enTitle": "제미나이 4 아르곤: 가장 까다로운 난제를 해결하도록 설계된 모델",
-        "date": "2026-10-22",
-        "originalDate": "2026-10-21",
-        "sourceName": "blog.google",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51czdyblRzU3U2a2lYWTQyQXhPYjJCTmxWVjE2RS13NVlySzBZQ0VVRjRVSkFLYVZKZTlJLWZfSmxlT3g3TFRNS09KRE1waEhKd1lCSWI3TWo5OUxXRFBlVU9EdUlEU3d3VjFfR21ySjVCZlNpbFEyTFlR?oc=5",
+        "koTitle": "앤트로픽도 AI 에이전트 경쟁 뛰어든다…'클로드 듀엣' 공개",
+        "enTitle": "앤트로픽도 AI 에이전트 경쟁 뛰어든다…'클로드 듀엣' 공개",
+        "date": "2026-10-23",
+        "originalDate": "2026-10-22",
+        "sourceName": "전자신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBJYUNYWWNOaDBldG1YY2ZOVzlHWTRidXB1Sy05OWRveTNWSkdWeUdyMEs1aGlrWUxiUV9DT1BXYVJneGpwcGExZHk5LTNBdw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 제미나이 4 아르곤: 가장 까다로운 난제를 해결하도록 설계된 모델 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽도 AI 에이전트 경쟁 뛰어든다…'클로드 듀엣' 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "OpenAI가 업무에 ChatGPT Atlas를 활용하는 방법",
-        "enTitle": "OpenAI가 업무에 ChatGPT Atlas를 활용하는 방법",
-        "date": "2026-10-22",
-        "originalDate": "2026-10-21",
+        "koTitle": "ChatGPT의 시각 및 음성 기능",
+        "enTitle": "ChatGPT의 시각 및 음성 기능",
+        "date": "2026-10-23",
+        "originalDate": "2026-10-22",
         "sourceName": "OpenAI",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOazVJUHdlSm0xczdrV3F2SFlQZVBLUnp5aHdRRzJSSUJDckdhWlkwSU1qNHRlc2l0MjNkX0ZqQVNVendiekpoa3BxR1Mxdk5Uc3JkWmVuMkxpeHRVSWE1VWJmVVFsZ1IwenpzQVJlU3FNWHNKcTBnM09mOWRub1FlZkY3YWg?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5oa3M3ZDB0RThwWmhJVkpIa3NpT0ZEcWEzczN1UXhSRTBhSTVvbjNJazdLSjNEdWktSF9lYUg3eUFVbFhJa1dzRmNteXV1M1Y1UzZDdUZDVGJZajZ3RDlDVHZPblNtbkI2VTNZdmlna0pSOG9INkIw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! OpenAI가 업무에 ChatGPT Atlas를 활용하는 방법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! ChatGPT의 시각 및 음성 기능 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "환경산업기술원, 시장 출시 앞둔 환경 AI 서비스 7종 선봬",
-        "enTitle": "환경산업기술원, 시장 출시 앞둔 환경 AI 서비스 7종 선봬",
-        "date": "2026-10-22",
-        "originalDate": "2026-10-21",
-        "sourceName": "전기신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zNi1vY0ZRQng2LUl2T05wVmFKSmFNLS03XzZrZlc2SlJlczVhTXBTSDJXdjN1MkRveTI1a1g3NjduSjV4QWpqRno1OGYxQkhMQy00OGg3cU1Ccy0zQlladG5BbkJnYUVteXNBZ3FZX1TSAXBBVV95cUxOczYtb2NGUUJ4Ni1Jdk9OcFZhSkphTS0tN182a2ZXNkpSZXM1YU1wU0gyV3YzdTJEb3kyNWtYNzY3bko1eEFqakZ6NThmMUJITEMtNDhoN3FNQnMtM0JZWnRuQW5CZ2FFbXlzQWdxWV9U?oc=5",
+        "koTitle": "'창간 16주년' 베이비뉴스, AI 반응형 홈페이지 오픈... 앱 출시",
+        "enTitle": "'창간 16주년' 베이비뉴스, AI 반응형 홈페이지 오픈... 앱 출시",
+        "date": "2026-10-23",
+        "originalDate": "2026-10-22",
+        "sourceName": "베이비뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jMnI2WlNqZllYcERiejNoaE5naTltQjljWWstZ01qeUVMb1haemhjZ0p2MFBpeHNsYjFRaWlXM0dqTlJTaVJVZzNmdkd6Nm5pV0ZSYV9kekJXNzhsVTRZMHJiWVMzUFRqSVk5cg?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 환경산업기술원, 시장 출시 앞둔 환경 AI 서비스 7종 선봬 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! '창간 16주년' 베이비뉴스, AI 반응형 홈페이지 오픈... 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
