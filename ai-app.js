@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-23
+ * 최신 업데이트: 2026-10-24
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "호철, AI 커리어를 위한 뉴요커 4만 명 양성 퀸즈 일자리 허브 공개​",
-        "enTitle": "Hochul unveils Queens jobs hub to train 40,000 New Yorkers for AI careers​",
-        "date": "2026-10-23",
-        "originalDate": "2026-10-22",
-        "sourceName": "Crain's New York",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRndMQnFKbEhmZnFKSkVZOXVqZlNzZm8xTUE1andxT0x4aHhZMmdYWGhna2R1dnE0QlV2aUhScGNOd2tYMno4bXJUNkEwbTJUdTNCeTNLZ2UwN2RVa0hYT1FiOUhFRU41d0V3Z1Z5OXRYamRsQTNMMkVvdVlFUWpzR3NsNnFxMExpcEpZem9INA?oc=5",
+        "koTitle": "전문가들은 AI가 회사의 업무를 어떻게 변화시켰는지 상세히 설명한 Anthropic 보고서에 의구심을 제기합니다.",
+        "enTitle": "Experts cast doubt on Anthropic report detailing how AI has altered work at the company",
+        "date": "2026-10-24",
+        "originalDate": "2026-10-23",
+        "sourceName": "The Guardian",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVGtBREc5bkZGWEZuOWh1VFljWllKZ1FaUDM1eElQNFFfTFpkM2JqNzRxSzRlUnFQRUdITWNQM1NGMGxPN3lpdDd3cFZCbzB6OUVlUEJYWEN0bGhUYW5LckdlU1FVVlk5VHlsU01MNDg4SXFETFdXR1FBdDJ5bEROdHkzUzRGMmYzbVlTcjduR3M?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! 호철, AI 커리어를 위한 뉴요커 4만 명 양성 퀸즈 일자리 허브 공개​ 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 전문가들은 AI가 회사의 업무를 어떻게 변화시켰는지 상세히 설명한 Anthropic 보고서에 의구심을 제기합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "글로벌 경영진이 AI 경제에서 일자리 창출 및 인력 기술에 대해 논의합니다.",
-        "enTitle": "Global Executives Discuss Job Creation & Workforce Skills in AI Economy",
-        "date": "2026-10-23",
-        "originalDate": "2026-10-22",
-        "sourceName": "Bangkok Post",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdTNaR3puTVp3WnU4T3pPVUFHWGVVTEZ5UXBBYXZlMDZLdDJJUXdvNjlwQi1Rcl9WR05lVDVqMEFTSnhkamZBeEVMYVduQlpLQm5YX3haZVlCclN1TzZhNnBJb21mUHAzcEdXSFhUeF9HY2pDU183dWZkOHNibmxMTW9EZXBNaDZyb2ZvLTdVbmJhbjdSRHE3TFVKY0V0SlNUYmZYNHV2Q2Q2NGtVVjJDUVlJYUpfSkRI?oc=5",
+        "koTitle": "새로운 연구에 따르면 AI 및 자동화 증가로 인해 가장 위험에 처한 작업과 작업이 밝혀졌습니다.",
+        "enTitle": "New Research Reveals Which Jobs and Tasks Are Most at Risk from AI and Increasing Automation",
+        "date": "2026-10-24",
+        "originalDate": "2026-10-23",
+        "sourceName": "Fair Play Talks",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYXZYYTA1c0hCY0xEUnFkWVY5TGVLMlUwNU5hNm5aSTFrYkMyZUM5RXdNQnQ2dno0cFBMY3IxQjNrVEU0VVZBVGVtQmhocmJFZlZrcWlzQmgwbVZCOVJvZ0FuQUxyMllCOTRmWGRTQ0wzVzd0ck1CQ3MwNDl1V1JIS3ZZeEJsV0lCb241dkEzWEhFOU1tLVRMLXBJN0NWSjltVmZtMW1QSHE4U0lmZ3N0RWxvbFB2aFZpTG5JTjJPZksxZ3NHc1RlazNkVTF5c1E?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 글로벌 경영진이 AI 경제에서 일자리 창출 및 인력 기술에 대해 논의합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 새로운 연구에 따르면 AI 및 자동화 증가로 인해 가장 위험에 처한 작업과 작업이 밝혀졌습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI, 지저분한 일자리, 그리고 학교 교육의 미래",
-        "enTitle": "AI, Messy Jobs, and the Future of Schooling",
-        "date": "2026-10-23",
-        "originalDate": "2026-10-21",
-        "sourceName": "Education Next",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWW01cXZjdE9GaU1qdEJMSmF0cFlpdnpTd3h2NkVFSVJ6Z183SVlfQ2g1S0FEc2M0NkQ5NzV2a1RqSm1tYklCN2FKN0RKN3RhQ2RJaW1FRl9rOTRDMFhBYy1GTjJWVlJZcW5SaHBmTEtER2FlWm9xTElZVWJDMUMzTGYxdi1OWmNwRDhCbg?oc=5",
+        "koTitle": "영국 최고재무책임자 (CFO) 는 AI 일자리 삭감을 기대하지만, 채택자의 6% 만이 보고합니다.",
+        "enTitle": "UK CFOs Expect AI Job Cuts—but Only 6% of Adopters Report Them",
+        "date": "2026-10-24",
+        "originalDate": "2026-10-23",
+        "sourceName": "Quasa.io",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNjJzYTBrYjNMSi1pZ2Rha1RSQkJNV3N6S2hJX2gwVlAxNXp1cHlodk5KNHdYb3dNT3huRU1vWTdET1p5dU9jWngwM3Vielk1Y0pUT2RLcnNUVExvbGhOMHZ2WG9kczZ2N01Oa2pKTDFzdHc1QXJKOXctNzhCZndEb3NsYXcydnhiczU4c1ZCbw?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! AI, 지저분한 일자리, 그리고 학교 교육의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 영국 최고재무책임자 (CFO) 는 AI 일자리 삭감을 기대하지만, 채택자의 6% 만이 보고합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "앤트로픽도 AI 에이전트 경쟁 뛰어든다…'클로드 듀엣' 공개",
-        "enTitle": "앤트로픽도 AI 에이전트 경쟁 뛰어든다…'클로드 듀엣' 공개",
-        "date": "2026-10-23",
-        "originalDate": "2026-10-22",
-        "sourceName": "전자신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBJYUNYWWNOaDBldG1YY2ZOVzlHWTRidXB1Sy05OWRveTNWSkdWeUdyMEs1aGlrWUxiUV9DT1BXYVJneGpwcGExZHk5LTNBdw?oc=5",
+        "koTitle": "[분석] 이재명 대통령은 왜 챗GPT 대신 ‘제미나이’를 썼을까",
+        "enTitle": "[분석] 이재명 대통령은 왜 챗GPT 대신 ‘제미나이’를 썼을까",
+        "date": "2026-10-24",
+        "originalDate": "2026-10-23",
+        "sourceName": "에너지경제신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1MWNCYThyd0VzYkdaV250ajdBSDFIYUhhZnhTa0VnNk5xZC13U3BzT0VPeHBKU1lmR0lxZHlWOGFkeWtpYXVkWlVMbVNaMk11TzE4Z3lwZy15dlE?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽도 AI 에이전트 경쟁 뛰어든다…'클로드 듀엣' 공개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [분석] 이재명 대통령은 왜 챗GPT 대신 ‘제미나이’를 썼을까 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "ChatGPT의 시각 및 음성 기능",
-        "enTitle": "ChatGPT의 시각 및 음성 기능",
-        "date": "2026-10-23",
-        "originalDate": "2026-10-22",
-        "sourceName": "OpenAI",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5oa3M3ZDB0RThwWmhJVkpIa3NpT0ZEcWEzczN1UXhSRTBhSTVvbjNJazdLSjNEdWktSF9lYUg3eUFVbFhJa1dzRmNteXV1M1Y1UzZDdUZDVGJZajZ3RDlDVHZPblNtbkI2VTNZdmlna0pSOG9INkIw?oc=5",
+        "koTitle": "에임인텔리전스, 오픈AI 연계 앱 보안 평가 서비스 출시",
+        "enTitle": "에임인텔리전스, 오픈AI 연계 앱 보안 평가 서비스 출시",
+        "date": "2026-10-24",
+        "originalDate": "2026-10-23",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRdm5mamxwR3dlcWwtMEZhQWpYa0pucjFUc0xtUC1fdWg2TV9lVXlHcGFxUERYSGJacnhaOVBnRm9nOGs4UkJSczBSRG9STzZZbmNFWHFWakUzT2NNc05jUFF0azdmMWhuaVE?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! ChatGPT의 시각 및 음성 기능 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 에임인텔리전스, 오픈AI 연계 앱 보안 평가 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "'창간 16주년' 베이비뉴스, AI 반응형 홈페이지 오픈... 앱 출시",
-        "enTitle": "'창간 16주년' 베이비뉴스, AI 반응형 홈페이지 오픈... 앱 출시",
-        "date": "2026-10-23",
-        "originalDate": "2026-10-22",
-        "sourceName": "베이비뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jMnI2WlNqZllYcERiejNoaE5naTltQjljWWstZ01qeUVMb1haemhjZ0p2MFBpeHNsYjFRaWlXM0dqTlJTaVJVZzNmdkd6Nm5pV0ZSYV9kekJXNzhsVTRZMHJiWVMzUFRqSVk5cg?oc=5",
+        "koTitle": "우버, OpenAI와 함께 전 직원에게 ChatGPT Work 도입",
+        "enTitle": "우버, OpenAI와 함께 전 직원에게 ChatGPT Work 도입",
+        "date": "2026-10-24",
+        "originalDate": "2026-10-23",
+        "sourceName": "OpenAI",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtcW9rSjNHb2NSS2x2Mi04VEJoMTlhUlFyakhyZ0FkUnA3OFl3dXNCSzRzd0pkUGFRYjNjOXRmQnVXZVBDcllOUnJsdy1OS2xiNDlib2w2WHNkUmE0MzB1bE9DMEhaS0JO?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! '창간 16주년' 베이비뉴스, AI 반응형 홈페이지 오픈... 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 우버, OpenAI와 함께 전 직원에게 ChatGPT Work 도입 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
