@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-24
+ * 최신 업데이트: 2026-10-25
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "전문가들은 AI가 회사의 업무를 어떻게 변화시켰는지 상세히 설명한 Anthropic 보고서에 의구심을 제기합니다.",
-        "enTitle": "Experts cast doubt on Anthropic report detailing how AI has altered work at the company",
-        "date": "2026-10-24",
-        "originalDate": "2026-10-23",
-        "sourceName": "The Guardian",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVGtBREc5bkZGWEZuOWh1VFljWllKZ1FaUDM1eElQNFFfTFpkM2JqNzRxSzRlUnFQRUdITWNQM1NGMGxPN3lpdDd3cFZCbzB6OUVlUEJYWEN0bGhUYW5LckdlU1FVVlk5VHlsU01MNDg4SXFETFdXR1FBdDJ5bEROdHkzUzRGMmYzbVlTcjduR3M?oc=5",
+        "koTitle": "Piyush Goyal tasks ministry with mapping 'AI-proof' jobs as India plans for future of work",
+        "enTitle": "Piyush Goyal tasks ministry with mapping 'AI-proof' jobs as India plans for future of work",
+        "date": "2026-10-25",
+        "originalDate": "2026-10-24",
+        "sourceName": "Moneycontrol.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPV0p3dHVaRTlXZU9wUjdET0JtbUFqMFBmekhsWTlHUHJCclMwZVpmYUxtN2tabHdnWWJPZzlRdHloMUtqd3JmUFVydjJ3NVJsaDRfZUtCSjNIMEw3ZVNuM2xwdjZYdUphOTZDYkMzeGRhUUhSaHMxZ0VDRGExakVUYmJnT3o3NnBoU0tINGVPNFFsMzNfWHR1UUN2T3oxNTQySHRja2Vaak5LRXh3bDdQUnZ2X0FpWDNCS2thbHFFUF9BNG1fZU5sZkxTc1k1SDNNemswTFNfRHdSaV82aXd5ajZNcDNMYUc4R2pVeXZjQdIB9AFBVV95cUxPZUhpYzJ3QVF3V09peFdyT3J5Yy1qbWJaUFE2WkhkbjFJTG9QNEhPal8xeXVBNGVPdWUyOFZDdk9Vak5pVWpFeDYzSFU4VTFxeTcyQ3FnNHNkdzVTZG1pZ0NqTlZyX05ZNEVjNHZXVmVKYm9LQWlFc1haY1BZZ3VrbEJVWmFhenlfT20wbmhrOEZMVV9KbHBhNUdxZXdoaVI3c2RtRHl2T2MzTHNhNWs2VmRmYWg1UkRtTXZWN2RkR0phTkJvQVRIQVQwZzZ1QThCUTk2MDhiZ25KWlk0eEEtbXZ1RUlKd3BCYTZNRGFTbnJZQkFa?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 전문가들은 AI가 회사의 업무를 어떻게 변화시켰는지 상세히 설명한 Anthropic 보고서에 의구심을 제기합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! Piyush Goyal tasks ministry with mapping 'AI-proof' jobs as India plans for future of work 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "새로운 연구에 따르면 AI 및 자동화 증가로 인해 가장 위험에 처한 작업과 작업이 밝혀졌습니다.",
-        "enTitle": "New Research Reveals Which Jobs and Tasks Are Most at Risk from AI and Increasing Automation",
-        "date": "2026-10-24",
+        "koTitle": "젊은 중국인들이 인공지능에게 패션 조언을 구하고 바이럴에 빠지다",
+        "enTitle": "Young Chinese Are Asking AI for Fashion Advice, and Going Viral",
+        "date": "2026-10-25",
         "originalDate": "2026-10-23",
-        "sourceName": "Fair Play Talks",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYXZYYTA1c0hCY0xEUnFkWVY5TGVLMlUwNU5hNm5aSTFrYkMyZUM5RXdNQnQ2dno0cFBMY3IxQjNrVEU0VVZBVGVtQmhocmJFZlZrcWlzQmgwbVZCOVJvZ0FuQUxyMllCOTRmWGRTQ0wzVzd0ck1CQ3MwNDl1V1JIS3ZZeEJsV0lCb241dkEzWEhFOU1tLVRMLXBJN0NWSjltVmZtMW1QSHE4U0lmZ3N0RWxvbFB2aFZpTG5JTjJPZksxZ3NHc1RlazNkVTF5c1E?oc=5",
+        "sourceName": "Sixth Tone",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzUzZoM0djRXBEMFVUWENCcklGM0E2SkNNd0gxdHotTDRaM1p3Nk4wVmZsbXBrWVRMRm5pVkFPS3pFZW5qeVJ5VHhBOW1BbG8?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 새로운 연구에 따르면 AI 및 자동화 증가로 인해 가장 위험에 처한 작업과 작업이 밝혀졌습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 젊은 중국인들이 인공지능에게 패션 조언을 구하고 바이럴에 빠지다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "영국 최고재무책임자 (CFO) 는 AI 일자리 삭감을 기대하지만, 채택자의 6% 만이 보고합니다.",
-        "enTitle": "UK CFOs Expect AI Job Cuts—but Only 6% of Adopters Report Them",
-        "date": "2026-10-24",
+        "koTitle": "전문가들은 AI가 회사의 업무를 어떻게 변화시켰는지 상세히 설명한 Anthropic 보고서에 의구심을 제기합니다.",
+        "enTitle": "Experts cast doubt on Anthropic report detailing how AI has altered work at the company",
+        "date": "2026-10-25",
         "originalDate": "2026-10-23",
-        "sourceName": "Quasa.io",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNjJzYTBrYjNMSi1pZ2Rha1RSQkJNV3N6S2hJX2gwVlAxNXp1cHlodk5KNHdYb3dNT3huRU1vWTdET1p5dU9jWngwM3Vielk1Y0pUT2RLcnNUVExvbGhOMHZ2WG9kczZ2N01Oa2pKTDFzdHc1QXJKOXctNzhCZndEb3NsYXcydnhiczU4c1ZCbw?oc=5",
+        "sourceName": "The Guardian",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVGtBREc5bkZGWEZuOWh1VFljWllKZ1FaUDM1eElQNFFfTFpkM2JqNzRxSzRlUnFQRUdITWNQM1NGMGxPN3lpdDd3cFZCbzB6OUVlUEJYWEN0bGhUYW5LckdlU1FVVlk5VHlsU01MNDg4SXFETFdXR1FBdDJ5bEROdHkzUzRGMmYzbVlTcjduR3M?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 영국 최고재무책임자 (CFO) 는 AI 일자리 삭감을 기대하지만, 채택자의 6% 만이 보고합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 전문가들은 AI가 회사의 업무를 어떻게 변화시켰는지 상세히 설명한 Anthropic 보고서에 의구심을 제기합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[분석] 이재명 대통령은 왜 챗GPT 대신 ‘제미나이’를 썼을까",
-        "enTitle": "[분석] 이재명 대통령은 왜 챗GPT 대신 ‘제미나이’를 썼을까",
-        "date": "2026-10-24",
-        "originalDate": "2026-10-23",
-        "sourceName": "에너지경제신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1MWNCYThyd0VzYkdaV250ajdBSDFIYUhhZnhTa0VnNk5xZC13U3BzT0VPeHBKU1lmR0lxZHlWOGFkeWtpYXVkWlVMbVNaMk11TzE4Z3lwZy15dlE?oc=5",
+        "koTitle": "앤트로픽, 클로드로 오픈소스 123개 라이브러리 검증...수십 년 버그도 발견",
+        "enTitle": "앤트로픽, 클로드로 오픈소스 123개 라이브러리 검증...수십 년 버그도 발견",
+        "date": "2026-10-25",
+        "originalDate": "2026-10-24",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEaWxJQkVSUjFqX1RaQWlZZ0ZvaXRzcU9UbU0zZ2VBVmY5ZF9iQ3RZLWdGVUQ0NkNMa29FQjhBN3NlU2ZUNnZja252bFRFbDR6X2ZmV1VYVUtnbmY2d3BKODJMWlB6SXBmNHc?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [분석] 이재명 대통령은 왜 챗GPT 대신 ‘제미나이’를 썼을까 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 클로드로 오픈소스 123개 라이브러리 검증...수십 년 버그도 발견 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "에임인텔리전스, 오픈AI 연계 앱 보안 평가 서비스 출시",
-        "enTitle": "에임인텔리전스, 오픈AI 연계 앱 보안 평가 서비스 출시",
-        "date": "2026-10-24",
-        "originalDate": "2026-10-23",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRdm5mamxwR3dlcWwtMEZhQWpYa0pucjFUc0xtUC1fdWg2TV9lVXlHcGFxUERYSGJacnhaOVBnRm9nOGs4UkJSczBSRG9STzZZbmNFWHFWakUzT2NNc05jUFF0azdmMWhuaVE?oc=5",
+        "koTitle": "\"AI로 가짜 신원·대리 면접까지\"…북한 IT 인력 위장취업 수법 '진화'",
+        "enTitle": "\"AI로 가짜 신원·대리 면접까지\"…북한 IT 인력 위장취업 수법 '진화'",
+        "date": "2026-10-25",
+        "originalDate": "2026-10-24",
+        "sourceName": "KBC광주방송",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5tN1g4ZjRodUt0WTNzbGg0akNjcEkxQVlUYzRWMmx3T2hIOTFPSlpZUS1kMnpiUTFMR2xZRG93bUJxX0ZfYmdvc2d4WDQ3QXdwRVBZTEVZeEpaWFVyWWlhTA?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 에임인텔리전스, 오픈AI 연계 앱 보안 평가 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! \"AI로 가짜 신원·대리 면접까지\"…북한 IT 인력 위장취업 수법 '진화' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "우버, OpenAI와 함께 전 직원에게 ChatGPT Work 도입",
-        "enTitle": "우버, OpenAI와 함께 전 직원에게 ChatGPT Work 도입",
-        "date": "2026-10-24",
-        "originalDate": "2026-10-23",
-        "sourceName": "OpenAI",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtcW9rSjNHb2NSS2x2Mi04VEJoMTlhUlFyakhyZ0FkUnA3OFl3dXNCSzRzd0pkUGFRYjNjOXRmQnVXZVBDcllOUnJsdy1OS2xiNDlib2w2WHNkUmE0MzB1bE9DMEhaS0JO?oc=5",
+        "koTitle": "앤트로픽, 구글 클라우드서 최신 기능 쓰는 '관리형 클로드' 출시",
+        "enTitle": "앤트로픽, 구글 클라우드서 최신 기능 쓰는 '관리형 클로드' 출시",
+        "date": "2026-10-25",
+        "originalDate": "2026-10-24",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BVlRJcGpQUmpHMEcwel9OS0FxRHM3Q01vX1hScFpCUHpjQnZtQ0FybWFneWZYY2JCaVZsbDB1SUJQYmFJeUFGMGFZZnhYZmctdUtHeE12Y1c5aFFtWlM5Q0Qyd1hYU1YycHc?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 우버, OpenAI와 함께 전 직원에게 ChatGPT Work 도입 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "96%",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, 구글 클라우드서 최신 기능 쓰는 '관리형 클로드' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
