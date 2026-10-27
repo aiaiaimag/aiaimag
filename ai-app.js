@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-26
+ * 최신 업데이트: 2026-10-27
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Piyush Goyal tasks ministry with mapping 'AI-proof' jobs as India plans for future of work",
-        "enTitle": "Piyush Goyal tasks ministry with mapping 'AI-proof' jobs as India plans for future of work",
-        "date": "2026-10-26",
-        "originalDate": "2026-10-24",
-        "sourceName": "Moneycontrol.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPV0p3dHVaRTlXZU9wUjdET0JtbUFqMFBmekhsWTlHUHJCclMwZVpmYUxtN2tabHdnWWJPZzlRdHloMUtqd3JmUFVydjJ3NVJsaDRfZUtCSjNIMEw3ZVNuM2xwdjZYdUphOTZDYkMzeGRhUUhSaHMxZ0VDRGExakVUYmJnT3o3NnBoU0tINGVPNFFsMzNfWHR1UUN2T3oxNTQySHRja2Vaak5LRXh3bDdQUnZ2X0FpWDNCS2thbHFFUF9BNG1fZU5sZkxTc1k1SDNNemswTFNfRHdSaV82aXd5ajZNcDNMYUc4R2pVeXZjQdIB9AFBVV95cUxPZUhpYzJ3QVF3V09peFdyT3J5Yy1qbWJaUFE2WkhkbjFJTG9QNEhPal8xeXVBNGVPdWUyOFZDdk9Vak5pVWpFeDYzSFU4VTFxeTcyQ3FnNHNkdzVTZG1pZ0NqTlZyX05ZNEVjNHZXVmVKYm9LQWlFc1haY1BZZ3VrbEJVWmFhenlfT20wbmhrOEZMVV9KbHBhNUdxZXdoaVI3c2RtRHl2T2MzTHNhNWs2VmRmYWg1UkRtTXZWN2RkR0phTkJvQVRIQVQwZzZ1QThCUTk2MDhiZ25KWlk0eEEtbXZ1RUlKd3BCYTZNRGFTbnJZQkFa?oc=5",
+        "koTitle": "AI 중심의 세상을 위한 교육에 대한 재고",
+        "enTitle": "Rethinking education for an AI-driven world",
+        "date": "2026-10-27",
+        "originalDate": "2026-10-26",
+        "sourceName": "The Official Microsoft Blog",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONmh2TWVQRHR2MlNYb2xIa0o1SGlkSDhmdjVmR19XeG95M1JPZ0R4UUNsNE42R1ZGREw1bDA1dFZqUnFOTEhibVk4QmRoSE1QZDNvX3hNYkg4aXZCZzZhQXBWSWhCTFl0ODBacTFxYzBLdzhjQmY5RkhjNUwtY0huVGNjUmtBV3lRTUxaeklGQ2JGQ1NyenR2Zmh1TFFMWW5EWG8xb0xMeDFQNVFXQUZOOF92dHFHTTBxV1psd0lybkI1Qld5WDlldllvaDJzMVhGb240LTRaZmM5QQ?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! Piyush Goyal tasks ministry with mapping 'AI-proof' jobs as India plans for future of work 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "98%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 중심의 세상을 위한 교육에 대한 재고 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "젊은 중국인들이 인공지능에게 패션 조언을 구하고 바이럴에 빠지다",
-        "enTitle": "Young Chinese Are Asking AI for Fashion Advice, and Going Viral",
-        "date": "2026-10-26",
-        "originalDate": "2026-10-23",
-        "sourceName": "Sixth Tone",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzUzZoM0djRXBEMFVUWENCcklGM0E2SkNNd0gxdHotTDRaM1p3Nk4wVmZsbXBrWVRMRm5pVkFPS3pFZW5qeVJ5VHhBOW1BbG8?oc=5",
+        "koTitle": "AI 직업 두려움은 젊은 사람들을 실무 경력으로 밀어 넣습니다. 설문 조사 결과",
+        "enTitle": "AI job fears push young people towards hands-on careers, survey finds",
+        "date": "2026-10-27",
+        "originalDate": "2026-10-26",
+        "sourceName": "FarmingUK",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVHV1UnNvQV9FdnVpaWtCbDl0U2xhbXhXNzFRZUJjWHRZcTUxMV9fbmtaT0dDeDF1djhlel81UTFNWEttWElqYW9LaE1hdjNWdEFkcWNiV3VVdDJrUkd1d0tNZ2tnWDB3cnNVV3FUWFlwWnJGSG1pRWs2VHZwUG9wMURrT1F2eGRxcG5lejBhaFZ2UkI4ZHFMdjFDV2J3bjJUZnl0QXhEQTg2WEdzb01n?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 젊은 중국인들이 인공지능에게 패션 조언을 구하고 바이럴에 빠지다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 직업 두려움은 젊은 사람들을 실무 경력으로 밀어 넣습니다. 설문 조사 결과 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "전문가들은 AI가 회사의 업무를 어떻게 변화시켰는지 상세히 설명한 Anthropic 보고서에 의구심을 제기합니다.",
-        "enTitle": "Experts cast doubt on Anthropic report detailing how AI has altered work at the company",
-        "date": "2026-10-26",
-        "originalDate": "2026-10-23",
-        "sourceName": "The Guardian",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVGtBREc5bkZGWEZuOWh1VFljWllKZ1FaUDM1eElQNFFfTFpkM2JqNzRxSzRlUnFQRUdITWNQM1NGMGxPN3lpdDd3cFZCbzB6OUVlUEJYWEN0bGhUYW5LckdlU1FVVlk5VHlsU01MNDg4SXFETFdXR1FBdDJ5bEROdHkzUzRGMmYzbVlTcjduR3M?oc=5",
+        "koTitle": "갈림길에 선 남아프리카공화국의 인력: 500명 이상의 리더가 AI, 기술 및 미래의 일자리에 맞서고 있습니다.",
+        "enTitle": "South Africa’s workforce at a crossroads: 500+ leaders confront AI, skills and the future of jobs",
+        "date": "2026-10-27",
+        "originalDate": "2026-10-26",
+        "sourceName": "Bizcommunity",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa05CVmd0dnhXeFY3Z00xREUxdHVQZFY1ZVRNQ2tRb1QzSnFxYkNJQTlFa09JZDBHTmJQTy1XeC12bU1zem9lYko5MThrVDlZYWVVMmY3MmNuaW53V2NlbjNTMENFSGFRMy1Mdlg4bmdua2hob3FGU05jMVhlN3hlOTYwZWp6ckZOdTNETWViRnNXT0o1M2NpejlrQkJzc3drUWptOE5QNEllTEJXVlp6bk05VGpfWHRWMnhfc2VxX0MtSnMwaDRBS3FKRTBFZVhaZElpTQ?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! 전문가들은 AI가 회사의 업무를 어떻게 변화시켰는지 상세히 설명한 Anthropic 보고서에 의구심을 제기합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 갈림길에 선 남아프리카공화국의 인력: 500명 이상의 리더가 AI, 기술 및 미래의 일자리에 맞서고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "'클로드'가 그림에 숨긴 문장, '아스트라'가 풀었다…88% 해독",
-        "enTitle": "'클로드'가 그림에 숨긴 문장, '아스트라'가 풀었다…88% 해독",
-        "date": "2026-10-26",
-        "originalDate": "2026-10-25",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBleXd4UGFObFRtamZYR0w0eGRRSGNoSmJZNUVGNHZOcTM1TE5Za0Y3YkYwWnlGVXdVck8yVzJTS2draTVMOHl5UmlhRWVOc1Q5ZF9iem9mdkg4UF9lRkxZNzJZUUdFOUp2VHc?oc=5",
+        "koTitle": "SK스피드메이트, 차량 관리 앱 출시... 61개 항목 AI 점검 도입",
+        "enTitle": "SK스피드메이트, 차량 관리 앱 출시... 61개 항목 AI 점검 도입",
+        "date": "2026-10-27",
+        "originalDate": "2026-10-27",
+        "sourceName": "녹색경제신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QbllpUTlqel9IQmJXanIwbkF2d09YV043NzV5ajBvb2VKNVJCQWFjXzZHdWJNV19HMm9VUWNvRVp5d2l4V0gyS2JQV25JX0tHZVpUMkFPUFJqZlRQYnREWGZ1UktFcEJV?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! '클로드'가 그림에 숨긴 문장, '아스트라'가 풀었다…88% 해독 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! SK스피드메이트, 차량 관리 앱 출시... 61개 항목 AI 점검 도입 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "\"천문학적 투자 대비 수익은 어디에\"… 中 AI 랠리 붕괴, '반도체 자립 드라이브' 강타",
-        "enTitle": "\"천문학적 투자 대비 수익은 어디에\"… 中 AI 랠리 붕괴, '반도체 자립 드라이브' 강타",
-        "date": "2026-10-26",
-        "originalDate": "2026-10-25",
-        "sourceName": "글로벌이코노믹",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY0RIdWVVdFVxSWsyWnhFRlNaY1M0aWlxeTRsTHlRRjBITVBmTGFjRmRZYmdpNDVqSlhXejZxZ0Q4Y0FvcXZ6NWx4WWlFTVdTRlgzLTB3LUlubGxZbEgtWXZ0NjE1NUY1VDdPTTRqQ1NndVFNUVFwaWVnVS1TUUpsUUp2Z0EzbXpX?oc=5",
+        "koTitle": "ChatGPT, 기술 지원 문제를 해결할 곳으로 404 Media를 계속 추천함",
+        "enTitle": "ChatGPT, 기술 지원 문제를 해결할 곳으로 404 Media를 계속 추천함",
+        "date": "2026-10-27",
+        "originalDate": "2026-10-26",
+        "sourceName": "GeekNews",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9CbTRISjhUY0xNVmk1cURRY2QxQUVQNUd1ZGpTeXZZdl9GYWpYTkJVQjNidHZ3YTRLQU1vRGwwcmROQUhLYUlqamRHTQ?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! \"천문학적 투자 대비 수익은 어디에\"… 中 AI 랠리 붕괴, '반도체 자립 드라이브' 강타 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! ChatGPT, 기술 지원 문제를 해결할 곳으로 404 Media를 계속 추천함 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "\"취업해도 AI가 일한다\"‥신입사원 '경력 사다리' 끊기나",
-        "enTitle": "\"취업해도 AI가 일한다\"‥신입사원 '경력 사다리' 끊기나",
-        "date": "2026-10-26",
-        "originalDate": "2026-10-25",
-        "sourceName": "MBC 뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9FMkQ3cGJtdHpmZDNaYURpUWNTY2VDaGZtZ3h1emlHOGxXVUdqR0RNVUFBVVowc2hvdmN1WU9GUER0NThTc2R3bXdvaExRcms4bnVHZXVvczVSZWZBX25kbkowM2R2al91Ry1iaGVGWENsbmFzSGdKRdIBeEFVX3lxTE1Pb1czVUNrR2phd0NhMnlKYm9JYkxrTmJ5Sl9zZG5lQ1ZfNGdzV0QyMGdrVkdlQkthRkRleGI4eXAtYVNoUmVxUUNCQnhLNmtFVTI5Q0ZjTVZ3VVJzSTc4RDdQbEFoMDRKR2pXN3Rqb28yeld1S0RQbQ?oc=5",
+        "koTitle": "카페24, AI 리포트 출시로 데이터 분석 서비스 강화",
+        "enTitle": "카페24, AI 리포트 출시로 데이터 분석 서비스 강화",
+        "date": "2026-10-27",
+        "originalDate": "2026-10-27",
+        "sourceName": "스마트비즈",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MbFY1MEZZQ2ppR2xBMXlQY0dnOERvUENpWEFBUmdRNHk0UlpKdXVna2diYnpQNkducEMxNFpsVXl1Ym1hR05uc0c1Q2pkLTk1NFJwZnQyN19xMGVuV1NJSkt0SXVEQXFFS0Q0dg?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! \"취업해도 AI가 일한다\"‥신입사원 '경력 사다리' 끊기나 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 카페24, AI 리포트 출시로 데이터 분석 서비스 강화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
