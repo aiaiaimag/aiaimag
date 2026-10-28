@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-27
+ * 최신 업데이트: 2026-10-28
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI 중심의 세상을 위한 교육에 대한 재고",
-        "enTitle": "Rethinking education for an AI-driven world",
-        "date": "2026-10-27",
-        "originalDate": "2026-10-26",
-        "sourceName": "The Official Microsoft Blog",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONmh2TWVQRHR2MlNYb2xIa0o1SGlkSDhmdjVmR19XeG95M1JPZ0R4UUNsNE42R1ZGREw1bDA1dFZqUnFOTEhibVk4QmRoSE1QZDNvX3hNYkg4aXZCZzZhQXBWSWhCTFl0ODBacTFxYzBLdzhjQmY5RkhjNUwtY0huVGNjUmtBV3lRTUxaeklGQ2JGQ1NyenR2Zmh1TFFMWW5EWG8xb0xMeDFQNVFXQUZOOF92dHFHTTBxV1psd0lybkI1Qld5WDlldllvaDJzMVhGb240LTRaZmM5QQ?oc=5",
+        "koTitle": "Lentz: AI가 업무와 일자리를 재편하고 있지만 숙련된 사용자가 미래를 주도할 것입니다.",
+        "enTitle": "Lentz: AI Is Reshaping Work and Jobs, but Skilled Users Will Lead the Future",
+        "date": "2026-10-28",
+        "originalDate": "2026-10-27",
+        "sourceName": "Rio Grande Guardian",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUzhLaUJXUzViaDZ3YmNsR0dtVEs5OXhySnlfeUUtdzYwMG9jVmQxdVdmYTZ5c0hYSjMtczN6OTVIejduQ3ZzZFpBLVpfdVNSZ204R0FIVkh6elVIRUlUckQ0X2cwT1hwN01oVEhzTDExNWJpWWh2LWpHbWNqYjdNOG1aWnhqQVdjT2p0RjVsSkZCbzZHODY2dkxIRkNmOHRWczYyc3VhRVQ3R2x0OVZSODBNSjRlU0c0U3c?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 중심의 세상을 위한 교육에 대한 재고 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! Lentz: AI가 업무와 일자리를 재편하고 있지만 숙련된 사용자가 미래를 주도할 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI 직업 두려움은 젊은 사람들을 실무 경력으로 밀어 넣습니다. 설문 조사 결과",
-        "enTitle": "AI job fears push young people towards hands-on careers, survey finds",
-        "date": "2026-10-27",
-        "originalDate": "2026-10-26",
-        "sourceName": "FarmingUK",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVHV1UnNvQV9FdnVpaWtCbDl0U2xhbXhXNzFRZUJjWHRZcTUxMV9fbmtaT0dDeDF1djhlel81UTFNWEttWElqYW9LaE1hdjNWdEFkcWNiV3VVdDJrUkd1d0tNZ2tnWDB3cnNVV3FUWFlwWnJGSG1pRWs2VHZwUG9wMURrT1F2eGRxcG5lejBhaFZ2UkI4ZHFMdjFDV2J3bjJUZnl0QXhEQTg2WEdzb01n?oc=5",
+        "koTitle": "‘그 분야는 죽었다’: AI 혼란에 대비하여 화이트 칼라 노동자들은 선제적으로 경력을 바꾸고 있습니다.",
+        "enTitle": "‘That field is dead’: Bracing for AI disruption, white-collar workers are pre-emptively changing careers",
+        "date": "2026-10-28",
+        "originalDate": "2026-10-27",
+        "sourceName": "The Globe and Mail",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPM0ZBdUlOUi1NZjFUNkJ5RzVBbTFvRlpXUlA5SFJVaUV6ZndiUDNGd3JDUEpwSjN3OEMxbnJkNTRsQ0RaNi1jODFOR0pvVEVUSG1VR1k1SXpfa3hMYldxUjJ3LUd4bENrSGtTcERqTzh5QzhrSFVFMnE3YXpubWdlWVp6Nk9PaGF1WG9TeXhZWWYySFlRNGhLX2tHTFA5OWpmVWRncS1CaDdZWE9kQWdIa0pFSl9PSDAtbF8zREFtR1BjUW9I?oc=5",
         "isRepublished": false,
         "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 직업 두려움은 젊은 사람들을 실무 경력으로 밀어 넣습니다. 설문 조사 결과 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! ‘그 분야는 죽었다’: AI 혼란에 대비하여 화이트 칼라 노동자들은 선제적으로 경력을 바꾸고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "갈림길에 선 남아프리카공화국의 인력: 500명 이상의 리더가 AI, 기술 및 미래의 일자리에 맞서고 있습니다.",
-        "enTitle": "South Africa’s workforce at a crossroads: 500+ leaders confront AI, skills and the future of jobs",
-        "date": "2026-10-27",
-        "originalDate": "2026-10-26",
-        "sourceName": "Bizcommunity",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa05CVmd0dnhXeFY3Z00xREUxdHVQZFY1ZVRNQ2tRb1QzSnFxYkNJQTlFa09JZDBHTmJQTy1XeC12bU1zem9lYko5MThrVDlZYWVVMmY3MmNuaW53V2NlbjNTMENFSGFRMy1Mdlg4bmdua2hob3FGU05jMVhlN3hlOTYwZWp6ckZOdTNETWViRnNXT0o1M2NpejlrQkJzc3drUWptOE5QNEllTEJXVlp6bk05VGpfWHRWMnhfc2VxX0MtSnMwaDRBS3FKRTBFZVhaZElpTQ?oc=5",
+        "koTitle": "'인공지능이 일자리의 미래를 영원히 바꿀 수 있다': NDTV 월드 서밋의 미래학자 마이크 월시",
+        "enTitle": "'AI Could Change The Future Of Jobs Forever': Futurist Mike Walsh At NDTV World Summit",
+        "date": "2026-10-28",
+        "originalDate": "2026-10-27",
+        "sourceName": "NDTV",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOejhHMjRoNFM1WGloQzdVQ2RBNXJod0dVMjBaUFpNTTAwTm9TaklseDJFZVZpS1pPOTMxaTBhQ0Jjc1BwT3QxaUlGckVFb1UyUE5lX0J2ZW10RldDYUFpQjh1bDhid3ROTkFJWnVrX1NRNGZJRXhFQXRDeGtBbzdIS3R0Q2N4UTlsTTN6ZXpmSlRTaU9zVTF6TkRqN1F4TFZ0eURvTl9oWHhBVDJPbDFhelhsaG44eHRsOWc?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 갈림길에 선 남아프리카공화국의 인력: 500명 이상의 리더가 AI, 기술 및 미래의 일자리에 맞서고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! '인공지능이 일자리의 미래를 영원히 바꿀 수 있다': NDTV 월드 서밋의 미래학자 마이크 월시 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "SK스피드메이트, 차량 관리 앱 출시... 61개 항목 AI 점검 도입",
-        "enTitle": "SK스피드메이트, 차량 관리 앱 출시... 61개 항목 AI 점검 도입",
-        "date": "2026-10-27",
+        "koTitle": "[AI 트렌드] 내 얼굴엔 마녀일까 구미호일까…챗GPT 할로윈 프롬프트로 할로윈 코스튬 입는 법",
+        "enTitle": "[AI 트렌드] 내 얼굴엔 마녀일까 구미호일까…챗GPT 할로윈 프롬프트로 할로윈 코스튬 입는 법",
+        "date": "2026-10-28",
         "originalDate": "2026-10-27",
-        "sourceName": "녹색경제신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QbllpUTlqel9IQmJXanIwbkF2d09YV043NzV5ajBvb2VKNVJCQWFjXzZHdWJNV19HMm9VUWNvRVp5d2l4V0gyS2JQV25JX0tHZVpUMkFPUFJqZlRQYnREWGZ1UktFcEJV?oc=5",
+        "sourceName": "AI 매터스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5hMDRYY0tSOVV2S1lDM3IwdkxRQ0UwZmtfeXMxdFhhdzVrblpxZnJwTWFsdEtfNHNUTlhmS0VMOWhCWHpnVXFqME9hWmJRNk1sblhVOQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! SK스피드메이트, 차량 관리 앱 출시... 61개 항목 AI 점검 도입 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [AI 트렌드] 내 얼굴엔 마녀일까 구미호일까…챗GPT 할로윈 프롬프트로 할로윈 코스튬 입는 법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "ChatGPT, 기술 지원 문제를 해결할 곳으로 404 Media를 계속 추천함",
-        "enTitle": "ChatGPT, 기술 지원 문제를 해결할 곳으로 404 Media를 계속 추천함",
-        "date": "2026-10-27",
-        "originalDate": "2026-10-26",
-        "sourceName": "GeekNews",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9CbTRISjhUY0xNVmk1cURRY2QxQUVQNUd1ZGpTeXZZdl9GYWpYTkJVQjNidHZ3YTRLQU1vRGwwcmROQUhLYUlqamRHTQ?oc=5",
+        "koTitle": "표앤컴퍼니, 중소기업 재무관리 지원하는 AI 서비스 'GAIFAS' 출시",
+        "enTitle": "표앤컴퍼니, 중소기업 재무관리 지원하는 AI 서비스 'GAIFAS' 출시",
+        "date": "2026-10-28",
+        "originalDate": "2026-10-28",
+        "sourceName": "조세일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TZ040VEg0SjZIbThLTWNyd3dUZTBtY25DY3ZwNUNlUzVrcjVTekhWYlNhMENFR3VDbnoyMUh1OUZJUDF1bUdZTEd2SF9qZjdZRFpxeGxVT1FIZnRJdl9WVUF5NnRUdjNNS24tR3llOVdxN1hk?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! ChatGPT, 기술 지원 문제를 해결할 곳으로 404 Media를 계속 추천함 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 표앤컴퍼니, 중소기업 재무관리 지원하는 AI 서비스 'GAIFAS' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "카페24, AI 리포트 출시로 데이터 분석 서비스 강화",
-        "enTitle": "카페24, AI 리포트 출시로 데이터 분석 서비스 강화",
-        "date": "2026-10-27",
+        "koTitle": "애플, '시리 AI' 한국어 서비스 개시...iOS27.2 업데이트 배포",
+        "enTitle": "애플, '시리 AI' 한국어 서비스 개시...iOS27.2 업데이트 배포",
+        "date": "2026-10-28",
         "originalDate": "2026-10-27",
-        "sourceName": "스마트비즈",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MbFY1MEZZQ2ppR2xBMXlQY0dnOERvUENpWEFBUmdRNHk0UlpKdXVna2diYnpQNkducEMxNFpsVXl1Ym1hR05uc0c1Q2pkLTk1NFJwZnQyN19xMGVuV1NJSkt0SXVEQXFFS0Q0dg?oc=5",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFByWGhsYWptN0pmaGJ0VDVSU3lLWkhOWWVJU2tlSTVIZFluS1N0d2I3MUg3TmlGMVBBa25JSnJoSzNJMHh6eXNId3JOU3dWVm5jRTJYR1hxU3NsblBibmxVRHBoSHJ5TGpQOEE?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 카페24, AI 리포트 출시로 데이터 분석 서비스 강화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 애플, '시리 AI' 한국어 서비스 개시...iOS27.2 업데이트 배포 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
