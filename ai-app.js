@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-28
+ * 최신 업데이트: 2026-10-29
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Lentz: AI가 업무와 일자리를 재편하고 있지만 숙련된 사용자가 미래를 주도할 것입니다.",
-        "enTitle": "Lentz: AI Is Reshaping Work and Jobs, but Skilled Users Will Lead the Future",
-        "date": "2026-10-28",
-        "originalDate": "2026-10-27",
-        "sourceName": "Rio Grande Guardian",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUzhLaUJXUzViaDZ3YmNsR0dtVEs5OXhySnlfeUUtdzYwMG9jVmQxdVdmYTZ5c0hYSjMtczN6OTVIejduQ3ZzZFpBLVpfdVNSZ204R0FIVkh6elVIRUlUckQ0X2cwT1hwN01oVEhzTDExNWJpWWh2LWpHbWNqYjdNOG1aWnhqQVdjT2p0RjVsSkZCbzZHODY2dkxIRkNmOHRWczYyc3VhRVQ3R2x0OVZSODBNSjRlU0c0U3c?oc=5",
+        "koTitle": "비즈니스 브리핑: AI 일자리 위협에 대비하기",
+        "enTitle": "Business Brief: Getting ahead of the AI job threat",
+        "date": "2026-10-29",
+        "originalDate": "2026-10-28",
+        "sourceName": "The Globe and Mail",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeE1OWlJFc3c4cGNPcnAxVDBkX1F4ckRPSlc5SHMydTN3Mnk2cFFpdDhhZ0UxUi0xamRhbXAzcTdDWi0xSTg2S01ocEVUUFJORlJwY0RpVlc4dDdCU3hYaHBhNElrcURFUlhwYTRwTGNQWmFtUTRfZjRDeHFPaU40bVlwTnVSN1ppa1pfbFlPYU9sa0FQZ0x3UzNKVTBlQnBE?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! Lentz: AI가 업무와 일자리를 재편하고 있지만 숙련된 사용자가 미래를 주도할 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 비즈니스 브리핑: AI 일자리 위협에 대비하기 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "‘그 분야는 죽었다’: AI 혼란에 대비하여 화이트 칼라 노동자들은 선제적으로 경력을 바꾸고 있습니다.",
-        "enTitle": "‘That field is dead’: Bracing for AI disruption, white-collar workers are pre-emptively changing careers",
-        "date": "2026-10-28",
-        "originalDate": "2026-10-27",
-        "sourceName": "The Globe and Mail",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPM0ZBdUlOUi1NZjFUNkJ5RzVBbTFvRlpXUlA5SFJVaUV6ZndiUDNGd3JDUEpwSjN3OEMxbnJkNTRsQ0RaNi1jODFOR0pvVEVUSG1VR1k1SXpfa3hMYldxUjJ3LUd4bENrSGtTcERqTzh5QzhrSFVFMnE3YXpubWdlWVp6Nk9PaGF1WG9TeXhZWWYySFlRNGhLX2tHTFA5OWpmVWRncS1CaDdZWE9kQWdIa0pFSl9PSDAtbF8zREFtR1BjUW9I?oc=5",
+        "koTitle": "SAP India는 2030년까지 AI 기술을 두 배로 늘려 2백만 명의 사람들이 미래의 직업을 가질 수 있도록 준비시킵니다.",
+        "enTitle": "SAP India Doubles Down on AI Skilling to Prepare Two Million People for the Future of Work by 2030",
+        "date": "2026-10-29",
+        "originalDate": "2026-10-28",
+        "sourceName": "CXOToday.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONnl0Z3BfYXJNVTZ2cjNaZXh4eGhxSGIzQjFCT2stZ1U1ZEFEd0U0Y2VMdFdzSDNkZV9tOGxCcXlXZUQ1SnVHSHJ5VDBZcW1wWHZsUGxuZXkzbnIxdHdlazZtd2xhd1JFeWlta09FSWhrUGlkX0JLTnVSVWxja21TeEtHdWdHOUJmWU9UbjNFZURMdlVDN1V0MEczcGp5RVVpd0dNSEtlWHpCelpERDlfX3Q1UW9DakFkakNfdzdwX095ZXh5WTl3d1llQndiNkww?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! ‘그 분야는 죽었다’: AI 혼란에 대비하여 화이트 칼라 노동자들은 선제적으로 경력을 바꾸고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! SAP India는 2030년까지 AI 기술을 두 배로 늘려 2백만 명의 사람들이 미래의 직업을 가질 수 있도록 준비시킵니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "'인공지능이 일자리의 미래를 영원히 바꿀 수 있다': NDTV 월드 서밋의 미래학자 마이크 월시",
-        "enTitle": "'AI Could Change The Future Of Jobs Forever': Futurist Mike Walsh At NDTV World Summit",
-        "date": "2026-10-28",
+        "koTitle": "Lentz: AI가 업무와 일자리를 재편하고 있지만 숙련된 사용자가 미래를 주도할 것입니다.",
+        "enTitle": "Lentz: AI Is Reshaping Work and Jobs, but Skilled Users Will Lead the Future",
+        "date": "2026-10-29",
         "originalDate": "2026-10-27",
-        "sourceName": "NDTV",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOejhHMjRoNFM1WGloQzdVQ2RBNXJod0dVMjBaUFpNTTAwTm9TaklseDJFZVZpS1pPOTMxaTBhQ0Jjc1BwT3QxaUlGckVFb1UyUE5lX0J2ZW10RldDYUFpQjh1bDhid3ROTkFJWnVrX1NRNGZJRXhFQXRDeGtBbzdIS3R0Q2N4UTlsTTN6ZXpmSlRTaU9zVTF6TkRqN1F4TFZ0eURvTl9oWHhBVDJPbDFhelhsaG44eHRsOWc?oc=5",
+        "sourceName": "Rio Grande Guardian",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUzhLaUJXUzViaDZ3YmNsR0dtVEs5OXhySnlfeUUtdzYwMG9jVmQxdVdmYTZ5c0hYSjMtczN6OTVIejduQ3ZzZFpBLVpfdVNSZ204R0FIVkh6elVIRUlUckQ0X2cwT1hwN01oVEhzTDExNWJpWWh2LWpHbWNqYjdNOG1aWnhqQVdjT2p0RjVsSkZCbzZHODY2dkxIRkNmOHRWczYyc3VhRVQ3R2x0OVZSODBNSjRlU0c0U3c?oc=5",
         "isRepublished": false,
         "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! '인공지능이 일자리의 미래를 영원히 바꿀 수 있다': NDTV 월드 서밋의 미래학자 마이크 월시 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! Lentz: AI가 업무와 일자리를 재편하고 있지만 숙련된 사용자가 미래를 주도할 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[AI 트렌드] 내 얼굴엔 마녀일까 구미호일까…챗GPT 할로윈 프롬프트로 할로윈 코스튬 입는 법",
-        "enTitle": "[AI 트렌드] 내 얼굴엔 마녀일까 구미호일까…챗GPT 할로윈 프롬프트로 할로윈 코스튬 입는 법",
-        "date": "2026-10-28",
-        "originalDate": "2026-10-27",
-        "sourceName": "AI 매터스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5hMDRYY0tSOVV2S1lDM3IwdkxRQ0UwZmtfeXMxdFhhdzVrblpxZnJwTWFsdEtfNHNUTlhmS0VMOWhCWHpnVXFqME9hWmJRNk1sblhVOQ?oc=5",
+        "koTitle": "GPT-6.1 Terra 소개",
+        "enTitle": "GPT-6.1 Terra 소개",
+        "date": "2026-10-29",
+        "originalDate": "2026-10-29",
+        "sourceName": "OpenAI",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wQmRIZ3hrNVVkSG0tOFA4aVJYM2JUMGFVclVXZGhlbDFPWXFIUmh0MVpmSndXQjNiQzJzLWFGcW0zMmxuaER4dVByNGFRdFphcnBkXzl1TXd6RU5Pd1RVRUtkRVZScU9U?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI 트렌드] 내 얼굴엔 마녀일까 구미호일까…챗GPT 할로윈 프롬프트로 할로윈 코스튬 입는 법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! GPT-6.1 Terra 소개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "표앤컴퍼니, 중소기업 재무관리 지원하는 AI 서비스 'GAIFAS' 출시",
-        "enTitle": "표앤컴퍼니, 중소기업 재무관리 지원하는 AI 서비스 'GAIFAS' 출시",
-        "date": "2026-10-28",
+        "koTitle": "Tyler Technologies, 실적 발표 앞두고 AI 수익화 전망에 관심",
+        "enTitle": "Tyler Technologies, 실적 발표 앞두고 AI 수익화 전망에 관심",
+        "date": "2026-10-29",
         "originalDate": "2026-10-28",
-        "sourceName": "조세일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TZ040VEg0SjZIbThLTWNyd3dUZTBtY25DY3ZwNUNlUzVrcjVTekhWYlNhMENFR3VDbnoyMUh1OUZJUDF1bUdZTEd2SF9qZjdZRFpxeGxVT1FIZnRJdl9WVUF5NnRUdjNNS24tR3llOVdxN1hk?oc=5",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE01dkR3ZHpLbGgwQUxoMEYwTGNlQXdIS1BVQmh6R3NPakpmZEJCLWdzX1kzbDZlTWZKOXNEeGlXVENua1lscVRJWXNpZ3hnaHdrSTlTV2lJUjc3WEhRaFVKelR1MW9FY0hJRWxB?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 표앤컴퍼니, 중소기업 재무관리 지원하는 AI 서비스 'GAIFAS' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! Tyler Technologies, 실적 발표 앞두고 AI 수익화 전망에 관심 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "애플, '시리 AI' 한국어 서비스 개시...iOS27.2 업데이트 배포",
-        "enTitle": "애플, '시리 AI' 한국어 서비스 개시...iOS27.2 업데이트 배포",
-        "date": "2026-10-28",
-        "originalDate": "2026-10-27",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFByWGhsYWptN0pmaGJ0VDVSU3lLWkhOWWVJU2tlSTVIZFluS1N0d2I3MUg3TmlGMVBBa25JSnJoSzNJMHh6eXNId3JOU3dWVm5jRTJYR1hxU3NsblBibmxVRHBoSHJ5TGpQOEE?oc=5",
+        "koTitle": "대웅그룹 다나아데이터, '검진 기반 통합 AI 건강관리 서비스' 출시",
+        "enTitle": "대웅그룹 다나아데이터, '검진 기반 통합 AI 건강관리 서비스' 출시",
+        "date": "2026-10-29",
+        "originalDate": "2026-10-29",
+        "sourceName": "팜뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SVjZWTWR4cmdGdFBoS2g4RGw5RW5ZM1lhcHkxeW85Wklla1NCRjRuc1dVZ3oyLVY4bHFzdElyWWt5SHlLRlZEcXlYNlRYejBlNk1QTTJLZEtuakVWT2dLd0w4c2U1cXcxSUV3Qw?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 애플, '시리 AI' 한국어 서비스 개시...iOS27.2 업데이트 배포 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 대웅그룹 다나아데이터, '검진 기반 통합 AI 건강관리 서비스' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
