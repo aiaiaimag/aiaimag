@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-29
+ * 최신 업데이트: 2026-10-30
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "비즈니스 브리핑: AI 일자리 위협에 대비하기",
-        "enTitle": "Business Brief: Getting ahead of the AI job threat",
-        "date": "2026-10-29",
-        "originalDate": "2026-10-28",
-        "sourceName": "The Globe and Mail",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeE1OWlJFc3c4cGNPcnAxVDBkX1F4ckRPSlc5SHMydTN3Mnk2cFFpdDhhZ0UxUi0xamRhbXAzcTdDWi0xSTg2S01ocEVUUFJORlJwY0RpVlc4dDdCU3hYaHBhNElrcURFUlhwYTRwTGNQWmFtUTRfZjRDeHFPaU40bVlwTnVSN1ppa1pfbFlPYU9sa0FQZ0x3UzNKVTBlQnBE?oc=5",
+        "koTitle": "Sam Altman은 누구입니까? OpenAI CEO가 Z세대, AI 일자리 및 기업가 정신에 대해 말한 것; 교육, 경력, 남편, 가족, 자녀, 순 가치 및 최신 뉴스",
+        "enTitle": "Who Is Sam Altman? What OpenAI CEO Said About Gen Z, AI Jobs And Entrepreneurship; Education, Career, Husband, Family, Children, Net Worth And Latest News",
+        "date": "2026-10-30",
+        "originalDate": "2026-10-29",
+        "sourceName": "The Sunday Guardian",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPdGpqZ0NQb3N5MG9JV1poVjNKMnMteklrZGNRSEEyVnpqQUpEaVc1RUhISDZkM01LclFMb0hqT2RQQ0d5VDN5UnFqdXAtYXNIa1hkWkhVZUF5cXlBYUdNMG1maERjMGNEYjBERjYwV3VKalI3Rjk5aTZSUHVIWHFBbEVPSFJrbnBjSnlaZm5KOW91NFpiOTVoYW5DdkVWVklzUmZqTDdEQ1hpTlI5eGk4NER4emtIWHRDZm1HcFBJMGNGV0hzSmNRMUFOeDNoZENnbTBsYlRidGJqTkJqcUl5SHFpNERrZFNKR2hDeFpnMTUzY0lPSUI4QUJNUHdzVmtLZUVZcV9yeDRXTXphQkR1RGR4cVljZUZsMElV0gGgAkFVX3lxTE1LNERLdVd6ZC1zaVdWc2tXU05hX094Tm81SW5QVEdGTDFydEViZURsalFXOGh3aVZTWjdISFNCYXRDeEh2NUxZZzQwLThPbkVGN0FnQkVWdHBFbU9XS2ZqTGtWeEkwNXEzM3hwRDZwaGRmdXNxdWc1LV9CYTQ2VkZkemxHZ1JLNFE5QVcydmdDbjRURU5MZzVNWDRMdl82aDlOeHVLMllyVHJ6RE1TUTNBZ3F0OWFBRDdGY01ldE50dVFwRGdfbTZRZjFaUzJ5alItazZuazJaUWRMdkQySUp4UDNUOXE5VmtvVnB4bUNXN3hzbHVVZlpLNE5nellhQ1dINFB6LTlwRGE4RnJISXVBN0hDX2QtNHJnc0hRclFlTA?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 비즈니스 브리핑: AI 일자리 위협에 대비하기 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! Sam Altman은 누구입니까? OpenAI CEO가 Z세대, AI 일자리 및 기업가 정신에 대해 말한 것; 교육, 경력, 남편, 가족, 자녀, 순 가치 및 최신 뉴스 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "SAP India는 2030년까지 AI 기술을 두 배로 늘려 2백만 명의 사람들이 미래의 직업을 가질 수 있도록 준비시킵니다.",
-        "enTitle": "SAP India Doubles Down on AI Skilling to Prepare Two Million People for the Future of Work by 2030",
-        "date": "2026-10-29",
-        "originalDate": "2026-10-28",
-        "sourceName": "CXOToday.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONnl0Z3BfYXJNVTZ2cjNaZXh4eGhxSGIzQjFCT2stZ1U1ZEFEd0U0Y2VMdFdzSDNkZV9tOGxCcXlXZUQ1SnVHSHJ5VDBZcW1wWHZsUGxuZXkzbnIxdHdlazZtd2xhd1JFeWlta09FSWhrUGlkX0JLTnVSVWxja21TeEtHdWdHOUJmWU9UbjNFZURMdlVDN1V0MEczcGp5RVVpd0dNSEtlWHpCelpERDlfX3Q1UW9DakFkakNfdzdwX095ZXh5WTl3d1llQndiNkww?oc=5",
+        "koTitle": "네바다 노조, AI 일자리 창출과 파괴 사이에 끼인 정치인들",
+        "enTitle": "Nevada unions, politicians caught between AI job creation and destruction",
+        "date": "2026-10-30",
+        "originalDate": "2026-10-29",
+        "sourceName": "ETHRWorld.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNWZXVDRuM0xMWGtINWY4WElfXzZkZU1PbWQ0bkRPUlB4QkVTdXoyQlJQUldnR2RQdHFPdDhyVFdyQ0FjSkxrRFpwMXdvNm8xeEoxQXVRQmxPQndZOXRxcEtlT0V2dW10RWhOSm1uejNQR3hBWXZsbXdoU01tMHVWVXZycUQtaUJsNDVkaG1uM0JJQllkaGhqTVVfUjk1OW5SUnp0UWhyZWc3dl9Nd1gzZFFxM3lWa3BxeklZSjk5VzR2Y19QNnhaYXpLTVVLOFlVa2V1VVJpYVd4VkhLaUpRQTAtaVRseGxNcHhQeUkyONIB9AFBVV95cUxPUE9FNWJhazNvR0gxZlhlcU1kdFdpQTJUT01VWjNwRE9jVTl3dUxQdjFTT0ZwTDNkS1Q1TUNVX29uTHFMaGZwSnJqcWZnZEh4RzZ2aE5hcms5WFlycEZ4T1d1X3FJZGlHWlcxaHdWakVmWGwwX0RBZGlRaVV2dTctRy1fVTZaZmo0VEVLa0xEMnVnVFYwNlo2cTB0WjJUZVJQSkRPZ0hONHRzT0w0T2dNS2ZxUW1BejlYVFZrb25aeTloTjNtTGFsNFhXUTVpREE0d1R6X1FJTk4wUlVpSWMzVHU4V0ZfM3ROVDNzelpieDV4Y25Z?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! SAP India는 2030년까지 AI 기술을 두 배로 늘려 2백만 명의 사람들이 미래의 직업을 가질 수 있도록 준비시킵니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 네바다 노조, AI 일자리 창출과 파괴 사이에 끼인 정치인들 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "Lentz: AI가 업무와 일자리를 재편하고 있지만 숙련된 사용자가 미래를 주도할 것입니다.",
-        "enTitle": "Lentz: AI Is Reshaping Work and Jobs, but Skilled Users Will Lead the Future",
-        "date": "2026-10-29",
-        "originalDate": "2026-10-27",
-        "sourceName": "Rio Grande Guardian",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUzhLaUJXUzViaDZ3YmNsR0dtVEs5OXhySnlfeUUtdzYwMG9jVmQxdVdmYTZ5c0hYSjMtczN6OTVIejduQ3ZzZFpBLVpfdVNSZ204R0FIVkh6elVIRUlUckQ0X2cwT1hwN01oVEhzTDExNWJpWWh2LWpHbWNqYjdNOG1aWnhqQVdjT2p0RjVsSkZCbzZHODY2dkxIRkNmOHRWczYyc3VhRVQ3R2x0OVZSODBNSjRlU0c0U3c?oc=5",
+        "koTitle": "AI가 일의 미래를 바꾼다: J-K Gadzama LLP, 11월 11일 나이지리아 인력 관련 제19회 연례 공개 강연 개최",
+        "enTitle": "AI Is Changing the Future of Work: J-K Gadzama LLP to Host 19th Annual Public Lecture on Nigeria’s Workforce, 11th Nov",
+        "date": "2026-10-30",
+        "originalDate": "2026-10-29",
+        "sourceName": "BarristerNG.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQenBmcFp1aThPNzA0amZiMlRjbUd3cEhDSzd5RWRiZ1Z5OGhBajFpcFl0Y2NTZlF3M195c09URXpDOXY1NGdxbEpUbFdEb0xxUi1VOXJxYWdnYVZTQ2V4VC1zYVNmOElZRkZ3WUhkRnF1bml3MnJXVVU5WF9fRVBDeUFna2luNWcwVFotbW9XTEwwbDVVUGhpV0lmeDZBZTdfcDluMXdnaE1QVmtYM1U0ZUtWNU1teXpmanowUmNnZzQzblZjUzBzZUVtNA?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! Lentz: AI가 업무와 일자리를 재편하고 있지만 숙련된 사용자가 미래를 주도할 것입니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! AI가 일의 미래를 바꾼다: J-K Gadzama LLP, 11월 11일 나이지리아 인력 관련 제19회 연례 공개 강연 개최 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
+        "koTitle": "다나아데이터, AI 건강관리 서비스 출시…검진부터 생활습관까지",
+        "enTitle": "다나아데이터, AI 건강관리 서비스 출시…검진부터 생활습관까지",
+        "date": "2026-10-30",
+        "originalDate": "2026-10-30",
+        "sourceName": "뉴스1",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LSXFSMHozVk03MXN6bmdrSFE5SGlfWFJZdy1xSXR3QVFCT1RZUzdrdDBpU0p2Tk5rT1k4aW5VeW1seHhYWWs4OXhrZkR3aE9QQ1lBN3dn?oc=5",
+        "isRepublished": false,
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 다나아데이터, AI 건강관리 서비스 출시…검진부터 생활습관까지 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "category": "Hot Issue"
+    },
+    {
+        "rank": 2,
         "koTitle": "GPT-6.1 Terra 소개",
         "enTitle": "GPT-6.1 Terra 소개",
-        "date": "2026-10-29",
-        "originalDate": "2026-10-29",
+        "date": "2026-10-30",
+        "originalDate": "2026-10-30",
         "sourceName": "OpenAI",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wQmRIZ3hrNVVkSG0tOFA4aVJYM2JUMGFVclVXZGhlbDFPWXFIUmh0MVpmSndXQjNiQzJzLWFGcW0zMmxuaER4dVByNGFRdFphcnBkXzl1TXd6RU5Pd1RVRUtkRVZScU9U?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
         "analysis": "2030을 위한 AI 실무 팁! GPT-6.1 Terra 소개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
-        "category": "Hot Issue"
-    },
-    {
-        "rank": 2,
-        "koTitle": "Tyler Technologies, 실적 발표 앞두고 AI 수익화 전망에 관심",
-        "enTitle": "Tyler Technologies, 실적 발표 앞두고 AI 수익화 전망에 관심",
-        "date": "2026-10-29",
-        "originalDate": "2026-10-28",
-        "sourceName": "Investing.com 한국어",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE01dkR3ZHpLbGgwQUxoMEYwTGNlQXdIS1BVQmh6R3NPakpmZEJCLWdzX1kzbDZlTWZKOXNEeGlXVENua1lscVRJWXNpZ3hnaHdrSTlTV2lJUjc3WEhRaFVKelR1MW9FY0hJRWxB?oc=5",
-        "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! Tyler Technologies, 실적 발표 앞두고 AI 수익화 전망에 관심 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "대웅그룹 다나아데이터, '검진 기반 통합 AI 건강관리 서비스' 출시",
-        "enTitle": "대웅그룹 다나아데이터, '검진 기반 통합 AI 건강관리 서비스' 출시",
-        "date": "2026-10-29",
-        "originalDate": "2026-10-29",
-        "sourceName": "팜뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SVjZWTWR4cmdGdFBoS2g4RGw5RW5ZM1lhcHkxeW85Wklla1NCRjRuc1dVZ3oyLVY4bHFzdElyWWt5SHlLRlZEcXlYNlRYejBlNk1QTTJLZEtuakVWT2dLd0w4c2U1cXcxSUV3Qw?oc=5",
+        "koTitle": "클립아트코리아, 챗GPT·클로드 연동 AI 이미지 검색 서비스 출시",
+        "enTitle": "클립아트코리아, 챗GPT·클로드 연동 AI 이미지 검색 서비스 출시",
+        "date": "2026-10-30",
+        "originalDate": "2026-10-30",
+        "sourceName": "전자신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1veGoyNi1hRXdmUzRqa3N3TzFBdUZ6UlZzSFpJWTV1dEFNQmZqY09TVjRTMmNtWDRFYzB0YXRuSWpZbWpjcUxVcFVGbk5mdw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 대웅그룹 다나아데이터, '검진 기반 통합 AI 건강관리 서비스' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 클립아트코리아, 챗GPT·클로드 연동 AI 이미지 검색 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
