@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-30
+ * 최신 업데이트: 2026-10-31
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Sam Altman은 누구입니까? OpenAI CEO가 Z세대, AI 일자리 및 기업가 정신에 대해 말한 것; 교육, 경력, 남편, 가족, 자녀, 순 가치 및 최신 뉴스",
-        "enTitle": "Who Is Sam Altman? What OpenAI CEO Said About Gen Z, AI Jobs And Entrepreneurship; Education, Career, Husband, Family, Children, Net Worth And Latest News",
-        "date": "2026-10-30",
-        "originalDate": "2026-10-29",
-        "sourceName": "The Sunday Guardian",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPdGpqZ0NQb3N5MG9JV1poVjNKMnMteklrZGNRSEEyVnpqQUpEaVc1RUhISDZkM01LclFMb0hqT2RQQ0d5VDN5UnFqdXAtYXNIa1hkWkhVZUF5cXlBYUdNMG1maERjMGNEYjBERjYwV3VKalI3Rjk5aTZSUHVIWHFBbEVPSFJrbnBjSnlaZm5KOW91NFpiOTVoYW5DdkVWVklzUmZqTDdEQ1hpTlI5eGk4NER4emtIWHRDZm1HcFBJMGNGV0hzSmNRMUFOeDNoZENnbTBsYlRidGJqTkJqcUl5SHFpNERrZFNKR2hDeFpnMTUzY0lPSUI4QUJNUHdzVmtLZUVZcV9yeDRXTXphQkR1RGR4cVljZUZsMElV0gGgAkFVX3lxTE1LNERLdVd6ZC1zaVdWc2tXU05hX094Tm81SW5QVEdGTDFydEViZURsalFXOGh3aVZTWjdISFNCYXRDeEh2NUxZZzQwLThPbkVGN0FnQkVWdHBFbU9XS2ZqTGtWeEkwNXEzM3hwRDZwaGRmdXNxdWc1LV9CYTQ2VkZkemxHZ1JLNFE5QVcydmdDbjRURU5MZzVNWDRMdl82aDlOeHVLMllyVHJ6RE1TUTNBZ3F0OWFBRDdGY01ldE50dVFwRGdfbTZRZjFaUzJ5alItazZuazJaUWRMdkQySUp4UDNUOXE5VmtvVnB4bUNXN3hzbHVVZlpLNE5nellhQ1dINFB6LTlwRGE4RnJISXVBN0hDX2QtNHJnc0hRclFlTA?oc=5",
+        "koTitle": "Google의 검색 수익 페라리가 AI 기반 스피드 범프를 달성했습니다.",
+        "enTitle": "Google's search revenue Ferrari hits an AI-powered speed bump",
+        "date": "2026-10-31",
+        "originalDate": "2026-10-30",
+        "sourceName": "The Register",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOd2k5LWxkdDNGZXMzZnZqZVdmTWNNWG1oSWdENXpDYzVOM2lmNHdRUEFUazNlVTJHTjZyLTVCR3EwbUlDcVdvN2ZBWGN5M0RoNjFPMFFOdkYwYk5Ca1h2bXJnUFNtbkZOaDg5S2RaZDdKZ1Rqa05sTTdubWtaenZ4bXVtdXFxS0c5T1ZSc0FBM2E5NVNXSTZpTnpXamNvYnZaSnlRZlc3V255WEJrVjY5dnZaMTlWU2Mx?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! Sam Altman은 누구입니까? OpenAI CEO가 Z세대, AI 일자리 및 기업가 정신에 대해 말한 것; 교육, 경력, 남편, 가족, 자녀, 순 가치 및 최신 뉴스 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! Google의 검색 수익 페라리가 AI 기반 스피드 범프를 달성했습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "네바다 노조, AI 일자리 창출과 파괴 사이에 끼인 정치인들",
-        "enTitle": "Nevada unions, politicians caught between AI job creation and destruction",
-        "date": "2026-10-30",
-        "originalDate": "2026-10-29",
-        "sourceName": "ETHRWorld.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNWZXVDRuM0xMWGtINWY4WElfXzZkZU1PbWQ0bkRPUlB4QkVTdXoyQlJQUldnR2RQdHFPdDhyVFdyQ0FjSkxrRFpwMXdvNm8xeEoxQXVRQmxPQndZOXRxcEtlT0V2dW10RWhOSm1uejNQR3hBWXZsbXdoU01tMHVWVXZycUQtaUJsNDVkaG1uM0JJQllkaGhqTVVfUjk1OW5SUnp0UWhyZWc3dl9Nd1gzZFFxM3lWa3BxeklZSjk5VzR2Y19QNnhaYXpLTVVLOFlVa2V1VVJpYVd4VkhLaUpRQTAtaVRseGxNcHhQeUkyONIB9AFBVV95cUxPUE9FNWJhazNvR0gxZlhlcU1kdFdpQTJUT01VWjNwRE9jVTl3dUxQdjFTT0ZwTDNkS1Q1TUNVX29uTHFMaGZwSnJqcWZnZEh4RzZ2aE5hcms5WFlycEZ4T1d1X3FJZGlHWlcxaHdWakVmWGwwX0RBZGlRaVV2dTctRy1fVTZaZmo0VEVLa0xEMnVnVFYwNlo2cTB0WjJUZVJQSkRPZ0hONHRzT0w0T2dNS2ZxUW1BejlYVFZrb25aeTloTjNtTGFsNFhXUTVpREE0d1R6X1FJTk4wUlVpSWMzVHU4V0ZfM3ROVDNzelpieDV4Y25Z?oc=5",
+        "koTitle": "최고의 미래 2027년 기조 연설자 # 1 스콧 스타인버그",
+        "enTitle": "Best Future of Work Keynote Speakers 2027 #1 Scott Steinberg",
+        "date": "2026-10-31",
+        "originalDate": "2026-10-30",
+        "sourceName": "https://www.futuristsspeakers.com/",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOM1A5M1lLT0k4ZjlKQ1pBY0V6VW1Ub1BiZjRURy1GS0NoUFNaclBnRUhpUmVSQVZZM1ZBUktJb0ZkLS1HNUlxOC1OY2thMjhtRmlzakd4M1ptTDRhTG8yYWpXaHMwX0ZQX2NLMlI3Ukd0N1hXUHE0VGtSTFBZZ2U0UUJB?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 네바다 노조, AI 일자리 창출과 파괴 사이에 끼인 정치인들 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 최고의 미래 2027년 기조 연설자 # 1 스콧 스타인버그 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI가 일의 미래를 바꾼다: J-K Gadzama LLP, 11월 11일 나이지리아 인력 관련 제19회 연례 공개 강연 개최",
-        "enTitle": "AI Is Changing the Future of Work: J-K Gadzama LLP to Host 19th Annual Public Lecture on Nigeria’s Workforce, 11th Nov",
-        "date": "2026-10-30",
-        "originalDate": "2026-10-29",
-        "sourceName": "BarristerNG.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQenBmcFp1aThPNzA0amZiMlRjbUd3cEhDSzd5RWRiZ1Z5OGhBajFpcFl0Y2NTZlF3M195c09URXpDOXY1NGdxbEpUbFdEb0xxUi1VOXJxYWdnYVZTQ2V4VC1zYVNmOElZRkZ3WUhkRnF1bml3MnJXVVU5WF9fRVBDeUFna2luNWcwVFotbW9XTEwwbDVVUGhpV0lmeDZBZTdfcDluMXdnaE1QVmtYM1U0ZUtWNU1teXpmanowUmNnZzQzblZjUzBzZUVtNA?oc=5",
+        "koTitle": "영국 기술 직무 계획: 200,000 목표, 800,000 추정 생략 AI 효과",
+        "enTitle": "UK Tech Jobs Plan: 200,000 Goal, 800,000 Estimate Omits AI Effects",
+        "date": "2026-10-31",
+        "originalDate": "2026-10-30",
+        "sourceName": "Quasa.io",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObFdRTFphTVRvT2VvOXl1Wl9pNFBvcFRySS1sdldxWTJLN01fOW44ZE5XVkh1NmpmTDM4aTlWNnRGVmJVUDFXV3RJZmtUVmNlMU03c2M3TU9wR2VBOThRU1RDNVU2UHhEaElacWhjNWUza1ktM3JnVEUzTnEyLXRZLTFXWjJrZzlaR0d6TEVGWnF6Qm1QdkdXOEQ4Q210Szg?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 일의 미래를 바꾼다: J-K Gadzama LLP, 11월 11일 나이지리아 인력 관련 제19회 연례 공개 강연 개최 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 영국 기술 직무 계획: 200,000 목표, 800,000 추정 생략 AI 효과 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "다나아데이터, AI 건강관리 서비스 출시…검진부터 생활습관까지",
-        "enTitle": "다나아데이터, AI 건강관리 서비스 출시…검진부터 생활습관까지",
-        "date": "2026-10-30",
+        "koTitle": "[재정 골든타임] ④ 청년 취업 47개월째 감소…AI 충격 겹쳐 미래 재정 경고등",
+        "enTitle": "[재정 골든타임] ④ 청년 취업 47개월째 감소…AI 충격 겹쳐 미래 재정 경고등",
+        "date": "2026-10-31",
         "originalDate": "2026-10-30",
-        "sourceName": "뉴스1",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LSXFSMHozVk03MXN6bmdrSFE5SGlfWFJZdy1xSXR3QVFCT1RZUzdrdDBpU0p2Tk5rT1k4aW5VeW1seHhYWWs4OXhrZkR3aE9QQ1lBN3dn?oc=5",
+        "sourceName": "뉴스핌",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JTWpPOG9UNUdTMnRSMDhrX2J5bUkzd1lHc0cwdHpGVmFwNUEwdFJfNm93QWVBVk1LbnBPejlURXVWTi1LWnh0ODZXa1NNTVBfNGZ3R3lybUVEd01z?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 다나아데이터, AI 건강관리 서비스 출시…검진부터 생활습관까지 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [재정 골든타임] ④ 청년 취업 47개월째 감소…AI 충격 겹쳐 미래 재정 경고등 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "GPT-6.1 Terra 소개",
-        "enTitle": "GPT-6.1 Terra 소개",
-        "date": "2026-10-30",
+        "koTitle": "Spotify, 2027년 초 AI 기반 리믹스 서비스 출시 추진 - FT",
+        "enTitle": "Spotify, 2027년 초 AI 기반 리믹스 서비스 출시 추진 - FT",
+        "date": "2026-10-31",
         "originalDate": "2026-10-30",
-        "sourceName": "OpenAI",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wQmRIZ3hrNVVkSG0tOFA4aVJYM2JUMGFVclVXZGhlbDFPWXFIUmh0MVpmSndXQjNiQzJzLWFGcW0zMmxuaER4dVByNGFRdFphcnBkXzl1TXd6RU5Pd1RVRUtkRVZScU9U?oc=5",
+        "sourceName": "Investing.com 한국어",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5lRGpEQTk3dUczVlhPckRRWElCRWtWRkJHTTI5dDN0Q2VfSkcyTThHZW1mSEstaU9JdG5TRThQaXplM3F0QjNuVkR4VmFocmVWSE5ocWpNYWtHc0Vna05LT1pTLXdNTHJHazFLMnplQzFBd2NYWFE4?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! GPT-6.1 Terra 소개 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! Spotify, 2027년 초 AI 기반 리믹스 서비스 출시 추진 - FT 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "클립아트코리아, 챗GPT·클로드 연동 AI 이미지 검색 서비스 출시",
-        "enTitle": "클립아트코리아, 챗GPT·클로드 연동 AI 이미지 검색 서비스 출시",
-        "date": "2026-10-30",
+        "koTitle": "표앤컴퍼니, 생성형 AI 재무분석 서비스 ‘GAIFAS’ 출시",
+        "enTitle": "표앤컴퍼니, 생성형 AI 재무분석 서비스 ‘GAIFAS’ 출시",
+        "date": "2026-10-31",
         "originalDate": "2026-10-30",
-        "sourceName": "전자신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1veGoyNi1hRXdmUzRqa3N3TzFBdUZ6UlZzSFpJWTV1dEFNQmZqY09TVjRTMmNtWDRFYzB0YXRuSWpZbWpjcUxVcFVGbk5mdw?oc=5",
+        "sourceName": "공감신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5SdkJXcWR4bzlyQUFGM3lCRjlFak42Y1V6c2YyZHpMT3lXb3ZQUm5jTmYxUU9lcFI3bm1Ba0lfSzRwYjZ6RWVFbjdzSUZuWXN0TVhJM19KTEdDMG1sYkQ4enVkaWRRV2tR?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 클립아트코리아, 챗GPT·클로드 연동 AI 이미지 검색 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 표앤컴퍼니, 생성형 AI 재무분석 서비스 ‘GAIFAS’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
