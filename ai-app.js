@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-10-31
+ * 최신 업데이트: 2026-11-01
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "Google의 검색 수익 페라리가 AI 기반 스피드 범프를 달성했습니다.",
-        "enTitle": "Google's search revenue Ferrari hits an AI-powered speed bump",
-        "date": "2026-10-31",
-        "originalDate": "2026-10-30",
-        "sourceName": "The Register",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOd2k5LWxkdDNGZXMzZnZqZVdmTWNNWG1oSWdENXpDYzVOM2lmNHdRUEFUazNlVTJHTjZyLTVCR3EwbUlDcVdvN2ZBWGN5M0RoNjFPMFFOdkYwYk5Ca1h2bXJnUFNtbkZOaDg5S2RaZDdKZ1Rqa05sTTdubWtaenZ4bXVtdXFxS0c5T1ZSc0FBM2E5NVNXSTZpTnpXamNvYnZaSnlRZlc3V255WEJrVjY5dnZaMTlWU2Mx?oc=5",
+        "koTitle": "시간적 가치가 있는 2027년을 위한 5가지 AI 사이드 허슬",
+        "enTitle": "5 AI Side Hustles for 2027 That Are Worth Your Time",
+        "date": "2026-11-01",
+        "originalDate": "2026-10-31",
+        "sourceName": "MoneyLion",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBBb2lmaFNLMVc1S3Q1MUhJajlrcUJZNWsxc3p3Ull3cXFUbUo2bEJPcVpjNWdhaExiQi1jWnp3T0N4NTFnVW1VOFQtUmExbHlpZGJtWG5Xdy1mV29FQXBCUUpuamZPZ2lGR1lYOUVLbTFRYkRXb2xDcA?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! Google의 검색 수익 페라리가 AI 기반 스피드 범프를 달성했습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 시간적 가치가 있는 2027년을 위한 5가지 AI 사이드 허슬 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "‘로봇을 고용하고, 인간을 해고하고, 뒤돌아보지 말라’: 빌 게이츠, 인공지능이 수백만 개의 일자리를 대체할 수 있다고 경고",
+        "enTitle": "‘Hire the robot, fire the human and don’t look back’: Bill Gates warns AI could replace millions of jobs",
+        "date": "2026-11-01",
+        "originalDate": "2026-10-31",
+        "sourceName": "Education Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPdEpSX0FoU2p4ZFZNNE5sdkN1MXNwLUYzY2w5Z3BlWVo2bE53TVA1bnNlbG1rdjBycEFZSmhOZTdOTHdvcHRLYnVhUjhWWFh0bjVRYVNGOFhkT25zcF9Na2Z1WU9NMW5XNGFEZVM0am02bGozdGwtT2Y5UHpHZVJYdGF0bUlhWFpTN1M2aXo2UHFaYjRFN1pGVnVXRHI5Y05PcEh6Q05qOGh3clRpZFNfU3FHY3NXbHI4WHNOM3VDVktoSV9lWVVScVVXX1RkOHZEeEtNZUpseEdDLWtXVjgwcGE1MVhPY0otU0xiTzMtU19DeFFWWkRkRQ?oc=5",
+        "isRepublished": false,
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! ‘로봇을 고용하고, 인간을 해고하고, 뒤돌아보지 말라’: 빌 게이츠, 인공지능이 수백만 개의 일자리를 대체할 수 있다고 경고 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "최고의 미래 2027년 기조 연설자 # 1 스콧 스타인버그",
         "enTitle": "Best Future of Work Keynote Speakers 2027 #1 Scott Steinberg",
-        "date": "2026-10-31",
+        "date": "2026-11-01",
         "originalDate": "2026-10-30",
         "sourceName": "https://www.futuristsspeakers.com/",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOM1A5M1lLT0k4ZjlKQ1pBY0V6VW1Ub1BiZjRURy1GS0NoUFNaclBnRUhpUmVSQVZZM1ZBUktJb0ZkLS1HNUlxOC1OY2thMjhtRmlzakd4M1ptTDRhTG8yYWpXaHMwX0ZQX2NLMlI3Ukd0N1hXUHE0VGtSTFBZZ2U0UUJB?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
+        "viralRate": "90%",
         "analysis": "글로벌 AI 트렌드 체크! 최고의 미래 2027년 기조 연설자 # 1 스콧 스타인버그 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "영국 기술 직무 계획: 200,000 목표, 800,000 추정 생략 AI 효과",
-        "enTitle": "UK Tech Jobs Plan: 200,000 Goal, 800,000 Estimate Omits AI Effects",
-        "date": "2026-10-31",
-        "originalDate": "2026-10-30",
-        "sourceName": "Quasa.io",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObFdRTFphTVRvT2VvOXl1Wl9pNFBvcFRySS1sdldxWTJLN01fOW44ZE5XVkh1NmpmTDM4aTlWNnRGVmJVUDFXV3RJZmtUVmNlMU03c2M3TU9wR2VBOThRU1RDNVU2UHhEaElacWhjNWUza1ktM3JnVEUzTnEyLXRZLTFXWjJrZzlaR0d6TEVGWnF6Qm1QdkdXOEQ4Q210Szg?oc=5",
-        "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 영국 기술 직무 계획: 200,000 목표, 800,000 추정 생략 AI 효과 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[재정 골든타임] ④ 청년 취업 47개월째 감소…AI 충격 겹쳐 미래 재정 경고등",
-        "enTitle": "[재정 골든타임] ④ 청년 취업 47개월째 감소…AI 충격 겹쳐 미래 재정 경고등",
-        "date": "2026-10-31",
-        "originalDate": "2026-10-30",
-        "sourceName": "뉴스핌",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JTWpPOG9UNUdTMnRSMDhrX2J5bUkzd1lHc0cwdHpGVmFwNUEwdFJfNm93QWVBVk1LbnBPejlURXVWTi1LWnh0ODZXa1NNTVBfNGZ3R3lybUVEd01z?oc=5",
+        "koTitle": "경북매일, 독자 맞춤형 ‘AI 추천기사’ 서비스로 언론의 인공지능 전환(AX) 가속",
+        "enTitle": "경북매일, 독자 맞춤형 ‘AI 추천기사’ 서비스로 언론의 인공지능 전환(AX) 가속",
+        "date": "2026-11-01",
+        "originalDate": "2026-10-31",
+        "sourceName": "경북매일",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3UEV5aWRaQ1BzRU5tYmxLNnJiak1ITmVGZzBfV3lzTVZhVGVSVmVQem5lMFJLNFp3czFnbW5Na0NXOVFkakVoeU5mTDJ5clZVZF9FYm1GSlRCQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [재정 골든타임] ④ 청년 취업 47개월째 감소…AI 충격 겹쳐 미래 재정 경고등 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 경북매일, 독자 맞춤형 ‘AI 추천기사’ 서비스로 언론의 인공지능 전환(AX) 가속 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "Spotify, 2027년 초 AI 기반 리믹스 서비스 출시 추진 - FT",
-        "enTitle": "Spotify, 2027년 초 AI 기반 리믹스 서비스 출시 추진 - FT",
-        "date": "2026-10-31",
-        "originalDate": "2026-10-30",
-        "sourceName": "Investing.com 한국어",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5lRGpEQTk3dUczVlhPckRRWElCRWtWRkJHTTI5dDN0Q2VfSkcyTThHZW1mSEstaU9JdG5TRThQaXplM3F0QjNuVkR4VmFocmVWSE5ocWpNYWtHc0Vna05LT1pTLXdNTHJHazFLMnplQzFBd2NYWFE4?oc=5",
+        "koTitle": "구글, 인터넷 없이 작동하는 '제미나이 라이브' 개발 중",
+        "enTitle": "구글, 인터넷 없이 작동하는 '제미나이 라이브' 개발 중",
+        "date": "2026-11-01",
+        "originalDate": "2026-10-31",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pS3pSS0VUdnlLRVRwX0ttQXhxMUxWOHdoa2k1ODdRdDhpa1JnR3doY1hmUkVXWXI2MU1JdG9XVGh3M1RTdDhqWElnd0tzZzVvXzZBQ0xWVGVaR0g2aTVuUEt4S0MzWWtUV1E?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! Spotify, 2027년 초 AI 기반 리믹스 서비스 출시 추진 - FT 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 구글, 인터넷 없이 작동하는 '제미나이 라이브' 개발 중 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "표앤컴퍼니, 생성형 AI 재무분석 서비스 ‘GAIFAS’ 출시",
-        "enTitle": "표앤컴퍼니, 생성형 AI 재무분석 서비스 ‘GAIFAS’ 출시",
-        "date": "2026-10-31",
-        "originalDate": "2026-10-30",
-        "sourceName": "공감신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5SdkJXcWR4bzlyQUFGM3lCRjlFak42Y1V6c2YyZHpMT3lXb3ZQUm5jTmYxUU9lcFI3bm1Ba0lfSzRwYjZ6RWVFbjdzSUZuWXN0TVhJM19KTEdDMG1sYkQ4enVkaWRRV2tR?oc=5",
+        "koTitle": "‘AI안경’으로 SAT문제 커닝해보니…정답, 제미나이 83%·GPT-4o 75.69%",
+        "enTitle": "‘AI안경’으로 SAT문제 커닝해보니…정답, 제미나이 83%·GPT-4o 75.69%",
+        "date": "2026-11-01",
+        "originalDate": "2026-10-31",
+        "sourceName": "중앙일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ROWpxNXRCeURjZFVMTHRVd0VfcldaaGNuX3BzU1hkN0dDTEt3WmlHNzluclBNUFFkVkhOYjZUWHN1c3dxZHJEQ2trN2FOVE1JUlp5MkdR?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 표앤컴퍼니, 생성형 AI 재무분석 서비스 ‘GAIFAS’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! ‘AI안경’으로 SAT문제 커닝해보니…정답, 제미나이 83%·GPT-4o 75.69% 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
