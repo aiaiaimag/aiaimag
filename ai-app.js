@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-11-01
+ * 최신 업데이트: 2026-11-02
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "시간적 가치가 있는 2027년을 위한 5가지 AI 사이드 허슬",
-        "enTitle": "5 AI Side Hustles for 2027 That Are Worth Your Time",
-        "date": "2026-11-01",
-        "originalDate": "2026-10-31",
-        "sourceName": "MoneyLion",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBBb2lmaFNLMVc1S3Q1MUhJajlrcUJZNWsxc3p3Ull3cXFUbUo2bEJPcVpjNWdhaExiQi1jWnp3T0N4NTFnVW1VOFQtUmExbHlpZGJtWG5Xdy1mV29FQXBCUUpuamZPZ2lGR1lYOUVLbTFRYkRXb2xDcA?oc=5",
+        "koTitle": "IIT Madras 백서: 일자리와 인도 노동 시장 재편을 위한 AI의 역할 탐구",
+        "enTitle": "IIT Madras white paper explores AI's role in reshaping jobs and India's labour market",
+        "date": "2026-11-02",
+        "originalDate": "2026-11-01",
+        "sourceName": "EdexLive",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUUFuc1dYcE8yaVR1NHRlWW9IY1hja3hSYldJSFpWZUotUWJUOWJuMF96WndVUkx3VFBpY2hiQnhuNnc0blBXSlhpX0dIYlVENHc3VHkzd3dGbTVlcDhEV1pLSXBwdWVHTFlHczlmM1htUHlPLVN4MnFEMGZJczluN3pXckFQMkJWM0ZZTW1MRTl4NkdmU3VuU1o5WXQ1MGk2cEg3TkQzb1JWQ1RQRUdFOVRuZ9IBwAFBVV95cUxPQVFGTlhwSWdxdzhlekhwSnEtZWJ0VXRQS0hYTUxVdnc4dXhVd0NXN3R3ZnNkOWc2R0xFVEFaNWhpcWVZTWlTbGlSaHdxMUQ5ZGJZMkdwWlh3UV8yaEhaVmdpUEExbTgzb3NfUzlXU0podG02TEN4VDdKYkVKTHlVbFctYXFVVWlTdE9RWXlIRGNsQUx3YWljbFppLXhRSWtvWHM3cHowek9nX19tR1EySklfanVrLVdNZkh2TFIwdkU?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 시간적 가치가 있는 2027년을 위한 5가지 AI 사이드 허슬 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! IIT Madras 백서: 일자리와 인도 노동 시장 재편을 위한 AI의 역할 탐구 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "‘로봇을 고용하고, 인간을 해고하고, 뒤돌아보지 말라’: 빌 게이츠, 인공지능이 수백만 개의 일자리를 대체할 수 있다고 경고",
-        "enTitle": "‘Hire the robot, fire the human and don’t look back’: Bill Gates warns AI could replace millions of jobs",
-        "date": "2026-11-01",
-        "originalDate": "2026-10-31",
-        "sourceName": "Education Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPdEpSX0FoU2p4ZFZNNE5sdkN1MXNwLUYzY2w5Z3BlWVo2bE53TVA1bnNlbG1rdjBycEFZSmhOZTdOTHdvcHRLYnVhUjhWWFh0bjVRYVNGOFhkT25zcF9Na2Z1WU9NMW5XNGFEZVM0am02bGozdGwtT2Y5UHpHZVJYdGF0bUlhWFpTN1M2aXo2UHFaYjRFN1pGVnVXRHI5Y05PcEh6Q05qOGh3clRpZFNfU3FHY3NXbHI4WHNOM3VDVktoSV9lWVVScVVXX1RkOHZEeEtNZUpseEdDLWtXVjgwcGE1MVhPY0otU0xiTzMtU19DeFFWWkRkRQ?oc=5",
+        "koTitle": "2027년 기술 트렌드: 일자리와 비즈니스를 어떻게 변화시킬 것인가",
+        "enTitle": "2027 Technology Trends: How They Will Change Jobs and Business",
+        "date": "2026-11-02",
+        "originalDate": "2026-11-01",
+        "sourceName": "Analytics Insight",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNDRVdTh5UldFSG5UVkdzLXR0bmZTNU5KcHAxTVBJZjFwMlA4YmNHTGpQc0VQY2pCOEhBS2N5X21oTWVtSFU0R3B4YXpBZXhtQ2FwX2o3NVg1MEpGM2FOTWhfQlpRSGJmZ3FXVmdRMXlKR2ZhR2hieER2SVVOZ1N1NGZKdmhGTVVRR1BaRklJTHFQM2VpS0NSMW1jNS12ME5MR0Vpa2xoTzk4MzZXVUMzTEQ5UTFwU3N1SkHSAccBQVVfeXFMT0pnamdGSE9FT05KemttMmQ1SXBuYS1sQV9GazRQQWZOM0RmTjg4Z0R2UGx1Z0hCS1YyTWM1SjNocDRjLVVQY3BfYUVvV1RhWXh4OHRkUHpQWTh6VERhV0NBZzEtQmJaMVExVFEwR2xFSTlwTk1wSFkxOFBrTkpsM1hPdF9kSGZqS2NIUDNyWC1Xa25RQ0F5VjhQZ0Y1aXRtQlFFRnU5WlR6QTNHaWtlaFNrSFhuNUt1UTlqOGxybDF5S3ROd3VSQQ?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! ‘로봇을 고용하고, 인간을 해고하고, 뒤돌아보지 말라’: 빌 게이츠, 인공지능이 수백만 개의 일자리를 대체할 수 있다고 경고 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 2027년 기술 트렌드: 일자리와 비즈니스를 어떻게 변화시킬 것인가 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "최고의 미래 2027년 기조 연설자 # 1 스콧 스타인버그",
-        "enTitle": "Best Future of Work Keynote Speakers 2027 #1 Scott Steinberg",
-        "date": "2026-11-01",
-        "originalDate": "2026-10-30",
-        "sourceName": "https://www.futuristsspeakers.com/",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOM1A5M1lLT0k4ZjlKQ1pBY0V6VW1Ub1BiZjRURy1GS0NoUFNaclBnRUhpUmVSQVZZM1ZBUktJb0ZkLS1HNUlxOC1OY2thMjhtRmlzakd4M1ptTDRhTG8yYWpXaHMwX0ZQX2NLMlI3Ukd0N1hXUHE0VGtSTFBZZ2U0UUJB?oc=5",
+        "koTitle": "시간적 가치가 있는 2027년을 위한 5가지 AI 사이드 허슬",
+        "enTitle": "5 AI Side Hustles for 2027 That Are Worth Your Time",
+        "date": "2026-11-02",
+        "originalDate": "2026-10-31",
+        "sourceName": "MoneyLion",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBBb2lmaFNLMVc1S3Q1MUhJajlrcUJZNWsxc3p3Ull3cXFUbUo2bEJPcVpjNWdhaExiQi1jWnp3T0N4NTFnVW1VOFQtUmExbHlpZGJtWG5Xdy1mV29FQXBCUUpuamZPZ2lGR1lYOUVLbTFRYkRXb2xDcA?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 최고의 미래 2027년 기조 연설자 # 1 스콧 스타인버그 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 시간적 가치가 있는 2027년을 위한 5가지 AI 사이드 허슬 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "경북매일, 독자 맞춤형 ‘AI 추천기사’ 서비스로 언론의 인공지능 전환(AX) 가속",
-        "enTitle": "경북매일, 독자 맞춤형 ‘AI 추천기사’ 서비스로 언론의 인공지능 전환(AX) 가속",
-        "date": "2026-11-01",
-        "originalDate": "2026-10-31",
-        "sourceName": "경북매일",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3UEV5aWRaQ1BzRU5tYmxLNnJiak1ITmVGZzBfV3lzTVZhVGVSVmVQem5lMFJLNFp3czFnbW5Na0NXOVFkakVoeU5mTDJ5clZVZF9FYm1GSlRCQQ?oc=5",
+        "koTitle": "제천시, 인공지능 민원 응대 서비스 'AI 챗봇' 운영...충북 최초",
+        "enTitle": "제천시, 인공지능 민원 응대 서비스 'AI 챗봇' 운영...충북 최초",
+        "date": "2026-11-02",
+        "originalDate": "2026-11-02",
+        "sourceName": "굿모닝충청",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE16eUZCUHNfNE55NXRuVzlHbWZVSlF6aXZFUXVKeHRnWWhmQ1R5YVFQQW5ISmpaWmZNTE5PeW1zQU5ZY3VaMi1xTFB1TFA2c0VuMGp6UUpEdkJCMmRXTUpJTEk1N0NFWS1CWjRtWkozcXhfZw?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 경북매일, 독자 맞춤형 ‘AI 추천기사’ 서비스로 언론의 인공지능 전환(AX) 가속 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 제천시, 인공지능 민원 응대 서비스 'AI 챗봇' 운영...충북 최초 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "구글, 인터넷 없이 작동하는 '제미나이 라이브' 개발 중",
-        "enTitle": "구글, 인터넷 없이 작동하는 '제미나이 라이브' 개발 중",
-        "date": "2026-11-01",
-        "originalDate": "2026-10-31",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pS3pSS0VUdnlLRVRwX0ttQXhxMUxWOHdoa2k1ODdRdDhpa1JnR3doY1hmUkVXWXI2MU1JdG9XVGh3M1RTdDhqWElnd0tzZzVvXzZBQ0xWVGVaR0g2aTVuUEt4S0MzWWtUV1E?oc=5",
+        "koTitle": "ChatGPT와 Codex 사용 한도 통합",
+        "enTitle": "ChatGPT와 Codex 사용 한도 통합",
+        "date": "2026-11-02",
+        "originalDate": "2026-11-01",
+        "sourceName": "GeekNews",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBYdmV5ZVMzenpZckdKYUdIRFF0QmU5cHlNRm9rbEJwRTRUYUFLMnQ4bkxPX0dyWDVrUU1talRqMHhkQnRDRlpSdUlWOA?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글, 인터넷 없이 작동하는 '제미나이 라이브' 개발 중 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! ChatGPT와 Codex 사용 한도 통합 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "‘AI안경’으로 SAT문제 커닝해보니…정답, 제미나이 83%·GPT-4o 75.69%",
-        "enTitle": "‘AI안경’으로 SAT문제 커닝해보니…정답, 제미나이 83%·GPT-4o 75.69%",
-        "date": "2026-11-01",
-        "originalDate": "2026-10-31",
-        "sourceName": "중앙일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ROWpxNXRCeURjZFVMTHRVd0VfcldaaGNuX3BzU1hkN0dDTEt3WmlHNzluclBNUFFkVkhOYjZUWHN1c3dxZHJEQ2trN2FOVE1JUlp5MkdR?oc=5",
+        "koTitle": "신한증권, AI조건검색 서비스 '프리미어 AI 파인더' 출시",
+        "enTitle": "신한증권, AI조건검색 서비스 '프리미어 AI 파인더' 출시",
+        "date": "2026-11-02",
+        "originalDate": "2026-11-02",
+        "sourceName": "연합뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WbGthNENYMUROaENkdmYtSVJkZ2hSZDJVZGhDSWw1VDU3MEZ3QXNqZ1FyODZrcFBYY3FWUkhwSHVWRWVwS2ZCUUEtOGN3eGpUVFpaT0lkbFhTaVk?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! ‘AI안경’으로 SAT문제 커닝해보니…정답, 제미나이 83%·GPT-4o 75.69% 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 신한증권, AI조건검색 서비스 '프리미어 AI 파인더' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
