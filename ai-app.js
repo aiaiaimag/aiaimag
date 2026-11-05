@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-11-04
+ * 최신 업데이트: 2026-11-05
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "인공지능 시대에 일의 미래",
-        "enTitle": "The Future of Work in the Age of AI",
-        "date": "2026-11-04",
-        "originalDate": "2026-11-03",
-        "sourceName": "United Nations Development Programme",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzaWNwdmZ5WnNlNV9wQWRkZVBLc3VQQzNUNVRYaURkSk8tYmdYVW1aRXFWemN0MXdPTUwydnhRQmRlMEdObm1tNWhpWHg1NW14RDY2alJreElQcEpfMmdSZlJDdVRQR0ZZczM4?oc=5",
+        "koTitle": "AI와 일의 미래: AI가 일자리를 없애기보다 바꿀 가능성이 높은 이유",
+        "enTitle": "AI and the Future of Work: Why AI is More Likely to Change Jobs Than Eliminate Them",
+        "date": "2026-11-05",
+        "originalDate": "2026-11-04",
+        "sourceName": "TD Stories",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOajRSTnY3TWhFMEVwSE1TVG5Oa1E3ZjJUT0dXUThSb3VpNVJDcnNsT3Y0bFdkQ3FZcVZPbjYxN3hvZ3F6Q19YUWhJWGJGUzlOYXZoTmJzOG9EV3llLXRPSHBhSXhqYjZEazZwLUJNc0JkM2FEQmlMNDNwSXREY18ydDI3RUhZSmJCcHBvTl9FZF8xNW1mdkIzRzRKMGszczJmTXBEOWtVTGc0ekhQMEVCdVBQTUdNVkxoSVU0?oc=5",
         "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능 시대에 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! AI와 일의 미래: AI가 일자리를 없애기보다 바꿀 가능성이 높은 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "바우미아는 AI 일자리 손실로부터 근로자를 보호하기 위한 법률을 요구합니다.",
-        "enTitle": "Bawumia calls for laws to protect workers from AI job losses",
-        "date": "2026-11-04",
-        "originalDate": "2026-11-03",
-        "sourceName": "MyJoyOnline",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSFljOUEtdVZiVUItay1UQS05UU1VT0NjMTI5WkJ1bEhOWVNKd0hKT1g4cFEwWG1TUWVlRVBmbUZST005dXNzZElhRVNyTE1DdjZJcS10VWxweDJvdjBENEJiUFBJRnhQd3RMak56NkxvcXp3SC1CRnZrXzBwekJjWXptbkNTQ2VlWFJnOXNJVnpwVWs?oc=5",
+        "koTitle": "Coursera 직무 기술 보고서 2026: AI 및 주문형 기술에 대한 5가지 연구 결과",
+        "enTitle": "Coursera Job Skills Report 2026: 5 findings on AI and in-demand skills",
+        "date": "2026-11-05",
+        "originalDate": "2026-11-04",
+        "sourceName": "qz.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NSkQwc0dzQ1N4dlhSYUtpS3NKNEZqV0pDWHF0aG5qTGt0TVQtMk10eWxOY3l5VlNGODJXY0U1NlFORVV0UHRVd21rYm9jV1BHY1RpbGFHMmE0Z1RQQlliSVNKdzFVRnozTTJz?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 바우미아는 AI 일자리 손실로부터 근로자를 보호하기 위한 법률을 요구합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! Coursera 직무 기술 보고서 2026: AI 및 주문형 기술에 대한 5가지 연구 결과 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "인공지능을 벗어날 수는 없지만, 인공지능과 함께 살아가는 법을 배울 수는 있습니다. 와튼 교수인 이단 몰릭 (Ethan Mollick) 이 그 방법을 설명합니다.",
-        "enTitle": "You can't escape AI, but you can learn to live with it. Wharton Professor Ethan Mollick explains how.",
-        "date": "2026-11-04",
-        "originalDate": "2026-11-02",
-        "sourceName": "Business Insider",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ1cxSFIwZVhEXzdBMnR0dWdGdEtIVThlYWZiWGNjNGg0Q3NBci1heVlxdmhpcXQ4S1puNHB6bml4VkRUNWtVdkR0UlJ6azV0bWNFR1FrMzlUZ0JJdzBQN0RqTURxUEtzMk9TeFhMcEFXQTltX1ZjMnRBNG5WR3FkNURkRDc3TkMyTFhLbjZWMzVFZlBjcXlhSV9QX3M?oc=5",
+        "koTitle": "인공지능 시대에 일의 미래",
+        "enTitle": "The Future of Work in the Age of AI",
+        "date": "2026-11-05",
+        "originalDate": "2026-11-04",
+        "sourceName": "United Nations Development Programme",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzaWNwdmZ5WnNlNV9wQWRkZVBLc3VQQzNUNVRYaURkSk8tYmdYVW1aRXFWemN0MXdPTUwydnhRQmRlMEdObm1tNWhpWHg1NW14RDY2alJreElQcEpfMmdSZlJDdVRQR0ZZczM4?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능을 벗어날 수는 없지만, 인공지능과 함께 살아가는 법을 배울 수는 있습니다. 와튼 교수인 이단 몰릭 (Ethan Mollick) 이 그 방법을 설명합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능 시대에 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "KT, ‘안심365’ 서비스 출시…AI 기반 보호 역량 강화",
-        "enTitle": "KT, ‘안심365’ 서비스 출시…AI 기반 보호 역량 강화",
-        "date": "2026-11-04",
-        "originalDate": "2026-11-04",
-        "sourceName": "아이티비즈",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54VlpLTjRoSndodk00VlJfSjNyTmV3YkVDSm9XdWNwTGI4c1ZvdGpZSTBiOW5ESkgxYWdnay1ndkJXeDB0VEhmaFVHZVVmV3o2enRTcmMwT01HMWdva3JKOHpoT3o3TEU?oc=5",
+        "koTitle": "충남 당진시, 2026년 일자리박람회 성료…현장 면접·AI 취업지원 호응",
+        "enTitle": "충남 당진시, 2026년 일자리박람회 성료…현장 면접·AI 취업지원 호응",
+        "date": "2026-11-05",
+        "originalDate": "2026-11-05",
+        "sourceName": "뉴스홈(newshome)",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBONkdFT1JpQ2NKZ0ZuZ3hWRDVuM1JBeEdVVDgtQ1JLOHNYOFp5aEpUZnI3REhSb0Zqc2Excm96ZTB6ZGV6VFRzaVNSdjBsQUh3bi1RdWdycWkybl9CWWthZGJMbmd6Mms0Qk8yNXd3?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! KT, ‘안심365’ 서비스 출시…AI 기반 보호 역량 강화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 충남 당진시, 2026년 일자리박람회 성료…현장 면접·AI 취업지원 호응 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "구글 \"초중고에서 제미나이 차단하면 검색 기능 못쓴다\"",
-        "enTitle": "구글 \"초중고에서 제미나이 차단하면 검색 기능 못쓴다\"",
-        "date": "2026-11-04",
-        "originalDate": "2026-11-03",
-        "sourceName": "매일경제 마켓",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5pX2tuUWROQ0swWU85Ymp0RmZtU0M0X3k4TW81aTI5Ml9HYkVZUjdkQWZLYUkza2VnM001OUY5eFlXcF9SdWVxemIyNzEya2hWaVE?oc=5",
+        "koTitle": "말하면 사진 찾아줘…클립아트코리아, AI 검색 서비스 출시 - 머니투데이",
+        "enTitle": "말하면 사진 찾아줘…클립아트코리아, AI 검색 서비스 출시 - 머니투데이",
+        "date": "2026-11-05",
+        "originalDate": "2026-11-05",
+        "sourceName": "머니투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJSEdrbmktVEh6dENNR2RRX24wWFg2d1pIUkFPZHRzcmtQS3E3M2kySUFMelhtY21xenppN1ZNQkxfNS1SWnFrY3JLbHNpOThOWTRJNDJrYkdFcFN1alRCd0RXcEJCU1pUeG1VONIBckFVX3lxTE4wdVdRNkRGX2dkbFFJNmhzWXQ2TS1BcmR6eTFGUmZ5SGpUaVN1MHN3TnplczAxZk9YS0NJLWJ0bUx3QXJ2ZGxzTl92bmdRTC1lLTlxcGdFb3Y4MmthdHpuOUFpSU5VWTBldWFFYlFkTEtNZw?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글 \"초중고에서 제미나이 차단하면 검색 기능 못쓴다\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 말하면 사진 찾아줘…클립아트코리아, AI 검색 서비스 출시 - 머니투데이 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "KT, ‘안심365’ 출시…“AI 고객 보호 서비스 통합·체계화”",
-        "enTitle": "KT, ‘안심365’ 출시…“AI 고객 보호 서비스 통합·체계화”",
-        "date": "2026-11-04",
-        "originalDate": "2026-11-04",
-        "sourceName": "주간한국",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80TktwdzNwOXJUa1BGUy01SVFaS0ZVLWRXcFhlaDJ3VnIwWGdyU21GR29pMHFBODdzQVRmUk1TS2hhWXBfRjhlMC1RWC1OQjJVRU44OEdDRXNlWC1qSWJ0clA0dnlEZkpFQ1RNa3ZnTErSAXRBVV95cUxNdTRobm5YNXkta255dE5lTnRWRDc0T2Fpd3JUT3M0NWxBSzk4LS1Ed3U0SU05dUJ5a29JSDVaS0RHeE83M0FDTHNCcnR5dk83ZUJVZGd5ZDFjbWZROXJ4SlJXMXppYlowQ1RLMlJKOTBJN1A0Zg?oc=5",
+        "koTitle": "AI 기반 제조 플랫폼 RWAI, 메인넷 출시 및 의류 주문 제작 서비스 개시",
+        "enTitle": "AI 기반 제조 플랫폼 RWAI, 메인넷 출시 및 의류 주문 제작 서비스 개시",
+        "date": "2026-11-05",
+        "originalDate": "2026-11-05",
+        "sourceName": "서울신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1FRGdfREFaS0dhZDhaOTVMZE5aZGdmSG9BLWhFN0xBTWlxbV9CNjY5dlp5OXFnR19aeXJ6Mldqbjdja0YweGtmM3pjRXdjNld0NTRNZ1E0NTJtRUVWbTVNQUhNeXpvSUVwVi03SkxmUQ?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! KT, ‘안심365’ 출시…“AI 고객 보호 서비스 통합·체계화” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! AI 기반 제조 플랫폼 RWAI, 메인넷 출시 및 의류 주문 제작 서비스 개시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
