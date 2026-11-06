@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-11-05
+ * 최신 업데이트: 2026-11-06
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI와 일의 미래: AI가 일자리를 없애기보다 바꿀 가능성이 높은 이유",
-        "enTitle": "AI and the Future of Work: Why AI is More Likely to Change Jobs Than Eliminate Them",
-        "date": "2026-11-05",
-        "originalDate": "2026-11-04",
-        "sourceName": "TD Stories",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOajRSTnY3TWhFMEVwSE1TVG5Oa1E3ZjJUT0dXUThSb3VpNVJDcnNsT3Y0bFdkQ3FZcVZPbjYxN3hvZ3F6Q19YUWhJWGJGUzlOYXZoTmJzOG9EV3llLXRPSHBhSXhqYjZEazZwLUJNc0JkM2FEQmlMNDNwSXREY18ydDI3RUhZSmJCcHBvTl9FZF8xNW1mdkIzRzRKMGszczJmTXBEOWtVTGc0ekhQMEVCdVBQTUdNVkxoSVU0?oc=5",
+        "koTitle": "일자리가 바뀔 것입니다. ”라고 머스크는 말합니다. AI가 업무를 대체하기 전에 업무를 전환할 수 있음",
+        "enTitle": "Jobs Will Change,” Musk Says. AI Could Transform the Work Before It Replaces the Job",
+        "date": "2026-11-06",
+        "originalDate": "2026-11-05",
+        "sourceName": "PW",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNkNvNkRmaGoxaGktLV9GcGJZb2J4YWVyWDNpa0NOUHM1VE9Kb1dNa0F5M3lDem4tcFpOQjVncGdDdm5aa2E3TkV1dlJpRzU4N0NIM1FkQ1FfSW5QZTdaN0FOSVRBemRhVE1yMjZ6SkJjUmJtLUVVbmJweWpzVUw5dXZTbW5DQm9oallNZlNFVzBfQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! AI와 일의 미래: AI가 일자리를 없애기보다 바꿀 가능성이 높은 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 일자리가 바뀔 것입니다. ”라고 머스크는 말합니다. AI가 업무를 대체하기 전에 업무를 전환할 수 있음 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "Coursera 직무 기술 보고서 2026: AI 및 주문형 기술에 대한 5가지 연구 결과",
-        "enTitle": "Coursera Job Skills Report 2026: 5 findings on AI and in-demand skills",
-        "date": "2026-11-05",
+        "koTitle": "디즈니 정리 해고가 직업의 미래에 대해 알려주는 것",
+        "enTitle": "What Disney Layoffs Tell Us About the Future of Jobs",
+        "date": "2026-11-06",
         "originalDate": "2026-11-04",
-        "sourceName": "qz.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NSkQwc0dzQ1N4dlhSYUtpS3NKNEZqV0pDWHF0aG5qTGt0TVQtMk10eWxOY3l5VlNGODJXY0U1NlFORVV0UHRVd21rYm9jV1BHY1RpbGFHMmE0Z1RQQlliSVNKdzFVRnozTTJz?oc=5",
+        "sourceName": "Newsweek",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9yc3d3N1VKU3FicmtTa2ZPTVBTS05qa2UxbmpmWnhoWXFQNkNyLU9HS0NWcTNUeWNFX25yVld4SmN2RjJtWV9XZkFUdFp1U0JSX1k2eW9BUmdublNRVmRTYzVoS3NBSDAyWk5pQzh2czQ2U2hMMGx5c0FZR2ZVQQ?oc=5",
         "isRepublished": false,
         "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! Coursera 직무 기술 보고서 2026: AI 및 주문형 기술에 대한 5가지 연구 결과 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 디즈니 정리 해고가 직업의 미래에 대해 알려주는 것 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "인공지능 시대에 일의 미래",
-        "enTitle": "The Future of Work in the Age of AI",
-        "date": "2026-11-05",
+        "koTitle": "AI와 일의 미래: AI가 일자리를 없애기보다 바꿀 가능성이 높은 이유",
+        "enTitle": "AI and the Future of Work: Why AI is More Likely to Change Jobs Than Eliminate Them",
+        "date": "2026-11-06",
         "originalDate": "2026-11-04",
-        "sourceName": "United Nations Development Programme",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzaWNwdmZ5WnNlNV9wQWRkZVBLc3VQQzNUNVRYaURkSk8tYmdYVW1aRXFWemN0MXdPTUwydnhRQmRlMEdObm1tNWhpWHg1NW14RDY2alJreElQcEpfMmdSZlJDdVRQR0ZZczM4?oc=5",
+        "sourceName": "TD Stories",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOajRSTnY3TWhFMEVwSE1TVG5Oa1E3ZjJUT0dXUThSb3VpNVJDcnNsT3Y0bFdkQ3FZcVZPbjYxN3hvZ3F6Q19YUWhJWGJGUzlOYXZoTmJzOG9EV3llLXRPSHBhSXhqYjZEazZwLUJNc0JkM2FEQmlMNDNwSXREY18ydDI3RUhZSmJCcHBvTl9FZF8xNW1mdkIzRzRKMGszczJmTXBEOWtVTGc0ekhQMEVCdVBQTUdNVkxoSVU0?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능 시대에 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! AI와 일의 미래: AI가 일자리를 없애기보다 바꿀 가능성이 높은 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "충남 당진시, 2026년 일자리박람회 성료…현장 면접·AI 취업지원 호응",
-        "enTitle": "충남 당진시, 2026년 일자리박람회 성료…현장 면접·AI 취업지원 호응",
-        "date": "2026-11-05",
-        "originalDate": "2026-11-05",
-        "sourceName": "뉴스홈(newshome)",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBONkdFT1JpQ2NKZ0ZuZ3hWRDVuM1JBeEdVVDgtQ1JLOHNYOFp5aEpUZnI3REhSb0Zqc2Excm96ZTB6ZGV6VFRzaVNSdjBsQUh3bi1RdWdycWkybl9CWWthZGJMbmd6Mms0Qk8yNXd3?oc=5",
+        "koTitle": "내게 맞는 채용공고 정리·기업별로 자기소개서 작성… “내 취업, AI가 해줍니다”[창간 35주년 특집]",
+        "enTitle": "내게 맞는 채용공고 정리·기업별로 자기소개서 작성… “내 취업, AI가 해줍니다”[창간 35주년 특집]",
+        "date": "2026-11-06",
+        "originalDate": "2026-11-06",
+        "sourceName": "문화일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0tY0pfU1o1RlRGdXROVm8wZXVtZUY4MnVoek5hYjh5XzJacmY4Rk8tbWtDNklEVnAyUnlXWHo1OVpNallGNnlsZDBTQlBEcVQ1?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 충남 당진시, 2026년 일자리박람회 성료…현장 면접·AI 취업지원 호응 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 내게 맞는 채용공고 정리·기업별로 자기소개서 작성… “내 취업, AI가 해줍니다”[창간 35주년 특집] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "말하면 사진 찾아줘…클립아트코리아, AI 검색 서비스 출시 - 머니투데이",
-        "enTitle": "말하면 사진 찾아줘…클립아트코리아, AI 검색 서비스 출시 - 머니투데이",
-        "date": "2026-11-05",
+        "koTitle": "카카오, 연내 AI 서비스 3종 출시",
+        "enTitle": "카카오, 연내 AI 서비스 3종 출시",
+        "date": "2026-11-06",
         "originalDate": "2026-11-05",
-        "sourceName": "머니투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJSEdrbmktVEh6dENNR2RRX24wWFg2d1pIUkFPZHRzcmtQS3E3M2kySUFMelhtY21xenppN1ZNQkxfNS1SWnFrY3JLbHNpOThOWTRJNDJrYkdFcFN1alRCd0RXcEJCU1pUeG1VONIBckFVX3lxTE4wdVdRNkRGX2dkbFFJNmhzWXQ2TS1BcmR6eTFGUmZ5SGpUaVN1MHN3TnplczAxZk9YS0NJLWJ0bUx3QXJ2ZGxzTl92bmdRTC1lLTlxcGdFb3Y4MmthdHpuOUFpSU5VWTBldWFFYlFkTEtNZw?oc=5",
+        "sourceName": "세계일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9FN240TWFydW9LOHg5Q1VSS0tleXMwMXpDa3VhNW1ld2E5RmdrcXdvZllZb05LcTBIOUpSdWRnNnJvcTl4T0pCWVZzY0pGbm1mQmJ3S2RaMUxkeFd1N0hmZTRLLTNzbzBvMklJ0gFUQVVfeXFMTUVTWFJ2US01VFRpbnpsd3E2RUlENE9HWXdCN3NIelNHXzJmbDB3M0FRaGlrYXp6WXA4dU9GLTI2dHFXRHEzY2Vsd1BmVWNqXzNiTlBC?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 말하면 사진 찾아줘…클립아트코리아, AI 검색 서비스 출시 - 머니투데이 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 카카오, 연내 AI 서비스 3종 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "AI 기반 제조 플랫폼 RWAI, 메인넷 출시 및 의류 주문 제작 서비스 개시",
-        "enTitle": "AI 기반 제조 플랫폼 RWAI, 메인넷 출시 및 의류 주문 제작 서비스 개시",
-        "date": "2026-11-05",
-        "originalDate": "2026-11-05",
-        "sourceName": "서울신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1FRGdfREFaS0dhZDhaOTVMZE5aZGdmSG9BLWhFN0xBTWlxbV9CNjY5dlp5OXFnR19aeXJ6Mldqbjdja0YweGtmM3pjRXdjNld0NTRNZ1E0NTJtRUVWbTVNQUhNeXpvSUVwVi03SkxmUQ?oc=5",
+        "koTitle": "영풍문고, AI 도서추천 서비스 출시…매장 판매량 반영",
+        "enTitle": "영풍문고, AI 도서추천 서비스 출시…매장 판매량 반영",
+        "date": "2026-11-06",
+        "originalDate": "2026-11-06",
+        "sourceName": "뉴스1",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zLXlMc0FBTDh6RFphdXdMUGZseGRFeVowY2ozSU8xN2RmeTVSbjdIUm1XcG5OQmxsUTI2QVRERi1lOXVBYldTdmNjNWVVaFZIRXlrXzBvM1UyUQ?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! AI 기반 제조 플랫폼 RWAI, 메인넷 출시 및 의류 주문 제작 서비스 개시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 영풍문고, AI 도서추천 서비스 출시…매장 판매량 반영 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
