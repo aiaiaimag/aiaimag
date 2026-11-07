@@ -1,7 +1,7 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-11-06
+ * 최신 업데이트: 2026-11-07
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
@@ -10,38 +10,38 @@ const aiNewsData = [
         "rank": 1,
         "koTitle": "일자리가 바뀔 것입니다. ”라고 머스크는 말합니다. AI가 업무를 대체하기 전에 업무를 전환할 수 있음",
         "enTitle": "Jobs Will Change,” Musk Says. AI Could Transform the Work Before It Replaces the Job",
-        "date": "2026-11-06",
+        "date": "2026-11-07",
         "originalDate": "2026-11-05",
         "sourceName": "PW",
         "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNkNvNkRmaGoxaGktLV9GcGJZb2J4YWVyWDNpa0NOUHM1VE9Kb1dNa0F5M3lDem4tcFpOQjVncGdDdm5aa2E3TkV1dlJpRzU4N0NIM1FkQ1FfSW5QZTdaN0FOSVRBemRhVE1yMjZ6SkJjUmJtLUVVbmJweWpzVUw5dXZTbW5DQm9oallNZlNFVzBfQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
+        "viralRate": "90%",
         "analysis": "글로벌 AI 트렌드 체크! 일자리가 바뀔 것입니다. ”라고 머스크는 말합니다. AI가 업무를 대체하기 전에 업무를 전환할 수 있음 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "인공지능과 일의 미래",
+        "enTitle": "AI and the Future of Work",
+        "date": "2026-11-07",
+        "originalDate": "2026-11-06",
+        "sourceName": "Brighter Kashmir",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MX05MdlpPVXloMHE2czViVm93S3FOSE1Kcllrbm9CbnpVSWlnMzNwblJqTVZFVTlMU3M3TWJ3WFhEVlEtVzNMbjJZc1BDYkhXVkhiaVpNbS10YnJmTVlGbGR5WQ?oc=5",
+        "isRepublished": false,
+        "viralRate": "88%",
+        "analysis": "글로벌 AI 트렌드 체크! 인공지능과 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "디즈니 정리 해고가 직업의 미래에 대해 알려주는 것",
         "enTitle": "What Disney Layoffs Tell Us About the Future of Jobs",
-        "date": "2026-11-06",
+        "date": "2026-11-07",
         "originalDate": "2026-11-04",
         "sourceName": "Newsweek",
         "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9yc3d3N1VKU3FicmtTa2ZPTVBTS05qa2UxbmpmWnhoWXFQNkNyLU9HS0NWcTNUeWNFX25yVld4SmN2RjJtWV9XZkFUdFp1U0JSX1k2eW9BUmdublNRVmRTYzVoS3NBSDAyWk5pQzh2czQ2U2hMMGx5c0FZR2ZVQQ?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
+        "viralRate": "97%",
         "analysis": "글로벌 AI 트렌드 체크! 디즈니 정리 해고가 직업의 미래에 대해 알려주는 것 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "AI와 일의 미래: AI가 일자리를 없애기보다 바꿀 가능성이 높은 이유",
-        "enTitle": "AI and the Future of Work: Why AI is More Likely to Change Jobs Than Eliminate Them",
-        "date": "2026-11-06",
-        "originalDate": "2026-11-04",
-        "sourceName": "TD Stories",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOajRSTnY3TWhFMEVwSE1TVG5Oa1E3ZjJUT0dXUThSb3VpNVJDcnNsT3Y0bFdkQ3FZcVZPbjYxN3hvZ3F6Q19YUWhJWGJGUzlOYXZoTmJzOG9EV3llLXRPSHBhSXhqYjZEazZwLUJNc0JkM2FEQmlMNDNwSXREY18ydDI3RUhZSmJCcHBvTl9FZF8xNW1mdkIzRzRKMGszczJmTXBEOWtVTGc0ekhQMEVCdVBQTUdNVkxoSVU0?oc=5",
-        "isRepublished": false,
-        "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! AI와 일의 미래: AI가 일자리를 없애기보다 바꿀 가능성이 높은 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "내게 맞는 채용공고 정리·기업별로 자기소개서 작성… “내 취업, AI가 해줍니다”[창간 35주년 특집]",
-        "enTitle": "내게 맞는 채용공고 정리·기업별로 자기소개서 작성… “내 취업, AI가 해줍니다”[창간 35주년 특집]",
-        "date": "2026-11-06",
+        "koTitle": "GPT·클로드 제친 보안 전용 AI 에이전트 등장",
+        "enTitle": "GPT·클로드 제친 보안 전용 AI 에이전트 등장",
+        "date": "2026-11-07",
         "originalDate": "2026-11-06",
-        "sourceName": "문화일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0tY0pfU1o1RlRGdXROVm8wZXVtZUY4MnVoek5hYjh5XzJacmY4Rk8tbWtDNklEVnAyUnlXWHo1OVpNallGNnlsZDBTQlBEcVQ1?oc=5",
+        "sourceName": "디일렉",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBUVVU2Vl92ZGZTdElIREJwRjZCQlA3eEl0djRBWkY2WExMbnZoa3VxY3dHd1NqSUw4amstNDJQd1UwRW50SGhsYjBBekZiMW9jVWh3ejlqWUJkTXVjcG9BaFhLZ2h2dw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 내게 맞는 채용공고 정리·기업별로 자기소개서 작성… “내 취업, AI가 해줍니다”[창간 35주년 특집] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! GPT·클로드 제친 보안 전용 AI 에이전트 등장 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "카카오, 연내 AI 서비스 3종 출시",
-        "enTitle": "카카오, 연내 AI 서비스 3종 출시",
-        "date": "2026-11-06",
-        "originalDate": "2026-11-05",
-        "sourceName": "세계일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9FN240TWFydW9LOHg5Q1VSS0tleXMwMXpDa3VhNW1ld2E5RmdrcXdvZllZb05LcTBIOUpSdWRnNnJvcTl4T0pCWVZzY0pGbm1mQmJ3S2RaMUxkeFd1N0hmZTRLLTNzbzBvMklJ0gFUQVVfeXFMTUVTWFJ2US01VFRpbnpsd3E2RUlENE9HWXdCN3NIelNHXzJmbDB3M0FRaGlrYXp6WXA4dU9GLTI2dHFXRHEzY2Vsd1BmVWNqXzNiTlBC?oc=5",
+        "koTitle": "카카오 AI 서비스, 줄줄이 출격 대기···관건은 '수익 모델'",
+        "enTitle": "카카오 AI 서비스, 줄줄이 출격 대기···관건은 '수익 모델'",
+        "date": "2026-11-07",
+        "originalDate": "2026-11-06",
+        "sourceName": "뉴스웨이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMQzk4NnRBQkl6dWFlNzEyZUZwbE1uVjVjcW03ODdHVGY1bkI1Tl9QOHZ2NGIzN2JQdlhyOGhfX3J4WUQyeEx0ajJWVmlpVFFRQmdRd05YdnFpU0t1ekpwUU90WHMxRW9ac2c?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 카카오, 연내 AI 서비스 3종 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 카카오 AI 서비스, 줄줄이 출격 대기···관건은 '수익 모델' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "영풍문고, AI 도서추천 서비스 출시…매장 판매량 반영",
-        "enTitle": "영풍문고, AI 도서추천 서비스 출시…매장 판매량 반영",
-        "date": "2026-11-06",
+        "koTitle": "구글, 15초 AI 영상 무료 생성 시대 열었다…제미나이 옴니 1.2 플래시 출시, 생성 비용 30% 인하",
+        "enTitle": "구글, 15초 AI 영상 무료 생성 시대 열었다…제미나이 옴니 1.2 플래시 출시, 생성 비용 30% 인하",
+        "date": "2026-11-07",
         "originalDate": "2026-11-06",
-        "sourceName": "뉴스1",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zLXlMc0FBTDh6RFphdXdMUGZseGRFeVowY2ozSU8xN2RmeTVSbjdIUm1XcG5OQmxsUTI2QVRERi1lOXVBYldTdmNjNWVVaFZIRXlrXzBvM1UyUQ?oc=5",
+        "sourceName": "인공지능신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zRnRZdk5tcGlYdEh1M0tpUmowUmxOV3JjMEJISExTckp6N1FoYWFPWnBIVFhZS0ZGMEljbExDTEZNQUF3ajRvMGcyTEV5RU9aX1VteGdyaFAxOGp1ZmN4UnlzVmRlUXM?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 영풍문고, AI 도서추천 서비스 출시…매장 판매량 반영 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 구글, 15초 AI 영상 무료 생성 시대 열었다…제미나이 옴니 1.2 플래시 출시, 생성 비용 30% 인하 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
