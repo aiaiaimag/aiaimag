@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-11-07
+ * 최신 업데이트: 2026-11-08
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "일자리가 바뀔 것입니다. ”라고 머스크는 말합니다. AI가 업무를 대체하기 전에 업무를 전환할 수 있음",
-        "enTitle": "Jobs Will Change,” Musk Says. AI Could Transform the Work Before It Replaces the Job",
-        "date": "2026-11-07",
-        "originalDate": "2026-11-05",
-        "sourceName": "PW",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNkNvNkRmaGoxaGktLV9GcGJZb2J4YWVyWDNpa0NOUHM1VE9Kb1dNa0F5M3lDem4tcFpOQjVncGdDdm5aa2E3TkV1dlJpRzU4N0NIM1FkQ1FfSW5QZTdaN0FOSVRBemRhVE1yMjZ6SkJjUmJtLUVVbmJweWpzVUw5dXZTbW5DQm9oallNZlNFVzBfQQ?oc=5",
+        "koTitle": "남성은 여성이 기반을 잃음에 따라 AI를 가진 직업에서 더 많은 경력 발전을 봅니다.",
+        "enTitle": "Men see more career advancement in jobs with AI, as women lose ground",
+        "date": "2026-11-08",
+        "originalDate": "2026-11-07",
+        "sourceName": "The Washington Post",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNk5OVzNZenhsMVlXMHRod1RNSGlOTklPd1NPZjZiaFpYdGdBMWRWdUJ3c21sNEwwUWpEX21xMEdJQjV1bVhvNm1qXzZaNU5QazRUMGZoNmZCVy1BYkVONm53aUlXVm5jLWpHdjNSSHJiNmY1czZYMXRJZnY4TXVWRDdLSlZKSVBKTjItUWx0NFNOa19EUzg3WF9Zc0NMYkFpc2J6bGhpOEtsUy1pRG5XQW15aWU?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 일자리가 바뀔 것입니다. ”라고 머스크는 말합니다. AI가 업무를 대체하기 전에 업무를 전환할 수 있음 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! 남성은 여성이 기반을 잃음에 따라 AI를 가진 직업에서 더 많은 경력 발전을 봅니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "인공지능과 일의 미래",
-        "enTitle": "AI and the Future of Work",
-        "date": "2026-11-07",
-        "originalDate": "2026-11-06",
-        "sourceName": "Brighter Kashmir",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MX05MdlpPVXloMHE2czViVm93S3FOSE1Kcllrbm9CbnpVSWlnMzNwblJqTVZFVTlMU3M3TWJ3WFhEVlEtVzNMbjJZc1BDYkhXVkhiaVpNbS10YnJmTVlGbGR5WQ?oc=5",
+        "koTitle": "Microsoft AI Economy Institute 공개 통화 4: 글로벌 연구자를 위한 $ 75,000 연구 보조금 – AI, 일자리 및 업무의 미래 (2026–2027)",
+        "enTitle": "Microsoft AI Economy Institute Open Call 4: $75,000 Research Grants for Global Researchers – AI, Jobs and the Future of Work (2026–2027)",
+        "date": "2026-11-08",
+        "originalDate": "2026-11-07",
+        "sourceName": "Global South Opportunities",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqRnZST092dVZMUXNhb05WQ2gyMktoSmU1djRlUElQa3o3V2pQV0hLU29XTDM2U3AzYnlUQmFWY1YwOEVRQXVBRUhOQkx5djl4T3FkazNIV0JCaXVWU2ViU29yXzVkM3FINXJQaw?oc=5",
         "isRepublished": false,
-        "viralRate": "88%",
-        "analysis": "글로벌 AI 트렌드 체크! 인공지능과 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! Microsoft AI Economy Institute 공개 통화 4: 글로벌 연구자를 위한 $ 75,000 연구 보조금 – AI, 일자리 및 업무의 미래 (2026–2027) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "디즈니 정리 해고가 직업의 미래에 대해 알려주는 것",
-        "enTitle": "What Disney Layoffs Tell Us About the Future of Jobs",
-        "date": "2026-11-07",
-        "originalDate": "2026-11-04",
-        "sourceName": "Newsweek",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9yc3d3N1VKU3FicmtTa2ZPTVBTS05qa2UxbmpmWnhoWXFQNkNyLU9HS0NWcTNUeWNFX25yVld4SmN2RjJtWV9XZkFUdFp1U0JSX1k2eW9BUmdublNRVmRTYzVoS3NBSDAyWk5pQzh2czQ2U2hMMGx5c0FZR2ZVQQ?oc=5",
+        "koTitle": "Microsoft의 단점: AI가 우리의 일자리를 빼앗고 있습니까?",
+        "enTitle": "Microsoft cuts: Is AI taking away our jobs?",
+        "date": "2026-11-08",
+        "originalDate": "2026-11-06",
+        "sourceName": "The Indian Express",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPN1lFV0huVl9oSzZiTTczWlFhanJNQmUxb2UzeldLQlRQa1lhcm1XTkh6X2pkNDUwZ2ZYN3Jyem5MTmwxZC1MVEdlY3g0VzZUVlozU3JFei1EbldBb2RxbGpVbFVVMW1ub2ZmVlNqMzQyMHN1NkczaExHX0dIQ0Ntc3dEMnJwM0JFQmNMZ1VoeFd5Q2lNSkZkLXVZYVZ2aHZXcGQw?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 디즈니 정리 해고가 직업의 미래에 대해 알려주는 것 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! Microsoft의 단점: AI가 우리의 일자리를 빼앗고 있습니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "GPT·클로드 제친 보안 전용 AI 에이전트 등장",
-        "enTitle": "GPT·클로드 제친 보안 전용 AI 에이전트 등장",
-        "date": "2026-11-07",
-        "originalDate": "2026-11-06",
-        "sourceName": "디일렉",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBUVVU2Vl92ZGZTdElIREJwRjZCQlA3eEl0djRBWkY2WExMbnZoa3VxY3dHd1NqSUw4amstNDJQd1UwRW50SGhsYjBBekZiMW9jVWh3ejlqWUJkTXVjcG9BaFhLZ2h2dw?oc=5",
+        "koTitle": "챗GPT, 오래 쓰는 ‘생활 AI’로 자리 굳혀..국내 앱 이용자 첫 1800만명 돌파",
+        "enTitle": "챗GPT, 오래 쓰는 ‘생활 AI’로 자리 굳혀..국내 앱 이용자 첫 1800만명 돌파",
+        "date": "2026-11-08",
+        "originalDate": "2026-11-08",
+        "sourceName": "한국정경신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tS2M2UGswNzlwTXYwMHZKeFFLNGxBdEwxNWhwbVcxc2U0MnRmRmZ6aVZHRTFmZnpnalU5NFdOS1NidnNpTkF2S3RjR0xxbmpUS1E?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! GPT·클로드 제친 보안 전용 AI 에이전트 등장 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 챗GPT, 오래 쓰는 ‘생활 AI’로 자리 굳혀..국내 앱 이용자 첫 1800만명 돌파 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "카카오 AI 서비스, 줄줄이 출격 대기···관건은 '수익 모델'",
-        "enTitle": "카카오 AI 서비스, 줄줄이 출격 대기···관건은 '수익 모델'",
-        "date": "2026-11-07",
-        "originalDate": "2026-11-06",
-        "sourceName": "뉴스웨이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMQzk4NnRBQkl6dWFlNzEyZUZwbE1uVjVjcW03ODdHVGY1bkI1Tl9QOHZ2NGIzN2JQdlhyOGhfX3J4WUQyeEx0ajJWVmlpVFFRQmdRd05YdnFpU0t1ekpwUU90WHMxRW9ac2c?oc=5",
+        "koTitle": "챗GPT 국내 앱 이용자 1876만명 역대 최다…클로드도 1년 새 15배 급증",
+        "enTitle": "챗GPT 국내 앱 이용자 1876만명 역대 최다…클로드도 1년 새 15배 급증",
+        "date": "2026-11-08",
+        "originalDate": "2026-11-08",
+        "sourceName": "Chosunbiz",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeGp0akFOVlNQYzhlb0lhaHRBRlBXcnF0UlZwNXJ1NzJ4TEhQckZYd1J2Y1ZTckJIUmh2WUUwYVhvUTF6U0FNNGJRVkdCek9YWFZyWmFLR3pacElYX0Q3blB5Z1Fnd0NSNjVsalFaa0lmQjd1ZnEtWDk3ckFpdDlIcG1B0gGWAUFVX3lxTE5SQXpEWTI2Y01iTlVIdEYxS01qckE2M012RldUcFBEYUxlZGs3RkNndnZMc3cyVkxjclI3ZTBNVW42cjcyZGRDT2ZmZTJOczJlMDdxUmhqOS14Y1FiR3ZRSWhGbjdRREZTLVdrSjA3cTBVYVJENUlJOTg5eWdwUkdoOWlQNWhLNUVMSGR1WklNc2t5LTBCZw?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 카카오 AI 서비스, 줄줄이 출격 대기···관건은 '수익 모델' 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 챗GPT 국내 앱 이용자 1876만명 역대 최다…클로드도 1년 새 15배 급증 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "구글, 15초 AI 영상 무료 생성 시대 열었다…제미나이 옴니 1.2 플래시 출시, 생성 비용 30% 인하",
-        "enTitle": "구글, 15초 AI 영상 무료 생성 시대 열었다…제미나이 옴니 1.2 플래시 출시, 생성 비용 30% 인하",
-        "date": "2026-11-07",
-        "originalDate": "2026-11-06",
-        "sourceName": "인공지능신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zRnRZdk5tcGlYdEh1M0tpUmowUmxOV3JjMEJISExTckp6N1FoYWFPWnBIVFhZS0ZGMEljbExDTEZNQUF3ajRvMGcyTEV5RU9aX1VteGdyaFAxOGp1ZmN4UnlzVmRlUXM?oc=5",
+        "koTitle": "챗GPT 국내 앱 이용자 1800만명 돌파… 클로드 2위 도약",
+        "enTitle": "챗GPT 국내 앱 이용자 1800만명 돌파… 클로드 2위 도약",
+        "date": "2026-11-08",
+        "originalDate": "2026-11-08",
+        "sourceName": "천지일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jWHpUV1p2aWdCVU0tbldaNmNsMkxCNHBuaUJDQ1JmMkRTTFZJLXhxWjV4aUlSQ2ZRNFRNMmZKc0cxd0dWTW0yWWNIaE9KWWxyLS1TVkJJdlJkUWMyZTB3ZzBBR0NDaFRpVnc?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 구글, 15초 AI 영상 무료 생성 시대 열었다…제미나이 옴니 1.2 플래시 출시, 생성 비용 30% 인하 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 챗GPT 국내 앱 이용자 1800만명 돌파… 클로드 2위 도약 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
