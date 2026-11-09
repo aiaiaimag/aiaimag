@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-11-08
+ * 최신 업데이트: 2026-11-09
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "남성은 여성이 기반을 잃음에 따라 AI를 가진 직업에서 더 많은 경력 발전을 봅니다.",
-        "enTitle": "Men see more career advancement in jobs with AI, as women lose ground",
-        "date": "2026-11-08",
-        "originalDate": "2026-11-07",
-        "sourceName": "The Washington Post",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNk5OVzNZenhsMVlXMHRod1RNSGlOTklPd1NPZjZiaFpYdGdBMWRWdUJ3c21sNEwwUWpEX21xMEdJQjV1bVhvNm1qXzZaNU5QazRUMGZoNmZCVy1BYkVONm53aUlXVm5jLWpHdjNSSHJiNmY1czZYMXRJZnY4TXVWRDdLSlZKSVBKTjItUWx0NFNOa19EUzg3WF9Zc0NMYkFpc2J6bGhpOEtsUy1pRG5XQW15aWU?oc=5",
+        "koTitle": "스콧 스타인버그가 들려주는 일의 미래",
+        "enTitle": "Scott Steinberg on the Future of Work",
+        "date": "2026-11-09",
+        "originalDate": "2026-11-08",
+        "sourceName": "https://www.futuristsspeakers.com/",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMFRqRUpqU0FLVzNoSlB4aW14T2N5aTlESi1hcWV5cVc1cGI5VmtCZDJvWTNmVC1qWXdIRFh0X2pyT2NIdkhtOGFfVVlOSG53UWxwSmhlX3A4d1piMDEwNWw3Z3hZMzBaaXZLNm1tRnBhMF9hYUhQbW5mQ2J1WXZrZXAza2pvVWJ1Q3BN?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! 남성은 여성이 기반을 잃음에 따라 AI를 가진 직업에서 더 많은 경력 발전을 봅니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! 스콧 스타인버그가 들려주는 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "남성은 여성이 기반을 잃음에 따라 AI를 가진 직업에서 더 많은 경력 발전을 봅니다.",
+        "enTitle": "Men see more career advancement in jobs with AI, as women lose ground",
+        "date": "2026-11-09",
+        "originalDate": "2026-11-07",
+        "sourceName": "The Washington Post",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNk5OVzNZenhsMVlXMHRod1RNSGlOTklPd1NPZjZiaFpYdGdBMWRWdUJ3c21sNEwwUWpEX21xMEdJQjV1bVhvNm1qXzZaNU5QazRUMGZoNmZCVy1BYkVONm53aUlXVm5jLWpHdjNSSHJiNmY1czZYMXRJZnY4TXVWRDdLSlZKSVBKTjItUWx0NFNOa19EUzg3WF9Zc0NMYkFpc2J6bGhpOEtsUy1pRG5XQW15aWU?oc=5",
+        "isRepublished": false,
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! 남성은 여성이 기반을 잃음에 따라 AI를 가진 직업에서 더 많은 경력 발전을 봅니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "Microsoft AI Economy Institute 공개 통화 4: 글로벌 연구자를 위한 $ 75,000 연구 보조금 – AI, 일자리 및 업무의 미래 (2026–2027)",
         "enTitle": "Microsoft AI Economy Institute Open Call 4: $75,000 Research Grants for Global Researchers – AI, Jobs and the Future of Work (2026–2027)",
-        "date": "2026-11-08",
+        "date": "2026-11-09",
         "originalDate": "2026-11-07",
         "sourceName": "Global South Opportunities",
         "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqRnZST092dVZMUXNhb05WQ2gyMktoSmU1djRlUElQa3o3V2pQV0hLU29XTDM2U3AzYnlUQmFWY1YwOEVRQXVBRUhOQkx5djl4T3FkazNIV0JCaXVWU2ViU29yXzVkM3FINXJQaw?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! Microsoft AI Economy Institute 공개 통화 4: 글로벌 연구자를 위한 $ 75,000 연구 보조금 – AI, 일자리 및 업무의 미래 (2026–2027) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "Microsoft의 단점: AI가 우리의 일자리를 빼앗고 있습니까?",
-        "enTitle": "Microsoft cuts: Is AI taking away our jobs?",
-        "date": "2026-11-08",
-        "originalDate": "2026-11-06",
-        "sourceName": "The Indian Express",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPN1lFV0huVl9oSzZiTTczWlFhanJNQmUxb2UzeldLQlRQa1lhcm1XTkh6X2pkNDUwZ2ZYN3Jyem5MTmwxZC1MVEdlY3g0VzZUVlozU3JFei1EbldBb2RxbGpVbFVVMW1ub2ZmVlNqMzQyMHN1NkczaExHX0dIQ0Ntc3dEMnJwM0JFQmNMZ1VoeFd5Q2lNSkZkLXVZYVZ2aHZXcGQw?oc=5",
-        "isRepublished": false,
         "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! Microsoft의 단점: AI가 우리의 일자리를 빼앗고 있습니까? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! Microsoft AI Economy Institute 공개 통화 4: 글로벌 연구자를 위한 $ 75,000 연구 보조금 – AI, 일자리 및 업무의 미래 (2026–2027) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "챗GPT, 오래 쓰는 ‘생활 AI’로 자리 굳혀..국내 앱 이용자 첫 1800만명 돌파",
-        "enTitle": "챗GPT, 오래 쓰는 ‘생활 AI’로 자리 굳혀..국내 앱 이용자 첫 1800만명 돌파",
-        "date": "2026-11-08",
+        "koTitle": "제미나이는 탐색, 클로드는 검증이 강하다…AI 투자 활용법",
+        "enTitle": "제미나이는 탐색, 클로드는 검증이 강하다…AI 투자 활용법",
+        "date": "2026-11-09",
         "originalDate": "2026-11-08",
-        "sourceName": "한국정경신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tS2M2UGswNzlwTXYwMHZKeFFLNGxBdEwxNWhwbVcxc2U0MnRmRmZ6aVZHRTFmZnpnalU5NFdOS1NidnNpTkF2S3RjR0xxbmpUS1E?oc=5",
+        "sourceName": "뉴스1",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DRGplcXRPRXhLZzFTZ0lOek9qYWN1X21MQmRhMl8zaDFINURKWDQxNDNMM29KTmRqcTdPRm9ZeFVwZTkwRWtvNklWbW1WU3Y5ZVN5cUlBZHd2UQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 챗GPT, 오래 쓰는 ‘생활 AI’로 자리 굳혀..국내 앱 이용자 첫 1800만명 돌파 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 제미나이는 탐색, 클로드는 검증이 강하다…AI 투자 활용법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "챗GPT 국내 앱 이용자 1876만명 역대 최다…클로드도 1년 새 15배 급증",
-        "enTitle": "챗GPT 국내 앱 이용자 1876만명 역대 최다…클로드도 1년 새 15배 급증",
-        "date": "2026-11-08",
+        "koTitle": "[AI트렌드] \"1년 만에 15배 쑥\"… 챗GPT 독주 속 맹추격 시작한 대항마의 정체",
+        "enTitle": "[AI트렌드] \"1년 만에 15배 쑥\"… 챗GPT 독주 속 맹추격 시작한 대항마의 정체",
+        "date": "2026-11-09",
         "originalDate": "2026-11-08",
-        "sourceName": "Chosunbiz",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeGp0akFOVlNQYzhlb0lhaHRBRlBXcnF0UlZwNXJ1NzJ4TEhQckZYd1J2Y1ZTckJIUmh2WUUwYVhvUTF6U0FNNGJRVkdCek9YWFZyWmFLR3pacElYX0Q3blB5Z1Fnd0NSNjVsalFaa0lmQjd1ZnEtWDk3ckFpdDlIcG1B0gGWAUFVX3lxTE5SQXpEWTI2Y01iTlVIdEYxS01qckE2M012RldUcFBEYUxlZGs3RkNndnZMc3cyVkxjclI3ZTBNVW42cjcyZGRDT2ZmZTJOczJlMDdxUmhqOS14Y1FiR3ZRSWhGbjdRREZTLVdrSjA3cTBVYVJENUlJOTg5eWdwUkdoOWlQNWhLNUVMSGR1WklNc2t5LTBCZw?oc=5",
+        "sourceName": "CBC뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ITTZJbnREUFFMUXNacUo5d0dXNW81MUdnTU9NYW90OThSY0dCd0RnMXlwaEw5UkUyNTBrZE1KX2RIZnZPNlNtOVo0cFRveXZ4TlU5TF91TndYRUNPdVZiX3JSXzRvU2RO?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 챗GPT 국내 앱 이용자 1876만명 역대 최다…클로드도 1년 새 15배 급증 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [AI트렌드] \"1년 만에 15배 쑥\"… 챗GPT 독주 속 맹추격 시작한 대항마의 정체 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "챗GPT 국내 앱 이용자 1800만명 돌파… 클로드 2위 도약",
-        "enTitle": "챗GPT 국내 앱 이용자 1800만명 돌파… 클로드 2위 도약",
-        "date": "2026-11-08",
+        "koTitle": "아마존, 앱 없이 문자로 쇼핑 끝낸다…AI '알렉사' 문자 쇼핑 서비스 출시",
+        "enTitle": "아마존, 앱 없이 문자로 쇼핑 끝낸다…AI '알렉사' 문자 쇼핑 서비스 출시",
+        "date": "2026-11-09",
         "originalDate": "2026-11-08",
-        "sourceName": "천지일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jWHpUV1p2aWdCVU0tbldaNmNsMkxCNHBuaUJDQ1JmMkRTTFZJLXhxWjV4aUlSQ2ZRNFRNMmZKc0cxd0dWTW0yWWNIaE9KWWxyLS1TVkJJdlJkUWMyZTB3ZzBBR0NDaFRpVnc?oc=5",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03UXRLeUFsalktX3c1NjhrSzZiTEd3N1E5Sm1TM2N1VnVMbTVyUGtuNVh4YmIyZFo0cjR5aVRzMEVJRWN1QjRoRmZ4R3V1MzNCTmpTVk9DSUFMZHBIczctQTQ0bldUYlNoUEE?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 챗GPT 국내 앱 이용자 1800만명 돌파… 클로드 2위 도약 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 아마존, 앱 없이 문자로 쇼핑 끝낸다…AI '알렉사' 문자 쇼핑 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
