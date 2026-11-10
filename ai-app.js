@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-11-09
+ * 최신 업데이트: 2026-11-10
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "스콧 스타인버그가 들려주는 일의 미래",
-        "enTitle": "Scott Steinberg on the Future of Work",
-        "date": "2026-11-09",
-        "originalDate": "2026-11-08",
-        "sourceName": "https://www.futuristsspeakers.com/",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMFRqRUpqU0FLVzNoSlB4aW14T2N5aTlESi1hcWV5cVc1cGI5VmtCZDJvWTNmVC1qWXdIRFh0X2pyT2NIdkhtOGFfVVlOSG53UWxwSmhlX3A4d1piMDEwNWw3Z3hZMzBaaXZLNm1tRnBhMF9hYUhQbW5mQ2J1WXZrZXAza2pvVWJ1Q3BN?oc=5",
+        "koTitle": "글로벌 스터디 조사에 따르면 근로자 10명 중 거의 6명이 고용주의 AI 가치보다 일자리를 거부할 것으로 나타났습니다.",
+        "enTitle": "Nearly Six in 10 Workers Would Reject a Job Over Employer’s AI Values, Global Study Finds",
+        "date": "2026-11-10",
+        "originalDate": "2026-11-09",
+        "sourceName": "Fair Play Talks",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZXJ3Ulk5M2JLb2pOVldIZnU4UGw4bldtdm1RaHB6cVVMVG9lVXp1aFljY1BqclRlSjVSSEZnaUFDb2lvWi13THM1VW5RNW5TYVpYekhwaWNCSkZJQXNhbzdjd256VWpOdWpXelpiRHNVRjdEb2g5b01YUVNIUlQ5blFCUWc3YUV1Nm1adEtTajBKb1NlQVBQXzhSSFVJcW1KOEFoeDNrNnBZMWlQRHVDSEJkTlk3UXVrQ1htZVhLdHBwT0lGdVBLQw?oc=5",
         "isRepublished": false,
         "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 스콧 스타인버그가 들려주는 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! 글로벌 스터디 조사에 따르면 근로자 10명 중 거의 6명이 고용주의 AI 가치보다 일자리를 거부할 것으로 나타났습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "스콧 스타인버그가 들려주는 일의 미래",
+        "enTitle": "Scott Steinberg on the Future of Work",
+        "date": "2026-11-10",
+        "originalDate": "2026-11-08",
+        "sourceName": "https://www.futuristsspeakers.com/",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMFRqRUpqU0FLVzNoSlB4aW14T2N5aTlESi1hcWV5cVc1cGI5VmtCZDJvWTNmVC1qWXdIRFh0X2pyT2NIdkhtOGFfVVlOSG53UWxwSmhlX3A4d1piMDEwNWw3Z3hZMzBaaXZLNm1tRnBhMF9hYUhQbW5mQ2J1WXZrZXAza2pvVWJ1Q3BN?oc=5",
+        "isRepublished": false,
+        "viralRate": "90%",
+        "analysis": "글로벌 AI 트렌드 체크! 스콧 스타인버그가 들려주는 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "남성은 여성이 기반을 잃음에 따라 AI를 가진 직업에서 더 많은 경력 발전을 봅니다.",
         "enTitle": "Men see more career advancement in jobs with AI, as women lose ground",
-        "date": "2026-11-09",
+        "date": "2026-11-10",
         "originalDate": "2026-11-07",
         "sourceName": "The Washington Post",
         "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNk5OVzNZenhsMVlXMHRod1RNSGlOTklPd1NPZjZiaFpYdGdBMWRWdUJ3c21sNEwwUWpEX21xMEdJQjV1bVhvNm1qXzZaNU5QazRUMGZoNmZCVy1BYkVONm53aUlXVm5jLWpHdjNSSHJiNmY1czZYMXRJZnY4TXVWRDdLSlZKSVBKTjItUWx0NFNOa19EUzg3WF9Zc0NMYkFpc2J6bGhpOEtsUy1pRG5XQW15aWU?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
         "analysis": "글로벌 AI 트렌드 체크! 남성은 여성이 기반을 잃음에 따라 AI를 가진 직업에서 더 많은 경력 발전을 봅니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "Microsoft AI Economy Institute 공개 통화 4: 글로벌 연구자를 위한 $ 75,000 연구 보조금 – AI, 일자리 및 업무의 미래 (2026–2027)",
-        "enTitle": "Microsoft AI Economy Institute Open Call 4: $75,000 Research Grants for Global Researchers – AI, Jobs and the Future of Work (2026–2027)",
-        "date": "2026-11-09",
-        "originalDate": "2026-11-07",
-        "sourceName": "Global South Opportunities",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqRnZST092dVZMUXNhb05WQ2gyMktoSmU1djRlUElQa3o3V2pQV0hLU29XTDM2U3AzYnlUQmFWY1YwOEVRQXVBRUhOQkx5djl4T3FkazNIV0JCaXVWU2ViU29yXzVkM3FINXJQaw?oc=5",
-        "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! Microsoft AI Economy Institute 공개 통화 4: 글로벌 연구자를 위한 $ 75,000 연구 보조금 – AI, 일자리 및 업무의 미래 (2026–2027) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "제미나이는 탐색, 클로드는 검증이 강하다…AI 투자 활용법",
-        "enTitle": "제미나이는 탐색, 클로드는 검증이 강하다…AI 투자 활용법",
-        "date": "2026-11-09",
-        "originalDate": "2026-11-08",
-        "sourceName": "뉴스1",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DRGplcXRPRXhLZzFTZ0lOek9qYWN1X21MQmRhMl8zaDFINURKWDQxNDNMM29KTmRqcTdPRm9ZeFVwZTkwRWtvNklWbW1WU3Y5ZVN5cUlBZHd2UQ?oc=5",
+        "koTitle": "카페24, 커머스 특화 AI 앱 출시 4.5배 증가…활용 분야도 확대",
+        "enTitle": "카페24, 커머스 특화 AI 앱 출시 4.5배 증가…활용 분야도 확대",
+        "date": "2026-11-10",
+        "originalDate": "2026-11-10",
+        "sourceName": "디지털데일리",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1hM2E5S0JwMF9zeHlURzdrRkhKeF9HT2Z1RmxXUlRuV0wwQnBEYzJDYlhBZGNfYXVLcHhXaW5FVUQyY0poTzdkLW00VkpUb2xzbS1yaC1aX0dSV1ZnNDJiTzIzWlY?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 제미나이는 탐색, 클로드는 검증이 강하다…AI 투자 활용법 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 카페24, 커머스 특화 AI 앱 출시 4.5배 증가…활용 분야도 확대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "[AI트렌드] \"1년 만에 15배 쑥\"… 챗GPT 독주 속 맹추격 시작한 대항마의 정체",
-        "enTitle": "[AI트렌드] \"1년 만에 15배 쑥\"… 챗GPT 독주 속 맹추격 시작한 대항마의 정체",
-        "date": "2026-11-09",
-        "originalDate": "2026-11-08",
-        "sourceName": "CBC뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ITTZJbnREUFFMUXNacUo5d0dXNW81MUdnTU9NYW90OThSY0dCd0RnMXlwaEw5UkUyNTBrZE1KX2RIZnZPNlNtOVo0cFRveXZ4TlU5TF91TndYRUNPdVZiX3JSXzRvU2RO?oc=5",
+        "koTitle": "\"쇼핑몰 운영도 AI가 돕는다\" 카페24, 신규 앱 출시 4.5배 급증",
+        "enTitle": "\"쇼핑몰 운영도 AI가 돕는다\" 카페24, 신규 앱 출시 4.5배 급증",
+        "date": "2026-11-10",
+        "originalDate": "2026-11-10",
+        "sourceName": "뉴시스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBYN2E5RnJ2djZxWEtRVzhocFhUZ2JIbjQ2T1EzY1hlem5ScXY5amtubTlQLUw4Q0NfSWhReUFTM2ZKZUpIM2I3bnFtck9oVVlzQks4bzNtc0dBT1JRU2JLQlF5VUpsOExCdmtfa0ExRnByVF9IdWJhVdIBeEFVX3lxTFBYN2E5RnJ2djZxWEtRVzhocFhUZ2JIbjQ2T1EzY1hlem5ScXY5amtubTlQLUw4Q0NfSWhReUFTM2ZKZUpIM2I3bnFtck9oVVlzQks4bzNtc0dBT1JRU2JLQlF5VUpsOExCdmtfa0ExRnByVF9IdWJhVQ?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI트렌드] \"1년 만에 15배 쑥\"… 챗GPT 독주 속 맹추격 시작한 대항마의 정체 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! \"쇼핑몰 운영도 AI가 돕는다\" 카페24, 신규 앱 출시 4.5배 급증 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "아마존, 앱 없이 문자로 쇼핑 끝낸다…AI '알렉사' 문자 쇼핑 서비스 출시",
-        "enTitle": "아마존, 앱 없이 문자로 쇼핑 끝낸다…AI '알렉사' 문자 쇼핑 서비스 출시",
-        "date": "2026-11-09",
-        "originalDate": "2026-11-08",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03UXRLeUFsalktX3c1NjhrSzZiTEd3N1E5Sm1TM2N1VnVMbTVyUGtuNVh4YmIyZFo0cjR5aVRzMEVJRWN1QjRoRmZ4R3V1MzNCTmpTVk9DSUFMZHBIczctQTQ0bldUYlNoUEE?oc=5",
+        "koTitle": "앤트로픽도 뚫렸다?···‘클로드’ 국내 기업 계정 100여개 유출 신고",
+        "enTitle": "앤트로픽도 뚫렸다?···‘클로드’ 국내 기업 계정 100여개 유출 신고",
+        "date": "2026-11-10",
+        "originalDate": "2026-11-09",
+        "sourceName": "경향신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFByaC13a3pzRW1ocWtYc2RJaUhCQlBPeFRqTjZ0eGlNVFdFYk5tZTc0MVRTTjlIRDlFdnRjYWo0bjZfa0xGOXZOZUVMaFRXRUpuZ1pENGQzbXY4Z9IBX0FVX3lxTE56YWNZcEotQUNHQUtydHFsUUlaaFVYSjlIdkpuWnk0V3lFbEd0eS03czdpbmR0SmJOYjJHY2p0a0czS2RHbXlXY0lHQUg4MzdubUhKUzhTR1BOV2JSNWNv?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 아마존, 앱 없이 문자로 쇼핑 끝낸다…AI '알렉사' 문자 쇼핑 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽도 뚫렸다?···‘클로드’ 국내 기업 계정 100여개 유출 신고 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
