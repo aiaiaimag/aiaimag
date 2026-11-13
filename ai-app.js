@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-11-12
+ * 최신 업데이트: 2026-11-13
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "일의 미래를 바꿀 수 있는 AI 채용 딜레마",
-        "enTitle": "The AI Hiring Dilemma That Could Reshape the Future of Work",
-        "date": "2026-11-12",
-        "originalDate": "2026-11-10",
-        "sourceName": "WSJ",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObGpXd1J5Y1VkdEV0N011VFdNMjgzTURLTnZYSG9tXy0xVXAzd21VYTVoSlBxNjVDd0pqZDJjSlJDZk1vZnNxdk9PZklUcmtQcnBMZl9PdzBUaVdKQlI4aHNLZ21LZXRGdnVyNGNaWmNPLXpUZ2dYRDlpaS01TjRLeEVLRnAxSi1pSzV4bXMtODBCMFF2bWdtNG9CU21qdVA5UWV0bG9qZzNKVWVYZ252Zld5elJxYjZBcm4yN25Rbw?oc=5",
+        "koTitle": "AI가 인도 IT 일자리를 위협하고 있나요? 무디스가 말하는 일자리의 미래",
+        "enTitle": "Is AI putting Indian IT jobs at risk? What Moody’s says about the future of work",
+        "date": "2026-11-13",
+        "originalDate": "2026-11-12",
+        "sourceName": "The Times of India",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNUi1sR3FwZjJnMUx6d2FWWlVlMWRfbUkzSTRFTEZWWUQ4d3Y4ZWtBZlhpdDlTUWtCb01NVnhYSm1raGQtNUNFSmY1TFlBQWhMaXdZLTJ2UzVWWDNzM2JHQnZJNVNWOVRQMEdUdGlLYWlQc2Y0V05EVkE1dkNqdmNfMHlfNjA2ZkFEZEhyYXotd1ZvRFJ3WThsbW5MUk15WUVuamZNVlRvV05kLWtPY25aU2ZsRUszZW9rYXdwM2hlNnRqc29NWmRienNEbDZiSlJzS3ROUC02WVZoUW8wVVQwNERQNEI2YzRXZVFveFFYLThGNW92RXhj0gH8AUFVX3lxTE9CS2NGbzRaaUFwUU0wYm90ckFjdWw1d2NpZnB6VWNBNTlwNmJSS0RhTWpqb3pFXzZfcUlBVUN5eWVZRlZZRTJSM05ITzJEcXJzd0kxMXJ2RlFMbVozYkZITWNQQkpkekVCTEZlUXpMLWJVQk5Jck5XVkkwNnFkNFdvNEVKdWc0bm16VzBBOV8yOU5OUjMwUzUxS2d1Rm5ybGdwR0ZFN21NcnpMdTh1RWV0TWE1YlBZTi1zMFU4NEpTMVo3YjE3ZF9BejAtdm1oYTdZZ1Zkc1RtdmV2TEpSSlJidGdEWEpSRW5WWjIxdHN1cHJoYnpZdG9mNWRVRQ?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! 일의 미래를 바꿀 수 있는 AI 채용 딜레마 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! AI가 인도 IT 일자리를 위협하고 있나요? 무디스가 말하는 일자리의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "IBM Impact Accelerator, 학습과 업무의 미래에 AI와 양자 기술을 도입하다",
-        "enTitle": "IBM Impact Accelerator Brings AI and Quantum to the Future of Learning and Work",
-        "date": "2026-11-12",
-        "originalDate": "2026-11-10",
-        "sourceName": "TradingView",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPM1YwRzlacmFfTXl1R1Rwa2RGblI3WHZpQ01FUEdzYzFuVDFmV3lFUjl4bXc4R1pnYlEtZUxIb0VoeDhkVUo1YWNONkdOcURxQWFoY1RYSURqbzRJWFR1cDA2TV9laDFwbFpyNWJ3MFpRR3gxYy16VzVKZU5BN0owY2JjYUsxemtMVFkyelRGcjdremxUcXNlai1pQlpkcEdmMjNSTGRhWExocnVyQmJIM1FQUW5UUmFLV21oMnFLUEtWRnA0LUI3QWIyOVVKSlFrVF9VVlhDUQ?oc=5",
+        "koTitle": "'AI가 BPO 일자리를 파괴할 것': 라잔 아난다가 말하는 일의 미래 | Walk The Talk",
+        "enTitle": "'AI Will Disrupt BPO Jobs': Rajan Anandan On The Future Of Work | Walk The Talk",
+        "date": "2026-11-13",
+        "originalDate": "2026-11-12",
+        "sourceName": "NDTV",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUFN2R1N6alFtZGk1MmlKV3Y4Sk52WFR3aFZqVkFYZXEzUVFLVjk3TGU4S2ZRdGdqYVJOUDF2SkRvTGlEU1hoSy1femxPcWFXTzE1YXdDdjVPWGhNZ1Z2WnBZOGd3VjBCbzg0UW9oMzFFUGFvWkZ1Z1lLbTdLR2RuNTI2dDhPOEJvTk8zdWNsYnpCemlPOU5WS1gxc0x1MDYzYTU3NzVKbUVPNmgwWTdOSmNBTElRNXFpY1RSRnB3eG1OWThOeWRTWkF4UjRqNTR4?oc=5",
         "isRepublished": false,
-        "viralRate": "90%",
-        "analysis": "글로벌 AI 트렌드 체크! IBM Impact Accelerator, 학습과 업무의 미래에 AI와 양자 기술을 도입하다 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 'AI가 BPO 일자리를 파괴할 것': 라잔 아난다가 말하는 일의 미래 | Walk The Talk 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "글로벌 설문조사 결과, 근로자 10명 중 6명 가까이가 고용주의 AI 가치관 때문에 취업을 거절할 것이라고 답함",
-        "enTitle": "Nearly Six in 10 Workers Would Reject a Job Over Employer’s AI Values, Global Study Finds",
-        "date": "2026-11-12",
-        "originalDate": "2026-11-09",
-        "sourceName": "Fair Play Talks",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZXJ3Ulk5M2JLb2pOVldIZnU4UGw4bldtdm1RaHB6cVVMVG9lVXp1aFljY1BqclRlSjVSSEZnaUFDb2lvWi13THM1VW5RNW5TYVpYekhwaWNCSkZJQXNhbzdjd256VWpOdWpXelpiRHNVRjdEb2g5b01YUVNIUlQ5blFCUWc3YUV1Nm1adEtTajBKb1NlQVBQXzhSSFVJcW1KOEFoeDNrNnBZMWlQRHVDSEJkTlk3UXVrQ1htZVhLdHBwT0lGdVBLQw?oc=5",
+        "koTitle": "동영상 | 라잔 아난다가 말하는 AI가 일자리, 인도 스타트업 및 딥테크에 미치는 영향 | 라훌 칸왈과 함께하는 Walk The Talk",
+        "enTitle": "Video | Rajan Anandan On AI's Impact On Jobs, India's Startups And Deep Tech | Walk The Talk With Rahul Kanwal",
+        "date": "2026-11-13",
+        "originalDate": "2026-11-12",
+        "sourceName": "NDTV",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOclZKaGk3TGxHZDlFRjhBZzNBdWhUWDVaUDBWY2MzX0xSd3BBYW5qRG9jdU1hZ3VnejJzYjdQN1VGUnBVQkN3bUxRMDR3Ukp0bUlNckwxVkptVm5pWnZQamJ5ZDhTT2FMbjF0ZHA3UHJMQUQwU01mekJqSHhhaUI5d0lzSTA5VUZZcEVUMy1XcDRuQVFZSVhFdWtzejRGbnZhX2NnNw?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! 글로벌 설문조사 결과, 근로자 10명 중 6명 가까이가 고용주의 AI 가치관 때문에 취업을 거절할 것이라고 답함 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! 동영상 | 라잔 아난다가 말하는 AI가 일자리, 인도 스타트업 및 딥테크에 미치는 영향 | 라훌 칸왈과 함께하는 Walk The Talk 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "네이버, 쇼핑·예약 대신하는 AI 앱 연내 출시 [네이버 컨콜]",
-        "enTitle": "네이버, 쇼핑·예약 대신하는 AI 앱 연내 출시 [네이버 컨콜]",
-        "date": "2026-11-12",
+        "koTitle": "삼성전자, 제미나이 탑재 AI 안경 공개…내달 국내 출시",
+        "enTitle": "삼성전자, 제미나이 탑재 AI 안경 공개…내달 국내 출시",
+        "date": "2026-11-13",
         "originalDate": "2026-11-12",
-        "sourceName": "IT조선",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qUnV0WjBzSF9tQ1Zua2ZBSm5LNGdBWGJ4Y3NtcXdMYmo2Z2VTYk1oRkZxSjhSa0RiUHc3eFlMVkNad3E0aHVza0U0VVBIVkpsT3lHMG4tdTJ5LWZZV2pMampFZUZKNDladnZ4RjJ3WXTSAXRBVV95cUxNWkFGNk5EVXMzQ3d2eGRJajgzRjE4a1Vxa1B1ZTNudWdxeW93am1qcDdGVmg1YnI0X0JzY25tcmxNM3JIMmZuMVBILVhVWjR3TE5DVndCc1BqTGtVU1JVd1g5YnM2QTlvUXZpU1NvbGtoYm9neg?oc=5",
+        "sourceName": "매일일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WNWQzMm96d2g3cVBfcVM0aDRGc1hqZEJldUNUTHJxejRSWVNmVlVJS214NVE3VE1rSGtZdTFwVXFTODYzYVJRd1BUZWxKTUxlUTh4c01uTkpUOHVvWnJ4eGRSRlc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 네이버, 쇼핑·예약 대신하는 AI 앱 연내 출시 [네이버 컨콜] 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 삼성전자, 제미나이 탑재 AI 안경 공개…내달 국내 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "네이버, '연내 개인화 AI에이전트 앱 출시'...검색·광고 수익화도 박차",
-        "enTitle": "네이버, '연내 개인화 AI에이전트 앱 출시'...검색·광고 수익화도 박차",
-        "date": "2026-11-12",
-        "originalDate": "2026-11-12",
-        "sourceName": "테크M",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VUHRtSGlVRFBWaGdKWWxoNTF3QTFTRm9XWE9VVlF3dmRRbFpTd25VX0NrdzAtWEh6TVlyRFQ5aWlDdU83TDBDSmhfWHhjQVdrTGVxaVMxRWlVanFqUVJUVmRBbXBtUdIBakFVX3lxTE9yWWk5dDh4dWlLVzFoRkZOZjItQ1JiV19YMElXTFVuNEJHbUpyNGF1T2dEWkd2S0NHNEVOT0JicXMyQUR1bnlVY2xwU1dQVjBrUkdJbmpoMnhFZThxU0g4YXppUmtJUHo0TGc?oc=5",
+        "koTitle": "어도비 출신 창업 포타 랩스, 일상 사진 다시 찍어 주는 AI 앱 출시",
+        "enTitle": "어도비 출신 창업 포타 랩스, 일상 사진 다시 찍어 주는 AI 앱 출시",
+        "date": "2026-11-13",
+        "originalDate": "2026-11-13",
+        "sourceName": "AI 매터스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrR3l4Qkx3UlpqbEk1YUNZalI5eU8yZkw3dE5ra0xlMFdVWnFQZ3ljMnZheU5VdVc0YnZDTHlKcXV4UHQ0SllOZXBkS1VsOTFJck1nRw?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 네이버, '연내 개인화 AI에이전트 앱 출시'...검색·광고 수익화도 박차 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 어도비 출신 창업 포타 랩스, 일상 사진 다시 찍어 주는 AI 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "네이버, 검색부터 예약·결제까지 AI가 대신…연내 앱 출시",
-        "enTitle": "네이버, 검색부터 예약·결제까지 AI가 대신…연내 앱 출시",
-        "date": "2026-11-12",
-        "originalDate": "2026-11-12",
-        "sourceName": "매일경제 마켓",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1SclNMN3ZOT1djQ0gxeWVsb3QzYU9WSjN0REdQSjhVc2pzZHcxSzFZTmpxNzRXTjRKRVVQcGhEaUdWUHVMdmJEQWszYjNweUVjbWc?oc=5",
+        "koTitle": "구글, `제미나이4 하이드로젠` 출시… \"AI 에이전트 작업 19% 빨라\"",
+        "enTitle": "구글, `제미나이4 하이드로젠` 출시… \"AI 에이전트 작업 19% 빨라\"",
+        "date": "2026-11-13",
+        "originalDate": "2026-11-13",
+        "sourceName": "디지털데일리",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKQUVaZ3hVZ05TWHdUZGdReHBRSEtyQnFneGt1dUE3bkVaRUJ5My1Lajdab3NtQmpRSGxMeXZjRXpKSmJXdTVGQlhlUVpvNTVtVXk3clRHM2JrMVlqdngyLUd4Smo?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 네이버, 검색부터 예약·결제까지 AI가 대신…연내 앱 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 구글, `제미나이4 하이드로젠` 출시… \"AI 에이전트 작업 19% 빨라\" 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
