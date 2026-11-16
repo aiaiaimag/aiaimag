@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-11-15
+ * 최신 업데이트: 2026-11-16
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "남아프리카공화국에서 이직을 고려하는 사람들의 48%가 AI를 두려워합니다. 미래에도 유망한 최고의 직업을 알아보세요.",
-        "enTitle": "48% of SA career changers fear AI: Top future-proof jobs revealed.",
-        "date": "2026-11-15",
-        "originalDate": "2026-11-13",
-        "sourceName": "Fullview",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUG5SVjR3N1E4TndqNnVTTGphb1YzeFN2Z3YyVU5aNExIWjJwblZWaTdNNHJGUEZkNlA2UTBHbm9UbDVtY0ZuWkRaRTZxSDBzcHdZWGFYcHNiLW9fNjJoTzd3LWh3eWxnRTkxRGRrMFlzRmw5ODc1OU1aWk9qdi1jOGctdmtzcXBYV2VfMlV2cEw?oc=5",
+        "koTitle": "AI 일자리의 미래는 IT 업계 외부일 수 있습니다.",
+        "enTitle": "The Future of AI Jobs May Be Outside the Tech Industry",
+        "date": "2026-11-16",
+        "originalDate": "2026-11-15",
+        "sourceName": "HackerNoon",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRGotVGhLbV9uZFB6Vlcyc0lQRG1QdXVoY3EyQjZKUm5Pc3JTRkNaQWthR19OdGNRQXNtVlZNeEg4SzNNeEF5YlNQM2dqcU1zZnhaRm11OUNjY2ktSkVFLW5xUzgzUFJ1c01ZbEwyM2ZHMG1Sc0RVY2ttZFlGVnlwRThpYw?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 남아프리카공화국에서 이직을 고려하는 사람들의 48%가 AI를 두려워합니다. 미래에도 유망한 최고의 직업을 알아보세요. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! AI 일자리의 미래는 IT 업계 외부일 수 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI가 인도 IT 일자리를 위협하고 있나요? 무디스가 말하는 일의 미래",
-        "enTitle": "Is AI putting Indian IT jobs at risk? What Moody’s says about the future of work",
-        "date": "2026-11-15",
-        "originalDate": "2026-11-12",
-        "sourceName": "The Times of India",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNUi1sR3FwZjJnMUx6d2FWWlVlMWRfbUkzSTRFTEZWWUQ4d3Y4ZWtBZlhpdDlTUWtCb01NVnhYSm1raGQtNUNFSmY1TFlBQWhMaXdZLTJ2UzVWWDNzM2JHQnZJNVNWOVRQMEdUdGlLYWlQc2Y0V05EVkE1dkNqdmNfMHlfNjA2ZkFEZEhyYXotd1ZvRFJ3WThsbW5MUk15WUVuamZNVlRvV05kLWtPY25aU2ZsRUszZW9rYXdwM2hlNnRqc29NWmRienNEbDZiSlJzS3ROUC02WVZoUW8wVVQwNERQNEI2YzRXZVFveFFYLThGNW92RXhj0gH8AUFVX3lxTE9CS2NGbzRaaUFwUU0wYm90ckFjdWw1d2NpZnB6VWNBNTlwNmJSS0RhTWpqb3pFXzZfcUlBVUN5eWVZRlZZRTJSM05ITzJEcXJzd0kxMXJ2RlFMbVozYkZITWNQQkpkekVCTEZlUXpMLWJVQk5Jck5XVkkwNnFkNFdvNEVKdWc0bm16VzBBOV8yOU5OUjMwUzUxS2d1Rm5ybGdwR0ZFN21NcnpMdTh1RWV0TWE1YlBZTi1zMFU4NEpTMVo3YjE3ZF9BejAtdm1oYTdZZ1Zkc1RtdmV2TEpSSlJidGdEWEpSRW5WWjIxdHN1cHJoYnpZdG9mNWRVRQ?oc=5",
+        "koTitle": "AI의 일자리 배당은 업무 변화 방식에 따라 달라집니다.",
+        "enTitle": "AI's Jobs Dividend Will Depend On How Work Changes",
+        "date": "2026-11-16",
+        "originalDate": "2026-11-15",
+        "sourceName": "BW People",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONUFZWkppR0tDVkNMWkw3bXVmNGg2Q3ZjNTlLV1dqOUJKMFJHdUpsZTRCV1R6Z2ZvckdCdFFsR0t4Z1J1NXo5WUhUc09aOENHcHdwR2ROLVNQMG1MVWpCX2Z5cGxQX1pyZzg0Rng4TmozRkpFcGJVd0JwZDJxOWJaT3dXZnRPUHJWRVF2WHN2WS02Z2M?oc=5",
         "isRepublished": false,
         "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 인도 IT 일자리를 위협하고 있나요? 무디스가 말하는 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! AI의 일자리 배당은 업무 변화 방식에 따라 달라집니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "'AI가 BPO 일자리를 파괴할 것': 라잔 아난다(Rajan Anandan)가 말하는 일의 미래 | Walk The Talk",
-        "enTitle": "'AI Will Disrupt BPO Jobs': Rajan Anandan On The Future Of Work | Walk The Talk",
-        "date": "2026-11-15",
-        "originalDate": "2026-11-12",
-        "sourceName": "NDTV",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUFN2R1N6alFtZGk1MmlKV3Y4Sk52WFR3aFZqVkFYZXEzUVFLVjk3TGU4S2ZRdGdqYVJOUDF2SkRvTGlEU1hoSy1femxPcWFXTzE1YXdDdjVPWGhNZ1Z2WnBZOGd3VjBCbzg0UW9oMzFFUGFvWkZ1Z1lLbTdLR2RuNTI2dDhPOEJvTk8zdWNsYnpCemlPOU5WS1gxc0x1MDYzYTU3NzVKbUVPNmgwWTdOSmNBTElRNXFpY1RSRnB3eG1OWThOeWRTWkF4UjRqNTR4?oc=5",
+        "koTitle": "AI가 더 많은 업무를 맡게 되면서 미래의 업무 방식을 변화시키는 5가지 트렌드",
+        "enTitle": "As AI takes over more tasks, five trends reshaping the future of work",
+        "date": "2026-11-16",
+        "originalDate": "2026-11-15",
+        "sourceName": "The Globe and Mail",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQem11dmNiU0NpV1dubUUzUXhqZnJoSlRBYTdGUk42RDdyQkh2WXNIN0VlUjFFRERiVWxIVTdXV0JSNWxiSjVEa2xtdklwRHczR0NCc1l2WkQwakxkR3dvaVBXOURkdzFpdG1mWF9GOGhTdkt5SlZxeG5WZFVKZlV5U00zZ2NzZ1RyZ1EtbUlCQ09DeXpGaDdaMU1CZ3JzM3VNa3FXQ2JNd0tqS2F2MXNzTnhWTWVOSWloM3JSbUNkRjR4RzU5?oc=5",
         "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "글로벌 AI 트렌드 체크! 'AI가 BPO 일자리를 파괴할 것': 라잔 아난다(Rajan Anandan)가 말하는 일의 미래 | Walk The Talk 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! AI가 더 많은 업무를 맡게 되면서 미래의 업무 방식을 변화시키는 5가지 트렌드 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "[AI 소비생활] 오픈AI '챗GPT 월렛' 출시… 카드 번호 없이 AI가 결제",
-        "enTitle": "[AI 소비생활] 오픈AI '챗GPT 월렛' 출시… 카드 번호 없이 AI가 결제",
-        "date": "2026-11-15",
-        "originalDate": "2026-11-14",
-        "sourceName": "코인리더스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5wamYzQXp2ODdGUUxKaXFfUjgxTzJCRFpjS2NtSURRc0lSWlZHSkZ4X1JhTThhNTdIY1BueGI0LVU2SVgxMlpfUzBR?oc=5",
+        "koTitle": "뉴엔AI, 챗GPT·클로드에 ‘실데이터’ 붙인다… ‘퀘타아이 MCP’ 출시",
+        "enTitle": "뉴엔AI, 챗GPT·클로드에 ‘실데이터’ 붙인다… ‘퀘타아이 MCP’ 출시",
+        "date": "2026-11-16",
+        "originalDate": "2026-11-16",
+        "sourceName": "디지털데일리",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9wbFUza2xCYm53LWJYdXNwbVl5dnJkMUMwY3pkaUdHcm5Bd2ZxV243Z2VuYWtTa0wwSjZ3dDlwV1FqVjBEcE8wYzdWbHQ3QXd0Z0dCVEhxdHdwYnlkM0pFZVJUd1k?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI 소비생활] 오픈AI '챗GPT 월렛' 출시… 카드 번호 없이 AI가 결제 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 뉴엔AI, 챗GPT·클로드에 ‘실데이터’ 붙인다… ‘퀘타아이 MCP’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "현대백화점, 챗GPT에 '더현대 하이' 플러그인 서비스 출시",
-        "enTitle": "현대백화점, 챗GPT에 '더현대 하이' 플러그인 서비스 출시",
-        "date": "2026-11-15",
-        "originalDate": "2026-11-15",
-        "sourceName": "전자신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pOUwwQmQzNlRyLWR6X2d2S005VUNtWXdMbmR5dHg3YzctSEw0R1ZpZ01HQ1lPZm96M2diMnVCcjJ1c0VrM3RmdUpURWFndw?oc=5",
+        "koTitle": "뉴엔AI, 챗GPT·클로드 연동 'Quettai MCP' 출시…소셜 실데이터 AI 분석 제공",
+        "enTitle": "뉴엔AI, 챗GPT·클로드 연동 'Quettai MCP' 출시…소셜 실데이터 AI 분석 제공",
+        "date": "2026-11-16",
+        "originalDate": "2026-11-16",
+        "sourceName": "헬로티",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ISXVlWE5nSWFPNm9FcEZOMkNsd1hLczNiTGFwVTFrOVk0aVRCdWRwajdvd0ZZLTIxQk1vOURYYVBNaS12YnFVUlFEX0h2YVU3bzNIVEY5QThEVzQ4cHVZ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 현대백화점, 챗GPT에 '더현대 하이' 플러그인 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 뉴엔AI, 챗GPT·클로드 연동 'Quettai MCP' 출시…소셜 실데이터 AI 분석 제공 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "엔비디아 임원 집단 이직 요구 서한, 알고 보니 오픈AI 사태 문건 짜깁기 가짜였다고? 🔍",
-        "enTitle": "엔비디아 임원 집단 이직 요구 서한, 알고 보니 오픈AI 사태 문건 짜깁기 가짜였다고? 🔍",
-        "date": "2026-11-15",
-        "originalDate": "2026-11-14",
-        "sourceName": "뉴닉",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrdU1pMTlrN05Pb2VGR1R0Ykc5RWFuaWctaE05LWJlblVfdXZTLXdPdVdBb2FRektpZTZHWUdBTU5tTUdUd010aXk3OFY3eThyaTVr?oc=5",
+        "koTitle": "온라인 쇼핑몰도 AI 도입 확대…카페24 AI 앱 출시 1년 새 4.5배",
+        "enTitle": "온라인 쇼핑몰도 AI 도입 확대…카페24 AI 앱 출시 1년 새 4.5배",
+        "date": "2026-11-16",
+        "originalDate": "2026-11-15",
+        "sourceName": "신아일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8tNGZvM1A5eGg0RHR0Ym5yYkFSYThpNl8wbzlvaks1NHFLVExUeXBvZ3JPbENIdnpoUWV4Zzgyb3BRSWlkbW5fblpNUXI4TU5mVVdXVlhNbkhZeFU2Sk5YTDV4SjdZdm1hdXJESlFYZng?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "2030을 위한 AI 실무 팁! 엔비디아 임원 집단 이직 요구 서한, 알고 보니 오픈AI 사태 문건 짜깁기 가짜였다고? 🔍 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! 온라인 쇼핑몰도 AI 도입 확대…카페24 AI 앱 출시 1년 새 4.5배 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
