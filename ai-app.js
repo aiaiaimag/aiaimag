@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-11-16
+ * 최신 업데이트: 2026-11-17
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI 일자리의 미래는 IT 업계 외부일 수 있습니다.",
-        "enTitle": "The Future of AI Jobs May Be Outside the Tech Industry",
-        "date": "2026-11-16",
-        "originalDate": "2026-11-15",
-        "sourceName": "HackerNoon",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRGotVGhLbV9uZFB6Vlcyc0lQRG1QdXVoY3EyQjZKUm5Pc3JTRkNaQWthR19OdGNRQXNtVlZNeEg4SzNNeEF5YlNQM2dqcU1zZnhaRm11OUNjY2ktSkVFLW5xUzgzUFJ1c01ZbEwyM2ZHMG1Sc0RVY2ttZFlGVnlwRThpYw?oc=5",
+        "koTitle": "수백만 개의 일자리가 위태로운 상황: 방글라데시는 미래의 일자리에 대비하고 있을까요?",
+        "enTitle": "Millions of jobs at risk: Is Bangladesh ready for the future of work?",
+        "date": "2026-11-17",
+        "originalDate": "2026-11-16",
+        "sourceName": "Daily Observer",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB6RWhZcC1sMVZralRlSWNmTnRZUm5KckFmWW1FOUJ5VlRveHpmSFA1WjRMZFlmYUpKVHB6VHdySzM3Z1BCSXhMSmhB?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! AI 일자리의 미래는 IT 업계 외부일 수 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 수백만 개의 일자리가 위태로운 상황: 방글라데시는 미래의 일자리에 대비하고 있을까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI의 일자리 배당은 업무 변화 방식에 따라 달라집니다.",
-        "enTitle": "AI's Jobs Dividend Will Depend On How Work Changes",
-        "date": "2026-11-16",
-        "originalDate": "2026-11-15",
-        "sourceName": "BW People",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONUFZWkppR0tDVkNMWkw3bXVmNGg2Q3ZjNTlLV1dqOUJKMFJHdUpsZTRCV1R6Z2ZvckdCdFFsR0t4Z1J1NXo5WUhUc09aOENHcHdwR2ROLVNQMG1MVWpCX2Z5cGxQX1pyZzg0Rng4TmozRkpFcGJVd0JwZDJxOWJaT3dXZnRPUHJWRVF2WHN2WS02Z2M?oc=5",
+        "koTitle": "AI 일자리의 미래는 IT 업계 외부일 수 있습니다.",
+        "enTitle": "The Future of AI Jobs May Be Outside the Tech Industry",
+        "date": "2026-11-17",
+        "originalDate": "2026-11-16",
+        "sourceName": "HackerNoon",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRGotVGhLbV9uZFB6Vlcyc0lQRG1QdXVoY3EyQjZKUm5Pc3JTRkNaQWthR19OdGNRQXNtVlZNeEg4SzNNeEF5YlNQM2dqcU1zZnhaRm11OUNjY2ktSkVFLW5xUzgzUFJ1c01ZbEwyM2ZHMG1Sc0RVY2ttZFlGVnlwRThpYw?oc=5",
         "isRepublished": false,
         "viralRate": "95%",
-        "analysis": "글로벌 AI 트렌드 체크! AI의 일자리 배당은 업무 변화 방식에 따라 달라집니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! AI 일자리의 미래는 IT 업계 외부일 수 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI가 더 많은 업무를 맡게 되면서 미래의 업무 방식을 변화시키는 5가지 트렌드",
+        "koTitle": "AI가 더 많은 작업을 맡아감에 따라, 업무의 미래를 재편하는 5가지 트렌드",
         "enTitle": "As AI takes over more tasks, five trends reshaping the future of work",
-        "date": "2026-11-16",
+        "date": "2026-11-17",
         "originalDate": "2026-11-15",
         "sourceName": "The Globe and Mail",
         "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQem11dmNiU0NpV1dubUUzUXhqZnJoSlRBYTdGUk42RDdyQkh2WXNIN0VlUjFFRERiVWxIVTdXV0JSNWxiSjVEa2xtdklwRHczR0NCc1l2WkQwakxkR3dvaVBXOURkdzFpdG1mWF9GOGhTdkt5SlZxeG5WZFVKZlV5U00zZ2NzZ1RyZ1EtbUlCQ09DeXpGaDdaMU1CZ3JzM3VNa3FXQ2JNd0tqS2F2MXNzTnhWTWVOSWloM3JSbUNkRjR4RzU5?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 더 많은 업무를 맡게 되면서 미래의 업무 방식을 변화시키는 5가지 트렌드 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! AI가 더 많은 작업을 맡아감에 따라, 업무의 미래를 재편하는 5가지 트렌드 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "뉴엔AI, 챗GPT·클로드에 ‘실데이터’ 붙인다… ‘퀘타아이 MCP’ 출시",
-        "enTitle": "뉴엔AI, 챗GPT·클로드에 ‘실데이터’ 붙인다… ‘퀘타아이 MCP’ 출시",
-        "date": "2026-11-16",
-        "originalDate": "2026-11-16",
-        "sourceName": "디지털데일리",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9wbFUza2xCYm53LWJYdXNwbVl5dnJkMUMwY3pkaUdHcm5Bd2ZxV243Z2VuYWtTa0wwSjZ3dDlwV1FqVjBEcE8wYzdWbHQ3QXd0Z0dCVEhxdHdwYnlkM0pFZVJUd1k?oc=5",
+        "koTitle": "[AI 트렌드] 금천구, 누리집 ‘인공지능(AI) 다국어 자동 번역 서비스’ 개시 外",
+        "enTitle": "[AI 트렌드] 금천구, 누리집 ‘인공지능(AI) 다국어 자동 번역 서비스’ 개시 外",
+        "date": "2026-11-17",
+        "originalDate": "2026-11-17",
+        "sourceName": "베이비뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xMUdQdnV4ZVFxOC1pcDZZcnQ1cW9xeUZibzUxUTFOX0JMVkUzajROMjBLaHljYkJFRHBDT2NwMVFIWGJzenc2b2QtNkNpRkxZdmRWQ0NKR2FWdkdrN1pNMnZfNHVubnFaVXZ4Zg?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 뉴엔AI, 챗GPT·클로드에 ‘실데이터’ 붙인다… ‘퀘타아이 MCP’ 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [AI 트렌드] 금천구, 누리집 ‘인공지능(AI) 다국어 자동 번역 서비스’ 개시 外 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "뉴엔AI, 챗GPT·클로드 연동 'Quettai MCP' 출시…소셜 실데이터 AI 분석 제공",
-        "enTitle": "뉴엔AI, 챗GPT·클로드 연동 'Quettai MCP' 출시…소셜 실데이터 AI 분석 제공",
-        "date": "2026-11-16",
+        "koTitle": "“먼저 출시했다가 매 맞을라…韓 AI 에이전트 서비스, 규제 위기감 고조”",
+        "enTitle": "“먼저 출시했다가 매 맞을라…韓 AI 에이전트 서비스, 규제 위기감 고조”",
+        "date": "2026-11-17",
         "originalDate": "2026-11-16",
-        "sourceName": "헬로티",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ISXVlWE5nSWFPNm9FcEZOMkNsd1hLczNiTGFwVTFrOVk0aVRCdWRwajdvd0ZZLTIxQk1vOURYYVBNaS12YnFVUlFEX0h2YVU3bzNIVEY5QThEVzQ4cHVZ?oc=5",
+        "sourceName": "디지털데일리",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUVlY5WGtPNzJ1MXE3bFdUNjhjQm1qdlBuY09oNWRlQ1dJTUk1Mi01SDJWWjQ5eEdUSFR0bzItTU5wc0JaMGlPazVkN2VNU3l0c241YWtYYmZuMHp5U1h3TlppdEc?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 뉴엔AI, 챗GPT·클로드 연동 'Quettai MCP' 출시…소셜 실데이터 AI 분석 제공 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! “먼저 출시했다가 매 맞을라…韓 AI 에이전트 서비스, 규제 위기감 고조” 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "온라인 쇼핑몰도 AI 도입 확대…카페24 AI 앱 출시 1년 새 4.5배",
-        "enTitle": "온라인 쇼핑몰도 AI 도입 확대…카페24 AI 앱 출시 1년 새 4.5배",
-        "date": "2026-11-16",
-        "originalDate": "2026-11-15",
-        "sourceName": "신아일보",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8tNGZvM1A5eGg0RHR0Ym5yYkFSYThpNl8wbzlvaks1NHFLVExUeXBvZ3JPbENIdnpoUWV4Zzgyb3BRSWlkbW5fblpNUXI4TU5mVVdXVlhNbkhZeFU2Sk5YTDV4SjdZdm1hdXJESlFYZng?oc=5",
+        "koTitle": "AI가 차량·금융상품 추천…우리금융캐피탈 서비스 12월 출시",
+        "enTitle": "AI가 차량·금융상품 추천…우리금융캐피탈 서비스 12월 출시",
+        "date": "2026-11-17",
+        "originalDate": "2026-11-17",
+        "sourceName": "연합뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaVlEbk1MRFNiVGFxaE0ya1JFTnR1bV9vWUhuRDMtNjBDVHVhZ09DLVZ2WVFaQmFUdlVCVWl6T3FObFA4X2RFLTJHVFV6OXNuUl96N29VRzRlSUtRUER6anZtMm4tM0hIOTNDZXE4eHBBclVPMTB0WXQxYXlvTHBELVU0NWppZkZJMnc0?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 온라인 쇼핑몰도 AI 도입 확대…카페24 AI 앱 출시 1년 새 4.5배 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! AI가 차량·금융상품 추천…우리금융캐피탈 서비스 12월 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
