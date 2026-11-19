@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-11-18
+ * 최신 업데이트: 2026-11-19
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "초급자 수준의 일자리에 대한 AI의 영향은 광범위한 영향을 미칠 수 있습니다(일의 미래).",
-        "enTitle": "AI’s impact on entry-level jobs may have wide-ranging effects (Future of Work)",
-        "date": "2026-11-18",
-        "originalDate": "2026-11-17",
-        "sourceName": "The Business Journals",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTVBoZ3RXcTRWM2pERTJMdGcxYUpJWWMzR2FLYXlsR09LaHJqVGpfVE1xSkR6bWU2ZWtZQVFPZVRvMF9CQmJUdW16Q1RqN1lzZ0VfTU1yZ0VQTXBWeDh4SG9zeDdXb1V2dk8zbTNyaXlNNlhEdUJmSVRhM0F0OGJKVnB6MnYtY3duNjgyN3NDS3RNUGdkbFUtYzBIM1dROW4wNFJz?oc=5",
+        "koTitle": "윌 스티븐슨(Will Stephenson)의 '제로 데이(Zero Days)'",
+        "enTitle": "Zero Days, by Will Stephenson",
+        "date": "2026-11-19",
+        "originalDate": "2026-11-18",
+        "sourceName": "Harper's Magazine",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOUVtSDduaGNtNUxJY3Q0WmhLbkZ6c3VlajNCNEJPLXc1THVlYzVaQ09STFdTT0RPY0kyNUVBYjV2NlNQMzFMaUxJZWJ1OVNTbkk5dl82ZlJEZW9BUFhUYlBSX25rTnluVVlHRUtoNGN0V08yMzIwZ1dfX18xODFELU13ZVA0RFNydDN4WTFhZXF1Zw?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! 초급자 수준의 일자리에 대한 AI의 영향은 광범위한 영향을 미칠 수 있습니다(일의 미래). 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 윌 스티븐슨(Will Stephenson)의 '제로 데이(Zero Days)' 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "CBA는 고도의 역량을 갖춘 국가를 건설하는 데 도움이 되는 미래 인력 원칙을 제시합니다.",
-        "enTitle": "CBA sets out future workforce principles to help build a high-capability country",
-        "date": "2026-11-18",
+        "koTitle": "새로운 설문조사에 따르면 AI 어시스턴트가 인력의 미래라고 합니다.",
+        "enTitle": "AI assistants are the future of the workforce, new survey suggests",
+        "date": "2026-11-19",
         "originalDate": "2026-11-18",
-        "sourceName": "CommBank",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMjlIT1pCQkFoV29POFd4eUw4VjhkLU95bmozU1o3ejUzbGpER0NWamQwSmo0Y2pzLTJVbTQ3MHZqQVM1RVNDV2lPVEszX0ZqMHNwS1NuY2pwMG5GU1BYWTNUdE5ZZXRKVzlXSVVvb19EZHVsa0w1c0lNUGl5aW1vZlN1amFkUQ?oc=5",
+        "sourceName": "New York Post",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUDdFdUtOemFhUnhRRkxVWUsxRW5TLTJVLVZ3OEs5VUdiSUpxdk9idnZPNWJ4THFRZGpVOVZiRVpZeURtMzFCNHljRzR5MEp3dE5kdmNmZFdaUmg2eEZic3NvampqaE5wUEpCTGpOeEhnWnhMa2h0ZW1XLXZVVU0tcWoyTENWOXlZdV94aXRHeUM4dXVhdjVsN2dWN0RocUVhSjdB?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! CBA는 고도의 역량을 갖춘 국가를 건설하는 데 도움이 되는 미래 인력 원칙을 제시합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "95%",
+        "analysis": "글로벌 AI 트렌드 체크! 새로운 설문조사에 따르면 AI 어시스턴트가 인력의 미래라고 합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI, 일의 미래, 그리고 소득 안정을 재고해야 하는 이유",
-        "enTitle": "AI, the Future of Work and Why We Need to Rethink Income Security",
-        "date": "2026-11-18",
-        "originalDate": "2026-11-16",
-        "sourceName": "Basic Income Earth Network",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR2laQ21GeWNuSDlOYzRjTmZRejg5M3FYN1paZzJPY0ozN2ZhSVg4ZGdVNE8xREZnV0lYTG1oMWg2SmpkcE4tbzJKLW1zanpaVjFxZUhkQjB6SDZ6QkNqY0ZhdHNWbGgxd0h4Zm9tOXF0YVAtLXQ4MWphYldmT2FnSnVVOGFjek1XWExEZlRYU09DdFFZdk03NjlVVWg1VHRtbVpiNQ?oc=5",
+        "koTitle": "RBA, 젊은 호주인들 사이에서 고용 부진 조짐 포착",
+        "enTitle": "RBA Sees Tentative Job Weakness Among Young Australians",
+        "date": "2026-11-19",
+        "originalDate": "2026-11-18",
+        "sourceName": "Quasa.io",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbUZzdTNCNktaQ2tTU0JXb1FqMzRFZWRkYlZMV0lZaDE4ZEltUXBTbmtwb3hjQmlrWnBDd0JLRFBhb09sRlJaelJ1em5lNngzZl9LVzEtTklLTnl3c3c1QnViVmhZQ3pOZlBpbmQwUDgzTHAwdFB3cWVjRWdrcmVfTHhB?oc=5",
         "isRepublished": false,
-        "viralRate": "94%",
-        "analysis": "글로벌 AI 트렌드 체크! AI, 일의 미래, 그리고 소득 안정을 재고해야 하는 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "92%",
+        "analysis": "글로벌 AI 트렌드 체크! RBA, 젊은 호주인들 사이에서 고용 부진 조짐 포착 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "코파일럿 하나로 문서·분석·개발·영업까지…챗GPT·클로드와 정면 승부",
-        "enTitle": "코파일럿 하나로 문서·분석·개발·영업까지…챗GPT·클로드와 정면 승부",
-        "date": "2026-11-18",
-        "originalDate": "2026-11-17",
-        "sourceName": "지디넷코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sY2tUbXotRkZ4dkEwOGoxTXBuVldqbmw0RFFsT2tDZllSX0RnT2UxWTVUb2dwMEZHb3Rwdk82Vl9PYXZyN2JFMUxCYzVIUVpVWF85ZDNB?oc=5",
+        "koTitle": "[미국 특징주] MS \"코파일럿, 챗GPT·클로드보다 저렴\"…기업 AI시장 공략 가속",
+        "enTitle": "[미국 특징주] MS \"코파일럿, 챗GPT·클로드보다 저렴\"…기업 AI시장 공략 가속",
+        "date": "2026-11-19",
+        "originalDate": "2026-11-18",
+        "sourceName": "뉴스핌",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9hRlAtT0NWbmI3UXp5bnpsTV9XYktWRFdWWE9acFhsaC12bzI3SGxwenBRVElFZXctbkcteUtGcnJYWnlCaVZIWjFpZElOT1NQVVVfTGxHRF95UHF5?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 코파일럿 하나로 문서·분석·개발·영업까지…챗GPT·클로드와 정면 승부 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! [미국 특징주] MS \"코파일럿, 챗GPT·클로드보다 저렴\"…기업 AI시장 공략 가속 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "[AI 트렌드] 금천구, 누리집 ‘인공지능(AI) 다국어 자동 번역 서비스’ 개시 外",
-        "enTitle": "[AI 트렌드] 금천구, 누리집 ‘인공지능(AI) 다국어 자동 번역 서비스’ 개시 外",
-        "date": "2026-11-18",
-        "originalDate": "2026-11-17",
-        "sourceName": "베이비뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xMUdQdnV4ZVFxOC1pcDZZcnQ1cW9xeUZibzUxUTFOX0JMVkUzajROMjBLaHljYkJFRHBDT2NwMVFIWGJzenc2b2QtNkNpRkxZdmRWQ0NKR2FWdkdrN1pNMnZfNHVubnFaVXZ4Zg?oc=5",
+        "koTitle": "2027년도 경제 트렌드는 ‘1%’, ‘X’, ‘AI Free’",
+        "enTitle": "2027년도 경제 트렌드는 ‘1%’, ‘X’, ‘AI Free’",
+        "date": "2026-11-19",
+        "originalDate": "2026-11-19",
+        "sourceName": "세종의소리",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aZlhPdW1iUTZSaGYzTDd6WHVhWXNvRUlWdV9BX3A2ZjVGUGRzYVdPQzg5a1JqcWpWbUwtSFhSWGRUdFE0MTdJc1M4MHBkd01TZVAzQjBYYVRYR2VscTdwdGVObHZJSkk?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! [AI 트렌드] 금천구, 누리집 ‘인공지능(AI) 다국어 자동 번역 서비스’ 개시 外 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 2027년도 경제 트렌드는 ‘1%’, ‘X’, ‘AI Free’ 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "샵링커지앤씨, 리뷰레이 ‘일일이관’ 서비스 출시…AI 기반 리뷰 관리 기능 확대",
-        "enTitle": "샵링커지앤씨, 리뷰레이 ‘일일이관’ 서비스 출시…AI 기반 리뷰 관리 기능 확대",
-        "date": "2026-11-18",
-        "originalDate": "2026-11-18",
-        "sourceName": "테크월드",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14VHduM3RNeGVUR3JSMjl0d05QY1lQblFuMmExQTQ5blhsNGppQWFJcmhwcGpyeHJuT05SOUxUXzdtSmxnb1ZxRlVSVjNObFFPaXB2blNWRFl3eUM2c2d5bjNTRFhQczVm?oc=5",
+        "koTitle": "내달 '모두의AI' 출시 앞두고 '국민AI서비스혁신단' 본격 채비 - 머니투데이",
+        "enTitle": "내달 '모두의AI' 출시 앞두고 '국민AI서비스혁신단' 본격 채비 - 머니투데이",
+        "date": "2026-11-19",
+        "originalDate": "2026-11-19",
+        "sourceName": "머니투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DdE55MFVoYTF1eVg1Q0lmQVdmTlZzZzhyaUZnU09GaUlmbmhOVjJCWGlQS1g0NHpKNUxYQWI4cHdpd2tLazQ4Rl9NcXpZeTh4MTI1a3lOTEhpNXAzV21YcmlWbHVFX3A4Q2dacFFQeGJhMUVo0gF6QVVfeXFMTWx3M1FYcmRBa3IyVWZkV1BhTldwLUhjVzZWWk9QbkwzVU9zWHRzalN4NHdKcTNfRE5YQllvVmNGWk5meXUwc3ExR090eVpPNzV5TmFXNU1OWTJZWnJOSU5MQm9TbmJONzF1eUppbEFRUkRBXzI3WXhFWVE?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 샵링커지앤씨, 리뷰레이 ‘일일이관’ 서비스 출시…AI 기반 리뷰 관리 기능 확대 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 내달 '모두의AI' 출시 앞두고 '국민AI서비스혁신단' 본격 채비 - 머니투데이 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
