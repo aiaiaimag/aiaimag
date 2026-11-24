@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-11-23
+ * 최신 업데이트: 2026-11-24
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "일의 미래: AI x 커리어 믹서",
-        "enTitle": "The Future of Work: AI x Careers Mixer",
-        "date": "2026-11-23",
-        "originalDate": "2026-11-21",
-        "sourceName": "Superpower Daily",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdk5obkxlQ2JNRUF4R183ZDRwdDZLUnFYSGN6ZGIwRHFXSW9hQmJaWmpvLVB1ZWR5Y2o1aWpTZXdKc1Z0VkhQdC1ISEpJWTlaQkhodHJUdktQcHhmRjlBMHJBUEhCajBySUVtLTR0QVZTVW5Qc3RQOTYyZW41NGtURklJdE5jUWZiZndTQm9WdEdXeGJ6Mk8xTVI1VzVSTXBXT0NQS0dtVXRKNkJZUnc?oc=5",
+        "koTitle": "AI와 일의 미래: 전환기의 구인 시장 탐색",
+        "enTitle": "AI and the Future of Work: Navigating a Job Market in Transition",
+        "date": "2026-11-24",
+        "originalDate": "2026-11-23",
+        "sourceName": "orfonline.org",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZHVDNU5oM21WLWlrOGdCQmowMk5LbWVXMG5JTmhacG1rT0NMVE9ZQmtrQURyWm93c0lYOXJwRmctN054UDJsZ3g0X1N6bWJyTU1IOHNIcFM5WEJvQ1l3Q3RUREhOLVg2anNwcWhNM2NtR3BvZklqNmRPeG1nVFNvZlo3aVdLRFRQNGU4U3g2YzdpMjJkenlabWRtcw?oc=5",
         "isRepublished": false,
-        "viralRate": "91%",
-        "analysis": "글로벌 AI 트렌드 체크! 일의 미래: AI x 커리어 믹서 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! AI와 일의 미래: 전환기의 구인 시장 탐색 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "편집자의 노트: AI는 우리가 일하는 방식을 변화시키고 있지만, 여전히 사람은 중요합니다(업무의 미래)",
-        "enTitle": "Editor's Notebook: AI is transforming the way we work, but people still matter (Future of Work)",
-        "date": "2026-11-23",
-        "originalDate": "2026-11-20",
-        "sourceName": "The Business Journals",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX2pRUjhYV0U5VmVBMk9lZkJzWVBtcV96b2NRcW5jaDBLRWdoWHRCajE0eTBxVndHV0RQTFl4NUZ1RGxoTmJXckJYSmZwUXNQWjdlbzh1MDR0dmRMQ29IY3RrZjJ3eUJQYVJmUkYyS2c1QklaMGdESXp5UTNvV0tkamp3X1A0M0lxRnZMSXVEQmRuVHZyVmhV?oc=5",
+        "koTitle": "새로운 연구: 워싱턴주 청년층의 절반 미만이 미래의 일자리에 대한 준비가 되어 있다고 느낌",
+        "enTitle": "New Research: Fewer Than Half of Washington State's Young Adults Feel Prepared for the Future of Work",
+        "date": "2026-11-24",
+        "originalDate": "2026-11-23",
+        "sourceName": "01net",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORkVqTjVRNlhwRFR3OWdsVTBmdUUtYzZ2cjN2ZTMwQ2tIVnVEaVZyQ3F6c0pNQ0JUNndWX3p3SFp6MWcyOXVRSVBDVXpyYW5EeEwtTm5idWtmdjRpYi1GRnJMdXg5SnI5Z2J2MmlhdEtRRVVVWHhrT2xMUTNTOGVSNkt3eUJCS1hFYXhob2loc1VQa1V2WXBfWE85UEJwYzZ3R0NHSXhGWEZKdHdiX0JTeW0zM196RmRjbGo0c2hn?oc=5",
         "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 편집자의 노트: AI는 우리가 일하는 방식을 변화시키고 있지만, 여전히 사람은 중요합니다(업무의 미래) 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "96%",
+        "analysis": "글로벌 AI 트렌드 체크! 새로운 연구: 워싱턴주 청년층의 절반 미만이 미래의 일자리에 대한 준비가 되어 있다고 느낌 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "Anthropic은 어떻게 수익을 창출할까요? AI 비즈니스의 내부.",
-        "enTitle": "How does Anthropic make money? Inside the business of AI.",
-        "date": "2026-11-23",
-        "originalDate": "2026-11-19",
-        "sourceName": "Yahoo Finance",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZE5vcUdvQk40ZHhGMjJJYlN1ZmZrT3IxLVNlSFh4N0F3TkJlVXRsNk9Hd3d1Q215VFg5LVBJQjhpVGtMLVN2NEx6RVpFWW9BV295bF82WVRrS3VydlpLWnFuSDBQWHJSWnVVcjE1M05WTVR4bGNGTDlXenRuQTN3T0Y1YUhmVmZiTDg1aVpsT0JiMGtDMDNrUWhtUnFXcVNodl9uUU9XWEpvNFF4alN0MWRjZXhMR0ZXSnJNZ080Qlc1a2lPVnhROExDYw?oc=5",
+        "koTitle": "AI가 일자리를 변화시키고 있습니다. 대학은 어떻게 학생들을 미래에 대비하도록 준비시켜야 할까요?",
+        "enTitle": "AI Is Changing Jobs: How Should Universities Prepare Students for the Future?",
+        "date": "2026-11-24",
+        "originalDate": "2026-11-23",
+        "sourceName": "Shoolini University",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcjFZRUt4VUh5ODBoemx1UlU0eDVkdHRKdy1HQTI2ZlF6VHhDeWUzekcwY3ZEcFZCM05GVVcwVlBPalpvbmVqTVNvMW5oNHIydUd3MlJFVU4xZTR1eXptZkRiZUJLZEQwMUpfVEtfc3IwR0kxMEYxY2lrRk5Ed1ZkN0RzMC1RNjZyRTJvOGRDSVF2WlAxMERCU2ZwbVEwNlZSZlBrT2lzempaN2VKcEhFbzdB0gG6AUFVX3lxTE1uWjRKemNKYTVMcmZUNURLTGFfekJ3WGhzUklMc3U4d3o5ckdGbXB0c1liUnAwZFNqWGs2enJoOTBNeFlQdnA0Y29saTloNEp5bDFQUjg3NVhfMkIyeGpLdnMzbndWYlZtbmxOSWxMWl9KNmNBaWxocmlldjloMnpOaE9TU0RIdUE4Z0I3cUlZQ0kzRjdNU2wyNWs4Z3k5VFpJRmNsTjZDdkliNklrUGVPMWEtZmtDNmJ1dw?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! Anthropic은 어떻게 수익을 창출할까요? AI 비즈니스의 내부. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! AI가 일자리를 변화시키고 있습니다. 대학은 어떻게 학생들을 미래에 대비하도록 준비시켜야 할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "\"AI 메가트렌드 20년 간다\"…한투운용, 고수익 TDF 출시(종합)",
-        "enTitle": "\"AI 메가트렌드 20년 간다\"…한투운용, 고수익 TDF 출시(종합)",
-        "date": "2026-11-23",
-        "originalDate": "2026-11-23",
-        "sourceName": "연합인포맥스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WTmhCYTdpZDJlNnBmN0lDY3pHQ0NpUVJHZ19TVndUMEdjbVgtQ1YyamhyR0dtMnNNTzdIdEEzN0hWUFFEOFhiVEtZWU9FMmV2STA5TXlBRjl1NVlnNGJxTG5MYzdDX0VqaTVoVnF1LXM?oc=5",
+        "koTitle": "AI가 코드 검사하고 승인까지…앤트로픽, '클로드 쉽' 출시",
+        "enTitle": "AI가 코드 검사하고 승인까지…앤트로픽, '클로드 쉽' 출시",
+        "date": "2026-11-24",
+        "originalDate": "2026-11-24",
+        "sourceName": "지디넷코리아",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5haWwtOEU2R1dnWmtHZUxHV21WRjJMRldZbzEwUldIb0pnTFdvMHZkUUowc1R4WWhtbmhqY2NZRGFpSW0xc0QxX0I0MXF0ZV82S2dMYi1R?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! \"AI 메가트렌드 20년 간다\"…한투운용, 고수익 TDF 출시(종합) 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! AI가 코드 검사하고 승인까지…앤트로픽, '클로드 쉽' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "LS증권, 생성형 AI 연동 ‘LS커넥터’ 베타 서비스 출시",
-        "enTitle": "LS증권, 생성형 AI 연동 ‘LS커넥터’ 베타 서비스 출시",
-        "date": "2026-11-23",
-        "originalDate": "2026-11-23",
-        "sourceName": "인더스트리뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE50cGVpendwemxXWlBneDNjWXotM0djeTlkQTZYcmQ0cm9nM1l1Rlp0SmdVS08tVHpXVENQS0ZmbHo0YTFkMWVZRGpRdkFLSG9Gb0NpMkk0dGVoT2IzSHBaZ0tXUmNvbjJjay16c2lCN3VGQQ?oc=5",
+        "koTitle": "앤트로픽 '클로드 쉽' 베타 출시…코드 검토·승인 자동화",
+        "enTitle": "앤트로픽 '클로드 쉽' 베타 출시…코드 검토·승인 자동화",
+        "date": "2026-11-24",
+        "originalDate": "2026-11-24",
+        "sourceName": "디지털투데이",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1sZlFueW5TbWJISTNvcE1JTnRlck00QXA4NGRMRjU3LThaRzFhdlREeTEybThzN2xzSW5fMFg5VXVHMXkyNWtrLWxvNXZlTDJuQVlPRl95bmkwdWhFLUNSZkxxOUFSZEM0UHI3ZmlUZHJXX3c?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! LS증권, 생성형 AI 연동 ‘LS커넥터’ 베타 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽 '클로드 쉽' 베타 출시…코드 검토·승인 자동화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "AI 검색에 뉴스 원문 클릭률 최대 93% 낮아…언론사 수익 위협 논란 > 뉴스",
-        "enTitle": "AI 검색에 뉴스 원문 클릭률 최대 93% 낮아…언론사 수익 위협 논란 > 뉴스",
-        "date": "2026-11-23",
-        "originalDate": "2026-11-23",
-        "sourceName": "천안신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9BODg0bFpFeUJqcksweFBBSnhNMGxMRjFKRG90OHJHSlg1VEdQb2cxUWVHU1N6UmE2eGxvQWxucXZ3LXM?oc=5",
+        "koTitle": "NH투자증권, AI 로보어드바이저 서비스 출시",
+        "enTitle": "NH투자증권, AI 로보어드바이저 서비스 출시",
+        "date": "2026-11-24",
+        "originalDate": "2026-11-24",
+        "sourceName": "농민신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1WSkxuWXN6bEcxNDFJaGtVMGFQR3MzYlN4R0hmOEMtTXRrald4cnRwVThBd0tCemhUWUZPT3FsS04zZEp0Tjg1ZzhBTlhpQVVoQUpDTkYzNFo0Zw?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! AI 검색에 뉴스 원문 클릭률 최대 93% 낮아…언론사 수익 위협 논란 > 뉴스 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "99%",
+        "analysis": "2030을 위한 AI 실무 팁! NH투자증권, AI 로보어드바이저 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
