@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-11-24
+ * 최신 업데이트: 2026-11-25
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI와 일의 미래: 전환기의 구인 시장 탐색",
-        "enTitle": "AI and the Future of Work: Navigating a Job Market in Transition",
-        "date": "2026-11-24",
-        "originalDate": "2026-11-23",
-        "sourceName": "orfonline.org",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZHVDNU5oM21WLWlrOGdCQmowMk5LbWVXMG5JTmhacG1rT0NMVE9ZQmtrQURyWm93c0lYOXJwRmctN054UDJsZ3g0X1N6bWJyTU1IOHNIcFM5WEJvQ1l3Q3RUREhOLVg2anNwcWhNM2NtR3BvZklqNmRPeG1nVFNvZlo3aVdLRFRQNGU4U3g2YzdpMjJkenlabWRtcw?oc=5",
+        "koTitle": "DealBook 서밋 2026: AI 세계에서 성공하기 위한 도움 필요",
+        "enTitle": "DealBook Summit 2026: Help Wanted to Succeed in an A.I. World",
+        "date": "2026-11-25",
+        "originalDate": "2026-11-24",
+        "sourceName": "The New York Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQck1SekFuN2dDbm0xMHVzdzA0eUxxeUFHRDd1Nkk4SzJvejFhYUVLSVFjRzNMeW1WazhmNTZGckU2VnZOLWlTQk9ZeWNpU0tjZW1RVkt2MDE1a2x4TThTMHA2NVdqVEVFME95ck9VRXVObW8zYnk2WVdWY2xQTDM2cjhGY28?oc=5",
         "isRepublished": false,
         "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! AI와 일의 미래: 전환기의 구인 시장 탐색 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "analysis": "글로벌 AI 트렌드 체크! DealBook 서밋 2026: AI 세계에서 성공하기 위한 도움 필요 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "새로운 연구: 워싱턴주 청년층의 절반 미만이 미래의 일자리에 대한 준비가 되어 있다고 느낌",
-        "enTitle": "New Research: Fewer Than Half of Washington State's Young Adults Feel Prepared for the Future of Work",
-        "date": "2026-11-24",
-        "originalDate": "2026-11-23",
-        "sourceName": "01net",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORkVqTjVRNlhwRFR3OWdsVTBmdUUtYzZ2cjN2ZTMwQ2tIVnVEaVZyQ3F6c0pNQ0JUNndWX3p3SFp6MWcyOXVRSVBDVXpyYW5EeEwtTm5idWtmdjRpYi1GRnJMdXg5SnI5Z2J2MmlhdEtRRVVVWHhrT2xMUTNTOGVSNkt3eUJCS1hFYXhob2loc1VQa1V2WXBfWE85UEJwYzZ3R0NHSXhGWEZKdHdiX0JTeW0zM196RmRjbGo0c2hn?oc=5",
+        "koTitle": "AI와 원격 근무의 증가 속에서 직무 몰입도가 하락하고 있습니다.",
+        "enTitle": "Job engagement falls amid growth in AI and remote work",
+        "date": "2026-11-25",
+        "originalDate": "2026-11-24",
+        "sourceName": "Raconteur",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQTBOb0xQYzNxaTl1ZnpjWERRNUlhYmc3MUVzUFZFeHpHc1AyOVc3SEF1QmFzRmp2dnFjclQxWnNZVEV4UUVvTmRwWU1CUlVuZ3l2eHFmZEhhV1NwLVpnTUw1N29OXzg0QXVMMzVmWTdBUUtUenpSdkFYdHh2M3lPdWxLY1NTczNCX0FzckJ3NA?oc=5",
         "isRepublished": false,
-        "viralRate": "96%",
-        "analysis": "글로벌 AI 트렌드 체크! 새로운 연구: 워싱턴주 청년층의 절반 미만이 미래의 일자리에 대한 준비가 되어 있다고 느낌 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "93%",
+        "analysis": "글로벌 AI 트렌드 체크! AI와 원격 근무의 증가 속에서 직무 몰입도가 하락하고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI가 일자리를 변화시키고 있습니다. 대학은 어떻게 학생들을 미래에 대비하도록 준비시켜야 할까요?",
-        "enTitle": "AI Is Changing Jobs: How Should Universities Prepare Students for the Future?",
-        "date": "2026-11-24",
-        "originalDate": "2026-11-23",
-        "sourceName": "Shoolini University",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcjFZRUt4VUh5ODBoemx1UlU0eDVkdHRKdy1HQTI2ZlF6VHhDeWUzekcwY3ZEcFZCM05GVVcwVlBPalpvbmVqTVNvMW5oNHIydUd3MlJFVU4xZTR1eXptZkRiZUJLZEQwMUpfVEtfc3IwR0kxMEYxY2lrRk5Ed1ZkN0RzMC1RNjZyRTJvOGRDSVF2WlAxMERCU2ZwbVEwNlZSZlBrT2lzempaN2VKcEhFbzdB0gG6AUFVX3lxTE1uWjRKemNKYTVMcmZUNURLTGFfekJ3WGhzUklMc3U4d3o5ckdGbXB0c1liUnAwZFNqWGs2enJoOTBNeFlQdnA0Y29saTloNEp5bDFQUjg3NVhfMkIyeGpLdnMzbndWYlZtbmxOSWxMWl9KNmNBaWxocmlldjloMnpOaE9TU0RIdUE4Z0I3cUlZQ0kzRjdNU2wyNWs4Z3k5VFpJRmNsTjZDdkliNklrUGVPMWEtZmtDNmJ1dw?oc=5",
+        "koTitle": "AI는 인도에서 일자리를 어떻게 변화시킬까요? 위험에 처한 직무와 유망한 직무",
+        "enTitle": "How Will AI Change Jobs in India? The Roles at Risk & Those on the Rise",
+        "date": "2026-11-25",
+        "originalDate": "2026-11-24",
+        "sourceName": "Analytics India Magazine",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOR2FzRkZrRy1iTTNYMzZkSnhJZ2RCS3p5WlJPcDU4RTdyX1p3bkhYUnQ2NzdFZ2RDQ1BxS3VKV3Z3OUkyN3h4dndnLUdKWUtJSDFKQnJkZm53cUIwTFJ4VkVoR2g3Z3BrN3RINzAyNm01US1pSS1JQVhDMEY1V1pVNVVadEh4bHlxcVhFTmdEZzY0VkN1Xzk4ZUhTOGVySEM2LU5HYy1HYmRRTWdKM0s4UQ?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 일자리를 변화시키고 있습니다. 대학은 어떻게 학생들을 미래에 대비하도록 준비시켜야 할까요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! AI는 인도에서 일자리를 어떻게 변화시킬까요? 위험에 처한 직무와 유망한 직무 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "AI가 코드 검사하고 승인까지…앤트로픽, '클로드 쉽' 출시",
-        "enTitle": "AI가 코드 검사하고 승인까지…앤트로픽, '클로드 쉽' 출시",
-        "date": "2026-11-24",
+        "koTitle": "앤트로픽, ‘클로드 십’ 출시…코드 검토부터 수정·승인까지 자동화",
+        "enTitle": "앤트로픽, ‘클로드 십’ 출시…코드 검토부터 수정·승인까지 자동화",
+        "date": "2026-11-25",
         "originalDate": "2026-11-24",
-        "sourceName": "지디넷코리아",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5haWwtOEU2R1dnWmtHZUxHV21WRjJMRldZbzEwUldIb0pnTFdvMHZkUUowc1R4WWhtbmhqY2NZRGFpSW0xc0QxX0I0MXF0ZV82S2dMYi1R?oc=5",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zMEJ6LUZzbWp1N080MjBWVklpNW1ORG5CYktFaExlWE9McUY2T1lxMnJuY3FfMm5SZnhzUkwxTU1MU0FNa3ZveVI1el9Rb2NvZWJwblBZUG96bHY3a3VORW1rSUZJdkZzSlE?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! AI가 코드 검사하고 승인까지…앤트로픽, '클로드 쉽' 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, ‘클로드 십’ 출시…코드 검토부터 수정·승인까지 자동화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "앤트로픽 '클로드 쉽' 베타 출시…코드 검토·승인 자동화",
-        "enTitle": "앤트로픽 '클로드 쉽' 베타 출시…코드 검토·승인 자동화",
-        "date": "2026-11-24",
+        "koTitle": "Clay, Codex와 ChatGPT를 통해 영업팀의 성공을 돕습니다",
+        "enTitle": "Clay helps sales teams win with Codex and ChatGPT",
+        "date": "2026-11-25",
         "originalDate": "2026-11-24",
-        "sourceName": "디지털투데이",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1sZlFueW5TbWJISTNvcE1JTnRlck00QXA4NGRMRjU3LThaRzFhdlREeTEybThzN2xzSW5fMFg5VXVHMXkyNWtrLWxvNXZlTDJuQVlPRl95bmkwdWhFLUNSZkxxOUFSZEM0UHI3ZmlUZHJXX3c?oc=5",
+        "sourceName": "OpenAI",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBOcFZfQlBhUGJrSnJ6TzZZSUN0ZG94VU1ha2JWOVV5emlJOWNCRi15UkQxcDhsWDlndF9sM3RpZFRuc0IwblNNNTlhQkJSSy11VWxiNDZOMklHUmEyRWhBeE01N1hCVGxIaFRnR1JEaS1la1o1OFdsMU9ESQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽 '클로드 쉽' 베타 출시…코드 검토·승인 자동화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! Clay, Codex와 ChatGPT를 통해 영업팀의 성공을 돕습니다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "NH투자증권, AI 로보어드바이저 서비스 출시",
-        "enTitle": "NH투자증권, AI 로보어드바이저 서비스 출시",
-        "date": "2026-11-24",
-        "originalDate": "2026-11-24",
-        "sourceName": "농민신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1WSkxuWXN6bEcxNDFJaGtVMGFQR3MzYlN4R0hmOEMtTXRrald4cnRwVThBd0tCemhUWUZPT3FsS04zZEp0Tjg1ZzhBTlhpQVVoQUpDTkYzNFo0Zw?oc=5",
+        "koTitle": "바이브컴퍼니·아이지에이웍스, MCP 기반 소비 트렌드 분석…클로드 국내 결제액 13배 증가",
+        "enTitle": "바이브컴퍼니·아이지에이웍스, MCP 기반 소비 트렌드 분석…클로드 국내 결제액 13배 증가",
+        "date": "2026-11-25",
+        "originalDate": "2026-11-25",
+        "sourceName": "인공지능신문",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCUUFBUlpaTVl2WUtjRGd2NE1Tc3Vzb29hQVV1YVdyRFNUSzZnUXEyd0JIblpGWl9pT001ZzBBbklDa3R5dy1tTUZsdFJ4Q0kwZXpiNHNpU3pCNExOSTVWN3p6YzFvamM?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! NH투자증권, AI 로보어드바이저 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 바이브컴퍼니·아이지에이웍스, MCP 기반 소비 트렌드 분석…클로드 국내 결제액 13배 증가 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
