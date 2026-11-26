@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-11-25
+ * 최신 업데이트: 2026-11-26
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "DealBook 서밋 2026: AI 세계에서 성공하기 위한 도움 필요",
-        "enTitle": "DealBook Summit 2026: Help Wanted to Succeed in an A.I. World",
-        "date": "2026-11-25",
-        "originalDate": "2026-11-24",
-        "sourceName": "The New York Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQck1SekFuN2dDbm0xMHVzdzA0eUxxeUFHRDd1Nkk4SzJvejFhYUVLSVFjRzNMeW1WazhmNTZGckU2VnZOLWlTQk9ZeWNpU0tjZW1RVkt2MDE1a2x4TThTMHA2NVdqVEVFME95ck9VRXVObW8zYnk2WVdWY2xQTDM2cjhGY28?oc=5",
+        "koTitle": "AI가 첫 직장을 바꾸고 있습니다. 청년 고용이 모든 기업의 의제에 포함되어야 하는 이유",
+        "enTitle": "AI Is Changing the First Job: Why Youth Employment Belongs on Every Business Agenda",
+        "date": "2026-11-26",
+        "originalDate": "2026-11-25",
+        "sourceName": "SAP News Center",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWkZ0YV9EOUdsbVZyMnItbGRTMy02bGNlM2FxSm9zb3BDT0lWSnBUdWpuYzZlb1VTNUhuX2VwQUY2MUlZSjdLeXFEcmNOUFdyREE4c3lncXM4NEpReVEtZ2ZYQVN2SXZMeHNqektlLVBLbXVGYWh2aDd6SmhuMTZqeTZmd2duSFRQSHo5RA?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
-        "analysis": "글로벌 AI 트렌드 체크! DealBook 서밋 2026: AI 세계에서 성공하기 위한 도움 필요 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "99%",
+        "analysis": "글로벌 AI 트렌드 체크! AI가 첫 직장을 바꾸고 있습니다. 청년 고용이 모든 기업의 의제에 포함되어야 하는 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
-        "koTitle": "AI와 원격 근무의 증가 속에서 직무 몰입도가 하락하고 있습니다.",
-        "enTitle": "Job engagement falls amid growth in AI and remote work",
-        "date": "2026-11-25",
-        "originalDate": "2026-11-24",
-        "sourceName": "Raconteur",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQTBOb0xQYzNxaTl1ZnpjWERRNUlhYmc3MUVzUFZFeHpHc1AyOVc3SEF1QmFzRmp2dnFjclQxWnNZVEV4UUVvTmRwWU1CUlVuZ3l2eHFmZEhhV1NwLVpnTUw1N29OXzg0QXVMMzVmWTdBUUtUenpSdkFYdHh2M3lPdWxLY1NTczNCX0FzckJ3NA?oc=5",
+        "koTitle": "AI는 어디에나 있지만, 생산성 향상은 어디에 있나요?",
+        "enTitle": "AI Is Everywhere, but Where Are the Productivity Gains?",
+        "date": "2026-11-26",
+        "originalDate": "2026-11-25",
+        "sourceName": "HackerNoon",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMUJYNEJDc2tPMDRSR2hkdmpxT2tNeW9WOERtR01BN3poaVpfa2dha2xwZk95RkF4bGZsMTNkaGRHNXBhT2MwQTFPb2dqQzNZVnVuV09Fcy0yMUxNYndLV2s5RDQ5cF9jeW44cmFiZllyRFJ2VV96SXJzQ2k1eWQ0ZWFn?oc=5",
         "isRepublished": false,
-        "viralRate": "93%",
-        "analysis": "글로벌 AI 트렌드 체크! AI와 원격 근무의 증가 속에서 직무 몰입도가 하락하고 있습니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "viralRate": "97%",
+        "analysis": "글로벌 AI 트렌드 체크! AI는 어디에나 있지만, 생산성 향상은 어디에 있나요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     },
     {
         "rank": 3,
-        "koTitle": "AI는 인도에서 일자리를 어떻게 변화시킬까요? 위험에 처한 직무와 유망한 직무",
-        "enTitle": "How Will AI Change Jobs in India? The Roles at Risk & Those on the Rise",
-        "date": "2026-11-25",
-        "originalDate": "2026-11-24",
-        "sourceName": "Analytics India Magazine",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOR2FzRkZrRy1iTTNYMzZkSnhJZ2RCS3p5WlJPcDU4RTdyX1p3bkhYUnQ2NzdFZ2RDQ1BxS3VKV3Z3OUkyN3h4dndnLUdKWUtJSDFKQnJkZm53cUIwTFJ4VkVoR2g3Z3BrN3RINzAyNm01US1pSS1JQVhDMEY1V1pVNVVadEh4bHlxcVhFTmdEZzY0VkN1Xzk4ZUhTOGVySEM2LU5HYy1HYmRRTWdKM0s4UQ?oc=5",
+        "koTitle": "9시부터 5시까지의 근무 형태는 사라지고 있는가? 전문가가 경고하는 바에 따르면, AI가 UAE 근로자의 임금 지급 방식을 바꿀 수 있다고 합니다.",
+        "enTitle": "Is the 9-to-5 job dying? AI could change how UAE workers are paid, expert warns",
+        "date": "2026-11-26",
+        "originalDate": "2026-11-26",
+        "sourceName": "Khaleej Times",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNalBaZ0tEdW1qVmVlMWxfOWl2eXVSb2VUSzNUeXhZdTlHc0sxLVdZaVEzbUtjM1gtZXZDRmdjQ1BIOWhYb0pWYm5DQmx0X1U3VXdkWFg4NFdSMEpvazlmRTM1V0k1UmRHZDdfa2tLNXRHU1FwTXRlb1hmbUhORV9zNEdaSHFwcXlfb0FF0gGTAUFVX3lxTE4wblBEbkozdVQybDlKdjhOVENiMFhMaE9FVUJXaHRzdVQxLVFBVUJWWkNEZVVXd3FnRWNVbzlPNVhocTVwTjVZX21kT0dNNE1OQXdENGpzRERxRHpVV3h6Tl9ST2JEeHk4R1RSbWlYQ3BDMFZGTm1tU3FxaXVCQWp1NUZaTFQ0RmZxc29qM3N3R3lsWQ?oc=5",
         "isRepublished": false,
         "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! AI는 인도에서 일자리를 어떻게 변화시킬까요? 위험에 처한 직무와 유망한 직무 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+        "analysis": "글로벌 AI 트렌드 체크! 9시부터 5시까지의 근무 형태는 사라지고 있는가? 전문가가 경고하는 바에 따르면, AI가 UAE 근로자의 임금 지급 방식을 바꿀 수 있다고 합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "앤트로픽, ‘클로드 십’ 출시…코드 검토부터 수정·승인까지 자동화",
-        "enTitle": "앤트로픽, ‘클로드 십’ 출시…코드 검토부터 수정·승인까지 자동화",
-        "date": "2026-11-25",
-        "originalDate": "2026-11-24",
-        "sourceName": "AI타임스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zMEJ6LUZzbWp1N080MjBWVklpNW1ORG5CYktFaExlWE9McUY2T1lxMnJuY3FfMm5SZnhzUkwxTU1MU0FNa3ZveVI1el9Rb2NvZWJwblBZUG96bHY3a3VORW1rSUZJdkZzSlE?oc=5",
+        "koTitle": "바이브컴퍼니, 썸트렌드·모바일인덱스 MCP 결합 TREND CROSS 2026 발표",
+        "enTitle": "바이브컴퍼니, 썸트렌드·모바일인덱스 MCP 결합 TREND CROSS 2026 발표",
+        "date": "2026-11-26",
+        "originalDate": "2026-11-25",
+        "sourceName": "헬로티",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5lRzlTS2szOHM3Q3RJX2wyWHM1TjhqMHRLdk8zVzZaWGtMSzY4RUJBMGFnSmljNjg2b1VZNjRuT21NMTJZUl9yenJrQUVsbGMweEpoVVN2SHdCdlhaS0lr?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 앤트로픽, ‘클로드 십’ 출시…코드 검토부터 수정·승인까지 자동화 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 바이브컴퍼니, 썸트렌드·모바일인덱스 MCP 결합 TREND CROSS 2026 발표 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "Clay, Codex와 ChatGPT를 통해 영업팀의 성공을 돕습니다",
-        "enTitle": "Clay helps sales teams win with Codex and ChatGPT",
-        "date": "2026-11-25",
-        "originalDate": "2026-11-24",
-        "sourceName": "OpenAI",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBOcFZfQlBhUGJrSnJ6TzZZSUN0ZG94VU1ha2JWOVV5emlJOWNCRi15UkQxcDhsWDlndF9sM3RpZFRuc0IwblNNNTlhQkJSSy11VWxiNDZOMklHUmEyRWhBeE01N1hCVGxIaFRnR1JEaS1la1o1OFdsMU9ESQ?oc=5",
+        "koTitle": "일반 구독형 챗GPT·제미나이에 의료데이터 활용 못한다",
+        "enTitle": "일반 구독형 챗GPT·제미나이에 의료데이터 활용 못한다",
+        "date": "2026-11-26",
+        "originalDate": "2026-11-26",
+        "sourceName": "히트뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10NUpnUEpsSERRdW9lZ1N0N2lxbDg1MUR3VWh1Wk4tcGtLX0hhWkw2Yl9DUnpoalV6VXEyYkZGcGFvdl9sYUpJUVJYUUJKZ0trM2YxYWF5REFCVnBTMVFXczlqME9ReW51dkgw?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! Clay, Codex와 ChatGPT를 통해 영업팀의 성공을 돕습니다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 일반 구독형 챗GPT·제미나이에 의료데이터 활용 못한다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "바이브컴퍼니·아이지에이웍스, MCP 기반 소비 트렌드 분석…클로드 국내 결제액 13배 증가",
-        "enTitle": "바이브컴퍼니·아이지에이웍스, MCP 기반 소비 트렌드 분석…클로드 국내 결제액 13배 증가",
-        "date": "2026-11-25",
-        "originalDate": "2026-11-25",
-        "sourceName": "인공지능신문",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCUUFBUlpaTVl2WUtjRGd2NE1Tc3Vzb29hQVV1YVdyRFNUSzZnUXEyd0JIblpGWl9pT001ZzBBbklDa3R5dy1tTUZsdFJ4Q0kwZXpiNHNpU3pCNExOSTVWN3p6YzFvamM?oc=5",
+        "koTitle": "부동산플래닛, 대화형 지도 탐색·분석 서비스 출시",
+        "enTitle": "부동산플래닛, 대화형 지도 탐색·분석 서비스 출시",
+        "date": "2026-11-26",
+        "originalDate": "2026-11-26",
+        "sourceName": "연합뉴스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00VG94em40S2ZvbGc3MkxvN2NOT0p4MS1uWUI4ZkRmcm5WeVNNUVZXbC1HTzRoYjZzNGYtQ2M2UEQ5WFpNcVk2WG9lRnJDLW1KTllpZnRTVUo0NUXSAWBBVV95cUxNaklFYlpsaG11OXRTdXBlUkttS0hVR0xuVmVvcTRRVkw1dGhMcmVxY2dSaTJVY2dMdzZVajVSaV9FLTBmdjh3OVZkSWVaNW1TSHRZU0lMRGNYR1U1eURjNUs?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 바이브컴퍼니·아이지에이웍스, MCP 기반 소비 트렌드 분석…클로드 국내 결제액 13배 증가 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "98%",
+        "analysis": "2030을 위한 AI 실무 팁! 부동산플래닛, 대화형 지도 탐색·분석 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
