@@ -1,47 +1,47 @@
 /**
  * AI 이슈 큐레이터 - 데이터 매니저 (Brand & Influencer Edition)
  * 코다리 부장 & 뿌리 제작 🫡
- * 최신 업데이트: 2026-11-26
+ * 최신 업데이트: 2026-11-27
  */
 
 // ─── 📰 AI 핵심 이슈 TOP 3 ── 코다리 선별, 카드뉴스 터질 가능성 기준 ───
 const aiNewsData = [
     {
         "rank": 1,
-        "koTitle": "AI가 첫 직장을 바꾸고 있습니다. 청년 고용이 모든 기업의 의제에 포함되어야 하는 이유",
-        "enTitle": "AI Is Changing the First Job: Why Youth Employment Belongs on Every Business Agenda",
-        "date": "2026-11-26",
-        "originalDate": "2026-11-25",
-        "sourceName": "SAP News Center",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWkZ0YV9EOUdsbVZyMnItbGRTMy02bGNlM2FxSm9zb3BDT0lWSnBUdWpuYzZlb1VTNUhuX2VwQUY2MUlZSjdLeXFEcmNOUFdyREE4c3lncXM4NEpReVEtZ2ZYQVN2SXZMeHNqektlLVBLbXVGYWh2aDd6SmhuMTZqeTZmd2duSFRQSHo5RA?oc=5",
+        "koTitle": "AI와 커리어의 미래: 2030년을 위한 새로운 일자리 기회와 쌓아야 할 역량",
+        "enTitle": "AI and the Future of Careers: Emerging Job Opportunities and Skills to Build for 2030",
+        "date": "2026-11-27",
+        "originalDate": "2026-11-26",
+        "sourceName": "ETHRWorld.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSFhNNkFJWW1HZjhzMUJRcEx4QTNTQzBfa2RyNVlsOEViQnZmT0pDVUJFTENMNDRTaDltc2VnanpsSGdVTlhZMzdwaFdpZ1EtaF9OaUh6c0dNTmZKaWo0TnNFNDlKUUZjRDlONzc2X1BKMEdpNnh4RzB6cXp2YmNHMmNYbmVZa2dxVEwxZE9WTGJ4UjQyQ2VKbDNYSnd3aTdNcGkyaG92cUFBcFlDZ2lqeTA1b2huX2pwcjNOWkl4Y1R5cGEwWC1WZFh5RHVyWG1CUVRUQ0ZB0gHbAUFVX3lxTE5CWlV6NnlMbGFxN2d1RzRkRFVHSmdjSUVsTm5EQi1iYkJFZV9MbjVzelJPM04zSGlzbzhfQzBHMWpoTVQ3anM1eU9JeXRIVTJTRktfY0IzQmhpY09LRUJOZ0M1YUZOUUpSQ0FPczViY0hwUDEyQkZNUmxDbGVmN3VUUG1DU3doVXhGVWpTajZNWHo5Z0E5X2E4a1dVUk1kQ2xOSkhJWDc4ZGxsRkN0MENkMVJmWWpPOExvenJsODI0YUEyaHo2aks0bXJreEJJb0ZtS3lMY0xGejYxaw?oc=5",
         "isRepublished": false,
-        "viralRate": "99%",
-        "analysis": "글로벌 AI 트렌드 체크! AI가 첫 직장을 바꾸고 있습니다. 청년 고용이 모든 기업의 의제에 포함되어야 하는 이유 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
+        "viralRate": "98%",
+        "analysis": "글로벌 AI 트렌드 체크! AI와 커리어의 미래: 2030년을 위한 새로운 일자리 기회와 쌓아야 할 역량 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다.",
         "isTopPick": true
     },
     {
         "rank": 2,
+        "koTitle": "AI가 새로운 일자리 혁명을 일으킬 수 있을까요? | 수닐 마투르가 말하는 일의 미래",
+        "enTitle": "Can AI Create A New Jobs Revolution? | Sunil Mathur On The Future Of Work",
+        "date": "2026-11-27",
+        "originalDate": "2026-11-27",
+        "sourceName": "Business Today",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUWF4MXQzQm5mYnlOY0JEVzhmcWZGekllOS1IRnNrTHpMOEM2bGk4bE9kUVQwQ2hqLVB3emJsQldQQmtwTncyMmdSbll6RFJNbUZyTklmaDZUdWk4SWFyeTh2NlVidE92ZG5qSnlFamh5Y0FsRzFCNlFnYnl4c1U5NEIxTU9jOVIyYUU4dFE3T1Z0ZXY4ajBjQ0JMdFZVdXFWR29aSUY2TjZTcU8weXN4ZGRITGhheENBeUI1RlZJaEQwN0xtNF9FUGtzaVpsQ0M3M3ppWC1n0gHbAUFVX3lxTE1JbWJrSC1QaGhER29keDVGWWp0ZVE1YUljRFZYcjBGWkpZeE5FUFJyR3ZwdEgwWjdqWnJZVnR1TW1BdGtUNk9NZEdnYnNsU1VscDdCZEFhUkJackJtN1FTWUdGNXB4YThmUlQwT2EtekhRcUNRb0xMcHhXVUFHQlhqdlRZdDUydGI5bTZYam52dGVzcERkSzRkSTIxVm1NQzZkOHhwb1JKbW43VnNSalFCXzRHaWxiQnNkNHhOcVdwS2pvNERTOGVpNnBLNlQ4eWx0TWdJVlhVSzZlMA?oc=5",
+        "isRepublished": false,
+        "viralRate": "94%",
+        "analysis": "글로벌 AI 트렌드 체크! AI가 새로운 일자리 혁명을 일으킬 수 있을까요? | 수닐 마투르가 말하는 일의 미래 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
+    },
+    {
+        "rank": 3,
         "koTitle": "AI는 어디에나 있지만, 생산성 향상은 어디에 있나요?",
         "enTitle": "AI Is Everywhere, but Where Are the Productivity Gains?",
-        "date": "2026-11-26",
+        "date": "2026-11-27",
         "originalDate": "2026-11-25",
         "sourceName": "HackerNoon",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMUJYNEJDc2tPMDRSR2hkdmpxT2tNeW9WOERtR01BN3poaVpfa2dha2xwZk95RkF4bGZsMTNkaGRHNXBhT2MwQTFPb2dqQzNZVnVuV09Fcy0yMUxNYndLV2s5RDQ5cF9jeW44cmFiZllyRFJ2VV96SXJzQ2k1eWQ0ZWFn?oc=5",
         "isRepublished": false,
-        "viralRate": "97%",
+        "viralRate": "95%",
         "analysis": "글로벌 AI 트렌드 체크! AI는 어디에나 있지만, 생산성 향상은 어디에 있나요? 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
-    },
-    {
-        "rank": 3,
-        "koTitle": "9시부터 5시까지의 근무 형태는 사라지고 있는가? 전문가가 경고하는 바에 따르면, AI가 UAE 근로자의 임금 지급 방식을 바꿀 수 있다고 합니다.",
-        "enTitle": "Is the 9-to-5 job dying? AI could change how UAE workers are paid, expert warns",
-        "date": "2026-11-26",
-        "originalDate": "2026-11-26",
-        "sourceName": "Khaleej Times",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNalBaZ0tEdW1qVmVlMWxfOWl2eXVSb2VUSzNUeXhZdTlHc0sxLVdZaVEzbUtjM1gtZXZDRmdjQ1BIOWhYb0pWYm5DQmx0X1U3VXdkWFg4NFdSMEpvazlmRTM1V0k1UmRHZDdfa2tLNXRHU1FwTXRlb1hmbUhORV9zNEdaSHFwcXlfb0FF0gGTAUFVX3lxTE4wblBEbkozdVQybDlKdjhOVENiMFhMaE9FVUJXaHRzdVQxLVFBVUJWWkNEZVVXd3FnRWNVbzlPNVhocTVwTjVZX21kT0dNNE1OQXdENGpzRERxRHpVV3h6Tl9ST2JEeHk4R1RSbWlYQ3BDMFZGTm1tU3FxaXVCQWp1NUZaTFQ0RmZxc29qM3N3R3lsWQ?oc=5",
-        "isRepublished": false,
-        "viralRate": "92%",
-        "analysis": "글로벌 AI 트렌드 체크! 9시부터 5시까지의 근무 형태는 사라지고 있는가? 전문가가 경고하는 바에 따르면, AI가 UAE 근로자의 임금 지급 방식을 바꿀 수 있다고 합니다. 소식은 현재 북미권에서 화제입니다. 우리에게 어떤 기회가 될지 분석이 필요합니다."
     }
 ];
 
@@ -51,41 +51,41 @@ const aiNewsData = [
 const generalTrendingData = [
     {
         "rank": 1,
-        "koTitle": "바이브컴퍼니, 썸트렌드·모바일인덱스 MCP 결합 TREND CROSS 2026 발표",
-        "enTitle": "바이브컴퍼니, 썸트렌드·모바일인덱스 MCP 결합 TREND CROSS 2026 발표",
-        "date": "2026-11-26",
-        "originalDate": "2026-11-25",
-        "sourceName": "헬로티",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5lRzlTS2szOHM3Q3RJX2wyWHM1TjhqMHRLdk8zVzZaWGtMSzY4RUJBMGFnSmljNjg2b1VZNjRuT21NMTJZUl9yenJrQUVsbGMweEpoVVN2SHdCdlhaS0lr?oc=5",
+        "koTitle": "‘말로 신약 만드는 시대’?… 챗GPT·클로드, 바이오 영역까지 삼키나",
+        "enTitle": "‘말로 신약 만드는 시대’?… 챗GPT·클로드, 바이오 영역까지 삼키나",
+        "date": "2026-11-27",
+        "originalDate": "2026-11-26",
+        "sourceName": "조선일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOME1tVHd5ekszZ2dtNUE1MnRqVXBsbVlrY2NZZHgxWlRpNTlyT2RDYXdlMU8welpXek5aR3cxZFM1aTFiOVRPNGI4bGlTX1pXTzR4NDN6ZmVuc0NReFo0RGNRWTQ2UE1YUFlqcVJNNmxGSDlOZktnYUcxbW90Vjd5T2Q1VQ?oc=5",
         "isRepublished": false,
         "viralRate": "99%",
-        "analysis": "2030을 위한 AI 실무 팁! 바이브컴퍼니, 썸트렌드·모바일인덱스 MCP 결합 TREND CROSS 2026 발표 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! ‘말로 신약 만드는 시대’?… 챗GPT·클로드, 바이오 영역까지 삼키나 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Hot Issue"
     },
     {
         "rank": 2,
-        "koTitle": "일반 구독형 챗GPT·제미나이에 의료데이터 활용 못한다",
-        "enTitle": "일반 구독형 챗GPT·제미나이에 의료데이터 활용 못한다",
-        "date": "2026-11-26",
-        "originalDate": "2026-11-26",
-        "sourceName": "히트뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10NUpnUEpsSERRdW9lZ1N0N2lxbDg1MUR3VWh1Wk4tcGtLX0hhWkw2Yl9DUnpoalV6VXEyYkZGcGFvdl9sYUpJUVJYUUJKZ0trM2YxYWF5REFCVnBTMVFXczlqME9ReW51dkgw?oc=5",
+        "koTitle": "같은 정책도 AI마다 판단 제각각…GPT·클로드는 성과, 딥시크는 민주성 중시",
+        "enTitle": "같은 정책도 AI마다 판단 제각각…GPT·클로드는 성과, 딥시크는 민주성 중시",
+        "date": "2026-11-27",
+        "originalDate": "2026-11-27",
+        "sourceName": "AI타임스",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xemlXb0xfTWxxX2syWjdQY05ZajRiNjM3ZXdIMlhNd0xUZzFISFI2ZEVlMkdJckk0Mm5XQW96TFhwZnVwWG15ZzYtbnhvaWRTSjhyS3lId29CeVdRRmFXek1TY2V5ZUFsMWc?oc=5",
         "isRepublished": false,
         "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 일반 구독형 챗GPT·제미나이에 의료데이터 활용 못한다 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "analysis": "2030을 위한 AI 실무 팁! 같은 정책도 AI마다 판단 제각각…GPT·클로드는 성과, 딥시크는 민주성 중시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Life & Money"
     },
     {
         "rank": 3,
-        "koTitle": "부동산플래닛, 대화형 지도 탐색·분석 서비스 출시",
-        "enTitle": "부동산플래닛, 대화형 지도 탐색·분석 서비스 출시",
-        "date": "2026-11-26",
+        "koTitle": "네이버·카카오, AI 시대 ‘UGC 주도권’ 쟁탈전… 창작자 확보·수익 다각화 총력",
+        "enTitle": "네이버·카카오, AI 시대 ‘UGC 주도권’ 쟁탈전… 창작자 확보·수익 다각화 총력",
+        "date": "2026-11-27",
         "originalDate": "2026-11-26",
-        "sourceName": "연합뉴스",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00VG94em40S2ZvbGc3MkxvN2NOT0p4MS1uWUI4ZkRmcm5WeVNNUVZXbC1HTzRoYjZzNGYtQ2M2UEQ5WFpNcVk2WG9lRnJDLW1KTllpZnRTVUo0NUXSAWBBVV95cUxNaklFYlpsaG11OXRTdXBlUkttS0hVR0xuVmVvcTRRVkw1dGhMcmVxY2dSaTJVY2dMdzZVajVSaV9FLTBmdjh3OVZkSWVaNW1TSHRZU0lMRGNYR1U1eURjNUs?oc=5",
+        "sourceName": "조선일보",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTXlieTRCSWROcDdSRk4yakJXb1hHZE5VSERZR0dKTUpsb3JOYzE1aGJETHAzSEZKQ195c3ZoTHUzYVEtakVPeXg4M3QxRnE1allwbTBPb3JwZnNlVmotbk44MEdRYmVKNS1rbGMwVDhxczBLNkRhT0dOblo4Y2V3ckJpRQ?oc=5",
         "isRepublished": false,
-        "viralRate": "98%",
-        "analysis": "2030을 위한 AI 실무 팁! 부동산플래닛, 대화형 지도 탐색·분석 서비스 출시 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
+        "viralRate": "97%",
+        "analysis": "2030을 위한 AI 실무 팁! 네이버·카카오, AI 시대 ‘UGC 주도권’ 쟁탈전… 창작자 확보·수익 다각화 총력 관련 소식입니다. 이 기술을 어떻게 내 업무나 수익에 연결할지 고민해볼 시점입니다.",
         "category": "Tech & Service"
     }
 ];
